@@ -1,0 +1,25 @@
+@-webkit-keyframes focus {
+	0%   { filter: blur(10px); }
+	66%  { filter: blur(1px); }
+	83%  { filter: blur(5px); }
+	100% { filter: blur(0); }
+}
+
+@-webkit-keyframes armed {
+	0%   { border-color: #AAA; }
+	99%  { border-color: #AAA; }
+	100% { border-color: #52CC52; }
+}
+
+@-webkit-keyframes blink {
+	0%   { opacity: 1; }
+	49%  { opacity: 1; }
+	50%  { opacity: 0; }
+	99%  { opacity: 0; }
+}
+
+@-webkit-keyframes drain {
+	0%   { opacity: 1; }
+	99%  { opacity: 1; }
+	100% { opacity: 0; }
+}

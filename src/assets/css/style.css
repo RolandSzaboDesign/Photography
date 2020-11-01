@@ -1,0 +1,157 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	padding: 50px;
+	font-family: "Heebo", serif;
+	color: #DDD;
+	text-align: center;
+	background-color: #222;
+}
+
+.title {
+	margin-top: 50px;
+	font-size: 60px;
+	letter-spacing: -2.5px;
+	line-height: 1.2;
+}
+
+.contact {
+	margin-top: 20px;
+	font-size: 30px;
+	letter-spacing: -1px;
+}
+
+.contact__link {
+	color: #AAA;
+	text-decoration: none;
+	border-bottom: 1px solid #444;
+	transition: color .3s;
+}
+
+.contact__link:hover,
+.contact__link:focus {
+	color: #52CC52;
+}
+
+.logo {
+	order: -1;
+	position: relative;
+	padding: 40px;
+}
+
+.logo__image {
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	filter: blur(10px);
+	-webkit-animation: focus 2s .5s 1 forwards;
+	-moz-animation:    focus 2s .5s 1 forwards;
+	-o-animation:      focus 2s .5s 1 forwards;
+	animation:         focus 2s .5s 1 forwards;
+}
+
+.logo__rect {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border: 8px solid #AAA;
+	border-radius: 8px;
+	-webkit-animation: armed 2.3s 1 forwards;
+	-moz-animation:    armed 2.3s 1 forwards;
+	-o-animation:      armed 2.3s 1 forwards;
+	animation:         armed 2.3s 1 forwards;
+}
+
+.logo__rect--tl {
+	top: 0;
+	left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+.logo__rect--tr {
+	top: 0;
+	right: 0;
+	border-left: 0;
+	border-bottom: 0;
+}
+
+.logo__rect--bl {
+	bottom: 0;
+	left: 0;
+	border-top: 0;
+	border-right: 0;
+}
+
+.logo__rect--br {
+	bottom: 0;
+	right: 0;
+	border-top: 0;
+	border-left: 0;
+}
+
+.icon-battery {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 65px;
+	height: 40px;
+	text-align: left;
+}
+
+.icon-battery__body {
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	border: 5px solid #AAA;
+	border-radius: 5px;
+}
+
+.icon-battery__tip {
+	position: absolute;
+	top: 12px;
+	right: 0;
+	width: 10px;
+	height: 16px;
+	border-radius: 2px;
+	background-color: #AAA;
+}
+
+.icon-battery__bar {
+	position: absolute;
+	top: 10px;
+	width: 7px;
+	height: 20px;
+	border-radius: 2px;
+	background-color: #AAA;
+}
+
+.icon-battery__bar--1 { left: 10px; }
+.icon-battery__bar--2 { left: 21px; }
+.icon-battery__bar--3 { left: 32px; }
+.icon-battery__bar--4 { left: 43px; }
+
+.icon-battery__bar--4 {
+	-webkit-animation: drain 0s 4.5s 1 forwards;
+	-moz-animation:    drain 0s 4.5s 1 forwards;
+	-o-animation:      drain 0s 4.5s 1 forwards;
+	animation:         drain 0s 4.5s 1 forwards;
+}
+
+.icon-record {
+	position: absolute;
+	opacity: 0;
+	left: 40px;
+	bottom: 40px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: #52CC52;
+	-webkit-animation: blink 1s 2.3s infinite;
+	-moz-animation:    blink 1s 2.3s infinite;
+	-o-animation:      blink 1s 2.3s infinite;
+	animation:         blink 1s 2.3s infinite;
+}
