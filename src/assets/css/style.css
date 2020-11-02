@@ -19,21 +19,36 @@ body {
 }
 
 .contact {
-	margin-top: 20px;
-	font-size: 30px;
-	letter-spacing: -1px;
+	margin-top: 30px;
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.contact__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contact__item {
+	margin: 10px;
 }
 
 .contact__link {
-	color: #AAA;
+	display: inline-block;
+	padding: 15px 20px;
+	color: #BBB;
 	text-decoration: none;
-	border-bottom: 1px solid #444;
-	transition: color .3s;
+	border-radius: 6px;
+	background-color: #333;
+	transition: color .3s, background-color .3s;
 }
 
 .contact__link:hover,
 .contact__link:focus {
-	color: #52CC52;
+	color: #333;
+	background-color: #52CC52;
 }
 
 .logo {
