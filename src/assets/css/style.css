@@ -1,14 +1,66 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
+	font-family: "Heebo", sans-serif;
+	color: #AAA;
+	background-color: #222;
+}
+
+.section {
+	min-height: 100vh;
+	padding: 100px;
+}
+
+.section__title {
+	margin-bottom: 60px;
+	font-size: 50px;
+	color: #DDD;
+	letter-spacing: -2px;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 50px;
+}
+
+p {
+	margin-bottom: 30px;
+	font-size: 24px;
+	line-height: 1.75;
+}
+
+a {
+	color: #52CC52;
+	text-decoration: none;
+	border-bottom: 1px solid #444;
+	transition: color .3s, border-color .3s;
+}
+
+a:hover,
+a:focus {
+	color: #FFF;
+	border-bottom-color: #52CC52;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+/* Welcome */
+
+.section--welcome {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	padding: 50px;
-	font-family: "Heebo", sans-serif;
-	color: #DDD;
 	text-align: center;
-	background-color: #222;
 }
 
 .title {
@@ -18,35 +70,36 @@ body {
 	line-height: 1.2;
 }
 
-.contact {
+.nav {
 	margin-top: 30px;
 	font-size: 24px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
-.contact__list {
+.nav__list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.contact__item {
+.nav__item {
 	margin: 10px;
 }
 
-.contact__link {
+.nav__link {
 	display: inline-block;
 	padding: 15px 20px;
 	color: #BBB;
 	text-decoration: none;
 	border-radius: 6px;
+	border: 0;
 	background-color: #333;
 	transition: color .3s, background-color .3s;
 }
 
-.contact__link:hover,
-.contact__link:focus {
+.nav__link:hover,
+.nav__link:focus {
 	color: #333;
 	background-color: #52CC52;
 }
@@ -169,4 +222,51 @@ body {
 	-moz-animation:    blink 1s 2.3s infinite;
 	-o-animation:      blink 1s 2.3s infinite;
 	animation:         blink 1s 2.3s infinite;
+}
+
+
+
+
+
+/* About */
+
+.section--about {
+	background-color: #1D1D1D;
+}
+
+.grid--about {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+
+/* Photos */
+
+.section--photos {
+	background-color: #222;
+}
+
+.grid--photos {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.photo {
+	border: 10px solid #CCC;
+	box-shadow: 0 10px 25px 0 rgba(0,0,0,.25);
+}
+
+
+
+
+
+/* Contact */
+
+.section--contact {
+	background-color: #1D1D1D;
+}
+
+.grid--contact {
+	grid-template-columns: repeat(2, 1fr);
 }

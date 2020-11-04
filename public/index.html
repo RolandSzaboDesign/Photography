@@ -14,35 +14,65 @@
 		<link rel="stylesheet" href="/assets/css/mobile.css">
 	</head>
 	<body>
-		<h1 class="title">Roland Szabó Photography</h1>
-		<nav class="contact">
-			<ul class="contact__list">
-				<li class="contact__item">
-					<a class="contact__link" href="https://instagram.com/szabokaphoto/" target="_blank" rel="noopener noreferrer" title="Visit my Instagram profile">Instagram</a>
-				</li>
-				<li class="contact__item">
-					<a class="contact__link" href="mailto:hi@rolandszabo.photo" target="_blank" rel="noopener noreferrer" title="Send me an email">Email</a>
-				</li>
-			</ul>
-		</nav>
+		<header class="section section--welcome">
+			<h1 class="title">Roland Szabó Photography</h1>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+					<li class="nav__item"><a class="nav__link" href="#photos">Photos</a></li>
+					<li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="logo">
+				<img class="logo__image" src="/assets/images/roland.png" alt="">
+				<span class="logo__rect logo__rect--tl"></span>
+				<span class="logo__rect logo__rect--tr"></span>
+				<span class="logo__rect logo__rect--bl"></span>
+				<span class="logo__rect logo__rect--br"></span>
+			</div>
+			<span class="icon-battery">
+				<span class="icon-battery__body"></span>
+				<span class="icon-battery__tip"></span>
+				<span class="icon-battery__bar icon-battery__bar--1"></span>
+				<span class="icon-battery__bar icon-battery__bar--2"></span>
+				<span class="icon-battery__bar icon-battery__bar--3"></span>
+				<span class="icon-battery__bar icon-battery__bar--4"></span>
+			</span>
+			<span class="icon-record"></span>
+		</header>
 
-		<div class="logo">
-			<img class="logo__image" src="/assets/images/roland.png" alt="">
-			<span class="logo__rect logo__rect--tl"></span>
-			<span class="logo__rect logo__rect--tr"></span>
-			<span class="logo__rect logo__rect--bl"></span>
-			<span class="logo__rect logo__rect--br"></span>
-		</div>
+		<section class="section section--about" id="about">
+			<h2 class="section__title">About</h2>
+			<div class="grid grid--about">
+				<article>
+					<p>My name is Roland, and I'm an amateur photographer based in Budapest. I love cars and photography, so I like to combine the two and do car photography for fun.</p>
+					<p>Ever since I was a kid, I've been in love with cars, and through the years I took lots of carspotting photos with my phone. Shortly after buying my first digital camera, I met a friend who would let me photograph his very exclusive car in a controlled environment. That was the moment when I started seriously studying and practicing car photography.</p>
+					<p>I shoot with a Sony a6000 with the 28-70 mm kit lens. It's fairly basic gear, but they're trusty companions to work with. I also have a few bits of equipment to ensure good image quality.</p>
+				</article>
+			</div>
+		</section>
 
-		<span class="icon-battery">
-			<span class="icon-battery__body"></span>
-			<span class="icon-battery__tip"></span>
-			<span class="icon-battery__bar icon-battery__bar--1"></span>
-			<span class="icon-battery__bar icon-battery__bar--2"></span>
-			<span class="icon-battery__bar icon-battery__bar--3"></span>
-			<span class="icon-battery__bar icon-battery__bar--4"></span>
-		</span>
+		<section class="section section--photos" id="photos">
+			<h2 class="section__title">Photos</h2>
+			<div class="grid grid--photos">
+				<img class="photo" src="/assets/images/photos/01.jpg" alt="Photo of a Porsche 911 (992) Turbo S">
+				<img class="photo" src="/assets/images/photos/02.jpg" alt="Photo of a Mercedes-Benz AMG G63">
+				<img class="photo" src="/assets/images/photos/03.jpg" alt="Photo of a BMW M4 Competition">
+				<img class="photo" src="/assets/images/photos/04.jpg" alt="Photo of a Renault 4 GTL">
+				<img class="photo" src="/assets/images/photos/05.jpg" alt="Photo of an Audi ABT RS5-R Coupé">
+				<img class="photo" src="/assets/images/photos/06.jpg" alt="Photo of an Audi ABT RS5-R Coupé">
+			</div>
+		</section>
 
-		<span class="icon-record"></span>
+		<section class="section section--contact" id="contact">
+			<h2 class="section__title">Contact</h2>
+			<div class="grid grid--contact">
+				<article>
+					<p>I am currently looking for opportunities to shoot cars for fun.</p>
+					<p>Need some photos of your ride? <a href="mailto:hi@rolandszabo.photo" target="_blank" rel="noopener noreferrer" title="Send me an Email">Send me an Email</a> or <a href="https://www.instagram.com/szabokaphoto/" target="_blank" rel="noopener noreferrer" title="DM me on Instagram">DM me on Instagram</a>.</p>
+					<p>Alternatively, if you're ever roaming the streets of Budapest and see a guy with a camera next to a car in the weirdest positions, there's a fairly good chance you've just found me. Don't forget to say hi!</p>
+				</article>
+			</div>
+		</section>
 	</body>
 </html>
