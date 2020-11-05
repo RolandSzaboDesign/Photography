@@ -1,3 +1,8 @@
+*v1.3.0*
+2020.11.05.
+- Added photo of myself
+- Typography update
+
 *v1.2.0*
 2020.11.04.
 - About, Photos and Contact sections added

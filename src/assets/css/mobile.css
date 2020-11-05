@@ -1,3 +1,11 @@
+@media only screen and (max-width: 1400px) {
+	.about-photo {
+		-webkit-transform: none;
+		-ms-transform:     none;
+		transform:         none;
+	}
+}
+
 @media only screen and (max-width: 1200px) {
 	.grid--about,
 	.grid--contact {
