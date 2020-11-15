@@ -258,8 +258,8 @@ img {
 	text-align: center;
 	background-color: #292929;
 	-webkit-transform: rotate(4deg);
-    -ms-transform:     rotate(4deg);
-    transform:         rotate(4deg);
+	-ms-transform:     rotate(4deg);
+	transform:         rotate(4deg);
 }
 
 .about-photo__caption {

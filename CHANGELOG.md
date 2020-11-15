@@ -1,3 +1,7 @@
+*v1.3.1*
+2020.11.16.
+- Updated photos
+
 *v1.3.0*
 2020.11.05.
 - Added photo of myself
