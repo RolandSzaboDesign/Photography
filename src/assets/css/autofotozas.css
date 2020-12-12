@@ -1,12 +1,24 @@
 /* Autófotózás */
 
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+.section {
+	min-height: auto;
+}
+
+.section__title {
+	margin-bottom: 40px;
+}
+
 .title {
 	margin-bottom: 20px;
 	padding-bottom: 16px;
-	font-size: 80px;
+	font-size: 100px;
 	font-weight: 100;
 	color: #CCC;
-	letter-spacing: -4px;
+	letter-spacing: -7px;
 	line-height: 1;
 	border-bottom: 1px solid #333;
 }
@@ -14,4 +26,21 @@
 .subtitle {
 	font-size: 24px;
 	text-transform: uppercase;
+}
+
+.intro {
+	max-width: 960px;
+}
+
+.grid--recent {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.photo {
+	border: 10px solid #CCC;
+	box-shadow: 0 10px 25px 0 rgba(0,0,0,.25);
+}
+
+.photo--half {
+	grid-column: span 2;
 }
