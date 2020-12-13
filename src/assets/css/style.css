@@ -53,10 +53,17 @@ img {
 
 .section__title {
 	margin-bottom: 60px;
-	font-weight: 100;
 	font-size: 50px;
 	color: #DDD;
 	letter-spacing: -2px;
+}
+
+.section__subtitle {
+	margin-bottom: 30px;
+	font-weight: 600;
+	font-size: 34px;
+	color: #BBB;
+	letter-spacing: -1.5px;
 }
 
 .grid {
@@ -137,6 +144,41 @@ a:focus {
 
 
 
+/* My Photo */
+
+.my-photo-container {
+	text-align: center;
+}
+
+.my-photo {
+	display: inline-block;
+	padding: 15px;
+	text-align: center;
+	background-color: #292929;
+	-webkit-transform: rotate(4deg);
+	-ms-transform:     rotate(4deg);
+	transform:         rotate(4deg);
+}
+
+.my-photo__caption {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	letter-spacing: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+	.my-photo {
+		-webkit-transform: none;
+		-ms-transform:     none;
+		transform:         none;
+	}
+}
+
+
+
+
+
 /* Media Queries */
 
 @media only screen and (max-width: 800px) {
@@ -150,7 +192,8 @@ a:focus {
 		padding: 50px 30px;
 	}
 
-	p {
+	p,
+	li {
 		font-size: 20px;
 		line-height: 1.6;
 	}
