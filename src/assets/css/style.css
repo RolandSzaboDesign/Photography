@@ -1,5 +1,5 @@
 /*
-	Roland Szabó Photography Website
+	Roland Szabó Photography
 	https://rolandszabo.photo
 */
 
@@ -35,10 +35,10 @@ html {
 body {
 	font-family: "Heebo", sans-serif;
 	font-weight: 300;
-	color: #888;
+	color: #777;
 	letter-spacing: -.5px;
 	line-height: 1.25;
-	background-color: #222;
+	background-color: #EEE;
 }
 
 img {
@@ -47,7 +47,6 @@ img {
 }
 
 .section {
-	min-height: 100vh;
 	padding: 100px;
 }
 
@@ -78,21 +77,21 @@ li {
 
 strong {
 	font-weight: 600;
-	color: #AAA;
+	color: #555;
 }
 
 a {
-	color: #52CC52;
+	color: #E54545;
 	line-height: 1;
 	text-decoration: none;
-	border-bottom: 1px solid #444;
+	border-bottom: 1px solid #BBB;
 	transition: color .3s, border-color .3s;
 }
 
 a:hover,
 a:focus {
 	color: #FFF;
-	border-bottom-color: #52CC52;
+	border-bottom-color: #E54545;
 }
 
 
