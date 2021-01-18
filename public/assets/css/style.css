@@ -58,19 +58,6 @@ img {
 	letter-spacing: -2px;
 }
 
-.section__subtitle {
-	margin-bottom: 30px;
-	font-weight: 600;
-	font-size: 34px;
-	color: #BBB;
-	letter-spacing: -1.5px;
-}
-
-.grid {
-	display: grid;
-	grid-gap: 50px;
-}
-
 
 
 
@@ -106,73 +93,6 @@ a:hover,
 a:focus {
 	color: #FFF;
 	border-bottom-color: #52CC52;
-}
-
-
-
-
-
-/* Animations */
-
-@-webkit-keyframes focus {
-	0%   { filter: blur(10px); }
-	66%  { filter: blur(1px); }
-	83%  { filter: blur(5px); }
-	100% { filter: blur(0); }
-}
-
-@-webkit-keyframes armed {
-	0%   { border-color: #AAA; }
-	99%  { border-color: #AAA; }
-	100% { border-color: #52CC52; }
-}
-
-@-webkit-keyframes blink {
-	0%   { opacity: 1; }
-	49%  { opacity: 1; }
-	50%  { opacity: 0; }
-	99%  { opacity: 0; }
-}
-
-@-webkit-keyframes drain {
-	0%   { opacity: 1; }
-	99%  { opacity: 1; }
-	100% { opacity: 0; }
-}
-
-
-
-
-
-/* My Photo */
-
-.my-photo-container {
-	text-align: center;
-}
-
-.my-photo {
-	display: inline-block;
-	padding: 15px;
-	text-align: center;
-	background-color: #292929;
-	-webkit-transform: rotate(4deg);
-	-ms-transform:     rotate(4deg);
-	transform:         rotate(4deg);
-}
-
-.my-photo__caption {
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-weight: 700;
-	letter-spacing: 0;
-}
-
-@media only screen and (max-width: 1400px) {
-	.my-photo {
-		-webkit-transform: none;
-		-ms-transform:     none;
-		transform:         none;
-	}
 }
 
 
