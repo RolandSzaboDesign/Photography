@@ -21,6 +21,16 @@ html { box-sizing: border-box; }
 
 
 
+/* Variables */
+
+:root {
+	--sans: "Oxygen", sans-serif;
+	--serif: "Playfair Display", serif;
+}
+
+
+
+
 
 /* Base */
 
@@ -33,7 +43,7 @@ html {
 }
 
 body {
-	font-family: "Heebo", sans-serif;
+	font-family: var(--sans);
 	font-weight: 300;
 	color: #777;
 	letter-spacing: -.5px;
@@ -52,8 +62,9 @@ img {
 
 .section__title {
 	margin-bottom: 60px;
+	font-family: var(--serif);
 	font-size: 50px;
-	color: #DDD;
+	color: #444;
 	letter-spacing: -2px;
 }
 
@@ -92,6 +103,15 @@ a:hover,
 a:focus {
 	color: #FFF;
 	border-bottom-color: #E54545;
+}
+
+.title {
+	margin-bottom: 25px;
+	font-family: var(--serif);
+	font-size: 100px;
+	color: #444;
+	letter-spacing: -4px;
+	line-height: 1;
 }
 
 
