@@ -56,18 +56,6 @@ img {
 	height: auto;
 }
 
-.section {
-	padding: 100px;
-}
-
-.section__title {
-	margin-bottom: 60px;
-	font-family: var(--serif);
-	font-size: 50px;
-	color: #444;
-	letter-spacing: -2px;
-}
-
 
 
 
@@ -91,6 +79,11 @@ strong {
 	color: #555;
 }
 
+dfn {
+	cursor: help;
+	border-bottom: 1px dotted #AAA;
+}
+
 a {
 	color: #E54545;
 	line-height: 1;
@@ -101,17 +94,35 @@ a {
 
 a:hover,
 a:focus {
-	color: #FFF;
+	color: #333;
 	border-bottom-color: #E54545;
 }
 
-.title {
+
+
+
+
+/* Content Sections */
+
+.site-title {
 	margin-bottom: 25px;
 	font-family: var(--serif);
 	font-size: 100px;
 	color: #444;
 	letter-spacing: -4px;
 	line-height: 1;
+}
+
+.section {
+	padding: 100px;
+}
+
+.section__title {
+	margin-bottom: 60px;
+	font-family: var(--serif);
+	font-size: 50px;
+	color: #444;
+	letter-spacing: -2px;
 }
 
 
@@ -122,12 +133,14 @@ a:focus {
 
 .faq {
 	margin-bottom: 2rem;
-	background: #FFF;
+	background-color: #FFF;
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,.0675);
 }
 
 .faq__question {
 	padding: 1.5rem;
-	font-weight: bold;
+	font-family: var(--serif);
+	font-weight: 600;
 	font-size: 1.75rem;
 	color: #555;
 	line-height: 1.25;
@@ -164,7 +177,39 @@ a:focus {
 
 @media only screen and (max-width: 800px) {
 	.section {
-		padding: 75px 50px;
+		padding: 50px;
+	}
+
+	.site-title {
+		margin-bottom: 15px;
+		font-size: 75px;
+		letter-spacing: -3px;
+	}
+
+	.section__title {
+		margin-bottom: 40px;
+		font-size: 40px;
+		letter-spacing: -1.5px;
+	}
+
+	p,
+	li {
+		font-size: 20px;
+		line-height: 1.6;
+	}
+
+	p {
+		margin-bottom: 20px;
+	}
+
+	.faq__question {
+		font-size: 1.5rem;
+		letter-spacing: -.4px;
+	}
+
+	.faq__answer {
+		margin: 0 3rem;
+		padding: 1.5rem 0;
 	}
 }
 
@@ -173,9 +218,54 @@ a:focus {
 		padding: 50px 30px;
 	}
 
-	p,
-	li {
-		font-size: 20px;
-		line-height: 1.6;
+	.site-title {
+		margin-bottom: 10px;
+		font-size: 50px;
+		letter-spacing: -2px;
+	}
+
+	.section__title {
+		margin-bottom: 30px;
+		font-size: 30px;
+		letter-spacing: -1px;
+	}
+
+	.faq {
+		margin-bottom: 1.25rem;
+	}
+
+	.faq__question {
+		font-size: 1.25rem;
+		letter-spacing: -.3px;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.section {
+		padding: 40px 20px;
+	}
+
+	.section__title {
+		margin-bottom: 20px;
+		font-size: 25px;
+	}
+
+	.faq {
+		margin-bottom: 1rem;
+	}
+
+	.faq__question {
+		padding: 1.25rem;
+		font-size: 1rem;
+		letter-spacing: -.15px;
+	}
+
+	.faq__answer {
+		margin: 0 1.25rem;
+		padding: 1.25rem 0;
+	}
+
+	p, li {
+		font-size: 16px;
 	}
 }
