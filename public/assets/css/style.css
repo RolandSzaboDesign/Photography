@@ -129,6 +129,34 @@ a:focus {
 
 
 
+/* Photo Frames */
+
+.photos {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 25px;
+	margin: 40px 0 50px;
+}
+
+figure {
+	padding: 1rem;
+	text-align: center;
+	background-color: #FFF;
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,.0675);
+}
+
+figure img {
+	display: block;
+}
+
+figcaption {
+	padding-top: 1rem;
+}
+
+
+
+
+
 /* Frequently Asked Questions */
 
 .faq {
@@ -174,6 +202,16 @@ a:focus {
 
 
 /* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+	.photos {
+		display: block;
+	}
+
+	figure {
+		margin-bottom: 30px;
+	}
+}
 
 @media only screen and (max-width: 800px) {
 	.section {
