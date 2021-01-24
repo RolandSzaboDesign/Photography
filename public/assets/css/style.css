@@ -101,7 +101,6 @@ a:focus {
 
 
 
-
 /* Content Sections */
 
 .site-title {
@@ -114,7 +113,7 @@ a:focus {
 }
 
 .section {
-	padding: 100px;
+	padding: 75px 100px;
 }
 
 .section__title {
@@ -129,13 +128,51 @@ a:focus {
 
 
 
+/* Welcome Section */
+
+.site-title {
+	margin-bottom: 25px;
+	font-family: var(--serif);
+	font-size: 100px;
+	color: #444;
+	letter-spacing: -4px;
+	line-height: 1;
+}
+
+.site-tagline {
+	display: flex;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.site-tagline__image {
+	width: 90px;
+	height: 90px;
+	margin-right: 1rem;
+	border-radius: 100px;
+	border: 3px solid #FFF;
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,.125);
+}
+
+.site-tagline__text {
+	font-weight: 400;
+}
+
+.site-tagline__text.section__title {
+	margin-bottom: 0;
+}
+
+
+
+
+
 /* Photo Frames */
 
 .photos {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 25px;
-	margin: 40px 0 50px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 75px;
+	margin: 50px 0 75px;
 }
 
 figure {
@@ -269,6 +306,15 @@ figcaption {
 		letter-spacing: -1px;
 	}
 
+	.site-tagline {
+		margin-bottom: 40px;
+	}
+
+	.site-tagline__image {
+		width: 60px;
+		height: 60px;
+	}
+
 	.faq {
 		margin-bottom: 1.25rem;
 	}
@@ -276,6 +322,10 @@ figcaption {
 	.faq__question {
 		font-size: 1.25rem;
 		letter-spacing: -.3px;
+	}
+
+	figure {
+		margin-bottom: 20px;
 	}
 }
 
@@ -287,6 +337,10 @@ figcaption {
 	.section__title {
 		margin-bottom: 20px;
 		font-size: 25px;
+	}
+
+	.site-tagline {
+		margin-bottom: 30px;
 	}
 
 	.faq {
