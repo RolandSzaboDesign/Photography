@@ -166,6 +166,7 @@ figcaption {
 }
 
 .faq__question {
+	cursor: pointer;
 	padding: 1.5rem;
 	font-family: var(--serif);
 	font-weight: 600;
