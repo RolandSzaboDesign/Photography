@@ -137,11 +137,9 @@ body {
 
 .main {
 	display: flex;
-	align-items: center;
 	overflow-y: auto;
 	height: 100%;
 	max-height: 100vh;
-	padding-right: 1rem;
 }
 
 
@@ -156,6 +154,12 @@ body {
 	font-size: 2.25rem;
 	color: var(--text-dark);
 	letter-spacing: -2px;
+	text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+	color: var(--text);
 }
 
 .menu {
@@ -211,6 +215,7 @@ body {
 }
 
 .photo {
+	margin-bottom: 2rem;
 	padding: 1rem;
 	background-color: #FFF;
 }
