@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Home &mdash; Roland Szabó Photography</title>
+		<title>{{ title }} &mdash; Roland Szabó Photography</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -25,33 +25,7 @@
 		<!--[if IE]> <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> <![endif]-->
 	</head>
 	<body>
-		<header class="header">
-	<a class="logo" href="/" title="Go back to the Homepage">Roland Szabó Photography</a>
-	<nav>
-		<ul class="menu">
-			<li class="menu__item"><a class="menu__link " href="/automotive">Automotive</a></li>
-			<li class="menu__item"><a class="menu__link " href="/landscapes">Landscapes</a></li>
-			<li class="menu__item"><a class="menu__link " href="/street">Street</a></li>
-			<li class="menu__item"><a class="menu__link " href="/miscellaneous">Miscellaneous</a></li>
-		</ul>
-	</nav>
-	<nav>
-		<ul class="menu">
-			<li class="menu__item"><a class="menu__link " href="/about">About</a></li>
-			<li class="menu__item"><a class="menu__link " href="/contact">Contact</a></li>
-		</ul>
-	</nav>
-</header>
-
-		<main class="main">
-	<article>
-		
-
-		
-<img src="/assets/images/roland-szabo.jpg" alt="Roland Szabó">
-
-	</article>
-</main>
-
+		{% include header.html %}
+		{% include main.html %}
 	</body>
 </html>

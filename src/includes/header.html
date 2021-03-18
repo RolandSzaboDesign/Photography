@@ -1,0 +1,17 @@
+<header class="header">
+	<a class="logo" href="/" title="Go back to the Homepage">Roland Szabó Photography</a>
+	<nav>
+		<ul class="menu">
+			<li class="menu__item"><a class="menu__link {% if page.url == '/automotive/' %} menu__link--active {% endif %}" href="/automotive">Automotive</a></li>
+			<li class="menu__item"><a class="menu__link {% if page.url == '/landscapes/' %} menu__link--active {% endif %}" href="/landscapes">Landscapes</a></li>
+			<li class="menu__item"><a class="menu__link {% if page.url == '/street/' %} menu__link--active {% endif %}" href="/street">Street</a></li>
+			<li class="menu__item"><a class="menu__link {% if page.url == '/miscellaneous/' %} menu__link--active {% endif %}" href="/miscellaneous">Miscellaneous</a></li>
+		</ul>
+	</nav>
+	<nav>
+		<ul class="menu">
+			<li class="menu__item"><a class="menu__link {% if page.url == '/about/' %} menu__link--active {% endif %}" href="/about">About</a></li>
+			<li class="menu__item"><a class="menu__link {% if page.url == '/contact/' %} menu__link--active {% endif %}" href="/contact">Contact</a></li>
+		</ul>
+	</nav>
+</header>
