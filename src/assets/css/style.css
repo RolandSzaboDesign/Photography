@@ -227,33 +227,33 @@ body {
 	letter-spacing: -.75px;
 }
 
-.photo {
-	margin-bottom: 2rem;
+.photos {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+}
+
+.photo--full {
+	grid-column: 1 / -1;
+}
+
+.avatar {
+	float: right;
+	max-width: 300px;
+	margin: 0 0 2rem 2rem;
 	padding: 1rem;
 	background-color: #FFF;
 }
 
-.photo__image {
+.avatar__image {
 	display: block;
 }
 
-.photo__caption {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+.avatar__caption {
 	padding-top: 1.5rem;
 	padding-bottom: .5rem;
 	font-family: var(--serif);
-}
-
-.photo__meta {
-	color: var(--text-light);
-}
-
-.about-photo {
-	float: right;
-	max-width: 300px;
-	margin: 0 0 2rem 2rem;
+	text-align: center;
 }
 
 .social {
@@ -263,4 +263,8 @@ body {
 
 .social__name {
 	display: block;
+}
+
+.back-to-homepage {
+	margin-top: 2rem;
 }
