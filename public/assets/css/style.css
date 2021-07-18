@@ -43,6 +43,7 @@ html {
 }
 
 body {
+	padding: 1rem;
 	font-family: var(--sans);
 	font-weight: 300;
 	color: #666;
@@ -55,3 +56,169 @@ img {
 	height: auto;
 }
 
+.main {
+	margin: 1.5rem 0;
+	padding: 1.5rem 0;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+}
+
+
+
+
+
+/* Header */
+
+.header {
+	display: grid;
+	grid-gap: 1rem;
+	align-items: center;
+	text-align: center;
+}
+
+.logo__roland {
+	font-family: var(--serif);
+	font-size: 2.5rem;
+	letter-spacing: -.125rem;
+	color: #444;
+}
+
+.logo__photo {
+	display: block;
+	font-weight: 300;
+	letter-spacing: 0;
+	color: #666;
+	text-transform: uppercase;
+}
+
+.nav__item {
+	display: inline;
+}
+
+.nav__link {
+	display: inline-block;
+	padding: .5rem;
+	color: #666;
+	text-decoration: none;
+}
+
+
+
+
+
+/* Homepage */
+
+.homepage {
+	display: grid;
+	grid-gap: 1.5rem;
+}
+
+.homepage-photo__figure {
+	position: relative;
+}
+
+.homepage-photo__image {
+	display: block;
+}
+
+.homepage-photo__caption {
+	position: absolute;
+	bottom: 1rem;
+	display: inline-block;
+	padding: .75rem 1.25rem;
+	text-align: center;
+	line-height: 1;
+	background: #FFF;
+}
+
+
+
+
+
+/* Page Header */
+
+.page-header {
+	margin-bottom: 1rem;
+}
+
+.page-title {
+	font-family: var(--serif);
+	font-size: 2rem;
+	color: #444;
+	letter-spacing: -.0625rem;
+}
+
+.page-description {
+	margin-top: .5rem;
+	line-height: 1.5;
+}
+
+
+
+
+
+/* Gallery */
+
+.gallery {
+	display: grid;
+	grid-gap: 1rem;
+}
+
+
+
+
+
+/* Footer */
+
+.footer {
+	display: grid;
+	grid-gap: 1rem;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+	body {
+		padding: 2rem;
+	}
+
+	.header,
+	.footer {
+		grid-template-columns: repeat(2, 1fr);
+		text-align: initial;
+	}
+
+	.nav__list {
+		margin-right: -1rem;
+		text-align: right;
+	}
+
+	.nav__link {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.homepage {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: 1fr;
+		grid-gap: 3rem;
+	}
+
+	.photo {
+		grid-row: span 2;
+	}
+
+	.gallery .page-header {
+
+	}
+}
