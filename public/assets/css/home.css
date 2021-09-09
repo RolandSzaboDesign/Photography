@@ -29,6 +29,13 @@
 	letter-spacing: -.75px;
 	line-height: 1;
 	background-color: #FFF;
+	transition: .25s color, .25s padding;
+}
+
+.homepage-photo:hover .homepage-photo__caption,
+.homepage-photo:focus .homepage-photo__caption {
+	padding-left: 2rem;
+	color: var(--highlight);
 }
 
 @media only screen and (min-width: 768px) {
