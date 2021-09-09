@@ -1,0 +1,43 @@
+.homepage {
+	display: grid;
+	grid-gap: 1.5rem;
+}
+
+.homepage-photo__figure {
+	position: relative;
+}
+
+.homepage-photo__image {
+	display: block;
+	width: 100%;
+	max-height: 50vw;
+	object-fit: cover;
+}
+
+.homepage-photo__image--automotive { object-position: 0 75%; }
+.homepage-photo__image--portraiture { object-position: 0 25%; }
+.homepage-photo__image--street { object-position: 0 55%; }
+
+.homepage-photo__caption {
+	position: absolute;
+	bottom: 1rem;
+	display: inline-block;
+	padding: .75rem 1.25rem;
+	font-size: 1.25rem;
+	color: #444;
+	text-align: center;
+	letter-spacing: -.75px;
+	line-height: 1;
+	background-color: #FFF;
+}
+
+@media only screen and (min-width: 768px) {
+	.homepage {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.homepage-photo__image {
+		object-fit: fill;
+		max-height: initial;
+	}
+}

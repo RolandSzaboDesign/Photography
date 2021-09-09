@@ -19,16 +19,22 @@ html { box-sizing: border-box; }
 
 
 
-
-
 /* Variables */
 
 :root {
 	--sans: 'Rubik', sans-serif;
 	--serif: 'Playfair Display', serif;
+
+	--bg: #F1F5F9;
+	--bg-medium: #E1E5E9;
+	--bg-dark: #C1C5C9;
+
+	--text: #717579;
+	--text-dark: #414549;
+
+	--highlight: #FF6C6A;
+	--accent: #FFA15D;
 }
-
-
 
 
 
@@ -46,10 +52,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	max-width: 120rem;
+	margin: 0 auto;
 	padding: 1rem;
 	font-family: var(--sans);
 	font-weight: 300;
-	color: #666;
+	color: var(--text);
 	letter-spacing: -.5px;
 	line-height: 1.25;
 }
@@ -63,8 +71,8 @@ img {
 	flex-grow: 1;
 	margin: 1.5rem 0;
 	padding: 1.5rem 0;
-	border-top: 1px solid #EEE;
-	border-bottom: 1px solid #EEE;
+	border-top: 1px solid var(--bg-medium);
+	border-bottom: 1px solid var(--bg-medium);
 }
 
 .wrapper {
@@ -74,9 +82,13 @@ img {
 
 
 
-
-
 /* Typography */
+
+.list {
+	list-style: disc;
+	margin-bottom: 1rem;
+	margin-left: 1.5rem;
+}
 
 li {
 	margin-bottom: .5rem;
@@ -89,9 +101,15 @@ p {
 }
 
 a {
-	color: #999;
+	color: var(--highlight);
 	text-decoration: none;
-	border-bottom: 1px solid #DDD;
+	border-bottom: 1px solid var(--bg-dark);
+	transition: .2s color;
+}
+
+a:hover,
+a:focus {
+	color: var(--accent);
 }
 
 strong {
@@ -106,20 +124,41 @@ strong {
 	margin-bottom: 2rem;
 	font-family: var(--serif);
 	font-size: 2rem;
-	color: #444;
+	color: var(--text-dark);
 	letter-spacing: -.0625rem;
 }
 
 .subtitle {
-	margin-top: 2rem;
+	margin-top: 2.5rem;
 	margin-bottom: 1rem;
 	font-family: var(--serif);
-	font-size: 1.5rem;
-	color: #444;
+	font-size: 1.75rem;
+	color: var(--text-dark);
 	letter-spacing: -.0625rem;
 }
 
 
+
+/* Button */
+
+.button {
+	display: inline-block;
+	margin-top: .5rem;
+	padding: .75rem 1.25rem;
+	font-weight: 500;
+	color: var(--bg);
+	letter-spacing: 0;
+	text-transform: uppercase;
+	border-bottom: none;
+	background-color: var(--highlight);
+	transition: .2s background-color;
+}
+
+.button:hover,
+.button:focus {
+	color: var(--bg);
+	background-color: var(--accent);
+}
 
 
 
@@ -133,70 +172,53 @@ strong {
 }
 
 .logo {
-	display: inline-block;
-	border: 0;
+	border-bottom: 0;
 }
 
-.logo__roland {
+.logo__name {
 	font-family: var(--serif);
 	font-size: 2.5rem;
 	letter-spacing: -.125rem;
-	color: #444;
+	color: var(--text-dark);
 }
 
-.logo__photo {
+.logo__tagline {
 	display: block;
 	font-weight: 300;
 	letter-spacing: 0;
-	color: #666;
+	color: var(--text);
 	text-transform: uppercase;
 }
 
 .nav__item {
 	display: inline;
+	font-size: 1rem;
 }
 
 .nav__link {
 	display: inline-block;
 	padding: .5rem;
-	color: #666;
+	color: var(--text);
 	text-decoration: none;
 	border-bottom: 0;
 }
 
 
 
+/* Footer */
 
-
-/* Homepage */
-
-.homepage {
+.footer {
 	display: grid;
-	grid-gap: 1.5rem;
-}
-
-.homepage-photo__figure {
-	position: relative;
-}
-
-.homepage-photo__image {
-	display: block;
-}
-
-.homepage-photo__caption {
-	position: absolute;
-	bottom: 1rem;
-	display: inline-block;
-	padding: .75rem 1.25rem;
-	font-size: 1.25rem;
-	color: #444;
+	grid-gap: 1rem;
+	align-items: center;
 	text-align: center;
-	letter-spacing: -.75px;
-	line-height: 1;
-	background-color: #FFF;
 }
 
-
+.copyright {
+	margin-bottom: 0;
+	font-size: .75rem;
+	letter-spacing: -.015625rem;
+}
 
 
 
@@ -230,88 +252,75 @@ strong {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 2rem;
+	padding: 1rem 1.5rem;
 	background-color: rgba(0,0,0,.75);
 	transition: .3s opacity;
 }
 
 .photo__title {
 	display: block;
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 	font-family: var(--serif);
-	font-size: 2rem;
+	font-size: 1.25rem;
+	letter-spacing: 0;
 	color: #FFF;
 }
 
 .photo__dl {
 	display: grid;
-	grid-template-columns: auto 1fr;
 	grid-gap: .5rem 2rem;
-	color: #CCC;
-}
-
-
-
-
-
-/* About & Contact */
-
-.about,
-.contact {
-	display: grid;
-	grid-gap: 2rem 0;
-}
-
-.social {
-	list-style: disc;
-	margin-left: 1.125rem;
-	margin-bottom: .75rem;
-}
-
-.social__name {
-	display: block;
-}
-
-
-
-
-
-/* Footer */
-
-.footer {
-	display: grid;
-	grid-gap: 1rem;
-	align-items: center;
-	text-align: center;
-}
-
-.copyright {
-	margin-bottom: 0;
 	font-size: .75rem;
-	color: #999;
-	letter-spacing: -.015625rem;
+	color: var(--bg-dark);
 }
 
-
+.photo__dt {
+	display: none;
+}
 
 
 
 /* Media Queries */
+
+@media only screen and (min-width: 420px) {
+	.photo__dl {
+		grid-template-columns: auto 1fr;
+		font-size: 1rem;
+	}
+
+	.photo__dt {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 576px) {
+	.photo__caption {
+		padding: 2rem;
+	}
+
+	.photo__title {
+		margin-bottom: 2rem;
+		font-size: 1.5rem;
+		letter-spacing: -.5px;
+	}
+}
 
 @media only screen and (min-width: 768px) {
 	body {
 		padding: 2rem;
 	}
 
-	p,
-	li {
-		font-size: 1.25rem;
+	p, li {
+		font-size: 1.125rem;
 	}
 
 	.header,
 	.footer {
 		grid-template-columns: repeat(2, 1fr);
 		text-align: initial;
+	}
+
+	.logo {
+		justify-self: start;
 	}
 
 	.nav__list {
@@ -324,48 +333,9 @@ strong {
 		padding-right: 1rem;
 	}
 
-	.homepage {
-		grid-template-columns: repeat(3, 1fr);
-	}
-
-	.about {
-		grid-template-columns: 3fr 1fr 6fr;
-		justify-content: center;
-	}
-
-	.about__photo {
-		grid-row: 1 / 4;
-		grid-column: 1 / 3;
-	}
-
-	.about__text {
-		position: relative;
-		z-index: 1;
-		grid-row: 2 / 3;
-		grid-column: 2 / 4;
-		padding: 2rem;
-		background-color: #FFF;
-		box-shadow: .5rem .5rem 3rem 0 rgba(0,0,0,.125);
-	}
-
-	.contact {
-		grid-template-columns: 6fr 1fr 3fr;
-		justify-content: center;
-	}
-
-	.contact__photo {
-		grid-row: 1 / 4;
-		grid-column: 2 / 4;
-	}
-
-	.contact__text {
-		position: relative;
-		z-index: 1;
-		grid-row: 2 / 3;
-		grid-column: 1 / 3;
-		padding: 2rem;
-		background-color: #FFF;
-		box-shadow: .5rem .5rem 3rem 0 rgba(0,0,0,.125);
+	.photo__title {
+		margin-bottom: 3rem;
+		font-size: 2rem;
 	}
 
 	.copyright {
@@ -379,10 +349,27 @@ strong {
 }
 
 @media only screen and (min-width: 992px) {
+	p, li,
+	.nav__item {
+		font-size: 1.125rem;
+	}
+
+	.photo__title {
+		margin-bottom: 2rem;
+		font-size: 1.5rem;
+	}
+
 	.gallery--2 { grid-template-columns: repeat(2, 1fr); }
 	.gallery--3 { grid-template-columns: repeat(3, 1fr); }
+}
 
-	.about__text {
-		padding: 3rem;
+@media only screen and (min-width: 1200px) {
+	p, li {
+		font-size: 1.25rem;
+	}
+
+	.photo__title {
+		margin-bottom: 3rem;
+		font-size: 2rem;
 	}
 }
