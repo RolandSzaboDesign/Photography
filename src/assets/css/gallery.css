@@ -1,104 +1,80 @@
 .gallery {
 	display: grid;
-	grid-gap: 1rem;
+	grid-gap: 1.5rem;
 }
 
 .photo {
-	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vw - 2rem);
+	border: 0;
+	box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+}
+
+.single {
+	display: block;
+	height: auto;
+	box-shadow: none;
 }
 
 .photo__image {
 	display: block;
+	padding: .75rem;
 }
 
-.photo:hover .photo__caption,
-.photo:focus .photo__caption {
-	opacity: 1;
-}
-
-.photo__caption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	opacity: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 1rem 1.5rem;
-	background-color: rgba(0,0,0,.75);
-	transition: .3s opacity;
-}
-
-.photo__title {
+.single__title {
 	display: block;
+	margin-top: 1.5rem;
 	margin-bottom: 1rem;
 	font-family: var(--serif);
-	font-size: 1.25rem;
-	letter-spacing: 0;
-	color: var(--bg);
+	font-size: 2rem;
+	color: var(--text-dark);
 }
 
-.photo__dl {
+.details {
 	display: grid;
+	grid-template-columns: auto 1fr;
 	grid-gap: .5rem 2rem;
-	font-size: .75rem;
-	color: var(--bg-dark);
-}
-
-.photo__dt {
-	display: none;
-}
-
-@media only screen and (min-width: 420px) {
-	.photo__dl {
-		grid-template-columns: auto 1fr;
-		font-size: 1rem;
-	}
-
-	.photo__dt {
-		display: block;
-	}
+	font-size: 1rem;
+	color: var(--text);
 }
 
 @media only screen and (min-width: 576px) {
-	.photo__caption {
-		padding: 2rem;
-	}
-
-	.photo__title {
-		margin-bottom: 2rem;
-		font-size: 1.5rem;
-		letter-spacing: -.5px;
-	}
-}
-
-@media only screen and (min-width: 768px) {
 	.gallery {
-		grid-gap: 2rem;
+		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.gallery--3 { grid-template-columns: repeat(2, 1fr); }
+	.photo {
+		height: calc(50vw - 2rem);
+	}
 
-	.photo__title {
-		margin-bottom: 3rem;
-		font-size: 2rem;
+	.single {
+		height: auto;
 	}
 }
 
 @media only screen and (min-width: 992px) {
-	.gallery--2 { grid-template-columns: repeat(2, 1fr); }
-	.gallery--3 { grid-template-columns: repeat(3, 1fr); }
+	.single {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 2rem;
+	}
 
-	.photo__title {
-		margin-bottom: 2rem;
-		font-size: 1.5rem;
+	.single__title {
+		margin-top: 0;
+	}
+
+	.single__caption {
+		grid-template-columns: 1fr;
+	}
+
+	.single__photo {
+		justify-self: end;
+	}
+
+	.details {
+		grid-template-columns: 1fr;
 	}
 }
 
-@media only screen and (min-width: 1200px) {
-	.photo__title {
-		font-size: 2rem;
-	}
-}
