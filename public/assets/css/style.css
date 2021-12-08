@@ -60,6 +60,7 @@ body {
 	color: var(--text);
 	letter-spacing: -.5px;
 	line-height: 1.25;
+	background-color: var(--bg);
 }
 
 img {
