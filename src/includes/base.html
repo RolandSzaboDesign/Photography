@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>{% if title %}{{ title }} | {% endif %} Roland Szabó Photography</title>
+		<title>{% if title %}{{ title }} | {% endif %}Roland Szabó Photography</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -22,11 +22,7 @@
 		<meta property="og:url" content="https://rolandszabo.photo{{ page.url }}">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
 		<meta property="og:description" content="Budapest-based amateur photographer, currently open to opportunities.">
-		{%- if page.url == "/" %}
-		<meta property="og:title" content="Roland Szabó Photography">
-		{%- else %}
-		<meta property="og:title" content="{{ title }} | Roland Szabó Photography">
-		{%- endif %}
+		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}Roland Szabó Photography">
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,12 +36,12 @@
 		{%- endif %}
 	</head>
 	<body>
-		{% include header.html %}
+		{% include "header.html" %}
 
 		<main class="main">
 			{{ content }}
 		</main>
 
-		{% include footer.html %}
+		{% include "footer.html" %}
 	</body>
 </html>

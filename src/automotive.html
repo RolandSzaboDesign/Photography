@@ -1,0 +1,18 @@
+---
+layout: base.html
+title: Automotive Photos
+css: gallery
+---
+
+<header class="page-header">
+	<h1 class="page-title">Automotive</h1>
+	<p>Ever since my dad gave me my first computer at the age of 12, I've always had car wallpapers on my desktop. Today, I'm lucky to be shooting these very wallpapers myself.</p>
+</header>
+
+<section class="gallery">
+	{%- for photo in collections.automotive %}
+		<a class="photo" href="{{ photo.url }}">
+			<img class="photo__image" src="/assets/images/automotive/{{ photo.data.filename }}.jpg" alt="{{ photo.data.title }}" title="{{ photo.data.title }}">
+		</a>
+	{%- endfor %}
+</section>

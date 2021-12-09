@@ -1,6 +1,8 @@
 /*
 	Roland Szabó Photography
 	https://rolandszabo.photo
+
+	TODO: Design page headers with intros in a 2-column layout
 */
 
 
@@ -118,11 +120,11 @@ strong {
 }
 
 .page-header {
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
 .page-title {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	font-family: var(--serif);
 	font-size: 2rem;
 	color: var(--text-dark);
