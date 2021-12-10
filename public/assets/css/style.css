@@ -226,19 +226,12 @@ strong {
 /* Media Queries */
 
 @media only screen and (min-width: 576px) {
-	body {
-		padding: 1.5rem;
-	}
+	body { padding: 1.5rem; }
 }
 
 @media only screen and (min-width: 768px) {
-	body {
-		padding: 2rem;
-	}
-
-	p, li {
-		font-size: 1.125rem;
-	}
+	body { padding: 2rem; }
+	p, li { font-size: 1.125rem; }
 
 	.header,
 	.footer {
@@ -246,9 +239,7 @@ strong {
 		text-align: initial;
 	}
 
-	.logo {
-		justify-self: start;
-	}
+	.logo { justify-self: start; }
 
 	.nav__list {
 		margin-right: -1rem;
@@ -276,7 +267,5 @@ strong {
 }
 
 @media only screen and (min-width: 1200px) {
-	p, li {
-		font-size: 1.25rem;
-	}
+	p, li { font-size: 1.25rem; }
 }
