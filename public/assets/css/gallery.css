@@ -63,7 +63,7 @@
 	}
 
 	.photo {
-		height: calc(50vw - 2rem);
+		height: calc(50vw - 2.5rem);
 	}
 
 	.single {
@@ -75,13 +75,19 @@
 	}
 }
 
+@media only screen and (min-width: 768px) {
+	.photo {
+		height: calc(50vw - 3rem);
+	}
+}
+
 @media only screen and (min-width: 992px) {
 	.gallery {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
 	.photo {
-		height: calc(33.333vw - 2rem);
+		height: calc(33.333vw - 2.667rem);
 	}
 
 	.single {
@@ -117,5 +123,15 @@
 @media only screen and (min-width: 1200px) {
 	.single__photo {
 		padding: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.gallery {
+		grid-gap: 4rem;
+	}
+
+	.photo {
+		height: 36rem;
 	}
 }
