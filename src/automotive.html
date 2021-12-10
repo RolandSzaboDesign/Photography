@@ -10,7 +10,7 @@ css: gallery
 </header>
 
 <section class="gallery">
-	{%- for photo in collections.automotive %}
+	{%- for photo in collections.automotive reversed %}
 		<a class="photo" href="{{ photo.url }}">
 			<img class="photo__image" src="/assets/images/{{ photo.data.tags }}/{{ photo.data.filename }}.jpg" alt="{{ photo.data.title }}" title="{{ photo.data.title }}">
 		</a>
