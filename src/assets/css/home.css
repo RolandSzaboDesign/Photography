@@ -1,6 +1,7 @@
 .homepage {
 	display: grid;
-	grid-gap: 1.5rem;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
 }
 
 .homepage-photo__figure {
@@ -9,14 +10,7 @@
 
 .homepage-photo__image {
 	display: block;
-	width: 100%;
-	max-height: 50vw;
-	object-fit: cover;
 }
-
-.homepage-photo__image--automotive { object-position: 0 75%; }
-.homepage-photo__image--portraiture { object-position: 0 38%; }
-.homepage-photo__image--street { object-position: 0 55%; }
 
 .homepage-photo__caption {
 	position: absolute;

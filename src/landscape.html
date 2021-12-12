@@ -1,0 +1,18 @@
+---
+layout: base.html
+title: Landscape Photos
+css: gallery
+---
+
+<header class="page-header">
+	<h1 class="page-title">Landscape Photos</h1>
+	<p>TODO write landscapes intro</p>
+</header>
+
+<section class="gallery">
+	{%- for photo in collections.landscape reversed %}
+		<a class="photo" href="{{ photo.url }}">
+			<img class="photo__image" src="/assets/images/{{ photo.data.tags }}/{{ photo.data.filename }}.jpg" alt="{{ photo.data.title }}" title="{{ photo.data.title }}">
+		</a>
+	{%- endfor %}
+</section>
