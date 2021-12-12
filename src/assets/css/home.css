@@ -4,7 +4,12 @@
 	grid-gap: 1rem;
 }
 
+.homepage-photo {
+	border: 0;
+}
+
 .homepage-photo__figure {
+	overflow: hidden;
 	position: relative;
 }
 
@@ -14,31 +19,43 @@
 
 .homepage-photo__caption {
 	position: absolute;
-	bottom: 1rem;
-	display: inline-block;
-	padding: .75rem 1.25rem;
-	font-size: 1.25rem;
-	color: #444;
+	left: 0;
+	right: 0;
+	bottom: .5rem;
+	color: #FFF;
 	text-align: center;
-	letter-spacing: -.75px;
-	line-height: 1;
-	background-color: #FFF;
-	transition: .25s color, .25s padding;
+	text-transform: uppercase;
+	letter-spacing: .0675rem;
+	text-shadow: 0 .125rem .5rem #000, 0 .25rem 2rem #000;
 }
 
-.homepage-photo:hover .homepage-photo__caption,
-.homepage-photo:focus .homepage-photo__caption {
-	padding-left: 2rem;
-	color: var(--highlight);
-}
+@media only screen and (min-width: 992px) {
+	.main { display: flex; }
 
-@media only screen and (min-width: 768px) {
 	.homepage {
-		grid-template-columns: repeat(3, 1fr);
+		flex-grow: 1;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 1rem;
+	}
+
+	.homepage-photo__figure {
+		height: 100%;
 	}
 
 	.homepage-photo__image {
-		object-fit: fill;
-		max-height: initial;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.homepage-photo__caption {
+		opacity: 0;
+		letter-spacing: 1rem;
+		transition: opacity .3s, letter-spacing .3s;
+	}
+
+	.homepage-photo:hover .homepage-photo__caption,
+	.homepage-photo:focus .homepage-photo__caption {
+		opacity: 1;
+		letter-spacing: .25rem;
 	}
 }

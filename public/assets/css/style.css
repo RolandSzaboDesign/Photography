@@ -1,6 +1,9 @@
 /*
 	Roland Szabó Photography
 	https://rolandszabo.photo
+
+	TODO:
+	- Kártyákra hover effekt
 */
 
 
@@ -138,6 +141,13 @@ strong {
 	letter-spacing: -.0625rem;
 }
 
+.yuge {
+	margin-bottom: 1rem;
+	font-size: 5rem;
+}
+
+.text-center { text-align: center; }
+
 
 
 /* Button */
@@ -210,9 +220,15 @@ strong {
 
 .footer {
 	display: grid;
-	grid-gap: 1rem;
 	align-items: center;
+	grid-gap: 1rem;
 	text-align: center;
+}
+
+.footer__logo {
+	width: 6rem;
+	margin: 0 auto;
+	border: 0;
 }
 
 .copyright {
@@ -227,24 +243,38 @@ strong {
 
 @media only screen and (min-width: 576px) {
 	body { padding: 1.5rem; }
+
+	.footer {
+		grid-template-columns: 1fr auto;
+		grid-gap: 0 1rem;
+		text-align: left;
+	}
+
+	.footer__logo {
+		grid-row: 1 / 3;
+		grid-column: 2;
+	}
+
+	.nav--footer { margin-left: -.5rem; }
 }
 
 @media only screen and (min-width: 768px) {
 	body { padding: 2rem; }
 	p, li { font-size: 1.125rem; }
 
-	.header,
-	.footer {
-		grid-template-columns: repeat(2, 1fr);
+	.header {
+		grid-template-columns: auto 1fr;
 		text-align: initial;
 	}
 
 	.logo { justify-self: start; }
 
-	.nav__list {
+	.nav--header {
 		margin-right: -1rem;
 		text-align: right;
 	}
+
+	.nav--footer { margin-left: -1rem; }
 
 	.nav__link {
 		padding-left: 1rem;
@@ -252,9 +282,7 @@ strong {
 	}
 
 	.copyright {
-		grid-row: 1;
-		grid-column: 1;
-		font-size: 1rem;
+		font-size: .875rem;
 		letter-spacing: -.03125rem;
 	}
 }

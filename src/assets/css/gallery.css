@@ -89,7 +89,7 @@
 		grid-gap: .25rem;
 	}
 
-	.details__value { margin-bottom: 1rem; }
+	.details__value { margin-bottom: .75rem; }
 }
 
 @media only screen and (min-width: 1200px) {
