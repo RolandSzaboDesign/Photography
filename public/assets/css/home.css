@@ -1,11 +1,16 @@
 .homepage {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 1rem;
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .homepage-photo {
 	border: 0;
+}
+
+.homepage-photo:hover .homepage-photo__image,
+.homepage-photo:focus .homepage-photo__image {
+	transform: scale(1.1);
 }
 
 .homepage-photo__figure {
@@ -15,6 +20,7 @@
 
 .homepage-photo__image {
 	display: block;
+	transition: transform .3s;
 }
 
 .homepage-photo__caption {
@@ -49,6 +55,7 @@
 
 	.homepage-photo__caption {
 		opacity: 0;
+		bottom: 1rem;
 		letter-spacing: 1rem;
 		transition: opacity .3s, letter-spacing .3s;
 	}

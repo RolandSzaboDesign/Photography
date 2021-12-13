@@ -1,9 +1,6 @@
 /*
 	Roland Szabó Photography
 	https://rolandszabo.photo
-
-	TODO:
-	- Kártyákra hover effekt
 */
 
 
@@ -120,6 +117,10 @@ strong {
 	font-weight: 500;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .page-header {
 	margin-bottom: 2rem;
 }
@@ -146,15 +147,12 @@ strong {
 	font-size: 5rem;
 }
 
-.text-center { text-align: center; }
-
 
 
 /* Button */
 
 .button {
 	display: inline-block;
-	margin-top: .5rem;
 	padding: .75rem 1.25rem;
 	font-weight: 500;
 	color: #FFF;
@@ -179,6 +177,7 @@ strong {
 	display: grid;
 	grid-gap: 1rem;
 	align-items: center;
+	justify-content: center;
 	text-align: center;
 }
 
@@ -220,8 +219,8 @@ strong {
 
 .footer {
 	display: grid;
-	align-items: center;
 	grid-gap: 1rem;
+	align-items: center;
 	text-align: center;
 }
 
@@ -242,7 +241,9 @@ strong {
 /* Media Queries */
 
 @media only screen and (min-width: 576px) {
-	body { padding: 1.5rem; }
+	body {
+		padding: 1.5rem;
+	}
 
 	.footer {
 		grid-template-columns: 1fr auto;
@@ -255,19 +256,28 @@ strong {
 		grid-column: 2;
 	}
 
-	.nav--footer { margin-left: -.5rem; }
+	.nav--footer {
+		margin-left: -.5rem;
+	}
 }
 
 @media only screen and (min-width: 768px) {
-	body { padding: 2rem; }
-	p, li { font-size: 1.125rem; }
+	body {
+		padding: 2rem;
+	}
+
+	p, li {
+		font-size: 1.125rem;
+	}
 
 	.header {
 		grid-template-columns: auto 1fr;
 		text-align: initial;
 	}
 
-	.logo { justify-self: start; }
+	.logo {
+		justify-self: start;
+	}
 
 	.nav--header {
 		margin-right: -1rem;
@@ -295,5 +305,7 @@ strong {
 }
 
 @media only screen and (min-width: 1200px) {
-	p, li { font-size: 1.25rem; }
+	p, li {
+		font-size: 1.25rem;
+	}
 }
