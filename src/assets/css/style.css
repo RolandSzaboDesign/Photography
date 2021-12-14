@@ -58,7 +58,7 @@ body {
 	font-family: var(--sans);
 	font-weight: 300;
 	color: var(--text);
-	letter-spacing: -.5px;
+	letter-spacing: -.03125rem;
 	line-height: 1.25;
 	background-color: var(--bg);
 }
@@ -171,6 +171,20 @@ strong {
 
 
 
+/* Alert */
+
+.alert {
+	margin-top: 1.5rem;
+	padding: .5rem 0 .5rem 1rem;
+	border-left: 5px solid var(--accent);
+}
+
+.alert > *:last-child {
+	margin-bottom: 0;
+}
+
+
+
 /* Header */
 
 .header {
@@ -245,6 +259,10 @@ strong {
 		padding: 1.5rem;
 	}
 
+	.alert {
+		padding-left: 1.5rem;
+	}
+
 	.footer {
 		grid-template-columns: 1fr auto;
 		grid-gap: 0 1rem;
@@ -301,6 +319,10 @@ strong {
 	p, li,
 	.nav__item {
 		font-size: 1.125rem;
+	}
+
+	.alert {
+		padding-left: 2rem;
 	}
 }
 

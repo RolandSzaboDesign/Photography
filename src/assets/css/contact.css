@@ -3,15 +3,6 @@
 	grid-gap: 2rem 0;
 }
 
-.alert {
-	padding: .5rem 0 .5rem 1rem;
-	border-left: 5px solid var(--accent);
-}
-
-.alert > *:last-child {
-	margin-bottom: 0;
-}
-
 .social {
 	list-style: disc;
 	margin-left: 1.125rem;
@@ -20,12 +11,6 @@
 
 .social__name {
 	display: block;
-}
-
-@media only screen and (min-width: 576px) {
-	.alert {
-		padding-left: 1.5rem;
-	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -51,11 +36,5 @@
 }
 
 @media only screen and (min-width: 992px) {
-	.alert {
-		padding-left: 2rem;
-
-	}
-	.contact__text {
-		padding: 3rem;
-	}
+	.contact__text { padding: 3rem; }
 }
