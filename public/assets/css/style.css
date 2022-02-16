@@ -52,9 +52,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	max-width: 120rem;
-	margin: 0 auto;
-	padding: 1rem;
 	font-family: var(--sans);
 	font-weight: 300;
 	color: var(--text);
@@ -70,10 +67,6 @@ img {
 
 .main {
 	flex-grow: 1;
-	margin: 1.5rem 0;
-	padding: 1.5rem 0;
-	border-top: 1px solid var(--bg-medium);
-	border-bottom: 1px solid var(--bg-medium);
 }
 
 .wrapper {
@@ -188,146 +181,13 @@ strong {
 /* Header */
 
 .header {
-	display: grid;
-	grid-gap: 1rem;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-}
-
-.logo {
-	border-bottom: 0;
-}
-
-.logo__name {
-	font-family: var(--serif);
-	font-size: 2.5rem;
-	letter-spacing: -.125rem;
-	color: var(--text-dark);
-}
-
-.logo__tagline {
-	display: block;
-	font-weight: 300;
-	letter-spacing: 0;
-	color: var(--text);
-	text-transform: uppercase;
-}
-
-.nav__item {
-	display: inline;
-	font-size: 1rem;
-}
-
-.nav__link {
-	display: inline-block;
-	padding: .5rem;
-	color: var(--text);
-	text-decoration: none;
-	border-bottom: 0;
-}
-
-
-
-/* Footer */
-
-.footer {
-	display: grid;
-	grid-gap: 1rem;
-	align-items: center;
-	text-align: center;
-}
-
-.footer__logo {
-	width: 6rem;
-	margin: 0 auto;
-	border: 0;
-}
-
-.copyright {
-	margin-bottom: 0;
-	font-size: .75rem;
-	letter-spacing: -.015625rem;
 }
 
 
 
 /* Media Queries */
 
-@media only screen and (min-width: 576px) {
-	body {
-		padding: 1.5rem;
-	}
-
-	.alert {
-		padding-left: 1.5rem;
-	}
-
-	.footer {
-		grid-template-columns: 1fr auto;
-		grid-gap: 0 1rem;
-		text-align: left;
-	}
-
-	.footer__logo {
-		grid-row: 1 / 3;
-		grid-column: 2;
-	}
-
-	.nav--footer {
-		margin-left: -.5rem;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	body {
-		padding: 2rem;
-	}
-
-	p, li {
-		font-size: 1.125rem;
-	}
-
-	.header {
-		grid-template-columns: auto 1fr;
-		text-align: initial;
-	}
-
-	.logo {
-		justify-self: start;
-	}
-
-	.nav--header {
-		margin-right: -1rem;
-		text-align: right;
-	}
-
-	.nav--footer { margin-left: -1rem; }
-
-	.nav__link {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-
-	.copyright {
-		font-size: .875rem;
-		letter-spacing: -.03125rem;
-	}
-}
-
-@media only screen and (min-width: 992px) {
-	p, li,
-	.nav__item {
-		font-size: 1.125rem;
-	}
-
-	.alert {
-		padding-left: 2rem;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	p, li {
-		font-size: 1.25rem;
-	}
-}
+@media only screen and (min-width: 576px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}
