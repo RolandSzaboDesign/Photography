@@ -24,6 +24,7 @@ html { box-sizing: border-box; }
 :root {
 	--sans: 'Rubik', sans-serif;
 	--serif: 'Playfair Display', serif;
+	--cursive: 'Architects Daughter', cursive;
 
 	--bg: #F1F5F9;
 	--bg-medium: #E1E5E9;
@@ -266,6 +267,8 @@ strong {
 .polaroids:hover:after { transform: rotate(-.5deg); }
 
 .polaroid {
+	display: flex;
+	flex-direction: column;
 	position: relative;
 	padding: 1rem;
 	text-align: center;
@@ -275,8 +278,10 @@ strong {
 
 .polaroid__title {
 	display: block;
-	margin-top: .5rem;
+	margin-top: .75rem;
+	font-family: var(--cursive);
 	font-size: 1.25rem;
+	letter-spacing: 0;
 }
 
 
