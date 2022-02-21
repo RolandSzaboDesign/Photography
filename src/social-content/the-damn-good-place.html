@@ -1,0 +1,28 @@
+---
+layout: base.html
+date: 2021-05-30
+title: The Dam_n Good Place
+slug: the-damn-good-place
+tags: ['social-content']
+---
+
+<h1 class="title">{{ title }}</h1>
+
+<ul class="list">
+	{% for tag in tags %}
+	<li>{{ tag }}</li>
+	{% endfor %}
+</ul>
+
+<div class="gallery">
+	<a class="polaroid full" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/01.jpg" alt="" title=""></a>
+	<a class="polaroid" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/03.jpg" alt="" title=""></a>
+	<a class="polaroid" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/04.jpg" alt="" title=""></a>
+	<a class="polaroid full" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/02.jpg" alt="" title=""></a>
+	<a class="polaroid" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/05.jpg" alt="" title=""></a>
+	<a class="polaroid" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/06.jpg" alt="" title=""></a>
+	<a class="polaroid full" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/09.jpg" alt="" title=""></a>
+	<a class="polaroid" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/07.jpg" alt="" title=""></a>
+	<a class="polaroid" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/08.jpg" alt="" title=""></a>
+	<a class="polaroid full" href="#"><img class="polaroid__photo" src="/assets/images/social-content/{{ slug }}/10.jpg" alt="" title=""></a>
+</div>

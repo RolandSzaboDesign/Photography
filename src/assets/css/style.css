@@ -35,6 +35,9 @@ html { box-sizing: border-box; }
 
 	--highlight: #FF6C6A;
 	--accent: #FFA15D;
+
+	--grid-gutter: 1rem;
+	--polaroid-padding: .5rem;
 }
 
 
@@ -68,12 +71,16 @@ img {
 
 .main {
 	flex-grow: 1;
-	padding: 2rem;
+	padding: var(--grid-gutter);
 }
 
 .wrapper {
 	max-width: 75rem;
 	margin: 0 auto;
+}
+
+.full {
+	grid-column: 1 / -1;
 }
 
 
@@ -104,14 +111,14 @@ strong {
 	font-weight: 500;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .list {
 	list-style: disc;
 	margin-bottom: 1rem;
 	margin-left: 1.5rem;
-}
-
-.text-center {
-	text-align: center;
 }
 
 .page-header {
@@ -139,43 +146,6 @@ strong {
 	margin-bottom: 1rem;
 	font-size: 5rem;
 }
-
-
-
-/* Button */
-
-.button {
-	display: inline-block;
-	padding: .75rem 1.25rem;
-	font-weight: 500;
-	color: #FFF;
-	letter-spacing: 0;
-	text-transform: uppercase;
-	border-bottom: none;
-	background-color: var(--highlight);
-	transition: .25s color, .25s background-color;
-}
-
-.button:hover,
-.button:focus {
-	color: #FFF;
-	background-color: var(--accent);
-}
-
-
-
-/* Alert */
-
-.alert {
-	margin-top: 1.5rem;
-	padding: .5rem 0 .5rem 1rem;
-	border-left: 5px solid var(--accent);
-}
-
-.alert > *:last-child {
-	margin-bottom: 0;
-}
-
 
 
 /* Header */
@@ -268,7 +238,7 @@ strong {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	padding: 1rem;
+	padding: var(--polaroid-padding);
 	text-align: center;
 	background-color: #FFF;
 	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
@@ -284,9 +254,58 @@ strong {
 
 
 
+/* Gallery Layouts */
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: var(--grid-gutter);
+}
+
+
+
 /* Media Queries */
 
-@media only screen and (min-width: 576px) {}
-@media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 992px) {}
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 576px) {
+	:root {
+		--grid-gutter: 1.25rem;
+		--polaroid-padding: .75rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	:root {
+		--grid-gutter: 1.5rem;
+		--polaroid-padding: 1rem;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	body {
+		flex-direction: row;
+	}
+
+	.header {
+		width: 16rem;
+		border-bottom: 0;
+		border-right: 1px solid var(--bg-dark);
+		box-shadow: .125rem 0 .5rem rgba(0,0,0,.125);
+	}
+
+	.nav__list {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.nav__link {
+		display: block;
+		padding: .75rem;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	:root {
+		--grid-gutter: 2rem;
+		--polaroid-padding: 1.25rem;
+	}
+}
