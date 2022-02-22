@@ -2,17 +2,21 @@
 layout: base.html
 ---
 
-<h1 class="title">Welcome</h1>
+<h1 class="title">Roland Szabó Photography</h1>
 
-<div class="gallery">
-	{% for post in collections.social-content reversed %}
-	<a class="polaroids" href="{{ post.url }}">
-		<figure class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/social-content/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}" title="{{ post.data.title }}">
-			<figcaption class="polaroid__caption">
-				<strong class="polaroid__title">{{ post.data.title }}</strong>
-			</figcaption>
-		</figure>
-	</a>
+<div class="gallery gallery--3-col">
+	{% assign demo = collections.portraiture | concat: collections.social-content %}
+	{% for post in demo reversed %}
+		{% assign slug = post.data.page.filePathStem | remove: post.data.page.fileSlug %}
+		<a class="polaroids" href="{{ post.url }}">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/{{ slug }}/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">{{ post.data.title }}</strong>
+				</figcaption>
+			</figure>
+		</a>
 	{% endfor %}
 </div>
