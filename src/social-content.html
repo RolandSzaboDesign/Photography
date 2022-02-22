@@ -10,7 +10,7 @@ slug: social-content
 	{% for post in collections.social-content reversed %}
 	<a class="polaroids" href="{{ post.url }}">
 		<figure class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/{{ slug }}/{{ post.data.slug }}/01.jpg" alt="{{ post.data.title }}" title="{{ post.data.title }}">
+			<img class="polaroid__photo" src="/assets/images/{{ slug }}/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}" title="{{ post.data.title }}">
 			<figcaption class="polaroid__caption">
 				<strong class="polaroid__title">{{ post.data.title }}</strong>
 			</figcaption>

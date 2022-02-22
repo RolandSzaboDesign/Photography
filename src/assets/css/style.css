@@ -38,6 +38,7 @@ html { box-sizing: border-box; }
 
 	--grid-gutter: 1rem;
 	--polaroid-padding: .5rem;
+	--transition-duration: .25s;
 }
 
 
@@ -99,7 +100,7 @@ a {
 	color: var(--highlight);
 	text-decoration: none;
 	border-bottom: 1px solid var(--bg-dark);
-	transition: .25s color;
+	transition: var(--transition-duration) color;
 }
 
 a:hover,
@@ -119,18 +120,6 @@ strong {
 	list-style: disc;
 	margin-bottom: 1rem;
 	margin-left: 1.5rem;
-}
-
-.page-header {
-	margin-bottom: 2rem;
-}
-
-.title {
-	margin-bottom: 1rem;
-	font-family: var(--serif);
-	font-size: 1.75rem;
-	color: var(--text-dark);
-	letter-spacing: -.0625rem;
 }
 
 .subtitle {
@@ -194,6 +183,63 @@ strong {
 
 
 
+/* Page Header */
+
+.page-header {
+	margin-bottom: 2rem;
+}
+
+.category {
+	display: block;
+	margin-bottom: .5rem;
+	color: var(--text);
+	text-transform: capitalize;
+}
+
+.title {
+	margin-bottom: 1.25rem;
+	font-family: var(--serif);
+	font-size: 1.75rem;
+	color: var(--text-dark);
+	letter-spacing: -.0625rem;
+}
+
+
+
+/* Tags */
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 2rem;
+}
+
+.tag {
+	margin-right: .5rem;
+	font-weight: 600;
+	font-size: .875rem;
+	letter-spacing: 0;
+	text-transform: uppercase;
+}
+
+.tag__link {
+	display: inline-block;
+	padding: .125rem .75rem;
+	color: var(--text);
+	border-bottom: 0;
+	border-radius: 99rem;
+	background-color: var(--bg-medium);
+	transition: color var(--transition-duration), background-color var(--transition-duration);
+}
+
+.tag__link:hover,
+.tag__link:focus {
+	color: var(--text-dark);
+	background-color: var(--bg-dark);
+}
+
+
+
 /* Polaroid */
 
 .polaroids {
@@ -212,7 +258,7 @@ strong {
 	z-index: -1;
 	background-color: #FFF;
 	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
-	transition: transform .25s;
+	transition: transform var(--transition-duration);
 }
 
 .polaroids:before {

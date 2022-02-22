@@ -1,0 +1,27 @@
+---
+layout: base.html
+pagination:
+    data: collections
+    size: 1
+    alias: tag
+permalink: /tags/{{ tag }}/
+---
+
+<header class="page-header">
+	<h1 class="title">Tagged {{ tag | capitalize }}</h1>
+</header>
+
+<div class="gallery">
+	{% assign tagsies = collections[tag] %}
+	{% for post in tagsies reversed %}
+		{% assign slug = post.data.page.filePathStem | remove: post.data.page.fileSlug %}
+		<a class="polaroids" href="{{ post.url }}">
+			<figure class="polaroid">
+				<img class="polaroid__photo" src="/assets/images/{{ slug }}/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}" title="{{ post.data.title }}">
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">{{ post.data.title }}</strong>
+				</figcaption>
+			</figure>
+		</a>
+	{% endfor %}
+</div>
