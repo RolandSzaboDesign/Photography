@@ -5,8 +5,8 @@ layout: base.html
 <h1 class="title">Roland Szabó Photography</h1>
 
 <div class="gallery gallery--3-col">
-	{% assign demo = collections.portraiture | concat: collections.social-content | concat: collections.automotive %}
-	{% for post in demo reversed %}
+	{% assign collectionsies = collections.portraiture | concat: collections.social-content | concat: collections.automotive %}
+	{% for post in collectionsies reversed %}
 		{% assign slug = post.data.page.filePathStem | remove: post.data.page.fileSlug %}
 		<a class="polaroids" href="{{ post.url }}">
 			<figure class="polaroid">

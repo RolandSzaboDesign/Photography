@@ -1,22 +1,5 @@
 ---
-layout: base.html
+layout: category.html
 title: Social Content
 slug: social-content
 ---
-
-<h1 class="title">{{ title }}</h1>
-
-<div class="gallery">
-	{% for post in collections.social-content reversed %}
-	<a class="polaroids" href="{{ post.url }}">
-		<figure class="polaroid">
-			<div class="polaroid__square">
-				<img class="polaroid__photo" src="/assets/images/{{ slug }}/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}">
-			</div>
-			<figcaption class="polaroid__caption">
-				<strong class="polaroid__title">{{ post.data.title }}</strong>
-			</figcaption>
-		</figure>
-	</a>
-	{% endfor %}
-</div>
