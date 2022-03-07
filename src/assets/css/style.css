@@ -160,7 +160,7 @@ strong {
 	font-size: .875rem;
 	letter-spacing: 0;
 	text-transform: uppercase;
-	border-bottom: 1px solid var(--bg-medium);
+	border-top: 1px solid var(--bg-medium);
 }
 
 .nav__list {
@@ -204,6 +204,13 @@ strong {
 	letter-spacing: -.0625rem;
 }
 
+.welcome {
+	font-family: var(--serif);
+	font-size: 2.25rem;
+	color: var(--text-dark);
+	letter-spacing: -.1rem;
+}
+
 
 
 /* Tags */
@@ -244,13 +251,8 @@ strong {
 
 .gallery {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
 	grid-gap: var(--grid-gutter);
 	align-items: start;
-}
-
-.gallery--3-col {
-	grid-template-columns: repeat(3, 1fr);
 }
 
 .polaroids {
@@ -335,12 +337,20 @@ strong {
 		--grid-gutter: 1.25rem;
 		--polaroid-padding: .75rem;
 	}
+
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media only screen and (min-width: 768px) {
 	:root {
 		--grid-gutter: 1.5rem;
 		--polaroid-padding: 1rem;
+	}
+
+	.gallery--3-col {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
@@ -365,11 +375,19 @@ strong {
 		display: block;
 		padding: .75rem;
 	}
+
+	.gallery--3-col {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media only screen and (min-width: 1200px) {
 	:root {
 		--grid-gutter: 2rem;
 		--polaroid-padding: 1.25rem;
+	}
+
+	.gallery--3-col {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
