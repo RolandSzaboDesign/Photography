@@ -27,7 +27,7 @@
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Playfair+Display:wght@500&family=Rubik:wght@300;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Playfair+Display:wght@500&family=Rubik:wght@300;600&display=swap">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
@@ -39,9 +39,9 @@
 		{% include "header.html" %}
 
 		<main class="main">
-			<div class="wrapper">
-				{{ content }}
-			</div>
+			{{ content }}
 		</main>
+
+		{% include "footer.html" %}
 	</body>
 </html>
