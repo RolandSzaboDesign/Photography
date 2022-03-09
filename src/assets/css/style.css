@@ -199,16 +199,21 @@ strong {
 .title {
 	margin-bottom: 1.25rem;
 	font-family: var(--serif);
-	font-size: 1.75rem;
+	font-size: 2rem;
 	color: var(--text-dark);
-	letter-spacing: -.0625rem;
+	letter-spacing: -.075rem;
 }
 
 .welcome {
 	font-family: var(--serif);
-	font-size: 2.25rem;
+	font-size: 2.5rem;
 	color: var(--text-dark);
-	letter-spacing: -.1rem;
+	letter-spacing: -.125rem;
+}
+
+.intro {
+	font-size: 1.75rem;
+	letter-spacing: -.075rem;
 }
 
 
@@ -326,6 +331,27 @@ strong {
 	font-family: var(--cursive);
 	font-size: 1.25rem;
 	letter-spacing: 0;
+}
+
+
+/* Buttons */
+
+.button {
+	display: inline-block;
+	padding: .75rem 1.25rem;
+	font-weight: 600;
+	color: #FFF;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	border-bottom: none;
+	background-color: var(--highlight);
+	transition: var(--transition-duration) color, var(--transition-duration) background-color;
+}
+
+.button:hover,
+.button:focus {
+	color: #FFF;
+	background-color: var(--accent);
 }
 
 

@@ -2,7 +2,10 @@
 layout: base.html
 ---
 
-<h1 class="title">{{ title }}</h1>
+<header class="page-header">
+	<a class="category" href="/galleries" title="Back to All Galleries">All Galleries</a>
+	<h1 class="title">{{ title }}</h1>
+</header>
 
 <div class="gallery">
 	{% for post in collections[slug] reversed %}
