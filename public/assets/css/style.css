@@ -204,18 +204,6 @@ strong {
 	letter-spacing: -.075rem;
 }
 
-.welcome {
-	font-family: var(--serif);
-	font-size: 2.5rem;
-	color: var(--text-dark);
-	letter-spacing: -.125rem;
-}
-
-.intro {
-	font-size: 1.75rem;
-	letter-spacing: -.075rem;
-}
-
 
 
 /* Tags */
@@ -258,6 +246,7 @@ strong {
 	display: grid;
 	grid-gap: var(--grid-gutter);
 	align-items: start;
+	margin-bottom: 2rem;
 }
 
 .polaroids {
@@ -332,6 +321,7 @@ strong {
 	font-size: 1.25rem;
 	letter-spacing: 0;
 }
+
 
 
 /* Buttons */

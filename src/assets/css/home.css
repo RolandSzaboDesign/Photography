@@ -1,0 +1,19 @@
+.home__title {
+	margin-bottom: 1.25rem;
+	font-family: var(--serif);
+	font-size: 2.5rem;
+	color: var(--text-dark);
+	letter-spacing: -.125rem;
+}
+
+.home__intro {
+	margin-bottom: 2rem;
+	font-size: 1.75rem;
+	letter-spacing: -.075rem;
+}
+
+.home__link {
+	display: inline-block;
+	margin-left: 1rem;
+	color: var(--text);
+}
