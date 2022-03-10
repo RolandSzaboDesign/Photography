@@ -59,6 +59,7 @@ body {
 	min-height: 100vh;
 	max-width: 90rem;
 	margin: 0 auto;
+	padding: 1rem;
 	font-family: var(--sans);
 	font-weight: 300;
 	color: var(--text);
@@ -76,11 +77,17 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	position: relative;
 	flex-grow: 1;
 	margin: 1.5rem 0;
 	padding: var(--grid-gutter) 0;
 	border-top: 1px solid var(--bg-medium);
 	border-bottom: 1px solid var(--bg-medium);
+}
+
+.main--home {
+	border: 0;
+	justify-content: flex-end;
 }
 
 .wrapper {
@@ -190,7 +197,6 @@ strong {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding-top: 1rem;
 }
 
 .logo {
@@ -234,7 +240,6 @@ strong {
 	grid-gap: 1rem;
 	align-items: center;
 	text-align: center;
-	padding-bottom: 1rem;
 }
 
 .footer__logo {
