@@ -14,9 +14,9 @@
 
 .home__intro {
 	margin-bottom: 1rem;
-	font-size: 1.25rem;
+	font-size: 1.125rem;
 	color: var(--text-dark);
-	letter-spacing: -.05rem;
+	letter-spacing: -.0375rem;
 }
 
 .home__button {
@@ -26,7 +26,7 @@
 
 .home__link {
 	display: inline-block;
-	margin-top: 1rem;
+	margin-top: .75rem;
 	color: var(--text);
 	border-bottom-color: var(--bg-darker);
 }
@@ -47,6 +47,11 @@
 }
 
 @media only screen and (min-width: 576px) {
+	.home__intro {
+		font-size: 1.25rem;
+		letter-spacing: -.05rem;
+	}
+
 	.home__button {
 		display: inline-block;
 	}

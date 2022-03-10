@@ -12,7 +12,6 @@ permalink: /tags/{{ tag }}/
 		<a class="category" href="/tags/all" title="Back to All Tags">All Tags</a>
 		<h1 class="title">Tagged {{ tag | capitalize }}</h1>
 	</header>
-
 	<div class="gallery gallery--3-col">
 		{% assign tagsies = collections[tag] %}
 		{% for post in tagsies reversed %}

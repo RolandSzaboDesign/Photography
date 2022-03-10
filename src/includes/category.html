@@ -2,22 +2,23 @@
 layout: base.html
 ---
 
-<header class="page-header">
-	<a class="category" href="/galleries" title="Back to Galleries">Galleries</a>
-	<h1 class="title">{{ title }}</h1>
-</header>
-
-<div class="gallery">
-	{% for post in collections[slug] reversed %}
-	<a class="polaroids" href="{{ post.url }}">
-		<figure class="polaroid">
-			<div class="polaroid__square">
-				<img class="polaroid__photo" src="/assets/images/{{ slug }}/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}">
-			</div>
-			<figcaption class="polaroid__caption">
-				<strong class="polaroid__title">{{ post.data.title }}</strong>
-			</figcaption>
-		</figure>
-	</a>
-	{% endfor %}
-</div>
+<main class="main">
+	<header class="page-header">
+		<a class="category" href="/galleries" title="Back to Galleries">Galleries</a>
+		<h1 class="title">{{ title }}</h1>
+	</header>
+	<div class="gallery">
+		{% for post in collections[slug] reversed %}
+		<a class="polaroids" href="{{ post.url }}">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/{{ slug }}/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">{{ post.data.title }}</strong>
+				</figcaption>
+			</figure>
+		</a>
+		{% endfor %}
+	</div>
+</main>

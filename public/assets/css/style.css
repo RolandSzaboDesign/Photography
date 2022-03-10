@@ -79,13 +79,14 @@ img {
 	justify-content: center;
 	position: relative;
 	flex-grow: 1;
-	margin: 1.5rem 0;
+	margin: 1rem 0;
 	padding: var(--grid-gutter) 0;
 	border-top: 1px solid var(--bg-medium);
 	border-bottom: 1px solid var(--bg-medium);
 }
 
 .main--home {
+	padding: 0;
 	border: 0;
 	justify-content: flex-end;
 }
@@ -193,26 +194,30 @@ strong {
 
 .header {
 	display: grid;
-	grid-gap: 1rem;
+	grid-gap: .5rem;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 }
 
 .logo {
+	line-height: 1;
 	border-bottom: 0;
 }
 
 .logo__name {
+	display: inline-block;
 	font-family: var(--serif);
-	font-size: 2.5rem;
-	letter-spacing: -.125rem;
+	font-size: 2rem;
+	letter-spacing: -.0875rem;
 	color: var(--text-dark);
 }
 
 .logo__tagline {
 	display: block;
+	margin-top: .5rem;
 	font-weight: 300;
+	font-size: .875rem;
 	letter-spacing: 0;
 	color: var(--text);
 	text-transform: uppercase;
@@ -225,7 +230,7 @@ strong {
 
 .nav__link {
 	display: inline-block;
-	padding: .5rem;
+	padding: .5rem .75rem;
 	color: var(--text);
 	text-decoration: none;
 	border-bottom: 0;
@@ -237,7 +242,7 @@ strong {
 
 .footer {
 	display: grid;
-	grid-gap: 1rem;
+	grid-gap: .5rem;
 	align-items: center;
 	text-align: center;
 }
@@ -275,6 +280,7 @@ strong {
 	font-size: 2rem;
 	color: var(--text-dark);
 	letter-spacing: -.075rem;
+	line-height: 1.25;
 }
 
 
@@ -320,6 +326,10 @@ strong {
 	grid-gap: var(--grid-gutter);
 	align-items: start;
 	margin-bottom: 2rem;
+}
+
+.gallery--single {
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .polaroids {
@@ -405,10 +415,6 @@ strong {
 		--polaroid-padding: .75rem;
 	}
 
-	.alert {
-		padding-left: 1.5rem;
-	}
-
 	.gallery {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -427,6 +433,10 @@ strong {
 	.nav--footer {
 		margin-left: -.5rem;
 	}
+
+	.alert {
+		padding-left: 1.5rem;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -441,6 +451,7 @@ strong {
 
 	.header {
 		grid-template-columns: auto 1fr;
+		grid-gap: 1rem;
 		text-align: initial;
 	}
 
@@ -480,10 +491,6 @@ strong {
 	.alert {
 		padding-left: 2rem;
 	}
-
-	.gallery--3-col {
-		grid-template-columns: repeat(2, 1fr);
-	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -494,9 +501,5 @@ strong {
 
 	p, li {
 		font-size: 1.25rem;
-	}
-
-	.gallery--3-col {
-		grid-template-columns: repeat(3, 1fr);
 	}
 }
