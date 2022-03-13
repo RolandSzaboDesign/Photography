@@ -39,5 +39,20 @@
 		{% include "header.html" %}
 		{{ content }}
 		{% include "footer.html" %}
+
+		<script>
+			function toggleMainMenu() {
+				var button = document.getElementById("menu-toggle");
+				var menu = document.getElementById("main-menu");
+
+				if (menu.style.display === "block") {
+					menu.style.display = "none";
+					button.innerHTML = "☰";
+				} else {
+					menu.style.display = "block";
+					button.innerHTML = "✕";
+				}
+			}
+		</script>
 	</body>
 </html>

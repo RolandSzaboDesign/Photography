@@ -39,17 +39,31 @@
 		<strong class="logo__name">Roland Szabó</strong>
 		<span class="logo__tagline">Budapest-based Photographer</span>
 	</a>
-	<nav class="nav nav--header">
+	<a id="menu-toggle" class="menu-toggle" href="#" onclick="toggleMainMenu()">☰</a>
+	<nav id="main-menu" class="nav nav--header">
 		<ul class="nav__list">
-			<li class="nav__item"><a class="nav__link" href="/about">About</a></li>
-			<li class="nav__item"><a class="nav__link" href="/galleries">Galleries</a></li>
-			<li class="nav__item"><a class="nav__link" href="/services">Services</a></li>
-			<li class="nav__item"><a class="nav__link" href="/contact">Contact</a></li>
-			<!--
-				<li class="nav__item"><a class="nav__link" href="/portraiture">Portraiture</a></li>
-				<li class="nav__item"><a class="nav__link" href="/social-content">Social Content</a></li>
-				<li class="nav__item"><a class="nav__link" href="/automotive">Automotive</a></li>
-			-->
+			<li class="nav__item">
+				<a class="nav__link" href="/about">About</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/galleries">Galleries</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/portraiture">Portraiture</a></li>
+					<li class="nav__item"><a class="nav__link" href="/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/automotive">Automotive</a></li>
+				</ul>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/services">Services</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/services/portrait-photo-walks">Portrait Photo Walks</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/car-photography">Car Photography</a></li>
+				</ul>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/contact">Contact</a>
+			</li>
 		</ul>
 	</nav>
 </header>
@@ -81,16 +95,31 @@
 </main>
 
 		<footer class="footer">
-	<nav class="nav nav--footer">
+	<!-- <nav class="nav nav--footer">
 		<ul class="nav__list">
 			<li class="nav__item"><a class="nav__link" href="/legal">Credits</a></li>
 		</ul>
-	</nav>
+	</nav> -->
 	<a class="footer__logo" href="#" title="Back to top">
 		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography">
 	</a>
 	<p class="copyright">&copy; 2022 &ndash; Roland Szabó. All rights reserved.</p>
 </footer>
 
+
+		<script>
+			function toggleMainMenu() {
+				var button = document.getElementById("menu-toggle");
+				var menu = document.getElementById("main-menu");
+
+				if (menu.style.display === "block") {
+					menu.style.display = "none";
+					button.innerHTML = "☰";
+				} else {
+					menu.style.display = "block";
+					button.innerHTML = "✕";
+				}
+			}
+		</script>
 	</body>
 </html>

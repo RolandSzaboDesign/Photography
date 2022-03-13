@@ -194,10 +194,9 @@ strong {
 
 .header {
 	display: grid;
-	grid-gap: .5rem;
+	grid-template-columns: 1fr auto;
+	grid-gap: 1rem;
 	align-items: center;
-	justify-content: center;
-	text-align: center;
 }
 
 .logo {
@@ -217,23 +216,63 @@ strong {
 	display: block;
 	margin-top: .5rem;
 	font-weight: 300;
-	font-size: .875rem;
+	font-size: .75rem;
 	letter-spacing: 0;
 	color: var(--text);
 	text-transform: uppercase;
 }
 
+.menu-toggle {
+	cursor: pointer;
+	display: block;
+	padding: .5rem 1rem;
+	font-size: 1.5rem;
+	color: var(--text);
+	border-radius: .25rem;
+	border-bottom: 0;
+	transition: color var(--transition-duration), background-color var(--transition-duration);
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+	color: var(--highlight);
+	background-color: #FFF;
+}
+
+.nav {
+	position: absolute;
+	top: 5rem;
+	left: .5rem;
+	right: .5rem;
+	z-index: 9;
+	border-radius: .5rem;
+	background-color: rgba(255,255,255,.95);
+	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.25);
+}
+
+.nav--header {
+	display: none;
+	padding-top: .75rem;
+}
+
 .nav__item {
-	display: inline;
+	margin-bottom: 0;
 	font-size: 1rem;
 }
 
 .nav__link {
-	display: inline-block;
-	padding: .5rem .75rem;
+	display: block;
+	padding: .75rem;
 	color: var(--text);
+	text-align: center;
 	text-decoration: none;
 	border-bottom: 0;
+	transition: color var(--transition-duration), background-color var(--transition-duration);
+}
+
+.nav__link:hover,
+.nav__link:focus {
+	background-color: #FFF;
 }
 
 
@@ -250,7 +289,7 @@ strong {
 .footer__logo {
 	width: 6rem;
 	margin: 0 auto;
-	border: 0;
+	border-bottom: 0;
 }
 
 .copyright {
