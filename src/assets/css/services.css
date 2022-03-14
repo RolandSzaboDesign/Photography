@@ -19,22 +19,14 @@
 .service__photo {
 	order: -1;
 	object-fit: cover;
-	width: 16rem;
-	height: 16rem;
+	width: 12rem;
+	height: 12rem;
 	margin: 0 auto;
 	border-radius: 100rem;
 }
 
-.service__title {
-	font-weight: 600;
-	font-size: 1.5rem;
-	color: var(--text-dark);
-	letter-spacing: -.075rem;
-}
-
 .service__text {
 	margin-bottom: 0;
-	font-size: 1.25rem;
 }
 
 @media only screen and (min-width: 768px) {
