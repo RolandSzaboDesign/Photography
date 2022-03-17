@@ -59,7 +59,7 @@ body {
 	min-height: 100vh;
 	max-width: 90rem;
 	margin: 0 auto;
-	padding: 1rem;
+	padding: 1rem var(--grid-gutter);
 	font-family: var(--sans);
 	font-weight: 300;
 	color: var(--text);
@@ -92,7 +92,7 @@ img {
 }
 
 .wrapper {
-	max-width: 75rem;
+	max-width: 50rem;
 	margin: 0 auto;
 }
 
@@ -123,7 +123,7 @@ h2, .h2 {
 	letter-spacing: -.0375rem;
 }
 
-p {
+p, ul, ol {
 	margin-bottom: 1rem;
 }
 
@@ -143,23 +143,40 @@ a:focus {
 	color: var(--accent);
 }
 
+em {
+	font-style: italic;
+}
+
 strong {
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .text-center {
 	text-align: center;
 }
 
+.text-highlight {
+	color: var(--highlight);
+}
+
+.text-accent {
+	color: var(--accent);
+}
+
 .list {
 	list-style: disc;
-	margin-bottom: 1rem;
 	margin-left: 1.5rem;
 }
 
 .yuge {
 	margin-bottom: 1rem;
 	font-size: 5rem;
+}
+
+.content-box {
+	padding: var(--grid-gutter);
+	background-color: #FFF;
+	box-shadow: 0 .5rem 2rem rgba(0,0,0,.125);
 }
 
 
@@ -181,6 +198,7 @@ strong {
 .logo__name {
 	display: inline-block;
 	font-family: var(--serif);
+	font-weight: 500;
 	font-size: 2rem;
 	letter-spacing: -.0875rem;
 	color: var(--text-dark);
@@ -212,6 +230,10 @@ strong {
 .menu-toggle:focus {
 	color: var(--highlight);
 	background-color: #FFF;
+}
+
+.nav__list {
+	margin-bottom: 0;
 }
 
 .nav__item {
@@ -254,7 +276,6 @@ strong {
 .copyright {
 	margin-bottom: 0;
 	font-size: .75rem;
-	color: var(--bg-dark);
 	letter-spacing: -.015625rem;
 }
 
@@ -376,7 +397,6 @@ strong {
 	display: block;
 	width: 100%;
 	padding-top: 100%;
-	margin-bottom: .75rem;
 }
 
 .polaroid__square .polaroid__photo {
@@ -390,7 +410,9 @@ strong {
 
 .polaroid__title {
 	display: block;
+	margin-top: .75rem;
 	font-family: var(--cursive);
+	font-weight: 400;
 	font-size: 1.25rem;
 	letter-spacing: 0;
 }
@@ -447,7 +469,7 @@ strong {
 
 .faq__question:hover,
 .faq__question:focus {
-	color: var(--highlight);
+	color: var(--accent);
 }
 
 
@@ -479,6 +501,12 @@ strong {
 
 	p, li {
 		font-size: 1.125rem;
+	}
+
+	h2 {
+		margin-top: 2rem;
+		font-size: 1.375rem;
+		letter-spacing: -.05rem;
 	}
 
 	.header {
@@ -545,6 +573,11 @@ strong {
 }
 
 @media only screen and (min-width: 992px) {
+	h2 {
+		font-size: 1.5rem;
+		letter-spacing: -.0625rem;
+	}
+
 	.nav__item {
 		font-size: 1.125rem;
 	}
@@ -566,12 +599,17 @@ strong {
 		--polaroid-padding: 1.25rem;
 	}
 
+	p, ul, ol {
+		margin-bottom: 1.5rem;
+	}
+
 	p, li {
 		font-size: 1.25rem;
+		line-height: 1.6;
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	.nav {
 		display: none;
 		min-width: 100%;
