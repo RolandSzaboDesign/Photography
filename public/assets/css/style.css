@@ -522,7 +522,7 @@ strong {
 	}
 
 	h3, .h3 {
-		margin-top: 1.5rem;
+		margin-top: 1.25rem;
 		font-size: 1.5rem;
 		letter-spacing: -.05rem;
 	}
@@ -583,6 +583,21 @@ strong {
 	.copyright {
 		font-size: .875rem;
 		letter-spacing: -.03125rem;
+	}
+
+	.floating-photo {
+		width: 50%;
+		margin-bottom: 2rem;
+	}
+
+	.floating-photo--left {
+		float: left;
+		margin-right: 2rem;
+	}
+
+	.floating-photo--right {
+		float: right;
+		margin-left: 2rem;
 	}
 
 	.gallery--3-col {
