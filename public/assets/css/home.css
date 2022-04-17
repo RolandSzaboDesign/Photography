@@ -9,14 +9,7 @@
 	font-family: var(--serif);
 	font-size: 1.75rem;
 	color: var(--text-dark);
-	letter-spacing: -.075rem;
-}
-
-.home__intro {
-	margin-bottom: 1rem;
-	font-size: 1.125rem;
-	color: var(--text-dark);
-	letter-spacing: -.0375rem;
+	letter-spacing: -.05rem;
 }
 
 .home__button {
@@ -49,7 +42,7 @@
 @media only screen and (min-width: 576px) {
 	.home__intro {
 		font-size: 1.25rem;
-		letter-spacing: -.05rem;
+		letter-spacing: -.075rem;
 	}
 
 	.home__button {

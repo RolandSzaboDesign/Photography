@@ -119,7 +119,14 @@ h1, .h1 {
 h2, .h2 {
 	margin-top: 1.5rem;
 	margin-bottom: .75rem;
-	font-size: 1.25rem;
+	font-size: 1.625rem;
+	letter-spacing: -.05rem;
+}
+
+h3, .h3 {
+	margin-top: 1rem;
+	margin-bottom: .5rem;
+	font-size: 1.375rem;
 	letter-spacing: -.0375rem;
 }
 
@@ -503,9 +510,20 @@ strong {
 		font-size: 1.125rem;
 	}
 
-	h2 {
+	h1, .h1 {
+		font-size: 2rem;
+		letter-spacing: -.1rem;
+	}
+
+	h2, .h2 {
 		margin-top: 2rem;
-		font-size: 1.375rem;
+		font-size: 1.75rem;
+		letter-spacing: -.075rem;
+	}
+
+	h3, .h3 {
+		margin-top: 1.5rem;
+		font-size: 1.5rem;
 		letter-spacing: -.05rem;
 	}
 
@@ -573,11 +591,6 @@ strong {
 }
 
 @media only screen and (min-width: 992px) {
-	h2 {
-		font-size: 1.5rem;
-		letter-spacing: -.0625rem;
-	}
-
 	.nav__item {
 		font-size: 1.125rem;
 	}
