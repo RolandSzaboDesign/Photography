@@ -562,7 +562,7 @@ strong {
 		--polaroid-padding: 1rem;
 	}
 
-	p, li {
+	p, li, details {
 		font-size: 1.125rem;
 	}
 
@@ -690,7 +690,7 @@ strong {
 		margin-bottom: 1.5rem;
 	}
 
-	p, li {
+	p, li, details {
 		font-size: 1.25rem;
 		line-height: 1.6;
 	}
