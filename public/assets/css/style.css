@@ -102,6 +102,19 @@ img {
 
 .floating-photo {
 	margin-bottom: 1rem;
+	color: var(--bg-dark);
+	background-color: var(--text-dark);
+}
+
+.floating-photo__photo {
+	display: block;
+}
+
+.floating-photo__caption {
+	padding: .75rem 1rem;
+	font-size: .875rem;
+	text-align: center;
+	line-height: 1;
 }
 
 
@@ -421,11 +434,11 @@ strong {
 
 .polaroid__title {
 	display: block;
-	margin-top: .75rem;
+	margin: .75rem 0 .5rem;
 	font-family: var(--cursive);
 	font-weight: 400;
-	font-size: 1.25rem;
 	letter-spacing: 0;
+	line-height: 1;
 }
 
 
@@ -544,6 +557,10 @@ strong {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
+	.polaroid__title {
+		margin-bottom: .125rem;
+	}
+
 	.footer {
 		grid-template-columns: 1fr auto;
 		grid-gap: 1rem;
@@ -657,10 +674,6 @@ strong {
 		margin-left: 2rem;
 	}
 
-	.gallery--3-col {
-		grid-template-columns: repeat(3, 1fr);
-	}
-
 	.testimonials {
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -708,6 +721,15 @@ strong {
 		font-weight: 300;
 	}
 
+	.gallery:not(.gallery--single) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.polaroid__title {
+		margin-bottom: 0;
+		font-size: 1.125rem;
+	}
+
 	.testimonial__text {
 		font-size: 1.125rem;
 	}
@@ -726,6 +748,11 @@ strong {
 	p, li, details {
 		font-size: 1.25rem;
 		line-height: 1.6;
+	}
+
+	.polaroid__title {
+		margin-top: 1rem;
+		font-size: 1.25rem;
 	}
 
 	.testimonials {

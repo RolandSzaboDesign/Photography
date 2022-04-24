@@ -12,7 +12,7 @@ permalink: /tags/{{ tag }}/
 		<span class="category">Galleries tagged</span>
 		<h1>{{ tag | capitalize }}</h1>
 	</header>
-	<div class="gallery gallery--3-col">
+	<div class="gallery">
 		{% assign tagsies = collections[tag] %}
 		{% for post in tagsies reversed %}
 			{% assign slug = post.data.page.filePathStem | remove: post.data.page.fileSlug %}
