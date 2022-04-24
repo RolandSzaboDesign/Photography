@@ -12,7 +12,7 @@ layout: base.html
 		<a class="polaroids" href="{{ post.url }}">
 			<figure class="polaroid">
 				<div class="polaroid__square">
-					<img class="polaroid__photo" src="/assets/images/{{ slug }}/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}">
+					<img class="polaroid__photo" src="/assets/images/{{ slug }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}.jpg" alt="{{ post.data.title }}">
 				</div>
 				<figcaption class="polaroid__caption">
 					<strong class="polaroid__title">{{ post.data.title }}</strong>
