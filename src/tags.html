@@ -9,8 +9,8 @@ permalink: /tags/{{ tag }}/
 
 <main class="main">
 	<header class="page-header">
-		<span class="category">Galleries tagged</span>
-		<h1>{{ tag | capitalize }}</h1>
+		<span class="page-header__category">Galleries tagged</span>
+		<h1 class="page-header__title">{{ tag | capitalize }}</h1>
 	</header>
 	<div class="gallery">
 		{% assign tagsies = collections[tag] %}

@@ -4,8 +4,8 @@ layout: base.html
 
 <main class="main">
 	<header class="page-header">
-		<a class="category" href="/{{ tags[0] }}" title="Back to {{ tags[0] | split: '-' | join: ' ' | capitalize }}">{{ tags[0] | split: "-" | join: " " | capitalize }}</a>
-		<h1>{{ title }}</h1>
+		<a class="page-header__category" href="/{{ tags[0] }}" title="Back to {{ tags[0] | split: '-' | join: ' ' | capitalize }}">{{ tags[0] | split: "-" | join: " " | capitalize }}</a>
+		<h1 class="page-header__title">{{ title }}</h1>
 		<ul class="tags">
 			{% assign tagsies = tags | slice: 1, tags.size %}
 			{% for tag in tagsies %}

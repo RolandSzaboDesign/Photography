@@ -22,9 +22,8 @@ html { box-sizing: border-box; }
 /* Variables */
 
 :root {
-	--sans: 'Rubik', sans-serif;
+	--sans: 'Roboto Flex', sans-serif;
 	--serif: 'Playfair Display', serif;
-	--cursive: 'Architects Daughter', cursive;
 
 	--bg: #F1F5F9;
 	--bg-medium: #E1E5E9;
@@ -63,7 +62,7 @@ body {
 	font-family: var(--sans);
 	font-weight: 300;
 	color: var(--text);
-	letter-spacing: -.03125rem;
+	letter-spacing: -.025rem;
 	line-height: 1.5;
 	background-color: var(--bg);
 }
@@ -172,7 +171,7 @@ em {
 }
 
 strong {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 hr {
@@ -314,15 +313,29 @@ hr {
 /* Page Header */
 
 .page-header {
-	margin-bottom: 1.5rem;
+	margin-bottom: 2rem;
+	text-align: center;
 }
 
-.category {
+.page-header__category {
 	display: block;
 	margin-bottom: .5rem;
 	color: var(--text);
-	text-transform: capitalize;
+	letter-spacing: 0;
+	text-transform: uppercase;
 	border-bottom: 1px solid var(--bg-dark);
+}
+
+.page-header__title {
+	font-size: 2.375rem;
+	letter-spacing: -.1rem;
+}
+
+.page-header__intro {
+	margin-top: .5rem;
+	font-weight: 700;
+	font-size: 1.125rem;
+	letter-spacing: -.03125rem;
 }
 
 
@@ -332,12 +345,13 @@ hr {
 .tags {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin-top: 1rem;
 }
 
 .tag {
 	margin-right: .5rem;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: .75rem;
 	letter-spacing: 0;
 	text-transform: uppercase;
@@ -440,11 +454,12 @@ hr {
 
 .polaroid__title {
 	display: block;
-	margin: .75rem 0 .5rem;
-	font-family: var(--cursive);
-	font-weight: 400;
-	letter-spacing: 0;
-	line-height: 1;
+	padding: 1rem 1rem .75rem;
+	font-family: var(--serif);
+	font-size: 1.5rem;
+	font-weight: 300;
+	letter-spacing: -.0375rem;
+	line-height: 1.125;
 }
 
 
@@ -454,7 +469,7 @@ hr {
 .button {
 	display: inline-block;
 	padding: .75rem 1.25rem;
-	font-weight: 600;
+	font-weight: 700;
 	color: #FFF;
 	letter-spacing: 0;
 	text-transform: uppercase;
@@ -493,7 +508,7 @@ hr {
 
 .faq__question {
 	cursor: pointer;
-	font-weight: 600;
+	font-weight: 700;
 	transition: color var(--transition-duration);
 }
 
@@ -561,10 +576,6 @@ hr {
 
 	.gallery {
 		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.polaroid__title {
-		margin-bottom: .125rem;
 	}
 
 	.footer {
@@ -663,7 +674,6 @@ hr {
 
 	.copyright {
 		font-size: .875rem;
-		letter-spacing: -.03125rem;
 	}
 
 	.floating-photo {
@@ -731,11 +741,6 @@ hr {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-	.polaroid__title {
-		margin-bottom: 0;
-		font-size: 1.125rem;
-	}
-
 	.testimonial__text {
 		font-size: 1.125rem;
 	}
@@ -754,11 +759,6 @@ hr {
 	p, li, details {
 		font-size: 1.25rem;
 		line-height: 1.6;
-	}
-
-	.polaroid__title {
-		margin-top: 1rem;
-		font-size: 1.25rem;
 	}
 
 	.testimonials {
@@ -786,6 +786,6 @@ hr {
 	}
 
 	.nav__list > .nav__item > .nav__link {
-		font-weight: 600;
+		font-weight: 700;
 	}
 }
