@@ -162,6 +162,7 @@ em {
 
 strong {
 	font-weight: 700;
+	color: var(--text-dark);
 }
 
 hr {

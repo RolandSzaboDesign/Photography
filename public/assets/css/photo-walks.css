@@ -1,0 +1,24 @@
+.how-it-works {
+	counter-reset: item;
+}
+
+.how-it-works__item + .how-it-works__item {
+	margin-top: 2rem;
+}
+
+.how-it-works__title:before {
+	content: counter(item);
+	counter-increment: item;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 3rem;
+	height: 3rem;
+	margin-right: .5rem;
+	font-family: var(--sans);
+	font-weight: 700;
+	line-height: 1;
+	border-radius: 1.5rem;
+	color: #FFF;
+	background-color: var(--highlight);
+}
