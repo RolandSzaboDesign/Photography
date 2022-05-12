@@ -80,16 +80,6 @@ img {
 	border-bottom: 1px solid var(--bg-medium);
 }
 
-.main--home {
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	min-height: 30rem;
-	padding: 0;
-	border: 0;
-	justify-content: flex-end;
-}
-
 .wrapper {
 	max-width: 50rem;
 	margin: 0 auto;
@@ -723,6 +713,17 @@ hr {
 }
 
 @media only screen and (min-width: 992px) {
+	h2, .h2 {
+		font-size: 1.75rem;
+		letter-spacing: -.0875rem;
+	}
+
+	h3, .h3 {
+		margin-top: 1.5rem;
+		font-size: 1.625rem;
+		letter-spacing: -.0625rem;
+	}
+
 	.nav__item {
 		font-size: 1.125rem;
 	}

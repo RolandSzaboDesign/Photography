@@ -1,15 +1,26 @@
+.main--home {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	min-height: 30rem;
+	padding: 0;
+	border: 0;
+	justify-content: flex-end;
+}
+
 .home {
 	max-width: 32rem;
+	margin: .75rem;
 	padding: var(--grid-gutter);
 	background-color: rgba(255,255,255,.75);
 }
 
 .home__title {
-	margin-bottom: .75rem;
+	margin-bottom: 1rem;
 	font-family: var(--serif);
-	font-size: 1.75rem;
+	font-size: 1.625rem;
 	color: var(--text-dark);
-	letter-spacing: -.05rem;
+	letter-spacing: -.0625rem;
 }
 
 .home__button {
@@ -18,10 +29,11 @@
 }
 
 .home__link {
-	display: inline-block;
-	margin-top: .75rem;
+	display: block;
+	margin-top: .5rem;
 	color: var(--text);
-	border-bottom-color: var(--bg-darker);
+	text-align: center;
+	border-bottom: 0;
 }
 
 .home__bg {
@@ -40,9 +52,8 @@
 }
 
 @media only screen and (min-width: 576px) {
-	.home__intro {
-		font-size: 1.25rem;
-		letter-spacing: -.075rem;
+	.home__title {
+		margin-bottom: 1.25rem;
 	}
 
 	.home__button {
@@ -50,8 +61,8 @@
 	}
 
 	.home__link {
-		margin-top: 0;
-		margin-left: 1rem;
+		display: inline-block;
+		margin: 0 0 0 1rem;
 	}
 }
 
@@ -61,23 +72,12 @@
 		font-size: 2rem;
 		letter-spacing: -.1rem;
 	}
-
-	.home__intro {
-		margin-bottom: 1.5rem;
-		font-size: 1.5rem;
-		letter-spacing: -.0625rem;
-	}
 }
 
 @media only screen and (min-width: 992px) {
 	.home__title {
+		margin-bottom: 1.5rem;
 		font-size: 2.5rem;
-		letter-spacing: -.125rem;
-	}
-
-	.home__intro {
-		margin-bottom: 2rem;
-		font-size: 1.75rem;
-		letter-spacing: -.075rem;
+		letter-spacing: -.1rem;
 	}
 }
