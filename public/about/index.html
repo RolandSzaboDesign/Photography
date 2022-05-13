@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>About | Roland Szabó Photography</title>
+		<title>Roland Szabó Photography</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -21,13 +21,13 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/about/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="Budapest-based amateur photographer, currently open to opportunities.">
-		<meta property="og:title" content="About | Roland Szabó Photography">
+		<meta property="og:description" content="I create outdoor portraits on relaxed photowalks in and around Budapest.">
+		<meta property="og:title" content="Roland Szabó Photography">
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Rubik:wght@300;500&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
@@ -35,52 +35,89 @@
 	</head>
 	<body>
 		<header class="header">
-	<a class="logo" href="/">
+	<a class="logo" href="/" title="Back to the Homepage">
 		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest-based Photographer 🇭🇺</span>
+		<span class="logo__tagline">Budapest-based Photographer</span>
 	</a>
-	<nav class="nav nav--header">
+	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+	<nav id="main-menu" class="nav nav--header">
 		<ul class="nav__list">
-			<li class="nav__item"><a class="nav__link" href="/automotive">Automotive</a></li>
-			<li class="nav__item"><a class="nav__link" href="/portrait">Portrait</a></li>
-			<li class="nav__item"><a class="nav__link" href="/street">Street</a></li>
-			<li class="nav__item"><a class="nav__link" href="/landscape">Landscape</a></li>
+			<li class="nav__item">
+				<a class="nav__link" href="/about">About</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/galleries">Galleries</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/portraiture">Portraiture</a></li>
+					<li class="nav__item"><a class="nav__link" href="/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/automotive">Automotive</a></li>
+				</ul>
+			</li>
+			<!-- <li class="nav__item">
+				<a class="nav__link" href="/services">Services</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/services/portrait-photo-walks">Portrait Photo Walks</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/car-photography">Car Photography</a></li>
+				</ul>
+			</li> -->
+			<li class="nav__item">
+				<a class="nav__link" href="/services/portrait-photo-walks">Photo Walks</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/contact">Contact</a>
+			</li>
 		</ul>
 	</nav>
 </header>
 
-
-		<main class="main">
-			
-<div class="wrapper">
+		
+<main class="main">
+	<header class="page-header">
+		<h1>About</h1>
+	</header>
 	<section class="about">
-		<article class="about__text">
-			<h1 class="page-title">About</h1>
-			<p>Hey, I'm Roland, nice to meet you! I'm a 32-year-old aspiring amateur photographer from Budapest, Hungary. I used to shoot on my phone a lot, and I picked up a digital camera about a year ago.</p>
-			<p>I primarily shoot solo and couple portraits, vehicles, landscapes and streets, but I don't shy away from the occasional product and event photography every now and then.</p>
-			<p>I shoot on my trusty Sony Alpha 6400 with a bunch of amazing lenses: the Sigma 56mm f/1.4, Sigma 30mm f/1.4, and the Sony 85mm f/1.8 as my primes, and the Tamron 17-70mm f/2.8 for run-and-gun situations.</p>
+		<article class="about__content content-box">
+			<p>Hey, I'm Roland, nice to meet you! I'm a 32-year-old aspiring amateur photographer from Budapest, Hungary. I used to shoot on my phone a lot, and I picked up a digital camera about a good year-and-a-half ago.</p>
+			<p>I got very close to technology at a rather young age, and I've always been fascinated of the ways I was able to create. I've tried multiple avenues of creativity, including music and design, but photography has definitely become the one I got to feel the most fulfilled in. The ability to capture moments and share them with others is what drives me on this journey.</p>
+			<p>I've been shooting APS-C since the day I started photography, first with the Sony Alpha 6000 for a good year, then I upgraded to the a6400. I have an army of <a href="/gear">lenses and accessories</a> for almost all situations.</p>
 			<p>When not out shooting or editing, <a href="https://rolandszabo.design" target="_blank" rel="noopener noreferrer">I design webthings</a> for a living, and I play video- and board games for fun. My other hobbies are cardistry and getting quicker at solving the 3×3 Rubik's cube.</p>
 			<p>Don't be afraid to <a href="/contact">say hello</a>!</p>
+			<h2>Some Interesting Facts</h2>
+			<ul class="list">
+				<li><strong>I'm an introvert.</strong> I absolutely love working with people, but my social battery can sometimes drain rather quickly.</li>
+				<li><strong>I'm a tech nerd.</strong> I love talking about technology and techniques in photography, so if you pop a question, be ready for the long answer.</li>
+				<li><strong>I'm a perfectionist.</strong> I strive for the utmost precision and I fight for every single detail in my work.</li>
+			</ul>
 		</article>
-		<img class="about__photo" src="/assets/images/roland-about.jpg" alt="Photo of Roland Szabó" title="G'day mate!">
+		<figure class="about__photo">
+			<img src="/assets/images/roland-about.jpg" alt="Photo of Roland Szabó" title="I'm on fire, baby!">
+			<figcaption><em>Photo by <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">Peter Lakinger</a></em></figcaption>
+		</figure>
 	</section>
-</div>
-
-		</main>
+</main>
 
 		<footer class="footer">
-	<nav class="nav nav--footer">
-		<ul class="nav__list">
-			<li class="nav__item"><a class="nav__link" href="/about">About</a></li>
-			<li class="nav__item"><a class="nav__link" href="/legal">Legal</a></li>
-			<li class="nav__item"><a class="nav__link" href="/contact">Contact</a></li>
-		</ul>
-	</nav>
+	<p class="copyright">&copy; 2022 &ndash; Roland Szabó. All rights reserved.</p>
 	<a class="footer__logo" href="#" title="Back to top">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography logo">
+		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography">
 	</a>
-	<p class="copyright">&copy; 2021 &ndash; Roland Szabó. All rights reserved.</p>
 </footer>
 
+
+		<script>
+			function toggleMainMenu() {
+				var button = document.getElementById("menu-toggle");
+				var menu = document.getElementById("main-menu");
+
+				if (menu.style.display === "block") {
+					menu.style.display = "none";
+					button.innerHTML = "☰";
+				} else {
+					menu.style.display = "block";
+					button.innerHTML = "✕";
+				}
+			}
+		</script>
 	</body>
 </html>

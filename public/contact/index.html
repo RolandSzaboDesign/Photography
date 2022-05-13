@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Contact | Roland Szabó Photography</title>
+		<title>Roland Szabó Photography</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -21,13 +21,13 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/contact/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="Budapest-based amateur photographer, currently open to opportunities.">
-		<meta property="og:title" content="Contact | Roland Szabó Photography">
+		<meta property="og:description" content="I create outdoor portraits on relaxed photowalks in and around Budapest.">
+		<meta property="og:title" content="Roland Szabó Photography">
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Rubik:wght@300;500&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
@@ -35,81 +35,117 @@
 	</head>
 	<body>
 		<header class="header">
-	<a class="logo" href="/">
+	<a class="logo" href="/" title="Back to the Homepage">
 		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest-based Photographer 🇭🇺</span>
+		<span class="logo__tagline">Budapest-based Photographer</span>
 	</a>
-	<nav class="nav nav--header">
+	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+	<nav id="main-menu" class="nav nav--header">
 		<ul class="nav__list">
-			<li class="nav__item"><a class="nav__link" href="/automotive">Automotive</a></li>
-			<li class="nav__item"><a class="nav__link" href="/portrait">Portrait</a></li>
-			<li class="nav__item"><a class="nav__link" href="/street">Street</a></li>
-			<li class="nav__item"><a class="nav__link" href="/landscape">Landscape</a></li>
+			<li class="nav__item">
+				<a class="nav__link" href="/about">About</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/galleries">Galleries</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/portraiture">Portraiture</a></li>
+					<li class="nav__item"><a class="nav__link" href="/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/automotive">Automotive</a></li>
+				</ul>
+			</li>
+			<!-- <li class="nav__item">
+				<a class="nav__link" href="/services">Services</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/services/portrait-photo-walks">Portrait Photo Walks</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/car-photography">Car Photography</a></li>
+				</ul>
+			</li> -->
+			<li class="nav__item">
+				<a class="nav__link" href="/services/portrait-photo-walks">Photo Walks</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/contact">Contact</a>
+			</li>
 		</ul>
 	</nav>
 </header>
 
-
-		<main class="main">
-			
-<div class="wrapper">
+		
+<main class="main">
+	<header class="page-header">
+		<h1>Contact</h1>
+	</header>
 	<section class="contact">
-		<article class="contact__text">
-			<h1 class="page-title">Contact</h1>
-			<p>I'm currently <strong>open to opportunities</strong> in and around Budapest.</p>
-			<p>I'd love to try my hands in more aspects of photography. I'm eager to learn new ways to create, and I'd love an opportunity that would allow me to do so.</p>
-			<div class="alert">
-				<p>I would absolutely love to hear from you if you:</p>
-				<ul class="list">
-					<li>need your portrait taken, solo or group,</li>
-					<li>own a car you want to sell and need proper photos,</li>
-					<li>own a place that needs interior and product photos for social media,</li>
-					<li>want to go on a photo walk with me in or around Budapest,</li>
-					<li>just want to say hello.</li>
-				</ul>
-				<p><a href="mailto:hi@rolandszabo.photo" target="_blank" rel="noopener noreferrer">Come say hi</a>, I don't bite!</p>
-			</div>
-
-			<h2 class="subtitle">Social Media</h2>
-			<p>I'm all over the place on socials, let me explain what's what.</p>
-			<ul>
-				<li class="social">
-					<strong class="social__name"><a href="https://instagram.com/szabokaphoto/" target="_blank">Instagram: @szabokaphoto</a></strong>
-					My main place on the interwebs currently. This is the IG profile for my regular photos, I am the most active here. English/Hungarian.
-				</li>
-				<li class="social">
-					<strong class="social__name"><a href="https://instagram.com/szabokacars/" target="_blank">Instagram: @szabokacars</a></strong>
-					A dedicated IG account for my car photography and carspotting shots. English/Hungarian.
-				</li>
-				<li class="social">
-					<strong class="social__name"><a href="https://twitter.com/szabokaphoto/" target="_blank">Twitter: @szabokaphoto</a></strong>
-					Been having loads of fun on Twitter recently. Definitely come say hi! English.
-				</li>
-				<!-- <li>
-					<strong><a href="https://www.shutterstock.com/g/RolandSzaboPhotography?rid=292483679" target="_blank">Shutterstock</a></strong>
-					A place to sell some of my best images as stock photos.
-				</li> -->
+		<article class="contact__content content-box">
+			<p>I'm currently <strong>available ✅</strong> for photoshoots in the Budapest area.</p>
+			<p>I'd love to work with you in:</p>
+			<ul class="list">
+				<li><strong>Portraiture</strong> &ndash; solo, couples, and families; outdoor photo walks, studio sessions, and creative/fashion shoots</li>
+				<li><strong>Automotive</strong> &ndash; car beauty photoshoots if you're keeping it, or used car photos if you're selling it</li>
+				<li><strong>Social Content</strong> &ndash; photo stories and product photos for your company's website or social media</li>
 			</ul>
+			<p>Also, don't be afraid to contact me if you:</p>
+			<ul class="list">
+				<li>want to accompany me on one of my photo walks, shooting together</li>
+				<li>just want to say <em>hi</em></li>
+			</ul>
+			<p class="cta">
+				<a class="button" href="mailto:hi@rolandszabo.photo">✉&nbsp; Dear Roland&hellip;</a>
+			</p>
+			<h2>Social Media</h2>
+			<p>You can find me on these platforms. Give me a follow if you like what you see!</p>
+			<ul class="list">
+				<li><strong><a href="https://instagram.com/szabokaphoto/" target="_blank" rel="noopener noreferrer">Instagram</a></strong> &ndash; My primary place on the interwebs where I post everything from my daily street photos to portraits to social content. Posting mostly every day.</li>
+				<li><strong><a href="https://twitter.com/szabokaphoto/" target="_blank" rel="noopener noreferrer">Twitter</a></strong> &ndash; Currently an almost-mirror of my Instagram posts, but with a very different audience, and I love Twitter for it.</li>
+				<li><strong><a href="https://facebook.com/RolandSzaboPhotography/" target="_blank" rel="noopener noreferrer">Facebook</a></strong> &ndash; My page for those who use Facebook. Currently mirroring Instagram posts.</li>
+			</ul>
+			<h2>Acknowledgements</h2>
+			<p>A huge thanks goes to my dear friends who allowed me to use their photos of myself on this website:</p>
+			<ul class="list">
+				<li>About page and Contact page photos by <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">Peter Lakinger</a></li>
+				<li>Portrait Photo Walks page photos by <a href="https://www.instagram.com/james.acs.tta/" target="_blank" rel="noopener noreferrer">Csanád Alföldi</a> and <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">Dános Németh</a></li>
+				<li>OG image photo by <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">Peter Lakinger</a></li>
+			</ul>
+			<h2>Credits</h2>
+			<p>Website hand-crafted in HTML/CSS/JavaScript by <a href="https://rolandszabo.design/" target="_blank">Roland Szabó</a>. Generated with <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a>, hosted by <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>.</p>
+			<h2>Legal</h2>
+			<p>All creative material, including all photos displayed on this website is property of Roland Szabó, unless noted otherwise. Use of this material without my permission is prohibited. If you'd like to use any of my work in your project, send me an email and we'll figure it out.</p>
+			<p>This website does not use cookies.</p>
+			<hr>
+			<p>Alright, enough reading&hellip;</p>
+			<p class="cta">
+				<a class="button" href="mailto:hi@rolandszabo.photo">✉&nbsp; Write an email</a>
+			</p>
 		</article>
-		<img class="contact__photo" src="/assets/images/roland-contact.jpg" alt="Photo of Roland Szabó" title="How can I help you?">
+		<figure class="contact__photo">
+			<img src="/assets/images/roland-contact.jpg" alt="Photo of Roland Szabó" title="How can I help you?">
+			<figcaption><em>Photo and edit by <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">Peter Lakinger</a></em></figcaption>
+		</figure>
 	</section>
-</div>
-
-		</main>
+</main>
 
 		<footer class="footer">
-	<nav class="nav nav--footer">
-		<ul class="nav__list">
-			<li class="nav__item"><a class="nav__link" href="/about">About</a></li>
-			<li class="nav__item"><a class="nav__link" href="/legal">Legal</a></li>
-			<li class="nav__item"><a class="nav__link" href="/contact">Contact</a></li>
-		</ul>
-	</nav>
+	<p class="copyright">&copy; 2022 &ndash; Roland Szabó. All rights reserved.</p>
 	<a class="footer__logo" href="#" title="Back to top">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography logo">
+		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography">
 	</a>
-	<p class="copyright">&copy; 2021 &ndash; Roland Szabó. All rights reserved.</p>
 </footer>
 
+
+		<script>
+			function toggleMainMenu() {
+				var button = document.getElementById("menu-toggle");
+				var menu = document.getElementById("main-menu");
+
+				if (menu.style.display === "block") {
+					menu.style.display = "none";
+					button.innerHTML = "☰";
+				} else {
+					menu.style.display = "block";
+					button.innerHTML = "✕";
+				}
+			}
+		</script>
 	</body>
 </html>

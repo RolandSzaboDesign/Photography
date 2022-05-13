@@ -1,68 +1,84 @@
-.homepage {
-	display: grid;
-	grid-gap: 1rem;
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.homepage-photo {
-	border: 0;
-}
-
-.homepage-photo:hover .homepage-photo__image,
-.homepage-photo:focus .homepage-photo__image {
-	transform: scale(1.1);
-}
-
-.homepage-photo__figure {
-	overflow: hidden;
+.main--home {
+	display: flex;
+	flex-direction: column;
 	position: relative;
+	min-height: 30rem;
+	padding: 0;
+	border-top: 0;
+	border-bottom: 0;
+	justify-content: flex-end;
 }
 
-.homepage-photo__image {
+.home {
+	max-width: 32rem;
+	margin: .75rem;
+	padding: var(--grid-gutter);
+	background-color: rgba(255,255,255,.75);
+}
+
+.home__title {
+	margin-bottom: 1rem;
+	font-family: var(--serif);
+	font-size: 1.625rem;
+	color: var(--text-dark);
+	letter-spacing: -.0625rem;
+}
+
+.home__button {
 	display: block;
-	transition: transform .3s;
+	text-align: center;
 }
 
-.homepage-photo__caption {
+.home__link {
+	display: block;
+	margin-top: .5rem;
+	color: var(--text);
+	text-align: center;
+	border-bottom: 0;
+}
+
+.home__bg {
 	position: absolute;
+	top: 0;
 	left: 0;
 	right: 0;
-	bottom: .5rem;
-	color: #FFF;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: .0675rem;
-	text-shadow: 0 .125rem .5rem #000, 0 .25rem 2rem #000;
+	bottom: 0;
+	z-index: -1;
+}
+
+.home__bg img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+	.home__title {
+		margin-bottom: 1.25rem;
+	}
+
+	.home__button {
+		display: inline-block;
+	}
+
+	.home__link {
+		display: inline-block;
+		margin: 0 0 0 1rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.home__title {
+		margin-bottom: 1rem;
+		font-size: 2rem;
+		letter-spacing: -.1rem;
+	}
 }
 
 @media only screen and (min-width: 992px) {
-	.main { display: flex; }
-
-	.homepage {
-		flex-grow: 1;
-		grid-template-columns: repeat(4, 1fr);
-		grid-gap: 1rem;
-	}
-
-	.homepage-photo__figure {
-		height: 100%;
-	}
-
-	.homepage-photo__image {
-		height: 100%;
-		object-fit: cover;
-	}
-
-	.homepage-photo__caption {
-		opacity: 0;
-		bottom: 1rem;
-		letter-spacing: 1rem;
-		transition: opacity .3s, letter-spacing .3s;
-	}
-
-	.homepage-photo:hover .homepage-photo__caption,
-	.homepage-photo:focus .homepage-photo__caption {
-		opacity: 1;
-		letter-spacing: .25rem;
+	.home__title {
+		margin-bottom: 1.5rem;
+		font-size: 2.5rem;
+		letter-spacing: -.1rem;
 	}
 }

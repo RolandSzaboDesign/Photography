@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Automotive Photos | Roland Szabó Photography</title>
+		<title>Automotive | Roland Szabó Photography</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -21,90 +21,142 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/automotive/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="Budapest-based amateur photographer, currently open to opportunities.">
-		<meta property="og:title" content="Automotive Photos | Roland Szabó Photography">
+		<meta property="og:description" content="I create outdoor portraits on relaxed photowalks in and around Budapest.">
+		<meta property="og:title" content="Automotive | Roland Szabó Photography">
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Rubik:wght@300;500&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
-		<link rel="stylesheet" href="/assets/css/gallery.css">
 	</head>
 	<body>
 		<header class="header">
-	<a class="logo" href="/">
+	<a class="logo" href="/" title="Back to the Homepage">
 		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest-based Photographer 🇭🇺</span>
+		<span class="logo__tagline">Budapest-based Photographer</span>
 	</a>
-	<nav class="nav nav--header">
+	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+	<nav id="main-menu" class="nav nav--header">
 		<ul class="nav__list">
-			<li class="nav__item"><a class="nav__link" href="/automotive">Automotive</a></li>
-			<li class="nav__item"><a class="nav__link" href="/portrait">Portrait</a></li>
-			<li class="nav__item"><a class="nav__link" href="/street">Street</a></li>
-			<li class="nav__item"><a class="nav__link" href="/landscape">Landscape</a></li>
+			<li class="nav__item">
+				<a class="nav__link" href="/about">About</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/galleries">Galleries</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/portraiture">Portraiture</a></li>
+					<li class="nav__item"><a class="nav__link" href="/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/automotive">Automotive</a></li>
+				</ul>
+			</li>
+			<!-- <li class="nav__item">
+				<a class="nav__link" href="/services">Services</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/services/portrait-photo-walks">Portrait Photo Walks</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/car-photography">Car Photography</a></li>
+				</ul>
+			</li> -->
+			<li class="nav__item">
+				<a class="nav__link" href="/services/portrait-photo-walks">Photo Walks</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/contact">Contact</a>
+			</li>
 		</ul>
 	</nav>
 </header>
 
-
-		<main class="main">
-			
-<header class="page-header">
-	<h1 class="page-title">Automotive Photos</h1>
-	<p>Ever since my dad gave me my first computer at the age of 12, I've always had car wallpapers on my desktop. Over the years, I started developing a great admiration for cars. Today, I'm lucky to be shooting these very wallpapers myself to inspire others.</p>
-</header>
-
-<section class="gallery">
-		<a class="photo" href="/automotive/mol-limo-2/">
-			<img class="photo__image" src="/assets/images/automotive/mol-limo-2.jpg" alt="MOL Limo × Budapart Lifestyle fotózás" title="MOL Limo × Budapart Lifestyle fotózás">
+		
+<main class="main">
+	<header class="page-header">
+		<a class="page-header__category" href="/galleries" title="Back to Galleries">Galleries</a>
+		<h1 class="page-header__title">Automotive</h1>
+	</header>
+	<div class="gallery">
+		
+		<a class="polaroids" href="/automotive/huracan-evo-spyder/">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/automotive/huracan-evo-spyder/01.jpg" alt="Lamborghini Huracán EVO Spyder">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Lamborghini Huracán EVO Spyder</strong>
+				</figcaption>
+			</figure>
 		</a>
-		<a class="photo" href="/automotive/mol-limo-1/">
-			<img class="photo__image" src="/assets/images/automotive/mol-limo-1.jpg" alt="MOL Limo × Budapart Lifestyle fotózás" title="MOL Limo × Budapart Lifestyle fotózás">
+		
+		<a class="polaroids" href="/automotive/amg-a35/">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/automotive/amg-a35/01.jpg" alt="Mercedes-AMG A35 Sedan">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Mercedes-AMG A35 Sedan</strong>
+				</figcaption>
+			</figure>
 		</a>
-		<a class="photo" href="/automotive/huracan/">
-			<img class="photo__image" src="/assets/images/automotive/huracan.jpg" alt="2019 Lamborghini Huracán EVO Spyder" title="2019 Lamborghini Huracán EVO Spyder">
+		
+		<a class="polaroids" href="/automotive/991.2-cabriolet/">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/automotive/991.2-cabriolet/01.jpg" alt="Porsche 911 Carrera Cabriolet 991.2">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Porsche 911 Carrera Cabriolet 991.2</strong>
+				</figcaption>
+			</figure>
 		</a>
-		<a class="photo" href="/automotive/r8-green-hell/">
-			<img class="photo__image" src="/assets/images/automotive/r8-green-hell.jpg" alt="2020 Audi R8 V10 Green Hell Edition" title="2020 Audi R8 V10 Green Hell Edition">
+		
+		<a class="polaroids" href="/automotive/rs5-r/">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/automotive/rs5-r/01.jpg" alt="Audi ABT RS5-R Coupé">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Audi ABT RS5-R Coupé</strong>
+				</figcaption>
+			</figure>
 		</a>
-		<a class="photo" href="/automotive/aventador-svj/">
-			<img class="photo__image" src="/assets/images/automotive/aventador-svj.jpg" alt="2018 Lamborghini Aventador SVJ" title="2018 Lamborghini Aventador SVJ">
+		
+		<a class="polaroids" href="/automotive/924/">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/automotive/924/01.jpg" alt="Porsche 924">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Porsche 924</strong>
+				</figcaption>
+			</figure>
 		</a>
-		<a class="photo" href="/automotive/amg-a35/">
-			<img class="photo__image" src="/assets/images/automotive/amg-a35.jpg" alt="2019 Mercedes-AMG A35 Sedan" title="2019 Mercedes-AMG A35 Sedan">
-		</a>
-		<a class="photo" href="/automotive/911-cabriolet/">
-			<img class="photo__image" src="/assets/images/automotive/911-cabriolet.jpg" alt="2016 Porsche 911 (991.2) Carrera Cabriolet" title="2016 Porsche 911 (991.2) Carrera Cabriolet">
-		</a>
-		<a class="photo" href="/automotive/a5/">
-			<img class="photo__image" src="/assets/images/automotive/a5.jpg" alt="2009 Audi A5 B8 3.0 TDI" title="2009 Audi A5 B8 3.0 TDI">
-		</a>
-		<a class="photo" href="/automotive/amg-gts/">
-			<img class="photo__image" src="/assets/images/automotive/amg-gts.jpg" alt="2015 Mercedes-AMG GTS Edition 1" title="2015 Mercedes-AMG GTS Edition 1">
-		</a>
-		<a class="photo" href="/automotive/rs5-r/">
-			<img class="photo__image" src="/assets/images/automotive/rs5-r.jpg" alt="2018 Audi ABT RS5-R Coupé" title="2018 Audi ABT RS5-R Coupé">
-		</a>
-</section>
-
-		</main>
+		
+	</div>
+</main>
 
 		<footer class="footer">
-	<nav class="nav nav--footer">
-		<ul class="nav__list">
-			<li class="nav__item"><a class="nav__link" href="/about">About</a></li>
-			<li class="nav__item"><a class="nav__link" href="/legal">Legal</a></li>
-			<li class="nav__item"><a class="nav__link" href="/contact">Contact</a></li>
-		</ul>
-	</nav>
+	<p class="copyright">&copy; 2022 &ndash; Roland Szabó. All rights reserved.</p>
 	<a class="footer__logo" href="#" title="Back to top">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography logo">
+		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography">
 	</a>
-	<p class="copyright">&copy; 2021 &ndash; Roland Szabó. All rights reserved.</p>
 </footer>
 
+
+		<script>
+			function toggleMainMenu() {
+				var button = document.getElementById("menu-toggle");
+				var menu = document.getElementById("main-menu");
+
+				if (menu.style.display === "block") {
+					menu.style.display = "none";
+					button.innerHTML = "☰";
+				} else {
+					menu.style.display = "block";
+					button.innerHTML = "✕";
+				}
+			}
+		</script>
 	</body>
 </html>
