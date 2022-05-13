@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Roland Szabó Photography</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+		<link rel="manifest" href="/assets/favicons/site.webmanifest">
+		<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- OpenGraph -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://rolandszabo.photo/galleries/">
+		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
+		<meta property="og:description" content="Budapest-based amateur photographer, currently open to opportunities.">
+		<meta property="og:title" content="Roland Szabó Photography">
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="/assets/css/style.css">
+	</head>
+	<body>
+		<header class="header">
+	<a class="logo" href="/" title="Back to the Homepage">
+		<strong class="logo__name">Roland Szabó</strong>
+		<span class="logo__tagline">Budapest-based Photographer</span>
+	</a>
+	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+	<nav id="main-menu" class="nav nav--header">
+		<ul class="nav__list">
+			<li class="nav__item">
+				<a class="nav__link" href="/about">About</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/galleries">Galleries</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/portraiture">Portraiture</a></li>
+					<li class="nav__item"><a class="nav__link" href="/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/automotive">Automotive</a></li>
+				</ul>
+			</li>
+			<!-- <li class="nav__item">
+				<a class="nav__link" href="/services">Services</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/services/portrait-photo-walks">Portrait Photo Walks</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/social-content">Social Content</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/car-photography">Car Photography</a></li>
+				</ul>
+			</li> -->
+			<li class="nav__item">
+				<a class="nav__link" href="/services/portrait-photo-walks">Photo Walks</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/contact">Contact</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+		
+<main class="main">
+	<header class="page-header">
+		<h1>Galleries</h1>
+	</header>
+	<div class="gallery">
+		<a class="polaroids" href="/portraiture">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/portraiture/daniella/02.jpg" alt="Portraiture">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Portraiture</strong>
+				</figcaption>
+			</figure>
+		</a>
+		<a class="polaroids" href="/social-content">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/social-content/inna-faith-tattoo/14.jpg" alt="Social Content">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Social Content</strong>
+				</figcaption>
+			</figure>
+		</a>
+		<a class="polaroids" href="/automotive">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/automotive/991.2-cabriolet/06.jpg" alt="Automotive">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Automotive</strong>
+				</figcaption>
+			</figure>
+		</a>
+	</div>
+	<!-- <div class="gallery">
+		<a class="polaroids" href="/street">
+			<figure class="polaroid">
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Street</strong>
+				</figcaption>
+			</figure>
+		</a>
+		<a class="polaroids" href="/landscape">
+			<figure class="polaroid">
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">Landscape</strong>
+				</figcaption>
+			</figure>
+		</a>
+	</div> -->
+</main>
+
+		<footer class="footer">
+	<p class="copyright">&copy; 2022 &ndash; Roland Szabó. All rights reserved.</p>
+	<a class="footer__logo" href="#" title="Back to top">
+		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography">
+	</a>
+</footer>
+
+
+		<script>
+			function toggleMainMenu() {
+				var button = document.getElementById("menu-toggle");
+				var menu = document.getElementById("main-menu");
+
+				if (menu.style.display === "block") {
+					menu.style.display = "none";
+					button.innerHTML = "☰";
+				} else {
+					menu.style.display = "block";
+					button.innerHTML = "✕";
+				}
+			}
+		</script>
+	</body>
+</html>
