@@ -1,0 +1,16 @@
+---
+permalink: "/{{ locale }}/"
+layout: layouts/base.html
+css: home
+---
+
+<main class="main main--home">
+	<div class="home">
+		<h1 class="home__title">{{ site[locale].homepageTitle }}</h1>
+		<a class="home__button button" href="/services/portrait-photo-walks">{{ site[locale].homepageButton }}</a>
+		<a class="home__link" href="/galleries">{{ site[locale].homepageLink }}</a>
+		<div class="home__bg">
+			<img src="/assets/images/home-bg.jpg">
+		</div>
+	</div>
+</main>

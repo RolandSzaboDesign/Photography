@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>{% if title %}{{ title }} | {% endif %}Roland Szabó Photography</title>
+		<title>{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -36,9 +36,9 @@
 		{%- endif %}
 	</head>
 	<body>
-		{% include "header.html" %}
+		{% include "partials/header.html" %}
 		{{ content }}
-		{% include "footer.html" %}
+		{% include "partials/footer.html" %}
 
 		<script>
 			function toggleMainMenu() {

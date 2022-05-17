@@ -1,0 +1,43 @@
+<header class="header">
+	<a class="logo" href="/{{ locale }}/" title="Back to the Homepage">
+		<strong class="logo__name">{{ site[locale].headerName }}</strong>
+		<span class="logo__tagline">{{ site[locale].headerDescription }}</span>
+	</a>
+	<nav class="lang">
+		<ul class="lang__list">
+			{% for lang in site.languages %}
+				<li class="lang__item"><a class="lang__link" href="/{{ lang.code }}/">{{ lang.label }}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+	<nav id="main-menu" class="nav nav--header">
+		<ul class="nav__list">
+			<li class="nav__item">
+				<a class="nav__link" href="/about">{{ site[locale].navAbout }}</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/galleries">{{ site[locale].navGalleries }}</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/portraiture">{{ site[locale].navGalleriesPortraiture }}</a></li>
+					<li class="nav__item"><a class="nav__link" href="/social-content">{{ site[locale].navGalleriesSocialContent }}</a></li>
+					<li class="nav__item"><a class="nav__link" href="/automotive">{{ site[locale].navGalleriesAutomotive }}</a></li>
+				</ul>
+			</li>
+			<!-- <li class="nav__item">
+				<a class="nav__link" href="/services">{{ site[locale].navServices }}</a>
+				<ul class="nav__dropdown">
+					<li class="nav__item"><a class="nav__link" href="/services/portrait-photo-walks">{{ site[locale].navServicesPortraiture }}</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/social-content">{{ site[locale].navServicesSocialContent }}</a></li>
+					<li class="nav__item"><a class="nav__link" href="/services/car-photography">{{ site[locale].navServicesAutomotive }}</a></li>
+				</ul>
+			</li> -->
+			<li class="nav__item">
+				<a class="nav__link" href="/services/portrait-photo-walks">{{ site[locale].navPhotoWalks }}</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link" href="/contact">{{ site[locale].navContact }}</a>
+			</li>
+		</ul>
+	</nav>
+</header>
