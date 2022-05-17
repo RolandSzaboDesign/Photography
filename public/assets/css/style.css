@@ -254,6 +254,10 @@ hr {
 	background-color: #FFF;
 }
 
+.nav__dropdown {
+	margin-bottom: 0;
+}
+
 
 
 /* Footer */
