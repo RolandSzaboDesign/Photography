@@ -38,6 +38,7 @@ html { box-sizing: border-box; }
 	--grid-gutter: 1rem;
 	--polaroid-padding: .5rem;
 	--transition-duration: .25s;
+	--border-radius: .25rem;
 }
 
 
@@ -182,10 +183,10 @@ hr {
 /* Header */
 
 .header {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	grid-gap: .25rem;
 	align-items: center;
-	justify-content: space-between;
 }
 
 .logo {
@@ -214,12 +215,13 @@ hr {
 
 .menu-toggle {
 	cursor: pointer;
-	width: 3.25rem;
-	padding: .5rem 1rem;
+	width: 2.75rem;
+	margin-left: auto;
+	padding: .25rem .75rem;
 	font-size: 1.5rem;
 	color: var(--text);
 	text-align: center;
-	border-radius: .25rem;
+	border-radius: var(--border-radius);
 	border-bottom: 0;
 	transition: color var(--transition-duration), background-color var(--transition-duration);
 }
@@ -255,7 +257,7 @@ hr {
 }
 
 .lang {
-
+	justify-self: end;
 }
 
 .lang__list {
@@ -265,12 +267,29 @@ hr {
 
 .lang__item {
 	margin-bottom: 0;
-	margin-right: .5rem;
+	line-height: 1;
 }
 
 .lang__link {
 	display: inline-block;
 	padding: .5rem;
+	border-bottom: 0;
+	border-radius: var(--border-radius);
+	transition: var(--transition-duration) background-color;
+}
+
+.lang__link:hover,
+.lang__link:focus {
+	background-color: #FFF;
+}
+
+.lang__link--active {
+	background-color: #FFF;
+}
+
+.lang__flag {
+	display: block;
+	width: 1.25rem;
 }
 
 
@@ -441,6 +460,16 @@ hr {
 
 /* Media Queries */
 
+@media only screen and (min-width: 425px) {
+	.header {
+		grid-gap: .5rem;
+	}
+
+	.lang__flag {
+		width: 2rem;
+	}
+}
+
 @media only screen and (min-width: 576px) {
 	:root {
 		--grid-gutter: 1.25rem;
@@ -490,9 +519,7 @@ hr {
 	}
 
 	.header {
-		grid-template-columns: auto 1fr;
 		grid-gap: 1rem;
-		text-align: initial;
 	}
 
 	.menu-toggle {
@@ -540,6 +567,10 @@ hr {
 	.nav__item:hover > .nav__dropdown,
 	.nav__item:focus > .nav__dropdown {
 		display: block;
+	}
+
+	.lang__item {
+		line-height: 0;
 	}
 
 	.copyright {
@@ -611,8 +642,8 @@ hr {
 @media only screen and (max-width: 767px) {
 	.nav {
 		display: none;
-		min-width: 100%;
-		margin-top: 1rem;
+		grid-column: 1 / 4;
+		margin-top: .5rem;
 		border-radius: .5rem;
 		box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.25);
 	}

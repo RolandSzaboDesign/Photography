@@ -52,6 +52,8 @@ module.exports = {
 		"homepageButton": "Let's Walk",
 		"homepageLink": "or check out my work",
 
+		"aboutPhotoTitle": "I'm on fire, baby!",
+		"contactPhotoTitle": "How can I help you?",
 	},
 	hu: {
 		"siteTitle": "Szabó Roland Fotográfia",
@@ -96,5 +98,7 @@ module.exports = {
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
 
+		"aboutPhotoTitle": "Elég forró volt a helyzet...",
+		"contactPhotoTitle": "Miben tudok segíteni?",
 	},
 };

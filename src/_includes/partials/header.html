@@ -6,7 +6,17 @@
 	<nav class="lang">
 		<ul class="lang__list">
 			{% for lang in site.languages %}
-				<li class="lang__item"><a class="lang__link" href="/{{ lang.code }}/">{{ lang.label }}</a></li>
+				{% assign href = "/" | append: lang.code | append: "/" %}
+				{% for item in collections.all %}
+					{% if item.data.translation == translation and item.data.locale == lang.code %}
+						{% assign translated = item.url %}
+					{% endif %}
+				{% endfor %}
+				<li class="lang__item">
+					<a class="lang__link{% if lang.code == locale %} lang__link--active{% endif %}" href="{{ translated }}">
+						<img class="lang__flag" src="/assets/images/flag-{{ lang.code }}.svg" alt="{{ lang.label }}" title="{{ lang.label }}">
+					</a>
+				</li>
 			{% endfor %}
 		</ul>
 	</nav>
