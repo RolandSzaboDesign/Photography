@@ -1,0 +1,21 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugGear }}/"
+layout: layouts/base.html
+css: contact
+---
+
+<main class="main">
+	<header class="page-header">
+		<h1>{{ site[locale].navGear }}</h1>
+	</header>
+	<section class="contact">
+		<article class="contact__content content-box">
+			{{ content }}
+		</article>
+		<figure class="contact__photo">
+			<img src="/assets/images/roland-gear.jpg" alt="Photo of Roland Szabó" title="{{ site[locale].gearPhotoTitle }}">
+			<figcaption><em>{{ site[locale].photoBy }} <a href="https://www.instagram.com/09_utkarsh/" target="_blank" rel="noopener noreferrer">{{ site[locale].utkarshPawar }}</a></em></figcaption>
+		</figure>
+	</section>
+	</section>
+</main>

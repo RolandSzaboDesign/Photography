@@ -18,6 +18,7 @@ module.exports = {
 		"peterLakinger": "Peter Lakinger",
 		"csanadAlfoldi": "Csanad Alfoldi",
 		"danosNemeth": "Danos Nemeth",
+		"utkarshPawar": "Utkarsh Pawar",
 
 		"headerName": "Roland Szabó",
 		"headerDescription": "Budapest-based Photographer",
@@ -54,6 +55,7 @@ module.exports = {
 
 		"aboutPhotoTitle": "I'm on fire, baby!",
 		"contactPhotoTitle": "How can I help you?",
+		"gearPhotoTitle": "That's my old a6000 with the 50mm f/1.8 OSS!",
 	},
 	hu: {
 		"siteTitle": "Szabó Roland Fotográfia",
@@ -64,6 +66,7 @@ module.exports = {
 		"peterLakinger": "Lakinger Péter",
 		"csanadAlfoldi": "Alföldi Csanád",
 		"danosNemeth": "Németh Dános",
+		"utkarshPawar": "Utkarsh Pawar",
 
 		"headerName": "Szabó Roland",
 		"headerDescription": "Budapesti Fotós",
@@ -100,5 +103,6 @@ module.exports = {
 
 		"aboutPhotoTitle": "Elég forró volt a helyzet...",
 		"contactPhotoTitle": "Miben tudok segíteni?",
+		"gearPhotoTitle": "Az ott a régi a6000-esem az 50mm f/1.8 OSS-sel!",
 	},
 };
