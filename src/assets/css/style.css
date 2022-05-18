@@ -259,15 +259,18 @@ hr {
 }
 
 .lang__list {
-
+	display: flex;
+	margin-bottom: 0;
 }
 
 .lang__item {
-
+	margin-bottom: 0;
+	margin-right: .5rem;
 }
 
 .lang__link {
-
+	display: inline-block;
+	padding: .5rem;
 }
 
 
