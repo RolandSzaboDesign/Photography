@@ -56,6 +56,8 @@ module.exports = {
 		"aboutPhotoTitle": "I'm on fire, baby!",
 		"contactPhotoTitle": "How can I help you?",
 		"gearPhotoTitle": "That's my old a6000 with the 50mm f/1.8 OSS!",
+
+		"servicesPortraitureIntro": "I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories.",
 	},
 	hu: {
 		"siteTitle": "Szabó Roland Fotográfia",
@@ -104,5 +106,7 @@ module.exports = {
 		"aboutPhotoTitle": "Elég forró volt a helyzet...",
 		"contactPhotoTitle": "Miben tudok segíteni?",
 		"gearPhotoTitle": "Az ott a régi a6000-esem az 50mm f/1.8 OSS-sel!",
+
+		"servicesPortraitureIntro": "Kültéri fotós séták során készítek maradandó emlékeket szóló, páros, vagy családos kivitelben, Budapest utcáin és környékén.",
 	},
 };

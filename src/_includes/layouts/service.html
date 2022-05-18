@@ -1,0 +1,14 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/"
+layout: layouts/base.html
+css: photo-walks
+---
+
+<main class="main">
+	<header class="page-header">
+		<span class="page-header__category">{{ site[locale].navServices }}</span>
+		<h1 class="page-header__title">{{ site[locale].navServicesPortraiture }}</h1>
+		<p class="page-header__intro">{{ site[locale].servicesPortraitureIntro }}</p>
+	</header>
+	{{ content }}
+</main>
