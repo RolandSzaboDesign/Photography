@@ -106,6 +106,6 @@ module.exports = {
 		"contactPhotoTitle": "Miben tudok segíteni?",
 		"gearPhotoTitle": "Az ott a régi a6000-esem az 50mm f/1.8 OSS-sel!",
 
-		"servicesPortraitureIntro": "Kültéri fotós séták során készítek maradandó emlékeket szóló, páros, vagy családos kivitelben, Budapest utcáin és környékén.",
+		"servicesPortraitureIntro": "Kültéri fotós séták során készítek maradandó emlékeket, Budapest utcáin és környékén. A formátum lehet egyéni, páros vagy családi, de elhozhatod akár a kis kedvencedet is.",
 	},
 };
