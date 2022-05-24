@@ -1,0 +1,20 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugAbout }}/"
+layout: layouts/base.html
+css: about
+---
+
+<main class="main">
+	<header class="page-header">
+		<h1>{{ site[locale].navAbout }}</h1>
+	</header>
+	<section class="about">
+		<article class="about__content content-box">
+			{{ content }}
+		</article>
+		<figure class="about__photo">
+			<img src="/assets/images/roland-about.jpg" alt="Photo of Roland Szabó" title="{{ site[locale].aboutPhotoTitle }}">
+			<figcaption><em>{{ site[locale].photoBy }} <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+		</figure>
+	</section>
+</main>

@@ -1,4 +1,5 @@
 module.exports = function(eleventyConfig) {
+	eleventyConfig.addPassthroughCopy("src/_redirects");
 	eleventyConfig.addPassthroughCopy("src/assets");
 	eleventyConfig.addWatchTarget("src/assets/css");
 	eleventyConfig.setQuietMode(true);
@@ -7,7 +8,7 @@ module.exports = function(eleventyConfig) {
 		dir: {
 			input: "src",
 			output: "public",
-			includes: "includes"
+			includes: "_includes"
 		}
 	};
 };

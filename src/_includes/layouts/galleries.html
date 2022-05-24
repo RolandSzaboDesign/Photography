@@ -1,0 +1,42 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugGalleries }}/"
+layout: layouts/base.html
+---
+
+<main class="main">
+	<header class="page-header">
+		<h1>{{ site[locale].navGalleries }}</h1>
+	</header>
+	<div class="gallery">
+		<a class="polaroids" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/portraiture/daniella/02.jpg" alt="{{ site[locale].navGalleriesPortraiture }}">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">{{ site[locale].navGalleriesPortraiture }}</strong>
+				</figcaption>
+			</figure>
+		</a>
+		<a class="polaroids" href="/{{ locale }}/{{ site[locale].slugGalleriesSocialContent }}/">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/social-content/inna-faith-tattoo/14.jpg" alt="{{ site[locale].navGalleriesSocialContent }}">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">{{ site[locale].navGalleriesSocialContent }}</strong>
+				</figcaption>
+			</figure>
+		</a>
+		<a class="polaroids" href="/{{ locale }}/{{ site[locale].slugGalleriesAutomotive }}/">
+			<figure class="polaroid">
+				<div class="polaroid__square">
+					<img class="polaroid__photo" src="/assets/images/automotive/991.2-cabriolet/06.jpg" alt="{{ site[locale].navGalleriesAutomotive }}">
+				</div>
+				<figcaption class="polaroid__caption">
+					<strong class="polaroid__title">{{ site[locale].navGalleriesAutomotive }}</strong>
+				</figcaption>
+			</figure>
+		</a>
+	</div>
+</main>

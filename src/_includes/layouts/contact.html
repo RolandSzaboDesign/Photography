@@ -1,0 +1,20 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugContact }}/"
+layout: layouts/base.html
+css: contact
+---
+
+<main class="main">
+	<header class="page-header">
+		<h1>{{ site[locale].navContact }}</h1>
+	</header>
+	<section class="contact">
+		<article class="contact__content content-box">
+			{{ content }}
+		</article>
+		<figure class="contact__photo">
+			<img src="/assets/images/roland-contact.jpg" alt="Photo of Roland Szabó" title="{{ site[locale].contactPhotoTitle }}">
+			<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+		</figure>
+	</section>
+</main>
