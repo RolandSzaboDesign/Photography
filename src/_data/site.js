@@ -98,7 +98,6 @@ module.exports = {
 		"slugPhotoWalks": "fotos-setak",
 		"slugContact": "kapcsolat",
 		"slugGear": "felszereles",
-
 		"homepageTitle": "Portrékat készítek kültéri fotós sétákon Budapesten és környékén.",
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
