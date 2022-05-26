@@ -24,6 +24,7 @@ module.exports = {
 		"headerDescription": "Budapest-based Photographer",
 
 		"navAbout": "About",
+		"navPortfolio": "Portfolio",
 		"navGalleries": "Galleries",
 		"navGalleriesPortraiture": "Portraiture",
 		"navGalleriesSocialContent": "Social Content",
@@ -37,6 +38,7 @@ module.exports = {
 		"navGear": "Gear",
 
 		"slugAbout": "about",
+		"slugPortfolio": "portfolio",
 		"slugGalleries": "galleries",
 		"slugGalleriesPortraiture": "portraiture",
 		"slugGalleriesSocialContent": "social-content",
@@ -74,6 +76,7 @@ module.exports = {
 		"headerDescription": "Budapesti Fotós",
 
 		"navAbout": "Rólam",
+		"navPortfolio": "Portfólió",
 		"navGalleries": "Galériák",
 		"navGalleriesPortraiture": "Portré",
 		"navGalleriesSocialContent": "Közösségi Tartalom",
@@ -87,6 +90,7 @@ module.exports = {
 		"navGear": "Felszerelés",
 
 		"slugAbout": "rolam",
+		"slugPortfolio": "portfolio",
 		"slugGalleries": "galeriak",
 		"slugGalleriesPortraiture": "portre",
 		"slugGalleriesSocialContent": "kozossegi-tartalom",
@@ -98,6 +102,7 @@ module.exports = {
 		"slugPhotoWalks": "fotos-setak",
 		"slugContact": "kapcsolat",
 		"slugGear": "felszereles",
+
 		"homepageTitle": "Portrékat készítek kültéri fotós sétákon Budapesten és környékén.",
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
