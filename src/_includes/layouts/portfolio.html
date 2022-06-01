@@ -1,6 +1,7 @@
 ---
 permalink: "/{{ locale }}/{{ site[locale].slugPortfolio }}/"
 layout: layouts/base.html
+css: portfolio
 ---
 
 <main class="main">
@@ -53,11 +54,13 @@ layout: layouts/base.html
 	</div>
 
 	<div class="lightbox">
-		<img class="lightbox__photo" src="" alt="">
-		<nav class="lightbox__nav">
-			<a class="lightbox__arrow lightbox__arrow--prev" href="#">&lt;</a>
-			<a class="lightbox__arrow lightbox__arrow--next" href="#">&gt;</a>
-		</nav>
-		<a class="lightbox__close">&times;</a>
+		<div class="lightbox__container">
+			<img class="lightbox__image" src="/assets/images/portraiture/reka/02.jpg" alt="">
+			<nav class="lightbox__nav">
+				<a class="lightbox__arrow lightbox__arrow--prev" href="#">&lt;</a>
+				<a class="lightbox__arrow lightbox__arrow--next" href="#">&gt;</a>
+			</nav>
+		</div>
+		<a class="lightbox__close" href="#">&times;</a>
 	</div>
 </main>
