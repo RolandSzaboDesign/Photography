@@ -456,14 +456,16 @@
 
 	<div class="lightbox">
 		<div class="lightbox__container">
-			<img class="lightbox__image" src="/assets/images/portraiture/reka/02.jpg" alt="">
+			<img class="lightbox__image" src="" alt="">
 			<nav class="lightbox__nav">
-				<a class="lightbox__arrow lightbox__arrow--prev" href="#">&lt;</a>
-				<a class="lightbox__arrow lightbox__arrow--next" href="#">&gt;</a>
+				<a class="lightbox__arrow" id="prev" href="#">◀</a>
+				<a class="lightbox__arrow" id="next" href="#">▶</a>
 			</nav>
 		</div>
-		<a class="lightbox__close" href="#">&times;</a>
+		<a class="lightbox__close" href="#">🗙</a>
 	</div>
+
+	<script src="/assets/js/lightbox.js" defer></script>
 </main>
 
 		<footer class="footer">
@@ -488,8 +490,5 @@
 				}
 			}
 		</script>
-
-		<!-- TODO only if on portfolio page -->
-		<script src="/assets/js/lightbox.js" defer></script>
 	</body>
 </html>

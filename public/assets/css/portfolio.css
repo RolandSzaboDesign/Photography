@@ -1,3 +1,27 @@
+.portfolio {
+	display: grid;
+	grid-gap: 1rem;
+	grid-auto-flow: dense;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.portfolio__stack {
+	display: grid;
+	grid-gap: 1rem;
+}
+
+.portfolio__image {
+	object-fit: cover;
+	display: block;
+	height: 100%;
+	background-color: #FFF;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
+}
+
+.wide {
+	grid-column: span 2;
+}
+
 .lightbox {
 	position: fixed;
 	top: 0;
@@ -10,7 +34,7 @@
 	display: grid;
 	align-items: center;
 	justify-content: center;
-	background-color: rgba(0,0,0,.25);
+	background-color: rgba(0,0,0,.75);
 }
 
 .lightbox.active {
@@ -19,33 +43,57 @@
 }
 
 .lightbox__container {
-	max-width: 100vw;
 	max-height: 100vh;
-	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding: 1rem;
 }
 
 .lightbox__image {
 	object-fit: cover;
+	max-height: 98vh;
 	padding: 1rem;
 	background-color: #FFF;
 }
 
 .lightbox__arrow {
 	position: absolute;
-	top: calc(50vh - 2rem);
+	top: calc(50% - 2.5rem);
+	padding: 1.5rem 1.5rem;
+	font-size: 2rem;
+	color: #FFF;
+	line-height: 1;
+	border-bottom: 0;
 }
 
-.lightbox__arrow--prev {
-	left: 1rem;
+.lightbox__arrow:hover,
+.lightbox__arrow:focus {
+	color: var(--text-dark);
 }
 
-.lightbox__arrow--next {
-	right: 1rem;
-}
+#prev { left: 1rem; }
+#next { right: 1rem; }
 
 .lightbox__close {
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
+	padding: .5rem 1rem;
+	font-size: 2rem;
+	color: #FFF;
+	line-height: 1;
+	border-bottom: 0;
+}
+
+@media only screen and (min-width: 992px) {
+	.portfolio {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.portfolio {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }

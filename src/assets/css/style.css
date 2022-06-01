@@ -90,6 +90,11 @@ img {
 	grid-column: 1 / -1;
 }
 
+.hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
 
 
 /* Typography */
@@ -462,38 +467,6 @@ hr {
 
 
 
-/* Portfolio */
-
-.portfolio {
-	display: grid;
-	grid-gap: 1rem;
-	grid-auto-flow: dense;
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.portfolio__stack {
-	display: grid;
-	grid-gap: 1rem;
-}
-
-.portfolio__link {
-	border-bottom: 0;
-}
-
-.portfolio__image {
-	object-fit: cover;
-	display: block;
-	height: 100%;
-	background-color: #FFF;
-	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
-}
-
-.wide {
-	grid-column: span 2;
-}
-
-
-
 /* Media Queries */
 
 @media only screen and (min-width: 425px) {
@@ -650,10 +623,6 @@ hr {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-	.portfolio {
-		grid-template-columns: repeat(3, 1fr);
-	}
-
 	.polaroid__title {
 		padding-bottom: 0;
 	}
@@ -672,10 +641,6 @@ hr {
 	p, li, details {
 		font-size: 1.25rem;
 		line-height: 1.6;
-	}
-
-	.portfolio {
-		grid-template-columns: repeat(4, 1fr);
 	}
 }
 
