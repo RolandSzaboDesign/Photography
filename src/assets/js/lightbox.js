@@ -1,3 +1,4 @@
+const portfolioImage = document.querySelectorAll('.portfolio__link');
 const lightboxEnabled = document.querySelectorAll('.portfolio__image');
 const lightboxArray = Array.from(lightboxEnabled);
 const lastImage = lightboxArray.length - 1;
@@ -9,8 +10,11 @@ const lightboxLeft = document.querySelector('#prev');
 const lightboxRight = document.querySelector('#next');
 let activeImage;
 
-const showLightbox = () => { lightboxContainer.classList.add('active') }
-const hideLightbox = () => { lightboxContainer.classList.remove('active') }
+const removeButtonInactiveClass = () => {
+	lightboxButtons.forEach(btn => {
+		btn.classList.remove('hidden');
+	})
+}
 
 const setActiveImage = (image) => {
 	lightboxImage.src = image.src;
@@ -31,21 +35,11 @@ const setActiveImage = (image) => {
 	}
 }
 
-const removeButtonInactiveClass = () => {
-	lightboxButtons.forEach(btn => {
-		btn.classList.remove('hidden');
-	})
-}
+const showLightbox = () => { lightboxContainer.classList.add('active') }
+const hideLightbox = () => { lightboxContainer.classList.remove('active') }
 
-const showLeft = () => {
-	lightboxLeft.focus();
-	activeImage === 0 ? setActiveImage(lightboxArray[lastImage]) : setActiveImage(lightboxArray[--activeImage])
-}
-
-const showRight = () => {
-	lightboxRight.focus();
-	activeImage === lastImage ? setActiveImage(lightboxArray[0]) : setActiveImage(lightboxArray[++activeImage])
-}
+const showLeft = () => { activeImage === 0 ? setActiveImage(lightboxArray[lastImage]) : setActiveImage(lightboxArray[--activeImage]) }
+const showRight = () => { activeImage === lastImage ? setActiveImage(lightboxArray[0]) : setActiveImage(lightboxArray[++activeImage]) }
 
 const navigate = (direction) => {
 	direction.includes('left') ? showLeft() : showRight();
@@ -69,10 +63,21 @@ lightboxButtons.forEach(btn => {
 	})
 })
 
+portfolioImage.forEach(link => {
+	link.addEventListener('click', (e) => {
+		e.preventDefault();
+	})
+})
+
 window.addEventListener('keydown', (e) => {
 	if(!lightboxContainer.classList.contains('active')) return;
 	if(e.key.includes('Left') || e.key.includes('Right')) {
 		e.preventDefault();
 		navigate(e.key.toLowerCase());
 	}
+	if(e.key.includes('Esc')) {
+		e.preventDefault();
+		hideLightbox();
+	}
 })
+

@@ -10,6 +10,10 @@
 	grid-gap: 1rem;
 }
 
+.portfolio__link {
+	border-bottom: 0;
+}
+
 .portfolio__image {
 	object-fit: cover;
 	display: block;
@@ -69,7 +73,7 @@
 
 .lightbox__arrow:hover,
 .lightbox__arrow:focus {
-	color: var(--text-dark);
+	color: var(--highlight);
 }
 
 #prev { left: 1rem; }
@@ -80,10 +84,16 @@
 	top: 1rem;
 	right: 1rem;
 	padding: .5rem 1rem;
-	font-size: 2rem;
+	font-weight: 700;
+	font-size: 3rem;
 	color: #FFF;
 	line-height: 1;
 	border-bottom: 0;
+}
+
+.lightbox__close:hover,
+.lightbox__close:focus {
+	color: var(--highlight);
 }
 
 @media only screen and (min-width: 992px) {
