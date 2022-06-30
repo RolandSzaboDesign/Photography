@@ -19,6 +19,11 @@
 	border-bottom: 0;
 }
 
+.home-bottom {
+	margin-top: 2rem;
+	text-align: center;
+}
+
 .portfolio {
 	display: grid;
 	grid-gap: 1rem;
