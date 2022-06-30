@@ -4,13 +4,90 @@ layout: layouts/base.html
 css: home
 ---
 
-<main class="main main--home">
-	<div class="home">
+<main class="main">
+	<header class="page-header home">
 		<h1 class="home__title">{{ site[locale].homepageTitle }}</h1>
-		<a class="home__button button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
 		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
-		<div class="home__bg">
-			<img src="/assets/images/home-bg.jpg">
-		</div>
+	</header>
+	<div class="portfolio">
+		<a class="portfolio__link" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/kata-2.jpg" alt="" title="">
+		</a>
+		<a class="portfolio__link wide" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/adel-sango.jpg" alt="" title="">
+		</a>
+		<span class="portfolio__stack">
+			<a class="portfolio__link" href="#">
+				<img class="portfolio__image" src="/assets/images/portfolio/911.jpg" alt="" title="">
+			</a>
+			<a class="portfolio__link" href="#">
+				<img class="portfolio__image" src="/assets/images/portfolio/gellert-hill-sunset.jpg" alt="" title="">
+			</a>
+		</span>
+
+		<a class="portfolio__link" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/lovers-under-the-umbrella.jpg" alt="" title="">
+		</a>
+		<a class="portfolio__link" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/luca-david.jpg" alt="" title="">
+		</a>
+		<span class="portfolio__stack">
+			<a class="portfolio__link" href="#">
+				<img class="portfolio__image" src="/assets/images/portfolio/dalma.jpg" alt="" title="">
+			</a>
+			<a class="portfolio__link" href="#">
+				<img class="portfolio__image" src="/assets/images/portfolio/outlook-sunset.jpg" alt="" title="">
+			</a>
+		</span>
+		<a class="portfolio__link" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/tamara.jpg" alt="" title="">
+		</a>
+
+		<a class="portfolio__link" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/daniella.jpg" alt="" title="">
+		</a>
+		<span class="portfolio__stack">
+			<a class="portfolio__link" href="#">
+				<img class="portfolio__image" src="/assets/images/portfolio/eszter.jpg" alt="" title="">
+			</a>
+			<a class="portfolio__link" href="#">
+				<img class="portfolio__image" src="/assets/images/portfolio/vivi.jpg" alt="" title="">
+			</a>
+		</span>
+		<a class="portfolio__link wide" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/zsanett-matthias.jpg" alt="" title="">
+		</a>
+
+		<a class="portfolio__link" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/kata-mira.jpg" alt="" title="">
+		</a>
+		<a class="portfolio__link" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/virag.jpg" alt="" title="">
+		</a>
+		<span class="portfolio__stack">
+			<a class="portfolio__link wide" href="#">
+				<img class="portfolio__image" src="/assets/images/portfolio/budapart-mol-limo.jpg" alt="" title="">
+			</a>
+			<a class="portfolio__link wide" href="#">
+				<img class="portfolio__image" src="/assets/images/portfolio/viki.jpg" alt="" title="">
+			</a>
+		</span>
+		<a class="portfolio__link" href="#">
+			<img class="portfolio__image" src="/assets/images/portfolio/kata.jpg" alt="" title="">
+		</a>
 	</div>
+
+	<div class="lightbox">
+		<div class="lightbox__container">
+			<img class="lightbox__image" src="" alt="">
+			<nav class="lightbox__nav">
+				<a class="lightbox__arrow" id="prev" href="#">◀</a>
+				<a class="lightbox__arrow" id="next" href="#">▶</a>
+			</nav>
+		</div>
+		<a class="lightbox__close" href="#">&times;</a>
+	</div>
+
+	<script src="/assets/js/lightbox.js" defer></script>
 </main>
