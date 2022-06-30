@@ -101,8 +101,8 @@
 	color: var(--highlight);
 }
 
-#prev { left: 1rem; }
-#next { right: 1rem; }
+#left  { left: 1rem; }
+#right { right: 1rem; }
 
 .lightbox__close {
 	position: absolute;

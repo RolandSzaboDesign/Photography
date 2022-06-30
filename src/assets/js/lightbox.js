@@ -6,8 +6,8 @@ const lightboxContainer = document.querySelector('.lightbox');
 const lightboxImage = document.querySelector('.lightbox__image');
 const lightboxClose = document.querySelector('.lightbox__close');
 const lightboxButtons = document.querySelectorAll('.lightbox__arrow');
-const lightboxLeft = document.querySelector('#prev');
-const lightboxRight = document.querySelector('#next');
+const lightboxLeft = document.querySelector('#left');
+const lightboxRight = document.querySelector('#right');
 let activeImage;
 
 const removeButtonInactiveClass = () => {
