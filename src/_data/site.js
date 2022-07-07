@@ -53,9 +53,9 @@ module.exports = {
 		"homepageButton": "Let's Walk",
 		"homepageLink": "or check out my work",
 
-		"aboutPhotoTitle": "I'm on fire, baby!",
+		"aboutPhotoTitle": "Hey, it's me!",
 		"contactPhotoTitle": "How can I help you?",
-		"gearPhotoTitle": "That's my old a6000 with the 50mm f/1.8 OSS!",
+		"gearPhotoTitle": "I'm on fire, baby!",
 
 		"servicesPortraitureIntro": "I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories.",
 	},
@@ -103,9 +103,9 @@ module.exports = {
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
 
-		"aboutPhotoTitle": "Elég forró volt a helyzet...",
+		"aboutPhotoTitle": "Halihó, ez itt én vagyok.",
 		"contactPhotoTitle": "Miben tudok segíteni?",
-		"gearPhotoTitle": "Az ott a régi a6000-esem az 50mm f/1.8 OSS-sel!",
+		"gearPhotoTitle": "Elég forró volt a helyzet...",
 
 		"servicesPortraitureIntro": "Kültéri fotós séták során készítek maradandó emlékeket, Budapest utcáin és környékén. A formátum lehet egyéni, páros vagy családi, de elhozhatod akár a kis kedvencedet is.",
 	},
