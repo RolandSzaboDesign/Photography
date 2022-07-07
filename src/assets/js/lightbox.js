@@ -4,6 +4,7 @@ const lightboxArray = Array.from(lightboxEnabled);
 const lastImage = lightboxArray.length - 1;
 const lightboxContainer = document.querySelector('.lightbox');
 const lightboxImage = document.querySelector('.lightbox__image');
+const lightboxCaption = document.querySelector('.lightbox__caption');
 const lightboxClose = document.querySelector('.lightbox__close');
 const lightboxButtons = document.querySelectorAll('.lightbox__arrow');
 const lightboxLeft = document.querySelector('#left');
@@ -18,6 +19,8 @@ const removeButtonInactiveClass = () => {
 
 const setActiveImage = (image) => {
 	lightboxImage.src = image.src;
+	lightboxImage.alt = image.alt;
+	lightboxCaption.innerHTML = image.alt;
 	activeImage = lightboxArray.indexOf(image);
 	removeButtonInactiveClass();
 
