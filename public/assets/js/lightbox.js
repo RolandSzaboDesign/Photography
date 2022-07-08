@@ -59,8 +59,14 @@ lightboxContainer.addEventListener('click', () => {
 	hideLightbox();
 })
 
+lightboxClose.addEventListener('click', (e) => {
+	e.preventDefault();
+	hideLightbox();
+})
+
 lightboxButtons.forEach(btn => {
 	btn.addEventListener('click', (e) => {
+		e.preventDefault();
 		e.stopPropagation();
 		navigate(e.currentTarget.id);
 	})
