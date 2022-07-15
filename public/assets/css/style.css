@@ -467,6 +467,98 @@ hr {
 
 
 
+/* Testimonials */
+
+.testimonials {
+	display: grid;
+	grid-gap: 1rem;
+}
+
+.testimonial {
+	margin-bottom: 0;
+	padding: 1rem;
+	background-color: #FFF;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
+}
+
+.testimonial__photo-link {
+	float: left;
+	display: block;
+	margin: 0 1.3rem .5rem 0;
+	border-bottom: 0;
+	transition: opacity var(--transition-duration);
+}
+
+.testimonial__photo-link:hover,
+.testimonial__photo-link:focus {
+	opacity: .9;
+}
+
+.testimonial__photo {
+	object-fit: cover;
+	display: block;
+	width: 8rem;
+	height: 8rem;
+}
+
+.testimonial__text {
+	margin-bottom: .5rem;
+}
+
+.testimonial__text:before { content: '“'; }
+.testimonial__text:after  { content: '”'; }
+
+.testimonial__footer {
+	text-align: right;
+}
+
+
+
+/* Call to Action */
+
+.cta {
+	display: grid;
+	grid-gap: 2rem;
+	align-items: center;
+	margin-top: 3rem;
+	padding: 2rem;
+	text-align: center;
+	border: 1px solid var(--bg-dark);
+	background-color: #FFF;
+}
+
+.cta__title {
+	margin-top: 0;
+}
+
+.cta__quote {
+	padding: 1.25rem;
+	border-left: .5rem solid var(--accent);
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
+}
+
+.cta__quote-text {
+	font-style: italic;
+}
+
+.cta__quote-text:before { content: '“'; }
+.cta__quote-text:after  { content: '”'; }
+
+.cta__quote-cite {
+	display: inline-flex;
+	align-items: center;
+}
+
+.cta__quote-image {
+	object-fit: cover;
+	width: 4rem;
+	height: 4rem;
+	margin-right: 1rem;
+	border-radius: 2rem;
+}
+
+
+
 /* Media Queries */
 
 @media only screen and (min-width: 425px) {
@@ -497,6 +589,13 @@ hr {
 		grid-template-columns: 1fr auto;
 		grid-gap: 1rem;
 		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.testimonial__photo {
+		width: 14rem;
+		height: 14rem;
 	}
 }
 
@@ -587,6 +686,41 @@ hr {
 	.polaroid__title {
 		padding-bottom: .25rem;
 	}
+
+	.testimonials {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.testimonial {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.testimonial__photo-link {
+		float: none;
+		margin: 0 0 1rem;
+	}
+
+	.testimonial__photo {
+		width: 100%;
+		height: 100%;
+	}
+
+	.testimonial__quote {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		font-size: 1rem;
+	}
+
+	.testimonial__text {
+		flex-grow: 1;
+		font-size: 1rem;
+	}
+
+	.cta__quote {
+		padding: 1.5rem;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -626,6 +760,21 @@ hr {
 	.polaroid__title {
 		padding-bottom: 0;
 	}
+
+	.testimonial__text,
+	.cta__quote-text {
+		font-size: 1.125rem;
+	}
+
+	.cta {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.cta__quote {
+		text-align: right;
+		border-left: 0;
+		border-right: .5rem solid var(--accent);
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -641,6 +790,10 @@ hr {
 	p, li, details {
 		font-size: 1.25rem;
 		line-height: 1.6;
+	}
+
+	.testimonials {
+		grid-gap: 2rem;
 	}
 }
 
