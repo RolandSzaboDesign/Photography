@@ -25,12 +25,12 @@ module.exports = {
 			hu: {
 				name: "M. Viktória",
 				text: "Rolival a fotózásaink hangulata az első pillanattól kezdve laza volt. Könnyű volt feloldódni, nem éreztem gátlásosnak magam, sokat viccelődtünk, amik néha belekontárkodtak egy-egy \"remekműbe\". A zseni hangulatnak köszönhetően a közös munkáinknak kivétel nélkül olyan produktumai születtek, amiket bátran osztottam meg a barátaimmal, illetve a közösségi média felületein.",
-				link: "/hu/portre/viki/",
+				link: "/hu/portre/viki-virag/",
 			},
 			en: {
 				name: "Viktória M.",
 				text: "The mood of our photoshoots with Roland was super laid-back from the very beginning. It was easy to relax, I didn't feel inhibited at all, and we've had great laughs that would sometimes break (or make!) a photo. Thanks to the chilled vibes, we've made amazing photos that I happily shared with my friends and on social media.",
-				link: "/en/portraiture/viki/",
+				link: "/en/portraiture/viki-virag/",
 			},
 		},
 		{

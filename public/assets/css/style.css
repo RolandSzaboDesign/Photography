@@ -766,9 +766,9 @@ hr {
 		font-size: 1.125rem;
 	}
 
-	.cta {
+	/*.cta {
 		grid-template-columns: repeat(2, 1fr);
-	}
+	}*/
 
 	.cta__quote {
 		text-align: right;
