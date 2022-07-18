@@ -521,7 +521,7 @@ hr {
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 3rem;
-	padding: 2rem;
+	padding: 1.5rem 1rem;
 	text-align: center;
 	border: 1px solid var(--bg-dark);
 	background-color: #FFF;
@@ -538,6 +538,7 @@ hr {
 }
 
 .cta__quote-text {
+	font-size: 1rem;
 	font-style: italic;
 }
 
@@ -583,6 +584,10 @@ hr {
 
 	.polaroid__title {
 		padding-bottom: .5rem;
+	}
+
+	.cta {
+		padding: 2rem;
 	}
 
 	.footer {
@@ -761,14 +766,25 @@ hr {
 		padding-bottom: 0;
 	}
 
-	.testimonial__text,
-	.cta__quote-text {
+	.testimonial__text {
 		font-size: 1.125rem;
 	}
 
-	/*.cta {
+	.cta {
 		grid-template-columns: repeat(2, 1fr);
-	}*/
+	}
+
+	.cta__content {
+		text-align: left;
+	}
+
+	.cta__title {
+		margin-bottom: 1.5rem;
+	}
+
+	.cta__text {
+		margin-bottom: 2rem;
+	}
 
 	.cta__quote {
 		text-align: right;

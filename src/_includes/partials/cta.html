@@ -1,0 +1,14 @@
+<div class="cta">
+	<div class="cta__content">
+		<h2 class="cta__title">{{ site[locale].ctaTitle }}</h2>
+		<p class="cta__text">{{ site[locale].ctaText }}</p>
+		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
+	</div>
+	<blockquote class="cta__quote">
+		<p class="cta__quote-text">{{ testimonials.items[0][locale].text }}</p>
+		<cite class="cta__quote-cite">
+			<img class="cta__quote-image" src="{{ testimonials.items[0].photo }}" alt="{{ testimonials.items[0][locale].name }} fotója">
+			<a href="{{ testimonials.items[0][locale].link }}">{{ testimonials.items[0][locale].name }}</a>
+		</cite>
+	</blockquote>
+</div>
