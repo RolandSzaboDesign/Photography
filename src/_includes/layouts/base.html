@@ -5,6 +5,7 @@
 		<title>{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="{{ site[locale].homepageTitle }}">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -21,8 +22,8 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo{{ page.url }}">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="I create outdoor portraits on relaxed photowalks in and around Budapest.">
-		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}Roland Szabó Photography">
+		<meta property="og:description" content="{{ site[locale].homepageTitle }}">
+		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">

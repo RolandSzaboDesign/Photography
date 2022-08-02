@@ -103,7 +103,7 @@ module.exports = {
 		"slugContact": "kapcsolat",
 		"slugGear": "felszereles",
 
-		"homepageTitle": "Portrékat készítek kültéri fotós sétákon Budapesten és környékén.",
+		"homepageTitle": "Portrékat készítek laza hangulatú fotós sétákon Budapesten és környékén.",
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
 
