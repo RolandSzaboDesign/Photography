@@ -10,7 +10,7 @@ module.exports = {
 		},
 	],
 	en: {
-		"siteTitle": "Roland Szabó Photography",
+		"siteTitle": "Roland Szabó | Budapest Portrait Photographer",
 		"copyright": "All rights reserved.",
 
 		"photoBy": "Photo by",
@@ -21,7 +21,7 @@ module.exports = {
 		"utkarshPawar": "Utkarsh Pawar",
 
 		"headerName": "Roland Szabó",
-		"headerDescription": "Budapest-based Photographer",
+		"headerDescription": "Budapest Portrait Photographer",
 
 		"navAbout": "About",
 		"navGalleries": "Galleries",
@@ -64,7 +64,7 @@ module.exports = {
 		"ctaButton": "Let's see the details",
 	},
 	hu: {
-		"siteTitle": "Szabó Roland Fotográfia",
+		"siteTitle": "Szabó Roland | Budapesti Portré Fotós",
 		"copyright": "Minden jog fenntartva.",
 
 		"photoBy": "Fotó:",
@@ -75,7 +75,7 @@ module.exports = {
 		"utkarshPawar": "Utkarsh Pawar",
 
 		"headerName": "Szabó Roland",
-		"headerDescription": "Budapesti Fotós",
+		"headerDescription": "Budapesti Portré Fotós",
 
 		"navAbout": "Rólam",
 		"navGalleries": "Galériák",
@@ -111,10 +111,10 @@ module.exports = {
 		"contactPhotoTitle": "Miben tudok segíteni?",
 		"gearPhotoTitle": "Elég forró volt a helyzet...",
 
-		"servicesPortraitureIntro": "Kültéri fotós séták során készítek maradandó emlékeket, Budapest utcáin és környékén. A formátum lehet egyéni, páros vagy családi, de elhozhatod akár a kis kedvencedet is.",
+		"servicesPortraitureIntro": "Laza, nyugodt hangulatú fotós séták során készítek maradandó emlékeket. A formátum lehet egyéni, páros vagy családi, de elhozhatod akár a kis kedvencedet is.",
 
 		"ctaTitle": "Szeretnél hasonló, szuper képeket?",
-		"ctaText": "Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni! Nézd meg, mennyire egyszerű a folyamat.",
+		"ctaText": "Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!",
 		"ctaButton": "Nézzük a részleteket",
 	},
 };
