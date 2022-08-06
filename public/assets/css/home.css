@@ -27,6 +27,8 @@
 .portfolio {
 	display: grid;
 	grid-gap: 1rem;
+	grid-auto-flow: dense;
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .portfolio__stack {
@@ -166,8 +168,8 @@
 	}
 
 	.portfolio {
-		grid-auto-flow: dense;
-		grid-template-columns: repeat(2, 1fr);
+		/*grid-auto-flow: dense;
+		grid-template-columns: repeat(2, 1fr);*/
 	}
 
 	.lightbox__caption {
