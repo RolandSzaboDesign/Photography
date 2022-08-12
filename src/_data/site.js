@@ -108,7 +108,7 @@ module.exports = {
 		"homepageTitle": "Portrékat készítek laza hangulatú fotós sétákon Budapesten és környékén.",
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
-		"homepageOtherHeadline": "Portrékon kívül mást is fotozóm",
+		"homepageOtherHeadline": "Portrékon kívül mást is fotózom",
 		"homepageOtherButton": "További munkáim",
 
 		"aboutPhotoTitle": "Halihó, ez itt én vagyok.",
