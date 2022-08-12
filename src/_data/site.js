@@ -52,6 +52,8 @@ module.exports = {
 		"homepageTitle": "I create outdoor portraits on relaxed photowalks in and around Budapest.",
 		"homepageButton": "Let's Walk",
 		"homepageLink": "or check out my work",
+		"homepageOtherHeadline": "Here's a few other things I shoot",
+		"homepageOtherButton": "See more of my work",
 
 		"aboutPhotoTitle": "Hey, it's me!",
 		"contactPhotoTitle": "How can I help you?",
@@ -106,6 +108,8 @@ module.exports = {
 		"homepageTitle": "Portrékat készítek laza hangulatú fotós sétákon Budapesten és környékén.",
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
+		"homepageOtherHeadline": "Portrékon kívül mást is fotozóm",
+		"homepageOtherButton": "További munkáim",
 
 		"aboutPhotoTitle": "Halihó, ez itt én vagyok.",
 		"contactPhotoTitle": "Miben tudok segíteni?",

@@ -27,8 +27,6 @@
 .portfolio {
 	display: grid;
 	grid-gap: 1rem;
-	grid-auto-flow: dense;
-	grid-template-columns: repeat(2, 1fr);
 }
 
 .portfolio__stack {
@@ -42,13 +40,9 @@
 }
 
 .portfolio__image {
+	width: 100%;
 	object-fit: cover;
-	background-color: #FFF;
 	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
-}
-
-.wide {
-	grid-column: span 2;
 }
 
 .lightbox {
@@ -153,6 +147,17 @@
 	transform: rotate(90deg);
 }
 
+@media only screen and (min-width: 480px) {
+	.portfolio {
+		grid-auto-flow: dense;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.wide {
+		grid-column: span 2;
+	}
+}
+
 @media only screen and (min-width: 576px) {
 	.home__title {
 		margin-bottom: 1.25rem;
@@ -165,11 +170,6 @@
 	.home__link {
 		display: inline-block;
 		margin: 0 0 0 1rem;
-	}
-
-	.portfolio {
-		/*grid-auto-flow: dense;
-		grid-template-columns: repeat(2, 1fr);*/
 	}
 
 	.lightbox__caption {
