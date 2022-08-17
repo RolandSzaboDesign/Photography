@@ -1,6 +1,32 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-anna.jpg",
+			hu: {
+				name: "M. Anna",
+				text: "Tökéletesek! Egytől egyig. Amikor utaztam a fotózás helyszínére, azon gondolkodtam, hogy szerintem 4-5 kép bőven elég lesz, végtére is, minek több? Nos, abból a több, mint 200 (Roland által örömmel és dalolva készített) képből alig tudtam választani. Mindig megtalálta a jó szögeket, helyeket és kifejezetten nyitott volt az én ötleteimre is végig. Teljesen érthető és követhető instrukciókat adott, valamint segített, hogy az általam elképzelt képek tényleg olyanok legyenek, ahogy azt megálmodtam.",
+				link: "/hu/portre/anna/",
+			},
+			en: {
+				name: "Anna M.",
+				text: "They are perfect! All of them! When I was on my way to the photoshoot, I thought to myself, 4 or 5 good photos would be perfectly enough. Well, the 200+ images that Roland took of me during our shoot, were all so great, it was quite a puzzle to narrow them down to my absolute favorites. He would always find the best places and angles, and was expressly open to my ideas all along. He gave me precise but simple instructions, and helped me make the images I dreamt of a reality.",
+				link: "/en/portraiture/anna/",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-cinti.jpg",
+			hu: {
+				name: "M. Cinti",
+				text: "Nagyon közvetlenül telt a fotózás Rolanddal már az első perctől kezdve. Ez volt az első fotózásom, így ez nagyon sokat segített nekem abban, hogy hamar feloldódhassak. Idejét és türelmét nem sajnálva készültek el a változatos tematikájú képek. Sokat segített a megfelelő pózokban, és mindig meghallgatta az elképzeléseim... a végeredmény pedig nagyszerű lett!",
+				link: "/hu/portre/cinti/",
+			},
+			en: {
+				name: "Cinti M.",
+				text: "The photoshoot with Roland very in a very informal manner right from the start. This was my first shoot, so it helped me tremendously to relax. He put in his best effort to create a diverse range of photos that I was very happy with. He helped me figure out my posing, and was always open to my ideas... and the end results turned out stunning!",
+				link: "/en/portraiture/cinti/",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-dori.jpg",
 			hu: {
 				name: "E. Dóri",
