@@ -122,39 +122,19 @@ translation: photo-walks
 
 <h2>Testimonials</h2>
 <ul class="testimonials">
-	<li class="testimonial">
-		<a class="testimonial__photo-link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/kata/">
-			<img class="testimonial__photo" src="/assets/images/testimonial-kata.jpg" alt="Testimonial photo of Kata P.">
-		</a>
-		<blockquote class="testimonial__quote">
-			<p class="testimonial__text">Roland helped me step out of my comfort zone and created this wonderful set under the beautifully blossoming flowers at golden hour. Not to mention, as a beginner photographer, I got to learn lots of new things from him, which I'll certainly use in my upcoming work.</p>
-			<footer class="testimonial__footer">
-				<cite>&mdash; <a href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/kata/">Kata P.</a></cite>
-			</footer>
-		</blockquote>
-	</li>
-	<li class="testimonial">
-		<a class="testimonial__photo-link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/dori/">
-			<img class="testimonial__photo" src="/assets/images/testimonial-dori.jpg" alt="Testimonial photo of Dóri E.">
-		</a>
-		<blockquote class="testimonial__quote">
-			<p class="testimonial__text">Do you know that feeling when noone can take proper photos of you? I went with this exact feeling to Roland, who, thanks to his great vision, creativity and endless patience, proved me wrong; and then there was me trying to select from a great number of amazing pictures he'd delivered. As a bonus to the beautiful photos, you also get an endlessly cool and funny photographer.</p>
-			<footer class="testimonial__footer">
-				<cite>&mdash; <a href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/dori/">Dóri E.</a></cite>
-			</footer>
-		</blockquote>
-	</li>
-	<li class="testimonial">
-		<a class="testimonial__photo-link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/luca-david/">
-			<img class="testimonial__photo" src="/assets/images/testimonial-luca-david.jpg" alt="Testimonial photo of Luca P. & Dávid P.">
-		</a>
-		<blockquote class="testimonial__quote">
-			<p class="testimonial__text">Shooting with Roland was simply fantastic. He's really kind, helpful, and always eager to capture moments in the most creative way. I can happily recommend him. I can guarantee that you'll be in for an extraordinary experience if you're choosing him. He's not only attentive, but highly professional (and by the way, his sense of humour is inimitable)!</p>
-			<footer class="testimonial__footer">
-				<cite>&mdash; <a href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/luca-david/">Luca P. & Dávid P.</a></cite>
-			</footer>
-		</blockquote>
-	</li>
+	{% for i in (0..2) %}
+		<li class="testimonial">
+			<a class="testimonial__photo-link" href="{{ testimonials.items[i][locale].link }}">
+				<img class="testimonial__photo" src="{{ testimonials.items[i].photo }}" alt="Testimonial photo of {{ testimonials.items[i][locale].name }}">
+			</a>
+			<blockquote class="testimonial__quote">
+				<p class="testimonial__text">{{ testimonials.items[i][locale].text }}</p>
+				<footer class="testimonial__footer">
+					<cite>&mdash; <a href="{{ testimonials.items[i][locale].link }}">{{ testimonials.items[i][locale].name }}</a></cite>
+				</footer>
+			</blockquote>
+		</li>
+	{% endfor %}
 </ul>
 
 <h2>Sounds Good?</h2>
