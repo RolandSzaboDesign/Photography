@@ -7,7 +7,27 @@ module.exports = {
 			},
 			en: {
 				question: "I'm not very photogenic, can you help me with posing?",
-				answer: "Most of us aren't models who knwo how they'll look their best on photos. That's exactly how most people in my galleries felt before the photoshoot. Certainly, I'll help you with posing, but that doesn't mean your photos will look posed in the end. I much prefer to capture pure emotions, for which I'll give you some laid-back, fun, and sometimes silly prompts. These will be the photos with the purest emotions which you'll love the most!",
+				answer: "Most of us aren't models who know how they'll look their best on photos. That's exactly how most people in my galleries felt before the photoshoot. Certainly, I'll help you with posing, but that doesn't mean your photos will look posed in the end. I prefer to capture pure emotions, for which I'll give you some laid-back, fun, and sometimes silly prompts. These will be the photos with the purest emotions, which you'll love the most!",
+			},
+		},
+		{
+			hu: {
+				question: "Hol sétálunk?",
+				answer: "Arra megyünk, amerre szeretnél, Budapesten belül. Én a fotós helyszínek miatt a belvárost részesítem előnyben, de nagyon szívesen elmegyek egy erdőbe vagy természetvédelmi területre, ha természetközeli képeket szeretnél.",
+			},
+			en: {
+				question: "Where do we walk?",
+				answer: "We can walk and shoot wherever you want in Budapest. I prefer the inner districts for photographic possibilities, but I don't shy away from going to a nearby nature reserve or forest to take more close-to-nature photos. I'm available to shoot the entire day as well, however, in this case, a special pricing will be agreed upon.",
+			},
+		},
+		{
+			hu: {
+				question: "Milyen hosszú egy fotós séta?",
+				answer: "Általában 30 és 120 perc között szokott lenni. Elég rugalmas tudok lenni az idővel, úgyhogy eldöntheted, hogy csak egy pár képre van szükséged, vagy szeretnél többet kint lenni, meglátogatni több helyszínt, akár átöltözni is közben. Benne vagyok egésznapos fotózásban is, aminek a díjazását közösen megbeszéljük.",
+			},
+			en: {
+				question: "How long is a photo walk?",
+				answer: "It usually ranges from 30 minutes to 120 minutes, or even more. I'm pretty versatile on time, so you can decide if you just want a few headshots taken or stay longer and visit multiple locations and even change outfits.",
 			},
 		},
 		{
@@ -32,22 +52,12 @@ module.exports = {
 		},
 		{
 			hu: {
-				question: "Hol sétálunk?",
-				answer: "Arra megyünk, amerre szeretnél, Budapesten belül. Én a fotós helyszínek miatt a belvárost részesítem előnyben, de nagyon szívesen elmegyek egy erdőbe vagy természetvédelmi területre, ha természetközeli képeket szeretnél.",
+				question: "Nem fognak elveszni a fotózáskor készült képek?",
+				answer: "Minden bizonnyal, nem. A fényképezőgépemben két memóriakártya van, így amikor egy kép elkészül, az egyszerre két memóriakártyára íródik ki, így ha az egyik meghibásodik a fotózás alatt vagy után, a másikon meglesznek a képek. Itthon, a portréfotózások nyers képeit két különböző lemezre másolom fel, a tartalék fájlokat pedig addig tartom meg, amíg el nem küldtem Neked a kiválogatott, végleges fotókat.",
 			},
 			en: {
-				question: "Where do we walk?",
-				answer: "We can walk and shoot wherever you want in Budapest. I prefer the inner districts for photographic possibilities, but I don't shy away from going to a nearby nature reserve or forest to take more close-to-nature photos. I'm available to shoot the entire day as well, however, in this case, a special pricing will be agreed upon.",
-			},
-		},
-		{
-			hu: {
-				question: "Milyen hosszú egy fotós séta?",
-				answer: "Általában 30 és 120 perc között szokott lenni. Elég rugalmas tudok lenni az idővel, úgyhogy eldöntheted, hogy csak egy pár képre van szükséged, vagy szeretnél többet kint lenni, meglátogatni több helyszínt, akár átöltözni is közben. Benne vagyok egésznapos fotózásban is, aminek a díjazását közösen megbeszéljük.",
-			},
-			en: {
-				question: "How long is a photo walk?",
-				answer: "It usually ranges from 30 minutes to 120 minutes or even more. I'm pretty versatile on time, so you can decide if you just want a few headshots taken or stay longer and visit multiple locations and even change outfits.",
+				question: "What's your backup policy for your photos?",
+				answer: "My camera has 2 identical memory cards in it, so every time I take a photo, it is written to both memory cards simultaneously. This way, if one card fails, the other one will still have all the photos on it. At home, I copy the raw photos from my portrait shoots to two different hard drives, and I keep the backup files until I've sent you your final images.",
 			},
 		},
 		{
@@ -77,27 +87,37 @@ module.exports = {
 			},
 			en: {
 				question: "Why are the raw photos black-and-white and watermarked?",
-				answer: "The reason for <abbr title='blank-and-white'>B/W</abbr> is so that you can better concentrate on the composition, your facial expressions and poses rather than the colors, which will be processed later anyways. Your photos for selection will be watermarked to denote that they're not final images.",
+				answer: "The reason for <abbr title='blank-and-white'>B/W</abbr> is so that you can better concentrate on the composition, your facial expressions and poses rather than the colors, which will be processed later, anyway. Your photos for selection will be watermarked to denote that they're not final images.",
 			},
 		},
 		{
 			hu: {
-				question: "Fotózhatunk stúdióban is?",
-				answer: "Természetesen. Keress meg bátran az ötleteddel, és segítek megtalálni a megfelelő stúdiót számodra. Az árazás ugyanúgy működik, mint a fotós sétáknál, viszont a stúdió bérlését Neked kell intézned.",
+				question: "Az én képeim is megjelennek a weboldaladon?",
+				answer: "Fotósként fontosnak tartom, hogy a legjobb munkáimat felhasználhassam a weboldalamon, a közösségi oldalaimon és a hirdetéseimben. A fotózásokról a számomra kedvenc képeimet szoktam összegyűjteni, és felrakni a weboldalamra. Mielőtt ez megtörténik, ha szeretnéd, elküldöm az általam választott képeket, hogy ellenőrizhesd, hogy mindegyik tetszik, ami Rólad kikerül. Ha ezzel kapcsolatban van kérdésed, írj nekem bátran.",
 			},
 			en: {
-				question: "Do you shoot in a studio as well?",
-				answer: "Absolutely. Please reach out to me with your specific idea, and we'll figure out the best studio for your photoshoot. Pricing is the same for studio portraits, but please note that paying for the studio rental is your responsibility.",
+				question: "Will my photos show up on your website?",
+				answer: "It is important to me as a photographer to be able to share my latest and greatest work through my website, social media and advertisements. I usually select the best of the best images from my photoshoots, and upload them to my website. Before it happens, if you so prefer, I can send you the photos I've selected, so you can confirm that you like all of them. If you have any questions about this, definitely get in contact with me.",
 			},
 		},
 		{
 			hu: {
-				question: "Csinálsz igazolvány/önéletrajz fotókat is?",
-				answer: "Persze! Szívesen segítek profi arcképet készíteni Rólad a LinkedIn-re, vagy a céges weboldaladra, vagy közösségi médiára. Annyi változás van itt, hogy az árazás picit másképp történik. Keress bátran az igényeiddel, szívesen segítek a tökéletes arcképed elkészítésében!",
+				question: "Megoszthatom a kapott képeket az interneten?",
+				answer: "Természetesen, sőt! A képeket saját célra bárhogyan felhasználhatod. Ha megjelölsz rajtuk, megköszönöm egy személyre szabott hozzászólással! A fotóidat megoszthatod a közösségi oldalakon, felrakhatod őket a saját weboldaladra, de akár ki is nyomtathatod őket tetszőleges méretben. Amit nem szabad, az az, hogy megosztod egy céggel, hogy ők felhasználják a saját marketing anyagaikban.",
 			},
 			en: {
-				question: "Do you do headshots?",
-				answer: "Certainly. I can help you get professional headshots for LinkedIn, or your company's website or social media. Please note that for headshots, pricing is a little different. Don't hesitate to reach out to me for details, I'll be glad to assist you!",
+				question: "Can I share the final photos online?",
+				answer: "Of course! You can use your photos for personal use in any way. If you give credit in the description, I'll thank you in a personalized comment. You can upload your photos to your own website, or to any social media platform, but you can print them out in virtually any size. The only thing you can not do is to send your photos to a company who would then use it in their own marketing.",
+			},
+		},
+		{
+			hu: {
+				question: "Kinyomtathatom a képeket magamnak?",
+				answer: "Hogyne. A képeket 24 Megapixel körüli méretben fogod megkapni, amivel hatalmas méretben is gyönyörű minőségben ki fogod tudni nyomtatni őket.",
+			},
+			en: {
+				question: "Can I print the final photos?",
+				answer: "Sure. You'll receive your photos in the range of 24 Megapixels in size, which is more than enough to print your photos in virtually any size.",
 			},
 		},
 		{
@@ -132,12 +152,22 @@ module.exports = {
 		},
 		{
 			hu: {
+				question: "Hány napra előre kell időpontot foglaljak?",
+				answer: "Általában nagyon rugalmas vagyok, ami azt jelenti, hogy akár aznapra vagy másnapra is megbeszélhetünk egy fotózást, ha kitaláltál egy jó ötletet. Mindenképpen írj rám, ha sürgős a projekt, hogy meg tudjuk beszélni, hogy mikor és hogy érek rá a közelgő órákban-napokban. A sürgős fotótásokra, ha el tudom vállalni, nem vonatkozik felár.",
+			},
+			en: {
+				question: "How far in advance should I book?",
+				answer: "Usually I'm very flexible in terms of free time, so we can, in many cases, shoot on the day you write to me, or the day after. If you have an urgent photoshoot request, definitely contact me, so we can talk about when I can go walk-and-shoot with you. There's no extra charge on urgent photoshoots, if I can manage the shoot.",
+			},
+		},
+		{
+			hu: {
 				question: "Este szeretnék fotózni, megoldható?",
 				answer: "Természetesen fotózhatunk az esti órákban is, a város fényeivel, vagy akár kiegészítő fényekkel is. Az esti fotózásoknál fontos tudni, hogy a fotózás helyszínenként több előkészületet vesz igénybe, illetve a fényképezőgépek technikai tulajdonságai miatt az este készült képek, a beállításoktól függően, valamivel zajosabbak, mint a nappaliak. Ha esti projektben gondolkodsz, keress meg bátran az elérhetőségeim valamelyikén, nagyon szívesen átbeszélem Veled az ötletedet, és elmondok minden fontos információt, hogy mivel jár egy ilyen.",
 			},
 			en: {
 				question: "I'd like to shoot at night, is it possible?",
-				answer: "Certainly, we can shoot in the evening hours with the city lights, or at night, even using ancillary light sources like my RGB lightsaber. It's important to mention that the preparation for these shoots usually take longer per location. Also shots taken at night usually have more grain to them, due to the way camera sensors work. If you have a night project in mind, don't hesitate to reach out to me, I'd love to listen to your idea and talk to you more about the technicalities of what goes into shooting at night.",
+				answer: "Certainly, we can shoot in the evening hours with the city lights, or at night, even using ancillary light sources like my RGB lightsaber. It's important to mention that the preparation for these shoots usually take longer per location. Also, shots taken at night usually have more grain to them, due to the way camera sensors work. If you have a night project in mind, don't hesitate to reach out to me, I'd love to listen to your idea and talk to you more about the technicalities of what goes into shooting at night.",
 			},
 		},
 		{
@@ -148,36 +178,6 @@ module.exports = {
 			en: {
 				question: "Can we shoot in bad weather as well?",
 				answer: "Yes, all my equipment are weather-sealed, and my raincoat, even though I can fit in it twice, can't wait for me to wear it again.",
-			},
-		},
-		{
-			hu: {
-				question: "Az én képeim is megjelennek a weboldaladon?",
-				answer: "Fotósként fontosnak tartom, hogy a legjobb munkáimat felhasználhassam a weboldalamon, a közösségi oldalaimon és a hirdetéseimben. A fotózásokról a számomra kedvenc képeimet szoktam összegyűjteni, és felrakni a weboldalamra. Mielőtt ez megtörténik, ha szeretnéd, elküldöm az általam választott képeket, hogy ellenőrizhesd, hogy mindegyik tetszik, ami Rólad kikerül. Ha ezzel kapcsolatban van kérdésed, írj nekem bátran.",
-			},
-			en: {
-				question: "Will my photos show up on your website?",
-				answer: "It is important to me as a photographer to be able to share my latest and greatest work through my website, social media and advertisements. I usually select the best of the best images from my photoshoots, and upload them to my website. Before it happens, if you so prefer, I can send you the photos I've selected, so you can confirm that you like all of them. If you have any questions about this, definitely get in contact with me.",
-			},
-		},
-		{
-			hu: {
-				question: "Nem fognak elveszni az elkészített fotók?",
-				answer: "Minden bizonnyal, nem. A fényképezőgépemben két memóriakártya van, így amikor egy kép elkészül, az egyszerre két meóriakártyára íródik ki, így ha az egyik meghibásodik a fotózás alatt vagy után, a másikon meglesznek a képek. Itthon, a portréfotózások nyers képeit két különböző lemezre másolom fel, a tartalék fájlokat pedig addig tartom meg, amíg el nem küldtem Neked a kiválogatott, végleges fotókat.",
-			},
-			en: {
-				question: "What's your backup poilcy for your photos?",
-				answer: "My camera has 2 identical memory cards in it, so every time I take a photo, it is written to both memory cards simultaneously. This way if one card fails, the other one will still have all the photos on it. At home I copy the raw photos from my portrait shoots to two different hard drives, and I keep the backup files until I've sent you your final images.",
-			},
-		},
-		{
-			hu: {
-				question: "Hány napra előre kell időpontot foglaljak?",
-				answer: "Általában nagyon rugalmas vagyok, ami azt jelenti, hogy akár aznapra vagy msánapra is megbeszélhetünk egy fotózást, ha kitaláltál egy jó ötletet. Mindenképpen írj rám, ha sürgős a projekt, hogy meg tudjuk beszélni, hogy mikor és hogy érek rá a közelgő órákban-napokban. A sürgős fotótásokra, ha el tudom vállalni, nem vonatkozik felár.",
-			},
-			en: {
-				question: "How far in advance should I book?",
-				answer: "Usually I'm very flexible in terms of free time, so we can, in many cases, shoot on the day you write to me, or the day after. If you have an urgent photoshoot request, definitely contact me, so we can talk about when I can go walk-and-shoot with you. There's no extra charge on urgent photoshoots, if I can manage the shoot.",
 			},
 		},
 		{
@@ -193,17 +193,17 @@ module.exports = {
 		{
 			hu: {
 				question: "Vállalsz fotózást Budapesten kívül is?",
-				answer: "",
+				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így kb. 100 km-ig tudok velük utazni egy irányba. A napi maximális bérlési díj 12.000 Forint, amit Neked kell állnod a fotók árán felül.",
 			},
 			en: {
 				question: "Is it possible to shoot outside of Budapest, too?",
-				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. These cars have a limited range, so it's best to stay in a 100 km vicinity of Budapest. The daily maximum fee for using this service is 12.000 HUF; which I'll ask you to pay the amount I used the service for.",
+				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 100 km vicinity of Budapest. The daily maximum fee for using this service is 12.000 HUF; which you will need to pay for, on top of the photos selected.",
 			},
 		},
 		{
 			hu: {
 				question: "Vállalsz eseményfotózást is?",
-				answer: "Természetesen, fotóztam már ünnepi beszédeket, üzlet megnyitókat, de diplomaosztó ünnepséget is. Keress meg bátran, ha egy fontos eseményedet szeretnéd, hogy dokmentáljam, és megbeszéljük a részleteket.",
+				answer: "Természetesen, fotóztam már ünnepi beszédeket, üzlet megnyitókat, de diplomaosztó ünnepséget is. Keress meg bátran, ha egy fontos eseményedet szeretnéd, hogy dokumentáljam, és megbeszéljük a részleteket.",
 			},
 			en: {
 				question: "Do you also shoot events?",
@@ -212,22 +212,22 @@ module.exports = {
 		},
 		{
 			hu: {
-				question: "Megoszthatom a kapott képeket az interneten?",
-				answer: "Természetesen, sőt! A képeket saját célra bárhogyan felhasználhatod. Ha megjelölsz rajtuk, megköszönöm egy személyre szabott hozzászólással! A fotóidat megoszthatod a közösségi oldalakon, felrakhatod őket a saját weboldaladra, de akár ki is nyomtathatod őket teszőleges méretben. Amit nem szabad, az az, hogy megosztod egy céggel, hogy ők felhasználják a saját marketing anyagaikban.",
+				question: "Fotózhatunk stúdióban is?",
+				answer: "Természetesen. Keress meg bátran az ötleteddel, és segítek megtalálni a megfelelő stúdiót számodra. Az árazás ugyanúgy működik, mint a fotós sétáknál, viszont a stúdió bérlését Neked kell intézned.",
 			},
 			en: {
-				question: "Can I share the final photos online?",
-				answer: "Of course! You can use your photos for personal use in any way. If you give credit in the description, I'll thank you in a personalized comment. You can upload your photos to your own website, or to any social media platform, but you can print them out in virtually any size. The only thing you can not do is to send your photos to a company who would then use it in their own marketing.",
+				question: "Do you shoot in a studio as well?",
+				answer: "Absolutely. Please reach out to me with your specific idea, and we'll figure out the best studio for your photoshoot. Pricing is the same for studio portraits, but please note that paying for the studio rental is your responsibility.",
 			},
 		},
 		{
 			hu: {
-				question: "Kinyomtathatom a képeket magamnak?",
-				answer: "Hogyne. A képeket 24 Megapixel körüli méretben fogod megkapni, amivel hatalmas méretben is gyönyörű minőségben ki fogod tudni nyomtatni őket.",
+				question: "Csinálsz igazolvány/önéletrajz fotókat is?",
+				answer: "Persze! Szívesen segítek profi arcképet készíteni Rólad a LinkedIn-re, vagy a céges weboldaladra, vagy közösségi médiára. Annyi változás van itt, hogy az árazás picit másképp történik. Keress bátran az igényeiddel, szívesen segítek a tökéletes arcképed elkészítésében!",
 			},
 			en: {
-				question: "Can I print the final photos?",
-				answer: "Sure. You'll receive your photos in the range of 24 Megapixels in size, which is more than enough to print your photos in virtually any size.",
+				question: "Do you do headshots?",
+				answer: "Certainly. I can help you get professional headshots for LinkedIn, or your company's website or social media. Please note that for headshots, pricing is a little different. Don't hesitate to reach out to me for details, I'll be glad to assist you!",
 			},
 		},
 	]
