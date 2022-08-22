@@ -82,6 +82,7 @@
 .faqs {
 	display: grid;
 	grid-gap: .625rem;
+	align-items: start;
 }
 
 .faq {

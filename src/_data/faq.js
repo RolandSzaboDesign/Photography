@@ -17,9 +17,7 @@ module.exports = {
 			},
 			en: {
 				question: "How will I get the finished photos after the shoot?",
-				answer: "",
-				// DELETE WHEN DONE
-				original: "Your photos will be delivered to you in an online gallery on my website, from the gallery you can print, view, and download high resolution files to your heart’s content. You have the option to password restrict your gallery or keep it openly viewable to make it easier for friends and family to view.",
+				answer: "You'll receive your photos in a Google Drive or a Dropbox folder as a public link. This means that only those will be able to access the photos who have the link -- that's you and me only. This way, you don't need to give me your email address to view the photos. You'll be able to download the photos in their highest quality and resolution, to even be able to print them yourself.",
 			},
 		},
 		{
@@ -114,134 +112,122 @@ module.exports = {
 		},
 		{
 			hu: {
-				question: "Hogyhogy nem kell előre fizetni semmit?",
-				answer: "",
-			},
-			en: {
-				question: "How come I don't need to pay an upfront fee?",
-				answer: "",
-			},
-		},
-		{
-			hu: {
 				question: "Milyen módon fizethetek az elkészült képekért?",
-				answer: "Fizethetsz banki átutalással (preferált), Reolut-on, PayPal-on, vagy készpénzben. A fizetést kérlek azután kövesd el, hoyg elküldted nekem a kiválasztott képeket, és leokéztam őket.",
+				answer: "Fizethetsz banki átutalással (preferált), Revolut-on, PayPal-on, vagy készpénzben. A fizetést kérlek azután kövesd el, hogy elküldted nekem a szerkesztésre kiválasztott képeket, én pedig leokéztam Veled őket. Köszönöm.",
 			},
 			en: {
 				question: "What payment methods do you accept?",
-				answer: "I accept bank transfer (preferred), Revolut, PayPal, or cash.",
+				answer: "I accept bank transfer (preferred), Revolut, PayPal, or cash. Please make the payment after you've sent me the selected photos for editing, and I've confirmed them with you. Thank you.",
 			},
 		},
 		{
 			hu: {
 				question: "Hogyan tudok időpontot foglalni?",
-				answer: "",
+				answer: "Írhatsz emailt itt, a weboldalamon keresztül, de küldhetsz egy Direct üzenetet Instagramon is. A Facebook-oldalamat nem annyira preferálom, mert kétes, hogy küld-e értesítést, vagy sem.",
 			},
 			en: {
 				question: "How can I book my shooting date?",
-				answer: "",
-			},
-		},
-		{
-			hu: {
-				question: "Vállalsz eseményfotózást is?",
-				answer: "",
-			},
-			en: {
-				question: "Do you also shoot events?",
-				answer: "",
+				answer: "You can write me an email here, through my website, or you can send me a Direct message over on Instagram. I don't necessarily prefer communicating through my Facebook Page, as I don't always get a notification there.",
 			},
 		},
 		{
 			hu: {
 				question: "Este szeretnék fotózni, megoldható?",
-				answer: "",
+				answer: "Természetesen fotózhatunk az esti órákban is, a város fényeivel, vagy akár kiegészítő fényekkel is. Az esti fotózásoknál fontos tudni, hogy a fotózás helyszínenként több előkészületet vesz igénybe, illetve a fényképezőgépek technikai tulajdonságai miatt az este készült képek, a beállításoktól függően, valamivel zajosabbak, mint a nappaliak. Ha esti projektben gondolkodsz, keress meg bátran az elérhetőségeim valamelyikén, nagyon szívesen átbeszélem Veled az ötletedet, és elmondok minden fontos információt, hogy mivel jár egy ilyen.",
 			},
 			en: {
 				question: "I'd like to shoot at night, is it possible?",
-				answer: "",
+				answer: "Certainly, we can shoot in the evening hours with the city lights, or at night, even using ancillary light sources like my RGB lightsaber. It's important to mention that the preparation for these shoots usually take longer per location. Also shots taken at night usually have more grain to them, due to the way camera sensors work. If you have a night project in mind, don't hesitate to reach out to me, I'd love to listen to your idea and talk to you more about the technicalities of what goes into shooting at night.",
 			},
 		},
 		{
 			hu: {
 				question: "Tudunk fotózni szakadó esőben/hóban/ködben is?",
-				answer: "",
+				answer: "Igen, a teljes felszerelésem időjárásálló, az esőkabátom pedig, bár kétszer beleférek, a polcomon várja, hogy újra felvegyem.",
 			},
 			en: {
 				question: "Can we shoot in bad weather as well?",
-				answer: "",
+				answer: "Yes, all my equipment are weather-sealed, and my raincoat, even though I can fit in it twice, can't wait for me to wear it again.",
 			},
 		},
 		{
 			hu: {
-				question: "Az én képeim is megjelennek a webodlaladon?",
-				answer: "",
+				question: "Az én képeim is megjelennek a weboldaladon?",
+				answer: "Fotósként fontosnak tartom, hogy a legjobb munkáimat felhasználhassam a weboldalamon, a közösségi oldalaimon és a hirdetéseimben. A fotózásokról a számomra kedvenc képeimet szoktam összegyűjteni, és felrakni a weboldalamra. Mielőtt ez megtörténik, ha szeretnéd, elküldöm az általam választott képeket, hogy ellenőrizhesd, hogy mindegyik tetszik, ami Rólad kikerül. Ha ezzel kapcsolatban van kérdésed, írj nekem bátran.",
 			},
 			en: {
 				question: "Will my photos show up on your website?",
-				answer: "",
+				answer: "It is important to me as a photographer to be able to share my latest and greatest work through my website, social media and advertisements. I usually select the best of the best images from my photoshoots, and upload them to my website. Before it happens, if you so prefer, I can send you the photos I've selected, so you can confirm that you like all of them. If you have any questions about this, definitely get in contact with me.",
 			},
 		},
 		{
 			hu: {
 				question: "Nem fognak elveszni az elkészített fotók?",
-				answer: "",
+				answer: "Minden bizonnyal, nem. A fényképezőgépemben két memóriakártya van, így amikor egy kép elkészül, az egyszerre két meóriakártyára íródik ki, így ha az egyik meghibásodik a fotózás alatt vagy után, a másikon meglesznek a képek. Itthon, a portréfotózások nyers képeit két különböző lemezre másolom fel, a tartalék fájlokat pedig addig tartom meg, amíg el nem küldtem Neked a kiválogatott, végleges fotókat.",
 			},
 			en: {
 				question: "What's your backup poilcy for your photos?",
-				answer: "",
-				// DELETE WHEN DONE
-				original: "I only shoot with cameras that have dual memory card slots, so the moment I take a photo it is instantly written to 2 memory cards. In the event of a memory card failure, I have a full backup so no images are lost. Once images are brought back to my studio, they are downloaded to my computer, immediately backed up to my on site backup hard drive, and once every week I bring in an additional backup drive from my home and update it with my most recent photos to ensure I have an offsite backup in the event of a fire or theft.",
+				answer: "My camera has 2 identical memory cards in it, so every time I take a photo, it is written to both memory cards simultaneously. This way if one card fails, the other one will still have all the photos on it. At home I copy the raw photos from my portrait shoots to two different hard drives, and I keep the backup files until I've sent you your final images.",
 			},
 		},
 		{
 			hu: {
 				question: "Hány napra előre kell időpontot foglaljak?",
-				answer: "",
+				answer: "Általában nagyon rugalmas vagyok, ami azt jelenti, hogy akár aznapra vagy msánapra is megbeszélhetünk egy fotózást, ha kitaláltál egy jó ötletet. Mindenképpen írj rám, ha sürgős a projekt, hogy meg tudjuk beszélni, hogy mikor és hogy érek rá a közelgő órákban-napokban. A sürgős fotótásokra, ha el tudom vállalni, nem vonatkozik felár.",
 			},
 			en: {
 				question: "How far in advance should I book?",
-				answer: "",
+				answer: "Usually I'm very flexible in terms of free time, so we can, in many cases, shoot on the day you write to me, or the day after. If you have an urgent photoshoot request, definitely contact me, so we can talk about when I can go walk-and-shoot with you. There's no extra charge on urgent photoshoots, if I can manage the shoot.",
 			},
 		},
 		{
 			hu: {
 				question: "Szeretnék egész nap fotózni, különböző helyszíneken, megoldható?",
-				answer: "",
+				answer: "Természetesen. Ilyen jellegű szándékodat, kérlek, mindenképpen jelezd előre, hogy én is tudjak időben tervezni a kéréseddel. Az egésznapos (4+ óra) fotózásokra egésznapos rendelkezésre állási díj vonatkozik, amelyet egyénileg határozunk meg. A helyszínek közötti ingázásban tudok segíteni Neked a helyi közösségi autóbérlési szolgáltatások igénybevételével.",
 			},
 			en: {
 				question: "Is it possible to shoot all day in multiple locations?",
-				answer: "",
+				answer: "Absolutely. If you have this type of request, please let me know in advance, so I can plan my day ahead of time. These (4+ hours) photoshoots have an extra full-day commitment fee to them, which is determined on a case-by-case basis. For travelling between locations, I can drive you between places using one of the local e-carsharing services.",
 			},
 		},
 		{
 			hu: {
-				question: "Mennyibe kerül az utazás Budapesten kívül?",
+				question: "Vállalsz fotózást Budapesten kívül is?",
 				answer: "",
 			},
 			en: {
-				question: "What do you charge for travel outside of Budapest?",
-				answer: "",
+				question: "Is it possible to shoot outside of Budapest, too?",
+				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. These cars have a limited range, so it's best to stay in a 100 km vicinity of Budapest. The daily maximum fee for using this service is 12.000 HUF; which I'll ask you to pay the amount I used the service for.",
+			},
+		},
+		{
+			hu: {
+				question: "Vállalsz eseményfotózást is?",
+				answer: "Természetesen, fotóztam már ünnepi beszédeket, üzlet megnyitókat, de diplomaosztó ünnepséget is. Keress meg bátran, ha egy fontos eseményedet szeretnéd, hogy dokmentáljam, és megbeszéljük a részleteket.",
+			},
+			en: {
+				question: "Do you also shoot events?",
+				answer: "Definitely, I've shot public speeches, store openings, and even graduation ceremonies. Don't hesitate to reach out if you have an important event you'd like me to document, and we'll figure out all the details.",
 			},
 		},
 		{
 			hu: {
 				question: "Megoszthatom a kapott képeket az interneten?",
-				answer: "",
+				answer: "Természetesen, sőt! A képeket saját célra bárhogyan felhasználhatod. Ha megjelölsz rajtuk, megköszönöm egy személyre szabott hozzászólással! A fotóidat megoszthatod a közösségi oldalakon, felrakhatod őket a saját weboldaladra, de akár ki is nyomtathatod őket teszőleges méretben. Amit nem szabad, az az, hogy megosztod egy céggel, hogy ők felhasználják a saját marketing anyagaikban.",
 			},
 			en: {
 				question: "Can I share the final photos online?",
-				answer: "",
+				answer: "Of course! You can use your photos for personal use in any way. If you give credit in the description, I'll thank you in a personalized comment. You can upload your photos to your own website, or to any social media platform, but you can print them out in virtually any size. The only thing you can not do is to send your photos to a company who would then use it in their own marketing.",
 			},
 		},
 		{
 			hu: {
 				question: "Kinyomtathatom a képeket magamnak?",
-				answer: "",
+				answer: "Hogyne. A képeket 24 Megapixel körüli méretben fogod megkapni, amivel hatalmas méretben is gyönyörű minőségben ki fogod tudni nyomtatni őket.",
 			},
 			en: {
 				question: "Can I print the final photos?",
-				answer: "",
+				answer: "Sure. You'll receive your photos in the range of 24 Megapixels in size, which is more than enough to print your photos in virtually any size.",
 			},
 		},
 	]
