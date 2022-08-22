@@ -77,56 +77,17 @@ translation: photo-walks
 <p>If we shoot at multiple locations, I can drive us between places via e-carsharing. We'll split the costs of this 50-50. There's no need to deposit an upfront fee either for this, or the entire shoot.</p>
 <p>Payment should be made after you're done selecting the photos from the raw ones. I accept bank transfer, Revolut, PayPal or cash.</p>
 
-<details class="faq">
-	<summary class="faq__question">Click here for examples on pricing</summary>
-	<div class="faq__answer">
-		<ul class="list">
-			<li><strong>Scenario 1:</strong> You only need 5 photos &mdash; that'll be 7.500 HUF.</li>
-			<li><strong>Scenario 2:</strong> You need 10 photos &mdash; that's 15.000 HUF.</li>
-			<li><strong>Scenario 3:</strong> You need 16 photos &mdash; that's only 21.000 HUF.</li>
-			<li><strong>Scenario 4:</strong> You need 8 photos and we rented a car and used it for a total cost of 2500 HUF &mdash; that's 12.000 + 1.250 = 13.250 HUF.</li>
-		</ul>
-	</div>
-</details>
-
 <h2 id="faq">Questions You Might Ask</h2>
 <p>If you have any more questions, <a href="/{{ locale }}/{{ site[locale].slugContact }}/">don't hesitate to ask</a>, I'll answer promptly!</p>
 
-{% for e in faq.items %}
-<details class="faq">
-	<summary class="faq__question">{{ e[locale].question }}</summary>
-	<div class="faq__answer">{{ e[locale].answer }}</div>
-</details>
-{% endfor %}
-
-<details class="faq">
-	<summary class="faq__question">Where do we walk?</summary>
-	<div class="faq__answer">We can walk and shoot wherever you want in Budapest. I prefer the inner districts for photographic possibilities, but I don't shy away from going to a nearby nature reserve or forest to take more close-to-nature photos. I'm available to shoot the entire day as well, however, in this case, a special pricing will be agreed upon.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">How long is a photo walk?</summary>
-	<div class="faq__answer">It usually ranges from 30 minutes to 120 minutes or even more. I'm pretty versatile on time, so you can decide if you just want a few headshots taken or stay longer and visit multiple locations and even change outfits.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Do you edit the photos?</summary>
-	<div class="faq__answer">All photos you select after the shoot will be color-graded in a way that matches your personality, the location, and the theme of the shoot. Retouching includes removing skin imperfections and unnecessary flying hairs.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Will I get the raw photos, too?</summary>
-	<div class="faq__answer">I don't hand out unedited photos, only processed ones that reflect my personal editing style. This is to prevent people getting an inaccurate representation of the quality of my work.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Why are the raw photos black-and-white and watermarked?</summary>
-	<div class="faq__answer">The reason for <abbr title="blank-and-white">B/W</abbr> is so that you can better concentrate on the composition, your facial expressions and poses rather than the colors, which will be processed later anyways. Your photos for selection will be watermarked to denote that they're not final images.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Do you shoot in a studio as well?</summary>
-	<div class="faq__answer">Absolutely. Please reach out to me with your specific idea, and we'll figure out the best studio for your photoshoot. Pricing is the same for studio portraits, but please note that paying for the studio rental is your responsibility.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Do you do headshots?</summary>
-	<div class="faq__answer">Certainly. I can help you get professional headshots for LinkedIn, or your company's website or social media. Please note that for headshots, pricing is a little different. Don't hesitate to reach out to me for details, I'll be glad to assist you!</div>
-</details>
+<div class="faqs">
+	{%- for e in faq.items -%}
+		<details class="faq">
+			<summary class="faq__question">{{ e[locale].question }}</summary>
+			<div class="faq__answer">{{ e[locale].answer }}</div>
+		</details>
+	{%- endfor -%}
+</div>
 
 <h2>Testimonials</h2>
 <ul class="testimonials">

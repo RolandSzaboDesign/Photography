@@ -77,48 +77,17 @@ translation: photo-walks
 <p>Ha több helyszínen fotózunk, akkor közösségi autóbérléssel átmehetünk egyik helyszínről a másikra, aminek a költségét elosztjuk fele-fele arányban. Nem kell fizetni előre semmit, és nincs foglaló sem.</p>
 <p>A képekért akkor kell fizetni, ha kiválasztottad a képeket szerkesztésre. Elfogadok banki átutalást, Revolut-ot, PayPal-t vagy készpénzt.</p>
 
-<details class="faq">
-	<summary class="faq__question">Kattints ide néhány példáért az árazásra.</summary>
-	<div class="faq__answer">
-		<ul class="list">
-			<li><strong>1. eset:</strong> Csak 5 fotóra van szükséged &mdash; 7.500 Ft.</li>
-			<li><strong>2. eset:</strong> 10 fotóra van szükséged &mdash; 15.000 Ft.</li>
-			<li><strong>3. eset:</strong> 16 fotóra van szükséged &mdash; 21.000 Ft.</li>
-			<li><strong>4. eset:</strong> 8 fotóra van szükséged és béreltünk egy autót 2.500 Ft-ért &mdash; 12.000 + 1.250 = 13.250 Ft.</li>
-		</ul>
-	</div>
-</details>
-
 <h2 id="faq">Gyakran Felmerülő Kérdések</h2>
 <p>Ha van bármi egyéb kérdésed, <a href="/{{ locale }}/{{ site[locale].slugContact }}/">kérdezz nyugodtan</a>, hamar válaszolok!</p>
-<details class="faq">
-	<summary class="faq__question">Hol sétálunk?</summary>
-	<div class="faq__answer">Arra megyünk, amerre szeretnél, Budapesten belül. Én a fotós helyszínek miatt a belvárost részesítem előnyben, de nagyon szívesen elmegyek egy erdőbe vagy természetvédelmi területre, ha természetközeli képeket szeretnél.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Milyen hosszú egy fotós séta?</summary>
-	<div class="faq__answer">Általában 30 és 120 perc között szokott lenni. Elég rugalmas tudok lenni az idővel, úgyhogy eldöntheted, hogy csak egy pár képre van szükséged, vagy szeretnél többet kint lenni, meglátogatni több helyszínt, akár átöltözni is közben. Benne vagyok egésznapos fotózásban is, aminek a díjazását közösen megbeszéljük.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Hogy működik a képszerkesztés?</summary>
-	<div class="faq__answer">Minden általad kiválasztott fotót színkezelni fogok oly módon, hogy az tükrözze a személyiségedet, a helyszínt, és a fotózásunk témáját. A retusálásba beletartozik a bőr tökéletlenségek eltávolítása, illetve az esetleges babahajak eltávolítása a képekről.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Megkapom a nyers képeket is?</summary>
-	<div class="faq__answer">Nem adok ki nyers képeket, csak olyanokat, amelyek tükrözik a szerkesztési stílusomat. Ez azért van, hogy az emberek ne kapjanak pontatlan képet a munkám minőségéről.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Miért fekete-fehérek és vízjelezettek a válogatásra kiadott képek?</summary>
-	<div class="faq__answer">Azért fekete-fehérek, hogy jobban tudj koncentrálni a képen az arckifejezésedre, a pózra, a környezetre; nem akarom, hogy a nyers színek, amelyeken később úgyis alakítani fogok, elvegyék a kedved egy fotótól. A válogatásra kiadott képek továbbá vízjellel vannak ellátva, hogy jelöljék, hogy ezek nem véglegesen elkészített képek.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Fotózhatunk stúdióban is?</summary>
-	<div class="faq__answer">Természetesen. Keress meg bátran az ötleteddel, és segítek megtalálni a megfelelő stúdiót számodra. Az árazás ugyanúgy működik, mint a fotós sétáknál, viszont a stúdió bérlését Neked kell intézned.</div>
-</details>
-<details class="faq">
-	<summary class="faq__question">Csinálsz igazolvány/önéletrajz fotókat is?</summary>
-	<div class="faq__answer">Persze! Szívesen segítek profi arcképet készíteni Rólad a LinkedIn-re, vagy a céges weboldaladra, vagy közösségi médiára. Annyi változás van itt, hogy az árazás picit másképp történik. Keress bátran az igényeiddel, szívesen segítek a tökéletes arcképed elkészítésében!</div>
-</details>
+
+<div class="faqs">
+	{%- for e in faq.items -%}
+		<details class="faq">
+			<summary class="faq__question">{{ e[locale].question }}</summary>
+			<div class="faq__answer">{{ e[locale].answer }}</div>
+		</details>
+	{%- endfor -%}
+</div>
 
 <h2>Rólam Mondták</h2>
 <ul class="testimonials">
