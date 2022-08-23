@@ -566,6 +566,41 @@ hr {
 
 
 
+/* Tags */
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.tag {
+	margin-right: .5rem;
+	font-weight: 700;
+	font-size: .75rem;
+	letter-spacing: 0;
+	text-transform: uppercase;
+}
+
+.tag__link {
+	display: inline-block;
+	padding: .125rem .75rem;
+	color: var(--text);
+	border-bottom: 0;
+	border-radius: 99rem;
+	background-color: var(--bg-medium);
+	transition: color var(--transition-duration), background-color var(--transition-duration);
+}
+
+.tag__link:hover,
+.tag__link:focus {
+	color: var(--text-dark);
+	background-color: var(--bg-dark);
+}
+
+
+
 /* Media Queries */
 
 @media only screen and (min-width: 425px) {

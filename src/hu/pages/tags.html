@@ -9,32 +9,46 @@ translation: tagsEn
 ---
 
 <main class="main">
-	<header class="page-header">
-		<span class="page-header__category">Címke</span>
-		<h1 class="page-header__title">{{ tag | capitalize }}</h1>
-	</header>
-	<div class="gallery">
-		{% assign tagsies = collections[tag] %}
-		{% for post in tagsies reversed %}
-			{% assign slug = post.data.page.filePathStem | split: '/' %}
-			{% case slug[2] %}
-				{% when "portre" %}
-				{% assign folder = "portraiture" %}
-				{% when "auto" %}
-				{% assign folder = "automotive" %}
-				{% when "kozossegi-tartalom" %}
-				{% assign folder = "social-content" %}
-			{% endcase %}
-			<a class="polaroids" href="{{ post.url }}">
-				<figure class="polaroid">
-					<div class="polaroid__square">
-						<img class="polaroid__photo" src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}">
-					</div>
-					<figcaption class="polaroid__caption">
-						<strong class="polaroid__title">{{ post.data.title }}</strong>
-					</figcaption>
-				</figure>
-			</a>
-		{% endfor %}
-	</div>
+	{% if page.url == "/hu/tags/all/" %}
+		<header class="page-header">
+			<span class="page-header__category">Címkék</span>
+			<h1 class="page-header__title">Összes Címke</h1>
+		</header>
+		<ul class="tags">
+			{% for tag in collections.tagList %}
+				<li class="tag">
+					<a class="tag__link" href="/{{ locale }}/tags/{{ tag }}/">{{ tag }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	{% else %}
+		<header class="page-header">
+			<span class="page-header__category">Címke</span>
+			<h1 class="page-header__title">{{ tag | capitalize }}</h1>
+		</header>
+		<div class="gallery">
+			{% assign tagsies = collections[tag] %}
+			{% for post in tagsies reversed %}
+				{% assign slug = post.data.page.filePathStem | split: '/' %}
+				{% case slug[2] %}
+					{% when "portre" %}
+					{% assign folder = "portraiture" %}
+					{% when "auto" %}
+					{% assign folder = "automotive" %}
+					{% when "kozossegi-tartalom" %}
+					{% assign folder = "social-content" %}
+				{% endcase %}
+				<a class="polaroids" href="{{ post.url }}">
+					<figure class="polaroid">
+						<div class="polaroid__square">
+							<img class="polaroid__photo" src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/01.jpg" alt="{{ post.data.title }}">
+						</div>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">{{ post.data.title }}</strong>
+						</figcaption>
+					</figure>
+				</a>
+			{% endfor %}
+		</div>
+	{% endif %}
 </main>
