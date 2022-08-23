@@ -1,7 +1,7 @@
 module.exports = {
 	items: [
 		{
-			photo: "/assets/images/testimonial-anna.jpg",
+			photo: "/assets/images/testimonial-anna.webp",
 			hu: {
 				name: "M. Anna",
 				text: "Tökéletesek! Egytől egyig. Amikor utaztam a fotózás helyszínére, azon gondolkodtam, hogy szerintem 4-5 kép bőven elég lesz, végtére is, minek több? Nos, abból a több, mint 200 (Roland által örömmel és dalolva készített) képből alig tudtam választani. Mindig megtalálta a jó szögeket, helyeket és kifejezetten nyitott volt az én ötleteimre is végig. Teljesen érthető és követhető instrukciókat adott, valamint segített, hogy az általam elképzelt képek tényleg olyanok legyenek, ahogy azt megálmodtam.",
@@ -14,7 +14,7 @@ module.exports = {
 			},
 		},
 		{
-			photo: "/assets/images/testimonial-cinti.jpg",
+			photo: "/assets/images/testimonial-cinti.webp",
 			hu: {
 				name: "M. Cinti",
 				text: "Nagyon közvetlenül telt a fotózás Rolanddal már az első perctől kezdve. Ez volt az első fotózásom, így ez nagyon sokat segített nekem abban, hogy hamar feloldódhassak. Idejét és türelmét nem sajnálva készültek el a változatos tematikájú képek. Sokat segített a megfelelő pózokban, és mindig meghallgatta az elképzeléseim... a végeredmény pedig nagyszerű lett!",
@@ -27,7 +27,7 @@ module.exports = {
 			},
 		},
 		{
-			photo: "/assets/images/testimonial-dori.jpg",
+			photo: "/assets/images/testimonial-dori.webp",
 			hu: {
 				name: "E. Dóri",
 				text: "Ismered azt az érzést, hogy rólad nem lehet jó képet csinálni? Én ezzel a mondattal indultam el fotózni Rolanddal, aki ezt követően a végtelen türelmével, szuper látásmódjával és kreativitásával bebizonyította, hogy nincs igazam, én pedig nem győztem utána válogatni a jobbnál jobb képek közül. A gyönyörű képek mellé pedig nem mellékesen grátiszként egy végtelenül jófej és vicces fotóst is kapsz.",
@@ -40,7 +40,7 @@ module.exports = {
 			},
 		},
 		{
-			photo: "/assets/images/testimonial-luca-david.jpg",
+			photo: "/assets/images/testimonial-luca-david.webp",
 			hu: {
 				name: "P. Luca & P. Dávid",
 				text: "Rolanddal egyszerűen fantasztikus volt a fotózás. Nagyon kedves, segítőkész és igyekszik a legkreatívabban megörökíteni a pillanatokat. Mindenkinek boldogan ajánlom. Garantálom, hogy nem mindennapi élményben lesz részetek, ha Őt választjátok. Nem csak figyelmes, de maximálisan professzionális (és nem mellesleg a humorérzéke is páratlan)!",
@@ -53,7 +53,7 @@ module.exports = {
 			},
 		},
 		{
-			photo: "/assets/images/testimonial-vivien.jpg",
+			photo: "/assets/images/testimonial-vivien.webp",
 			hu: {
 				name: "É. Vivien",
 				text: "Rolival a közös munka mindig jókedvűen és gördülékenyen zajlik, az egész fotózás jó hangulatú. Általában mindig kitalálunk valami kicsit újat és kreatívat. Roland csodásan megvalósítja azokat a képeket, amiket a fejemben elképzelek. Bátran keresem meg kreatívabb, nehezebb kérésekkel is, és mindig valami elképesztő fotósorozat készül belőle. Mindenkinek csak ajánlani tudom.",
@@ -66,7 +66,7 @@ module.exports = {
 			},
 		},
 		{
-			photo: "/assets/images/testimonial-viktoria.jpg",
+			photo: "/assets/images/testimonial-viktoria.webp",
 			hu: {
 				name: "M. Viktória",
 				text: "Rolival a fotózásaink hangulata az első pillanattól kezdve laza volt. Könnyű volt feloldódni, nem éreztem gátlásosnak magam, sokat viccelődtünk, amik néha belekontárkodtak egy-egy \"remekműbe\". A zseni hangulatnak köszönhetően a közös munkáinknak kivétel nélkül olyan produktumai születtek, amiket bátran osztottam meg a barátaimmal, illetve a közösségi média felületein.",
@@ -79,7 +79,7 @@ module.exports = {
 			},
 		},
 		{
-			photo: "/assets/images/testimonial-kata.jpg",
+			photo: "/assets/images/testimonial-kata.webp",
 			hu: {
 				name: "P. Kata",
 				text: "Roland által kiléptem a kamerám mögül, és a gyönyörűen virágzó fák alatt, az aranyórában készítettük el ezt a csodás sorozatot. Nem mellesleg, kezdő fotósként igazán sok mindent tanulhattam tőle a közös munka során &ndash; mindezt a jövőben alkalmazni is fogom.",
