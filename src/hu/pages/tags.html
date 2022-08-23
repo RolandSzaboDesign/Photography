@@ -31,11 +31,11 @@ translation: tagsEn
 			{% for post in tagsies reversed %}
 				{% assign slug = post.data.page.filePathStem | split: '/' %}
 				{% case slug[2] %}
-					{% when "portre" %}
+					{% when "portre", "portraiture" %}
 					{% assign folder = "portraiture" %}
-					{% when "auto" %}
+					{% when "auto", "automotive" %}
 					{% assign folder = "automotive" %}
-					{% when "kozossegi-tartalom" %}
+					{% when "kozossegi-tartalom", "social-content" %}
 					{% assign folder = "social-content" %}
 				{% endcase %}
 				<a class="polaroids" href="{{ post.url }}">
