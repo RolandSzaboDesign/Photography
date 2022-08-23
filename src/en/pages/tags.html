@@ -9,19 +9,6 @@ translation: tagsHu
 ---
 
 <main class="main">
-	{% if page.url == "/en/tags/all/" %}
-		<header class="page-header">
-			<span class="page-header__category">Tags</span>
-			<h1 class="page-header__title">All Tags</h1>
-		</header>
-		<ul class="tags">
-			{% for tag in collections.tagList %}
-				<li class="tag">
-					<a class="tag__link" href="/{{ locale }}/tags/{{ tag }}/">{{ tag }}</a>
-				</li>
-			{% endfor %}
-		</ul>
-	{% else %}
 		<header class="page-header">
 			<span class="page-header__category">Tagged</span>
 			<h1 class="page-header__title">{{ tag | capitalize }}</h1>
@@ -50,5 +37,4 @@ translation: tagsHu
 				</a>
 			{% endfor %}
 		</div>
-	{% endif %}
 </main>

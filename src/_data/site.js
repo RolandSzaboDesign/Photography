@@ -1,4 +1,5 @@
 module.exports = {
+	url: "https://rolandszabo.photo",
 	languages: [
 		{
 			code: "en",

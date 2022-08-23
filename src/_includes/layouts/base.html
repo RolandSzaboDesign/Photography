@@ -20,8 +20,8 @@
 
 		<!-- OpenGraph -->
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://rolandszabo.photo{{ page.url }}">
-		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
+		<meta property="og:url" content="{{ site.url | append: page.url }}">
+		<meta property="og:image" content="{{ site.url }}/assets/images/roland-og.jpg">
 		<meta property="og:description" content="{{ site[locale].homepageTitle }}">
 		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
 
