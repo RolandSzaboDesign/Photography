@@ -1,2 +1,1 @@
-
 User-agent: * Allow: / Sitemap: https://rolandszabo.photo/sitemap.xml
