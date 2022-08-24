@@ -89,7 +89,7 @@ module.exports = {
 		"navServicesPortraiture": "Portrézós Fotós Séták",
 		"navServicesSocialContent": "Közösségi Tartalomgyártás",
 		"navServicesAutomotive": "Új- és Használtautó Fotózás",
-		"navPhotoWalks": "Fotós Séták",
+		"navPhotoWalks": "<span class='portre'>Portré </span>Fotós Séták",
 		"navContact": "Kapcsolat",
 		"navGear": "Felszerelés",
 

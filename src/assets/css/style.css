@@ -255,6 +255,11 @@ hr {
 	font-size: 1rem;
 }
 
+.nav__item--button {
+	padding: .5rem;
+	text-align: center;
+}
+
 .nav__link {
 	display: block;
 	padding: .75rem;
@@ -268,6 +273,10 @@ hr {
 .nav__link:hover,
 .nav__link:focus {
 	background-color: #FFF;
+}
+
+.nav__link--button {
+	font-weight: 700;
 }
 
 .lang {
@@ -692,6 +701,7 @@ hr {
 
 	.nav__list {
 		display: flex;
+		align-items: center;
 	}
 
 	.nav__item {
@@ -700,6 +710,10 @@ hr {
 
 	.nav__link {
 		text-align: left;
+	}
+
+	.portre {
+		display: none;
 	}
 
 	.nav__dropdown {
@@ -795,10 +809,6 @@ hr {
 		background-color: transparent;
 	}
 
-	.nav__list > .nav__item > .nav__link {
-		font-weight: 300;
-	}
-
 	.nav__link {
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
@@ -880,7 +890,8 @@ hr {
 	}
 
 	.nav__list > .nav__item {
-		margin: .5rem 0;
+		margin-top: .5rem;
+		margin-bottom: .5rem;
 		border: 1px solid var(--bg-medium);
 		background-color: #FFF;
 	}
