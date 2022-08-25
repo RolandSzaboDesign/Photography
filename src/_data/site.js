@@ -60,7 +60,7 @@ module.exports = {
 		"contactPhotoTitle": "How can I help you?",
 		"gearPhotoTitle": "I'm on fire, baby!",
 
-		"servicesPortraitureIntro": "I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories.",
+		"servicesPortraitureIntro": "I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories. You can even bring your pet or your hobby! Here's how easy it is:",
 
 		"ctaTitle": "Would you like similar, amazing photos?",
 		"ctaText": "I can make beatiful photos of you on our laid-back photo walk. Learn more to see how easy it is!",
@@ -116,7 +116,7 @@ module.exports = {
 		"contactPhotoTitle": "Miben tudok segíteni?",
 		"gearPhotoTitle": "Elég forró volt a helyzet...",
 
-		"servicesPortraitureIntro": "Laza, nyugodt hangulatú fotós séták során készítek maradandó emlékeket. A formátum lehet egyéni, páros vagy családi, de elhozhatod akár a kis kedvencedet is.",
+		"servicesPortraitureIntro": "Laza, nyugodt hangulatú fotós séták során készítek maradandó emlékeket. A formátum lehet egyéni, páros vagy családi, de elhozhatod a kis kedvencedet vagy akár a hobbidat is! Ilyen egyszerű a folyamat:",
 
 		"ctaTitle": "Szeretnél hasonló, szuper képeket?",
 		"ctaText": "Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!",

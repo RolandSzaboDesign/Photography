@@ -44,7 +44,7 @@ translation: photo-walks
 			<li>Éjszakai fotózás a belvárosban sok színes bokeh-val a háttérben, fényvisszaverő ruházatban és ékszerekkel</li>
 			<li><em>Ide jön a Te kreatív ötleted</em> 😉</li>
 		</ul>
-		<p>Az igényeid és ötleteid alapján készíthetünk egy stílustervet, vagy konkrét fotólistát, amit majd a Fotózás alatt tudunk használni.</p>
+		<p>Az igényeid és ötleteid alapján készíthetünk egy stílustervet, amit majd a Fotózás alatt tudunk használni.</p>
 		<p>Kérlek, gondold át azt is, hogy körülbelül hány képre lesz szükséged, hogy ehhez mérten tudjam a fotós séta időtartamát belőni.</p>
 	</li>
 	<li class="how-it-works__item">
@@ -53,8 +53,8 @@ translation: photo-walks
 			<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
 		</figure>
 		<h3 class="how-it-works__title">Fotózás</h3>
-		<p>A fotózás alatt szívesen segítek a pózok finomhangolásában, és legszebb mosolyod előcsalogatásában, amit empatikus természetemmel és borzalmasan rossz vicceimmel igyekszem elérni.</p>
-		<p>Séta közben szívesen meghallgatom a történetedet, ha elmondod. Ha pedig érdekel, én is elmesélhetem az enyémet. A közös beszélgetés segít megnyílni egymás előtt, és gátlások nélkül bonyolítani a fotózást. Elképesztő fotók tudnak születni akkor, ha már ismerjük a másikat, és egy hullámhosszra kerülünk.</p>
+		<p>A fotózás alatt szívesen segítek a pózok finomhangolásában, és legszebb mosolyod előcsalogatásában, amit empatikus természetemmel és borzalmasan rossz vicceimmel igyekszem elérni. Mindent megteszek azért, hogy a legjobban el tudj lazulni a fotózás alatt, és ne kelljen aggódnod semmi miatt.</p>
+		<p>Séta közben szívesen meghallgatom a történetedet, ha elmondod; ha pedig érdekel, én is elmesélhetem az enyémet. A közös beszélgetés segít megnyílni egymás előtt, és gátlások nélkül bonyolítani a fotózást. Elképesztő fotók tudnak születni akkor, ha már ismerjük a másikat, és egy hullámhosszra kerülünk.</p>
 		<p>Nem kell szigorúan tartanunk magunkat a stílustervhez, szóval ha megpillantasz egy érdekes helyszínt, ami hirtelen megtetszik, mondd bátran, és megnézzük. Én is pontosan így fogok tenni. A kedvenc fotóim azok, amik nincsenek tervben, hanem maguktól jönnek.</p>
 	</li>
 	<li class="how-it-works__item">
@@ -82,7 +82,7 @@ translation: photo-walks
 
 <div class="faqs">
 	{%- for e in faq.items -%}
-		<details class="faq">
+		<details class="faq" id="{{ e[locale].id }}">
 			<summary class="faq__question">{{ e[locale].question }}</summary>
 			<div class="faq__answer">{{ e[locale].answer }}</div>
 		</details>
