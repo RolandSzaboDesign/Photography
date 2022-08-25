@@ -232,7 +232,7 @@ module.exports = {
 			hu: {
 				id: "hany-napra-elore",
 				question: "Hány napra előre kell időpontot foglaljak?",
-				answer: "Általában nagyon rugalmas vagyok, ami azt jelenti, hogy akár aznapra vagy másnapra is megbeszélhetünk egy fotózást, ha kitaláltál egy jó ötletet. Mindenképpen írj rám, ha sürgős a projekt, hogy meg tudjuk beszélni, hogy mikor és hogy érek rá a közelgő órákban-napokban. A sürgős fotótásokra, ha el tudom vállalni, nem vonatkozik felár.",
+				answer: "Általában nagyon rugalmas vagyok, ami azt jelenti, hogy akár aznapra vagy másnapra is megbeszélhetünk egy fotózást, ha kitaláltál egy jó ötletet. Mindenképpen írj rám, ha sürgős a projekt, hogy meg tudjuk beszélni, hogy mikor és hogy érek rá a közelgő órákban-napokban. A sürgős fotózásokra, ha el tudom vállalni, nem vonatkozik felár.",
 			},
 			en: {
 				id: "how-far-in-advance",
