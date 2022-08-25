@@ -196,7 +196,7 @@ module.exports = {
 			hu: {
 				id: "felszereles",
 				question: "Milyen felszereléssel dolgozol?",
-				answer: "A Sony Alpha 7 III professzionális full-frame tükörmentes fényképezőgépvázat használom egy rakás kiváló minőségű prím objektívvel. A legtöbbször a Sony FE 85mm f/1.8 obival dolgozom, ez a kedvenc gyújtótávolságom, ezt kiegészíti a Sony FE 50mm f/1.8 objektív, ha szűkebb a hely. Ezeken felül van egy Sigma 70mm f/2.8 DG Macro Art prímobjektívem, amivel 1:1 makró és közeli képeket tudunk csinálni, és nagyszerűen beilleszkedik a fenti 85mm és 50mm gyutáv közé. Szeretem a Tamron 20mm f/2.8 Di III OSD obit is használni a szuper széles látószögű képek elkészítéséhez. Ezeken felül van két, 50 éves vintage objektívem, amiknek rendkívül sajátos rajzolatuk és érdekes színviláguk van. Összeraktam egy külön oldalt, ha érdekel, hogy pontosan <a href='/en/gear/'>milyen felszereléssel dolgozom</a>.",
+				answer: "A Sony Alpha 7 III professzionális full-frame tükörmentes fényképezőgépvázat használom egy rakás kiváló minőségű prím objektívvel. A legtöbbször a Sony FE 85mm f/1.8 obival dolgozom, ez a kedvenc gyújtótávolságom, ezt kiegészíti a Sony FE 50mm f/1.8 objektív, ha szűkebb a hely. Ezeken felül van egy Sigma 70mm f/2.8 DG Macro Art prímobjektívem, amivel 1:1 makró és közeli képeket tudunk csinálni, és nagyszerűen beilleszkedik a fenti 85mm és 50mm gyutáv közé. Szeretem a Tamron 20mm f/2.8 Di III OSD obit is használni a szuper széles látószögű képek elkészítéséhez. Ezeken felül van két, 50 éves vintage objektívem, amiknek rendkívül sajátos rajzolatuk és érdekes színviláguk van. Összeraktam egy külön oldalt, ha érdekel, hogy pontosan <a href='/hu/felszereles/'>milyen felszereléssel dolgozom</a>.",
 			},
 			en: {
 				id: "gear",
