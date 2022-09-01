@@ -12,6 +12,7 @@
 /automotive/amg-gts/							/hu/auto/										301
 /automotive/aventador-svj/						/hu/auto/										301
 /automotive/huracan-evo-spyder/					/hu/auto/huracan-evo-spyder/					301
+/automotive/mol-limo-1/							/hu/auto/										301
 /automotive/r8-green-hell/						/hu/auto/										301
 /automotive/rs5-r/								/hu/auto/rs5-r/									301
 /automotive/									/hu/auto/										301
@@ -32,7 +33,9 @@
 /portrait/denise-mark/							/hu/portre/denise-mark/							301
 /portrait/eniko-barbi/							/hu/portre/										301
 /portrait/gabi-szabi/							/hu/portre/										301
+/portrait/imola/								/hu/portre/										301
 /portrait/kata/									/hu/portre/kata/								301
+/portrait/kata-3/								/hu/portre/kata/								301
 /portrait/kinga/								/hu/portre/										301
 /portrait/kitti/								/hu/portre/										301
 /portrait/lacko/								/hu/portre/lacko/								301
@@ -44,6 +47,7 @@
 /portrait/loretta/								/hu/portre/loretta/								301
 /portrait/niki-dani/							/hu/portre/										301
 /portrait/reka/									/hu/portre/reka/								301
+/portrait/tanya/								/hu/portre/										301
 /portrait/timi/									/hu/portre/										301
 /portrait/tina-evelin/							/hu/portre/										301
 /portrait/velva/								/hu/portre/										301
@@ -54,14 +58,17 @@
 /portrait/vivi/									/hu/portre/vivi/								301
 /portrait/vivien/								/hu/portre/vivi/								301
 /portrait/										/hu/portre/										301
+/portraiture/dalma/								/hu/portre/dalma/								301
 /portraiture/reka/								/hu/portre/reka/								301
 /portraiture									/hu/portre/										301
 /portrait										/hu/portre/										301
 /social-content/budapart-mol-limo/				/hu/kozossegi-tartalom/budapart-mol-limo/		301
 /social-content/pinceszinhaz/					/hu/kozossegi-tartalom/pinceszinhaz/			301
 /social-content/the-damn-good-place/			/hu/kozossegi-tartalom/the-damn-good-place/		301
+/social-content/inna-faith-tattoo/				/hu/kozossegi-tartalom/inna-faith-tattoo/		301
 /social-content/								/hu/kozossegi-tartalom/							301
 /social-content									/hu/kozossegi-tartalom/							301
+/street/2021-11-21/								/hu/											301
 /street/2021-11-25/								/hu/											301
 /street/2021-11-30/								/hu/											301
 /street/2021-12-03/								/hu/											301
@@ -69,6 +76,7 @@
 /street/										/hu/											301
 /street											/hu/											301
 /tags/artist/									/hu/tags/all/									301
+/tags/beauty shoot/								/hu/tags/all/									301
 /tags/family/									/hu/tags/all/									301
 /tags/female/									/hu/tags/all/									301
 /tags/lifestyle/								/hu/tags/all/									301
