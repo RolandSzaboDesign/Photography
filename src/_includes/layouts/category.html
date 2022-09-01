@@ -8,31 +8,43 @@ layout: layouts/base.html
 		<a class="page-header__category" href="/{{ locale }}/{{ site[locale].slugGalleries }}/" title="Back to Galleries">{{ site[locale].navGalleries }}</a>
 		<h1 class="page-header__title">{{ title }}</h1>
 	</header>
-	<div class="gallery">
+	<div class="masonry">
 		{% for post in collections[slug] reversed %}
-		<a class="polaroids" href="{{ post.url }}">
-			<figure class="polaroid">
-				<div class="polaroid__square">
+			<a class="brick" href="{{ post.url }}">
+				<figure class="brick__figure">
 					{% case slug %}
 						{% when "portré", "portraiture" %}
-						{% assign folder = "portraiture" %}
+							{% assign folder = "portraiture" %}
 						{% when "autó", "automotive" %}
-						{% assign folder = "automotive" %}
+							{% assign folder = "automotive" %}
 						{% when "közösségi-tartalom", "social-content" %}
-						{% assign folder = "social-content" %}
+							{% assign folder = "social-content" %}
 					{% endcase %}
-					<img class="polaroid__photo" src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}.jpg" alt="{{ post.data.title }}">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">{{ post.data.title }}</strong>
-				</figcaption>
-			</figure>
-		</a>
+					<img class="brick__photo" src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}.jpg" alt="{{ post.data.title }}">
+					<figcaption class="brick__caption">{{ post.data.title }}</figcaption>
+				</figure>
+			</a>
 		{% endfor %}
 	</div>
 	{% include "partials/cta.html" %}
+
+	<script src="/assets/js/masonry.js"></script>
+	<script>
+		var masonry = Macy({
+			container: ".masonry",
+			mobileFirst: true,
+			columns: 2,
+			breakAt: {
+				768: {
+					columns: 3
+				},
+				1200: {
+					columns: 4
+				}
+			},
+			margin: 16,
+			cancelLegacy: true
+		});
+
+	</script>
 </main>
-
-<script>
-
-</script>
