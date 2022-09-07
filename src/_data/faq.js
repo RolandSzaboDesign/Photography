@@ -172,12 +172,12 @@ module.exports = {
 			hu: {
 				id: "peldak-arazasra",
 				question: "Adsz néhány példát az árazásra?",
-				answer: "<ul class='list'><li><strong>1. eset:</strong> Csak 5 fotóra van szükséged &mdash; 7.500 Ft.</li><li><strong>2. eset:</strong> 10 fotóra van szükséged &mdash; 15.000 Ft.</li><li><strong>3. eset:</strong> 16 fotóra van szükséged &mdash; 21.000 Ft.</li><li><strong>4. eset:</strong> 8 fotóra van szükséged és béreltünk egy autót 2.500 Ft-ért &mdash; 12.000 + 1.250 = 13.250 Ft.</li></ul>",
+				answer: "<ul class='list'><li><strong>1. eset:</strong> Csak 5 fotóra van szükséged &mdash; 10.000 Ft.</li><li><strong>2. eset:</strong> 10 fotóra van szükséged &mdash; 20.000 Ft.</li><li><strong>3. eset:</strong> 16 fotóra van szükséged &mdash; 26.000 Ft.</li><li><strong>4. eset:</strong> 8 fotóra van szükséged és béreltünk egy autót 3.000 Ft-ért &mdash; 16.000 + 1.500 = 17.500 Ft.</li></ul>",
 			},
 			en: {
 				id: "pricing-examples",
 				question: "Can I get some examples on pricing?",
-				answer: "<ul class='list'><li>You only need 5 photos &mdash; that'll be 7.500 HUF.</li><li>You need 10 photos &mdash; that's 15.000 HUF.</li><li>You need 16 photos &mdash; that's only 21.000 HUF.</li><li>You need 8 photos and we rented a car and used it for a total cost of 2500 HUF &mdash; that's 12.000 + 1.250 = 13.250 HUF.</li></ul>",
+				answer: "<ul class='list'><li>You only need 5 photos &mdash; that'll be 10.000 HUF.</li><li>You need 10 photos &mdash; that's 20.000 HUF.</li><li>You need 16 photos &mdash; that's only 26.000 HUF.</li><li>You need 8 photos and we rented a car and used it for a total cost of 3000 HUF &mdash; that's 16.000 + 1.500 = 17.500 HUF.</li></ul>",
 			},
 		},
 		{
