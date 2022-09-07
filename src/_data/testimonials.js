@@ -1,5 +1,18 @@
 module.exports = {
 	items: [
+		// {
+		// 	photo: "/assets/images/testimonial-cinta-jorge.webp",
+		// 	hu: {
+		// 		name: "Cinta W. & Jorge G.",
+		// 		text: "",
+		// 		link: "/hu/portre/cinta-jorge/",
+		// 	},
+		// 	en: {
+		// 		name: "Cinta W. & Jorge G.",
+		// 		text: "",
+		// 		link: "/hu/portre/cinta-jorge/",
+		// 	},
+		// },
 		{
 			photo: "/assets/images/testimonial-anna.webp",
 			hu: {
