@@ -101,91 +101,67 @@
 		<a class="page-header__category" href="/hu/galeriak/" title="Back to Galleries">Galériák</a>
 		<h1 class="page-header__title">Autó</h1>
 	</header>
-	<div class="gallery">
+	<div class="masonry">
 		
-		<a class="polaroids" href="/hu/auto/rs5-b8/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
+			<a class="brick" href="/hu/auto/rs5-b8/">
+				<figure class="brick__figure">
 					
+							
 						
-						
-					<img class="polaroid__photo" src="/assets/images/automotive/rs5-b8/01.jpg" alt="Audi RS5 (B8) Coupé">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">Audi RS5 (B8) Coupé</strong>
-				</figcaption>
-			</figure>
-		</a>
+					<img class="brick__photo" src="/assets/images/automotive/rs5-b8/01.jpg" alt="Audi RS5 (B8) Coupé">
+					<figcaption class="brick__caption">Audi RS5 (B8) Coupé</figcaption>
+				</figure>
+			</a>
 		
-		<a class="polaroids" href="/hu/auto/huracan-evo-spyder/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
+			<a class="brick" href="/hu/auto/huracan-evo-spyder/">
+				<figure class="brick__figure">
 					
+							
 						
-						
-					<img class="polaroid__photo" src="/assets/images/automotive/huracan-evo-spyder/01.jpg" alt="Lamborghini Huracán EVO Spyder">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">Lamborghini Huracán EVO Spyder</strong>
-				</figcaption>
-			</figure>
-		</a>
+					<img class="brick__photo" src="/assets/images/automotive/huracan-evo-spyder/06.jpg" alt="Lamborghini Huracán EVO Spyder">
+					<figcaption class="brick__caption">Lamborghini Huracán EVO Spyder</figcaption>
+				</figure>
+			</a>
 		
-		<a class="polaroids" href="/hu/auto/amg-a35/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
+			<a class="brick" href="/hu/auto/amg-a35/">
+				<figure class="brick__figure">
 					
+							
 						
-						
-					<img class="polaroid__photo" src="/assets/images/automotive/amg-a35/01.jpg" alt="Mercedes-AMG A35 Sedan">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">Mercedes-AMG A35 Sedan</strong>
-				</figcaption>
-			</figure>
-		</a>
+					<img class="brick__photo" src="/assets/images/automotive/amg-a35/01.jpg" alt="Mercedes-AMG A35 Sedan">
+					<figcaption class="brick__caption">Mercedes-AMG A35 Sedan</figcaption>
+				</figure>
+			</a>
 		
-		<a class="polaroids" href="/hu/auto/991.2-cabriolet/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
+			<a class="brick" href="/hu/auto/991.2-cabriolet/">
+				<figure class="brick__figure">
 					
+							
 						
-						
-					<img class="polaroid__photo" src="/assets/images/automotive/991.2-cabriolet/01.jpg" alt="Porsche 911 Carrera Cabriolet 991.2">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">Porsche 911 Carrera Cabriolet 991.2</strong>
-				</figcaption>
-			</figure>
-		</a>
+					<img class="brick__photo" src="/assets/images/automotive/991.2-cabriolet/01.jpg" alt="Porsche 911 Carrera Cabriolet 991.2">
+					<figcaption class="brick__caption">Porsche 911 Carrera Cabriolet 991.2</figcaption>
+				</figure>
+			</a>
 		
-		<a class="polaroids" href="/hu/auto/rs5-r/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
+			<a class="brick" href="/hu/auto/rs5-r/">
+				<figure class="brick__figure">
 					
+							
 						
-						
-					<img class="polaroid__photo" src="/assets/images/automotive/rs5-r/01.jpg" alt="Audi ABT RS5-R Coupé">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">Audi ABT RS5-R Coupé</strong>
-				</figcaption>
-			</figure>
-		</a>
+					<img class="brick__photo" src="/assets/images/automotive/rs5-r/01.jpg" alt="Audi ABT RS5-R Coupé">
+					<figcaption class="brick__caption">Audi ABT RS5-R Coupé</figcaption>
+				</figure>
+			</a>
 		
-		<a class="polaroids" href="/hu/auto/924/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
+			<a class="brick" href="/hu/auto/924/">
+				<figure class="brick__figure">
 					
+							
 						
-						
-					<img class="polaroid__photo" src="/assets/images/automotive/924/01.jpg" alt="Porsche 924">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">Porsche 924</strong>
-				</figcaption>
-			</figure>
-		</a>
+					<img class="brick__photo" src="/assets/images/automotive/924/01.jpg" alt="Porsche 924">
+					<figcaption class="brick__caption">Porsche 924</figcaption>
+				</figure>
+			</a>
 		
 	</div>
 	<div class="cta">
@@ -203,11 +179,27 @@
 	</blockquote>
 </div>
 
+
+	<script src="/assets/js/masonry.js"></script>
+	<script>
+		var masonry = Macy({
+			container: ".masonry",
+			mobileFirst: true,
+			columns: 2,
+			breakAt: {
+				768: {
+					columns: 3
+				},
+				1200: {
+					columns: 4
+				}
+			},
+			margin: 16,
+			cancelLegacy: true
+		});
+
+	</script>
 </main>
-
-<script>
-
-</script>
 
 		<footer class="footer">
 	<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>

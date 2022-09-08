@@ -24,27 +24,6 @@
 	text-align: center;
 }
 
-.portfolio {
-	display: grid;
-	grid-gap: 1rem;
-}
-
-.portfolio__stack {
-	display: grid;
-	grid-gap: 1rem;
-}
-
-.portfolio__link {
-	display: flex;
-	border-bottom: 0;
-}
-
-.portfolio__image {
-	width: 100%;
-	object-fit: cover;
-	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
-}
-
 .lightbox {
 	position: fixed;
 	top: 0;
@@ -147,17 +126,6 @@
 	transform: rotate(90deg);
 }
 
-@media only screen and (min-width: 480px) {
-	.portfolio {
-		grid-auto-flow: dense;
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.wide {
-		grid-column: span 2;
-	}
-}
-
 @media only screen and (min-width: 576px) {
 	.home__title {
 		margin-bottom: 1.25rem;
@@ -200,15 +168,5 @@
 		margin-bottom: 1.5rem;
 		font-size: 2.5rem;
 		letter-spacing: -.1rem;
-	}
-
-	.portfolio {
-		grid-template-columns: repeat(3, 1fr);
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.portfolio {
-		grid-template-columns: repeat(4, 1fr);
 	}
 }

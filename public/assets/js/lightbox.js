@@ -1,5 +1,5 @@
-const portfolioImage = document.querySelectorAll('.portfolio__link');
-const lightboxEnabled = document.querySelectorAll('.portfolio__image');
+const portfolioImage = document.querySelectorAll('.brick');
+const lightboxEnabled = document.querySelectorAll('.brick__photo');
 const lightboxArray = Array.from(lightboxEnabled);
 const lastImage = lightboxArray.length - 1;
 const lightboxContainer = document.querySelector('.lightbox');

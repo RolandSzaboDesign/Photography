@@ -615,6 +615,51 @@ hr {
 
 
 
+/* Masonry */
+
+.brick {
+	display: block;
+	border: 0;
+}
+
+.brick:hover .brick__caption,
+.brick:focus .brick__caption {
+	opacity: 1;
+}
+
+.brick__figure {
+	position: relative;
+}
+
+.brick__photo {
+	display: block;
+}
+
+.brick__caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: .5rem;
+	padding: 1rem;
+	font-family: var(--serif);
+	font-size: 1.25rem;
+	color: #FFF;
+	letter-spacing: -.25px;
+	text-align: center;
+	text-shadow: 0 1px 4px rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.25);
+	box-shadow: inset 0 0 50px 0 rgba(0,0,0,.5);
+	transition: opacity .25s;
+}
+
+
+
 /* Media Queries */
 
 @media only screen and (min-width: 425px) {
@@ -639,6 +684,11 @@ hr {
 
 	.polaroid__title {
 		padding-bottom: .5rem;
+	}
+
+	.brick__caption {
+		font-size: 1.5rem;
+		letter-spacing: -.325px;
 	}
 
 	.cta {
@@ -866,6 +916,11 @@ hr {
 
 	.testimonials {
 		grid-gap: 2rem;
+	}
+
+	.brick__caption {
+		font-size: 1.75rem;
+		letter-spacing: -.4px;
 	}
 }
 

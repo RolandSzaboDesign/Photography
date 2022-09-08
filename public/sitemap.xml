@@ -401,10 +401,6 @@
 		<lastmod>2022-08-30T09:18:22.237Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
-		<lastmod>2022-08-30T09:18:22.238Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/tags/all/</loc>
 		<lastmod>2022-08-30T09:18:22.238Z</lastmod>
 	</url>
@@ -425,11 +421,15 @@
 		<lastmod>2022-08-30T09:18:22.247Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
+		<loc>https://rolandszabo.photo/hu/tags/all/</loc>
 		<lastmod>2022-08-30T09:18:22.247Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/hu/tags/all/</loc>
-		<lastmod>2022-08-30T09:18:22.247Z</lastmod>
+		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
+		<lastmod>2022-09-08T11:40:11.442Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
+		<lastmod>2022-09-08T11:40:11.444Z</lastmod>
 	</url>
 </urlset>
