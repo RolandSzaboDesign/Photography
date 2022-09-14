@@ -854,6 +854,10 @@ hr {
 		font-size: 1.125rem;
 	}
 
+	.nav__item--button {
+		padding: 0;
+	}
+
 	.nav__list > .nav__item {
 		margin: 0;
 		background-color: transparent;
@@ -896,6 +900,24 @@ hr {
 		text-align: right;
 		border-left: 0;
 		border-right: .5rem solid var(--accent);
+	}
+
+	.page-header--has-intro {
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		grid-gap: 0 2rem;
+		align-items: start;
+		text-align: left;
+	}
+
+	.page-header--has-intro .tags {
+		justify-content: start;
+	}
+
+	.page-header__description {
+		grid-row: 1 / 5;
+		grid-column: 2;
+		text-align: right;
 	}
 }
 
