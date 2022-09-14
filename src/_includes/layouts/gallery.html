@@ -3,7 +3,7 @@ layout: layouts/base.html
 ---
 
 <main class="main">
-	<header class="page-header">
+	<header class="page-header{% if intro %} page-header--has-intro{% endif %}">
 		<a class="page-header__category" href="/{{ locale }}/{{ tags[0] | replace: 'é', 'e' | replace: 'ó', 'o' | replace: 'ö', 'o' }}/" title="Back to {{ tags[0] | split: '-' | join: ' ' | capitalize }}">{{ tags[0] | split: "-" | join: " " | capitalize }}</a>
 		<h1 class="page-header__title">{{ title }}</h1>
 		<ul class="tags">
@@ -14,6 +14,7 @@ layout: layouts/base.html
 				</li>
 			{% endfor %}
 		</ul>
+		<p class="page-header__description">{{ intro }}</p>
 	</header>
 	<div class="gallery gallery--single">
 		{{ content }}
