@@ -1,18 +1,18 @@
 module.exports = {
 	items: [
-		// {
-		// 	photo: "/assets/images/testimonial-cinta-jorge.webp",
-		// 	hu: {
-		// 		name: "Cinta W. & Jorge G.",
-		// 		text: "",
-		// 		link: "/hu/portre/cinta-jorge/",
-		// 	},
-		// 	en: {
-		// 		name: "Cinta W. & Jorge G.",
-		// 		text: "",
-		// 		link: "/hu/portre/cinta-jorge/",
-		// 	},
-		// },
+		{
+			photo: "/assets/images/testimonial-cinta-jorge.webp",
+			hu: {
+				name: "Cinta W. & Jorge G.",
+				text: "Rolandot a Budapesti nyaralásunkon ismertük meg, amikor megmutatott nekünk egy fotót, amit spontán készített rólunk az utcán. A munkái alapján nagyszerű szakembernek gondoltuk, így felkértük életünk első közös fotózására. A fotózás nagyszerű hangulatban, élménydúsan telt. Nagyon izgultunk az elején, de Roland, nagyszerű személyiség és szakember lévén, segített nekünk ellazulni. A lényeg az, hogy legyél önmagad a fotózáson, hogy a képek visszaadják a valódi önmagadat. Kérdés nélkül egy felejthetetlen élmény volt!",
+				link: "/hu/portre/cinta-jorge/",
+			},
+			en: {
+				name: "Cinta W. & Jorge G.",
+				text: "We met Roland on our trip to Budapest, when he showed us the photograph he had taken of us unaware, we saw that he was a great professional, and later we contacted him to do our first photo session. The shooting was very dynamic and fun. We were nervous, but since he is a very open and friendly person, he helped us feel very comfortable at all times. In the end, the important thing was to be yourself during the session to come out as natural as possible. Without a doubt, an unforgettable experience!",
+				link: "/en/portraiture/cinta-jorge/",
+			},
+		},
 		{
 			photo: "/assets/images/testimonial-anna.webp",
 			hu: {
