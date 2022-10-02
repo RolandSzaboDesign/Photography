@@ -50,7 +50,7 @@ module.exports = {
 		"slugContact": "contact",
 		"slugGear": "gear",
 
-		"homepageTitle": "I create outdoor portraits on relaxed photowalks in and around Budapest.",
+		"homepageTitle": "I create authentic portraits on relaxed photo walks in Budapest.",
 		"homepageButton": "Let's Walk",
 		"homepageLink": "or check out my work",
 		"homepageOtherHeadline": "Here's a few other things I shoot",
@@ -106,7 +106,7 @@ module.exports = {
 		"slugContact": "kapcsolat",
 		"slugGear": "felszereles",
 
-		"homepageTitle": "Portrékat készítek laza hangulatú fotós sétákon Budapesten és környékén.",
+		"homepageTitle": "Portrékat készítek laza hangulatú fotós sétákon Budapesten.",
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
 		"homepageOtherHeadline": "Portrékon kívül mást is fotózom",
