@@ -63,7 +63,7 @@ module.exports = {
 		"servicesPortraitureIntro": "I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories. You can even bring your pet or your hobby! Here's how easy it is:",
 
 		"ctaTitle": "Would you like similar, amazing photos?",
-		"ctaText": "I can make beatiful photos of you on our laid-back photo walk. Learn more to see how easy it is!",
+		"ctaText": "I can make beautiful photos of you on our laid-back photo walk. Learn more to see how easy it is!",
 		"ctaButton": "Let's see the details",
 	},
 	hu: {
