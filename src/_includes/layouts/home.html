@@ -11,61 +11,50 @@ css: home
 		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
 	</header>
 
-	<div class="masonry">
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/jazmin_md.jpg 950w" src="/assets/images/portfolio/jazmin.jpg" sizes="(max-width: 992px) 950px" alt="Jázmin">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/cinta-jorge_md.jpg 950w" src="/assets/images/portfolio/cinta-jorge.jpg" sizes="(max-width: 992px) 950px" alt="Cinta & Jorge">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/blanka_md.jpg 950w" src="/assets/images/portfolio/blanka.jpg" sizes="(max-width: 992px) 950px" alt="Blanka">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/arianna_md.jpg 950w" src="/assets/images/portfolio/arianna.jpg" sizes="(max-width: 992px) 950px" alt="Arianna">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/orsi_md.jpg 950w" src="/assets/images/portfolio/orsi.jpg" sizes="(max-width: 992px) 950px" alt="Orsi">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/adel-sango_md.jpg 950w" src="/assets/images/portfolio/adel-sango.jpg" sizes="(max-width: 992px) 950px" alt="Adél & Sango">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/zsanett-matthias_md.jpg 950w" src="/assets/images/portfolio/zsanett-matthias.jpg" sizes="(max-width: 992px) 950px" alt="Zsanett & Matthias">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/dori_md.jpg 950w" src="/assets/images/portfolio/dori.jpg" sizes="(max-width: 992px) 950px" alt="Dóri">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/luca-david_md.jpg 950w" src="/assets/images/portfolio/luca-david.jpg" sizes="(max-width: 992px) 950px" alt="Luca & Dávid">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/dalma_md.jpg 950w" src="/assets/images/portfolio/dalma.jpg" sizes="(max-width: 992px) 950px" alt="Dalma">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/viki_md.jpg 950w" src="/assets/images/portfolio/viki.jpg" sizes="(max-width: 992px) 950px" alt="Viki">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/daniella_md.jpg 950w" src="/assets/images/portfolio/daniella.jpg" sizes="(max-width: 992px) 950px" alt="Daniella">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/kata_md.jpg 950w" src="/assets/images/portfolio/kata.jpg" sizes="(max-width: 992px) 950px" alt="Kata">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/kata-mira_md.jpg 950w" src="/assets/images/portfolio/kata-mira.jpg" sizes="(max-width: 992px) 950px" alt="Kata Mira">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/eszter_md.jpg 950w" src="/assets/images/portfolio/eszter.jpg" sizes="(max-width: 992px) 950px" alt="Eszter">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/sheyina-yaelle_md.jpg 950w" src="/assets/images/portfolio/sheyina-yaelle.jpg" sizes="(max-width: 992px) 950px" alt="Sheyina & Yaelle">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/tamara_md.jpg 950w" src="/assets/images/portfolio/tamara.jpg" sizes="(max-width: 992px) 950px" alt="Tamara">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/virag_md.jpg 950w" src="/assets/images/portfolio/virag.jpg" sizes="(max-width: 992px) 950px" alt="Virág">
-		</a>
+	<div class="home__grid">
+		<section>
+			<h2 class="home__subtitle">Egyéni Portrék</h2>
+			<div class="masonry">
+				<div class="masonry__column">
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/eszter-2/01.jpg" alt="Eszter"></a>
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/eperke/03.jpg" alt="Eperke"></a>
+				</div>
+				<div class="masonry__column">
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/jazmin/03.jpg" alt="Jázmin"></a>
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/anna-3/01.jpg" alt="Anna"></a>
+				</div>
+				<div class="masonry__column">
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/balazs/01.jpg" alt="Balázs"></a>
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/kata/01.jpg" alt="Kata"></a>
+				</div>
+				<div class="masonry__column">
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/dori/01.jpg" alt="Dóri"></a>
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/arianna/02.jpg" alt="Arianna"></a>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h2 class="home__subtitle">Páros Portrék</h2>
+			<div class="masonry">
+				<div class="masonry__column">
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/cinta-jorge/02.jpg" alt="Cinta & Jorge"></a>
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/luca-david/03.jpg" alt="Luca & Dávid"></a>
+				</div>
+				<div class="masonry__column">
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/orsi/07.jpg" alt="Orsi & Barni"></a>
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/aliz-adam/04.jpg" alt="Alíz & Ádám"></a>
+				</div>
+				<div class="masonry__column">
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/linda-gyuri/07.jpg" alt="Linda & Gyuri"></a>
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/denise-mark/01.jpg" alt="Denise & Márk"></a>
+				</div>
+				<div class="masonry__column">
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/zsanett-matthias/04.jpg" alt="Zsanett & Matthias"></a>
+					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/amelie-gerson/02.jpg" alt="Amélie & Gerson"></a>
+				</div>
+			</div>
+		</section>
 	</div>
 
 	<div class="home-bottom">
@@ -73,39 +62,7 @@ css: home
 		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
 	</div>
 
-	<header class="page-header page-header--with-border home">
-		<h2 class="home__title">{{ site[locale].homepageOtherHeadline }}</h2>
-	</header>
-
-	<div class="masonry-2">
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/rs5-b8_md.jpg 950w" src="/assets/images/portfolio/rs5-b8.jpg" sizes="(max-width: 992px) 950px" alt="Audi RS5 (B8) Coupé">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/the-damn-good-place_md.jpg 950w" src="/assets/images/portfolio/the-damn-good-place.jpg" sizes="(max-width: 992px) 950px" alt="The Dam'n Good Place">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/lovers-under-the-umbrella_md.jpg 950w" src="/assets/images/portfolio/lovers-under-the-umbrella.jpg" sizes="(max-width: 992px) 950px" alt="Budapart × MOL Limo">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/911_md.jpg 950w" src="/assets/images/portfolio/911.jpg" sizes="(max-width: 992px) 950px" alt="911.2 Cabriolet">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/gellert-hill-sunset_md.jpg 950w" src="/assets/images/portfolio/gellert-hill-sunset.jpg" sizes="(max-width: 992px) 950px" alt="Gellért Hill Sunset">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/outlook-sunset_md.jpg 950w" src="/assets/images/portfolio/outlook-sunset.jpg" sizes="(max-width: 992px) 950px" alt="Outlook Sunset">
-		</a>
-		<a class="brick" href="#">
-			<img class="brick__photo" srcset="/assets/images/portfolio/budapart-mol-limo_md.jpg 950w" src="/assets/images/portfolio/budapart-mol-limo.jpg" sizes="(max-width: 992px) 950px" alt="Budapart × MOL Limo">
-		</a>
-	</div>
-
-	<div class="home-bottom">
-		<a class="button" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageOtherButton }}</a>
-	</div>
-
-	<div class="lightbox">
+	<aside class="lightbox">
 		<div class="lightbox__container">
 			<figure class="lightbox__figure">
 				<img class="lightbox__image" src="" alt="">
@@ -117,44 +74,7 @@ css: home
 			</nav>
 		</div>
 		<a class="lightbox__close" href="#">&times;</a>
-	</div>
+	</aside>
 
 	<script src="/assets/js/lightbox.js" defer></script>
-	<script src="/assets/js/masonry.js"></script>
-
-	<script>
-		var masonry = Macy({
-			container: ".masonry",
-			mobileFirst: true,
-			columns: 1,
-			breakAt: {
-				576: {
-					columns: 2
-				},
-				992: {
-					columns: 3
-				}
-			},
-			margin: 16,
-			cancelLegacy: true
-		});
-	</script>
-
-	<script>
-		var masonry2 = Macy({
-			container: ".masonry-2",
-			mobileFirst: true,
-			columns: 1,
-			breakAt: {
-				576: {
-					columns: 2
-				},
-				992: {
-					columns: 3
-				}
-			},
-			margin: 16,
-			cancelLegacy: true
-		});
-	</script>
 </main>

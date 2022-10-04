@@ -6,8 +6,36 @@
 	letter-spacing: -.0625rem;
 }
 
-.home__button {
-	display: block;
+.home__subtitle {
+	grid-column: 1 / -1;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding-bottom: .5rem;
+	font-family: var(--sans);
+	font-size: 1rem;
+	color: var(--text-dark);
+	letter-spacing: -.025rem;
+	text-transform: uppercase;
+	border-bottom: 1px solid var(--bg-dark);
+}
+
+.home__grid {
+	display: grid;
+	grid-gap: 0 4rem;
+}
+
+.home__grid section + section {
+	margin-top: 3rem;
+}
+
+.masonry,
+.masonry__column {
+	display: grid;
+	grid-gap: 1rem;
+}
+
+.home-bottom {
+	margin-top: 2rem;
 	text-align: center;
 }
 
@@ -17,11 +45,6 @@
 	color: var(--text);
 	text-align: center;
 	border-bottom: 0;
-}
-
-.home-bottom {
-	margin-top: 2rem;
-	text-align: center;
 }
 
 .lightbox {
@@ -126,6 +149,12 @@
 	transform: rotate(90deg);
 }
 
+@media only screen and (min-width: 480px) {
+	.masonry {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 @media only screen and (min-width: 576px) {
 	.home__title {
 		margin-bottom: 1.25rem;
@@ -158,6 +187,11 @@
 		letter-spacing: -.1rem;
 	}
 
+	.home__subtitle {
+		font-size: 1.125rem;
+		letter-spacing: -.025rem;
+	}
+
 	.lightbox__caption {
 		font-size: 1.25rem;
 	}
@@ -168,5 +202,13 @@
 		margin-bottom: 1.5rem;
 		font-size: 2.5rem;
 		letter-spacing: -.1rem;
+	}
+
+	.home__grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.masonry {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
