@@ -243,7 +243,7 @@ hr {
 	text-align: center;
 	border-radius: var(--border-radius);
 	border-bottom: 0;
-	transition: color var(--transition-duration), background-color var(--transition-duration);
+	transition: var(--transition-duration) color, var(--transition-duration) background-color;
 }
 
 .menu-toggle:hover,
@@ -277,7 +277,7 @@ hr {
 	text-align: center;
 	text-decoration: none;
 	border-bottom: 0;
-	transition: color var(--transition-duration), background-color var(--transition-duration);
+	transition: var(--transition-duration) color, var(--transition-duration) background-color;
 }
 
 .nav__link:hover,
@@ -456,7 +456,7 @@ hr {
 	z-index: -1;
 	background-color: #FFF;
 	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
-	transition: transform var(--transition-duration);
+	transition: var(--transition-duration) transform;
 }
 
 .polaroids:before {
@@ -535,7 +535,7 @@ hr {
 	display: block;
 	margin: 0 1.3rem .5rem 0;
 	border-bottom: 0;
-	transition: opacity var(--transition-duration);
+	transition: var(--transition-duration) opacity;
 }
 
 .testimonial__photo-link:hover,
@@ -633,7 +633,7 @@ hr {
 	border-bottom: 0;
 	border-radius: 99rem;
 	background-color: var(--bg-medium);
-	transition: color var(--transition-duration), background-color var(--transition-duration);
+	transition: var(--transition-duration) color, var(--transition-duration) background-color;
 }
 
 .tag__link:hover,
@@ -684,7 +684,7 @@ hr {
 	text-shadow: 0 1px 4px rgba(0,0,0,.5);
 	background-color: rgba(0,0,0,.25);
 	box-shadow: inset 0 0 50px 0 rgba(0,0,0,.5);
-	transition: opacity .25s;
+	transition: var(--transition-duration) opacity;
 }
 
 
@@ -800,10 +800,6 @@ hr {
 		text-align: left;
 	}
 
-	.portre {
-		display: none;
-	}
-
 	.nav__dropdown {
 		display: none;
 		position: absolute;
@@ -823,9 +819,19 @@ hr {
 		background-color: #FFF;
 	}
 
+	.nav__item--button:hover > .nav__link,
+	.nav__item--button:focus > .nav__link {
+		color: #FFF;
+		background-color: var(--accent);
+	}
+
 	.nav__item:hover > .nav__dropdown,
 	.nav__item:focus > .nav__dropdown {
 		display: block;
+	}
+
+	.portre {
+		display: none;
 	}
 
 	.lang__item {
