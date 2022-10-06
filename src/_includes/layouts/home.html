@@ -16,20 +16,20 @@ css: home
 			<h2 class="home__subtitle">Egyéni Portrék</h2>
 			<div class="masonry">
 				<div class="masonry__column">
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/eszter-2/01.jpg" alt="Eszter"></a>
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/eperke/03.jpg" alt="Eperke"></a>
+					{% include "partials/homepage-photo-portrait.html", name: 'eszter-2', id: '01' %}
+					{% include "partials/homepage-photo-landscape.html", name: 'eperke', id: '03' %}
 				</div>
 				<div class="masonry__column">
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/jazmin/03.jpg" alt="Jázmin"></a>
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/anna-3/01.jpg" alt="Anna"></a>
+					{% include "partials/homepage-photo-landscape.html", name: 'jazmin', id: '03' %}
+					{% include "partials/homepage-photo-portrait.html", name: 'anna-3', id: '01' %}
 				</div>
 				<div class="masonry__column">
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/balazs/01.jpg" alt="Balázs"></a>
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/kata/01.jpg" alt="Kata"></a>
+					{% include "partials/homepage-photo-portrait.html", name: 'balazs', id: '01' %}
+					{% include "partials/homepage-photo-landscape.html", name: 'kata', id: '01' %}
 				</div>
 				<div class="masonry__column">
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/dori/04.jpg" alt="Dóri"></a>
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/arianna/02.jpg" alt="Arianna"></a>
+					{% include "partials/homepage-photo-landscape.html", name: 'dori', id: '04' %}
+					{% include "partials/homepage-photo-portrait.html", name: 'arianna', id: '02' %}
 				</div>
 			</div>
 		</section>
@@ -38,20 +38,20 @@ css: home
 			<h2 class="home__subtitle">Páros Portrék</h2>
 			<div class="masonry">
 				<div class="masonry__column">
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/cinta-jorge/02.jpg" alt="Cinta & Jorge"></a>
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/luca-david/03.jpg" alt="Luca & Dávid"></a>
+					{% include "partials/homepage-photo-portrait.html", name: 'cinta-jorge', id: '02' %}
+					{% include "partials/homepage-photo-landscape.html", name: 'luca-david', id: '03' %}
 				</div>
 				<div class="masonry__column">
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/orsi/07.jpg" alt="Orsi & Barni"></a>
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/aliz-adam/04.jpg" alt="Alíz & Ádám"></a>
+					{% include "partials/homepage-photo-landscape.html", name: 'orsi', id: '07' %}
+					{% include "partials/homepage-photo-portrait.html", name: 'aliz-adam', id: '04' %}
 				</div>
 				<div class="masonry__column">
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/linda-gyuri/07.jpg" alt="Linda & Gyuri"></a>
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/denise-mark/01.jpg" alt="Denise & Márk"></a>
+					{% include "partials/homepage-photo-portrait.html", name: 'linda-gyuri', id: '07' %}
+					{% include "partials/homepage-photo-landscape.html", name: 'denise-mark', id: '01' %}
 				</div>
 				<div class="masonry__column">
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/zsanett-matthias/04.jpg" alt="Zsanett & Matthias"></a>
-					<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/amelie-gerson/02.jpg" alt="Amélie & Gerson"></a>
+					{% include "partials/homepage-photo-landscape.html", name: 'zsanett-matthias', id: '04' %}
+					{% include "partials/homepage-photo-portrait.html", name: 'amelie-gerson', id: '02' %}
 				</div>
 			</div>
 		</section>
@@ -66,7 +66,7 @@ css: home
 		<div class="lightbox__container">
 			<figure class="lightbox__figure">
 				<img class="lightbox__image" src="" alt="">
-				<figcaption class="lightbox__caption"></figcaption>
+				<!-- <figcaption class="lightbox__caption"></figcaption> -->
 			</figure>
 			<nav class="lightbox__nav">
 				<a class="lightbox__arrow" id="left" href="#">◀</a>

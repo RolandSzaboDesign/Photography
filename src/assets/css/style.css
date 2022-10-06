@@ -431,13 +431,10 @@ hr {
 
 .gallery {
 	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	grid-gap: var(--grid-gutter);
 	align-items: start;
 	margin-bottom: 2rem;
-}
-
-.gallery--single {
-	grid-template-columns: repeat(2, 1fr);
 }
 
 .polaroids {
@@ -506,12 +503,11 @@ hr {
 
 .polaroid__title {
 	display: block;
-	padding: 1rem 1rem .75rem;
-	font-family: var(--serif);
-	font-size: 1.5rem;
+	padding: .5rem 1rem 0;
+	font-size: .75rem;
 	font-weight: 300;
-	letter-spacing: -.0375rem;
 	line-height: 1.125;
+	word-break: break-word;
 }
 
 
@@ -707,12 +703,10 @@ hr {
 		--polaroid-padding: .75rem;
 	}
 
-	.gallery {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
 	.polaroid__title {
-		padding-bottom: .5rem;
+		padding: .75rem 1rem .25rem;
+		font-size: 1rem;
+		letter-spacing: -0.0375rem;
 	}
 
 	.brick__caption {
@@ -743,11 +737,6 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
-	:root {
-		--grid-gutter: 1.5rem;
-		--polaroid-padding: 1rem;
-	}
-
 	p, li, details {
 		font-size: 1.125rem;
 	}
@@ -842,8 +831,12 @@ hr {
 		font-size: .875rem;
 	}
 
+	.gallery { grid-template-columns: repeat(3, 1fr); }
+	.gallery--single { grid-template-columns: repeat(2, 1fr); }
+
 	.polaroid__title {
-		padding-bottom: .25rem;
+		padding: 1rem 1rem .375rem;
+		font-size: 1.125rem;
 	}
 
 	.testimonials {
@@ -912,12 +905,12 @@ hr {
 		padding-right: 1.25rem;
 	}
 
-	.gallery:not(.gallery--single) {
-		grid-template-columns: repeat(3, 1fr);
-	}
+	.gallery { grid-template-columns: repeat(4, 1fr); }
+	.gallery--single { grid-template-columns: repeat(2, 1fr); }
+	.gallery--galleries { grid-template-columns: repeat(3, 1fr); }
 
 	.polaroid__title {
-		padding-bottom: 0;
+		font-size: 1.25rem;
 	}
 
 	.testimonial__text {
@@ -972,8 +965,8 @@ hr {
 
 @media only screen and (min-width: 1200px) {
 	:root {
-		--grid-gutter: 2rem;
-		--polaroid-padding: 1.25rem;
+		--grid-gutter: 1.5rem;
+		--polaroid-padding: 1rem;
 	}
 
 	p, ul, ol {
@@ -1001,6 +994,10 @@ hr {
 }
 
 @media only screen and (min-width: 1500px) {
+	:root {
+		--polaroid-padding: 1rem;
+	}
+
 	body {
 		padding-left: 0;
 		padding-right: 0;
