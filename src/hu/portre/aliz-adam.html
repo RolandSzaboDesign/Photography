@@ -8,9 +8,9 @@ cover: '04'
 intro: Alíz és Ádám fotózása egy stranger fotóval kezdődött Kisorosziban, ahol felajánlottam, hogy készítek Róluk pár gyors képet. A képek annyira tetszettek, hogy pár hónap múlva Ádám megajándékozta Alízt egy fotósorozattal az évfordulójukra. A fotósorozatuk az Ő sztorijukat meséli el, hogy miként lettek egy pár. A feltüntetett képek részletek a sorozatból.
 ---
 
-<span class="polaroid full"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/01.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/02.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/03.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/04.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/05.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid full"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/06.jpg" alt="{{ title }} fotója"></span>
+{% include "partials/gallery-photo-landscape.html", id: '01' %}
+{% include "partials/gallery-photo-portrait.html", id: '02' %}
+{% include "partials/gallery-photo-portrait.html", id: '03' %}
+{% include "partials/gallery-photo-portrait.html", id: '04' %}
+{% include "partials/gallery-photo-portrait.html", id: '05' %}
+{% include "partials/gallery-photo-landscape.html", id: '06' %}
