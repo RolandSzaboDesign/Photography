@@ -13,7 +13,7 @@ css: home
 
 	<div class="home__grid">
 		<section>
-			<h2 class="home__subtitle">Egyéni Portrék</h2>
+			<h2 class="home__subtitle">{{ site[locale].homepageSoloPortraits }}</h2>
 			<div class="masonry">
 				<div class="masonry__column">
 					{% include "partials/homepage-photo-portrait.html", name: 'eszter-2', id: '01' %}
@@ -35,7 +35,7 @@ css: home
 		</section>
 
 		<section>
-			<h2 class="home__subtitle">Páros Portrék</h2>
+			<h2 class="home__subtitle">{{ site[locale].homepageCouplePortraits }}</h2>
 			<div class="masonry">
 				<div class="masonry__column">
 					{% include "partials/homepage-photo-portrait.html", name: 'cinta-jorge', id: '02' %}
@@ -69,11 +69,11 @@ css: home
 				<!-- <figcaption class="lightbox__caption"></figcaption> -->
 			</figure>
 			<nav class="lightbox__nav">
-				<a class="lightbox__arrow" id="left" href="#">◀</a>
-				<a class="lightbox__arrow" id="right" href="#">▶</a>
+				<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
+				<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
 			</nav>
 		</div>
-		<a class="lightbox__close" href="#">&times;</a>
+		<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
 	</aside>
 
 	<script src="/assets/js/lightbox.js" defer></script>

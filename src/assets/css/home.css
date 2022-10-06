@@ -94,20 +94,6 @@
 	background-color: #FFF;
 }
 
-.lightbox__caption {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translate(-50%, 0);
-	display: block;
-	padding: .5rem 3rem .75rem;
-	font-size: 1rem;
-	line-height: 1;
-	white-space: nowrap;
-	background-color: #FFF;
-	clip-path: polygon(2.25rem 0, calc(100% - 2.25rem) 0, 100% 100% , 0% 100%)
-}
-
 .lightbox__arrow {
 	position: absolute;
 	top: 50%;
@@ -171,12 +157,6 @@
 		margin: 0 0 0 1rem;
 	}
 
-	.lightbox__caption {
-		padding: .75rem 3.5rem 1rem;
-		font-size: 1.125rem;
-		clip-path: polygon(3rem 0, calc(100% - 3rem) 0, 100% 100% , 0% 100%)
-	}
-
 	.lightbox__arrow {
 		font-size: 2rem;
 	}
@@ -192,10 +172,6 @@
 	.home__subtitle {
 		font-size: 1.125rem;
 		letter-spacing: -.025rem;
-	}
-
-	.lightbox__caption {
-		font-size: 1.25rem;
 	}
 }
 

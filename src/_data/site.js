@@ -13,6 +13,7 @@ module.exports = {
 	en: {
 		"siteTitle": "Roland Szabó | Budapest Portrait Photographer",
 		"copyright": "All rights reserved.",
+		"backToTop": "Back to the top of the page",
 
 		"photoBy": "Photo by",
 		"photoAndEditBy": "Photo and edit by",
@@ -36,6 +37,7 @@ module.exports = {
 		"navPhotoWalks": "Photo Walks",
 		"navContact": "Contact",
 		"navGear": "Gear",
+		"navBackToGalleries": "Back to Galleries",
 
 		"slugAbout": "about",
 		"slugGalleries": "galleries",
@@ -53,8 +55,14 @@ module.exports = {
 		"homepageTitle": "I create authentic portraits on relaxed photo walks in Budapest.",
 		"homepageButton": "Let's Walk",
 		"homepageLink": "or check out my work",
+		"homepageSoloPortraits": "Solo Portraits",
+		"homepageCouplePortraits": "Couple Portraits",
 		"homepageOtherHeadline": "Here's a few other things I shoot",
 		"homepageOtherButton": "See more of my work",
+
+		"lightboxNextPhoto": "Next Photo",
+		"lightboxPreviousPhoto": "Previous Photo",
+		"lightboxClose": "Close",
 
 		"aboutPhotoTitle": "Hey, it's me!",
 		"contactPhotoTitle": "How can I help you?",
@@ -69,6 +77,7 @@ module.exports = {
 	hu: {
 		"siteTitle": "Szabó Roland | Budapesti Portré Fotós",
 		"copyright": "Minden jog fenntartva.",
+		"backToTop": "Vissza az oldal tetejére",
 
 		"photoBy": "Fotó:",
 		"photoAndEditBy": "Fotó és szerkesztés:",
@@ -92,6 +101,7 @@ module.exports = {
 		"navPhotoWalks": "<span class='portre'>Portré </span>Fotós Séták",
 		"navContact": "Kapcsolat",
 		"navGear": "Felszerelés",
+		"navBackToGalleries": "Vissza a Gelériákhoz",
 
 		"slugAbout": "rolam",
 		"slugGalleries": "galeriak",
@@ -109,8 +119,14 @@ module.exports = {
 		"homepageTitle": "Portrékat készítek laza hangulatú fotós sétákon Budapesten.",
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
+		"homepageSoloPortraits": "Egyéni Portrék",
+		"homepageCouplePortraits": "Páros Portrék",
 		"homepageOtherHeadline": "Portrékon kívül mást is fotózom",
 		"homepageOtherButton": "További munkáim",
+
+		"lightboxNextPhoto": "Következő Fotó",
+		"lightboxPreviousPhoto": "Előző Fotó",
+		"lightboxClose": "Bezárás",
 
 		"aboutPhotoTitle": "Halihó, ez itt én vagyok.",
 		"contactPhotoTitle": "Miben tudok segíteni?",
