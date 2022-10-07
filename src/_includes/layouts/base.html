@@ -25,25 +25,20 @@
 		<meta property="og:description" content="{{ site[locale].homepageTitle }}">
 		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
 
-		<!-- Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
-
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
 		{%- if css %}
 		<link rel="stylesheet" href="/assets/css/{{ css }}.css">
 		{%- endif %}
 
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
+
 		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-CZB0EKDF3L');
-		</script>
+		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
+		<script defer src="/assets/js/analytics.js"></script>
 	</head>
 	<body>
 		{% include "partials/header.html" %}
