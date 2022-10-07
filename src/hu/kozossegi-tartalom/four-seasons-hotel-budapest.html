@@ -6,7 +6,7 @@ translation: four-seasons-hotel-budapest
 tags: [közösségi-tartalom, hotel, életstílus]
 ---
 
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/social-content/{{ page.fileSlug }}/01.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/social-content/{{ page.fileSlug }}/02.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/social-content/{{ page.fileSlug }}/03.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/social-content/{{ page.fileSlug }}/04.jpg" alt="{{ title }} fotója"></span>
+{% include "partials/gallery-photo-portrait.html", id: '01' %}
+{% include "partials/gallery-photo-portrait.html", id: '02' %}
+{% include "partials/gallery-photo-portrait.html", id: '03' %}
+{% include "partials/gallery-photo-portrait.html", id: '04' %}

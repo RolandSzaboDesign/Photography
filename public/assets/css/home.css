@@ -6,8 +6,43 @@
 	letter-spacing: -.0625rem;
 }
 
-.home__button {
-	display: block;
+.home__subtitle {
+	grid-column: 1 / -1;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding-bottom: .5rem;
+	font-family: var(--sans);
+	font-size: 1rem;
+	color: var(--text);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: -.025rem;
+	border-bottom: 1px solid var(--bg-dark);
+}
+
+.home__grid {
+	display: grid;
+	grid-gap: 0 1rem;
+}
+
+.masonry,
+.masonry__column {
+	display: grid;
+	grid-gap: 1rem;
+}
+
+.brick {
+	transition: var(--transition-duration) opacity;
+}
+
+.brick:hover,
+.brick:focus {
+	opacity: .8;
+	cursor: pointer;
+}
+
+.home-bottom {
+	margin-top: 2rem;
 	text-align: center;
 }
 
@@ -17,11 +52,6 @@
 	color: var(--text);
 	text-align: center;
 	border-bottom: 0;
-}
-
-.home-bottom {
-	margin-top: 2rem;
-	text-align: center;
 }
 
 .lightbox {
@@ -65,20 +95,6 @@
 	background-color: #FFF;
 }
 
-.lightbox__caption {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translate(-50%, 0);
-	display: block;
-	padding: .5rem 3rem .75rem;
-	font-size: 1rem;
-	line-height: 1;
-	white-space: nowrap;
-	background-color: #FFF;
-	clip-path: polygon(2.25rem 0, calc(100% - 2.25rem) 0, 100% 100% , 0% 100%)
-}
-
 .lightbox__arrow {
 	position: absolute;
 	top: 50%;
@@ -117,7 +133,7 @@
 	border-bottom: 0;
 	border-radius: 100%;
 	background-color: #FFF;
-	transition: color var(--transition-duration), transform var(--transition-duration);
+	transition: var(--transition-duration) color, var(--transition-duration) transform;
 }
 
 .lightbox__close:hover,
@@ -126,24 +142,20 @@
 	transform: rotate(90deg);
 }
 
+@media only screen and (min-width: 480px) {
+	.masonry {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 @media only screen and (min-width: 576px) {
 	.home__title {
 		margin-bottom: 1.25rem;
 	}
 
-	.home__button {
-		display: inline-block;
-	}
-
 	.home__link {
 		display: inline-block;
 		margin: 0 0 0 1rem;
-	}
-
-	.lightbox__caption {
-		padding: .75rem 3.5rem 1rem;
-		font-size: 1.125rem;
-		clip-path: polygon(3rem 0, calc(100% - 3rem) 0, 100% 100% , 0% 100%)
 	}
 
 	.lightbox__arrow {
@@ -158,8 +170,9 @@
 		letter-spacing: -.1rem;
 	}
 
-	.lightbox__caption {
-		font-size: 1.25rem;
+	.home__subtitle {
+		font-size: 1.125rem;
+		letter-spacing: -.025rem;
 	}
 }
 
@@ -168,5 +181,24 @@
 		margin-bottom: 1.5rem;
 		font-size: 2.5rem;
 		letter-spacing: -.1rem;
+	}
+
+	.home__grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.masonry {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.masonry__column:nth-child(2n) .brick:first-child { grid-row: 2; }
+	.masonry__column:nth-child(2n) .brick:last-child  { grid-row: 1; }
+}
+
+@media only screen and (max-width: 991px) {
+	.home__grid section + section {
+		margin-top: 3rem;
 	}
 }

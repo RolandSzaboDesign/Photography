@@ -1,0 +1,21 @@
+{% case tags[0] %}
+	{% when "portré", "portraiture" %}
+		{% assign folder = "portraiture" %}
+	{% when "autó", "automotive" %}
+		{% assign folder = "automotive" %}
+	{% when "közösségi-tartalom", "social-content" %}
+		{% assign folder = "social-content" %}
+{% endcase %}
+
+<span class="polaroid">
+	<img class="polaroid__photo"
+		 srcset="
+		 	/assets/images/{{ folder }}/{{ page.fileSlug }}/{{ id }}_700.webp 700w,
+		 	/assets/images/{{ folder }}/{{ page.fileSlug }}/{{ id }}_500.webp 500w,
+		 	/assets/images/{{ folder }}/{{ page.fileSlug }}/{{ id }}_350.webp 350w,
+		 	/assets/images/{{ folder }}/{{ page.fileSlug }}/{{ id }}_200.webp 200w
+		 "
+ 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
+		 src="/assets/images/{{ folder }}/{{ page.fileSlug }}/{{ id }}_200.webp"
+		 alt="Photo of {{ title }}">
+</span>

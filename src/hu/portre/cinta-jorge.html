@@ -8,10 +8,10 @@ cover: '07'
 intro: Ennek a gyönyörű párnak a fotózása egy stranger fotóval kezdődött, amit az utcán készítettem róluk spontán. Annyira tetszett nekik a kép, hogy pár nap múlva már egy szervezett portréfotózáson kergettük a naplementét a Városligetben. A fotózás elején félénken elmondták, hogy nem szerepelnek valami jól a kamera előtt, de hamar megnyugtattam őket, hogy nincs mitől izgulniuk. Csináljanak normál páros dolgokat, amit egyébként is szoktak egy séta alkalmával; mintha ott se lennék. Ennek köszönhetően sikerült ellazulniuk, nekem pedig csodaszép képeket készítenem róluk.
 ---
 
-<span class="polaroid full"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/01.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/02.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/03.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid full"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/04.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/05.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/06.jpg" alt="{{ title }} fotója"></span>
-<span class="polaroid full"><img class="polaroid__photo" src="/assets/images/portraiture/{{ page.fileSlug }}/07.jpg" alt="{{ title }} fotója"></span>
+{% include "partials/gallery-photo-landscape.html", id: '01' %}
+{% include "partials/gallery-photo-portrait.html", id: '02' %}
+{% include "partials/gallery-photo-portrait.html", id: '03' %}
+{% include "partials/gallery-photo-landscape.html", id: '04' %}
+{% include "partials/gallery-photo-portrait.html", id: '05' %}
+{% include "partials/gallery-photo-portrait.html", id: '06' %}
+{% include "partials/gallery-photo-landscape.html", id: '07' %}
