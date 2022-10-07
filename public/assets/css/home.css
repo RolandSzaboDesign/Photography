@@ -38,6 +38,7 @@
 .brick:hover,
 .brick:focus {
 	opacity: .8;
+	cursor: pointer;
 }
 
 .home-bottom {

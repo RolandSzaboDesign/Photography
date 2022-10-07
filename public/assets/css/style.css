@@ -53,6 +53,11 @@ html {
 	html { scroll-behavior: initial; }
 }
 
+::selection {
+	color: #FFF;
+	background-color: var(--highlight);
+}
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -414,8 +419,8 @@ hr {
 }
 
 .page-header__title {
-	font-size: 2.375rem;
-	letter-spacing: -.1rem;
+	font-size: 1.75rem;
+	letter-spacing: -.075rem;
 }
 
 .page-header__intro {
@@ -566,10 +571,7 @@ hr {
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 3rem;
-	padding: 1.5rem 1rem;
 	text-align: center;
-	border: 1px solid var(--bg-dark);
-	background-color: #FFF;
 }
 
 .cta__title {
@@ -580,6 +582,7 @@ hr {
 	padding: 1.25rem;
 	border-left: .5rem solid var(--accent);
 	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
+	background-color: #FFF;
 }
 
 .cta__quote-text {
@@ -703,6 +706,10 @@ hr {
 		--polaroid-padding: .75rem;
 	}
 
+	.page-header__title {
+		font-size: 2.125rem;
+	}
+
 	.polaroid__title {
 		padding: .75rem 1rem .25rem;
 		font-size: 1rem;
@@ -716,10 +723,6 @@ hr {
 
 	.buttons {
 		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.cta {
-		padding: 2rem;
 	}
 
 	.footer {
@@ -831,6 +834,10 @@ hr {
 		font-size: .875rem;
 	}
 
+	.page-header__title {
+		font-size: 2.25rem;
+	}
+
 	.gallery { grid-template-columns: repeat(3, 1fr); }
 	.gallery--single { grid-template-columns: repeat(2, 1fr); }
 
@@ -911,6 +918,11 @@ hr {
 
 	.polaroid__title {
 		font-size: 1.25rem;
+	}
+
+	.page-header__title {
+		font-size: 2.375rem;
+		letter-spacing: -.1rem;
 	}
 
 	.testimonial__text {
