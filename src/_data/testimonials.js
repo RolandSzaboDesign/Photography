@@ -1,6 +1,19 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-balazs.webp",
+			hu: {
+				name: "B. Balázs",
+				text: "Roppantul izgultam Roland portré fotózása elején, mert azelőtt nem vettem részt hasonló eseményen. Az volt a legrémisztőbb, hogy a zöldfülűségem kényelmetlen szituációkhoz fog vezetni, és égni fogok, hogy a legtriviálisabb pózolási axiómákat sem ismerem. Ezek az aggályok azonnal elpárologtak, amint kezet fogtam a mosolygós és barátságos úriemberrel. Találkozásunk pillanatától egy haverral lógtam, viccelődtem és közben mindenféle képeken ötleteltünk. Nem volt nyomás, nem volt stressz. Meglepetésemre a fotók rendkívül szépen sikerültek, a kora őszi színek remekül mutatnak a képeken! Nem csak, hogy minden pózolási aggályomon túllendültem, de egy teljesen új lencsén keresztül láttam magamat. Érdekes élmény volt kívülről tekinteni a mozdulatokra, gesztikulációkra és érzelmekre. Ezért Rolandnak hálával tartozom.",
+				link: "/hu/portre/balazs/",
+			},
+			en: {
+				name: "Balázs B.",
+				text: "I was hugely anxious before the portrait photoshoot with Roland, because that was my first such experience. My worst fear was that my inadequate posing skills would lead to uncomfortable, weird situations. These fears instantly vanished when I shook hands with the smiling and friendly gentleman that was Roland. From the moment we met, I was hanging out with a buddy, laughing lots and brainstorming photo ideas all along. No pressure, no stress. To my surprise, the end results turned out beautifully, the early autumn colors really work well on the photos! I not only managed to overcome my anxiety of posing, but I got to see myself through an entirely different lens. It was a great experience to look at moves, gestures and posing from an outside perspective. For this, I am grateful to Roland.",
+				link: "/en/portraiture/balazs/",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-cinta-jorge.webp",
 			hu: {
 				name: "Cinta W. & Jorge G.",
