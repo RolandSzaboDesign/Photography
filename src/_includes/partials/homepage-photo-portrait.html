@@ -1,5 +1,6 @@
 <a class="brick">
 	<img class="brick__photo"
+		 loading="{{ loading | default: 'lazy' }}"
 		 srcset="
 		 	/assets/images/portraiture/{{ name }}/{{ id }}_700.webp 700w,
 		 	/assets/images/portraiture/{{ name }}/{{ id }}_500.webp 500w,

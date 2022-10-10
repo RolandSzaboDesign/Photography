@@ -16,7 +16,7 @@ css: home
 			<h2 class="home__subtitle">{{ site[locale].homepageSoloPortraits }}</h2>
 			<div class="masonry">
 				<div class="masonry__column">
-					{% include "partials/homepage-photo-portrait.html", name: 'eszter-2', id: '01' %}
+					{% include "partials/homepage-photo-portrait.html", name: 'eszter-2', id: '01', loading: 'eager' %}
 					{% include "partials/homepage-photo-landscape.html", name: 'eperke', id: '03' %}
 				</div>
 				<div class="masonry__column">
