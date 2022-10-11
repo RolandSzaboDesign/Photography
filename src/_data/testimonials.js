@@ -1,6 +1,19 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-nori.webp",
+			hu: {
+				name: "V. Nóri",
+				text: "Őszintén szólva, nem vagyok az a mosolygós fajta. Ráadásul, gyerekkorom óta kényelmetlenül éreztem magam, ha célba vett egy fényképezőgép objektíve. Ezt pedig csak tetézte a készülék túloldaláról érkező kissé ingerült felszólítás: 'Mosolyogj már egy kicsit!'. Szerencsére, ahogy teltek az évek, a kamera előtti szorongás is mérséklődött. Az igazi áttörést azonban Rolandnak köszönhetem. Már az első fotózásunk alkalmával sikerült elérnie, hogy feloldódjak, folyamatosan instruált, a végeredmény pedig gyönyörű lett. Már alig várom, hogy újra együtt alkothassunk valami szépet, a kalapjaimmal a főszerepben!",
+				link: "/hu/portre/nori-2/",
+			},
+			en: {
+				name: "Nóri V.",
+				text: "Honestly, I've never been the smiling type. Ever since I was a little kid, I felt uncomfortable in front of the camera. The situation only worsened when I'd hear the irritable 'Now smile already!' from the other end of the camera. Fortunately as years went on, the anxiety loosened slightly. But my biggest breakthrough was all thanks to Roland. On our very first photoshoot, he was able to break the ice with his human instructions. He made me feel very comfortable in front of the lens, and the photos he delivered were beautiful. I can't wait to go out with Roland once again to create something beautiful, featuring my hats!",
+				link: "/en/portraiture/nori-2/",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-balazs.webp",
 			hu: {
 				name: "B. Balázs",
