@@ -354,7 +354,7 @@ module.exports = {
 			hu: {
 				id: "mik-azok-a-vintage-objektivek",
 				question: "Mik azok a vintage objektívek?",
-				answer: "Nagyon sokféle, régi gyártmányú objektív tartozik ebbe a kategóriába; a leggyakoribbak a régi analóg, filmes fényképezőgépekhez készült üvegek, de ide sorolhatjuk például a vetítőgépek objektívjeit, vagy röntgengépek lencséit is. Ezek mind ugyanazt a célt szolgálják, csak más környezetben, így mindegyiknek sajátos rajzolata és karakterisztikája van.",
+				answer: "Nagyon sokféle, régi gyártmányú objektív tartozik ebbe a kategóriába; a leggyakoribbak a régi analóg, filmes fényképezőgépekhez készült optikák, de ide sorolhatjuk például a vetítőgépek vagy röntgengépek objektíveit is. Ezek mind ugyanazt a célt szolgálják, csak más környezetben, így mindegyiknek sajátos rajzolata és karakterisztikája van.",
 			},
 			en: {
 				id: "",
