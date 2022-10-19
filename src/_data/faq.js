@@ -1,5 +1,5 @@
 module.exports = {
-	items: [
+	portraitPhotoWalks: [
 		{
 			hu: {
 				id: "segitesz-pozolni",
@@ -346,6 +346,80 @@ module.exports = {
 				id: "lost-my-photos",
 				question: "I've lost the photos you sent me. What do I do now?",
 				answer: "No worries, whatsoever. I've got all your photos on my hard drive and backed up in the cloud, so I can send them to you whenever, no fees attached. Drop me a line, and I'll send them over right away!",
+			},
+		},
+	],
+	vintagePhotoWalks: [
+		{
+			hu: {
+				id: "mik-azok-a-vintage-objektivek",
+				question: "Mik azok a vintage objektívek?",
+				answer: "Nagyon sokféle, régi gyártmányú objektív tartozik ebbe a kategóriába; a leggyakoribbak a régi analóg, filmes fényképezőgépekhez készült üvegek, de ide sorolhatjuk például a vetítőgépek objektívjeit, vagy röntgengépek lencséit is. Ezek mind ugyanazt a célt szolgálják, csak más környezetben, így mindegyiknek sajátos rajzolata és karakterisztikája van.",
+			},
+			en: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+		},
+		{
+			hu: {
+				id: "felszereles",
+				question: "Milyen vintage objektívekkel dolgozol?",
+				answer: "A következő régi obijaim vannak, amiket jól ismerek, és aktívan használok: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li></ul>",
+			},
+			en: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+		},
+		{
+			hu: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+			en: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+		},
+		{
+			hu: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+			en: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+		},
+		{
+			hu: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+			en: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+		},
+		{
+			hu: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+			en: {
+				id: "",
+				question: "",
+				answer: "",
 			},
 		},
 	]

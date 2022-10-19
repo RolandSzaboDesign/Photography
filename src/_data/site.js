@@ -32,6 +32,7 @@ module.exports = {
 		"navGalleriesAutomotive": "Automotive",
 		"navServices": "Services",
 		"navServicesPortraiture": "Portrait Photo Walks",
+		"navServicesVintagePortraiture": "Portrait Photo Walks with Vintage Lenses",
 		"navServicesSocialContent": "Social Content Creation",
 		"navServicesAutomotive": "Automotive Photography",
 		"navPhotoWalks": "Photo Walks",
@@ -46,6 +47,7 @@ module.exports = {
 		"slugGalleriesAutomotive": "automotive",
 		"slugServices": "services",
 		"slugServicesPortraiture": "portrait-photo-walks",
+		"slugServicesVintagePortraiture": "portrait-photo-walks-with-vintage-lenses",
 		"slugServicesSocialContent": "social-content-creation",
 		"slugServicesAutomotive": "automotive-photography",
 		"slugPhotoWalks": "photo-walks",
@@ -69,6 +71,7 @@ module.exports = {
 		"gearPhotoTitle": "I'm on fire, baby!",
 
 		"servicesPortraitureIntro": "I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories. You can even bring your pet or your hobby! Here's how easy it is:",
+		"servicesVintagePortraitureIntro": "TODO",
 
 		"ctaTitle": "Would you like similar, amazing photos?",
 		"ctaText": "I can make beautiful photos of you on our laid-back photo walk. Learn more to see how easy it is!",
@@ -96,6 +99,7 @@ module.exports = {
 		"navGalleriesAutomotive": "Autó",
 		"navServices": "Szolgáltatások",
 		"navServicesPortraiture": "Portrézós Fotós Séták",
+		"navServicesVintagePortraiture": "Vintage Fotós Séták",
 		"navServicesSocialContent": "Közösségi Tartalomgyártás",
 		"navServicesAutomotive": "Új- és Használtautó Fotózás",
 		"navPhotoWalks": "<span class='portre'>Portré </span>Fotós Séták",
@@ -110,6 +114,7 @@ module.exports = {
 		"slugGalleriesAutomotive": "auto",
 		"slugServices": "szolgaltatasok",
 		"slugServicesPortraiture": "portre-fotos-setak",
+		"slugServicesVintagePortraiture": "vintage-fotos-setak",
 		"slugServicesSocialContent": "kozossegi-tartalomgyartas",
 		"slugServicesAutomotive": "auto-fotozas",
 		"slugPhotoWalks": "fotos-setak",
@@ -133,6 +138,7 @@ module.exports = {
 		"gearPhotoTitle": "Elég forró volt a helyzet...",
 
 		"servicesPortraitureIntro": "Laza, nyugodt hangulatú fotós séták során készítek maradandó emlékeket. A formátum lehet egyéni, páros vagy családi, de elhozhatod a kis kedvencedet vagy akár a hobbidat is! Ilyen egyszerű a folyamat:",
+		"servicesVintagePortraitureIntro": "Régi, filmes fényképezőgépekhez készült objektívek használatával mesés hangulatú portré fotókat készíthetünk, egzotikus rajzolattal, nem mindennapi színvilággal és mesébe illő háttérmosással. Kölcsönözz igazán egyedi hangulatot a fotóidnak!",
 
 		"ctaTitle": "Szeretnél hasonló, szuper képeket?",
 		"ctaText": "Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!",

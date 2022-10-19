@@ -1,0 +1,87 @@
+---
+layout: layouts/base.html
+title: Portréfotózás Filmes Objektívekkel Budapesten
+permalink: "/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesVintagePortraiture }}/"
+css: service
+translation: vintage-photo-walks
+---
+
+<main class="main">
+	<header class="page-header">
+		<span class="page-header__category">{{ site[locale].navServices }}</span>
+		<h1 class="page-header__title">{{ site[locale].navServicesVintagePortraiture }}</h1>
+		<p class="page-header__intro">{{ site[locale].servicesVintagePortraitureIntro }}</p>
+	</header>
+
+	<h2>Miben más egy Vintage Portréfotózás?</h2>
+
+<!-- 	<figure class="floating-photo floating-photo--right">
+		<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-04.webp" alt="Portézós Fotós Séták" width="750" height="500">
+		<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
+	</figure>
+	<figure class="floating-photo floating-photo--left">
+		<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-05.webp" alt="Portézós Fotós Séták" width="750" height="500">
+		<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
+	</figure> -->
+
+	<h2>Mintaképek</h2>
+	<div class="gallery gallery--single">
+		<span class="polaroid">
+			<img class="polaroid__photo" src="/assets/images/vintage-1.webp" alt="Photo of Jázmin taken with my Helios 44M-4 vintage lens">
+			<span class="polaroid__title"><strong>Jázmin</strong><br>Helios 44M-4</span>
+		</span>
+		<span class="polaroid">
+			<img class="polaroid__photo" src="/assets/images/vintage-2.webp" alt="Photo of Anna taken with my Helios 44M-4 vintage lens">
+			<span class="polaroid__title"><strong>Anna</strong><br>Helios 44M-4</span>
+		</span>
+		<span class="polaroid full">
+			<img class="polaroid__photo" src="/assets/images/vintage-5.webp" alt="Photo of Eszter taken with my Carl Zeiss Tessar 50mm f/2.8 vintage lens">
+			<span class="polaroid__title"><strong>Eszter</strong><br>CZJ Tessar 50mm f/2.8 "Zebra"</span>
+		</span>
+		<span class="polaroid full">
+			<img class="polaroid__photo" src="/assets/images/vintage-6.webp" alt="Photo of Daniella taken with my friend's Helios 44-2 vintage lens">
+			<span class="polaroid__title"><strong>Daniella</strong><br>Helios 44-2</span>
+		</span>
+		<span class="polaroid">
+			<img class="polaroid__photo" src="/assets/images/vintage-3.webp" alt="Photo of Kriszti taken with my Helios 44-2 vintage lens">
+			<span class="polaroid__title"><strong>Kriszti</strong><br>Helios 44-2</span>
+		</span>
+		<span class="polaroid">
+			<img class="polaroid__photo" src="/assets/images/vintage-4.webp" alt="Photo of Eperke taken with my Carl Zeiss Sonar 135mm f/3.5 MC vintage lens">
+			<span class="polaroid__title"><strong>Eperke</strong><br>CZJ T* Sonnar 135mm f/3.5 MC</span>
+		</span>
+	</div>
+
+	<h2 id="faq">Gyakran Felmerülő Kérdések</h2>
+	<p>Az alábbi információk specifikusan a Vintage Portré Fotózáshoz tartoznak. Kérlek, mindenképpen olvasd el a <a href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/#faq">Portréfotózás GYIK</a> szakaszt, mielőtt továbbhaladsz az itteni információkkal.</p>
+
+	<div class="faqs">
+		{%- for e in faq.vintagePhotoWalks -%}
+			<details class="faq" id="{{ e[locale].id }}">
+				<summary class="faq__question">{{ e[locale].question }}</summary>
+				<div class="faq__answer">{{ e[locale].answer }}</div>
+			</details>
+		{%- endfor -%}
+	</div>
+
+	<h2>Rólam Mondták</h2>
+	<ul class="testimonials">
+		{% for i in (4..6) %}
+			<li class="testimonial">
+				<a class="testimonial__photo-link" href="{{ testimonials.items[i][locale].link }}">
+					<img class="testimonial__photo" src="{{ testimonials.items[i].photo }}" alt="{{ testimonials.items[i][locale].name }} fotója">
+				</a>
+				<blockquote class="testimonial__quote">
+					<p class="testimonial__text">{{ testimonials.items[i][locale].text }}</p>
+					<footer class="testimonial__footer">
+						<cite>&mdash; <a href="{{ testimonials.items[i][locale].link }}">{{ testimonials.items[i][locale].name }}</a></cite>
+					</footer>
+				</blockquote>
+			</li>
+		{% endfor %}
+	</ul>
+
+	<h2>Jól Hangzik?</h2>
+	<p>Én készen állok.</p>
+	<p><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Mehetünk!</a></p>
+</main>
