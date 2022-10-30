@@ -345,62 +345,6 @@
 		<lastmod>2022-08-25T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/galleries/</loc>
-		<lastmod>2022-08-30T08:03:37.268Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/automotive/</loc>
-		<lastmod>2022-08-30T08:03:37.268Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/social-content/</loc>
-		<lastmod>2022-08-30T08:03:37.269Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/</loc>
-		<lastmod>2022-08-30T08:03:37.270Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/galeriak/</loc>
-		<lastmod>2022-08-30T08:03:37.316Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/auto/</loc>
-		<lastmod>2022-08-30T08:03:37.316Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/portre/</loc>
-		<lastmod>2022-08-30T08:03:37.317Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/kozossegi-tartalom/</loc>
-		<lastmod>2022-08-30T08:03:37.317Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/</loc>
-		<lastmod>2022-08-30T08:03:37.318Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/about/</loc>
-		<lastmod>2022-08-30T09:18:22.235Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/portraiture/</loc>
-		<lastmod>2022-08-30T09:18:22.236Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/services/</loc>
-		<lastmod>2022-08-30T09:18:22.237Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/rolam/</loc>
-		<lastmod>2022-08-30T09:18:22.246Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/szolgaltatasok/</loc>
-		<lastmod>2022-08-30T09:18:22.247Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/eszter-2/</loc>
 		<lastmod>2022-09-01T00:00:00.000Z</lastmod>
 	</url>
@@ -465,47 +409,103 @@
 		<lastmod>2022-09-24T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
-		<lastmod>2022-09-26T14:58:28.621Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
-		<lastmod>2022-09-26T14:58:28.628Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/404.html</loc>
-		<lastmod>2022-10-05T06:50:22.700Z</lastmod>
+		<lastmod>2022-10-29T14:59:15.794Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/hu/404.html</loc>
-		<lastmod>2022-10-05T06:50:22.700Z</lastmod>
+		<loc>https://rolandszabo.photo/en/about/</loc>
+		<lastmod>2022-10-29T14:59:15.797Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/contact/</loc>
-		<lastmod>2022-10-07T10:48:37.737Z</lastmod>
+		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/galleries/</loc>
+		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/automotive/</loc>
+		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/</loc>
+		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/social-content/</loc>
+		<lastmod>2022-10-29T14:59:15.799Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/gear/</loc>
-		<lastmod>2022-10-07T10:48:37.741Z</lastmod>
+		<lastmod>2022-10-29T14:59:15.799Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/</loc>
+		<lastmod>2022-10-29T14:59:15.799Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/services/</loc>
+		<lastmod>2022-10-29T14:59:15.799Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
+		<lastmod>2022-10-29T14:59:15.800Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/tags/all/</loc>
-		<lastmod>2022-10-07T10:48:37.744Z</lastmod>
+		<lastmod>2022-10-29T14:59:15.800Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/404.html</loc>
+		<lastmod>2022-10-29T14:59:15.814Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/rolam/</loc>
+		<lastmod>2022-10-29T14:59:15.818Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/kapcsolat/</loc>
-		<lastmod>2022-10-07T10:48:37.920Z</lastmod>
+		<lastmod>2022-10-29T14:59:15.818Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/galeriak/</loc>
+		<lastmod>2022-10-29T14:59:15.819Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/auto/</loc>
+		<lastmod>2022-10-29T14:59:15.819Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/</loc>
+		<lastmod>2022-10-29T14:59:15.819Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/kozossegi-tartalom/</loc>
+		<lastmod>2022-10-29T14:59:15.820Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/felszereles/</loc>
-		<lastmod>2022-10-07T10:48:37.923Z</lastmod>
+		<lastmod>2022-10-29T14:59:15.820Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/hu/tags/all/</loc>
-		<lastmod>2022-10-07T10:48:37.927Z</lastmod>
+		<loc>https://rolandszabo.photo/hu/</loc>
+		<lastmod>2022-10-29T14:59:15.820Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/</loc>
+		<lastmod>2022-10-29T14:59:15.820Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
+		<lastmod>2022-10-29T14:59:15.821Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/vintage-fotos-setak/</loc>
-		<lastmod>2022-10-19T16:48:28.464Z</lastmod>
+		<lastmod>2022-10-29T14:59:15.821Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/tags/all/</loc>
+		<lastmod>2022-10-29T14:59:15.822Z</lastmod>
 	</url>
 </urlset>

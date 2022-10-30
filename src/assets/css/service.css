@@ -139,13 +139,22 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.faq {
+	.faq,
+	.faq p,
+	.faq li {
 		font-size: 1rem;
+	}
+
+	.faq ul {
+		margin-top: 1rem;
+		margin-bottom: 0;
 	}
 }
 
 @media only screen and (min-width: 1200px) {
-	.faq {
+	.faq,
+	.faq p,
+	.faq li {
 		font-size: 1.125rem;
 	}
 }

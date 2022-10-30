@@ -138,7 +138,7 @@ module.exports = {
 		"gearPhotoTitle": "Elég forró volt a helyzet...",
 
 		"servicesPortraitureIntro": "Laza, nyugodt hangulatú fotós séták során készítek maradandó emlékeket. A formátum lehet egyéni, páros vagy családi, de elhozhatod a kis kedvencedet vagy akár a hobbidat is! Ilyen egyszerű a folyamat:",
-		"servicesVintagePortraitureIntro": "Régi, filmes fényképezőgépekhez készült objektívek használatával mesés hangulatú portré fotókat készíthetünk, egzotikus rajzolattal, nem mindennapi színvilággal és mesébe illő háttérmosással. Kölcsönözz igazán egyedi hangulatot a fotóidnak!",
+		"servicesVintagePortraitureIntro": "Régi, filmes fényképezőgépekhez készült objektívek használatával egyedi megjelenésű portré fotókat készíthetünk, egzotikus rajzolattal, nem mindennapi színvilággal és mesébe illő háttérmosással. Kölcsönözz igazán egyedi hangulatot a fotóidnak!",
 
 		"ctaTitle": "Szeretnél hasonló, szuper képeket?",
 		"ctaText": "Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!",

@@ -357,9 +357,9 @@ module.exports = {
 				answer: "Nagyon sokféle, régi gyártmányú objektív tartozik ebbe a kategóriába; a leggyakoribbak a régi analóg, filmes fényképezőgépekhez készült optikák, de ide sorolhatjuk például a vetítőgépek vagy röntgengépek objektíveit is. Ezek mind ugyanazt a célt szolgálják, csak más környezetben, így mindegyiknek sajátos rajzolata és karakterisztikája van.",
 			},
 			en: {
-				id: "",
-				question: "",
-				answer: "",
+				id: "what-are-vintage-lenses",
+				question: "What lenses are considered vintage?",
+				answer: "There's been a whole host of old lenses in used, not just in film cameras, but in x-ray machines as well! Any optic that can project an image, and can be adapted to modern camera bodies, will make it!",
 			},
 		},
 		{
@@ -369,57 +369,33 @@ module.exports = {
 				answer: "A következő régi obijaim vannak, amiket jól ismerek, és aktívan használok: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li></ul>",
 			},
 			en: {
-				id: "",
-				question: "",
-				answer: "",
+				id: "gear",
+				question: "What vintage lenses do you own?",
+				answer: "I currently own and frequently use the following lenses: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li></ul>",
 			},
 		},
 		{
 			hu: {
-				id: "",
-				question: "",
-				answer: "",
+				id: "autofokusz-is-lesz",
+				question: "Hozol magaddal autofókuszos objektívet is a fotózásra?",
+				answer: "Igen, de szigorúan tartaléknak. Ha útközben eltörik, elhagyom, meggyullad vagy elnyeli a föld, akkor legyen azért egy biztonsági tartalék.",
 			},
 			en: {
-				id: "",
-				question: "",
-				answer: "",
+				id: "backup-lens",
+				question: "Are you bringing a modern autofocus lens as well?",
+				answer: "Yes, but only as a backup. In case the lens breaks, catches fire, or gets lost or swallowed by the Earth, then I'll have a proper AF lens with me, just in case.",
 			},
 		},
 		{
 			hu: {
-				id: "",
-				question: "",
-				answer: "",
+				id: "koltseg",
+				question: "Van többletköltsége a vintage portré fotózásnak?",
+				answer: "Nincs. Ugyanazokkal az árakkal dolgozom az öreg obikkal is, mint normál esetben.",
 			},
 			en: {
-				id: "",
-				question: "",
-				answer: "",
-			},
-		},
-		{
-			hu: {
-				id: "",
-				question: "",
-				answer: "",
-			},
-			en: {
-				id: "",
-				question: "",
-				answer: "",
-			},
-		},
-		{
-			hu: {
-				id: "",
-				question: "",
-				answer: "",
-			},
-			en: {
-				id: "",
-				question: "",
-				answer: "",
+				id: "additional-costs",
+				question: "Are there any additional costs with a vintage lens shoot?",
+				answer: "No. The same prices apply to vintage portrait shoots than to regular portrait shoots.",
 			},
 		},
 	]
