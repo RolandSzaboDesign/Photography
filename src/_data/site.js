@@ -47,7 +47,7 @@ module.exports = {
 		"slugGalleriesAutomotive": "automotive",
 		"slugServices": "services",
 		"slugServicesPortraiture": "portrait-photo-walks",
-		"slugServicesVintagePortraiture": "portrait-photo-walks-with-vintage-lenses",
+		"slugServicesVintagePortraiture": "vintage-photo-walks",
 		"slugServicesSocialContent": "social-content-creation",
 		"slugServicesAutomotive": "automotive-photography",
 		"slugPhotoWalks": "photo-walks",
