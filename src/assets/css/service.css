@@ -106,10 +106,30 @@
 	padding: .75rem 1rem;
 }
 
+.vintage-promo {
+	display: grid;
+	grid-gap: 1rem;
+	align-items: center;
+	margin-top: 2rem;
+	padding: 1rem;
+	border: 1px solid var(--bg-dark);
+	border-top: .375rem solid var(--highlight);
+	border-radius: var(--border-radius);
+	background-color: #FFF;
+}
+
+.vintage-promo__title {
+	margin-top: 0;
+}
+
+.vintage-promo__image-link {
+	border: 0;
+}
+
 @media only screen and (min-width: 768px) {
 	.steps {
 		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 2rem;
+		grid-gap: 3rem;
 	}
 
 	.step__title {
@@ -149,6 +169,12 @@
 		margin-top: 1rem;
 		margin-bottom: 0;
 	}
+
+	.vintage-promo {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 2rem;
+		padding: 1.5rem;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -156,5 +182,9 @@
 	.faq p,
 	.faq li {
 		font-size: 1.125rem;
+	}
+
+	.vintage-promo {
+		grid-template-columns: 700px 1fr;
 	}
 }

@@ -73,6 +73,12 @@ module.exports = {
 		"servicesPortraitureIntro": "I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories. You can even bring your pet or your hobby! Here's how easy it is:",
 		"servicesVintagePortraitureIntro": "Let's make your portraits really special with vintage lenses made for old film cameras! Extraordinary colors, fabled background bokeh and stylistic image quality.",
 
+		"vintagePromoTitle": "Add Some Vintage Flavor",
+		"vintagePromoText": "If you're looking for truly unique photos, look no further: try your next portrait photography session with vintage lenses! Let me show you why they're special.",
+		"vintagePromoButton": "Let's see it!",
+		"vintagePromoImageAlt": "Wonderful photo of Jázmin, taken with a fifty-year-old Helios 44-2 vintage lens",
+		"vintagePromoLink": "/en/services/vintage-photo-walks/",
+
 		"ctaTitle": "Would you like similar, amazing photos?",
 		"ctaText": "I can make beautiful photos of you on our laid-back photo walk. Learn more to see how easy it is!",
 		"ctaButton": "Let's see the details",
@@ -139,6 +145,12 @@ module.exports = {
 
 		"servicesPortraitureIntro": "Laza, nyugodt hangulatú fotós séták során készítek maradandó emlékeket. A formátum lehet egyéni, páros vagy családi, de elhozhatod a kis kedvencedet vagy akár a hobbidat is! Ilyen egyszerű a folyamat:",
 		"servicesVintagePortraitureIntro": "Régi, filmes fényképezőgépekhez készült objektívek használatával egyedi megjelenésű portré fotókat készíthetünk, egzotikus rajzolattal, nem mindennapi színvilággal és mesébe illő háttérmosással. Kölcsönözz igazán egyedi hangulatot a fotóidnak!",
+
+		"vintagePromoTitle": "Kérd Vintage Fűszerezéssel",
+		"vintagePromoText": "Ha valóban egyedi és igazán látványos fotókat szeretnél Magadról, akkor próbáld ki a portréfotózást vintage objektívekkel! Engedd meg, hogy elmagyarázzam, mitől ennyire érdekes.",
+		"vintagePromoButton": "Oké, nézzük!",
+		"vintagePromoImageAlt": "Jázmin csodás fotója, amit egy ötven éves Helios 44-2 objektívvel készítettünk",
+		"vintagePromoLink": "/hu/szolgaltatasok/vintage-fotos-setak/",
 
 		"ctaTitle": "Szeretnél hasonló, szuper képeket?",
 		"ctaText": "Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!",

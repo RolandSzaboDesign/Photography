@@ -426,8 +426,7 @@ hr {
 .page-header__intro {
 	margin-top: .5rem;
 	font-weight: 700;
-	font-size: 1.125rem;
-	letter-spacing: -.03125rem;
+	line-height: 1.4;
 }
 
 
@@ -708,6 +707,12 @@ hr {
 
 	.page-header__title {
 		font-size: 2.125rem;
+	}
+
+	.page-header__intro {
+		font-size: 1.125rem;
+		letter-spacing: -.03125rem;
+		line-height: 1.5;
 	}
 
 	.polaroid__title {
