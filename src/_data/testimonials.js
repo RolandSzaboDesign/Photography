@@ -1,6 +1,19 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-jackeline-andre.webp",
+			hu: {
+				name: "Jackie N. & André P.",
+				text: "Az első közös fotózásunkhoz kerestem Budapesti portré fotóst Instagramon, ekkor találtam rá Rolandra. A kezdetektől nagyon tetszett a munkája; a képei, a színek, mind passzoltak az elvárásainknak. A fotózás elején kicsit félénkek voltunk, de Roland nagyon barátságos volt, sokat beszélgettünk és nevettünk, így könnyen feloldódtunk és hihetetlen jó képek készültek rólunk. Budapest nagyon sokat jelent nekünk, és Roland kitűnően megörökítette a közös élményünket.",
+				link: "/hu/portre/jackeline-andre/",
+			},
+			en: {
+				name: "Jackie N. & André P.",
+				text: "We found Roland on Instagram when I was searching for a photographer in Budapest to make our first photoshoot as a couple, and we loved his work since the beginning. His colours, the way that pictures were taken, seemed perfect for what we were looking for. We were quite shy at the beginning since it was our first time doing that, but Roland was super friendly, we talked and laughed a lot. At the end we felt very comfortable, and the results are unbelievable. Budapest has a huge meaning for us, and Roland helped to register this moment forever!",
+				link: "/en/portraiture/jackeline-andre/",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-nori.webp",
 			hu: {
 				name: "V. Nóri",
