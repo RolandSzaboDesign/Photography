@@ -2,15 +2,20 @@
 
 /en/*											/en/404.html									404
 /hu/*											/hu/404.html									404
+/404.html										/404											404!
+/404											/404.html										404!
 
 /about/											/hu/rolam/										301
 /about											/hu/rolam/										301
+/automotive/924/								/hu/auto/924/									301
 /automotive/911-sc/								/hu/auto/										301
 /automotive/991.2-cabriolet/					/hu/auto/991.2-cabriolet/						301
+/automotive/993-carrera-rs/						/hu/auto/										301
 /automotive/a5/									/hu/auto/										301
 /automotive/amg-a35/							/hu/auto/amg-a35/								301
 /automotive/amg-gts/							/hu/auto/										301
 /automotive/aventador-svj/						/hu/auto/										301
+/automotive/huracan/							/hu/auto/huracan-evo-spyder/					301
 /automotive/huracan-evo-spyder/					/hu/auto/huracan-evo-spyder/					301
 /automotive/mol-limo-1/							/hu/auto/										301
 /automotive/mol-limo-2/							/hu/auto/										301
@@ -32,6 +37,7 @@
 /landscape/sas-hegy-2021-11-14/					/hu/											301
 /landscape/										/hu/											301
 /landscape										/hu/											301
+/legal/											/hu/kapcsolat/									301
 /legal											/hu/kapcsolat/									301
 /portrait/dalma/								/hu/portre/dalma/								301
 /portrait/daniella/								/hu/portre/daniella/							301
@@ -67,10 +73,12 @@
 /portrait/vivi-3/								/hu/portre/vivi/								301
 /portrait/vivien/								/hu/portre/vivi/								301
 /portrait/										/hu/portre/										301
+/portrait										/hu/portre/										301
+/portraiture/									/hu/portre/										301
+/portraiture									/hu/portre/										301
 /portraiture/dalma/								/hu/portre/dalma/								301
 /portraiture/reka/								/hu/portre/reka/								301
-/portraiture									/hu/portre/										301
-/portrait										/hu/portre/										301
+/portraiture/viki-virag/						/hu/portre/viki-virag/							301
 /social-content/budapart-mol-limo/				/hu/kozossegi-tartalom/budapart-mol-limo/		301
 /social-content/pinceszinhaz/					/hu/kozossegi-tartalom/pinceszinhaz/			301
 /social-content/the-damn-good-place/			/hu/kozossegi-tartalom/the-damn-good-place/		301
@@ -79,6 +87,7 @@
 /social-content									/hu/kozossegi-tartalom/							301
 /street/2021-11-21/								/hu/											301
 /street/2021-11-25/								/hu/											301
+/street/2021-11-26/								/hu/											301
 /street/2021-11-28/								/hu/											301
 /street/2021-11-30/								/hu/											301
 /street/2021-12-03/								/hu/											301
@@ -94,4 +103,5 @@
 /tags/lifestyle/								/hu/tags/lifestyle/								301
 /tags/solo/										/hu/tags/egyéni/								301
 /tags/used%20car%20photos/						/hu/tags/used-car-photos/						301
+
 /hu/tags/aut%C3%B3k/							/hu/tags/autó/									301
