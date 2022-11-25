@@ -25,8 +25,7 @@
 	grid-gap: 0 1rem;
 }
 
-.masonry,
-.masonry__column {
+.masonry {
 	display: grid;
 	grid-gap: 1rem;
 }
@@ -39,6 +38,10 @@
 .brick:focus {
 	opacity: .8;
 	cursor: pointer;
+}
+
+.brick--landscape {
+	grid-column: 1 / -1;
 }
 
 .home-bottom {
@@ -190,11 +193,6 @@
 	.masonry {
 		grid-template-columns: repeat(2, 1fr);
 	}
-}
-
-@media only screen and (max-width: 479px) {
-	.masonry__column:nth-child(2n) .brick:first-child { grid-row: 2; }
-	.masonry__column:nth-child(2n) .brick:last-child  { grid-row: 1; }
 }
 
 @media only screen and (max-width: 991px) {

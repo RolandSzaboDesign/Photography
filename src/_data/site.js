@@ -57,8 +57,8 @@ module.exports = {
 		"homepageTitle": "I create authentic portraits on relaxed photo walks in Budapest.",
 		"homepageButton": "Let's Walk",
 		"homepageLink": "or check out my work",
-		"homepageSoloPortraits": "Solo Portraits",
-		"homepageCouplePortraits": "Couple Portraits",
+		"homepageSoloPortraits": "My Favorite Solo Portraits",
+		"homepageCouplePortraits": "My Favorite Couple Portraits",
 		"homepageOtherHeadline": "Here's a few other things I shoot",
 		"homepageOtherButton": "See more of my work",
 
@@ -130,8 +130,8 @@ module.exports = {
 		"homepageTitle": "Portrékat készítek laza hangulatú fotós sétákon Budapesten.",
 		"homepageButton": "Sétáljunk",
 		"homepageLink": "vagy nézd meg a munkáimat",
-		"homepageSoloPortraits": "Egyéni Portrék",
-		"homepageCouplePortraits": "Páros Portrék",
+		"homepageSoloPortraits": "Kedvenc Egyéni Portréim",
+		"homepageCouplePortraits": "Kedvenc Páros Portréim",
 		"homepageOtherHeadline": "Portrékon kívül mást is fotózom",
 		"homepageOtherButton": "További munkáim",
 

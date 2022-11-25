@@ -15,44 +15,26 @@ css: home
 		<section>
 			<h2 class="home__subtitle">{{ site[locale].homepageSoloPortraits }}</h2>
 			<div class="masonry">
-				<div class="masonry__column">
-					{% include "partials/homepage-photo-portrait.html", name: 'eszter-2', id: '01', loading: 'eager' %}
-					{% include "partials/homepage-photo-landscape.html", name: 'eperke', id: '03' %}
-				</div>
-				<div class="masonry__column">
-					{% include "partials/homepage-photo-landscape.html", name: 'jazmin', id: '03' %}
-					{% include "partials/homepage-photo-portrait.html", name: 'anna-3', id: '01' %}
-				</div>
-				<div class="masonry__column">
-					{% include "partials/homepage-photo-portrait.html", name: 'balazs', id: '01' %}
-					{% include "partials/homepage-photo-landscape.html", name: 'kata', id: '01' %}
-				</div>
-				<div class="masonry__column">
-					{% include "partials/homepage-photo-landscape.html", name: 'dori', id: '04' %}
-					{% include "partials/homepage-photo-portrait.html", name: 'arianna', id: '02' %}
-				</div>
+				{% include "partials/homepage-photo-landscape.html", name: 'jazmin', id: '03', loading: 'eager' %}
+				{% include "partials/homepage-photo-portrait.html", name: 'eszter-2', id: '01' %}
+				{% include "partials/homepage-photo-portrait.html", name: 'balazs', id: '01' %}
+				{% include "partials/homepage-photo-landscape.html", name: 'eperke-2', id: '01' %}
+				{% include "partials/homepage-photo-portrait.html", name: 'arianna', id: '02' %}
+				{% include "partials/homepage-photo-portrait.html", name: 'eszter-3', id: '03' %}
+				{% include "partials/homepage-photo-landscape.html", name: 'kata', id: '01' %}
 			</div>
 		</section>
 
 		<section>
 			<h2 class="home__subtitle">{{ site[locale].homepageCouplePortraits }}</h2>
 			<div class="masonry">
-				<div class="masonry__column">
-					{% include "partials/homepage-photo-portrait.html", name: 'cinta-jorge', id: '02' %}
-					{% include "partials/homepage-photo-landscape.html", name: 'luca-david', id: '03' %}
-				</div>
-				<div class="masonry__column">
-					{% include "partials/homepage-photo-landscape.html", name: 'orsi', id: '07' %}
-					{% include "partials/homepage-photo-portrait.html", name: 'aliz-adam', id: '04' %}
-				</div>
-				<div class="masonry__column">
-					{% include "partials/homepage-photo-portrait.html", name: 'linda-gyuri', id: '07' %}
-					{% include "partials/homepage-photo-landscape.html", name: 'denise-mark', id: '01' %}
-				</div>
-				<div class="masonry__column">
-					{% include "partials/homepage-photo-landscape.html", name: 'zsanett-matthias', id: '04' %}
-					{% include "partials/homepage-photo-portrait.html", name: 'amelie-gerson', id: '02' %}
-				</div>
+				{% include "partials/homepage-photo-landscape.html", name: 'cinta-jorge', id: '01' %}
+				{% include "partials/homepage-photo-portrait.html", name: 'aliz-adam', id: '04' %}
+				{% include "partials/homepage-photo-portrait.html", name: 'amelie-gerson', id: '03' %}
+				{% include "partials/homepage-photo-landscape.html", name: 'luca-david', id: '03' %}
+				{% include "partials/homepage-photo-portrait.html", name: 'jackeline-andre', id: '04' %}
+				{% include "partials/homepage-photo-portrait.html", name: 'linda-gyuri', id: '07' %}
+				{% include "partials/homepage-photo-landscape.html", name: 'cinta-jorge', id: '07' %}
 			</div>
 		</section>
 	</div>
