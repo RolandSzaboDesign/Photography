@@ -366,12 +366,12 @@ module.exports = {
 			hu: {
 				id: "felszereles",
 				question: "Milyen vintage objektívekkel dolgozol?",
-				answer: "A következő régi obijaim vannak, amiket jól ismerek, és aktívan használok: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li></ul>",
+				answer: "A következő régi obijaim vannak, amiket jól ismerek, és aktívan használok: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li><li>Super-Takumar 50mm f/1.4 (7 tagos)</li></ul>",
 			},
 			en: {
 				id: "gear",
 				question: "What vintage lenses do you own?",
-				answer: "I currently own and frequently use the following lenses: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li></ul>",
+				answer: "I currently own and frequently use the following lenses: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li><li>Super-Takumar 50mm f/1.4 (7 element)</li></ul>",
 			},
 		},
 		{
