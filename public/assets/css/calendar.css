@@ -1,0 +1,81 @@
+.main--calendar {
+	display: flex;
+	flex-direction: column;
+	margin-left: calc(-1 * var(--grid-gutter));
+	margin-right: calc(-1 * var(--grid-gutter));
+	padding: 0;
+	border-top: 0;
+}
+
+.calendar__header {
+	flex-grow: 1;
+	background-size: cover;
+	background-position: center center;
+	background-image: url('/assets/images/calendar-2023-bg.jpg');
+}
+
+.calendar__header-grid {
+	display: grid;
+	/*grid-template-columns: repeat(2, 1fr);*/
+	grid-gap: 2rem;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	text-align: center;
+}
+
+.calendar__header-img {
+	max-width: 65%;
+	margin: 0 auto;
+}
+
+.calendar__title {
+	display: inline-block;
+	margin-top: 2rem;
+	/*margin-left: -1rem;*/
+	/*padding: 1rem 1rem 1rem 3rem;*/
+	padding: 1rem;
+	font-size: 3rem;
+	color: #FFF;
+	text-align: center;
+	letter-spacing: -.1rem;
+	background-color: rgba(0,0,0,.6);
+}
+
+.calendar__intro {
+	margin-top: 2rem;
+	/*margin-left: -1rem;*/
+	/*padding: 1rem 1rem 1rem 3rem;*/
+	padding: 1rem;
+	font-size: 1.25rem;
+	color: #FFF;
+	text-align: center;
+	background-color: rgba(0,0,0,.5);
+}
+
+.calendar__section {
+	padding: 2rem var(--grid-gutter);
+	border-bottom: 1px solid var(--bg-dark);
+}
+
+.calendar__grid-2 {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	grid-gap: 2rem;
+}
+
+.calendar__samples {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2rem;
+}
+
+.calendar__subtitle {
+	margin-top: 0;
+}
+
+.calendar__packages {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
+}
