@@ -1,3 +1,23 @@
+.calendar-promo {
+	display: grid;
+	grid-gap: 1rem;
+	align-items: center;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+	padding: 1rem;
+	text-align: center;
+	border: 1px solid var(--bg-dark);
+	border-top: .375rem solid var(--highlight);
+	border-radius: var(--border-radius);
+	background-color: #FFF;
+}
+
+.calendar-promo__title {
+	font-size: 2.25rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
 .home__title {
 	margin-bottom: 1rem;
 	font-family: var(--serif);
@@ -167,6 +187,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+	.calendar-promo {
+		grid-template-columns: 3fr 2fr;
+		grid-gap: 3rem;
+		text-align: left;
+	}
+
 	.home__title {
 		margin-bottom: 1rem;
 		font-size: 2rem;
