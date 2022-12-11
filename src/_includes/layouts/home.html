@@ -15,9 +15,11 @@ css: home
 		<div class="calendar-promo__text">
 			<h2 class="calendar-promo__title">{{ site[locale].calendarPromoTitle }}</h2>
 			<p class="calendar-promo__intro">{{ site[locale].calendarPromoIntro }}</p>
-			<a class="button" href="/{{ locale }}/{{ site[locale].slugCalendar }}">{{ site[locale].calendarPromoButton }}</a>
+			<a class="button" href="/{{ locale }}/{{ site[locale].slugCalendar }}/">{{ site[locale].calendarPromoButton }}</a>
 		</div>
-		<img class="calendar-promo__text" src="/assets/images/calendar-2023.webp" alt="{{ site[locale].calendarPromoImgAlt }}">
+		<a class="calendar-promo__image-link" href="/{{ locale }}/{{ site[locale].slugCalendar }}/">
+			<img src="/assets/images/calendar-2023.webp" alt="{{ site[locale].calendarPromoImgAlt }}">
+		</a>
 	</div>
 
 	<div class="home__grid">

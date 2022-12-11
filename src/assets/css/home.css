@@ -18,6 +18,11 @@
 	margin-bottom: 1rem;
 }
 
+.calendar-promo__image-link {
+	padding: 0;
+	border-bottom: 0;
+}
+
 .home__title {
 	margin-bottom: 1rem;
 	font-family: var(--serif);
