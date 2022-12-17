@@ -40,7 +40,12 @@
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
 		<script defer src="/assets/js/analytics.js"></script>
 	</head>
-	<body>
+
+	{% if bodyClass %}
+		<body class="{{ bodyClass }}">
+	{% else %}
+		<body>
+	{% endif %}
 		{% include "partials/header.html" %}
 		{{ content }}
 		{% include "partials/footer.html" %}
