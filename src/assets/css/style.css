@@ -816,6 +816,10 @@ hr {
 		background-color: #FFF;
 	}
 
+	.nav__item--button {
+		padding: 0;
+	}
+
 	.nav__item--button:hover > .nav__link,
 	.nav__item--button:focus > .nav__link {
 		color: #FFF;
@@ -901,10 +905,6 @@ hr {
 
 	.nav__item {
 		font-size: 1.125rem;
-	}
-
-	.nav__item--button {
-		padding: 0;
 	}
 
 	.nav__list > .nav__item {

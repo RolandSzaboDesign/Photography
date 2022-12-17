@@ -1,0 +1,16 @@
+<a class="polaroid">
+	<img class="polaroid__photo"
+		 loading="{{ loading | default: 'lazy' }}"
+		 srcset="
+		 	/assets/images/portraiture/{{ name }}/{{ id }}_700.webp 700w,
+		 	/assets/images/portraiture/{{ name }}/{{ id }}_500.webp 500w,
+		 	/assets/images/portraiture/{{ name }}/{{ id }}_350.webp 350w,
+		 	/assets/images/portraiture/{{ name }}/{{ id }}_200.webp 200w
+		 "
+		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
+		 src="/assets/images/portraiture/{{ name }}/{{ id }}_200.webp"
+		 data-src="/assets/images/portraiture/{{ name }}/{{ id }}_700.webp"
+		 alt="Portfolio image of Roland Szabó Photography"
+		 width="700"
+		 height="1050">
+</a>

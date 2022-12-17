@@ -1,8 +1,31 @@
 ---
 permalink: "/{{ locale }}/"
 layout: layouts/base.html
+bodyClass: home
 css: home
 ---
+
+<main>
+	<nav class="home-nav">
+		<ul class="home-nav__list">
+			<li class="home-nav__item">
+				<a class="home-nav__link home-nav__link--female" href="/{{ locale }}/{{ site[locale].slugFemalePortraits }}/">
+					<span class="home-nav__link-text">{{ site[locale].homepageFemalePortraits }}</span>
+				</a>
+			</li>
+			<li class="home-nav__item">
+				<a class="home-nav__link home-nav__link--male" href="/{{ locale }}/{{ site[locale].slugMalePortraits }}/">
+					<span class="home-nav__link-text">{{ site[locale].homepageMalePortraits }}</span>
+				</a>
+			</li>
+			<li class="home-nav__item">
+				<a class="home-nav__link home-nav__link--couple" href="/{{ locale }}/{{ site[locale].slugCouplePortraits }}/">
+					<span class="home-nav__link-text">{{ site[locale].homepageCouplePortraits }}</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+</main>
 
 <main class="main home">
 	<header class="page-header">
@@ -10,53 +33,4 @@ css: home
 		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
 		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
 	</header>
-
-	<div class="home__grid">
-		<section>
-			<h2 class="home__subtitle">{{ site[locale].homepageSoloPortraits }}</h2>
-			<div class="masonry">
-				{% include "partials/homepage-photo-landscape.html", name: 'jazmin', id: '03', loading: 'eager' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'eszter-2', id: '01' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'balazs', id: '01' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'eperke-2', id: '01' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'arianna', id: '02' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'eszter-3', id: '03' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'kata', id: '01' %}
-			</div>
-		</section>
-
-		<section>
-			<h2 class="home__subtitle">{{ site[locale].homepageCouplePortraits }}</h2>
-			<div class="masonry">
-				{% include "partials/homepage-photo-landscape.html", name: 'cinta-jorge', id: '01' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'aliz-adam', id: '04' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'amelie-gerson', id: '03' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'luca-david', id: '03' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'jackeline-andre', id: '04' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'linda-gyuri', id: '07' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'cinta-jorge', id: '07' %}
-			</div>
-		</section>
-	</div>
-
-	<div class="home-bottom">
-		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
-		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
-	</div>
-
-	<aside class="lightbox">
-		<div class="lightbox__container">
-			<figure class="lightbox__figure">
-				<img class="lightbox__image" src="" alt="">
-				<!-- <figcaption class="lightbox__caption"></figcaption> -->
-			</figure>
-			<nav class="lightbox__nav">
-				<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-				<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
-			</nav>
-		</div>
-		<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
-	</aside>
-
-	<script src="/assets/js/lightbox.js" defer></script>
 </main>

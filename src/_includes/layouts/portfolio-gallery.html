@@ -1,0 +1,15 @@
+---
+layout: layouts/base.html
+css: gallery
+---
+
+<main class="main">
+	<header class="page-header">
+		<a class="page-header__category" href="/{{ locale }}/">{{ site[locale].backToHomepage }}</a>
+		<h1 class="page-header__title">{{ title }}</h1>
+		<p class="page-header__description">{{ intro }}</p>
+	</header>
+	<div class="gallery gallery--single">
+		{{ content }}
+	</div>
+</main>
