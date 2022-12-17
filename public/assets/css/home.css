@@ -1,3 +1,45 @@
+.home {
+	padding: 0;
+}
+
+.home .header {
+	padding: 1rem;
+}
+
+.home-nav {
+	display: grid;
+	min-height: calc(100vh - 84px);
+}
+
+.home-nav__link {
+	display: flex;
+	align-items: flex-end;
+	border: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.home-nav__link--female { background-image: url('/assets/images/portraiture/jazmin/03_700.webp'); }
+.home-nav__link--male   { background-image: url('/assets/images/portraiture/adam/03_700.webp'); }
+.home-nav__link--couple { background-image: url('/assets/images/portraiture/cinta-jorge/01_700.webp'); }
+
+.home-nav__link-text {
+	display: inline-block;
+	margin-bottom: 1rem;
+	padding: .5rem 1.25rem;
+	font-size: 1.5rem;
+	color: #FFF;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,.75);
+	transform: .2s background-color;
+}
+
+.home-nav__link:hover .home-nav__link-text,
+.home-nav__link:focus .home-nav__link-text {
+	background-color: #000;
+}
+
 .calendar-promo {
 	display: grid;
 	grid-gap: 1rem;
@@ -192,6 +234,14 @@
 }
 
 @media only screen and (min-width: 768px) {
+	.home-nav {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.home-nav__link--female { background-image: url('/assets/images/portraiture/eszter-2/01_700.webp'); }
+	.home-nav__link--male   { background-image: url('/assets/images/portraiture/balazs/01_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/amelie-gerson/03_700.webp'); }
+
 	.calendar-promo {
 		grid-template-columns: 3fr 2fr;
 		grid-gap: 3rem;
