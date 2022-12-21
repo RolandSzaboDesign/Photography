@@ -62,6 +62,18 @@ module.exports = {
 		"homepageOtherHeadline": "Here's a few other things I shoot",
 		"homepageOtherButton": "See more of my work",
 
+		"homepageFemalePortraits": "Female Portraits",
+		"homepageMalePortraits": "Male Portraits",
+		"homepageCouplePortraits": "Couple/Family Portraits",
+		"slugFemalePortraits": "female-portraits",
+		"slugMalePortraits": "male-portraits",
+		"slugCouplePortraits": "couple-portraits",
+
+		"calendarPromoTitle": "2023 Photo Calendar",
+		"calendarPromoIntro": "My 2023 photo calendar is ready for the taking in two pricing packages! The perfect Christmas gift, and a great way to support my work.",
+		"calendarPromoButton": "Order Now!",
+		"calendarPromoImgAlt": "2023 Photo Calendar by Roland Szabó Photography",
+
 		"lightboxNextPhoto": "Next Photo",
 		"lightboxPreviousPhoto": "Previous Photo",
 		"lightboxClose": "Close",
@@ -134,6 +146,18 @@ module.exports = {
 		"homepageCouplePortraits": "Kedvenc Páros Portréim",
 		"homepageOtherHeadline": "Portrékon kívül mást is fotózom",
 		"homepageOtherButton": "További munkáim",
+
+		"homepageFemalePortraits": "Női Portrék",
+		"homepageMalePortraits": "Férfi Portrék",
+		"homepageCouplePortraits": "Páros/Családi Portrék",
+		"slugFemalePortraits": "noi-portrek",
+		"slugMalePortraits": "ferfi-portrek",
+		"slugCouplePortraits": "paros-portrek",
+
+		"calendarPromoTitle": "2023 Fotó Naptár",
+		"calendarPromoIntro": "A 2023 évi fotó naptáram rendelhető, két árazási csomagban! A tökéletes Karácsonyi ajándék, és egy nagyszerű módja annak, hogy támogasd a munkámat.",
+		"calendarPromoButton": "Rendeld meg!",
+		"calendarPromoImgAlt": "2023 Fotó Naptár - Szabó Roland",
 
 		"lightboxNextPhoto": "Következő Fotó",
 		"lightboxPreviousPhoto": "Előző Fotó",
