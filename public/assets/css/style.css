@@ -62,7 +62,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	max-width: 90rem;
+	max-width: 100rem;
 	margin: 0 auto;
 	padding: 1rem var(--grid-gutter);
 	font-family: var(--sans);
