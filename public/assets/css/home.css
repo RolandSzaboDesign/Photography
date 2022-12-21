@@ -3,25 +3,28 @@
 }
 
 .home .header {
-	padding: 1rem;
+	padding: 1rem .5rem;
 }
 
 .home-nav {
 	display: grid;
-	min-height: calc(100vh - 84px);
+	grid-gap: .5rem;
+	min-height: calc(100vh - 5.25rem);
+	padding: 0 .5rem .5rem;
 }
 
 .home-nav__link {
 	display: flex;
 	align-items: flex-end;
 	border: 0;
+	border-radius: 1rem;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
 .home-nav__link--female { background-image: url('/assets/images/portraiture/jazmin/03_700.webp'); }
-.home-nav__link--male   { background-image: url('/assets/images/portraiture/adam/03_700.webp'); }
+.home-nav__link--male   { background-image: url('/assets/images/portraiture/nicolas/03_700.webp'); }
 .home-nav__link--couple { background-image: url('/assets/images/portraiture/cinta-jorge/01_700.webp'); }
 
 .home-nav__link-text {
@@ -31,8 +34,8 @@
 	font-size: 1.5rem;
 	color: #FFF;
 	text-transform: uppercase;
-	background-color: rgba(0,0,0,.75);
-	transform: .2s background-color;
+	background-color: rgba(0,0,0,.5);
+	transition: .2s background-color;
 }
 
 .home-nav__link:hover .home-nav__link-text,
@@ -197,13 +200,28 @@
 }
 
 @media only screen and (min-width: 768px) {
-	.home-nav {
-		grid-template-columns: repeat(3, 1fr);
+	.home .header {
+		padding: 1rem;
 	}
 
-	.home-nav__link--female { background-image: url('/assets/images/portraiture/eszter-2/01_700.webp'); }
-	.home-nav__link--male   { background-image: url('/assets/images/portraiture/balazs/01_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/amelie-gerson/03_700.webp'); }
+	.home-nav {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1rem;
+		padding: 0 1rem 1rem;
+	}
+
+	.home-nav__link--female { background-image: url('/assets/images/portraiture/jazmin/07_700.webp'); }
+	.home-nav__link--male   { background-image: url('/assets/images/portraiture/nicolas/01_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/cinta-jorge/02_700.webp'); }
+
+	.home-nav__link {
+		justify-content: center;
+		border-radius: 1rem;
+	}
+
+	.home-nav__link-text {
+		margin-bottom: 1rem;
+	}
 
 	.calendar-promo {
 		grid-template-columns: 3fr 2fr;
