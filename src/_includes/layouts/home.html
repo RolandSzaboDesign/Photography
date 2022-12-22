@@ -7,14 +7,14 @@ css: home
 
 <main>
 	<nav class="home-nav">
-		<a class="home-nav__link home-nav__link--female" href="/{{ locale }}/noi-portre/">
-			<span class="home-nav__link-text">Női Portré</span>
+		<a class="home-nav__link home-nav__link--female" href="/{{ locale }}/{{ site[locale].slugFemalePortraits }}/">
+			<span class="home-nav__link-text">{{ site[locale].homepageFemalePortraits }}</span>
 		</a>
 		<a class="home-nav__link home-nav__link--male" href="#">
-			<span class="home-nav__link-text">Férfi Portré</span>
+			<span class="home-nav__link-text">{{ site[locale].homepageMalePortraits }}</span>
 		</a>
 		<a class="home-nav__link home-nav__link--couple" href="#">
-			<span class="home-nav__link-text">Páros Portré</span>
+			<span class="home-nav__link-text">{{ site[locale].homepageCouplePortraits }}</span>
 		</a>
 	</nav>
 </main>
@@ -25,64 +25,4 @@ css: home
 		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
 		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
 	</header>
-
-	<div class="calendar-promo">
-		<div class="calendar-promo__text">
-			<h2 class="calendar-promo__title">{{ site[locale].calendarPromoTitle }}</h2>
-			<p class="calendar-promo__intro">{{ site[locale].calendarPromoIntro }}</p>
-			<a class="button" href="/{{ locale }}/{{ site[locale].slugCalendar }}/">{{ site[locale].calendarPromoButton }}</a>
-		</div>
-		<a class="calendar-promo__image-link" href="/{{ locale }}/{{ site[locale].slugCalendar }}/">
-			<img src="/assets/images/calendar-2023.webp" alt="{{ site[locale].calendarPromoImgAlt }}">
-		</a>
-	</div>
-
-	<div class="home__grid">
-		<section>
-			<h2 class="home__subtitle">{{ site[locale].homepageSoloPortraits }}</h2>
-			<div class="masonry">
-				{% include "partials/homepage-photo-landscape.html", name: 'jazmin', id: '03', loading: 'eager' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'eszter-2', id: '01' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'balazs', id: '01' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'eperke-2', id: '01' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'arianna', id: '02' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'eszter-3', id: '03' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'kata', id: '01' %}
-			</div>
-		</section>
-
-		<section>
-			<h2 class="home__subtitle">{{ site[locale].homepageCouplePortraits }}</h2>
-			<div class="masonry">
-				{% include "partials/homepage-photo-landscape.html", name: 'cinta-jorge', id: '01' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'aliz-adam', id: '04' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'amelie-gerson', id: '03' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'luca-david', id: '03' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'jackeline-andre', id: '04' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'linda-gyuri', id: '07' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'cinta-jorge', id: '07' %}
-			</div>
-		</section>
-	</div>
-
-	<div class="home-bottom">
-		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
-		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
-	</div>
-
-	<aside class="lightbox">
-		<div class="lightbox__container">
-			<figure class="lightbox__figure">
-				<img class="lightbox__image" src="" alt="">
-				<!-- <figcaption class="lightbox__caption"></figcaption> -->
-			</figure>
-			<nav class="lightbox__nav">
-				<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-				<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
-			</nav>
-		</div>
-		<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
-	</aside>
-
-	<script src="/assets/js/lightbox.js" defer></script>
 </main>
