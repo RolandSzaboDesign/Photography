@@ -35,37 +35,12 @@
 	color: #FFF;
 	text-transform: uppercase;
 	background-color: rgba(0,0,0,.5);
-	transition: .2s background-color;
+	transition: var(--transition-duration) background-color;
 }
 
 .home-nav__link:hover .home-nav__link-text,
 .home-nav__link:focus .home-nav__link-text {
-	background-color: #000;
-}
-
-.calendar-promo {
-	display: grid;
-	grid-gap: 1rem;
-	align-items: center;
-	margin-top: 2rem;
-	margin-bottom: 3rem;
-	padding: 1rem;
-	text-align: center;
-	border: 1px solid var(--bg-dark);
-	border-top: .375rem solid var(--highlight);
-	border-radius: var(--border-radius);
-	background-color: #FFF;
-}
-
-.calendar-promo__title {
-	font-size: 2.25rem;
-	margin-top: 0;
-	margin-bottom: 1rem;
-}
-
-.calendar-promo__image-link {
-	padding: 0;
-	border-bottom: 0;
+	background-color: rgba(0,0,0,.75);
 }
 
 .home__title {
@@ -127,94 +102,6 @@
 	border-bottom: 0;
 }
 
-.lightbox {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	opacity: 0;
-	z-index: 98;
-	pointer-events: none;
-	display: grid;
-	align-items: center;
-	justify-content: center;
-	background-color: rgba(0,0,0,.75);
-}
-
-.lightbox.active {
-	opacity: 1;
-	pointer-events: all;
-}
-
-.lightbox__container {
-	max-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 1rem;
-}
-
-.lightbox__figure {
-	position: relative;
-	display: flex;
-}
-
-.lightbox__image {
-	object-fit: cover;
-	max-height: 98vh;
-	padding: 1rem;
-	background-color: #FFF;
-}
-
-.lightbox__arrow {
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
-	padding: 5rem 1.75rem;
-	font-size: 1.5rem;
-	color: #FFF;
-	line-height: 1;
-	border-bottom: 0;
-}
-
-.lightbox__arrow:hover,
-.lightbox__arrow:focus {
-	color: var(--highlight);
-}
-
-#left  { left: 1rem; }
-#right { right: 1rem; }
-
-.lightbox__more {
-	padding: .5rem 1rem;
-	margin-top: .75rem;
-}
-
-.lightbox__close {
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-	width: 3rem;
-	height: 3rem;
-	font-weight: 700;
-	font-size: 3rem;
-	color: var(--text-dark);
-	line-height: 1;
-	text-align: center;
-	border-bottom: 0;
-	border-radius: 100%;
-	background-color: #FFF;
-	transition: var(--transition-duration) color, var(--transition-duration) transform;
-}
-
-.lightbox__close:hover,
-.lightbox__close:focus {
-	color: var(--highlight);
-	transform: rotate(90deg);
-}
-
 @media only screen and (min-width: 480px) {
 	.masonry {
 		grid-template-columns: repeat(2, 1fr);
@@ -229,10 +116,6 @@
 	.home__link {
 		display: inline-block;
 		margin: 0 0 0 1rem;
-	}
-
-	.lightbox__arrow {
-		font-size: 2rem;
 	}
 }
 

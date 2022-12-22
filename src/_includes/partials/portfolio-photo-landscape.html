@@ -1,5 +1,5 @@
-<a class="brick brick--landscape">
-	<img class="brick__photo"
+<a class="polaroid full">
+	<img class="polaroid__photo"
 		 loading="{{ loading | default: 'lazy' }}"
 		 srcset="
 			/assets/images/portraiture/{{ name }}/{{ id }}_1400.webp 1400w,
@@ -8,10 +8,10 @@
 		 	/assets/images/portraiture/{{ name }}/{{ id }}_350.webp 350w,
 		 	/assets/images/portraiture/{{ name }}/{{ id }}_200.webp 200w
 		 "
-		sizes="(min-width: 1600px) 712px, (min-width: 1000px) calc(41.38vw + 58px), (min-width: 840px) 750px, 92.69vw"
+		sizes="(min-width: 1500px) 1400px, calc(100vw - 40px)"
 		 src="/assets/images/portraiture/{{ name }}/{{ id }}_200.webp"
 		 data-src="/assets/images/portraiture/{{ name }}/{{ id }}_1400.webp"
 		 alt="Portfolio image of Roland Szabó Photography"
-		 width="750"
-		 height="500">
+		 width="1400"
+		 height="934">
 </a>
