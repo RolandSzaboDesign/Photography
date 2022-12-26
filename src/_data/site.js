@@ -14,6 +14,7 @@ module.exports = {
 		"siteTitle": "Roland Szabó | Budapest Portrait Photographer",
 		"copyright": "All rights reserved.",
 		"backToTop": "Back to the top of the page",
+		"backToHomepage": "Back to the Homepage",
 
 		"photoBy": "Photo by",
 		"photoAndEditBy": "Photo and edit by",
@@ -95,20 +96,12 @@ module.exports = {
 		"ctaTitle": "Would you like similar, amazing photos?",
 		"ctaText": "I can make beautiful photos of you on our laid-back photo walk. Learn more to see how easy it is!",
 		"ctaButton": "Let's see the details",
-
-		"calendar": "",
-		"calendar": "",
-		"calendar": "",
-		"calendar": "",
-		"calendar": "",
-		"calendar": "",
-		"calendar": "",
-		"calendar": "",
 	},
 	hu: {
 		"siteTitle": "Szabó Roland | Budapesti Portré Fotós",
 		"copyright": "Minden jog fenntartva.",
 		"backToTop": "Vissza az oldal tetejére",
+		"backToHomepage": "Vissza a Kezdőoldalra",
 
 		"photoBy": "Fotó:",
 		"photoAndEditBy": "Fotó és szerkesztés:",
