@@ -16,6 +16,8 @@
 .home-nav__link {
 	display: flex;
 	align-items: flex-end;
+	justify-content: center;
+	text-align: center;
 	border: 0;
 	border-radius: 1rem;
 	background-size: cover;
@@ -31,8 +33,9 @@
 	display: inline-block;
 	margin-bottom: 1rem;
 	padding: .5rem 1.25rem;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	color: #FFF;
+	letter-spacing: 0;
 	text-transform: uppercase;
 	background-color: rgba(0,0,0,.5);
 	transition: var(--transition-duration) background-color;
@@ -141,6 +144,8 @@
 
 	.home-nav__link-text {
 		margin-bottom: 1rem;
+		font-size: 1.25rem;
+		letter-spacing: -.025rem;
 	}
 
 	.calendar-promo {
