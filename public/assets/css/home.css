@@ -6,23 +6,30 @@
 	padding: 1rem .5rem;
 }
 
-.home-nav {
+.home-nav__list {
 	display: grid;
 	grid-gap: .5rem;
 	min-height: calc(100vh - 5.25rem);
 	padding: 0 .5rem .5rem;
 }
 
+.home-nav__item {
+	overflow: hidden;
+	border-radius: 1rem;
+}
+
 .home-nav__link {
+	transform: scale(1.02);
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
 	text-align: center;
+	height: 100%;
 	border: 0;
-	border-radius: 1rem;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	transition: var(--transition-duration) opacity, var(--transition-duration) transform;
 }
 
 .home-nav__link--female { background-image: url('/assets/images/portraiture/jazmin/03_700.webp'); }
@@ -39,6 +46,11 @@
 	text-transform: uppercase;
 	background-color: rgba(0,0,0,.5);
 	transition: var(--transition-duration) background-color;
+}
+
+.home-nav__link:hover,
+.home-nav__link:focus {
+	transform: scale(1.0);
 }
 
 .home-nav__link:hover .home-nav__link-text,
@@ -127,7 +139,7 @@
 		padding: 1rem;
 	}
 
-	.home-nav {
+	.home-nav__list {
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 1rem;
 		padding: 0 1rem 1rem;
