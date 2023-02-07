@@ -345,6 +345,42 @@
 		<lastmod>2022-10-23T00:00:00.000Z</lastmod>
 	</url>
 	<url>
+		<loc>https://rolandszabo.photo/en/contact/</loc>
+		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/galleries/</loc>
+		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/</loc>
+		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/</loc>
+		<lastmod>2022-10-29T14:59:15.799Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/tags/all/</loc>
+		<lastmod>2022-10-29T14:59:15.800Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/kapcsolat/</loc>
+		<lastmod>2022-10-29T14:59:15.818Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/galeriak/</loc>
+		<lastmod>2022-10-29T14:59:15.819Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/</loc>
+		<lastmod>2022-10-29T14:59:15.820Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/tags/all/</loc>
+		<lastmod>2022-10-29T14:59:15.822Z</lastmod>
+	</url>
+	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/eszter-3/</loc>
 		<lastmod>2022-11-06T00:00:00.000Z</lastmod>
 	</url>
@@ -391,6 +427,14 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/portre/lilla/</loc>
 		<lastmod>2022-12-01T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/gear/</loc>
+		<lastmod>2022-12-01T07:25:38.194Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/felszereles/</loc>
+		<lastmod>2022-12-01T07:25:38.252Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/nicolas/</loc>
@@ -457,50 +501,6 @@
 		<lastmod>2023-01-16T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/contact/</loc>
-		<lastmod>2023-01-18T17:17:16.755Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/galleries/</loc>
-		<lastmod>2023-01-18T17:17:16.755Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/portraiture/</loc>
-		<lastmod>2023-01-18T17:17:16.755Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/gear/</loc>
-		<lastmod>2023-01-18T17:17:16.755Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/</loc>
-		<lastmod>2023-01-18T17:17:16.756Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/tags/all/</loc>
-		<lastmod>2023-01-18T17:17:16.758Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/kapcsolat/</loc>
-		<lastmod>2023-01-18T17:17:16.766Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/galeriak/</loc>
-		<lastmod>2023-01-18T17:17:16.767Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/felszereles/</loc>
-		<lastmod>2023-01-18T17:17:16.767Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/</loc>
-		<lastmod>2023-01-18T17:17:16.767Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/tags/all/</loc>
-		<lastmod>2023-01-18T17:17:16.769Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/anna-5/</loc>
 		<lastmod>2023-01-22T00:00:00.000Z</lastmod>
 	</url>
@@ -510,70 +510,70 @@
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
-		<lastmod>2023-02-06T14:08:49.080Z</lastmod>
+		<lastmod>2023-02-07T10:25:07.887Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
-		<lastmod>2023-02-06T14:08:49.092Z</lastmod>
+		<lastmod>2023-02-07T10:25:07.890Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/404.html</loc>
-		<lastmod>2023-02-06T14:09:06.818Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/404.html</loc>
-		<lastmod>2023-02-06T14:09:06.818Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/couple-portraits/</loc>
-		<lastmod>2023-02-06T14:09:20.871Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/female-portraits/</loc>
-		<lastmod>2023-02-06T14:09:20.871Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/male-portraits/</loc>
-		<lastmod>2023-02-06T14:09:20.871Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/paros-portrek/</loc>
-		<lastmod>2023-02-06T14:09:20.871Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/ferfi-portrek/</loc>
-		<lastmod>2023-02-06T14:09:20.871Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/noi-portrek/</loc>
-		<lastmod>2023-02-06T14:25:36.358Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/services/</loc>
-		<lastmod>2023-02-06T14:25:37.206Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/portre/</loc>
-		<lastmod>2023-02-06T14:25:37.207Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/szolgaltatasok/</loc>
-		<lastmod>2023-02-06T14:25:37.207Z</lastmod>
+		<lastmod>2023-02-07T10:29:19.303Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/about/</loc>
-		<lastmod>2023-02-06T14:25:37.369Z</lastmod>
+		<lastmod>2023-02-07T10:29:19.304Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/couple-portraits/</loc>
+		<lastmod>2023-02-07T10:29:19.304Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/female-portraits/</loc>
+		<lastmod>2023-02-07T10:29:19.305Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/male-portraits/</loc>
+		<lastmod>2023-02-07T10:29:19.305Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/services/</loc>
+		<lastmod>2023-02-07T10:29:19.305Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/services/vintage-photo-walks/</loc>
-		<lastmod>2023-02-06T14:25:37.369Z</lastmod>
+		<lastmod>2023-02-07T10:29:19.306Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/404.html</loc>
+		<lastmod>2023-02-07T10:29:19.307Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/rolam/</loc>
-		<lastmod>2023-02-06T14:25:37.369Z</lastmod>
+		<lastmod>2023-02-07T10:29:19.307Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/</loc>
+		<lastmod>2023-02-07T10:29:19.308Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/paros-portrek/</loc>
+		<lastmod>2023-02-07T10:29:19.308Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/noi-portrek/</loc>
+		<lastmod>2023-02-07T10:29:19.309Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/ferfi-portrek/</loc>
+		<lastmod>2023-02-07T10:29:19.309Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/</loc>
+		<lastmod>2023-02-07T10:29:19.309Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/vintage-fotos-setak/</loc>
-		<lastmod>2023-02-06T14:25:37.370Z</lastmod>
+		<lastmod>2023-02-07T10:29:19.310Z</lastmod>
 	</url>
 </urlset>
