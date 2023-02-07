@@ -137,6 +137,7 @@
 	border-radius: 100%;
 	background-color: #FFF;
 	transition: var(--transition-duration) color, var(--transition-duration) transform;
+
 }
 
 .lightbox__close:hover,
