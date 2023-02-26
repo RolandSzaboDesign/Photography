@@ -41,11 +41,7 @@
 		<script defer src="/assets/js/analytics.js"></script>
 	</head>
 
-	{% if bodyClass %}
-		<body class="{{ bodyClass }}">
-	{% else %}
-		<body>
-	{% endif %}
+	<body>
 		{% include "partials/header.html" %}
 		{{ content }}
 		{% include "partials/footer.html" %}

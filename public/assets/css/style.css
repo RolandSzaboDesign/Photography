@@ -797,6 +797,10 @@ hr {
 		text-align: left;
 	}
 
+	.nav__link--button {
+		margin-left: 1rem;
+	}
+
 	.nav__dropdown {
 		display: none;
 		position: absolute;
@@ -829,10 +833,6 @@ hr {
 	.nav__item:hover > .nav__dropdown,
 	.nav__item:focus > .nav__dropdown {
 		display: block;
-	}
-
-	.portre {
-		display: none;
 	}
 
 	.lang__item {

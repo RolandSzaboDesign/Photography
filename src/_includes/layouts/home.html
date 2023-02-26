@@ -1,11 +1,13 @@
 ---
 permalink: "/{{ locale }}/"
 layout: layouts/base.html
-bodyClass: home
 css: home
 ---
 
-<main>
+<main class="main">
+	<header class="page-header">
+		<h1 class="home__title">{{ site[locale].homepageTitle }}</h1>
+	</header>
 	<nav class="home-nav">
 		<ul class="home-nav__list">
 			<li class="home-nav__item">
@@ -25,12 +27,6 @@ css: home
 			</li>
 		</ul>
 	</nav>
-</main>
-
-<main class="main home">
-	<header class="page-header">
-		<h1 class="home__title">{{ site[locale].homepageTitle }}</h1>
-		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
-		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
-	</header>
+	<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+	<a class="home__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageLink }}</a>
 </main>
