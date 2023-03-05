@@ -345,42 +345,6 @@
 		<lastmod>2022-10-23T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/contact/</loc>
-		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/galleries/</loc>
-		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/portraiture/</loc>
-		<lastmod>2022-10-29T14:59:15.798Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/</loc>
-		<lastmod>2022-10-29T14:59:15.799Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/tags/all/</loc>
-		<lastmod>2022-10-29T14:59:15.800Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/kapcsolat/</loc>
-		<lastmod>2022-10-29T14:59:15.818Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/galeriak/</loc>
-		<lastmod>2022-10-29T14:59:15.819Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/</loc>
-		<lastmod>2022-10-29T14:59:15.820Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/tags/all/</loc>
-		<lastmod>2022-10-29T14:59:15.822Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/eszter-3/</loc>
 		<lastmod>2022-11-06T00:00:00.000Z</lastmod>
 	</url>
@@ -427,14 +391,6 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/portre/lilla/</loc>
 		<lastmod>2022-12-01T00:00:00.000Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/gear/</loc>
-		<lastmod>2022-12-01T07:25:38.194Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/felszereles/</loc>
-		<lastmod>2022-12-01T07:25:38.252Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/nicolas/</loc>
@@ -541,14 +497,6 @@
 		<lastmod>2023-02-05T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
-		<lastmod>2023-02-07T10:25:07.887Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
-		<lastmod>2023-02-07T10:25:07.890Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/gabi/</loc>
 		<lastmod>2023-02-13T00:00:00.000Z</lastmod>
 	</url>
@@ -574,62 +522,114 @@
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/404.html</loc>
-		<lastmod>2023-02-25T05:30:51.342Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.234Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/about/</loc>
-		<lastmod>2023-02-25T05:30:51.343Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.240Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/contact/</loc>
+		<lastmod>2023-03-01T08:07:04.243Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/galleries/</loc>
+		<lastmod>2023-03-01T08:07:04.244Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/</loc>
+		<lastmod>2023-03-01T08:07:04.244Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/gear/</loc>
+		<lastmod>2023-03-01T08:07:04.248Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/</loc>
+		<lastmod>2023-03-01T08:07:04.248Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/couple-portraits/</loc>
-		<lastmod>2023-02-25T05:30:51.351Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.249Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/female-portraits/</loc>
-		<lastmod>2023-02-25T05:30:51.361Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.249Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/male-portraits/</loc>
-		<lastmod>2023-02-25T05:30:51.368Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.249Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/services/</loc>
-		<lastmod>2023-02-25T05:30:51.394Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.249Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
+		<lastmod>2023-03-01T08:07:04.255Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/services/vintage-photo-walks/</loc>
-		<lastmod>2023-02-25T05:30:51.395Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.260Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/tags/all/</loc>
+		<lastmod>2023-03-01T08:07:04.260Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/404.html</loc>
-		<lastmod>2023-02-25T05:30:51.396Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.388Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/rolam/</loc>
-		<lastmod>2023-02-25T05:30:51.396Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.392Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/kapcsolat/</loc>
+		<lastmod>2023-03-01T08:07:04.396Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/galeriak/</loc>
+		<lastmod>2023-03-01T08:07:04.396Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/portre/</loc>
-		<lastmod>2023-02-25T05:30:51.404Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.397Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/felszereles/</loc>
+		<lastmod>2023-03-01T08:07:04.401Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/</loc>
+		<lastmod>2023-03-01T08:07:04.401Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/paros-portrek/</loc>
-		<lastmod>2023-02-25T05:30:51.412Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.402Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/noi-portrek/</loc>
-		<lastmod>2023-02-25T05:30:51.420Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.402Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/ferfi-portrek/</loc>
-		<lastmod>2023-02-25T05:30:51.432Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.402Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/</loc>
-		<lastmod>2023-02-25T05:30:51.443Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.402Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
+		<lastmod>2023-03-01T08:07:04.407Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/vintage-fotos-setak/</loc>
-		<lastmod>2023-02-25T05:30:51.446Z</lastmod>
+		<lastmod>2023-03-01T08:07:04.411Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/tags/all/</loc>
+		<lastmod>2023-03-01T08:07:04.411Z</lastmod>
 	</url>
 </urlset>

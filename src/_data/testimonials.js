@@ -1,6 +1,71 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-reka-borbala.webp",
+			hu: {
+				name: "T. Réka",
+				text: "Rolanddal először a karácsonyi vásárban vettem részt fotózáson, ami végül egy rendkívül jó hangulatú baráti beszélgetéssé alakult. Szinte azonnal meg tudtam nyílni, hiszen csupán a lényével is egy rendívül biztonságos és kellemes légkört teremtett már az első pillanattól kezdve, így minden gátlást elengedve tudtam a kamerába mosolyogni, ami előtte nem volt jellemző rám, de Rolandnak hála ezt az oldalamat is meg tudtam ismerni. :) Azóta kétszer volt alkalmam közös fotózáson részt venni vele, amik szintén nagyon flottul mentek, a kézhez kapott képem után pedig a rég elveszett önbizalmam is elkezdett visszatérni Rolandnak hála! :)",
+				link: "/hu/portre/reka-borbala-2/",
+			},
+			en: {
+				name: "Réka T.",
+				text: "",
+				link: "/en/portre/",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-greti.webp",
+			hu: {
+				name: "A. Gréta",
+				text: "Ezzel a fotózással, mondhatni az egyik nagy vágyam vált valóra. Tudom, hogy elég sokszor vannak gátlásaim, ha más készít rólam képet, ezért kicsit aggódtam tetszeni fognak-e vagy egyáltalán komfortosnak érzem-e az egész folyamatot. Azt kell hogy mondjam teljesen pozitív csalódás volt számomra. Abban biztos voltam, hogy hihetetlen élmény lesz, mert ez volt az első igazi nagybetűsnek mondható fotózásom, de arra nem számítottam mekkora magabiztosságot és önbizalmat ad majd. Nem hogy 99 képből 98 nem tetszett, hanem egyszerűen minden kép csodálatos volt és elkapott a bőség zavara, mennyire gyönyörűek egytől egyig. A hangulat végig szuper volt, sok nevetéssel, mindezt profizmussal ötvözve.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Gréta A.",
+				text: "",
+				link: "/en/portre/",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-jazmin.webp",
+			hu: {
+				name: "V. Jázmin",
+				text: "Eddig kétszer volt alkalmam együtt dolgozni a Rolanddal és mindkét alkalom felejthetetlen élmény volt. Az első alkalommal nem tudtam mire számítsak, azt meg főleg nem hogyan kell pózolni. Viszont Roland a humorával az első pillanattól kezdve elfelejtette, hogy egyáltalán fotózáson vagyok! Amikor a párommal mentünk hozzá, féltünk, hogy furcsa lesz kamera előtt csókot váltani, de ott is végig humorizált, kihozta belőlünk a természetes meghitt mozdulatainkat. Ezáltal a fotók, nemcsak beállított pillanatokat, hanem igazi valós szeretet mutatják be, amikre mindig mosolyogva nézünk. Röviden, ha valakit, Rolandot csakis ajánlani tudom!",
+				link: "/hu/portre/jazmin/",
+			},
+			en: {
+				name: "Jázmin V.",
+				text: "",
+				link: "/en/portre/jazmin/",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-kincso.webp",
+			hu: {
+				name: "Z. Kincső",
+				text: "Legjobb fotózás volt az életemben. Egy olyan témában készültek a képek, ami tényleg én vagyok. Roland vicces, kedves, 'huger' személyisége garantálta a jó hangulatot. Jól éreztem magam és felszabadultam. Lenyűgözött ahogy készíti képeit, azzal a precízitással, pontossággal, az elképzelésekkel és ötletekkel a fejében. Nekem nagyon tetszik a végeredmény. Köszönöm! Szívből ajánlom mindenkinek Rolandot! Csodás, amit alkot a világban!",
+				link: "/hu/portre/kincso/",
+			},
+			en: {
+				name: "Kincső Z.",
+				text: "",
+				link: "/en/portre/kincso/",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-saci.webp",
+			hu: {
+				name: "U. Sarolta",
+				text: "Életem első fotózására készültem. Megmondom őszintén nagyon izgultam, kamerák előtt sosem érzem komfortosan magam, pedig edzőként igazán nincs mit takargatnom. Rolandot sem ismertem, ez sem könnyített a helyzeten. Hála istennek, Rolanddal a közös munka minden várakozásomat felül múlta, teljesen sikerült feloldódni már az elején. Nagyon megvagyok elégedve a képekkel, egy teljesen új arcomat mutatta meg, amiért nagyon hálás vagyok. Ha épp egy laza, kedves, jó humorú fotóst keresnél, akivel hamar megtalálod a közös hangot, szívből ajánlom Rolandot! Köszönöm ezúton is a lehetőséget, a képeket, szuper emlék és ajándék is egyben!",
+				link: "/hu/portre/saci/",
+			},
+			en: {
+				name: "Sarolta U.",
+				text: "",
+				link: "/en/portre/saci/",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-jackeline-andre.webp",
 			hu: {
 				name: "Jackie N. & André P.",
