@@ -40,135 +40,140 @@
 
 	<body>
 		<header class="header">
-	<a class="logo" href="/en/" title="Back to the Homepage">
-		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest Portrait Photographer</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/en/tags/all/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/en/" title="Back to the Homepage">
+			<strong class="logo__name">Roland Szabó</strong>
+			<span class="logo__tagline">Budapest Portrait Photographer</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/en/tags/all/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link" href="/hu/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/en/about/">About</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link" href="/hu/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/portraiture/">Portraiture</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/en/about/">About</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/portraiture/">Portraiture</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/contact/">Contact</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/contact/">Contact</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
 <main class="main">
-	
-		<header class="page-header">
-			<a href="/en/tags/all/" class="page-header__category">Tags</a>
-			<h1 class="page-header__title">Thematic</h1>
-		</header>
-		<div class="gallery">
-			
-			
+	<div class="container">
+		
+			<header class="page-header">
+				<a href="/en/tags/all/" class="page-header__category">Tags</a>
+				<h1 class="page-header__title">Thematic</h1>
+			</header>
+			<div class="gallery">
 				
 				
 					
 					
-				<a class="polaroids" href="/en/portraiture/gabi/">
-					<figure class="polaroid">
-						<div class="polaroid__square">
-							<img class="polaroid__photo"
-								 srcset="
-									/assets/images/portraiture/gabi/06_700.webp 700w,
-								 	/assets/images/portraiture/gabi/06_500.webp 500w,
-								 	/assets/images/portraiture/gabi/06_350.webp 350w,
-								 	/assets/images/portraiture/gabi/06_200.webp 200w
-								 "
-								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-								 src="/assets/images/portraiture/gabi/06_200.webp"
-								 alt="Photo of Tags">
-						</div>
-						<figcaption class="polaroid__caption">
-							<strong class="polaroid__title">Gabi</strong>
-						</figcaption>
-					</figure>
-				</a>
-			
-				
-				
-					
-					
-				<a class="polaroids" href="/en/portraiture/anna-4/">
-					<figure class="polaroid">
-						<div class="polaroid__square">
-							<img class="polaroid__photo"
-								 srcset="
-									/assets/images/portraiture/anna-4/01_700.webp 700w,
-								 	/assets/images/portraiture/anna-4/01_500.webp 500w,
-								 	/assets/images/portraiture/anna-4/01_350.webp 350w,
-								 	/assets/images/portraiture/anna-4/01_200.webp 200w
-								 "
-								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-								 src="/assets/images/portraiture/anna-4/01_200.webp"
-								 alt="Photo of Tags">
-						</div>
-						<figcaption class="polaroid__caption">
-							<strong class="polaroid__title">Anna Halloween</strong>
-						</figcaption>
-					</figure>
-				</a>
-			
-				
+						
+						
+					<a class="polaroids" href="/en/portraiture/gabi/">
+						<figure class="polaroid">
+							<div class="polaroid__square">
+								<img class="polaroid__photo"
+									 srcset="
+										/assets/images/portraiture/gabi/06_700.webp 700w,
+									 	/assets/images/portraiture/gabi/06_500.webp 500w,
+									 	/assets/images/portraiture/gabi/06_350.webp 350w,
+									 	/assets/images/portraiture/gabi/06_200.webp 200w
+									 "
+									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+									 src="/assets/images/portraiture/gabi/06_200.webp"
+									 alt="Photo of Tags">
+							</div>
+							<figcaption class="polaroid__caption">
+								<strong class="polaroid__title">Gabi</strong>
+							</figcaption>
+						</figure>
+					</a>
 				
 					
 					
-				<a class="polaroids" href="/en/portraiture/anna-2/">
-					<figure class="polaroid">
-						<div class="polaroid__square">
-							<img class="polaroid__photo"
-								 srcset="
-									/assets/images/portraiture/anna-2/04_700.webp 700w,
-								 	/assets/images/portraiture/anna-2/04_500.webp 500w,
-								 	/assets/images/portraiture/anna-2/04_350.webp 350w,
-								 	/assets/images/portraiture/anna-2/04_200.webp 200w
-								 "
-								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-								 src="/assets/images/portraiture/anna-2/04_200.webp"
-								 alt="Photo of Tags">
-						</div>
-						<figcaption class="polaroid__caption">
-							<strong class="polaroid__title">Anna Katana</strong>
-						</figcaption>
-					</figure>
-				</a>
-			
-		</div>
-	
+						
+						
+					<a class="polaroids" href="/en/portraiture/anna-4/">
+						<figure class="polaroid">
+							<div class="polaroid__square">
+								<img class="polaroid__photo"
+									 srcset="
+										/assets/images/portraiture/anna-4/01_700.webp 700w,
+									 	/assets/images/portraiture/anna-4/01_500.webp 500w,
+									 	/assets/images/portraiture/anna-4/01_350.webp 350w,
+									 	/assets/images/portraiture/anna-4/01_200.webp 200w
+									 "
+									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+									 src="/assets/images/portraiture/anna-4/01_200.webp"
+									 alt="Photo of Tags">
+							</div>
+							<figcaption class="polaroid__caption">
+								<strong class="polaroid__title">Anna Halloween</strong>
+							</figcaption>
+						</figure>
+					</a>
+				
+					
+					
+						
+						
+					<a class="polaroids" href="/en/portraiture/anna-2/">
+						<figure class="polaroid">
+							<div class="polaroid__square">
+								<img class="polaroid__photo"
+									 srcset="
+										/assets/images/portraiture/anna-2/04_700.webp 700w,
+									 	/assets/images/portraiture/anna-2/04_500.webp 500w,
+									 	/assets/images/portraiture/anna-2/04_350.webp 350w,
+									 	/assets/images/portraiture/anna-2/04_200.webp 200w
+									 "
+									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+									 src="/assets/images/portraiture/anna-2/04_200.webp"
+									 alt="Photo of Tags">
+							</div>
+							<figcaption class="polaroid__caption">
+								<strong class="polaroid__title">Anna Katana</strong>
+							</figcaption>
+						</figure>
+					</a>
+				
+			</div>
+		
+	</div>
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

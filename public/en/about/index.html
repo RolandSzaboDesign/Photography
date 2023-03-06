@@ -41,42 +41,43 @@
 
 	<body>
 		<header class="header">
-	<a class="logo" href="/en/" title="Back to the Homepage">
-		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest Portrait Photographer</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/en/about/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/en/" title="Back to the Homepage">
+			<strong class="logo__name">Roland Szabó</strong>
+			<span class="logo__tagline">Budapest Portrait Photographer</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/en/about/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link" href="/hu/rolam/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/en/about/">About</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link" href="/hu/rolam/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/portraiture/">Portraiture</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/en/about/">About</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/portraiture/">Portraiture</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/contact/">Contact</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/contact/">Contact</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
@@ -84,7 +85,7 @@
 	<header class="page-header">
 		<h1 class="page-header__title">About</h1>
 	</header>
-	<section class="about">
+	<section class="about container">
 		<article class="about__content content-box">
 			
 <p>Hey, I'm Roland, nice to meet you! I'm a <span title="👴">33-year-old</span> aspiring amateur photographer from Budapest, Hungary. I used to shoot on my phone a lot, and I picked up a digital camera some two years ago. I'd describe my work as <strong>authentic and spontaneous</strong>. I like capturing candid moments and showing legitimacy in my work.</p>
@@ -116,10 +117,12 @@
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

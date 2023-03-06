@@ -41,77 +41,123 @@
 
 	<body>
 		<header class="header">
-	<a class="logo" href="/en/" title="Back to the Homepage">
-		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest Portrait Photographer</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/en/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/en/" title="Back to the Homepage">
+			<strong class="logo__name">Roland Szabó</strong>
+			<span class="logo__tagline">Budapest Portrait Photographer</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/en/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link" href="/hu/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/en/about/">About</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link" href="/hu/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/portraiture/">Portraiture</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/en/about/">About</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/portraiture/">Portraiture</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/contact/">Contact</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/contact/">Contact</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
-<main class="main">
-	<header class="page-header">
-		<h1 class="home__title">I take authentic portraits and tell terrible jokes.</h1>
-	</header>
-	<nav class="home-nav">
-		<ul class="home-nav__list">
-			<li class="home-nav__item">
-				<a class="home-nav__link home-nav__link--female" href="/en/female-portraits/">
-					<span class="home-nav__link-text">Female Portraits</span>
-				</a>
-			</li>
-			<li class="home-nav__item">
-				<a class="home-nav__link home-nav__link--male" href="/en/male-portraits/">
-					<span class="home-nav__link-text">Male Portraits</span>
-				</a>
-			</li>
-			<li class="home-nav__item">
-				<a class="home-nav__link home-nav__link--couple" href="/en/couple-portraits/">
-					<span class="home-nav__link-text">Couple/Family Portraits</span>
-				</a>
-			</li>
-		</ul>
-	</nav>
-	<a class="button" href="/en/services/portrait-photo-walks/">Let's do a Photoshoot</a>
-	<a class="home__link" href="/en/about/">or learn more about me</a>
+<main class="main home">
+	<section class="home-hero section section--border">
+		<div class="container">
+			<header class="page-header">
+				<h1 class="home__title">I take authentic portraits and tell terrible jokes.</h1>
+			</header>
+			<nav class="home-nav">
+				<ul class="home-nav__list">
+					<li class="home-nav__item">
+						<a class="home-nav__link home-nav__link--female" href="/en/female-portraits/">
+							<span class="home-nav__link-text">Female Portraits</span>
+						</a>
+					</li>
+					<li class="home-nav__item">
+						<a class="home-nav__link home-nav__link--male" href="/en/male-portraits/">
+							<span class="home-nav__link-text">Male Portraits</span>
+						</a>
+					</li>
+					<li class="home-nav__item">
+						<a class="home-nav__link home-nav__link--couple" href="/en/couple-portraits/">
+							<span class="home-nav__link-text">Couple/Family Portraits</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="home__cta">
+				<a class="button" href="/en/services/portrait-photo-walks/">Let's do a Photoshoot</a>
+				<a class="home__link" href="/en/about/">or learn more about me</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--white section--border">
+		<div class="home-about container">
+			<div>
+				<h2 class="home__title mt-0">Hiszem, hogy mindenkiről lehet jó képet csinálni.</h2>
+				<p>Szia! Roland vagyok, 2 éve fotózom profi felszereléssel, és elkötelezetten dolgozom azért, hogy megszerettessem az emberekkel a portré fotózást.</p>
+				<p>Számtalan vendégemtől elhangzott már, hogy vonakodik a portré fotózástól, mert nem gondolja magát fotogénnek, vagy nem tudja, hogy mit kell a kamera előtt csinálni.</p>
+				<p>Nincs annál elismerőbb érzés, amikor ugyanezek a vendégek meglátják az első képet a fényképezőgépben, amit róluk készítek, és látom, ahogyan az összegyűlt teher egy pillanat alatt elillan, és óriási meglepetésben törnek mosolyra. Ezek után be sem kell mutassam, hogy milyen laza és oldott hangulatban megy tovább a fotózás.</p>
+				<p>Fotós sétáim során empatetikus személyiségemmel, és diverz humorommal garantálom, hogy nagyon jól fogod érezni Magad!</p>
+				<p>Ha Te sem szeretsz fotózkodni, mert ugyanettől félsz, akkor kiváló helyen vagy! Én készen állok. És Te?</p>
+				<div class="home__cta">
+					<a class="button" href="/en/services/portrait-photo-walks/">Let's do a Photoshoot</a>
+				</div>
+			</div>
+			<figure>
+				<img src="/assets/images/roland-home.jpg" alt="Hellóka!" title="Hellóka!">
+				<figcaption><em>Photo and edit by <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">Peter Lakinger</a></em></figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="section">
+		<dl class="stats container">
+			<div class="stat">
+				<dt class="stat__key">Szervezett Portréfotózás</dt>
+				<dd class="stat__value">168</dd>
+			</div>
+			<div class="stat">
+				<dt class="stat__key">Visszatérő Ügyfél</dt>
+				<dd class="stat__value">92</dd>
+			</div>
+			<div class="stat">
+				<dt class="stat__key">Önfeledt Mosoly</dt>
+				<dd class="stat__value"><span title="Végtelen">∞</span></dd>
+			</div>
+		</dl>
+	</section>
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

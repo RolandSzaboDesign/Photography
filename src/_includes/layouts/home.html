@@ -4,29 +4,72 @@ layout: layouts/base.html
 css: home
 ---
 
-<main class="main">
-	<header class="page-header">
-		<h1 class="home__title">{{ site[locale].homepageTitle }}</h1>
-	</header>
-	<nav class="home-nav">
-		<ul class="home-nav__list">
-			<li class="home-nav__item">
-				<a class="home-nav__link home-nav__link--female" href="/{{ locale }}/{{ site[locale].slugFemalePortraits }}/">
-					<span class="home-nav__link-text">{{ site[locale].homepageFemalePortraits }}</span>
-				</a>
-			</li>
-			<li class="home-nav__item">
-				<a class="home-nav__link home-nav__link--male" href="/{{ locale }}/{{ site[locale].slugMalePortraits }}/">
-					<span class="home-nav__link-text">{{ site[locale].homepageMalePortraits }}</span>
-				</a>
-			</li>
-			<li class="home-nav__item">
-				<a class="home-nav__link home-nav__link--couple" href="/{{ locale }}/{{ site[locale].slugCouplePortraits }}/">
-					<span class="home-nav__link-text">{{ site[locale].homepageCouplePortraits }}</span>
-				</a>
-			</li>
-		</ul>
-	</nav>
-	<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
-	<a class="home__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageLink }}</a>
+<main class="main home">
+	<section class="home-hero section section--border">
+		<div class="container">
+			<header class="page-header">
+				<h1 class="home__title">{{ site[locale].homepageMainTitle }}</h1>
+			</header>
+			<nav class="home-nav">
+				<ul class="home-nav__list">
+					<li class="home-nav__item">
+						<a class="home-nav__link home-nav__link--female" href="/{{ locale }}/{{ site[locale].slugFemalePortraits }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageFemalePortraits }}</span>
+						</a>
+					</li>
+					<li class="home-nav__item">
+						<a class="home-nav__link home-nav__link--male" href="/{{ locale }}/{{ site[locale].slugMalePortraits }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageMalePortraits }}</span>
+						</a>
+					</li>
+					<li class="home-nav__item">
+						<a class="home-nav__link home-nav__link--couple" href="/{{ locale }}/{{ site[locale].slugCouplePortraits }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageCouplePortraits }}</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="home__cta">
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+				<a class="home__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageLink }}</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--white section--border">
+		<div class="home-about container">
+			<div>
+				<h2 class="home__title mt-0">Hiszem, hogy mindenkiről lehet jó képet csinálni.</h2>
+				<p>Szia! Roland vagyok, 2 éve fotózom profi felszereléssel, és elkötelezetten dolgozom azért, hogy megszerettessem az emberekkel a portré fotózást.</p>
+				<p>Számtalan vendégemtől elhangzott már, hogy vonakodik a portré fotózástól, mert nem gondolja magát fotogénnek, vagy nem tudja, hogy mit kell a kamera előtt csinálni.</p>
+				<p>Nincs annál elismerőbb érzés, amikor ugyanezek a vendégek meglátják az első képet a fényképezőgépben, amit róluk készítek, és látom, ahogyan az összegyűlt teher egy pillanat alatt elillan, és óriási meglepetésben törnek mosolyra. Ezek után be sem kell mutassam, hogy milyen laza és oldott hangulatban megy tovább a fotózás.</p>
+				<p>Fotós sétáim során empatetikus személyiségemmel, és diverz humorommal garantálom, hogy nagyon jól fogod érezni Magad!</p>
+				<p>Ha Te sem szeretsz fotózkodni, mert ugyanettől félsz, akkor kiváló helyen vagy! Én készen állok. És Te?</p>
+				<div class="home__cta">
+					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+				</div>
+			</div>
+			<figure>
+				<img src="/assets/images/roland-home.jpg" alt="Hellóka!" title="Hellóka!">
+				<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="section">
+		<dl class="stats container">
+			<div class="stat">
+				<dt class="stat__key">Szervezett Portréfotózás</dt>
+				<dd class="stat__value">168</dd>
+			</div>
+			<div class="stat">
+				<dt class="stat__key">Visszatérő Ügyfél</dt>
+				<dd class="stat__value">92</dd>
+			</div>
+			<div class="stat">
+				<dt class="stat__key">Önfeledt Mosoly</dt>
+				<dd class="stat__value"><span title="Végtelen">∞</span></dd>
+			</div>
+		</dl>
+	</section>
 </main>

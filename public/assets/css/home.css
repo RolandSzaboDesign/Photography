@@ -1,7 +1,38 @@
+.home-hero {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.home-about {
+	display: grid;
+	grid-gap: 2rem;
+}
+
+.home__cta {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.home__title {
+	font-family: var(--serif);
+	font-size: 1.625rem;
+	color: var(--text-dark);
+	letter-spacing: -.0625rem;
+}
+
+.home__link {
+	display: block;
+	margin-top: .5rem;
+	color: var(--text);
+	text-align: center;
+	border-bottom: 0;
+}
+
 .home-nav__list {
 	display: grid;
 	grid-gap: 1rem;
 	min-height: calc(100vh - 13rem);
+	margin-bottom: 0;
 }
 
 .home-nav__item {
@@ -28,6 +59,35 @@
 .home-nav__link--male   { background-image: url('/assets/images/portraiture/abdallah/01_700.webp'); }
 .home-nav__link--couple { background-image: url('/assets/images/portraiture/jazmin-beni/01_700.webp'); }
 
+.stats {
+	display: grid;
+	grid-gap: 1rem;
+}
+
+.stat {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1.25;
+}
+
+.stat__key {
+}
+
+.stat__value {
+	order: -1;
+	font-family: var(--serif);
+	font-size: 5rem;
+	color: var(--text-dark);
+	letter-spacing: -4px;
+}
+
+@media only screen and (min-width: 768px) {
+	.home-nav__link--female { background-image: url('/assets/images/portraiture/reka-borbala-2/07_700.webp'); }
+	.home-nav__link--male { background-image: url('/assets/images/portraiture/abdallah/06_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/jazmin-beni/03_700.webp'); }
+}
+
 .home-nav__link-text {
 	display: inline-block;
 	margin-bottom: 1rem;
@@ -50,70 +110,6 @@
 	background-color: rgba(0,0,0,.75);
 }
 
-.home__title {
-	font-family: var(--serif);
-	font-size: 1.625rem;
-	color: var(--text-dark);
-	letter-spacing: -.0625rem;
-}
-
-.home__subtitle {
-	grid-column: 1 / -1;
-	margin-top: 0;
-	margin-bottom: 1rem;
-	padding-bottom: .5rem;
-	font-family: var(--sans);
-	font-size: 1rem;
-	color: var(--text);
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: -.025rem;
-	border-bottom: 1px solid var(--bg-dark);
-}
-
-.home__grid {
-	display: grid;
-	grid-gap: 0 1rem;
-}
-
-.masonry {
-	display: grid;
-	grid-gap: 1rem;
-}
-
-.brick {
-	transition: var(--transition-duration) opacity;
-}
-
-.brick:hover,
-.brick:focus {
-	opacity: .8;
-	cursor: pointer;
-}
-
-.brick--landscape {
-	grid-column: 1 / -1;
-}
-
-.home-bottom {
-	margin-top: 2rem;
-	text-align: center;
-}
-
-.home__link {
-	display: block;
-	margin-top: .5rem;
-	color: var(--text);
-	text-align: center;
-	border-bottom: 0;
-}
-
-@media only screen and (min-width: 480px) {
-	.masonry {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
 @media only screen and (min-width: 576px) {
 	.home__title {
 		margin-bottom: 1.25rem;
@@ -126,17 +122,15 @@
 }
 
 @media only screen and (min-width: 768px) {
-	.home .header {
-		padding: 1rem;
+	.home__title {
+		margin-bottom: 1rem;
+		font-size: 2rem;
+		letter-spacing: -.1rem;
 	}
 
 	.home-nav__list {
 		grid-template-columns: repeat(3, 1fr);
 	}
-
-	.home-nav__link--female { background-image: url('/assets/images/portraiture/reka-borbala-2/07_700.webp'); }
-	.home-nav__link--male { background-image: url('/assets/images/portraiture/abdallah/06_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/jazmin-beni/03_700.webp'); }
 
 	.home-nav__link {
 		justify-content: center;
@@ -149,21 +143,13 @@
 		letter-spacing: -.025rem;
 	}
 
-	.calendar-promo {
-		grid-template-columns: 3fr 2fr;
-		grid-gap: 3rem;
-		text-align: left;
+	.home-about {
+		grid-template-columns: 2fr 1fr;
+		align-items: center;
 	}
 
-	.home__title {
-		margin-bottom: 1rem;
-		font-size: 2rem;
-		letter-spacing: -.1rem;
-	}
-
-	.home__subtitle {
-		font-size: 1.125rem;
-		letter-spacing: -.025rem;
+	.stats {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
@@ -172,19 +158,5 @@
 		margin-bottom: 1.5rem;
 		font-size: 2.5rem;
 		letter-spacing: -.1rem;
-	}
-
-	.home__grid {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.masonry {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media only screen and (max-width: 991px) {
-	.home__grid section + section {
-		margin-top: 3rem;
 	}
 }

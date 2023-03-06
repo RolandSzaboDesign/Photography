@@ -4,41 +4,43 @@ layout: layouts/base.html
 ---
 
 <main class="main">
-	<header class="page-header">
-		<h1 class="page-header__title">{{ title }}</h1>
-	</header>
-	<div class="gallery">
-		{% for post in collections[slug] reversed %}
-			<a class="polaroids" href="{{ post.url }}">
-				<figure class="polaroid">
-					<div class="polaroid__square">
-						{% case slug %}
-							{% when "portré", "portraiture" %}
-								{% assign folder = "portraiture" %}
-							{% when "autó", "automotive" %}
-								{% assign folder = "automotive" %}
-							{% when "közösségi-tartalom", "social-content" %}
-								{% assign folder = "social-content" %}
-						{% endcase %}
-						<img class="polaroid__photo"
-							 srcset="
-								/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_700.webp 700w,
-							 	/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_500.webp 500w,
-							 	/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w,
-							 	/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp 200w
-							 "
-							 sizes="(min-width: 1500px) 400px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), calc(50vw - 55px)"
-							 src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp"
-							 alt="{{ post.data.title }}"
-							 width="350"
-							 height="350">
-					</div>
-					<figcaption class="polaroid__caption">
-						<strong class="polaroid__title">{{ post.data.title }}</strong>
-					</figcaption>
-				</figure>
-			</a>
-		{% endfor %}
+	<div class="container">
+		<header class="page-header">
+			<h1 class="page-header__title">{{ title }}</h1>
+		</header>
+		<div class="gallery">
+			{% for post in collections[slug] reversed %}
+				<a class="polaroids" href="{{ post.url }}">
+					<figure class="polaroid">
+						<div class="polaroid__square">
+							{% case slug %}
+								{% when "portré", "portraiture" %}
+									{% assign folder = "portraiture" %}
+								{% when "autó", "automotive" %}
+									{% assign folder = "automotive" %}
+								{% when "közösségi-tartalom", "social-content" %}
+									{% assign folder = "social-content" %}
+							{% endcase %}
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_700.webp 700w,
+								 	/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_500.webp 500w,
+								 	/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w,
+								 	/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 400px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), calc(50vw - 55px)"
+								 src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp"
+								 alt="{{ post.data.title }}"
+								 width="350"
+								 height="350">
+						</div>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">{{ post.data.title }}</strong>
+						</figcaption>
+					</figure>
+				</a>
+			{% endfor %}
+		</div>
+		{% include "partials/cta.html" %}
 	</div>
-	{% include "partials/cta.html" %}
 </main>

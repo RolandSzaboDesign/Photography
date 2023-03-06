@@ -41,42 +41,43 @@
 
 	<body>
 		<header class="header">
-	<a class="logo" href="/en/" title="Back to the Homepage">
-		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest Portrait Photographer</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/en/gear/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/en/" title="Back to the Homepage">
+			<strong class="logo__name">Roland Szabó</strong>
+			<span class="logo__tagline">Budapest Portrait Photographer</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/en/gear/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link" href="/hu/felszereles/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/en/about/">About</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link" href="/hu/felszereles/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/portraiture/">Portraiture</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/en/about/">About</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/portraiture/">Portraiture</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/contact/">Contact</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/contact/">Contact</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
@@ -84,7 +85,7 @@
 	<header class="page-header">
 		<h1 class="page-header__title">Gear</h1>
 	</header>
-	<section class="contact">
+	<section class="contact container">
 		<article class="contact__content content-box">
 			
 <p>Here's a definitive list of all the gear I use for my photography. <span title="It kinda does, but it doesn't.">#geardoesntmatter</span></p>
@@ -118,7 +119,7 @@
 <ul class="list">
 	<li>Yongnuo YN360II LED lightsaber 5500k</li>
 	<li>JJC LED-96 LED light</li>
-	<li>Godox TT350S TTL flash + 28cm octobox</li>
+	<li>Godox TT350S TTL flash</li>
 </ul>
 <h2>Bags</h2>
 <ul class="list">
@@ -148,10 +149,12 @@
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

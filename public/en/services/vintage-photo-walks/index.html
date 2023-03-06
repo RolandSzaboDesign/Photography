@@ -41,174 +41,179 @@
 
 	<body>
 		<header class="header">
-	<a class="logo" href="/en/" title="Back to the Homepage">
-		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest Portrait Photographer</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/en/services/vintage-photo-walks/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/en/" title="Back to the Homepage">
+			<strong class="logo__name">Roland Szabó</strong>
+			<span class="logo__tagline">Budapest Portrait Photographer</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/en/services/vintage-photo-walks/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link" href="/hu/szolgaltatasok/vintage-fotos-setak/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/en/about/">About</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link" href="/hu/szolgaltatasok/vintage-fotos-setak/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/portraiture/">Portraiture</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/en/about/">About</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/portraiture/">Portraiture</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/contact/">Contact</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/contact/">Contact</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
 <main class="main">
-	<header class="page-header">
-		<span class="page-header__category">Services</span>
-		<h1 class="page-header__title">Portrait Photo Walks with Vintage Lenses</h1>
-		<p class="page-header__intro">Let's make your portraits really special with vintage lenses made for old film cameras! Extraordinary colors, fabled background bokeh and stylistic image quality.</p>
-	</header>
+	<div class="container">
+		<header class="page-header">
+			<span class="page-header__category">Services</span>
+			<h1 class="page-header__title">Portrait Photo Walks with Vintage Lenses</h1>
+			<p class="page-header__intro">Let's make your portraits really special with vintage lenses made for old film cameras! Extraordinary colors, fabled background bokeh and stylistic image quality.</p>
+		</header>
 
-	<h2>Why Vintage Lenses?</h2>
-	<figure class="floating-photo floating-photo--right">
-		<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-04.webp" alt="Portézós Fotós Séták" width="750" height="500">
-		<figcaption class="floating-photo__caption"><em>Photo and edit by <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">Danos Nemeth</a></em></figcaption>
-	</figure>
-	<p>Modern (i.e. super-expensive) camera lenses are designed to be so perfect that the imperfections that make a photo realistic are almost completely missing. Having close to perfect image quality does result in extreme ease of use, and the end results are consistently flawless. However, the image quality is so sterile and flat that I'm spending hours in post-production to get my images to look 3D again.</p>
-	<p>This is where old vintage optics come in to play. They're full of optical flaws which makes photos taken with them alive and animate. Vintage lenses are more difficult to operate: You need to focus every image one-by-one, they are prone to flaring in direct sunlight, they sometimes leave odd spots in the image, and the list goes on. However, the final photos are something that we can be a lot more proud of, because we're really worked for them. Shooting portraits with vintage lenses is about embracing these optical shortcomings and really enabling our creative juices to flow.</p>
-	<h2>How is a portrait photography session different with vintage lenses?</h2>
-	<p>Here's a few things to keep in mind, if you're willing to model for a shoot.</p>
-	<figure class="floating-photo floating-photo--left">
-		<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-05.webp" alt="Portézós Fotós Séták" width="750" height="500">
-		<figcaption class="floating-photo__caption"><em>Photo and edit by <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">Danos Nemeth</a></em></figcaption>
-	</figure>
-	<ul class="list">
-		<li><strong>Every image has to be manually focussed.</strong> My camera has several built-in helping features to assist me in finding the perfect focus, but it still takes time to make sure that the images are as sharp as possible. Because of this, you'll need to hold your mimics and poses for a little longer.</li>
-		<li><strong>Images are generally more static.</strong> Because of the manual focusing, we can't accurately capture moving scenes, so manual lenses aren't the go-to option to capture movement in photos.</li>
-		<li><strong>We'll need to consider flaring.</strong> Old lenses are highly prone to flaring, when shooting in direct sunlight. While we can use flares creatively, it can make photos unusable very quickly. Because of this, we might need to spend more time finding the best angles according to the sunlight.</li>
-	</ul>
-	<p>All in all, we could say that shooting with vintage lenses requires some more patience and some respect for older technologies, in order to create unique, soulful photos.</p>
+		<h2>Why Vintage Lenses?</h2>
+		<figure class="floating-photo floating-photo--right">
+			<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-04.webp" alt="Portézós Fotós Séták" width="750" height="500">
+			<figcaption class="floating-photo__caption"><em>Photo and edit by <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">Danos Nemeth</a></em></figcaption>
+		</figure>
+		<p>Modern (i.e. super-expensive) camera lenses are designed to be so perfect that the imperfections that make a photo realistic are almost completely missing. Having close to perfect image quality does result in extreme ease of use, and the end results are consistently flawless. However, the image quality is so sterile and flat that I'm spending hours in post-production to get my images to look 3D again.</p>
+		<p>This is where old vintage optics come in to play. They're full of optical flaws which makes photos taken with them alive and animate. Vintage lenses are more difficult to operate: You need to focus every image one-by-one, they are prone to flaring in direct sunlight, they sometimes leave odd spots in the image, and the list goes on. However, the final photos are something that we can be a lot more proud of, because we're really worked for them. Shooting portraits with vintage lenses is about embracing these optical shortcomings and really enabling our creative juices to flow.</p>
+		<h2>How is a portrait photography session different with vintage lenses?</h2>
+		<p>Here's a few things to keep in mind, if you're willing to model for a shoot.</p>
+		<figure class="floating-photo floating-photo--left">
+			<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-05.webp" alt="Portézós Fotós Séták" width="750" height="500">
+			<figcaption class="floating-photo__caption"><em>Photo and edit by <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">Danos Nemeth</a></em></figcaption>
+		</figure>
+		<ul class="list">
+			<li><strong>Every image has to be manually focussed.</strong> My camera has several built-in helping features to assist me in finding the perfect focus, but it still takes time to make sure that the images are as sharp as possible. Because of this, you'll need to hold your mimics and poses for a little longer.</li>
+			<li><strong>Images are generally more static.</strong> Because of the manual focusing, we can't accurately capture moving scenes, so manual lenses aren't the go-to option to capture movement in photos.</li>
+			<li><strong>We'll need to consider flaring.</strong> Old lenses are highly prone to flaring, when shooting in direct sunlight. While we can use flares creatively, it can make photos unusable very quickly. Because of this, we might need to spend more time finding the best angles according to the sunlight.</li>
+		</ul>
+		<p>All in all, we could say that shooting with vintage lenses requires some more patience and some respect for older technologies, in order to create unique, soulful photos.</p>
 
-	<h2>Sample Images</h2>
-	<p>Here is a selection of some of my favorite vintage portrait photos. If you like the rendering of one of these optics, do let me know when enquiring for a shoot! If you'd like to watch a full set of vintage lens portraits, then definitely check out <a target="_blank" rel="noopener noreferrer" href="/en/portraiture/jazmin/">our Wonderland set with Jázmin</a> and our maiden shoot of the <a target="_blank" rel="noopener noreferrer" href="/en/portraiture/eperke/">Zeiss Sonnar 135mm with Eperke</a>.</p>
-	<div class="gallery gallery--single">
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-1.webp" alt="Photo of Jázmin taken with my Helios 44M-4 vintage lens">
-			<span class="polaroid__title"><strong>Jázmin</strong><br>Helios 44M-4 (58mm)</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-2.webp" alt="Photo of Bianka taken with my Carl Zeiss T* Sonnar 135mm f/3.5 MC vintage lens">
-			<span class="polaroid__title"><strong>Bianka</strong><br>CZJ T* Sonnar 135mm f/3.5 MC</span>
-		</span>
-		<span class="polaroid full">
-			<img class="polaroid__photo" src="/assets/images/vintage-5.webp" alt="Photo of Eszter taken with my Carl Zeiss Tessar 50mm f/2.8 vintage lens">
-			<span class="polaroid__title"><strong>Eszter</strong><br>CZJ Tessar 50mm f/2.8 "Zebra"</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-3.webp" alt="Photo of Kriszti taken with my Helios 44-2 vintage lens">
-			<span class="polaroid__title"><strong>Kriszti</strong><br>Helios 44-2 (58mm)</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-4.webp" alt="Photo of Eperke taken with my Carl Zeiss T* Sonnar 135mm f/3.5 MC vintage lens">
-			<span class="polaroid__title"><strong>Eperke</strong><br>CZJ T* Sonnar 135mm f/3.5 MC</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-6.webp" alt="Photo of Bianka taken with my Helios 44-2 vintage lens">
-			<span class="polaroid__title"><strong>Bianka</strong><br>Helios 44-2 (58mm)</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-7.webp" alt="Photo of Petra taken with my Helios 44-2 vintage lens">
-			<span class="polaroid__title"><strong>Petra</strong><br>Helios 44-2 (58mm)</span>
-		</span>
+		<h2>Sample Images</h2>
+		<p>Here is a selection of some of my favorite vintage portrait photos. If you like the rendering of one of these optics, do let me know when enquiring for a shoot! If you'd like to watch a full set of vintage lens portraits, then definitely check out <a target="_blank" rel="noopener noreferrer" href="/en/portraiture/jazmin/">our Wonderland set with Jázmin</a> and our maiden shoot of the <a target="_blank" rel="noopener noreferrer" href="/en/portraiture/eperke/">Zeiss Sonnar 135mm with Eperke</a>.</p>
+		<div class="gallery gallery--single">
+			<span class="polaroid">
+				<img class="polaroid__photo" src="/assets/images/vintage-1.webp" alt="Photo of Jázmin taken with my Helios 44M-4 vintage lens">
+				<span class="polaroid__title"><strong>Jázmin</strong><br>Helios 44M-4 (58mm)</span>
+			</span>
+			<span class="polaroid">
+				<img class="polaroid__photo" src="/assets/images/vintage-2.webp" alt="Photo of Bianka taken with my Carl Zeiss T* Sonnar 135mm f/3.5 MC vintage lens">
+				<span class="polaroid__title"><strong>Bianka</strong><br>CZJ T* Sonnar 135mm f/3.5 MC</span>
+			</span>
+			<span class="polaroid full">
+				<img class="polaroid__photo" src="/assets/images/vintage-5.webp" alt="Photo of Eszter taken with my Carl Zeiss Tessar 50mm f/2.8 vintage lens">
+				<span class="polaroid__title"><strong>Eszter</strong><br>CZJ Tessar 50mm f/2.8 "Zebra"</span>
+			</span>
+			<span class="polaroid">
+				<img class="polaroid__photo" src="/assets/images/vintage-3.webp" alt="Photo of Kriszti taken with my Helios 44-2 vintage lens">
+				<span class="polaroid__title"><strong>Kriszti</strong><br>Helios 44-2 (58mm)</span>
+			</span>
+			<span class="polaroid">
+				<img class="polaroid__photo" src="/assets/images/vintage-4.webp" alt="Photo of Eperke taken with my Carl Zeiss T* Sonnar 135mm f/3.5 MC vintage lens">
+				<span class="polaroid__title"><strong>Eperke</strong><br>CZJ T* Sonnar 135mm f/3.5 MC</span>
+			</span>
+			<span class="polaroid">
+				<img class="polaroid__photo" src="/assets/images/vintage-6.webp" alt="Photo of Bianka taken with my Helios 44-2 vintage lens">
+				<span class="polaroid__title"><strong>Bianka</strong><br>Helios 44-2 (58mm)</span>
+			</span>
+			<span class="polaroid">
+				<img class="polaroid__photo" src="/assets/images/vintage-7.webp" alt="Photo of Petra taken with my Helios 44-2 vintage lens">
+				<span class="polaroid__title"><strong>Petra</strong><br>Helios 44-2 (58mm)</span>
+			</span>
+		</div>
+
+		<h2 id="faq">Frequently Asked Questions, Vintage Edition</h2>
+		<p>The following questions are specifically applicable to vintage lens portrait shoots. if you haven't done so already, please read my <a href="/en/services/portrait-photo-walks/#faq">Portraiture FAQ</a> before continuing here.</p>
+
+		<div class="faqs"><details class="faq" id="what-are-vintage-lenses">
+					<summary class="faq__question">What lenses are considered vintage?</summary>
+					<div class="faq__answer">There's been a whole host of old lenses in used, not just in film cameras, but in x-ray machines as well! Any optic that can project an image, and can be adapted to modern camera bodies, will make it!</div>
+				</details><details class="faq" id="gear">
+					<summary class="faq__question">What vintage lenses do you own?</summary>
+					<div class="faq__answer">I currently own and frequently use the following lenses: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li><li>Super-Takumar 50mm f/1.4 (7 element)</li></ul></div>
+				</details><details class="faq" id="backup-lens">
+					<summary class="faq__question">Are you bringing a modern autofocus lens as well?</summary>
+					<div class="faq__answer">Yes, but only as a backup. In case the lens breaks, catches fire, or gets lost or swallowed by the Earth, then I'll have a proper AF lens with me, just in case.</div>
+				</details><details class="faq" id="additional-costs">
+					<summary class="faq__question">Are there any additional costs with a vintage lens shoot?</summary>
+					<div class="faq__answer">No. The same prices apply to vintage portrait shoots than to regular portrait shoots.</div>
+				</details></div>
+
+		<h2>Testimonials</h2>
+		<p>I don't have testimonials from vintage shoots, specifically, so let me show you what others said about my work, in general.</p>
+		<ul class="testimonials">
+			
+				<li class="testimonial">
+					<a class="testimonial__photo-link" href="/en/portraiture/saci/">
+						<img class="testimonial__photo" src="/assets/images/testimonial-saci.webp" alt="Sarolta U. fotója">
+					</a>
+					<blockquote class="testimonial__quote">
+						<p class="testimonial__text"></p>
+						<footer class="testimonial__footer">
+							<cite>&mdash; <a href="/en/portraiture/saci/">Sarolta U.</a></cite>
+						</footer>
+					</blockquote>
+				</li>
+			
+				<li class="testimonial">
+					<a class="testimonial__photo-link" href="/en/portraiture/jackeline-andre/">
+						<img class="testimonial__photo" src="/assets/images/testimonial-jackeline-andre.webp" alt="Jackie N. & André P. fotója">
+					</a>
+					<blockquote class="testimonial__quote">
+						<p class="testimonial__text">We found Roland on Instagram when I was searching for a photographer in Budapest to make our first photoshoot as a couple, and we loved his work since the beginning. His colours, the way that pictures were taken, seemed perfect for what we were looking for. We were quite shy at the beginning since it was our first time doing that, but Roland was super friendly, we talked and laughed a lot. At the end we felt very comfortable, and the results are unbelievable. Budapest has a huge meaning for us, and Roland helped to register this moment forever!</p>
+						<footer class="testimonial__footer">
+							<cite>&mdash; <a href="/en/portraiture/jackeline-andre/">Jackie N. & André P.</a></cite>
+						</footer>
+					</blockquote>
+				</li>
+			
+				<li class="testimonial">
+					<a class="testimonial__photo-link" href="/en/portraiture/nori-2/">
+						<img class="testimonial__photo" src="/assets/images/testimonial-nori.webp" alt="Nóri V. fotója">
+					</a>
+					<blockquote class="testimonial__quote">
+						<p class="testimonial__text">Honestly, I've never been the smiling type. Ever since I was a little kid, I felt uncomfortable in front of the camera. The situation only worsened when I'd hear the irritable 'Now smile already!' from the other end of the camera. Fortunately as years went on, the anxiety loosened slightly. But my biggest breakthrough was all thanks to Roland. On our very first photoshoot, he was able to break the ice with his human instructions. He made me feel very comfortable in front of the lens, and the photos he delivered were beautiful. I can't wait to go out with Roland once again to create something beautiful, featuring my hats!</p>
+						<footer class="testimonial__footer">
+							<cite>&mdash; <a href="/en/portraiture/nori-2/">Nóri V.</a></cite>
+						</footer>
+					</blockquote>
+				</li>
+			
+		</ul>
+
+		<h2>Sounds good?</h2>
+		<p>I can't wait for another time I can shoot with my collection of vintage lenses!</p>
+		<p><a class="button" href="/en/contact/">Let's go!</a></p>
 	</div>
-
-	<h2 id="faq">Frequently Asked Questions, Vintage Edition</h2>
-	<p>The following questions are specifically applicable to vintage lens portrait shoots. if you haven't done so already, please read my <a href="/en/services/portrait-photo-walks/#faq">Portraiture FAQ</a> before continuing here.</p>
-
-	<div class="faqs"><details class="faq" id="what-are-vintage-lenses">
-				<summary class="faq__question">What lenses are considered vintage?</summary>
-				<div class="faq__answer">There's been a whole host of old lenses in used, not just in film cameras, but in x-ray machines as well! Any optic that can project an image, and can be adapted to modern camera bodies, will make it!</div>
-			</details><details class="faq" id="gear">
-				<summary class="faq__question">What vintage lenses do you own?</summary>
-				<div class="faq__answer">I currently own and frequently use the following lenses: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li><li>Super-Takumar 50mm f/1.4 (7 element)</li></ul></div>
-			</details><details class="faq" id="backup-lens">
-				<summary class="faq__question">Are you bringing a modern autofocus lens as well?</summary>
-				<div class="faq__answer">Yes, but only as a backup. In case the lens breaks, catches fire, or gets lost or swallowed by the Earth, then I'll have a proper AF lens with me, just in case.</div>
-			</details><details class="faq" id="additional-costs">
-				<summary class="faq__question">Are there any additional costs with a vintage lens shoot?</summary>
-				<div class="faq__answer">No. The same prices apply to vintage portrait shoots than to regular portrait shoots.</div>
-			</details></div>
-
-	<h2>Testimonials</h2>
-	<p>I don't have testimonials from vintage shoots, specifically, so let me show you what others said about my work, in general.</p>
-	<ul class="testimonials">
-		
-			<li class="testimonial">
-				<a class="testimonial__photo-link" href="/en/portre/saci/">
-					<img class="testimonial__photo" src="/assets/images/testimonial-saci.webp" alt="Sarolta U. fotója">
-				</a>
-				<blockquote class="testimonial__quote">
-					<p class="testimonial__text"></p>
-					<footer class="testimonial__footer">
-						<cite>&mdash; <a href="/en/portre/saci/">Sarolta U.</a></cite>
-					</footer>
-				</blockquote>
-			</li>
-		
-			<li class="testimonial">
-				<a class="testimonial__photo-link" href="/en/portraiture/jackeline-andre/">
-					<img class="testimonial__photo" src="/assets/images/testimonial-jackeline-andre.webp" alt="Jackie N. & André P. fotója">
-				</a>
-				<blockquote class="testimonial__quote">
-					<p class="testimonial__text">We found Roland on Instagram when I was searching for a photographer in Budapest to make our first photoshoot as a couple, and we loved his work since the beginning. His colours, the way that pictures were taken, seemed perfect for what we were looking for. We were quite shy at the beginning since it was our first time doing that, but Roland was super friendly, we talked and laughed a lot. At the end we felt very comfortable, and the results are unbelievable. Budapest has a huge meaning for us, and Roland helped to register this moment forever!</p>
-					<footer class="testimonial__footer">
-						<cite>&mdash; <a href="/en/portraiture/jackeline-andre/">Jackie N. & André P.</a></cite>
-					</footer>
-				</blockquote>
-			</li>
-		
-			<li class="testimonial">
-				<a class="testimonial__photo-link" href="/en/portraiture/nori-2/">
-					<img class="testimonial__photo" src="/assets/images/testimonial-nori.webp" alt="Nóri V. fotója">
-				</a>
-				<blockquote class="testimonial__quote">
-					<p class="testimonial__text">Honestly, I've never been the smiling type. Ever since I was a little kid, I felt uncomfortable in front of the camera. The situation only worsened when I'd hear the irritable 'Now smile already!' from the other end of the camera. Fortunately as years went on, the anxiety loosened slightly. But my biggest breakthrough was all thanks to Roland. On our very first photoshoot, he was able to break the ice with his human instructions. He made me feel very comfortable in front of the lens, and the photos he delivered were beautiful. I can't wait to go out with Roland once again to create something beautiful, featuring my hats!</p>
-					<footer class="testimonial__footer">
-						<cite>&mdash; <a href="/en/portraiture/nori-2/">Nóri V.</a></cite>
-					</footer>
-				</blockquote>
-			</li>
-		
-	</ul>
-
-	<h2>Sounds good?</h2>
-	<p>I can't wait for another time I can shoot with my collection of vintage lenses!</p>
-	<p><a class="button" href="/en/contact/">Let's go!</a></p>
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 
