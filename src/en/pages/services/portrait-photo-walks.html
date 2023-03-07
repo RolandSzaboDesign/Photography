@@ -2,8 +2,8 @@
 layout: layouts/base.html
 title: Portrait Photography in Budapest
 permalink: "/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/"
-css: service
 translation: photo-walks
+css: photo-walks
 ---
 
 <main class="main">
@@ -122,19 +122,8 @@ translation: photo-walks
 		<div class="container">
 			<h2>Testimonials</h2>
 			<ul class="testimonials">
-				{% for i in (1..3) %}
-					<li class="testimonial">
-						<a class="testimonial__photo-link" href="{{ testimonials.items[i][locale].link }}">
-							<img class="testimonial__photo" src="{{ testimonials.items[i].photo }}" alt="Testimonial photo of {{ testimonials.items[i][locale].name }}">
-						</a>
-						<blockquote class="testimonial__quote">
-							<p class="testimonial__text">{{ testimonials.items[i][locale].text }}</p>
-							<footer class="testimonial__footer">
-								<cite>&mdash; <a href="{{ testimonials.items[i][locale].link }}">{{ testimonials.items[i][locale].name }}</a></cite>
-							</footer>
-						</blockquote>
-					</li>
-				{% endfor %}
+				{% include "partials/testimonial.html", id: 1 %}
+				{% include "partials/testimonial.html", id: 2 %}
 			</ul>
 		</div>
 	</section>

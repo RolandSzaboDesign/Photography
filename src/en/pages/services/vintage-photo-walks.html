@@ -2,8 +2,8 @@
 layout: layouts/base.html
 title: Portrait Photography with Vintage Lenses in Budapest
 permalink: "/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesVintagePortraiture }}/"
-css: service
 translation: vintage-photo-walks
+css: photo-walks
 ---
 
 <main class="main">
@@ -97,21 +97,9 @@ translation: vintage-photo-walks
 	<section class="section section--grey section--border">
 		<div class="container">
 			<h2>Testimonials</h2>
-			<p>I don't have testimonials from vintage shoots, specifically, so let me show you what others said about my work, in general.</p>
 			<ul class="testimonials">
-				{% for i in (4..6) %}
-					<li class="testimonial">
-						<a class="testimonial__photo-link" href="{{ testimonials.items[i][locale].link }}">
-							<img class="testimonial__photo" src="{{ testimonials.items[i].photo }}" alt="{{ testimonials.items[i][locale].name }} fotója">
-						</a>
-						<blockquote class="testimonial__quote">
-							<p class="testimonial__text">{{ testimonials.items[i][locale].text }}</p>
-							<footer class="testimonial__footer">
-								<cite>&mdash; <a href="{{ testimonials.items[i][locale].link }}">{{ testimonials.items[i][locale].name }}</a></cite>
-							</footer>
-						</blockquote>
-					</li>
-				{% endfor %}
+				{% include "partials/testimonial.html", id: 1 %}
+				{% include "partials/testimonial.html", id: 2 %}
 			</ul>
 		</div>
 	</section>

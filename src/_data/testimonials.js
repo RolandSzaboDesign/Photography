@@ -4,7 +4,7 @@ module.exports = {
 			photo: "/assets/images/testimonial-reka.webp",
 			hu: {
 				name: "T. Réka",
-				text: "Rolanddal először a karácsonyi vásárban vettem részt fotózáson, ami gyorsan egy rendkívül jó hangulatú baráti beszélgetéssé alakult. Szinte azonnal meg tudtam nyílni, hiszen csupán a lényével is egy rendívül biztonságos és kellemes légkört teremtett már az első pillanattól kezdve. Minden gátlásomat elengedve tudtam a kamerába mosolyogni, ami előtte nem volt jellemző rám, de Rolandnak hála, ezt az oldalamat is meg tudtam ismerni. Azóta kétszer volt alkalmam közös fotózáson részt venni vele, amik szintén nagyon flottul mentek, a kézhez kapott képeim után pedig a rég elveszett önbizalmam is elkezdett visszatérni, Rolandnak hála!",
+				text: "Rolanddal először a karácsonyi vásárban vettem részt fotózáson, ami gyorsan egy rendkívül jó hangulatú baráti beszélgetéssé alakult. Szinte azonnal meg tudtam nyílni, hiszen csupán a lényével is egy rendkívül biztonságos és kellemes légkört teremtett már az első pillanattól kezdve. Minden gátlásomat elengedve tudtam a kamerába mosolyogni, ami előtte nem volt jellemző rám, de Rolandnak hála, ezt az oldalamat is meg tudtam ismerni. Azóta kétszer volt alkalmam közös fotózáson részt venni vele, amik szintén nagyon flottul mentek, a kézhez kapott képeim után pedig a rég elveszett önbizalmam is elkezdett visszatérni, Rolandnak hála!",
 				link: "/hu/portre/reka-borbala-2/",
 			},
 			en: {
@@ -139,7 +139,7 @@ module.exports = {
 			},
 			en: {
 				name: "Cinti M.",
-				text: "The photo shoot with Roland was very direct from the first minute. It was my first photoshoot, so it helped me a lot to settle in quickly. With no regrets for his time and patience, the pictures with varied themes were completed. He helped me a lot with the right poses and always listened to my ideas... and the end result was great!",
+				text: "The photo shoot with Roland was very direct from the first minute. It was my first photoshoot, so it helped me a lot to relax. He put in his best effort to create a diverse range of photos that I was very happy with. He helped me a lot with the right poses and always listened to my ideas... and the end results turned out stunning!",
 				link: "/en/portraiture/cinti/",
 			},
 		},
@@ -152,7 +152,7 @@ module.exports = {
 			},
 			en: {
 				name: "Dóri E.",
-				text: "You know that feeling that you can't take a good picture of yourself? With this sentence, I set off to take photos with Roland, who then proved me wrong with his endless patience, superb vision and creativity. After the photo shoot I got so many great photos to choose from that it was actually difficult to select my most favorite ones. In addition to the beautiful pictures, you also get an extremely good-natured and funny photographer to work with.",
+				text: "You know that feeling that you can't take a good picture of yourself? I set off with this exact sentence in mind for my photo shoot with Roland, who then proved me wrong with his endless patience, superb vision and creativity. After the photo shoot I got so many great photos to choose from that it was actually difficult to select my most favorite ones. In addition to the beautiful pictures, you also get an extremely good-natured and funny photographer to work with.",
 				link: "/en/portraiture/dori/",
 			},
 		},

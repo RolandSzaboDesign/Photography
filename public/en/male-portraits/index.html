@@ -27,7 +27,7 @@
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
-		<link rel="stylesheet" href="/assets/css/gallery.css">
+		<link rel="stylesheet" href="/assets/css/lightbox.css">
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -134,7 +134,7 @@
 		 	/assets/images/portraiture/tim/03_350.webp 350w,
 		 	/assets/images/portraiture/tim/03_200.webp 200w
 		 "
-		sizes="(min-width: 1500px) 1400px, calc(100vw - 40px)"
+		 sizes="(min-width: 1500px) 1400px, calc(100vw - 40px)"
 		 src="/assets/images/portraiture/tim/03_200.webp"
 		 data-src="/assets/images/portraiture/tim/03_1400.webp"
 		 alt="Portfolio image of Roland Szabó Photography"
@@ -186,7 +186,7 @@
 		 	/assets/images/portraiture/andor/03_350.webp 350w,
 		 	/assets/images/portraiture/andor/03_200.webp 200w
 		 "
-		sizes="(min-width: 1500px) 1400px, calc(100vw - 40px)"
+		 sizes="(min-width: 1500px) 1400px, calc(100vw - 40px)"
 		 src="/assets/images/portraiture/andor/03_200.webp"
 		 data-src="/assets/images/portraiture/andor/03_1400.webp"
 		 alt="Portfolio image of Roland Szabó Photography"
@@ -214,22 +214,44 @@
 
 		</div>
 		<div class="cta">
+	<blockquote class="testimonial">
+	<div class="testimonial__content">
+		<p class="testimonial__text">I took part in a photo shoot with Roland for the first time at the Christmas market, which quickly turned into a friendly conversation with an extremely good atmosphere. I was able to open up almost immediately, as he created an extremely safe and pleasant atmosphere from the very first moment. Letting go of all my inhibitions, I was able to smile at the camera, which was not characteristic of me before, but thanks to Roland, I was able to get to know this side of myself as well. Since then, I had the opportunity to take part in a joint photo shoot with him twice, both of which also went very smoothly, and after the pictures I received, my long-lost self-confidence started to return, thanks to Roland!</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author-link" href="/en/portraiture/reka-borbala-2/">Réka T.</a>
+		</cite>
+	</div>
+	<a class="testimonial__photo-link" href="/en/portraiture/reka-borbala-2/">
+		<img class="testimonial__photo" src="/assets/images/testimonial-reka.webp" alt="Réka T.">
+	</a>
+</blockquote>
+
 	<div class="cta__content">
 		<h2 class="cta__title">Would you like similar, amazing photos?</h2>
 		<p class="cta__text">I can make beautiful photos of you on our laid-back photo walk. Learn more to see how easy it is!</p>
 		<a class="button" href="/en/services/portrait-photo-walks/">Let's see the details</a>
 	</div>
-	<blockquote class="cta__quote">
-		<p class="cta__quote-text">I took part in a photo shoot with Roland for the first time at the Christmas market, which quickly turned into a friendly conversation with an extremely good atmosphere. I was able to open up almost immediately, as he created an extremely safe and pleasant atmosphere from the very first moment. Letting go of all my inhibitions, I was able to smile at the camera, which was not characteristic of me before, but thanks to Roland, I was able to get to know this side of myself as well. Since then, I had the opportunity to take part in a joint photo shoot with him twice, both of which also went very smoothly, and after the pictures I received, my long-lost self-confidence started to return, thanks to Roland!</p>
-		<cite class="cta__quote-cite">
-			<img class="cta__quote-image" src="/assets/images/testimonial-reka.webp" alt="Réka T. fotója" width="64" height="64">
-			<a href="/en/portraiture/reka-borbala-2/">Réka T.</a>
-		</cite>
-	</blockquote>
 </div>
 
 	</div>
 </main>
+
+<aside class="lightbox">
+	<div class="lightbox__container">
+		<figure class="lightbox__figure">
+			<img class="lightbox__image" src="" alt="">
+			<!-- <figcaption class="lightbox__caption"></figcaption> -->
+		</figure>
+		<nav class="lightbox__nav">
+			<a class="lightbox__arrow" id="left" href="#" title="Previous Photo">◀</a>
+			<a class="lightbox__arrow" id="right" href="#" title="Next Photo">▶</a>
+		</nav>
+	</div>
+	<a class="lightbox__close" href="#" title="Close">&times;</a>
+</aside>
+
+<script src="/assets/js/lightbox.js" defer></script>
+
 
 		<footer class="footer">
 	<div class="footer__container container">

@@ -52,34 +52,37 @@ css: home
 	</section>
 
 	<section class="section">
-		<dl class="stats container">
-			<div class="stat">
-				<dt class="stat__key">{{ site[locale].homepageStatsKey1 }}</dt>
-				<dd class="stat__value">168</dd>
-			</div>
-			<div class="stat">
-				<dt class="stat__key">{{ site[locale].homepageStatsKey2 }}</dt>
-				<dd class="stat__value">92</dd>
-			</div>
-			<div class="stat">
-				<dt class="stat__key">{{ site[locale].homepageStatsKey3 }}</dt>
-				<dd class="stat__value"><span title="Végtelen">∞</span></dd>
-			</div>
-		</dl>
-	</section>
-
-	<section class="section">
 		<div class="container">
-			<li class="testimonial">
-				<a class="testimonial__photo-link" href="{{ testimonials.items[0][locale].link }}">
-					<img class="testimonial__photo" src="{{ testimonials.items[0].photo }}" alt="{{ testimonials.items[0][locale].name }} fotója">
-				</a>
-				<blockquote class="testimonial__quote">
+			<blockquote class="testimonial">
+				<div class="testimonial__content">
 					<p class="testimonial__text">{{ testimonials.items[0][locale].text }}</p>
-					<footer class="testimonial__footer">
-						<cite>&mdash; <a href="{{ testimonials.items[0][locale].link }}">{{ testimonials.items[0][locale].name }}</a></cite>
-					</footer>
-				</blockquote>
-			</li>
+					<cite class="testimonial__cite">
+						<a class="testimonial__author-link" href="{{ testimonials.items[0][locale].link }}">{{ testimonials.items[0][locale].name }}</a>
+					</cite>
+				</div>
+				<a class="testimonial__photo-link" href="{{ testimonials.items[0][locale].link }}">
+					<img class="testimonial__photo" src="{{ testimonials.items[0].photo }}" alt="{{ testimonials.items[0][locale].name }}">
+				</a>
+			</blockquote>
+
+			<dl class="stats">
+				<div class="stat">
+					<dt class="stat__key">{{ site[locale].homepageStatsKey1 }}</dt>
+					<dd class="stat__value">168</dd>
+				</div>
+				<div class="stat">
+					<dt class="stat__key">{{ site[locale].homepageStatsKey2 }}</dt>
+					<dd class="stat__value">92</dd>
+				</div>
+				<div class="stat">
+					<dt class="stat__key">{{ site[locale].homepageStatsKey3 }}</dt>
+					<dd class="stat__value"><span title="Végtelen">∞</span></dd>
+				</div>
+			</dl>
+
+			<div class="home__cta">
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+			</div>
+		</div>
 	</section>
 </main>

@@ -20,9 +20,9 @@ layout: layouts/base.html
 		<div class="gallery gallery--single">
 			{{ content }}
 		</div>
-		{% assign day   = date | date: "%d" %}
+		{% assign day = date | date: "%d" %}
 		{% assign month = date | date: "%m" %}
-		{% assign year  = date | date: "%y" %}
+		{% assign year = date | date: "%y" %}
 		{% assign random = day | times: month | times: year | minus: translation.length | modulo: testimonials.items.length %}
 		{% include "partials/cta.html", id: random %}
 	</div>
