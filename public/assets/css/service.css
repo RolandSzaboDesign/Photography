@@ -38,11 +38,19 @@
 }
 
 .how-it-works {
+	margin-top: 2rem;
 	counter-reset: item;
 }
 
 .how-it-works__item + .how-it-works__item {
 	margin-top: 2rem;
+	padding-top: 2rem;
+	border-top: 1px solid var(--bg-dark);
+}
+
+.how-it-works__title {
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 .how-it-works__title:before {
@@ -185,6 +193,6 @@
 	}
 
 	.vintage-promo {
-		grid-template-columns: 700px 1fr;
+		grid-template-columns: 350px 1fr;
 	}
 }

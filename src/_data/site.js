@@ -61,6 +61,9 @@ module.exports = {
 		"homepageFemalePortraits": "Female Portraits",
 		"homepageMalePortraits": "Male Portraits",
 		"homepageCouplePortraits": "Couple/Family Portraits",
+		"homepageStatsKey1": "Organized Portrait Photo Shoots",
+		"homepageStatsKey2": "Returning Customers",
+		"homepageStatsKey3": "Sincere Smiles",
 
 		"calendarPromoTitle": "2023 Photo Calendar",
 		"calendarPromoIntro": "My 2023 photo calendar is ready for the taking in two pricing packages! The perfect Christmas gift, and a great way to support my work.",
@@ -111,7 +114,7 @@ module.exports = {
 		"navServicesSocialContent": "Közösségi Tartalomgyártás",
 		"navServicesAutomotive": "Új- és Használtautó Fotózás",
 		"navPhotoWalks": "Fotózzunk!",
-		"navPortraitWorks": "Portré Munkáim",
+		"navPortraitWorks": "Munkáim",
 		"navContact": "Kapcsolat",
 		"navGear": "Felszerelés",
 		"navBackToGalleries": "Vissza a Gelériákhoz",
@@ -139,6 +142,9 @@ module.exports = {
 		"homepageFemalePortraits": "Női Portrék",
 		"homepageMalePortraits": "Férfi Portrék",
 		"homepageCouplePortraits": "Páros/Családi Portrék",
+		"homepageStatsKey1": "Szervezett Portré Fotózás",
+		"homepageStatsKey2": "Visszatérő Vendég",
+		"homepageStatsKey3": "Önfeledt Mosoly",
 
 		"calendarPromoTitle": "2023 Fotó Naptár",
 		"calendarPromoIntro": "A 2023 évi fotó naptáram rendelhető, két árazási csomagban! A tökéletes Karácsonyi ajándék, és egy nagyszerű módja annak, hogy támogasd a munkámat.",

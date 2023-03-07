@@ -5,7 +5,7 @@ css: home
 ---
 
 <main class="main home">
-	<section class="home-hero section section--border">
+	<section class="section section--top section--border">
 		<div class="container">
 			<header class="page-header">
 				<h1 class="home__title">{{ site[locale].homepageMainTitle }}</h1>
@@ -39,12 +39,7 @@ css: home
 	<section class="section section--white section--border">
 		<div class="home-about container">
 			<div>
-				<h2 class="home__title mt-0">Hiszem, hogy mindenkiről lehet jó képet csinálni.</h2>
-				<p>Szia! Roland vagyok, 2 éve fotózom profi felszereléssel, és elkötelezetten dolgozom azért, hogy megszerettessem az emberekkel a portré fotózást.</p>
-				<p>Számtalan vendégemtől elhangzott már, hogy vonakodik a portré fotózástól, mert nem gondolja magát fotogénnek, vagy nem tudja, hogy mit kell a kamera előtt csinálni.</p>
-				<p>Nincs annál elismerőbb érzés, amikor ugyanezek a vendégek meglátják az első képet a fényképezőgépben, amit róluk készítek, és látom, ahogyan az összegyűlt teher egy pillanat alatt elillan, és óriási meglepetésben törnek mosolyra. Ezek után be sem kell mutassam, hogy milyen laza és oldott hangulatban megy tovább a fotózás.</p>
-				<p>Fotós sétáim során empatetikus személyiségemmel, és diverz humorommal garantálom, hogy nagyon jól fogod érezni Magad!</p>
-				<p>Ha Te sem szeretsz fotózkodni, mert ugyanettől félsz, akkor kiváló helyen vagy! Én készen állok. És Te?</p>
+				{{ content }}
 				<div class="home__cta">
 					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
 				</div>
@@ -59,17 +54,32 @@ css: home
 	<section class="section">
 		<dl class="stats container">
 			<div class="stat">
-				<dt class="stat__key">Szervezett Portréfotózás</dt>
+				<dt class="stat__key">{{ site[locale].homepageStatsKey1 }}</dt>
 				<dd class="stat__value">168</dd>
 			</div>
 			<div class="stat">
-				<dt class="stat__key">Visszatérő Ügyfél</dt>
+				<dt class="stat__key">{{ site[locale].homepageStatsKey2 }}</dt>
 				<dd class="stat__value">92</dd>
 			</div>
 			<div class="stat">
-				<dt class="stat__key">Önfeledt Mosoly</dt>
+				<dt class="stat__key">{{ site[locale].homepageStatsKey3 }}</dt>
 				<dd class="stat__value"><span title="Végtelen">∞</span></dd>
 			</div>
 		</dl>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<li class="testimonial">
+				<a class="testimonial__photo-link" href="{{ testimonials.items[0][locale].link }}">
+					<img class="testimonial__photo" src="{{ testimonials.items[0].photo }}" alt="{{ testimonials.items[0][locale].name }} fotója">
+				</a>
+				<blockquote class="testimonial__quote">
+					<p class="testimonial__text">{{ testimonials.items[0][locale].text }}</p>
+					<footer class="testimonial__footer">
+						<cite>&mdash; <a href="{{ testimonials.items[0][locale].link }}">{{ testimonials.items[0][locale].name }}</a></cite>
+					</footer>
+				</blockquote>
+			</li>
 	</section>
 </main>

@@ -99,8 +99,16 @@ img {
 	padding-bottom: 2rem;
 }
 
+.section--top {
+	padding-top: 0;
+}
+
 .section--white {
 	background-color: #FFF;
+}
+
+.section--grey {
+	background-color: var(--bg-medium);
 }
 
 .section--border {
@@ -114,6 +122,12 @@ img {
 .hidden {
 	opacity: 0;
 	pointer-events: none;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
 }
 
 
@@ -300,7 +314,7 @@ hr {
 	color: var(--text);
 	text-align: center;
 	text-decoration: none;
-	border-bottom: 0;
+	border-bottom-color: var(--bg-dark);
 	transition: var(--transition-duration) color, var(--transition-duration) background-color;
 }
 
@@ -734,6 +748,10 @@ hr {
 		padding-bottom: 3rem;
 	}
 
+	.section--top {
+		padding-top: 0;
+	}
+
 	p, li, details {
 		font-size: 1.125rem;
 	}
@@ -784,6 +802,7 @@ hr {
 
 	.nav__link {
 		text-align: left;
+		border-bottom: 0;
 	}
 
 	.nav__link--button {
@@ -884,6 +903,10 @@ hr {
 	.section {
 		padding-top: 4rem;
 		padding-bottom: 4rem;
+	}
+
+	.section--top {
+		padding-top: 0;
 	}
 
 	h2, .h2 {
@@ -1019,8 +1042,6 @@ hr {
 		display: none;
 		grid-column: 1 / 4;
 		margin-top: .5rem;
-		border-radius: .5rem;
-		box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.25);
 	}
 
 	.nav__dropdown {
@@ -1028,9 +1049,6 @@ hr {
 	}
 
 	.nav__list > .nav__item {
-		margin-top: .5rem;
-		margin-bottom: .5rem;
-		border: 1px solid var(--bg-medium);
 		background-color: #FFF;
 	}
 
