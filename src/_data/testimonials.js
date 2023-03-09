@@ -1,6 +1,32 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-eszter.webp",
+			hu: {
+				name: "B. Eszter",
+				text: "Én mindig is izgulós típus voltam, ez a fotózás előtt sem volt másképp. Sosem voltam még fotózáson, nem tudtam, milyen lesz a közös munka, hogy hogyan kéne beállnom a képekhez, vagy hogy mennyire fogom tudni elengedni magam. De ez az izgulás az első percek után elmúlt. Nagyok jól esett, hogy beszélgetünk előtte, kicsit ráhangolódtunk fotózásra és közösen találtuk meg a legjobb helyeket. Nagyon jól esett a sok biztatás és dicséret, illetve Roland viccei is jók voltak, ami sokat segített, hogy őszintén tudjak mosolyogni! Ilyen sok jó kép sosem készült még rólam, és alig vártam, hogy megkapjam őket. Összeségében én nagyon élveztem a fotozást Rolanddal, tökéletes első alkalom volt, és remélem lesz lehetőségem még hasonlókhoz!",
+				link: "/hu/portre/eszter-4/",
+			},
+			en: {
+				name: "Eszter B.",
+				text: "I have always been the anxious type, and this was no different before the photo shoot with Roland. I had never been on a photo shoot before, I didn't know what the joint work would be like, how I should pose for the pictures, or how much I would be able to let myself go. But this excitement passed after the first few minutes. It was great to talk for a few minutes before we got into the shoot, so I could settle in for the occasion better. I felt very comfortable by Roland's encouragements along the way, and his jokes were also good, which helped me a lot to be able to smile honestly! I've never had so many good pictures taken of me before, and I couldn't wait to get them. All in all, I really enjoyed the photo shoot, it was a perfect first time experience, and I hope I will have the opportunity to do more like this!",
+				link: "/en/portraiture/eszter-4/",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-gabcsi.webp",
+			hu: {
+				name: "V. Gabcsi",
+				text: "A fotózás előtt kissé féltem, hogy jól fognak-e sikerülni a fotók, mivel nincs modellkedésben sok tapasztalatom és eddig csak ismerősök és barátok fotóztak. Kimozdultam a komfort zónámból ezen az alkalmon, ugyanakkor maga a stílus (vintage, retro) nagyon is közel állt hozzám, így mégis otthonosnak éreztem fotózást. Talán ez volt az első alkalom, amikor a leghamarabb feloldódtam fotózás során. Örültem, hogy kíváncsi volt Roli a véleményemre, megmutatta a fotókat, érdekelte, hogy van-e bármilyen elképzelésem, akár helyszínnel kapcsolatban, akár pózokról legyen szó. Tetszett, hogy együtt dolgoztunk azon, hogy minőségi és csodálatos képek szülessenek, és nem éreztem azt, hogy egyedül kéne megbírkóznom a feladattal. Összességében elmondhatom, hogy Roli nagyon minőségi és kreatív munkát végez a fotózás és az utómunka során!",
+				link: "/hu/portre/gabcsi/",
+			},
+			en: {
+				name: "Gabcsi V.",
+				text: "Before the photo shoot, I was a little afraid of whether the photos would turn out well, since I don't have much experience in modeling and so far only friends and acquaintances have taken photos of me. I moved out of my comfort zone on this occasion, but at the same time the style itself (vintage, retro) was very close to me, so I still felt comfortable taking photos. This was perhaps the first time I had the earliest time to dissolve during a photo shoot. I was glad that Roli was interested in my opinion, he showed me the photos, he was interested in whether I had any ideas about the location or posing. I liked that we worked together to create these wonderful images, and I didn't feel like I had to cope with the task alone. Overall, I can say that Roli does a very high-quality and creative job during the photography and post-production!",
+				link: "/en/portraiture/gabcsi/",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-reka.webp",
 			hu: {
 				name: "T. Réka",
