@@ -1,52 +1,18 @@
+.home-about {
+	display: grid;
+	grid-gap: 2rem;
+}
+
+.home__cta {
+	margin-top: 2rem;
+	text-align: center;
+}
+
 .home__title {
-	margin-bottom: 1rem;
 	font-family: var(--serif);
 	font-size: 1.625rem;
 	color: var(--text-dark);
 	letter-spacing: -.0625rem;
-}
-
-.home__subtitle {
-	grid-column: 1 / -1;
-	margin-top: 0;
-	margin-bottom: 1rem;
-	padding-bottom: .5rem;
-	font-family: var(--sans);
-	font-size: 1rem;
-	color: var(--text);
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: -.025rem;
-	border-bottom: 1px solid var(--bg-dark);
-}
-
-.home__grid {
-	display: grid;
-	grid-gap: 0 1rem;
-}
-
-.masonry {
-	display: grid;
-	grid-gap: 1rem;
-}
-
-.brick {
-	transition: var(--transition-duration) opacity;
-}
-
-.brick:hover,
-.brick:focus {
-	opacity: .8;
-	cursor: pointer;
-}
-
-.brick--landscape {
-	grid-column: 1 / -1;
-}
-
-.home-bottom {
-	margin-top: 2rem;
-	text-align: center;
 }
 
 .home__link {
@@ -57,99 +23,91 @@
 	border-bottom: 0;
 }
 
-.lightbox {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	opacity: 0;
-	z-index: 98;
-	pointer-events: none;
+.home-nav__list {
 	display: grid;
-	align-items: center;
+	grid-gap: 1rem;
+	min-height: calc(100vh - 13rem);
+	margin-bottom: 0;
+}
+
+.home-nav__item {
+	overflow: hidden;
+	margin-bottom: 0;
+	border-radius: 1rem;
+}
+
+.home-nav__link {
+	transform: scale(1.02);
+	display: flex;
+	align-items: flex-end;
 	justify-content: center;
-	background-color: rgba(0,0,0,.75);
+	text-align: center;
+	height: 100%;
+	border: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: var(--transition-duration) opacity, var(--transition-duration) transform;
 }
 
-.lightbox.active {
-	opacity: 1;
-	pointer-events: all;
+.home-nav__link--female { background-image: url('/assets/images/portraiture/reka-borbala-2/02_700.webp'); }
+.home-nav__link--male   { background-image: url('/assets/images/portraiture/abdallah/01_700.webp'); }
+.home-nav__link--couple { background-image: url('/assets/images/portraiture/jazmin-beni/01_700.webp'); }
+
+.stats {
+	display: grid;
+	grid-gap: 1rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	border-top: 1px solid var(--bg-dark);
+	border-bottom: 1px solid var(--bg-dark);
 }
 
-.lightbox__container {
-	max-height: 100vh;
+.stat {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	padding: 1rem;
-}
-
-.lightbox__figure {
-	position: relative;
-	display: flex;
-}
-
-.lightbox__image {
-	object-fit: cover;
-	max-height: 98vh;
-	padding: 1rem;
-	background-color: #FFF;
-}
-
-.lightbox__arrow {
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
-	padding: 5rem 1.75rem;
-	font-size: 1.5rem;
-	color: #FFF;
 	line-height: 1;
-	border-bottom: 0;
 }
 
-.lightbox__arrow:hover,
-.lightbox__arrow:focus {
-	color: var(--highlight);
-}
-
-#left  { left: 1rem; }
-#right { right: 1rem; }
-
-.lightbox__more {
-	padding: .5rem 1rem;
-	margin-top: .75rem;
-}
-
-.lightbox__close {
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-	width: 3rem;
-	height: 3rem;
-	font-weight: 700;
-	font-size: 3rem;
+.stat__value {
+	order: -1;
+	display: block;
+	margin-bottom: 1rem;
+	font-family: var(--serif);
+	font-size: 4rem;
 	color: var(--text-dark);
-	line-height: 1;
-	text-align: center;
-	border-bottom: 0;
-	border-radius: 100%;
-	background-color: #FFF;
-	transition: var(--transition-duration) color, var(--transition-duration) transform;
-
+	letter-spacing: -4px;
 }
 
-.lightbox__close:hover,
-.lightbox__close:focus {
-	color: var(--highlight);
-	transform: rotate(90deg);
+@media only screen and (min-width: 768px) {
+	.home-nav__link--female { background-image: url('/assets/images/portraiture/reka-borbala-2/07_700.webp'); }
+	.home-nav__link--male { background-image: url('/assets/images/portraiture/abdallah/06_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/jazmin-beni/03_700.webp'); }
 }
 
-@media only screen and (min-width: 480px) {
-	.masonry {
-		grid-template-columns: repeat(2, 1fr);
-	}
+.home-nav__link-text {
+	display: inline-block;
+	margin-bottom: 1rem;
+	padding: .5rem 1.25rem;
+	font-size: 1rem;
+	color: #FFF;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,.5);
+	transition: var(--transition-duration) background-color;
+}
+
+.home-nav__link:hover,
+.home-nav__link:focus {
+	transform: scale(1.0);
+}
+
+.home-nav__link:hover .home-nav__link-text,
+.home-nav__link:focus .home-nav__link-text {
+	background-color: rgba(0,0,0,.75);
 }
 
 @media only screen and (min-width: 576px) {
@@ -161,10 +119,6 @@
 		display: inline-block;
 		margin: 0 0 0 1rem;
 	}
-
-	.lightbox__arrow {
-		font-size: 2rem;
-	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -174,9 +128,28 @@
 		letter-spacing: -.1rem;
 	}
 
-	.home__subtitle {
-		font-size: 1.125rem;
+	.home-nav__list {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.home-nav__link {
+		justify-content: center;
+		border-radius: 1rem;
+	}
+
+	.home-nav__link-text {
+		margin-bottom: 1rem;
+		font-size: 1.25rem;
 		letter-spacing: -.025rem;
+	}
+
+	.home-about {
+		grid-template-columns: 2fr 1fr;
+		align-items: center;
+	}
+
+	.stats {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
@@ -185,19 +158,5 @@
 		margin-bottom: 1.5rem;
 		font-size: 2.5rem;
 		letter-spacing: -.1rem;
-	}
-
-	.home__grid {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.masonry {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media only screen and (max-width: 991px) {
-	.home__grid section + section {
-		margin-top: 3rem;
 	}
 }

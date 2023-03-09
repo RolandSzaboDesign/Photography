@@ -1,54 +1,42 @@
 <header class="header">
-	<a class="logo" href="/{{ locale }}/" title="Back to the Homepage">
-		<strong class="logo__name">{{ site[locale].headerName }}</strong>
-		<span class="logo__tagline">{{ site[locale].headerDescription }}</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-			{%- for lang in site.languages -%}
-				{%- assign translated = "/" | append: lang.code | append: "/" -%}
-				{%- for item in collections.all -%}
-					{%- if item.data.translation == translation and item.data.locale == lang.code -%}
-						{%- assign translated = item.url -%}
-					{%- endif -%}
+	<div class="header__container container">
+		<a class="logo" href="/{{ locale }}/" title="Back to the Homepage">
+			<strong class="logo__name">{{ site[locale].headerName }}</strong>
+			<span class="logo__tagline">{{ site[locale].headerDescription }}</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+				{%- for lang in site.languages -%}
+					{%- assign translated = "/" | append: lang.code | append: "/" -%}
+					{%- for item in collections.all -%}
+						{%- if item.data.translation == translation and item.data.locale == lang.code -%}
+							{%- assign translated = item.url -%}
+						{%- endif -%}
+					{%- endfor %}
+					<li class="lang__item">
+						<a class="lang__link{% if lang.code == locale %} lang__link--active{% endif %}" href="{{ translated }}">
+							<img class="lang__flag" src="/assets/images/flag-{{ lang.code }}.svg" alt="{{ lang.label }}" title="{{ lang.label }}" width="32" height="24">
+						</a>
+					</li>
 				{%- endfor %}
-				<li class="lang__item">
-					<a class="lang__link{% if lang.code == locale %} lang__link--active{% endif %}" href="{{ translated }}">
-						<img class="lang__flag" src="/assets/images/flag-{{ lang.code }}.svg" alt="{{ lang.label }}" title="{{ lang.label }}" width="32" height="24">
-					</a>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].navAbout }}</a>
 				</li>
-			{%- endfor %}
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].navAbout }}</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].navGalleries }}</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">{{ site[locale].navGalleriesPortraiture }}</a></li>
-					<li class="nav__item"><a class="nav__link" href="/{{ locale }}/{{ site[locale].slugGalleriesSocialContent }}/">{{ site[locale].navGalleriesSocialContent }}</a></li>
-					<li class="nav__item"><a class="nav__link" href="/{{ locale }}/{{ site[locale].slugGalleriesAutomotive }}/">{{ site[locale].navGalleriesAutomotive }}</a></li>
-				</ul>
-			</li>
-			<!-- <li class="nav__item">
-				<a class="nav__link" href="/{{ site[locale].slugServices }}/">{{ site[locale].navServices }}</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].navServicesPortraiture }}</a></li>
-					<li class="nav__item"><a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesSocialContent }}/">{{ site[locale].navServicesSocialContent }}</a></li>
-					<li class="nav__item"><a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesAutomotive }}/">{{ site[locale].navServicesAutomotive }}</a></li>
-				</ul>
-			</li> -->
-			<li class="nav__item">
-				<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ site[locale].navContact }}</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].navPhotoWalks }}</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">{{ site[locale].navPortraitWorks }}</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ site[locale].navContact }}</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].navPhotoWalks }}</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>

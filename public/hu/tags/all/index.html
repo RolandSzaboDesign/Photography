@@ -5,7 +5,7 @@
 		<title>Címkék | Szabó Roland | Budapesti Portré Fotós</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta name="description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -22,7 +22,7 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/hu/tags/all/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 		<meta property="og:title" content="Címkék | Szabó Roland | Budapesti Portré Fotós">
 
 		<!-- Styles -->
@@ -37,309 +37,214 @@
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
 		<script defer src="/assets/js/analytics.js"></script>
 	</head>
+
 	<body>
 		<header class="header">
-	<a class="logo" href="/hu/" title="Back to the Homepage">
-		<strong class="logo__name">Szabó Roland</strong>
-		<span class="logo__tagline">Budapesti Portré Fotós</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link" href="/en/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/hu/" title="Back to the Homepage">
+			<strong class="logo__name">Szabó Roland</strong>
+			<span class="logo__tagline">Budapesti Portré Fotós</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link" href="/en/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/hu/tags/all/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/rolam/">Rólam</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/hu/tags/all/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/portre/">Munkáim</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/rolam/">Rólam</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/galeriak/">Galériák</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/portre/">Portré</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/kozossegi-tartalom/">Közösségi Tartalom</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/auto/">Autó</a></li>
-				</ul>
-			</li>
-			<!-- <li class="nav__item">
-				<a class="nav__link" href="/szolgaltatasok/">Szolgáltatások</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/portre-fotos-setak/">Portrézós Fotós Séták</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/kozossegi-tartalomgyartas/">Közösségi Tartalomgyártás</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/auto-fotozas/">Új- és Használtautó Fotózás</a></li>
-				</ul>
-			</li> -->
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/"><span class='portre'>Portré </span>Fotós Séták</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/">Fotózzunk!</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
 <main class="main">
-	
-		<header class="page-header">
-			<span class="page-header__category">Címkék</span>
-			<h1 class="page-header__title">Összes Címke</h1>
-		</header>
-		<ul class="tags">
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/artist/">artist</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/automotive/">automotive</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/autó/">autó</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/beauty-shoot/">beauty-shoot</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/beltéri/">beltéri</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/cars/">cars</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/couples/">couples</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/családi/">családi</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/culture/">culture</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/egyéni/">egyéni</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/emberek/">emberek</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/esküvő/">esküvő</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/family/">family</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/female/">female</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/filmes-objektív/">filmes-objektív</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/fotóriport/">fotóriport</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/férfi/">férfi</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/használtautó/">használtautó</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/hotel/">hotel</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/indoors/">indoors</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/kultúra/">kultúra</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/közösségi-tartalom/">közösségi-tartalom</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/lifestyle/">lifestyle</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/male/">male</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/musician/">musician</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/művész/">művész</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/naplemente/">naplemente</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/nature/">nature</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/night/">night</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/női/">női</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/people/">people</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/pets/">pets</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/photo story/">photo story</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/portraiture/">portraiture</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/portré/">portré</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/páros/">páros</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/social-content/">social-content</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/solo/">solo</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/sport/">sport</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/sports/">sports</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/stores/">stores</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/studio/">studio</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/stúdió/">stúdió</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/sunset/">sunset</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/szépségfotózás/">szépségfotózás</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/tematikus/">tematikus</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/természet/">természet</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/thematic/">thematic</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/urban/">urban</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/used-car-photos/">used-car-photos</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/vintage-lens/">vintage-lens</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/városi/">városi</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/wedding/">wedding</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/zenész/">zenész</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/állatok/">állatok</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/éjszakai/">éjszakai</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/életstílus/">életstílus</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/üzlet/">üzlet</a>
-				</li>
-			
-		</ul>
-	
+	<div class="container">
+		
+			<header class="page-header">
+				<span class="page-header__category">Címkék</span>
+				<h1 class="page-header__title">Összes Címke</h1>
+			</header>
+			<ul class="tags">
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/beltéri/">beltéri</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/családi/páros/">családi/páros</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/egyéni/">egyéni</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/esküvő/">esküvő</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/family/couples/">family/couples</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/female/">female</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/filmes-objektív/">filmes-objektív</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/fényfestés/">fényfestés</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/férfi/">férfi</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/indoors/">indoors</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/light-painting/">light-painting</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/male/">male</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/musician/">musician</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/naplemente/">naplemente</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/nature/">nature</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/night/">night</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/női/">női</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/pets/">pets</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/portraiture/">portraiture</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/portré/">portré</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/solo/">solo</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/sport/">sport</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/sports/">sports</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/studio/">studio</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/stúdió/">stúdió</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/sunset/">sunset</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/tematikus/">tematikus</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/természet/">természet</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/thematic/">thematic</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/urban/">urban</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/vintage-lens/">vintage-lens</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/városi/">városi</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/wedding/">wedding</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/zenész/">zenész</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/állatok/">állatok</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/éjszakai/">éjszakai</a>
+					</li>
+				
+			</ul>
+		
+	</div>
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

@@ -1,0 +1,11 @@
+<blockquote class="testimonial">
+	<div class="testimonial__content">
+		<p class="testimonial__text">{{ testimonials.items[id][locale].text }}</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author-link" href="{{ testimonials.items[id][locale].link }}">{{ testimonials.items[id][locale].name }}</a>
+		</cite>
+	</div>
+	<a class="testimonial__photo-link" href="{{ testimonials.items[id][locale].link }}">
+		<img class="testimonial__photo" src="{{ testimonials.items[id].photo }}" alt="{{ testimonials.items[id][locale].name }}">
+	</a>
+</blockquote>

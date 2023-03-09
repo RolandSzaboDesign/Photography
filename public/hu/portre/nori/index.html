@@ -5,7 +5,7 @@
 		<title>Nóri | Szabó Roland | Budapesti Portré Fotós</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta name="description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -22,7 +22,7 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/hu/portre/nori/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 		<meta property="og:title" content="Nóri | Szabó Roland | Budapesti Portré Fotós">
 
 		<!-- Styles -->
@@ -37,88 +37,74 @@
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
 		<script defer src="/assets/js/analytics.js"></script>
 	</head>
+
 	<body>
 		<header class="header">
-	<a class="logo" href="/hu/" title="Back to the Homepage">
-		<strong class="logo__name">Szabó Roland</strong>
-		<span class="logo__tagline">Budapesti Portré Fotós</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link" href="/en/portraiture/nori/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/hu/" title="Back to the Homepage">
+			<strong class="logo__name">Szabó Roland</strong>
+			<span class="logo__tagline">Budapesti Portré Fotós</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link" href="/en/portraiture/nori/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/hu/portre/nori/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/rolam/">Rólam</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/hu/portre/nori/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/portre/">Munkáim</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/rolam/">Rólam</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/galeriak/">Galériák</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/portre/">Portré</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/kozossegi-tartalom/">Közösségi Tartalom</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/auto/">Autó</a></li>
-				</ul>
-			</li>
-			<!-- <li class="nav__item">
-				<a class="nav__link" href="/szolgaltatasok/">Szolgáltatások</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/portre-fotos-setak/">Portrézós Fotós Séták</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/kozossegi-tartalomgyartas/">Közösségi Tartalomgyártás</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/auto-fotozas/">Új- és Használtautó Fotózás</a></li>
-				</ul>
-			</li> -->
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/"><span class='portre'>Portré </span>Fotós Séták</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/">Fotózzunk!</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
 <main class="main">
-	<header class="page-header">
-		<a class="page-header__category" href="/hu/portre/" title="Back to Portré">Portré</a>
-		<h1 class="page-header__title">Nóri</h1>
-		<ul class="tags">
+	<div class="container">
+		<header class="page-header">
+			<a class="page-header__category" href="/hu/portre/" title="Back to Portré">Portré</a>
+			<h1 class="page-header__title">Nóri</h1>
+			<ul class="tags">
+				
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/egyéni/">egyéni</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/női/">női</a>
+					</li>
+				
+					<li class="tag">
+						<a class="tag__link" href="/hu/tags/városi/">városi</a>
+					</li>
+				
+			</ul>
+			<p class="page-header__description"></p>
+		</header>
+		<div class="gallery gallery--single">
 			
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/emberek/">emberek</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/egyéni/">egyéni</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/női/">női</a>
-				</li>
-			
-				<li class="tag">
-					<a class="tag__link" href="/hu/tags/városi/">városi</a>
-				</li>
-			
-		</ul>
-		<p class="page-header__description"></p>
-	</header>
-	<div class="gallery gallery--single">
-		
 
 		
 	
@@ -131,7 +117,7 @@
 		 	/assets/images/portraiture/nori/01_350.webp 350w,
 		 	/assets/images/portraiture/nori/01_200.webp 200w
 		 "
- 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
+		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
 		 src="/assets/images/portraiture/nori/01_200.webp"
 		 alt="Photo of Nóri"
 		 width="700"
@@ -150,7 +136,7 @@
 		 	/assets/images/portraiture/nori/02_350.webp 350w,
 		 	/assets/images/portraiture/nori/02_200.webp 200w
 		 "
- 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
+		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
 		 src="/assets/images/portraiture/nori/02_200.webp"
 		 alt="Photo of Nóri"
 		 width="700"
@@ -189,7 +175,7 @@
 		 	/assets/images/portraiture/nori/04_350.webp 350w,
 		 	/assets/images/portraiture/nori/04_200.webp 200w
 		 "
- 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
+		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
 		 src="/assets/images/portraiture/nori/04_200.webp"
 		 alt="Photo of Nóri"
 		 width="700"
@@ -208,7 +194,7 @@
 		 	/assets/images/portraiture/nori/05_350.webp 350w,
 		 	/assets/images/portraiture/nori/05_200.webp 200w
 		 "
- 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
+		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
 		 src="/assets/images/portraiture/nori/05_200.webp"
 		 alt="Photo of Nóri"
 		 width="700"
@@ -216,29 +202,41 @@
 </span>
 
 
+		</div>
+		
+		
+		
+		
+		<div class="cta">
+	<blockquote class="testimonial">
+	<div class="testimonial__content">
+		<p class="testimonial__text">Életem első fotózására készültem. Megmondom őszintén, nagyon izgultam, mert a kamerák előtt sosem érzem komfortosan magam, pedig edzőként igazán nincs mit takargatnom. Rolandot sem ismertem, ez sem könnyített a helyzeten. Hála istennek, Rolanddal a közös munka minden várakozásomat felülmúlta, teljesen sikerült feloldódni már a fotózás legelején. Nagyon meg vagyok elégedve a képekkel, egy teljesen új arcomat mutatta meg, amiért nagyon hálás vagyok. Ha épp egy laza, kedves, jó humorú fotóst keresnél, akivel hamar megtalálod a közös hangot, szívből ajánlom Rolandot! Köszönöm ezúton is a lehetőséget, a képeket, szuper emlék és ajándék is egyben!</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author-link" href="/hu/portre/saci/">U. Sarolta</a>
+		</cite>
 	</div>
-	<div class="cta">
+	<a class="testimonial__photo-link" href="/hu/portre/saci/">
+		<img class="testimonial__photo" src="/assets/images/testimonial-saci.webp" alt="U. Sarolta">
+	</a>
+</blockquote>
+
 	<div class="cta__content">
 		<h2 class="cta__title">Szeretnél hasonló, szuper képeket?</h2>
 		<p class="cta__text">Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!</p>
 		<a class="button" href="/hu/szolgaltatasok/portre-fotos-setak/">Nézzük a részleteket</a>
 	</div>
-	<blockquote class="cta__quote">
-		<p class="cta__quote-text">Az első közös fotózásunkhoz kerestem Budapesti portré fotóst Instagramon, ekkor találtam rá Rolandra. A kezdetektől nagyon tetszett a munkája; a képei, a színek, mind passzoltak az elvárásainknak. A fotózás elején kicsit félénkek voltunk, de Roland nagyon barátságos volt, sokat beszélgettünk és nevettünk, így könnyen feloldódtunk és hihetetlen jó képek készültek rólunk. Budapest nagyon sokat jelent nekünk, és Roland kitűnően megörökítette a közös élményünket.</p>
-		<cite class="cta__quote-cite">
-			<img class="cta__quote-image" src="/assets/images/testimonial-jackeline-andre.webp" alt="Jackie N. & André P. fotója" width="64" height="64">
-			<a href="/hu/portre/jackeline-andre/">Jackie N. & André P.</a>
-		</cite>
-	</blockquote>
 </div>
 
+	</div>
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

@@ -5,7 +5,7 @@
 		<title>Portréfotózás Filmes Objektívekkel Budapesten | Szabó Roland | Budapesti Portré Fotós</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta name="description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -22,12 +22,12 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/hu/szolgaltatasok/vintage-fotos-setak/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 		<meta property="og:title" content="Portréfotózás Filmes Objektívekkel Budapesten | Szabó Roland | Budapesti Portré Fotós">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
-		<link rel="stylesheet" href="/assets/css/service.css">
+		<link rel="stylesheet" href="/assets/css/photo-walks.css">
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,189 +38,223 @@
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
 		<script defer src="/assets/js/analytics.js"></script>
 	</head>
+
 	<body>
 		<header class="header">
-	<a class="logo" href="/hu/" title="Back to the Homepage">
-		<strong class="logo__name">Szabó Roland</strong>
-		<span class="logo__tagline">Budapesti Portré Fotós</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link" href="/en/services/vintage-photo-walks/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/hu/" title="Back to the Homepage">
+			<strong class="logo__name">Szabó Roland</strong>
+			<span class="logo__tagline">Budapesti Portré Fotós</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link" href="/en/services/vintage-photo-walks/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/hu/szolgaltatasok/vintage-fotos-setak/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/rolam/">Rólam</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/hu/szolgaltatasok/vintage-fotos-setak/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/portre/">Munkáim</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/rolam/">Rólam</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/galeriak/">Galériák</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/portre/">Portré</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/kozossegi-tartalom/">Közösségi Tartalom</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/auto/">Autó</a></li>
-				</ul>
-			</li>
-			<!-- <li class="nav__item">
-				<a class="nav__link" href="/szolgaltatasok/">Szolgáltatások</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/portre-fotos-setak/">Portrézós Fotós Séták</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/kozossegi-tartalomgyartas/">Közösségi Tartalomgyártás</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/auto-fotozas/">Új- és Használtautó Fotózás</a></li>
-				</ul>
-			</li> -->
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/"><span class='portre'>Portré </span>Fotós Séták</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/">Fotózzunk!</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
 <main class="main">
-	<header class="page-header">
-		<span class="page-header__category">Szolgáltatások</span>
-		<h1 class="page-header__title">Vintage Fotós Séták</h1>
-		<p class="page-header__intro">Régi, filmes fényképezőgépekhez készült objektívek használatával egyedi megjelenésű portré fotókat készíthetünk, egzotikus rajzolattal, nem mindennapi színvilággal és mesébe illő háttérmosással. Kölcsönözz igazán egyedi hangulatot a fotóidnak!</p>
-	</header>
+	<section class="section section--top section--border">
+		<div class="container">
+			<header class="page-header">
+				<span class="page-header__category">Szolgáltatások</span>
+				<h1 class="page-header__title">Vintage Fotós Séták</h1>
+				<p class="page-header__intro">Régi, filmes fényképezőgépekhez készült objektívek használatával egyedi megjelenésű portré fotókat készíthetünk, egzotikus rajzolattal, nem mindennapi színvilággal és mesébe illő háttérmosással. Kölcsönözz igazán egyedi hangulatot a fotóidnak!</p>
+			</header>
 
-	<h2>Miért Vintage Objektívek?</h2>
-	<figure class="floating-photo floating-photo--right">
-		<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-04.webp" alt="Portézós Fotós Séták" width="750" height="500">
-		<figcaption class="floating-photo__caption"><em>Fotó és szerkesztés: <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">Németh Dános</a></em></figcaption>
-	</figure>
-	<p>A mai modern (és nem mellesleg méregdrága) fényképezőgép objektíveket optikailag annyira tökéletesre tervezik, hogy nem, vagy alig rendelkeznek azokkal az optikai hiányosságokkal, amik egy fotóban az életszerűséget adják. Ennek az eredménye kétélű: brutálisan egyszerű velük a munka, és futószalagszerűen egyforma képeket eredményeznek, amik mindig élesek, mindig tökéletesen egyformán hibátlanok. Cserébe annyira steril és élettelen képeket eredményeznek, amikkel utómunkában órákat töltök azzal, hogy újra 3D-szerű hatásuk legyen.</p>
-	<p>Itt jönnek képbe az öreg filmes optikák, amelyek tele vannak optikai hiányosságokkal, és pontosan ettől életszagúak a velük alkotott fotók. Használatuk is körülményes: Minden képet egyesével, kézzel kell befókuszálni, nem a legélesebb a rajzolatuk, erősen becsillannak közvetlen napfényben, fura foltokat hagynak a képen, és még sorolhatnám. Mégis megvan a használatukban az az érzés, hogy mindketten megdolgoztunk a képekért, és a fotóinknak lelke és szaga van. A vintage optikás fotózás szépsége ezeknek a "hibáknak" az elfogadásában és megszeretésében teljesedik ki.</p>
-	<h2>Miben más egy ilyen vintage portré fotózás?</h2>
-	<p>Íme néhány fontos tudnivaló, ha modellt állsz egy ilyen fotózáshoz:</p>
-	<figure class="floating-photo floating-photo--left">
-		<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-05.webp" alt="Portézós Fotós Séták" width="750" height="500">
-		<figcaption class="floating-photo__caption"><em>Fotó és szerkesztés: <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">Németh Dános</a></em></figcaption>
-	</figure>
-	<ul class="list">
-		<li><strong>Minden képet egyesével, kézzel kell befókuszálni.</strong> A fényképezőgépemen különböző képi visszajelzések segítenek a pontos fókuszt negtalálni, de így is időbe telik minden fotó előtt megbizonyosodni a kép élességéről. Ehhez picit tovább ki kell tudni tartani az arckifejezéseket és "pózokat".</li>
-		<li><strong>Kevésbé dinamikus képeket készítünk.</strong> A kézi élességállítás miatt nem tudunk mozgó képeket magabiztos fókusszal megörökíteni, úgyhogy a vintage optikák nem a legjobb választás mozgást magukban foglaló képekhez.</li>
-		<li><strong>Figyelni kell a becsillanásra.</strong> Nem mindegyik régi objektív rendelkezik védőbevonattal a közvetlen napfény-becsillanás ellen, így megfontoltan kell megválasztani a szögeket. Bár használhatjuk művészi célra, jól meg kell tudni választani, hogy milyen mértékű becsillanást engedünk a képre, és az milyen irányból érkezik. Ehhez lehet, hogy kicsit többet fogunk forogni egymás körül, mire szép eredményt kapunk.</li>
-	</ul>
-	<p>Összességében tehát elmondható, hogy a vintage optikákkal történő portréfotózáshoz nagyobb türelem, és némi tisztelet szükséges a régi technológiák iránt, annak érdekében, hogy igazán egyedi végeredményt készítsünk, közösen.</p>
+			<h2>Miért Vintage Objektívek?</h2>
+			<figure class="floating-photo floating-photo--right">
+				<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-01.webp" alt="Portézós Fotós Séták" width="750" height="500">
+				<figcaption class="floating-photo__caption"><em>Fotó és szerkesztés: <a href="https://www.instagram.com/james.acs.tta/" target="_blank" rel="noopener noreferrer">Alföldi Csanád</a></em></figcaption>
+			</figure>
+			<p>A mai modern (és nem mellesleg méregdrága) fényképezőgép objektíveket optikailag annyira tökéletesre tervezik, hogy nem, vagy alig rendelkeznek azokkal az optikai hiányosságokkal, amik egy fotóban az életszerűséget adják. Ennek az eredménye kétélű: brutálisan egyszerű velük a munka, és futószalagszerűen egyforma képeket eredményeznek, amik mindig élesek, mindig tökéletesen egyformán hibátlanok. Cserébe annyira steril és élettelen képeket eredményeznek, amikkel utómunkában órákat töltök azzal, hogy újra 3D-szerű hatásuk legyen.</p>
+			<p>Itt jönnek képbe az öreg filmes optikák, amelyek tele vannak optikai hiányosságokkal, és pontosan ettől életszagúak a velük alkotott fotók. Használatuk is körülményes: Minden képet egyesével, kézzel kell befókuszálni, nem a legélesebb a rajzolatuk, erősen becsillannak közvetlen napfényben, fura foltokat hagynak a képen, és még sorolhatnám. Mégis megvan a használatukban az az érzés, hogy mindketten megdolgoztunk a képekért, és a fotóinknak lelke és szaga van. A vintage optikás fotózás szépsége ezeknek a "hibáknak" az elfogadásában és megszeretésében teljesedik ki.</p>
+		</div>
+	</section>
 
-	<h2>Mintaképek</h2>
-	<p>Íme, az eddigi kedvenc, régi obikkal készített fotóimból egy válogatás. Ha valamelyik üveg rajzolata kifejezetten tetszik, jegyezd meg a nevét, és feltétlenül mondd el, amikor érdeklődsz! Ha megnéznél egy komplett vintage obis fotózás képeit, akkor feltétlenül nézd meg <a target="_blank" rel="noopener noreferrer" href="/hu/portre/jazmin/">a Jázminnal készített Csodaországos szettünk</a>et, illetve a <a target="_blank" rel="noopener noreferrer" href="/hu/portre/eperke/">Zeiss Sonnar 135mm tesztfotózásunkat Eperkével</a>!</p>
-	<div class="gallery gallery--single">
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-1.webp" alt="Photo of Jázmin taken with my Helios 44M-4 vintage lens">
-			<span class="polaroid__title"><strong>Jázmin</strong><br>Helios 44M-4 (58mm)</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-2.webp" alt="Photo of Bianka taken with my Carl Zeiss T* Sonnar 135mm f/3.5 MC vintage lens">
-			<span class="polaroid__title"><strong>Bianka</strong><br>CZJ T* Sonnar 135mm f/3.5 MC</span>
-		</span>
-		<span class="polaroid full">
-			<img class="polaroid__photo" src="/assets/images/vintage-5.webp" alt="Photo of Eszter taken with my Carl Zeiss Tessar 50mm f/2.8 vintage lens">
-			<span class="polaroid__title"><strong>Eszter</strong><br>CZJ Tessar 50mm f/2.8 "Zebra"</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-3.webp" alt="Photo of Kriszti taken with my Helios 44-2 vintage lens">
-			<span class="polaroid__title"><strong>Kriszti</strong><br>Helios 44-2 (58mm)</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-4.webp" alt="Photo of Eperke taken with my Carl Zeiss T* Sonnar 135mm f/3.5 MC vintage lens">
-			<span class="polaroid__title"><strong>Eperke</strong><br>CZJ T* Sonnar 135mm f/3.5 MC</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-6.webp" alt="Photo of Bianka taken with my Helios 44-2 vintage lens">
-			<span class="polaroid__title"><strong>Bianka</strong><br>Helios 44-2 (58mm)</span>
-		</span>
-		<span class="polaroid">
-			<img class="polaroid__photo" src="/assets/images/vintage-7.webp" alt="Photo of Petra taken with my Helios 44-2 vintage lens">
-			<span class="polaroid__title"><strong>Petra</strong><br>Helios 44-2 (58mm)</span>
-		</span>
+	<section class="section section--white section--border">
+		<div class="container">
+			<h2>Miben más egy ilyen vintage portré fotózás?</h2>
+			<p>Íme néhány fontos tudnivaló, ha modellt állsz egy ilyen fotózáshoz:</p>
+			<figure class="floating-photo floating-photo--right">
+				<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-05.webp" alt="Portézós Fotós Séták" width="750" height="500">
+				<figcaption class="floating-photo__caption"><em>Fotó és szerkesztés: <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">Németh Dános</a></em></figcaption>
+			</figure>
+			<ul class="list">
+				<li><strong>Minden képet egyesével, kézzel kell befókuszálni.</strong> A fényképezőgépemen különböző képi visszajelzések segítenek a pontos fókuszt negtalálni, de így is időbe telik minden fotó előtt megbizonyosodni a kép élességéről. Ehhez picit tovább ki kell tudni tartani az arckifejezéseket és "pózokat".</li>
+				<li><strong>Kevésbé dinamikus képeket készítünk.</strong> A kézi élességállítás miatt nem tudunk mozgó képeket magabiztos fókusszal megörökíteni, úgyhogy a vintage optikák nem a legjobb választás mozgást magukban foglaló képekhez.</li>
+				<li><strong>Figyelni kell a becsillanásra.</strong> Nem mindegyik régi objektív rendelkezik védőbevonattal a közvetlen napfény-becsillanás ellen, így megfontoltan kell megválasztani a szögeket. Bár használhatjuk művészi célra, jól meg kell tudni választani, hogy milyen mértékű becsillanást engedünk a képre, és az milyen irányból érkezik. Ehhez lehet, hogy kicsit többet fogunk forogni egymás körül, mire szép eredményt kapunk.</li>
+			</ul>
+			<p>Összességében tehát elmondható, hogy a vintage optikákkal történő portréfotózáshoz nagyobb türelem, és némi tisztelet szükséges a régi technológiák iránt, annak érdekében, hogy igazán egyedi végeredményt készítsünk, közösen.</p>
+		</div>
+	</section>
+
+	<section class="section section--grey section--border">
+		<div class="container">
+			<h2>Mintaképek</h2>
+			<p>Íme, az eddigi kedvenc, régi obikkal készített fotóimból egy válogatás. Ha valamelyik üveg rajzolata kifejezetten tetszik, jegyezd meg a nevét, és feltétlenül mondd el, amikor érdeklődsz! Ha megnéznél néhány képgalériát, ahol vintage objektíveket használtam a képekhez, akkor íme, a Te gombod:</p>
+			<p><a class="button" href="/hu/tags/filmes-objektív/">Vintage Objektíves Képgalériák</a></p>
+			<div class="gallery gallery--single">
+				<span class="polaroid full">
+					<img class="polaroid__photo" src="/assets/images/vintage/jazmin-helios.webp" alt="Jázmin & Helios 44M-4">
+					<span class="polaroid__title"><strong>Jázmin</strong><br> Helios 44M-4</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/bianka-helios.webp" alt="Bianka & Helios 44M-4">
+					<span class="polaroid__title"><strong>Bianka</strong><br> Helios 44M-4</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/petra-helios.webp" alt="Petra & Helios 44-2">
+					<span class="polaroid__title"><strong>Petra</strong><br> Helios 44-2</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/eszter-tessar.webp" alt="Eszter & CZJ Tessar 50mm">
+					<span class="polaroid__title"><strong>Eszter</strong><br> CZJ Tessar 50mm f/2.8</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/eperke-takumar.webp" alt="Eperke & Super-Takumar 50mm f/1.4">
+					<span class="polaroid__title"><strong>Eperke</strong><br> Super-Takumar 50mm f/1.4</span>
+				</span>
+				<span class="polaroid full">
+					<img class="polaroid__photo" src="/assets/images/vintage/vivi-tessar.webp" alt="Vivi & CZJ Tessar 50mm">
+					<span class="polaroid__title"><strong>Vivi</strong><br> CZJ Tessar 50mm f/2.8</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/bence-tessar.webp" alt="Bence & CZJ Tessar 50mm">
+					<span class="polaroid__title"><strong>Bence</strong><br> CZJ Tessar 50mm f/2.8</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/kriszti-helios.webp" alt="Kriszti & Helios 44-2">
+					<span class="polaroid__title"><strong>Kriszti</strong><br> Helios 44-2</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/eszter-helios.webp" alt="Eszter & Helios 44M-4">
+					<span class="polaroid__title"><strong>Eszter</strong><br> Helios 44M-4</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/eszter-sonnar.webp" alt="Eszter & Zeiss Sonnar 135mm">
+					<span class="polaroid__title"><strong>Eszter</strong><br> CZJ Sonnar 135mm f/3.5 MC</span>
+				</span>
+				<span class="polaroid full">
+					<img class="polaroid__photo" src="/assets/images/vintage/eperke-sonnar.webp" alt="Eperke & Zeiss Sonnar 135mm">
+					<span class="polaroid__title"><strong>Eperke</strong><br> CZJ Sonnar 135mm f/3.5 MC</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/reka-tessar.webp" alt="Réka & CZJ Tessar 50mm">
+					<span class="polaroid__title"><strong>Réka</strong><br> CZJ Tessar 50mm f/2.8</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/lilla-takumar.webp" alt="Lilla & Super-Takumar 50mm f/1.4">
+					<span class="polaroid__title"><strong>Lilla</strong><br> Super-Takumar 50mm f/1.4</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/gabcsi-tessar.webp" alt="Gabcsi & CZJ Tessar 50mm">
+					<span class="polaroid__title"><strong>Gabcsi</strong><br> CZJ Tessar 50mm f/2.8</span>
+				</span>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/vintage/luca-david-helios.webp" alt="Luca + Dávid & CZJ Tessar 50mm">
+					<span class="polaroid__title"><strong>Luca & Dávid</strong><br> Helios 44-2</span>
+				</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--border">
+		<div class="container">
+			<h2 id="faq">Gyakran Felmerülő Kérdések</h2>
+			<p>Az alábbi információk specifikusan a Vintage Portré Fotózáshoz tartoznak. Kérlek, mindenképpen olvasd el a <a href="/hu/szolgaltatasok/portre-fotos-setak/#faq">Portréfotózás GYIK</a> szakaszt, mielőtt továbbhaladsz az itteni információkkal.</p>
+			<div class="faqs"><details class="faq" id="mik-azok-a-vintage-objektivek">
+						<summary class="faq__question">Mik azok a vintage objektívek?</summary>
+						<div class="faq__answer">Nagyon sokféle, régi gyártmányú objektív tartozik ebbe a kategóriába; a leggyakoribbak a régi analóg, filmes fényképezőgépekhez készült optikák, de ide sorolhatjuk például a vetítőgépek vagy röntgengépek objektíveit is. Ezek mind ugyanazt a célt szolgálják, csak más környezetben, így mindegyiknek sajátos rajzolata és karakterisztikája van.</div>
+					</details><details class="faq" id="felszereles">
+						<summary class="faq__question">Milyen vintage objektívekkel dolgozol?</summary>
+						<div class="faq__answer">A következő régi obijaim vannak, amiket jól ismerek, és aktívan használok: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li><li>Super-Takumar 50mm f/1.4 (7 tagos)</li></ul></div>
+					</details><details class="faq" id="autofokusz-is-lesz">
+						<summary class="faq__question">Hozol magaddal autofókuszos objektívet is a fotózásra?</summary>
+						<div class="faq__answer">Igen, de szigorúan tartaléknak. Ha útközben eltörik, elhagyom, meggyullad vagy elnyeli a föld, akkor legyen azért egy biztonsági tartalék.</div>
+					</details><details class="faq" id="koltseg">
+						<summary class="faq__question">Van többletköltsége a vintage portré fotózásnak?</summary>
+						<div class="faq__answer">Nincs. Ugyanazokkal az árakkal dolgozom az öreg obikkal is, mint normál esetben.</div>
+					</details></div>
+		</div>
+	</section>
+
+	<section class="section section--grey section--border">
+		<div class="container">
+			<h2>Rólam Mondták</h2>
+			<ul class="testimonials">
+				<blockquote class="testimonial">
+	<div class="testimonial__content">
+		<p class="testimonial__text">A fotózás előtt kissé féltem, hogy jól fognak-e sikerülni a fotók, mivel nincs modellkedésben sok tapasztalatom és eddig csak ismerősök és barátok fotóztak. Kimozdultam a komfort zónámból ezen az alkalmon, ugyanakkor maga a stílus (vintage, retro) nagyon is közel állt hozzám, így mégis otthonosnak éreztem fotózást. Talán ez volt az első alkalom, amikor a leghamarabb feloldódtam fotózás során. Örültem, hogy kíváncsi volt Roli a véleményemre, megmutatta a fotókat, érdekelte, hogy van-e bármilyen elképzelésem, akár helyszínnel kapcsolatban, akár pózokról legyen szó. Tetszett, hogy együtt dolgoztunk azon, hogy minőségi és csodálatos képek szülessenek, és nem éreztem azt, hogy egyedül kéne megbírkóznom a feladattal. Összességében elmondhatom, hogy Roli nagyon minőségi és kreatív munkát végez a fotózás és az utómunka során!</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author-link" href="/hu/portre/gabcsi/">V. Gabcsi</a>
+		</cite>
 	</div>
+	<a class="testimonial__photo-link" href="/hu/portre/gabcsi/">
+		<img class="testimonial__photo" src="/assets/images/testimonial-gabcsi.webp" alt="V. Gabcsi">
+	</a>
+</blockquote>
 
-	<h2 id="faq">Gyakran Felmerülő Kérdések</h2>
-	<p>Az alábbi információk specifikusan a Vintage Portré Fotózáshoz tartoznak. Kérlek, mindenképpen olvasd el a <a href="/hu/szolgaltatasok/portre-fotos-setak/#faq">Portréfotózás GYIK</a> szakaszt, mielőtt továbbhaladsz az itteni információkkal.</p>
+				<blockquote class="testimonial">
+	<div class="testimonial__content">
+		<p class="testimonial__text">Rolanddal először a karácsonyi vásárban vettem részt fotózáson, ami gyorsan egy rendkívül jó hangulatú baráti beszélgetéssé alakult. Szinte azonnal meg tudtam nyílni, hiszen csupán a lényével is egy rendkívül biztonságos és kellemes légkört teremtett már az első pillanattól kezdve. Minden gátlásomat elengedve tudtam a kamerába mosolyogni, ami előtte nem volt jellemző rám, de Rolandnak hála, ezt az oldalamat is meg tudtam ismerni. Azóta kétszer volt alkalmam közös fotózáson részt venni vele, amik szintén nagyon flottul mentek, a kézhez kapott képeim után pedig a rég elveszett önbizalmam is elkezdett visszatérni, Rolandnak hála!</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author-link" href="/hu/portre/reka-borbala-2/">T. Réka</a>
+		</cite>
+	</div>
+	<a class="testimonial__photo-link" href="/hu/portre/reka-borbala-2/">
+		<img class="testimonial__photo" src="/assets/images/testimonial-reka.webp" alt="T. Réka">
+	</a>
+</blockquote>
 
-	<div class="faqs"><details class="faq" id="mik-azok-a-vintage-objektivek">
-				<summary class="faq__question">Mik azok a vintage objektívek?</summary>
-				<div class="faq__answer">Nagyon sokféle, régi gyártmányú objektív tartozik ebbe a kategóriába; a leggyakoribbak a régi analóg, filmes fényképezőgépekhez készült optikák, de ide sorolhatjuk például a vetítőgépek vagy röntgengépek objektíveit is. Ezek mind ugyanazt a célt szolgálják, csak más környezetben, így mindegyiknek sajátos rajzolata és karakterisztikája van.</div>
-			</details><details class="faq" id="felszereles">
-				<summary class="faq__question">Milyen vintage objektívekkel dolgozol?</summary>
-				<div class="faq__answer">A következő régi obijaim vannak, amiket jól ismerek, és aktívan használok: <ul class='list'><li>Carl Zeiss Jena Sonnar 135mm f/3.5</li><li>Carl Zeiss Jena Tessar 50mm f/2.8</li><li>Helios 44-2 58mm f/2.0</li><li>Helios 44M-4 58mm f/2.0</li><li>Super-Takumar 50mm f/1.4 (7 tagos)</li></ul></div>
-			</details><details class="faq" id="autofokusz-is-lesz">
-				<summary class="faq__question">Hozol magaddal autofókuszos objektívet is a fotózásra?</summary>
-				<div class="faq__answer">Igen, de szigorúan tartaléknak. Ha útközben eltörik, elhagyom, meggyullad vagy elnyeli a föld, akkor legyen azért egy biztonsági tartalék.</div>
-			</details><details class="faq" id="koltseg">
-				<summary class="faq__question">Van többletköltsége a vintage portré fotózásnak?</summary>
-				<div class="faq__answer">Nincs. Ugyanazokkal az árakkal dolgozom az öreg obikkal is, mint normál esetben.</div>
-			</details></div>
+			</ul>
+		</div>
+	</section>
 
-	<h2>Rólam Mondták</h2>
-	<p>Vintage obis fotózásról még konkrétan nem kaptam visszajelzést, úgyhogy álljanak itt a korábbi értékeléseim, addig is.</p>
-	<ul class="testimonials">
-		
-			<li class="testimonial">
-				<a class="testimonial__photo-link" href="/hu/portre/anna/">
-					<img class="testimonial__photo" src="/assets/images/testimonial-anna.webp" alt="M. Anna fotója">
-				</a>
-				<blockquote class="testimonial__quote">
-					<p class="testimonial__text">Tökéletesek! Egytől egyig. Amikor utaztam a fotózás helyszínére, azon gondolkodtam, hogy szerintem 4-5 kép bőven elég lesz, végtére is, minek több? Nos, abból a több, mint 200 (Roland által örömmel és dalolva készített) képből alig tudtam választani. Mindig megtalálta a jó szögeket, helyeket és kifejezetten nyitott volt az én ötleteimre is végig. Teljesen érthető és követhető instrukciókat adott, valamint segített, hogy az általam elképzelt képek tényleg olyanok legyenek, ahogy azt megálmodtam.</p>
-					<footer class="testimonial__footer">
-						<cite>&mdash; <a href="/hu/portre/anna/">M. Anna</a></cite>
-					</footer>
-				</blockquote>
-			</li>
-		
-			<li class="testimonial">
-				<a class="testimonial__photo-link" href="/hu/portre/cinti/">
-					<img class="testimonial__photo" src="/assets/images/testimonial-cinti.webp" alt="M. Cinti fotója">
-				</a>
-				<blockquote class="testimonial__quote">
-					<p class="testimonial__text">Nagyon közvetlenül telt a fotózás Rolanddal már az első perctől kezdve. Ez volt az első fotózásom, így ez nagyon sokat segített nekem abban, hogy hamar feloldódhassak. Idejét és türelmét nem sajnálva készültek el a változatos tematikájú képek. Sokat segített a megfelelő pózokban, és mindig meghallgatta az elképzeléseim... a végeredmény pedig nagyszerű lett!</p>
-					<footer class="testimonial__footer">
-						<cite>&mdash; <a href="/hu/portre/cinti/">M. Cinti</a></cite>
-					</footer>
-				</blockquote>
-			</li>
-		
-			<li class="testimonial">
-				<a class="testimonial__photo-link" href="/hu/portre/dori/">
-					<img class="testimonial__photo" src="/assets/images/testimonial-dori.webp" alt="E. Dóri fotója">
-				</a>
-				<blockquote class="testimonial__quote">
-					<p class="testimonial__text">Ismered azt az érzést, hogy rólad nem lehet jó képet csinálni? Én ezzel a mondattal indultam el fotózni Rolanddal, aki ezt követően a végtelen türelmével, szuper látásmódjával és kreativitásával bebizonyította, hogy nincs igazam, én pedig nem győztem utána válogatni a jobbnál jobb képek közül. A gyönyörű képek mellé pedig nem mellékesen grátiszként egy végtelenül jófej és vicces fotóst is kapsz.</p>
-					<footer class="testimonial__footer">
-						<cite>&mdash; <a href="/hu/portre/dori/">E. Dóri</a></cite>
-					</footer>
-				</blockquote>
-			</li>
-		
-	</ul>
-
-	<h2>Jól Hangzik?</h2>
-	<p>Én készen állok.</p>
-	<p><a class="button" href="/hu/kapcsolat/">Mehetünk!</a></p>
+	<section class="section">
+		<div class="container">
+			<h2>Jól Hangzik?</h2>
+			<p>Alig várom, hogy újra fotózhassak valamelyik öreg objektívemmel!</p>
+			<p><a class="button" href="/hu/kapcsolat/">Mehetünk!</a></p>
+		</div>
+	</section>
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

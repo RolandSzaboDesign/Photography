@@ -5,7 +5,7 @@
 		<title>Címkék | Szabó Roland | Budapesti Portré Fotós</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta name="description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -22,7 +22,7 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/hu/tags/tematikus/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 		<meta property="og:title" content="Címkék | Szabó Roland | Budapesti Portré Fotós">
 
 		<!-- Styles -->
@@ -37,174 +37,167 @@
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
 		<script defer src="/assets/js/analytics.js"></script>
 	</head>
+
 	<body>
 		<header class="header">
-	<a class="logo" href="/hu/" title="Back to the Homepage">
-		<strong class="logo__name">Szabó Roland</strong>
-		<span class="logo__tagline">Budapesti Portré Fotós</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link" href="/en/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/hu/" title="Back to the Homepage">
+			<strong class="logo__name">Szabó Roland</strong>
+			<span class="logo__tagline">Budapesti Portré Fotós</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link" href="/en/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/hu/tags/all/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/rolam/">Rólam</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/hu/tags/all/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/portre/">Munkáim</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/rolam/">Rólam</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/galeriak/">Galériák</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/portre/">Portré</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/kozossegi-tartalom/">Közösségi Tartalom</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/auto/">Autó</a></li>
-				</ul>
-			</li>
-			<!-- <li class="nav__item">
-				<a class="nav__link" href="/szolgaltatasok/">Szolgáltatások</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/portre-fotos-setak/">Portrézós Fotós Séták</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/kozossegi-tartalomgyartas/">Közösségi Tartalomgyártás</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/auto-fotozas/">Új- és Használtautó Fotózás</a></li>
-				</ul>
-			</li> -->
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/"><span class='portre'>Portré </span>Fotós Séták</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/">Fotózzunk!</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
 <main class="main">
-	
-		<header class="page-header">
-			<a href="/hu/tags/all/" class="page-header__category">Címkék</a>
-			<h1 class="page-header__title">Tematikus</h1>
-		</header>
-		<div class="gallery">
-			
-			
+	<div class="container">
+		
+			<header class="page-header">
+				<a href="/hu/tags/all/" class="page-header__category">Címkék</a>
+				<h1 class="page-header__title">Tematikus</h1>
+			</header>
+			<div class="gallery">
 				
 				
 					
 					
-				<a class="polaroids" href="/hu/portre/gabi/">
-					<figure class="polaroid">
-						<div class="polaroid__square">
-							<img class="polaroid__photo"
-								 srcset="
-									/assets/images/portraiture/gabi/06_700.webp 700w,
-								 	/assets/images/portraiture/gabi/06_500.webp 500w,
-								 	/assets/images/portraiture/gabi/06_350.webp 350w,
-								 	/assets/images/portraiture/gabi/06_200.webp 200w
-								 "
-								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-								 src="/assets/images/portraiture/gabi/06_200.webp"
-								 alt="Photo of Címkék">
-						</div>
-						<figcaption class="polaroid__caption">
-							<strong class="polaroid__title">Gabi</strong>
-						</figcaption>
-					</figure>
-				</a>
-			
-				
-				
-					
-					
-				<a class="polaroids" href="/hu/portre/abdallah/">
-					<figure class="polaroid">
-						<div class="polaroid__square">
-							<img class="polaroid__photo"
-								 srcset="
-									/assets/images/portraiture/abdallah/06_700.webp 700w,
-								 	/assets/images/portraiture/abdallah/06_500.webp 500w,
-								 	/assets/images/portraiture/abdallah/06_350.webp 350w,
-								 	/assets/images/portraiture/abdallah/06_200.webp 200w
-								 "
-								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-								 src="/assets/images/portraiture/abdallah/06_200.webp"
-								 alt="Photo of Címkék">
-						</div>
-						<figcaption class="polaroid__caption">
-							<strong class="polaroid__title">Abdallah</strong>
-						</figcaption>
-					</figure>
-				</a>
-			
-				
+						
+						
+					<a class="polaroids" href="/hu/portre/gabi/">
+						<figure class="polaroid">
+							<div class="polaroid__square">
+								<img class="polaroid__photo"
+									 srcset="
+										/assets/images/portraiture/gabi/06_700.webp 700w,
+									 	/assets/images/portraiture/gabi/06_500.webp 500w,
+									 	/assets/images/portraiture/gabi/06_350.webp 350w,
+									 	/assets/images/portraiture/gabi/06_200.webp 200w
+									 "
+									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+									 src="/assets/images/portraiture/gabi/06_200.webp"
+									 alt="Photo of Címkék">
+							</div>
+							<figcaption class="polaroid__caption">
+								<strong class="polaroid__title">Gabi</strong>
+							</figcaption>
+						</figure>
+					</a>
 				
 					
 					
-				<a class="polaroids" href="/hu/portre/anna-4/">
-					<figure class="polaroid">
-						<div class="polaroid__square">
-							<img class="polaroid__photo"
-								 srcset="
-									/assets/images/portraiture/anna-4/01_700.webp 700w,
-								 	/assets/images/portraiture/anna-4/01_500.webp 500w,
-								 	/assets/images/portraiture/anna-4/01_350.webp 350w,
-								 	/assets/images/portraiture/anna-4/01_200.webp 200w
-								 "
-								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-								 src="/assets/images/portraiture/anna-4/01_200.webp"
-								 alt="Photo of Címkék">
-						</div>
-						<figcaption class="polaroid__caption">
-							<strong class="polaroid__title">Anna Halloween</strong>
-						</figcaption>
-					</figure>
-				</a>
-			
-				
+						
+						
+					<a class="polaroids" href="/hu/portre/abdallah/">
+						<figure class="polaroid">
+							<div class="polaroid__square">
+								<img class="polaroid__photo"
+									 srcset="
+										/assets/images/portraiture/abdallah/06_700.webp 700w,
+									 	/assets/images/portraiture/abdallah/06_500.webp 500w,
+									 	/assets/images/portraiture/abdallah/06_350.webp 350w,
+									 	/assets/images/portraiture/abdallah/06_200.webp 200w
+									 "
+									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+									 src="/assets/images/portraiture/abdallah/06_200.webp"
+									 alt="Photo of Címkék">
+							</div>
+							<figcaption class="polaroid__caption">
+								<strong class="polaroid__title">Abdallah</strong>
+							</figcaption>
+						</figure>
+					</a>
 				
 					
 					
-				<a class="polaroids" href="/hu/portre/anna-2/">
-					<figure class="polaroid">
-						<div class="polaroid__square">
-							<img class="polaroid__photo"
-								 srcset="
-									/assets/images/portraiture/anna-2/04_700.webp 700w,
-								 	/assets/images/portraiture/anna-2/04_500.webp 500w,
-								 	/assets/images/portraiture/anna-2/04_350.webp 350w,
-								 	/assets/images/portraiture/anna-2/04_200.webp 200w
-								 "
-								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-								 src="/assets/images/portraiture/anna-2/04_200.webp"
-								 alt="Photo of Címkék">
-						</div>
-						<figcaption class="polaroid__caption">
-							<strong class="polaroid__title">Anna Katana</strong>
-						</figcaption>
-					</figure>
-				</a>
-			
-		</div>
-	
+						
+						
+					<a class="polaroids" href="/hu/portre/anna-4/">
+						<figure class="polaroid">
+							<div class="polaroid__square">
+								<img class="polaroid__photo"
+									 srcset="
+										/assets/images/portraiture/anna-4/01_700.webp 700w,
+									 	/assets/images/portraiture/anna-4/01_500.webp 500w,
+									 	/assets/images/portraiture/anna-4/01_350.webp 350w,
+									 	/assets/images/portraiture/anna-4/01_200.webp 200w
+									 "
+									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+									 src="/assets/images/portraiture/anna-4/01_200.webp"
+									 alt="Photo of Címkék">
+							</div>
+							<figcaption class="polaroid__caption">
+								<strong class="polaroid__title">Anna Halloween</strong>
+							</figcaption>
+						</figure>
+					</a>
+				
+					
+					
+						
+						
+					<a class="polaroids" href="/hu/portre/anna-2/">
+						<figure class="polaroid">
+							<div class="polaroid__square">
+								<img class="polaroid__photo"
+									 srcset="
+										/assets/images/portraiture/anna-2/04_700.webp 700w,
+									 	/assets/images/portraiture/anna-2/04_500.webp 500w,
+									 	/assets/images/portraiture/anna-2/04_350.webp 350w,
+									 	/assets/images/portraiture/anna-2/04_200.webp 200w
+									 "
+									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+									 src="/assets/images/portraiture/anna-2/04_200.webp"
+									 alt="Photo of Címkék">
+							</div>
+							<figcaption class="polaroid__caption">
+								<strong class="polaroid__title">Anna Katana</strong>
+							</figcaption>
+						</figure>
+					</a>
+				
+			</div>
+		
+	</div>
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

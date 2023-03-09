@@ -5,7 +5,7 @@
 		<title>Galleries | Roland Szabó | Budapest Portrait Photographer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="I create authentic portraits on relaxed photo walks in Budapest.">
+		<meta name="description" content="I take authentic portraits and tell terrible jokes.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -22,7 +22,7 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/en/galleries/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="I create authentic portraits on relaxed photo walks in Budapest.">
+		<meta property="og:description" content="I take authentic portraits and tell terrible jokes.">
 		<meta property="og:title" content="Galleries | Roland Szabó | Budapest Portrait Photographer">
 
 		<!-- Styles -->
@@ -37,65 +37,54 @@
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
 		<script defer src="/assets/js/analytics.js"></script>
 	</head>
+
 	<body>
 		<header class="header">
-	<a class="logo" href="/en/" title="Back to the Homepage">
-		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest Portrait Photographer</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/en/galleries/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/en/" title="Back to the Homepage">
+			<strong class="logo__name">Roland Szabó</strong>
+			<span class="logo__tagline">Budapest Portrait Photographer</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/en/galleries/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link" href="/hu/galeriak/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/en/about/">About</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link" href="/hu/galeriak/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/portraiture/">Portraiture</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/en/about/">About</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/galleries/">Galleries</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/en/portraiture/">Portraiture</a></li>
-					<li class="nav__item"><a class="nav__link" href="/en/social-content/">Social Content</a></li>
-					<li class="nav__item"><a class="nav__link" href="/en/automotive/">Automotive</a></li>
-				</ul>
-			</li>
-			<!-- <li class="nav__item">
-				<a class="nav__link" href="/services/">Services</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/en/services/portrait-photo-walks/">Portrait Photo Walks</a></li>
-					<li class="nav__item"><a class="nav__link" href="/en/services/social-content-creation/">Social Content Creation</a></li>
-					<li class="nav__item"><a class="nav__link" href="/en/services/automotive-photography/">Automotive Photography</a></li>
-				</ul>
-			</li> -->
-			<li class="nav__item">
-				<a class="nav__link" href="/en/contact/">Contact</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/contact/">Contact</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
 <main class="main">
 	<header class="page-header">
-		<h1 class="page-header__title">Galleries</h1>
+		<h1 class="page-header__title"></h1>
 	</header>
-	<div class="gallery gallery--galleries">
+	<div class="gallery gallery--galleries container">
 		<a class="polaroids" href="/en/portraiture/">
 			<figure class="polaroid">
 				<div class="polaroid__square">
@@ -117,56 +106,16 @@
 				</figcaption>
 			</figure>
 		</a>
-		<a class="polaroids" href="/en/social-content/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
-					<img class="polaroid__photo"
-						 srcset="
-						 	/assets/images/social-content/aqua-toria/07_700.webp 700w,
-						 	/assets/images/social-content/aqua-toria/07_500.webp 500w,
-						 	/assets/images/social-content/aqua-toria/07_350.webp 350w,
-						 	/assets/images/social-content/aqua-toria/07_200.webp 200w
-						 "
-				 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
-						 src="/assets/images/social-content/aqua-toria/07_200.webp"
-						 alt="Social Content"
-						 width="1050"
-						 height="700">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">Social Content</strong>
-				</figcaption>
-			</figure>
-		</a>
-		<a class="polaroids" href="/en/automotive/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
-					<img class="polaroid__photo"
-						 srcset="
-						 	/assets/images/automotive/rs5-b8/07_700.webp 700w,
-						 	/assets/images/automotive/rs5-b8/07_500.webp 500w,
-						 	/assets/images/automotive/rs5-b8/07_350.webp 350w,
-						 	/assets/images/automotive/rs5-b8/07_200.webp 200w
-						 "
-				 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
-						 src="/assets/images/automotive/rs5-b8/07_200.webp"
-						 alt="Automotive"
-						 width="700"
-						 height="1050">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">Automotive</strong>
-				</figcaption>
-			</figure>
-		</a>
 	</div>
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

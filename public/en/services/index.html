@@ -5,7 +5,7 @@
 		<title>Services | Roland Szabó | Budapest Portrait Photographer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="I create authentic portraits on relaxed photo walks in Budapest.">
+		<meta name="description" content="I take authentic portraits and tell terrible jokes.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -22,7 +22,7 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/en/services/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="I create authentic portraits on relaxed photo walks in Budapest.">
+		<meta property="og:description" content="I take authentic portraits and tell terrible jokes.">
 		<meta property="og:title" content="Services | Roland Szabó | Budapest Portrait Photographer">
 
 		<!-- Styles -->
@@ -38,97 +38,66 @@
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
 		<script defer src="/assets/js/analytics.js"></script>
 	</head>
+
 	<body>
 		<header class="header">
-	<a class="logo" href="/en/" title="Back to the Homepage">
-		<strong class="logo__name">Roland Szabó</strong>
-		<span class="logo__tagline">Budapest Portrait Photographer</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/en/services/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/en/" title="Back to the Homepage">
+			<strong class="logo__name">Roland Szabó</strong>
+			<span class="logo__tagline">Budapest Portrait Photographer</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/en/services/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link" href="/hu/szolgaltatasok/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/en/about/">About</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link" href="/hu/szolgaltatasok/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/portraiture/">Portraiture</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/en/about/">About</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/en/galleries/">Galleries</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/en/portraiture/">Portraiture</a></li>
-					<li class="nav__item"><a class="nav__link" href="/en/social-content/">Social Content</a></li>
-					<li class="nav__item"><a class="nav__link" href="/en/automotive/">Automotive</a></li>
-				</ul>
-			</li>
-			<!-- <li class="nav__item">
-				<a class="nav__link" href="/services/">Services</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/en/services/portrait-photo-walks/">Portrait Photo Walks</a></li>
-					<li class="nav__item"><a class="nav__link" href="/en/services/social-content-creation/">Social Content Creation</a></li>
-					<li class="nav__item"><a class="nav__link" href="/en/services/automotive-photography/">Automotive Photography</a></li>
-				</ul>
-			</li> -->
-			<li class="nav__item">
-				<a class="nav__link" href="/en/contact/">Contact</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/en/contact/">Contact</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/en/services/portrait-photo-walks/">Photo Walks</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
 <main class="main">
-	<header class="page-header">
-		<h1 class="page-header__title">Services</h1>
-	</header>
+	<div class="container">
+		<header class="page-header">
+			<h1 class="page-header__title">Services</h1>
+		</header>
 
-	<div class="services">
-		<a class="service" href="/en/services/portrait-photo-walks/">
-			<article class="service__content">
-				<h2 class="service__title">Portrait Photo Walks</h2>
-				<p class="service__text">I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories. You can even bring your pet or your hobby! Here's how easy it is:</p>
-				<img class="service__photo" src="/assets/images/portraiture/kata/01.jpg" alt="Portrait Photo Walks">
-			</article>
-		</a>
-		<!-- <a class="service" href="/en/services/social-content-creation/"> -->
-		<a class="service" href="#">
-			<article class="service__content">
-				<h2 class="service__title">Social Content Creation</h2>
-				<p class="service__text">Coming Soon&hellip;</p>
-				<img class="service__photo" src="/assets/images/social-content/budapart-mol-limo/03.jpg" alt="Social Content / Photo Stories">
-			</article>
-		</a>
-		<!-- <a class="service" href="/en/services/automotive-photography/"> -->
-		<a class="service" href="#">
-			<article class="service__content">
-				<h2 class="service__title">Automotive Photography</h2>
-				<p class="service__text">Coming Soon&hellip;</p>
-				<img class="service__photo" src="/assets/images/automotive/huracan-evo-spyder/04.jpg" alt="Car Beauty Photos">
-			</article>
-		</a>
+		<h2>Coming Soon&hellip;</h2>
 	</div>
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Roland Szabó, All rights reserved.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 

@@ -3,21 +3,27 @@ layout: layouts/base.html
 ---
 
 <main class="main">
-	<header class="page-header{% if intro %} page-header--has-intro{% endif %}">
-		<a class="page-header__category" href="/{{ locale }}/{{ tags[0] | replace: 'é', 'e' | replace: 'ó', 'o' | replace: 'ö', 'o' }}/" title="Back to {{ tags[0] | split: '-' | join: ' ' | capitalize }}">{{ tags[0] | split: "-" | join: " " | capitalize }}</a>
-		<h1 class="page-header__title">{{ title }}</h1>
-		<ul class="tags">
-			{% assign tagsies = tags | slice: 1, tags.size %}
-			{% for tag in tagsies %}
-				<li class="tag">
-					<a class="tag__link" href="/{{ locale }}/tags/{{ tag }}/">{{ tag }}</a>
-				</li>
-			{% endfor %}
-		</ul>
-		<p class="page-header__description">{{ intro }}</p>
-	</header>
-	<div class="gallery gallery--single">
-		{{ content }}
+	<div class="container">
+		<header class="page-header{% if intro %} page-header--has-intro{% endif %}">
+			<a class="page-header__category" href="/{{ locale }}/{{ tags[0] | replace: 'é', 'e' | replace: 'ó', 'o' | replace: 'ö', 'o' }}/" title="Back to {{ tags[0] | split: '-' | join: ' ' | capitalize }}">{{ tags[0] | split: "-" | join: " " | capitalize }}</a>
+			<h1 class="page-header__title">{{ title }}</h1>
+			<ul class="tags">
+				{% assign tagsies = tags | slice: 1, tags.size %}
+				{% for tag in tagsies %}
+					<li class="tag">
+						<a class="tag__link" href="/{{ locale }}/tags/{{ tag }}/">{{ tag }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+			<p class="page-header__description">{{ intro }}</p>
+		</header>
+		<div class="gallery gallery--single">
+			{{ content }}
+		</div>
+		{% assign day = date | date: "%d" %}
+		{% assign month = date | date: "%m" %}
+		{% assign year = date | date: "%y" %}
+		{% assign random = day | times: month | times: year | minus: translation.length | modulo: testimonials.items.length %}
+		{% include "partials/cta.html", id: random %}
 	</div>
-	{% include "partials/cta.html" %}
 </main>

@@ -7,7 +7,7 @@ layout: layouts/base.html
 	<header class="page-header">
 		<h1 class="page-header__title">{{ site[locale].navGalleries }}</h1>
 	</header>
-	<div class="gallery gallery--galleries">
+	<div class="gallery gallery--galleries container">
 		<a class="polaroids" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">
 			<figure class="polaroid">
 				<div class="polaroid__square">
@@ -20,54 +20,12 @@ layout: layouts/base.html
 						 "
 				 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
 						 src="/assets/images/portraiture/eszter-2/01_200.webp"
-						 alt="{{ site[locale].navGalleriesPortraiture }}"
+						 alt="{{ site[locale].navPortraitWorks }}"
 						 width="700"
 						 height="1050">
 				</div>
 				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">{{ site[locale].navGalleriesPortraiture }}</strong>
-				</figcaption>
-			</figure>
-		</a>
-		<a class="polaroids" href="/{{ locale }}/{{ site[locale].slugGalleriesSocialContent }}/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
-					<img class="polaroid__photo"
-						 srcset="
-						 	/assets/images/social-content/aqua-toria/07_700.webp 700w,
-						 	/assets/images/social-content/aqua-toria/07_500.webp 500w,
-						 	/assets/images/social-content/aqua-toria/07_350.webp 350w,
-						 	/assets/images/social-content/aqua-toria/07_200.webp 200w
-						 "
-				 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
-						 src="/assets/images/social-content/aqua-toria/07_200.webp"
-						 alt="{{ site[locale].navGalleriesSocialContent }}"
-						 width="1050"
-						 height="700">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">{{ site[locale].navGalleriesSocialContent }}</strong>
-				</figcaption>
-			</figure>
-		</a>
-		<a class="polaroids" href="/{{ locale }}/{{ site[locale].slugGalleriesAutomotive }}/">
-			<figure class="polaroid">
-				<div class="polaroid__square">
-					<img class="polaroid__photo"
-						 srcset="
-						 	/assets/images/automotive/rs5-b8/07_700.webp 700w,
-						 	/assets/images/automotive/rs5-b8/07_500.webp 500w,
-						 	/assets/images/automotive/rs5-b8/07_350.webp 350w,
-						 	/assets/images/automotive/rs5-b8/07_200.webp 200w
-						 "
-				 		 sizes="(min-width: 1500px) 664px, calc(50vw - 40px)"
-						 src="/assets/images/automotive/rs5-b8/07_200.webp"
-						 alt="{{ site[locale].navGalleriesAutomotive }}"
-						 width="700"
-						 height="1050">
-				</div>
-				<figcaption class="polaroid__caption">
-					<strong class="polaroid__title">{{ site[locale].navGalleriesAutomotive }}</strong>
+					<strong class="polaroid__title">{{ site[locale].navPortraitWorks }}</strong>
 				</figcaption>
 			</figure>
 		</a>

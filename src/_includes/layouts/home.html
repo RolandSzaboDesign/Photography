@@ -5,58 +5,84 @@ css: home
 ---
 
 <main class="main home">
-	<header class="page-header">
-		<h1 class="home__title">{{ site[locale].homepageTitle }}</h1>
-		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
-		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
-	</header>
-
-	<div class="home__grid">
-		<section>
-			<h2 class="home__subtitle">{{ site[locale].homepageSoloPortraits }}</h2>
-			<div class="masonry">
-				{% include "partials/homepage-photo-landscape.html", name: 'jazmin', id: '03', loading: 'eager' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'eszter-2', id: '01' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'balazs', id: '01' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'eperke-2', id: '01' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'arianna', id: '02' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'eszter-3', id: '03' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'kata', id: '01' %}
-			</div>
-		</section>
-
-		<section>
-			<h2 class="home__subtitle">{{ site[locale].homepageCouplePortraits }}</h2>
-			<div class="masonry">
-				{% include "partials/homepage-photo-landscape.html", name: 'cinta-jorge', id: '01' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'aliz-adam', id: '04' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'amelie-gerson', id: '03' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'luca-david', id: '03' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'jackeline-andre', id: '04' %}
-				{% include "partials/homepage-photo-portrait.html", name: 'linda-gyuri', id: '07' %}
-				{% include "partials/homepage-photo-landscape.html", name: 'cinta-jorge', id: '07' %}
-			</div>
-		</section>
-	</div>
-
-	<div class="home-bottom">
-		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
-		<a class="home__link" href="/{{ locale }}/{{ site[locale].slugGalleries }}/">{{ site[locale].homepageLink }}</a>
-	</div>
-
-	<aside class="lightbox">
-		<div class="lightbox__container">
-			<figure class="lightbox__figure">
-				<img class="lightbox__image" src="" alt="">
-				<!-- <figcaption class="lightbox__caption"></figcaption> -->
-			</figure>
-			<nav class="lightbox__nav">
-				<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-				<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
+	<section class="section section--top section--border">
+		<div class="container">
+			<header class="page-header">
+				<h1 class="home__title">{{ site[locale].homepageMainTitle }}</h1>
+			</header>
+			<nav class="home-nav">
+				<ul class="home-nav__list">
+					<li class="home-nav__item">
+						<a class="home-nav__link home-nav__link--female" href="/{{ locale }}/{{ site[locale].slugFemalePortraits }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageFemalePortraits }}</span>
+						</a>
+					</li>
+					<li class="home-nav__item">
+						<a class="home-nav__link home-nav__link--male" href="/{{ locale }}/{{ site[locale].slugMalePortraits }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageMalePortraits }}</span>
+						</a>
+					</li>
+					<li class="home-nav__item">
+						<a class="home-nav__link home-nav__link--couple" href="/{{ locale }}/{{ site[locale].slugCouplePortraits }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageCouplePortraits }}</span>
+						</a>
+					</li>
+				</ul>
 			</nav>
+			<div class="home__cta">
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+				<a class="home__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageLink }}</a>
+			</div>
 		</div>
-		<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
-	</aside>
+	</section>
 
-	<script src="/assets/js/lightbox.js" defer></script>
+	<section class="section section--white section--border">
+		<div class="home-about container">
+			<div>
+				{{ content }}
+				<div class="home__cta">
+					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+				</div>
+			</div>
+			<figure>
+				<img src="/assets/images/roland-home.jpg" alt="Hellóka!" title="Hellóka!">
+				<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<blockquote class="testimonial">
+				<div class="testimonial__content">
+					<p class="testimonial__text">{{ testimonials.items[0][locale].text }}</p>
+					<cite class="testimonial__cite">
+						<a class="testimonial__author-link" href="{{ testimonials.items[0][locale].link }}">{{ testimonials.items[0][locale].name }}</a>
+					</cite>
+				</div>
+				<a class="testimonial__photo-link" href="{{ testimonials.items[0][locale].link }}">
+					<img class="testimonial__photo" src="{{ testimonials.items[0].photo }}" alt="{{ testimonials.items[0][locale].name }}">
+				</a>
+			</blockquote>
+
+			<dl class="stats">
+				<div class="stat">
+					<dt class="stat__key">{{ site[locale].homepageStatsKey1 }}</dt>
+					<dd class="stat__value">168</dd>
+				</div>
+				<div class="stat">
+					<dt class="stat__key">{{ site[locale].homepageStatsKey2 }}</dt>
+					<dd class="stat__value">92</dd>
+				</div>
+				<div class="stat">
+					<dt class="stat__key">{{ site[locale].homepageStatsKey3 }}</dt>
+					<dd class="stat__value"><span title="Végtelen">∞</span></dd>
+				</div>
+			</dl>
+
+			<div class="home__cta">
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+			</div>
+		</div>
+	</section>
 </main>

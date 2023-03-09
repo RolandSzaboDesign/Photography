@@ -5,7 +5,7 @@
 		<title>Rólam | Szabó Roland | Budapesti Portré Fotós</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta name="description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -22,7 +22,7 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.photo/hu/rolam/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
-		<meta property="og:description" content="Portrékat készítek laza hangulatú fotós sétákon Budapesten.">
+		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
 		<meta property="og:title" content="Rólam | Szabó Roland | Budapesti Portré Fotós">
 
 		<!-- Styles -->
@@ -38,57 +38,46 @@
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
 		<script defer src="/assets/js/analytics.js"></script>
 	</head>
+
 	<body>
 		<header class="header">
-	<a class="logo" href="/hu/" title="Back to the Homepage">
-		<strong class="logo__name">Szabó Roland</strong>
-		<span class="logo__tagline">Budapesti Portré Fotós</span>
-	</a>
-
-	<nav class="lang">
-		<ul class="lang__list">
-				<li class="lang__item">
-					<a class="lang__link" href="/en/about/">
-						<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
-					</a>
+	<div class="header__container container">
+		<a class="logo" href="/hu/" title="Back to the Homepage">
+			<strong class="logo__name">Szabó Roland</strong>
+			<span class="logo__tagline">Budapesti Portré Fotós</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link" href="/en/about/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/hu/rolam/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/rolam/">Rólam</a>
 				</li>
-				<li class="lang__item">
-					<a class="lang__link lang__link--active" href="/hu/rolam/">
-						<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
-					</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/portre/">Munkáim</a>
 				</li>
-		</ul>
-	</nav>
-	<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
-	<nav id="main-menu" class="nav nav--header">
-		<ul class="nav__list">
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/rolam/">Rólam</a>
-			</li>
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/galeriak/">Galériák</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/portre/">Portré</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/kozossegi-tartalom/">Közösségi Tartalom</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/auto/">Autó</a></li>
-				</ul>
-			</li>
-			<!-- <li class="nav__item">
-				<a class="nav__link" href="/szolgaltatasok/">Szolgáltatások</a>
-				<ul class="nav__dropdown">
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/portre-fotos-setak/">Portrézós Fotós Séták</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/kozossegi-tartalomgyartas/">Közösségi Tartalomgyártás</a></li>
-					<li class="nav__item"><a class="nav__link" href="/hu/szolgaltatasok/auto-fotozas/">Új- és Használtautó Fotózás</a></li>
-				</ul>
-			</li> -->
-			<li class="nav__item">
-				<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
-			</li>
-			<li class="nav__item nav__item--button">
-				<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/"><span class='portre'>Portré </span>Fotós Séták</a>
-			</li>
-		</ul>
-	</nav>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/kapcsolat/">Kapcsolat</a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="/hu/szolgaltatasok/portre-fotos-setak/">Fotózzunk!</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 		
@@ -96,7 +85,7 @@
 	<header class="page-header">
 		<h1 class="page-header__title">Rólam</h1>
 	</header>
-	<section class="about">
+	<section class="about container">
 		<article class="about__content content-box">
 			
 <p>Roland vagyok, jó itt látni Téged! <span title="👴">33 éves</span> lelkes amatőr fotós vagyok Budapestről. Régen nagyon sokat fotóztam telefonnal, majd két éve kezdtem el komolyabban, digitális fényképezőgéppel fotózni. A munkámra az <strong>őszinteség és spontaneitás</strong> jellemző. Szeretem megörökíteni a beállítatlan pillanatokat, és hiteles képet mutatni a munkáimban.</p>
@@ -116,7 +105,7 @@
 <h2>Hogyan Tovább?</h2>
 <div class="buttons">
 	<a class="button button--with-arrow" href="/hu/szolgaltatasok/portre-fotos-setak/">Portré Fotózás</a>
-	<a class="button button--with-arrow" href="/hu/galeriak/">Galériák</a>
+	<a class="button button--with-arrow" href="/hu/portre/">Munkáim</a>
 </div>
 
 		</article>
@@ -128,10 +117,12 @@
 </main>
 
 		<footer class="footer">
-	<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
-	<a class="footer__logo" href="#">
-		<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
-	</a>
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2022 &ndash; Szabó Roland, Minden jog fenntartva.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
+		</a>
+	</div>
 </footer>
 
 
