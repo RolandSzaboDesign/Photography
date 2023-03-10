@@ -9,10 +9,9 @@
 }
 
 .home__title {
-	font-family: var(--serif);
-	font-size: 1.625rem;
+	font-size: 1.5rem;
 	color: var(--text-dark);
-	letter-spacing: -.0625rem;
+	letter-spacing: -.05rem;
 }
 
 .home__link {
@@ -25,8 +24,8 @@
 
 .home-nav__list {
 	display: grid;
-	grid-gap: 1rem;
-	min-height: calc(100vh - 13rem);
+	grid-gap: var(--grid-gutter);
+	min-height: calc(100vh - 12.5rem);
 	margin-bottom: 0;
 }
 
@@ -130,6 +129,7 @@
 
 	.home-nav__list {
 		grid-template-columns: repeat(3, 1fr);
+		min-height: calc(100vh - 15rem);
 	}
 
 	.home-nav__link {
@@ -154,6 +154,10 @@
 }
 
 @media only screen and (min-width: 992px) {
+	.home-nav__list {
+		min-height: calc(100vh - 13rem);
+	}
+
 	.home__title {
 		margin-bottom: 1.5rem;
 		font-size: 2.5rem;

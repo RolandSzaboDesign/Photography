@@ -35,7 +35,7 @@ html { box-sizing: border-box; }
 	--highlight: #FF6C6A;
 	--accent: #FFA15D;
 
-	--grid-gutter: 1rem;
+	--grid-gutter: .75rem;
 	--polaroid-padding: .5rem;
 	--transition-duration: .25s;
 	--border-radius: .25rem;
@@ -83,7 +83,7 @@ img {
 
 .main {
 	flex-grow: 1;
-	padding: 2rem 0;
+	padding: 1.5rem 0;
 }
 
 .container {
@@ -234,7 +234,6 @@ hr {
 
 .header {
 	width: 100%;
-	padding: .75rem 1rem;
 	background-color: #FFF;
 	border-bottom: 1px solid var(--bg-dark);
 	box-shadow: 0 0 1rem 0 rgba(0,0,0,.1);
@@ -245,6 +244,8 @@ hr {
 	grid-template-columns: auto 1fr auto;
 	grid-gap: .25rem;
 	align-items: center;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
 }
 
 .logo {
@@ -273,21 +274,22 @@ hr {
 
 .menu-toggle {
 	cursor: pointer;
-	width: 2.75rem;
+	width: 3rem;
 	margin-left: auto;
-	padding: .25rem .75rem;
+	padding: .3125rem .75rem;
 	font-size: 1.5rem;
 	color: var(--text);
 	text-align: center;
-	border-radius: var(--border-radius);
-	border-bottom: 0;
-	transition: var(--transition-duration) color, var(--transition-duration) background-color;
+	border: 1px solid var(--bg-medium);
+	border-radius: 99rem;
+	transition: var(--transition-duration) color, var(--transition-duration) border-color, var(--transition-duration) background-color;
 }
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-	color: var(--highlight);
-	background-color: #FFF;
+	color: var(--text-dark);
+	border-color: var(--bg-dark);
+	background-color: var(--bg-medium);
 }
 
 .nav__dropdown {
@@ -304,8 +306,12 @@ hr {
 }
 
 .nav__item--button {
-	padding: .5rem;
+	padding-top: .5rem;
 	text-align: center;
+}
+
+.nav__item--button .button {
+	display: block;
 }
 
 .nav__link {
@@ -371,7 +377,6 @@ hr {
 
 .footer {
 	width: 100%;
-	padding: 1rem;
 	background-color: #FFF;
 	border-top: 1px solid var(--bg-medium);
 	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.1);
@@ -382,6 +387,8 @@ hr {
 	grid-gap: .5rem;
 	align-items: center;
 	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .footer__logo {
@@ -442,7 +449,7 @@ hr {
 /* Page Header */
 
 .page-header {
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
 	text-align: center;
 }
 
@@ -484,43 +491,45 @@ hr {
 	margin-bottom: 2rem;
 }
 
-.polaroids {
-	position: relative;
-	z-index: 1;
-	display: block;
-	margin: .5rem;
-	color: var(--text);
-	border-bottom: 0;
-}
+@media only screen and (min-width: 576px) {
+	.polaroids {
+		position: relative;
+		z-index: 1;
+		display: block;
+		margin: .5rem;
+		color: var(--text);
+		border-bottom: 0;
+	}
 
-.polaroids:before,
-.polaroids:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	background-color: #FFF;
-	box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
-	transition: var(--transition-duration) transform;
-}
+	.polaroids:before,
+	.polaroids:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		background-color: #FFF;
+		box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
+		transition: var(--transition-duration) transform;
+	}
 
-.polaroids:before {
-	top: -.5rem;
-	left: -.375rem;
-	right: .375rem;
-	bottom: .5rem;
-	transform: rotate(-.5deg);
-}
+	.polaroids:before {
+		top: -.5rem;
+		left: -.375rem;
+		right: .375rem;
+		bottom: .5rem;
+		transform: rotate(-.5deg);
+	}
 
-.polaroids:after {
-	top: .375rem;
-	left: .5rem;
-	right: -.5rem;
-	bottom: -.375rem;
-	transform: rotate(.5deg);
-}
+	.polaroids:after {
+		top: .375rem;
+		left: .5rem;
+		right: -.5rem;
+		bottom: -.375rem;
+		transform: rotate(.5deg);
+	}
 
-.polaroids:hover:before { transform: rotate(.5deg); }
-.polaroids:hover:after { transform: rotate(-.5deg); }
+	.polaroids:hover:before { transform: rotate(.5deg); }
+	.polaroids:hover:after { transform: rotate(-.5deg); }
+}
 
 .polaroid {
 	display: flex;
@@ -691,7 +700,7 @@ hr {
 
 @media only screen and (min-width: 576px) {
 	:root {
-		--grid-gutter: 1.25rem;
+		--grid-gutter: 1rem;
 		--polaroid-padding: .75rem;
 	}
 
@@ -728,6 +737,14 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
+	:root {
+		--grid-gutter: 1.25rem;
+	}
+
+	.main {
+		padding: 2rem 0;
+	}
+
 	.section {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
@@ -814,7 +831,7 @@ hr {
 	}
 
 	.nav__item--button {
-		padding: 0;
+		padding-top: 0;
 	}
 
 	.nav__item--button:hover > .nav__link,
@@ -834,6 +851,10 @@ hr {
 
 	.copyright {
 		font-size: .875rem;
+	}
+
+	.page-header {
+		margin-bottom: 2rem;
 	}
 
 	.page-header__title {
