@@ -184,7 +184,7 @@ module.exports = {
 			hu: {
 				id: "hany-foto-atlagosan",
 				question: "Hány fotót szoktak rendelni az emberek átlagosan?",
-				answer: "Az elégedett ügyfeleim általában 20 kép környékén szoktak választani, de ez a szám volt már 10 is, és 60+ is. Van, aki eredetileg csak pár képet szeretne, majd a válogatni való fotók között olyan sok jó képet talál, hogy ez a szám hamar felszökik 20-ra vagy afölé. Minél több képet választasz, annál nagyobb kedvezményt tudok adni a megrendelésedből.",
+				answer: "Az elégedett ügyfeleim általában 20 kép környékén szoktak választani, de ez a szám volt már 10 is, és 60+ is. Van, aki eredetileg csak pár képet szeretne, majd a válogatni való fotók között olyan sok jó képet talál, hogy ez a szám hamar felszökik 20 fölé. Minél több képet választasz, annál nagyobb kedvezményt tudok adni a megrendelésedből.",
 			},
 			en: {
 				id: "how-many-photos-average",
@@ -292,12 +292,12 @@ module.exports = {
 			hu: {
 				id: "budapesten-kivul",
 				question: "Vállalsz fotózást Budapesten kívül is?",
-				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így kb. 100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 12.000 Forint, amit Neked kell állnod a fotók árán felül.",
+				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így kb. 50 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 14.000 Forint, amit Neked kell állnod a fotók árán felül.",
 			},
 			en: {
 				id: "outside-budapest",
 				question: "Is it possible to shoot outside of Budapest, too?",
-				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 100 km vicinity of Budapest. The daily maximum fee for using this service is 12.000 HUF; which you will need to pay for, on top of the photos selected.",
+				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 50 km vicinity of Budapest. The daily fee for using this service is 14.000 HUF; which you will need to pay for, on top of the photos selected.",
 			},
 		},
 		{
@@ -316,12 +316,12 @@ module.exports = {
 			hu: {
 				id: "studio-fotozas",
 				question: "Fotózhatunk stúdióban is?",
-				answer: "Természetesen. Keress meg bátran az ötleteddel, és segítek megtalálni a megfelelő stúdiót számodra. Az árazás ugyanúgy működik, mint a fotós sétáknál, viszont a stúdió bérlését Neked kell intézned.",
+				answer: "Stúdióban csak páros vagy családi fotózásokat vállalok, egyénit nem. Keress meg bátran az ötleteddel, és segítek megtalálni a megfelelő stúdiót számodra. Az árazás ugyanúgy működik, mint a fotós sétáknál, viszont a stúdió bérlését és fizetését Neked kell intézned.",
 			},
 			en: {
 				id: "studio-photography",
 				question: "Do you shoot in a studio as well?",
-				answer: "Absolutely. Please reach out to me with your specific idea, and we'll figure out the best studio for your photoshoot. Pricing is the same for studio portraits, but please note that paying for the studio rental is your responsibility.",
+				answer: "I'll only do studio sessions with couples or families. Please reach out to me with your specific idea, and we'll figure out the best studio for your photoshoot. Pricing is the same for studio portraits, but please note that renting and paying for the studio is your responsibility.",
 			},
 		},
 		{

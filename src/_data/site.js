@@ -36,7 +36,6 @@ module.exports = {
 		"navPortraitWorks": "Portraiture",
 		"navContact": "Contact",
 		"navGear": "Gear",
-		"navBackToGalleries": "Back to Galleries",
 
 		"slugAbout": "about",
 		"slugGalleries": "galleries",
@@ -117,7 +116,6 @@ module.exports = {
 		"navPortraitWorks": "Munkáim",
 		"navContact": "Kapcsolat",
 		"navGear": "Felszerelés",
-		"navBackToGalleries": "Vissza a Gelériákhoz",
 
 		"slugAbout": "rolam",
 		"slugGalleries": "galeriak",
