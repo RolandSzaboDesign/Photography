@@ -1,6 +1,19 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-eszter-2.webp",
+			hu: {
+				name: "Sz. Eszter",
+				text: "Mindig is nagyon szerettem mosolyogva a kamera előtt állni, ezért kifejezetten megörültem ennek a nem mindennapi, kreatív fényfestős fotózásnak. Az egész fotózás pörgős volt, az ötletek egymást követték, a hideg és a szél pedig háttérbe szorultak. A kötetlen ötletelés Rolanddal a fotózás előtt pedig még jobban feldobta a hangulatot. Ilyen kreatív és különleges fotózáson még soha nem vettem részt, úgyhogy nagyon érdekes és inspiráló új élményekkel - és persze csodálatos képekkel - gazdagodhattam. A fotózás egyszerre volt vagány és elegáns, ezért bátran ajánlom mindenkinek, aki kedvet érez, hogy megmutassa a benne lévő kreativitást. Remélem, hogy lesz még lehetőségem hasonló fantáziadús projektben részt venni!",
+				link: "/hu/portre/eszter-5/",
+			},
+			en: {
+				name: "Eszter Sz.",
+				text: "I've always loved standing in front of the camera with a smile, so I was particularly pleased with this unusual, creative photo shoot with light painting. The entire photo shoot was fast-paced, the ideas followed each other, and the cold and the wind took a back seat. The informal brainstorming with Roland before the photoshoot lifted the mood even more. I have never participated in such a creative and special photo shoot before, so I was able to enrich myself with very interesting and inspiring new experiences - and of course wonderful pictures. The photoshoot was edgy and elegant at the same time, so I strongly recommend it to anyone who feels like showing their creativity. I hope that I will have the opportunity to participate in a similar creative project in the future!",
+				link: "/en/portraiture/eszter-5/",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-eszter.webp",
 			hu: {
 				name: "B. Eszter",
@@ -44,12 +57,12 @@ module.exports = {
 			hu: {
 				name: "A. Gréta",
 				text: "Elég sokszor vannak gátlásaim, ha más készít rólam képeket, ezért kicsit aggódtam, hogy egyáltalán komfortosnak érzem-e majd az egész folyamatot és tetszeni fognak-e a képek. Nos, azt kell mondjam, hogy teljesen pozitív csalódás volt számomra. Abban biztos voltam, hogy hihetetlen élmény lesz, mert ez volt az első igazi nagybetűsnek mondható fotózásom, de arra nem számítottam, hogy mekkora magabiztosságot és önbizalmat ad majd a fotózás Rolanddal. Egyszerűen minden kép, amit kaptam, csodálatos volt, és elkapott a bőség zavara, hogy mennyire gyönyörűek egytől egyig. A hangulat végig szuper volt, sok nevetéssel, mindezt profizmussal ötvözve.",
-				link: "/hu/portre/",
+				link: "/hu/portre/greti/",
 			},
 			en: {
 				name: "Gréta A.",
 				text: "I often have inhibitions when someone takes my photo, so I was a little worried about whether I would feel comfortable with the whole process and whether I would like the pictures. Well, I have to say that it was a completely positive disappointment for me. I was sure it would be an incredible experience because it was my first proper photo shoot, but I didn't expect how much self-confidence shooting with Roland would give me. Every picture I received was amazing; I was overwhelmed by how beautiful each one was. The atmosphere was great throughout the photoshoot, with lots of laughter, all combined with professionalism.",
-				link: "/en/portraiture/",
+				link: "/en/portraiture/greti/",
 			},
 		},
 		{
