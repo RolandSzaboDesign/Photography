@@ -49,9 +49,9 @@
 	transition: var(--transition-duration) opacity, var(--transition-duration) transform;
 }
 
-.home-nav__link--female { background-image: url('/assets/images/portraiture/reka-borbala-2/02_700.webp'); }
-.home-nav__link--male   { background-image: url('/assets/images/portraiture/abdallah/01_700.webp'); }
-.home-nav__link--couple { background-image: url('/assets/images/portraiture/jazmin-beni/01_700.webp'); }
+.home-nav__link--female { background-image: url('/assets/images/portraiture/tatum/03_700.webp'); }
+.home-nav__link--male   { background-image: url('/assets/images/portraiture/nicolas-2/03_700.webp'); }
+.home-nav__link--couple { background-image: url('/assets/images/portraiture/cinta-jorge/01_700.webp'); }
 
 .stats {
 	display: grid;
@@ -82,9 +82,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-	.home-nav__link--female { background-image: url('/assets/images/portraiture/reka-borbala-2/07_700.webp'); }
-	.home-nav__link--male { background-image: url('/assets/images/portraiture/abdallah/06_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/jazmin-beni/03_700.webp'); }
+	.home-nav__link--female { background-image: url('/assets/images/portraiture/tatum/02_700.webp'); }
+	.home-nav__link--male { background-image: url('/assets/images/portraiture/nicolas-2/01_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/cinta-jorge/02_700.webp'); }
 }
 
 .home-nav__link-text {
