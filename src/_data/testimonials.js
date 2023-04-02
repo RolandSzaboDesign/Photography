@@ -13,19 +13,19 @@ module.exports = {
 				link: "/en/portraiture/tatum",
 			},
 		},
-		// {
-		// 	photo: "/assets/images/testimonial-lilla.webp",
-		// 	hu: {
-		// 		name: "B. Lilla",
-		// 		text: "",
-		// 		link: "/hu/portre/lilla",
-		// 	},
-		// 	en: {
-		// 		name: "Lilla B.",
-		// 		text: "",
-		// 		link: "/en/portraiture/lilla",
-		// 	},
-		// },
+		{
+			photo: "/assets/images/testimonial-lilla.webp",
+			hu: {
+				name: "B. Lilla",
+				text: "Roland munkája a social medián jött velem szembe. Rögtön be is követtem a zseniális hangulatú, minőségű képeit miatt. Az első közös fotózásunkon vált számomra világossá, hogy nem csak egy nagyszerű fotóst, de egy nagyon jó fej embert ismerhetek meg a személyében. Rolanddal a fotózások mindig iszonyat jó hangulatban telnek, egy percig nem érzi feszélyezve magát az ember. Még akkor sem, ha épp nem szokott a kamera előtt állni, avagy a kamera másik oldalához van szokva. Kreativitása motiváló, segítőkészsége pedig a mai világban ritka. Bármikor beszélek Vele, mindig szívesen ellát hasznos tanácsokkal, bátorít és ösztönöz. Teljes szívemből ajánlom Rolandot, egy élmény vele dolgozni!",
+				link: "/hu/portre/lilla-2",
+			},
+			en: {
+				name: "Lilla B.",
+				text: "I came across Roland's work on social media. I immediately followed him because of his brilliant, high-quality pictures. During our first photo shoot together, it became clear to me that I got to know not only a great photographer, but also a very kind person. The photoshoots with Roland always happen in a very good mood, you don't feel tense for a minute. Not even if you are not used to standing in front of the camera, or if you are used to the other side of the camera. His creativity is motivating and his willingness to help is rare in today's world. Whenever I talk to him, he is always happy to provide me with useful advice, motivation and encouragement. I wholeheartedly recommend Roland, working with him is a delightful experience!",
+				link: "/en/portraiture/lilla-2",
+			},
+		},
 		{
 			photo: "/assets/images/testimonial-eszter-3.webp",
 			hu: {
