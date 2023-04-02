@@ -36,6 +36,7 @@ module.exports = {
 		"navPortraitWorks": "Portraiture",
 		"navContact": "Contact",
 		"navGear": "Gear",
+		"navTestimonials": "Testimonials",
 
 		"slugAbout": "about",
 		"slugGalleries": "galleries",
@@ -53,6 +54,7 @@ module.exports = {
 		"slugPhotoWalks": "photo-walks",
 		"slugContact": "contact",
 		"slugGear": "gear",
+		"slugTestimonials": "testimonials",
 
 		"homepageMainTitle": "I take authentic portraits and tell terrible jokes.",
 		"homepageButton": "Let's do a Photoshoot",
@@ -116,6 +118,7 @@ module.exports = {
 		"navPortraitWorks": "Munkáim",
 		"navContact": "Kapcsolat",
 		"navGear": "Felszerelés",
+		"navTestimonials": "Rólam Mondták",
 
 		"slugAbout": "rolam",
 		"slugGalleries": "galeriak",
@@ -133,6 +136,7 @@ module.exports = {
 		"slugPhotoWalks": "fotos-setak",
 		"slugContact": "kapcsolat",
 		"slugGear": "felszereles",
+		"slugTestimonials": "rolam-mondtak",
 
 		"homepageMainTitle": "Őszinte portré fotókat készítek és borzalmas vicceket mesélek.",
 		"homepageButton": "Fotózzunk!",
