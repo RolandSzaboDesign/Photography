@@ -491,6 +491,10 @@ hr {
 	margin-bottom: 2rem;
 }
 
+.gallery--single {
+	grid-template-columns: 1fr;
+}
+
 @media only screen and (min-width: 576px) {
 	.polaroids {
 		position: relative;
@@ -734,6 +738,8 @@ hr {
 		grid-gap: 1rem;
 		text-align: left;
 	}
+
+	.gallery--single { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media only screen and (min-width: 768px) {
@@ -911,7 +917,6 @@ hr {
 
 	.gallery { grid-template-columns: repeat(4, 1fr); }
 	.gallery--single { grid-template-columns: repeat(2, 1fr); }
-	.gallery--galleries { grid-template-columns: repeat(3, 1fr); }
 
 	.polaroid__title {
 		font-size: 1.25rem;
