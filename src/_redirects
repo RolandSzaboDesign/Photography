@@ -34,13 +34,18 @@
 /automotive/mol-limo-2/									/hu/									301
 /automotive/r8-green-hell/								/hu/									301
 /automotive/rs5-r/										/hu/									301
+
+/en/automotive/											/en/									301
 /en/automotive/991.2-cabriolet/							/en/									301
 /en/automotive/amg-a35/									/en/									301
 /en/automotive/huracan-evo-spyder/						/en/									301
 /en/automotive/rs5-r/									/en/									301
+
+/hu/auto/												/hu/									301
 /hu/auto/991.2-cabriolet/								/hu/									301
 /hu/auto/amg-a35/										/hu/									301
 /hu/auto/huracan-evo-spyder/							/hu/									301
+/hu/auto/rs5-b8/										/hu/									301
 /hu/auto/rs5-r/											/hu/									301
 
 /landscape/												/hu/									301
@@ -52,7 +57,6 @@
 /landscape/ordog-orom-2021-11-16/						/hu/									301
 /landscape/sas-hegy-2021-11-14/							/hu/									301
 
-/en/portre/												/en/portraiture/						301
 /portrait/												/hu/portre/								301
 /portrait												/hu/portre/								301
 /portrait/dalma/										/hu/portre/dalma/						301
@@ -89,11 +93,14 @@
 /portrait/vivi-2/										/hu/portre/vivi/						301
 /portrait/vivi-3/										/hu/portre/vivi/						301
 /portrait/vivien/										/hu/portre/vivi/						301
+
 /portraiture/											/hu/portre/								301
 /portraiture											/hu/portre/								301
 /portraiture/dalma/										/hu/portre/dalma/						301
 /portraiture/reka/										/hu/portre/reka/						301
 /portraiture/viki-virag/								/hu/portre/viki-virag/					301
+
+/en/portre/												/en/portraiture/						301
 /hu/portraiture/										/hu/portre/								301
 
 /social-content/										/hu/									301
@@ -102,13 +109,17 @@
 /social-content/inna-faith-tattoo/						/hu/									301
 /social-content/pinceszinhaz/							/hu/									301
 /social-content/the-damn-good-place/					/hu/									301
-/en/social-content/aqua.toria/							/en/									301
+
+/en/social-content/										/en/									301
+/en/social-content/aqua-toria/							/en/									301
 /en/social-content/budapart-mol-limo/					/en/									301
 /en/social-content/inna-faith-tattoo/					/en/									301
 /en/social-content/four-seasons-hotel-budapest/			/en/									301
 /en/social-content/pinceszinhaz/						/en/									301
 /en/social-content/the-damn-good-place/					/en/									301
-/hu/kozossegi-tartalom/aqua.toria/						/hu/									301
+
+/hu/kozossegi-tartalom/									/hu/									301
+/hu/kozossegi-tartalom/aqua-toria/						/hu/									301
 /hu/kozossegi-tartalom/budapart-mol-limo/				/hu/									301
 /hu/kozossegi-tartalom/four-seasons-hotel-budapest/		/hu/									301
 /hu/kozossegi-tartalom/inna-faith-tattoo/				/hu/									301
@@ -135,20 +146,7 @@
 /tags/solo/												/hu/tags/egyéni/						301
 /tags/used%20car%20photos/								/hu/tags/all/							301
 
-/hu/tags/artist/										/hu/tags/all/							301
-/hu/tags/aut%C3%B3k/									/hu/tags/all/							301
-/hu/tags/autók/											/hu/tags/all/							301
-/hu/tags/beauty%20shoot/								/hu/tags/all/							301
-/hu/tags/belt%C3%A9r/									/hu/tags/beltéri/						301
-/hu/tags/beltér/										/hu/tags/beltéri/						301
-/hu/tags/emebrek/										/hu/tags/all/							301
-/hu/tags/hotels/										/hu/tags/all/							301
-/hu/tags/kultúra/										/hu/tags/all/							301
-/hu/tags/családi/										/hu/tags/családi/páros/					301
-/hu/tags/páros/											/hu/tags/családi/páros/					301
-/hu/tags/people/										/hu/tags/all/							301
-/hu/tags/üzlet/											/hu/tags/all/							301
-
+/en/tags/artist/										/en/tags/all/							301
 /en/tags/belt%C3%A9r/									/hu/tags/beltéri/						301
 /en/tags/beltér/										/en/tags/all/							301
 /en/tags/beauty%20shoot/								/en/tags/all/							301
@@ -157,4 +155,20 @@
 /en/tags/family/										/en/tags/family/couples/				301
 /en/tags/hotels/										/en/tags/all/							301
 /en/tags/lifestyle/										/en/tags/all/							301
+/en/tags/people/										/en/tags/all/							301
 /en/tags/photo%20story/									/en/tags/all/							301
+
+/hu/tags/artist/										/hu/tags/all/							301
+/hu/tags/aut%C3%B3k/									/hu/tags/all/							301
+/hu/tags/autók/											/hu/tags/all/							301
+/hu/tags/beauty%20shoot/								/hu/tags/all/							301
+/hu/tags/belt%C3%A9r/									/hu/tags/beltéri/						301
+/hu/tags/beltér/										/hu/tags/beltéri/						301
+/hu/tags/emebrek/										/hu/tags/all/							301
+/hu/tags/hotel/											/hu/tags/all/							301
+/hu/tags/hotels/										/hu/tags/all/							301
+/hu/tags/kult%C3%BAra/									/hu/tags/all/							301
+/hu/tags/családi/										/hu/tags/családi/páros/					301
+/hu/tags/páros/											/hu/tags/családi/páros/					301
+/hu/tags/people/										/hu/tags/all/							301
+/hu/tags/%C3%BCzlet/									/hu/tags/all/							301

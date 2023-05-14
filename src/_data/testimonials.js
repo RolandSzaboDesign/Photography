@@ -18,12 +18,12 @@ module.exports = {
 			hu: {
 				name: "B. Lilla",
 				text: "Roland munkája a social medián jött velem szembe. Rögtön be is követtem a zseniális hangulatú, minőségű képeit miatt. Az első közös fotózásunkon vált számomra világossá, hogy nem csak egy nagyszerű fotóst, de egy nagyon jó fej embert ismerhetek meg a személyében. Rolanddal a fotózások mindig iszonyat jó hangulatban telnek, egy percig nem érzi feszélyezve magát az ember. Még akkor sem, ha épp nem szokott a kamera előtt állni, avagy a kamera másik oldalához van szokva. Kreativitása motiváló, segítőkészsége pedig a mai világban ritka. Bármikor beszélek Vele, mindig szívesen ellát hasznos tanácsokkal, bátorít és ösztönöz. Teljes szívemből ajánlom Rolandot, egy élmény vele dolgozni!",
-				link: "/hu/portre/lilla-2",
+				link: "/hu/portre/lilla-2/",
 			},
 			en: {
 				name: "Lilla B.",
 				text: "I came across Roland's work on social media. I immediately followed him because of his brilliant, high-quality pictures. During our first photo shoot together, it became clear to me that I got to know not only a great photographer, but also a very kind person. The photoshoots with Roland always happen in a very good mood, you don't feel tense for a minute. Not even if you are not used to standing in front of the camera, or if you are used to the other side of the camera. His creativity is motivating and his willingness to help is rare in today's world. Whenever I talk to him, he is always happy to provide me with useful advice, motivation and encouragement. I wholeheartedly recommend Roland, working with him is a delightful experience!",
-				link: "/en/portraiture/lilla-2",
+				link: "/en/portraiture/lilla-2/",
 			},
 		},
 		{
@@ -31,12 +31,12 @@ module.exports = {
 			hu: {
 				name: "Sz. Eszter",
 				text: "Amikor Rolanddal először fotózni mentem, kicsit tartottam az egésztől; nem vagyok hozzászokva, hogy más fotóz engem. Nagyon könnyű volt vele megtalálni a közös hangot, nem kellett feszengenem, és ami leginkább segített, hogy nyitott volt az én preferenciáimra, valóban partnerként kezelt a fotózás, ötletelés, és az elkészült képek kiválasztása során. Azóta már többször is fotóztunk együtt, és bátran ajánlom őt azoknak, akik szeretnének olyan képeket magukról, amiken tényleg a legjobb oldaluk köszön vissza!",
-				link: "/hu/portre/eszter-7",
+				link: "/hu/portre/eszter-7/",
 			},
 			en: {
 				name: "Eszter Sz.",
 				text: "When I went to take photos with Roland for the first time, I was a little afraid of it all; I'm not used to someone else taking pictures of me. It was very easy to find common ground with him, I didn't have to strain, and what helped me the most was that he was open to my preferences. He really treated me as an equal partner during the brainstorming, photography, and final selection process. Since then, we have taken photos together several times, and I strongly recommend him to those who want pictures of themselves that really reflect their best side!",
-				link: "/en/portraiture/eszter-7",
+				link: "/en/portraiture/eszter-7/",
 			},
 		},
 		{
@@ -44,12 +44,12 @@ module.exports = {
 			hu: {
 				name: "N. Kata",
 				text: "Életem során rengeteget izgultam, féltem kiállni emberek elé és nehezen tudtam őszintén mosolyogni. Egyik nap szembe jött velem Roli fotós oldala, és nagyon szimpatikus volt ő maga is és a képei is. Nagyon örültem, hogy gyorsan válaszolt, és még azon a héten el is tudtunk menni fotózni. Nagyon izgultam az elején, mert azt hittem, hogy rólam nem lehet jó fotót csinálni, de ő mégis tudott. A sok poénjával könnyen oldotta a hangulatot, így egyből az igazi mosolyom bújt elő, és szenzációs képeink születtek. Mindenkinek ajánlani tudom, Roland remek társaság, aki csodás képeket, emlékeket készít. Már sokszor voltam vele portré fotózni egyéniben és párosban is, és vele minden alkalom egy feltöltődés.",
-				link: "/hu/portre/kata-mira-2",
+				link: "/hu/portre/kata-mira-2/",
 			},
 			en: {
 				name: "Kata N.",
 				text: "Throughout my life, I was nervous a lot, I was afraid to stand in front of people and it was difficult for me to smile sincerely. One day I came across Roli's photography page, and he himself and his pictures were very nice. I was very happy that he responded quickly and we were even able to go for a portrait shoot that week. I was very nervous at the beginning, because I thought it was impossible to take a good photo of me, but he was easily able to mane great photos. He quickly created comfort with his many jokes, so my real smile immediately appeared, and we achieved some sensational portraits. I can recommend him to everyone, Roland is a great company who creates wonderful pictures and memories. I have taken portrait photos with him many times already, both individually and as a couple, and every time with him is a recharge.",
-				link: "/en/portraiture/kata-mira-2",
+				link: "/en/portraiture/kata-mira-2/",
 			},
 		},
 		{
@@ -57,12 +57,12 @@ module.exports = {
 			hu: {
 				name: "G. Mici",
 				text: "Rolanddal pár hónappal ezelőtt sodort össze minket az élet, amikor egy kellemes tavaszi délutánon váratlanul odalépett hozzánk, hogy a távolból csinált rólunk a barátnőmmel pár fotót. Teljesen el voltunk ragadtatva, szuper képek lettek! Látva a további munkáit, biztos voltam benne, ha minőségi fotókra lesz szükségem, még keresni fogom. Hamarosan így is lett, és abszolút beváltotta a hozzá fűzött reményeimet. A fotózás alatt gondoskodott az oldottabb hangulatról, könnyen meg tudtuk találni a közös hangot, és tökéletesen el tudta találni az elképzelésemet. Kifejezetten elégedett voltam a rugalmasságával és gyorsaságával az időpont egyeztetés, maga a fotózás és a megkapott képek tekintetében is. Csak ajánlani tudom Rolandot mindenkinek! És ahogy meglátja, használja a fényt… na azt tedd próbára!",
-				link: "/hu/portre/mici",
+				link: "/hu/portre/mici/",
 			},
 			en: {
 				name: "Mici G.",
 				text: "Life brought Roland and I together a few months ago, when he approached us unexpectedly on a pleasant spring afternoon to take a few photos of me and my girlfriend from afar. We were completely delighted, the pictures turned out great! After seeing his other work, I was sure that if I needed quality photos, I would go to him. It soon became so, and it absolutely lived up to my expectations! During the photo shoot, he ensured a very relaxed atmosphere, we could easily find common ground, and he was able to perfectly capture my ideas. I was particularly satisfied with his flexibility and speed in terms of scheduling the appointment, the photography itself, and the images I received. I can only recommend Roland to everyone! And as soon as you see him using the light… well, you should really see him!",
-				link: "/en/portraiture/mici",
+				link: "/en/portraiture/mici/",
 			},
 		},
 		{
@@ -70,12 +70,12 @@ module.exports = {
 			hu: {
 				name: "O. Detti",
 				text: "Immár másodszor volt szerencsém Rolanddal együtt dolgozni. Bevallom, meglepett, amikor pár hónappal ezelőtt az utcán egy spontán fotózásra szólított le. Sosem tartottam fotogénnek magam, meggyőződésem volt, hogy rólam szinte lehetetlen előnyös képet készíteni. Ezzel ellentétben, erre mindkét alkalom tökéletesen rácáfolt. A fotózások remek hangulatban teltek, a végeredményért pedig egyszerűen oda és vissza vagyok. Fontosnak tartom még megemlíteni Roland személyét; kedves, türelmes, és a fotózás teljes időtartalma alatt igyekszik az önfeledt légkör megteremtésére. Aki egy kis önbizalom növelésre, jó hangulatra, és persze csoda képekre vágyik, annak szívből tudom ajánlani Őt!",
-				link: "/hu/portre/detti",
+				link: "/hu/portre/detti/",
 			},
 			en: {
 				name: "Detti O.",
 				text: "It's been the second time I had the pleasure of working with Roland. I admit, I was surprised when he invited me to a spontaneous photo shoot on the street a few months ago. I never considered myself photogenic, I was convinced that it was almost impossible to take a favorable picture of me. On the contrary, it was completely refuted on both occasions. The photoshoots were in a great atmosphere, and I am simply there and back for the end result. I also consider it important to mention the person of Roland; he is kind, patient, and tries to create a self-effacing atmosphere during the entire duration of the photo shoot. I can wholeheartedly recommend him to anyone who wants a little self-confidence boost, a good mood, and of course wonderful pictures!",
-				link: "/en/portraiture/detti",
+				link: "/en/portraiture/detti/",
 			},
 		},
 		{
