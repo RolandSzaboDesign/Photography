@@ -1,5 +1,6 @@
 module.exports = {
 	url: "https://rolandszabo.photo",
+	lastUpdatedOn: new Date().toLocaleString(),
 	languages: [
 		{
 			code: "en",
@@ -13,6 +14,7 @@ module.exports = {
 	en: {
 		"siteTitle": "Roland Szabó | Budapest Portrait Photographer",
 		"copyright": "All rights reserved.",
+		"lastUpdated": "Last updated on",
 		"backToTop": "Back to the top of the page",
 		"backToHomepage": "Back to the Homepage",
 
@@ -95,6 +97,7 @@ module.exports = {
 	hu: {
 		"siteTitle": "Szabó Roland | Budapesti Portré Fotós",
 		"copyright": "Minden jog fenntartva.",
+		"lastUpdated": "Utoljára frissítve:",
 		"backToTop": "Vissza az oldal tetejére",
 		"backToHomepage": "Vissza a Kezdőoldalra",
 
