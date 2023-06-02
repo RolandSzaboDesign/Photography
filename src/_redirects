@@ -1,10 +1,5 @@
 /														/hu/									301
 
-/en/*													/en/404.html							404
-/hu/*													/hu/404.html							404
-/404.html												/404									404!
-/404													/404.html								404!
-
 /about/													/hu/rolam/								301
 /about													/hu/rolam/								301
 /contact/												/hu/kapcsolat/							301
@@ -172,3 +167,8 @@
 /hu/tags/páros/											/hu/tags/családi/páros/					301
 /hu/tags/people/										/hu/tags/all/							301
 /hu/tags/%C3%BCzlet/									/hu/tags/all/							301
+
+/en/*													/en/404.html							404
+/hu/*													/hu/404.html							404
+/404.html												/404									404!
+/404													/404.html								404!
