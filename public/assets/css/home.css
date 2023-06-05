@@ -50,8 +50,8 @@
 }
 
 .home-nav__link--female { background-image: url('/assets/images/portraiture/polina/01_700.webp'); }
-.home-nav__link--male   { background-image: url('/assets/images/portraiture/tamas/06_700.webp'); }
-.home-nav__link--couple { background-image: url('/assets/images/portraiture/jazmin-beni/01_700.webp'); }
+.home-nav__link--male   { background-image: url('/assets/images/portraiture/adam-3/03_700.webp'); }
+.home-nav__link--couple { background-image: url('/assets/images/portraiture/detti-dani/03_700.webp'); }
 
 .stats {
 	display: grid;
@@ -83,8 +83,8 @@
 
 @media only screen and (min-width: 768px) {
 	.home-nav__link--female { background-image: url('/assets/images/portraiture/polina/05_700.webp'); }
-	.home-nav__link--male { background-image: url('/assets/images/portraiture/tamas/01_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/jazmin-beni/02_700.webp'); }
+	.home-nav__link--male { background-image: url('/assets/images/portraiture/adam-3/01_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/detti-dani/04_700.webp'); }
 }
 
 .home-nav__link-text {
