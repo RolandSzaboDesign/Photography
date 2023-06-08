@@ -177,7 +177,7 @@ module.exports = {
 			en: {
 				id: "pricing-examples",
 				question: "Can I get some examples on pricing?",
-				answer: "<ul class='list'><li>You only need 5 photos &mdash; that'll be 10.000 HUF.</li><li>You need 10 photos &mdash; that's 20.000 HUF.</li><li>You need 16 photos &mdash; that's only 26.000 HUF.</li><li>You need 8 photos and we rented a car and used it for a total cost of 3000 HUF &mdash; that's 16.000 + 1.500 = 17.500 HUF.</li></ul>",
+				answer: "<ul class='list'><li>You only need 5 photos &mdash; that'll be 10.000 HUF.</li><li>You need 10 photos &mdash; that's 20.000 HUF.</li><li>You need 16 photos &mdash; that's only 26.000 HUF.</li><li>You need 8 photos and we rented a car and used it for a total cost of 3.000 HUF &mdash; that's 16.000 + 1.500 = 17.500 HUF.</li></ul>",
 			},
 		},
 		{

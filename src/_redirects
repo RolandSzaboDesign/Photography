@@ -4,14 +4,15 @@
 /about													/hu/rolam/								301
 /contact/												/hu/kapcsolat/							301
 /contact												/hu/kapcsolat/							301
-/galleries/												/hu/galeriak/							301
-/galleries												/hu/galeriak/							301
+/galleries/												/hu/portre/								301
+/galleries												/hu/portre/								301
 /gear/													/hu/felszereles/						301
 /gear													/hu/felszereles/						301
 /legal/													/hu/kapcsolat/							301
 /legal													/hu/kapcsolat/							301
 /hu/naptar/												/hu/									301
 /en/calendar/											/en/									301
+/en/galleries/											/en/portraiture/						301
 
 /automotive/											/hu/									301
 /automotive												/hu/									301
@@ -34,6 +35,7 @@
 /en/automotive/991.2-cabriolet/							/en/									301
 /en/automotive/amg-a35/									/en/									301
 /en/automotive/huracan-evo-spyder/						/en/									301
+/en/automotive/rs5-b8/									/en/									301
 /en/automotive/rs5-r/									/en/									301
 
 /hu/auto/												/hu/									301
@@ -145,6 +147,7 @@
 /en/tags/belt%C3%A9r/									/hu/tags/beltéri/						301
 /en/tags/beltér/										/en/tags/all/							301
 /en/tags/beauty%20shoot/								/en/tags/all/							301
+/en/tags/cars/											/en/tags/all/							301
 /en/tags/couples/										/en/tags/family/couples/				301
 /en/tags/emberek/										/hu/tags/all/							301
 /en/tags/family/										/en/tags/family/couples/				301
