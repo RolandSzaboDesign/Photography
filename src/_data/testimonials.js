@@ -1,6 +1,32 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-tatum-peter.webp",
+			hu: {
+				name: "Cs. Péter",
+				text: "Általában kerülöm a kamerát, így egyáltalán nem vártam, hogy részt vegyek egy páros fotózáson a feleségemmel. Roland professzionalizmusa és szakértelme azonban sokat segített a fotózásban. Hamar jól éreztem magam a kamera előtt, és a várakozásomat felülmúlta az egész élmény. Összességében a fotózás nagyon romantikus volt, és örökre megőrzöm ezeket a csodás emlékeket a feleségemmel.",
+				link: "/hu/portre/tatum-peter",
+			},
+			en: {
+				name: "Péter Cs.",
+				text: "As someone who typically avoids the camera, I was not looking forward to participating in a couples shoot with my wife. However, Roland's professionalism and artistic understanding for composition helped guide the photoshoot. I felt comfortable in front of the camera and my expectations were exceeded for the entire experience. Overall, the photoshoot was quite romantic and I look forward to cherishing these forever memories with my wife.",
+				link: "/en/portraiture/tatum-peter",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-adam.webp",
+			hu: {
+				name: "H. Ádám",
+				text: "Egy ideje követtem Roland munkásságát, és igazán tetszettek a portrék, amiket készített másokról, ezért megbeszéltünk egy fotózást. Nagyon rugalmas az időpontegyeztésben, így könnyű dolgod lesz vele. Illetve, ha ez lesz az első portréfotózásod, mint nekem, feltétlenül ajánlom Rolandot, hiszen mindenben türelmesen segített és a koncepciót is együtt találtuk ki. A fentieknek köszönhetően nagyon pozitív élmény volt számomra a fotózás, amit ezúton is köszönök mégegyszer!",
+				link: "/hu/portre/adam-3",
+			},
+			en: {
+				name: "Ádám H.",
+				text: "I've been following Roland's work for a while and I really liked the portraits he made of others, so we arranged a photo shoot. He is very flexible in scheduling, so it will be easy for you to work with him. And, if this is your first portrait shoot, like me, I definitely recommend Roland, as he patiently helped with everything and we came up with the concept together. Thanks to the above, the photo shoot was a very positive experience for me, for which I would like to thank Roland once again!",
+				link: "/en/portraiture/adam-3",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-tatum.webp",
 			hu: {
 				name: "Cs. Tatum",

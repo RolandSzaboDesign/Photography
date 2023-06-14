@@ -115,9 +115,6 @@
 }
 
 .vintage-promo {
-	display: grid;
-	grid-gap: 1rem;
-	align-items: center;
 	margin-top: 2rem;
 	padding: 1rem;
 	border: 1px solid var(--bg-dark);
@@ -127,7 +124,7 @@
 }
 
 .vintage-promo__title {
-	margin-top: 0;
+	margin: .75rem 0 1rem;
 }
 
 .vintage-promo__image-link {
@@ -135,6 +132,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+	.vintage-promos {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 2rem;
+	}
+
 	.steps {
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 3rem;
