@@ -1,6 +1,19 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-gyuri.webp",
+			hu: {
+				name: "H. György",
+				text: "Egy ismerősömön keresztül találtam rá Rolandra, és egyből megtetszett a stílusa. Rugalmasan meg tudtuk beszélni az időpontot, én megmondtam, hogy milyen jellegű képekre és háttérre gondolok, és ő egy tökéletes helyszínt ajánlott hozzá. Ez volt az első fotózásom, így az elején nem igazán éreztem magam a bőrömben, de Roland nagyon megértő volt, mindvégig rendkívül pozitív és laza volt a hangulat, emelett több hasznos tippet adott pózolás terén. Ezeknek köszönhetően a végére már sokkal magabiztosabbnak éreztem magam, és remek képek sikerültek. Ha első fotózásodon gondolkodsz, de bizonytalan vagy a megfelelő fotós terén, aki kisegít mindenben, szívből ajánlani tudom Rolandot, hihetetlen élmény lesz.",
+				link: "/hu/portre/gyuri",
+			},
+			en: {
+				name: "György H.",
+				text: "I found Roland through an acquaintance and immediately liked his style. We were able to discuss the time flexibly, I told him what kind of pictures and background I had in mind, and he recommended just the perfect location. It was my first photoshoot, so I didn't really feel comfortable in my own skin at the beginning, but Roland was very understanding, the atmosphere was extremely positive and relaxed throughout the photoshoot, and he gave me several useful tips on posing. Thanks to these, I felt much more confident by the end, and we managed to take some incredible pictures. If you are thinking about your first photo shoot, but you are unsure about the right photographer who will help you in everything, I can wholeheartedly recommend Roland, it will be an incredible experience.",
+				link: "/en/portraiture/gyuri",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-tatum-peter.webp",
 			hu: {
 				name: "Cs. Péter",
@@ -265,12 +278,12 @@ module.exports = {
 			hu: {
 				name: "M. Anna",
 				text: "Tökéletesek! Egytől egyig. Amikor utaztam a fotózás helyszínére, azon gondolkodtam, hogy szerintem 4-5 kép bőven elég lesz, végtére is, minek több? Nos, abból a több, mint 200 (Roland által örömmel és dalolva készített) képből alig tudtam választani. Mindig megtalálta a jó szögeket, helyeket és kifejezetten nyitott volt az én ötleteimre is végig. Teljesen érthető és követhető instrukciókat adott, valamint segített, hogy az általam elképzelt képek tényleg olyanok legyenek, ahogy azt megálmodtam.",
-				link: "/hu/portre/anna/",
+				link: "/hu/portre/anna-5/",
 			},
 			en: {
 				name: "Anna M.",
 				text: "They are perfect! All of them. When I traveled to the location of the photo shoot, I thought that I think 4-5 pictures will be enough, after all, why more? Well, I could hardly choose from more than 200 pictures (made by Roland with joy and singing). He always found the right angles and places and was particularly open to my ideas throughout. Roland gave fully comprehensible and easy-to-follow instructions and helped me to make sure that the images came to life exactly as I envisioned them.",
-				link: "/en/portraiture/anna/",
+				link: "/en/portraiture/anna-5/",
 			},
 		},
 		{
