@@ -53,17 +53,7 @@ css: home
 
 	<section class="section">
 		<div class="container">
-			<blockquote class="testimonial">
-				<div class="testimonial__content">
-					<p class="testimonial__text">{{ testimonials.items[0][locale].text }}</p>
-					<cite class="testimonial__cite">
-						<a class="testimonial__author-link" href="{{ testimonials.items[0][locale].link }}">{{ testimonials.items[0][locale].name }}</a>
-					</cite>
-				</div>
-				<a class="testimonial__photo-link" href="{{ testimonials.items[0][locale].link }}">
-					<img class="testimonial__photo" src="{{ testimonials.items[0].photo }}" alt="{{ testimonials.items[0][locale].name }}">
-				</a>
-			</blockquote>
+			{% include "partials/testimonial.html", id: 0 %}
 
 			<div class="home__cta">
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
