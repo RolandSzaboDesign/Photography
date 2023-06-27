@@ -1,10 +1,23 @@
 module.exports = {
 	items: [
 		{
+			photo: "/assets/images/testimonial-muskan.webp",
+			hu: {
+				name: "K. Muskan",
+				text: "Szégyenlős vagyok a kamera előtt, nem feltétlenül szeretem ha fotóznak. A filmes fotózásunk elég nagy kihívást jelentett számomra, de Roland minden félelmemet elfeledtette velem a fotózás során. Laza stílusú, elbűvölő személyiség, akit kiváló munkamorál jellemez; a filmes portréfotózás egész folyamata könnyednek tűnt. A folyamat során gondoskodott róla, hogy végig magabiztos legyek. Most visszatekintve az egész élményre,  határozottan azt mondom, hogy nagyon élveztem -- köszönet Rolandnak, hogy ilyen csodálatos fotós!",
+				link: "/hu/portre/muskan",
+			},
+			en: {
+				name: "Muskan K.",
+				text: "I am camera shy, I don't necessarily like being in front of the camera. Going through our film photoshoot was a bit challenging for me, but Roland made me forget all of my fears during the shoot. He has an easy-going, charming personality, and excellent work ethics; the whole process of shooting film portraits with him felt effortless. He made me feel confident and good about myself throughout the process. Now looking back to the whole experience, I'd say that I thoroughly enjoyed the experience, kudos to Roland for being such an amazing photographer.",
+				link: "/en/portraiture/muskan",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-gyuri.webp",
 			hu: {
 				name: "H. György",
-				text: "Egy ismerősömön keresztül találtam rá Rolandra, és egyből megtetszett a stílusa. Rugalmasan meg tudtuk beszélni az időpontot, én megmondtam, hogy milyen jellegű képekre és háttérre gondolok, és ő egy tökéletes helyszínt ajánlott hozzá. Ez volt az első fotózásom, így az elején nem igazán éreztem magam a bőrömben, de Roland nagyon megértő volt, mindvégig rendkívül pozitív és laza volt a hangulat, emelett több hasznos tippet adott pózolás terén. Ezeknek köszönhetően a végére már sokkal magabiztosabbnak éreztem magam, és remek képek sikerültek. Ha első fotózásodon gondolkodsz, de bizonytalan vagy a megfelelő fotós terén, aki kisegít mindenben, szívből ajánlani tudom Rolandot, hihetetlen élmény lesz.",
+				text: "Egy ismerősömön keresztül találtam rá Rolandra, és egyből megtetszett a stílusa. Rugalmasan meg tudtuk beszélni az időpontot, én megmondtam, hogy milyen jellegű képekre és háttérre gondolok, és ő egy tökéletes helyszínt ajánlott hozzá. Ez volt az első fotózásom, így az elején nem igazán éreztem magam a bőrömben, de Roland nagyon megértő volt, mindvégig rendkívül pozitív és laza volt a hangulat, emellett több hasznos tippet adott pózolás terén. Ezeknek köszönhetően a végére már sokkal magabiztosabbnak éreztem magam, és remek képek sikerültek. Ha első fotózásodon gondolkodsz, de bizonytalan vagy a megfelelő fotós terén, aki kisegít mindenben, szívből ajánlani tudom Rolandot, hihetetlen élmény lesz.",
 				link: "/hu/portre/gyuri",
 			},
 			en: {
