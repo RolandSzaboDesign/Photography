@@ -93,7 +93,7 @@ module.exports = {
 		"analogPromoTitle": "Analog Film Photography",
 		"analogPromoText": "Step into the world of rich colors, grainy textures, and evocative storytelling by having your next portrait set shot on film.",
 		"analogPromoButton": "Let's see it!",
-		"analogPromoImageAlt": "Nostalgic photo if Tatum and Peter, shot on Kodak Gold 200 film with a 50-year old Soviet camera.",
+		"analogPromoImageAlt": "Nostalgic photo of Muskan, shot on Kodak UltraMax 400 film with a 50-year old Soviet SLR camera.",
 		"analogPromoLink": "/en/services/film-photo-walks/",
 
 		"vintagePromoTitle": "Best of Both Worlds",
@@ -188,7 +188,7 @@ module.exports = {
 		"analogPromoTitle": "Analóg Filmes Fotózás",
 		"analogPromoText": "Ha igazán retró hangulatú, valóban nem mindennapi fotósorozatot szeretnél, akkor szeretettel ajánlom a filmes fotózás gazdag színeit, szemcsés textúráit és hangulatos történetmesélését!",
 		"analogPromoButton": "Érdekel!",
-		"analogPromoImageAlt": "Nosztalgikus hangulatú fotó Tatum és Péter főszereplésében, amelyet Kodak Gold 200 filmre fotóztunk egy 50 éves szovjet filmes fényképezőgéppel.",
+		"analogPromoImageAlt": "Nosztalgikus hangulatú fotó Muskan főszereplésében, melyet Kodak UltraMax 400 filmre fotóztunk egy 50 éves szovjet filmes fényképezőgéppel.",
 		"analogPromoLink": "/hu/szolgaltatasok/filmes-fotos-setak/",
 
 		"vintagePromoTitle": "Mindkét Világ Legjobbja",
