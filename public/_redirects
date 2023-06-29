@@ -155,6 +155,7 @@
 /en/tags/lifestyle/										/en/tags/all/							301
 /en/tags/people/										/en/tags/all/							301
 /en/tags/photo%20story/									/en/tags/all/							301
+/hu/tags/used-car-photos/								/en/tags/all/							301
 
 /hu/tags/artist/										/hu/tags/all/							301
 /hu/tags/aut%C3%B3k/									/hu/tags/all/							301
@@ -170,6 +171,7 @@
 /hu/tags/páros/											/hu/tags/családi/páros/					301
 /hu/tags/people/										/hu/tags/all/							301
 /hu/tags/%C3%BCzlet/									/hu/tags/all/							301
+/hu/tags/used-car-photos/								/hu/tags/all/							301
 
 /en/*													/en/404.html							404
 /hu/*													/hu/404.html							404
