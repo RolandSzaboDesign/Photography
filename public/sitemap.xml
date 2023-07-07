@@ -129,10 +129,6 @@
 		<lastmod>2022-05-07T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/portraiture/lacko/</loc>
-		<lastmod>2022-05-09T00:00:00.000Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/hu/portre/lacko/</loc>
 		<lastmod>2022-05-09T00:00:00.000Z</lastmod>
 	</url>
@@ -801,6 +797,10 @@
 		<lastmod>2023-05-05T00:00:00.000Z</lastmod>
 	</url>
 	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/lacko/</loc>
+		<lastmod>2023-05-09T00:00:00.000Z</lastmod>
+	</url>
+	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/tamas/</loc>
 		<lastmod>2023-05-10T00:00:00.000Z</lastmod>
 	</url>
@@ -879,5 +879,61 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/portre/muskan/</loc>
 		<lastmod>2023-06-15T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/lacko-2/</loc>
+		<lastmod>2023-06-19T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/lacko-2/</loc>
+		<lastmod>2023-06-19T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/leonora/</loc>
+		<lastmod>2023-06-23T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/orsi-mira/</loc>
+		<lastmod>2023-06-23T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/leonora/</loc>
+		<lastmod>2023-06-23T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/orsi-mira/</loc>
+		<lastmod>2023-06-23T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/eszter-8/</loc>
+		<lastmod>2023-06-25T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/eszter-8/</loc>
+		<lastmod>2023-06-25T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/gabor/</loc>
+		<lastmod>2023-06-28T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/gabor/</loc>
+		<lastmod>2023-06-28T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/laura/</loc>
+		<lastmod>2023-06-29T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/laura/</loc>
+		<lastmod>2023-06-29T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/iulia-radu/</loc>
+		<lastmod>2023-06-30T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/iulia-radu/</loc>
+		<lastmod>2023-06-30T00:00:00.000Z</lastmod>
 	</url>
 </urlset>

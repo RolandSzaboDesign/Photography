@@ -1,5 +1,57 @@
 module.exports = {
 	items: [
+		// {
+		// 	photo: "/assets/images/testimonial-.webp",
+		// 	hu: {
+		// 		name: "",
+		// 		text: "",
+		// 		link: "/hu/portre/",
+		// 	},
+		// 	en: {
+		// 		name: "",
+		// 		text: "",
+		// 		link: "/en/portraiture/",
+		// 	},
+		// },
+		{
+			photo: "/assets/images/testimonial-iulia-radu.webp",
+			hu: {
+				name: "Iulia I. & Radu N.",
+				text: "Rolanddal fotózni abszolút élvezet volt. Ez volt az első profi fotózásunk, és nagyon egyszerűvé tette számunkra az egészet. Professzionalizmusa és minőségi poénjai, hogy jól érezzük magunkat, egy csomó nagyszerű eljegyzési fotót eredményezett, amelyeket örömmel fogunk újra és újra visszanézni.",
+				link: "/hu/portre/iulia-radu",
+			},
+			en: {
+				name: "Iulia I. & Radu N.",
+				text: "Shooting with Roland was an absolute pleasure. Even if it was our first professional photo shooting, he made it all look very easy for us. His professionalism combined with quality jokes to make us feel at ease, resulted in a bunch of great engagement shots that are worth looking at over and over again.",
+				link: "/en/portraiture/iulia-radu",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-gabor.webp",
+			hu: {
+				name: "B. Gábor",
+				text: "Roland egy végtelenül kedves, türelmes és segítőkész ember. A fotózás elejétől kezdve nyugodt volt és igyekezett azon lenni, hogy ne stresszeljem túl a dolgokat. Kíváncsi volt az elképzeléseimre, közösen találtuk ki, hogy hol lehetne jó képeket készíteni (természetesen az ő szakértelmére hagyatkoztam leginkább, amit nem bántam meg). Beszélt arról is, hogy milyen objektíveket használ, hogy mit miért csinálunk, tippeket adott pózokhoz, így kipróbálhattam, hogy melyik kényelmes számomra. Humora nagyon ragadós, a képek készítése közben is elsütött pár poént, ami miatt az összes képemen a mosoly és nevetés valódi és egyáltalán nem erőltetett. Csak ajánlani tudom Rolandot, mert a közös munka eredménye garantált elégedettség.",
+				link: "/hu/portre/gabor",
+			},
+			en: {
+				name: "Gábor B.",
+				text: "Roland is an extremely kind, patient and helpful person. From the beginning of the photo shoot, he was calm and tried to make sure I didn't stress things too much. He was curious about my ideas; we figured out where to take good pictures together (of course, I relied mostly on his expertise, which I didn't regret). He also talked about the lenses he uses, why we do what we do, and gave tips for poses, so I could try out which ones are comfortable for me. His humor is very infectious, he cracked a few jokes even while taking the pictures, which made the smiles and laughter in all my photos genuine and not at all forced. I can only recommend Roland, because the result of working together with him is guaranteed satisfaction.",
+				link: "/en/portraiture/gabor",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-lacko.webp",
+			hu: {
+				name: "A. Lackó",
+				text: "Körülbelül 2 éve ismertem meg Rolandot. Nagyon sok fotóst kipróbáltam előtte, de mióta Rolit ismerem, évente többször is átutazom az országot, mert Ő az a fotós, akit mindenki keres. Olyan képet készít Rólad, amilyet szeretnél, nem szól bele az elképzeléseidbe, de profi tanácsokkal lát el, hogy a képeid minél profibbak legyenek. Ha úgy mész hozzá, hogy nincs elképzelésed, sincs baj, mert mindenben segítőkész, emellett emberileg is egy jószívű, vicces, és legfőképp korrekt ember, aki mellett könnyen feloldódsz, és ezáltal a fotózás is gördülékenyen zajlik. Mindenkinek ajánlani tudom Rolandot így 200+ km-ről is!",
+				link: "/hu/portre/lacko-2",
+			},
+			en: {
+				name: "Lackó A.",
+				text: "I met Roland about 2 years ago. I'd tried a lot of photographers before, but since I've known Roli, I travel across the country several times a year, because he's the photographer everyone is looking for. He crafts photos of you that _you_ want, he doesn't interfere with your ideas, but he provides professional advice to make your pictures as great as possible. If you don't have any ideas, no problem; he's helpful in everything, and he's also a good-hearted, funny, and above all fair person, with whom you can easily relax, and thus the photoshoot goes smoothly. I can recommend Roland to everyone even from 200+ km away!",
+				link: "/en/portraiture/lacko-2",
+			},
+		},
 		{
 			photo: "/assets/images/testimonial-muskan.webp",
 			hu: {
