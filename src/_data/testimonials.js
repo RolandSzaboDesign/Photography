@@ -14,6 +14,19 @@ module.exports = {
 		// 	},
 		// },
 		{
+			photo: "/assets/images/testimonial-laura.webp",
+			hu: {
+				name: "F. Laura Hanna",
+				text: "Bár nem ez volt az első élményem Roli fényképezőgépének a túloldalán, én hajlamos vagyok rástresszelni az ilyen alkalmakra. Nagyjából 5 perc után viszont, mintha kicseréltek volna. A szokásos viccei és poénkodása mindig feldob egy ilyen fotózást. Mivel most különösen izgatott voltam a reptéri téma miatt, nekem hatalmas élmény volt, hogy mennyi gépet láthattam elszállni felettünk. Sokat nevettünk, sokat gyönyörködtünk. De a kedvencem, hogy annak ellenére, hogy nincsenek konkrét elképzeléseim képeket illetően, valahogy mindig olyanok születnek a végén, amik maximálisan tetszenek. Ez volt messze a legjobb fotós élményem eddig.",
+				link: "/hu/portre/laura",
+			},
+			en: {
+				name: "Laura Hanna F.",
+				text: "Although this was not my first experience on the other side of Roli's camera, I tend to stress on such occasions. However, after about 5 minutes, it was as if I had been replaced. His usual jokes and banter always liven up a photoshoot like this. Since I was particularly excited about the airport theme, it was a great experience for me to see how many planes landed right above us. We laughed a lot, and enjoyed the process a lot. But my favorite thing is that, despite the fact that I don't have specific ideas about photos, I always end up with beautiful pictures that I really like. It was by far the best photography experience I've ever had.",
+				link: "/en/portraiture/laura",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-iulia-radu.webp",
 			hu: {
 				name: "Iulia I. & Radu N.",
