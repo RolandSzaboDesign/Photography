@@ -1,6 +1,7 @@
 ---
 permalink: "/{{ locale }}/{{ tags[0] }}/"
 layout: layouts/base.html
+css: lightbox
 ---
 
 <main class="main">
@@ -62,7 +63,21 @@ layout: layouts/base.html
 	</div>
 </main>
 
-<script src="/assets/js/lightbox.js"></script>
+<script src="/assets/js/lightbox.js" defer></script>
+<aside class="lightbox">
+	<div class="lightbox__container">
+		<figure class="lightbox__figure">
+			<img class="lightbox__image" src="" alt="">
+			<span class="lightbox__caption"></span>
+		</figure>
+		<nav class="lightbox__nav">
+			<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
+			<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
+		</nav>
+	</div>
+	<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
+</aside>
+
 <script src="/assets/js/masonry.js"></script>
 <script>
 	var macyInstance = Macy ({
