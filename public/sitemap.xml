@@ -637,10 +637,6 @@
 		<lastmod>2023-03-09T20:15:35.906Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/</loc>
-		<lastmod>2023-03-09T20:15:35.906Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/couple-portraits/</loc>
 		<lastmod>2023-03-09T20:15:35.906Z</lastmod>
 	</url>
@@ -682,10 +678,6 @@
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/felszereles/</loc>
-		<lastmod>2023-03-09T20:15:35.925Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/</loc>
 		<lastmod>2023-03-09T20:15:35.925Z</lastmod>
 	</url>
 	<url>
@@ -935,5 +927,13 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/portre/iulia-radu/</loc>
 		<lastmod>2023-06-30T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/</loc>
+		<lastmod>2023-07-18T20:44:36.981Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/</loc>
+		<lastmod>2023-07-18T20:44:36.981Z</lastmod>
 	</url>
 </urlset>
