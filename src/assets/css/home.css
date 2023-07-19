@@ -3,23 +3,10 @@
 	grid-gap: 2rem;
 }
 
-.home__cta {
-	margin-top: 2rem;
-	text-align: center;
-}
-
 .home__title {
 	font-size: 1.5rem;
 	color: var(--text-dark);
 	letter-spacing: -.05rem;
-}
-
-.home__link {
-	display: block;
-	margin-top: .5rem;
-	color: var(--text);
-	text-align: center;
-	border-bottom: 0;
 }
 
 .home-nav__list {
@@ -84,11 +71,6 @@
 @media only screen and (min-width: 576px) {
 	.home__title {
 		margin-bottom: 1.25rem;
-	}
-
-	.home__link {
-		display: inline-block;
-		margin: 0 0 0 1rem;
 	}
 }
 

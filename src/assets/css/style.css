@@ -432,6 +432,19 @@ hr {
 	text-align: center;
 }
 
+.button-with-link {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.button-with-link__link {
+	display: block;
+	margin-top: .5rem;
+	color: var(--text);
+	text-align: center;
+	border-bottom: 0;
+}
+
 .button--with-arrow {
 	position: relative;
 }
@@ -736,13 +749,13 @@ hr {
 		letter-spacing: -0.0375rem;
 	}
 
-	.brick__caption {
-		font-size: 1.5rem;
-		letter-spacing: -.325px;
-	}
-
 	.buttons {
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.button-with-link__link {
+		display: inline-block;
+		margin: 0 0 0 1rem;
 	}
 
 	.footer__container {
@@ -989,11 +1002,6 @@ hr {
 	.emphasized {
 		font-size: 1.375rem;
 		letter-spacing: -.625px;
-	}
-
-	.brick__caption {
-		font-size: 1.75rem;
-		letter-spacing: -.4px;
 	}
 }
 

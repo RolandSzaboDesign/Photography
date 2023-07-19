@@ -110,16 +110,16 @@ css: photo-walks
 		<div class="container">
 			<h2>Rólam Mondták</h2>
 			<ul class="testimonials">
-				{% include "partials/testimonial.html", id: 3 %}
-				{% include "partials/testimonial.html", id: 4 %}
+				{% include "partials/testimonial.html", id: 1 %}
+				{% include "partials/testimonial.html", id: 2 %}
 			</ul>
 		</div>
 	</section>
 
 	<section class="section">
-		<div class="container">
-			<h2>Induljunk el együtt ezen a kreatív úton!</h2>
-			<p><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Kapcsolatfelvétel</a></p>
+		<div class="button-with-link">
+			<a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Írj Emailt a Kezdéshez</a>
+			<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
 		</div>
 	</section>
 </main>
