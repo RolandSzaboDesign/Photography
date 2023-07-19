@@ -570,6 +570,10 @@ hr {
 	word-break: break-word;
 }
 
+.brick {
+	display: flex;
+}
+
 
 
 /* Testimonials */
