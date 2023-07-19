@@ -36,6 +36,19 @@
 	max-height: calc(100vh - 2rem);
 }
 
+.lightbox__caption {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	display: block;
+	padding: .5rem 1rem;
+	font-size: 1rem;
+	line-height: 1;
+	white-space: nowrap;
+	background-color: #FFF;
+}
+
 .lightbox__arrow {
 	position: absolute;
 	top: 50%;
@@ -85,7 +98,18 @@
 }
 
 @media only screen and (min-width: 576px) {
+	.lightbox__caption {
+		padding: .75rem 1.5rem;
+		font-size: 1.125rem;
+	}
+
 	.lightbox__arrow {
 		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: 576px) {
+	.lightbox__caption {
+		font-size: 1.25rem;
 	}
 }
