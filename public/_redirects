@@ -138,24 +138,25 @@
 /tags/beauty%20shoot/									/hu/tags/all/							301
 /tags/emebrek/											/hu/tags/all/							301
 /tags/family/											/hu/tags/családi/páros/					301
-/tags/female/											/hu/tags/female/						301
+/tags/female/											/en/tags/female/						301
 /tags/lifestyle/										/hu/tags/all/							301
 /tags/solo/												/hu/tags/egyéni/						301
 /tags/used%20car%20photos/								/hu/tags/all/							301
 
 /en/tags/artist/										/en/tags/all/							301
-/en/tags/belt%C3%A9r/									/hu/tags/beltéri/						301
+/en/tags/belt%C3%A9r/									/en/tags/indoors/						301
 /en/tags/beltér/										/en/tags/all/							301
 /en/tags/beauty%20shoot/								/en/tags/all/							301
 /en/tags/cars/											/en/tags/all/							301
 /en/tags/couples/										/en/tags/family/couples/				301
-/en/tags/emberek/										/hu/tags/all/							301
+/en/tags/emberek/										/en/tags/all/							301
 /en/tags/family/										/en/tags/family/couples/				301
 /en/tags/hotels/										/en/tags/all/							301
 /en/tags/lifestyle/										/en/tags/all/							301
 /en/tags/people/										/en/tags/all/							301
 /en/tags/photo%20story/									/en/tags/all/							301
 /en/tags/used-car-photos/								/en/tags/all/							301
+/en/tags/%C3%BCzlet/									/en/tags/all/							301
 
 /hu/tags/artist/										/hu/tags/all/							301
 /hu/tags/aut%C3%B3k/									/hu/tags/all/							301
@@ -163,12 +164,12 @@
 /hu/tags/beauty%20shoot/								/hu/tags/all/							301
 /hu/tags/belt%C3%A9r/									/hu/tags/beltéri/						301
 /hu/tags/beltér/										/hu/tags/beltéri/						301
+/hu/tags/csal%C3%A1di/									/hu/tags/családi/páros/					301
 /hu/tags/emebrek/										/hu/tags/all/							301
 /hu/tags/hotel/											/hu/tags/all/							301
 /hu/tags/hotels/										/hu/tags/all/							301
 /hu/tags/kult%C3%BAra/									/hu/tags/all/							301
-/hu/tags/családi/										/hu/tags/családi/páros/					301
-/hu/tags/páros/											/hu/tags/családi/páros/					301
+/hu/tags/p%C3%A1ros/									/hu/tags/családi/páros/					301
 /hu/tags/people/										/hu/tags/all/							301
 /hu/tags/%C3%BCzlet/									/hu/tags/all/							301
 /hu/tags/used-car-photos/								/hu/tags/all/							301
