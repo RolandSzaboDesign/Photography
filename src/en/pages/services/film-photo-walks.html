@@ -110,17 +110,16 @@ css: photo-walks
 		<div class="container">
 			<h2>Testimonials</h2>
 			<ul class="testimonials">
-				{% include "partials/testimonial.html", id: 3 %}
-				{% include "partials/testimonial.html", id: 4 %}
+				{% include "partials/testimonial.html", id: 1 %}
+				{% include "partials/testimonial.html", id: 2 %}
 			</ul>
 		</div>
 	</section>
 
 	<section class="section">
-		<div class="container">
-			<h2>Let's embark on this creative journey together!</h2>
-			<p>I invite you to step into this enchanting realm of film photography. Let's unleash your unique story, capturing it with timeless craftsmanship. Together, we'll create portraits that speak directly to your heart and become a cherished part of your legacy.</p>
-			<p><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Let's go!</a></p>
+		<div class="button-with-link">
+			<a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Email me to Get Started</a>
+			<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
 		</div>
 	</section>
 </main>

@@ -3,23 +3,10 @@
 	grid-gap: 2rem;
 }
 
-.home__cta {
-	margin-top: 2rem;
-	text-align: center;
-}
-
 .home__title {
 	font-size: 1.5rem;
 	color: var(--text-dark);
 	letter-spacing: -.05rem;
-}
-
-.home__link {
-	display: block;
-	margin-top: .5rem;
-	color: var(--text);
-	text-align: center;
-	border-bottom: 0;
 }
 
 .home-nav__list {
@@ -50,13 +37,13 @@
 }
 
 .home-nav__link--female { background-image: url('/assets/images/portraiture/polina/01_700.webp'); }
-.home-nav__link--male   { background-image: url('/assets/images/portraiture/adam-3/03_700.webp'); }
-.home-nav__link--couple { background-image: url('/assets/images/portraiture/detti-dani/03_700.webp'); }
+.home-nav__link--male   { background-image: url('/assets/images/portraiture/gabor/06_700.webp'); }
+.home-nav__link--couple { background-image: url('/assets/images/portraiture/iulia-radu/08_700.webp'); }
 
 @media only screen and (min-width: 768px) {
-	.home-nav__link--female { background-image: url('/assets/images/portraiture/polina/05_700.webp'); }
-	.home-nav__link--male { background-image: url('/assets/images/portraiture/adam-3/01_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/detti-dani/04_700.webp'); }
+	.home-nav__link--female { background-image: url('/assets/images/portraits/merci_700.webp'); }
+	.home-nav__link--male { background-image: url('/assets/images/portraiture/gabor/05_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/iulia-radu/02_700.webp'); }
 }
 
 .home-nav__link-text {
@@ -84,11 +71,6 @@
 @media only screen and (min-width: 576px) {
 	.home__title {
 		margin-bottom: 1.25rem;
-	}
-
-	.home__link {
-		display: inline-block;
-		margin: 0 0 0 1rem;
 	}
 }
 
@@ -130,5 +112,125 @@
 		margin-bottom: 1.5rem;
 		font-size: 2.5rem;
 		letter-spacing: -.1rem;
+	}
+}
+
+
+
+/* Lightbox */
+
+.lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	z-index: 98;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+	background-color: #FFF;
+}
+
+.lightbox.active {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.lightbox__container {
+	max-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.lightbox__figure {
+	position: relative;
+	display: flex;
+}
+
+.lightbox__image {
+	object-fit: cover;
+	max-height: calc(100vh - 2rem);
+}
+
+.lightbox__caption {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	display: block;
+	padding: .5rem 1rem;
+	font-size: 1rem;
+	line-height: 1;
+	white-space: nowrap;
+	background-color: #FFF;
+}
+
+.lightbox__arrow {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding: 5rem 1rem;
+	font-size: 1.5rem;
+	color: var(--text-dark);
+	line-height: 1;
+	border-bottom: 0;
+	text-shadow: 0 0 .125rem #FFF;
+}
+
+.lightbox__arrow:hover,
+.lightbox__arrow:focus {
+	color: var(--text-dark);
+}
+
+#left  {
+	left: 0;
+}
+
+#right {
+	right: 0;
+}
+
+.lightbox__close {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	width: 3rem;
+	height: 3rem;
+	font-weight: 700;
+	font-size: 3rem;
+	color: var(--text-dark);
+	line-height: 1;
+	text-align: center;
+	border-bottom: 0;
+	border-radius: 100%;
+	background-color: #FFF;
+	transition: var(--transition-duration) color, var(--transition-duration) transform;
+}
+
+.lightbox__close:hover,
+.lightbox__close:focus {
+	color: var(--highlight);
+	transform: rotate(90deg);
+}
+
+@media only screen and (min-width: 576px) {
+	.lightbox__caption {
+		padding: .75rem 1.5rem;
+		font-size: 1.125rem;
+	}
+
+	.lightbox__arrow {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: 576px) {
+	.lightbox__caption {
+		font-size: 1.25rem;
 	}
 }
