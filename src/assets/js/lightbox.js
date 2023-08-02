@@ -1,14 +1,14 @@
-const portfolioImage = document.querySelectorAll('.brick');
-const lightboxEnabled = document.querySelectorAll('.brick__photo');
-const lightboxArray = Array.from(lightboxEnabled);
-const lastImage = lightboxArray.length - 1;
-const lightboxContainer = document.querySelector('.lightbox');
-const lightboxImage = document.querySelector('.lightbox__image');
-const lightboxCaption = document.querySelector('.lightbox__caption');
-const lightboxClose = document.querySelector('.lightbox__close');
-const lightboxButtons = document.querySelectorAll('.lightbox__arrow');
-const lightboxLeft = document.querySelector('#left');
-const lightboxRight = document.querySelector('#right');
+let portfolioImage = document.querySelectorAll('.brick');
+let lightboxEnabled = document.querySelectorAll('.brick__photo');
+let lightboxArray = Array.from(lightboxEnabled);
+let lastImage = lightboxArray.length - 1;
+let lightboxContainer = document.querySelector('.lightbox');
+let lightboxImage = document.querySelector('.lightbox__image');
+let lightboxCaption = document.querySelector('.lightbox__caption');
+let lightboxClose = document.querySelector('.lightbox__close');
+let lightboxButtons = document.querySelectorAll('.lightbox__arrow');
+let lightboxLeft = document.querySelector('#left');
+let lightboxRight = document.querySelector('#right');
 let activeImage;
 
 const removeButtonInactiveClass = () => {
