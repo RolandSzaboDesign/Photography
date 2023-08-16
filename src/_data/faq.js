@@ -40,12 +40,12 @@ module.exports = {
 			hu: {
 				id: "milyen-hosszu",
 				question: "Milyen hosszú egy fotós séta?",
-				answer: "Ameddig szeretnél, addig maradunk. Ha egy gyors sétát szeretnél pár őszinte képpel, akkor 30-60 perccel számolj, ha azonban van kedved egy hosszabb körre, több helyszínnel és akár átöltözéssel, akkor akár 2-3 órát is kint lehetünk. Ha egész nap szeretnél fotózni nagyon sok helyszínen, vagy koncepciót, azt is megbeszéljük.",
+				answer: "Addig maradunk, ameddig szeretnél, de maximum 3 órát. Ha egy gyors sétát szeretnél pár őszinte képpel, akkor 30-60 perccel számolj, ha azonban van kedved egy hosszabb körre, több helyszínnel és akár átöltözéssel, akkor akár 2-3 órát is kint lehetünk. Ha egész nap szeretnél fotózni nagyon sok helyszínen, azt is megbeszéljük.",
 			},
 			en: {
 				id: "how-long",
 				question: "How long is a photo walk?",
-				answer: "We'll stay out for as long as you wish. If you just want a quick walk with a few shots, we're done in 30-45 minutes, but if you want to visit multiple locations and even change outfits along the way, we can stay out for 2-3 hours. If you'd like to shoot all day on a lot of locations, that's all good for me, let's talk about it.",
+				answer: "We'll stay out for as long as you wish, up to 3 hours. If you just want a quick walk with a few shots, we're done in 30-60 minutes, but if you want to visit multiple locations and even change outfits along the way, we can stay out for 2-3 hours. If you'd like to shoot all day in multiple locations, that's all good for me, let's talk about it.",
 			},
 		},
 		{
@@ -64,12 +64,12 @@ module.exports = {
 			hu: {
 				id: "mikor-kapom-meg",
 				question: "Mennyi idő múlva kapom meg az elkészült képeket?",
-				answer: "Általában 1-3 munkanap alatt el szoktam készülni a fotóiddal, onnantól számítva, hogy elküldted nekem az általad választott képeket. Attól függően, hogy éppen mennyire vagyok tele fotózásokkal és szerkesztésekkel, ez az időtartam változhat, amiről időben tájékoztatni foglak.",
+				answer: "Általában 1-5 munkanap alatt el szoktam készülni a fotóiddal, onnantól számítva, hogy elküldted nekem az általad választott képek sorszámait. Attól függően, hogy éppen mennyire vagyok tele fotózásokkal és szerkesztésekkel, ez az időtartam változhat, amiről időben tájékoztatni foglak.",
 			},
 			en: {
 				id: "when-do-i-receive-photos",
 				question: "How long do I need to wait for my edited photos?",
-				answer: "Usually I'll send you the finished photos in 1-3 working days, after you've sent me the ones you selected for editing. Depending on how busy I am with shooting and editing at the given time, this interval might change, but I'll let you know about this in advance.",
+				answer: "Usually I'll send you the finished photos in 1-5 working days, after you've sent me the ones you selected for editing. Depending on how busy I am with shooting and editing at the given time, this interval might change, but I'll let you know about this well in advance.",
 			},
 		},
 		{
@@ -88,12 +88,12 @@ module.exports = {
 			hu: {
 				id: "kepszerkesztes",
 				question: "Hogy működik a képszerkesztés?",
-				answer: "Minden kép, amit megkapsz, egyenként szerkesztve és retusálva lesz. Minden általad kiválasztott fotót színkezelni fogok oly módon, hogy az tükrözze a személyiségedet, a helyszínt, és a fotózásunk témáját. A retusálásba beletartozik a bőr tökéletlenségek eltávolítása, illetve az esetleges babahajak és egyéb, a képre nem illő tárgyak eltávolítása a képekről, ahol szükséges.",
+				answer: "Minden kép, amit megkapsz, egyenként szerkesztve és retusálva lesz. Minden általad kiválasztott fotót színkezelni fogok oly módon, hogy az tükrözze a személyiségedet, a helyszínt, és a fotózásunk témáját. A retusálásba beletartozik a bőr tökéletlenségek eltávolítása, illetve az esetleges babahajak és egyéb, a képre nem illő tárgyak eltávolítása a képekről, ahol szükséges. A retusáláshoz egy rendkívül fejlett, mesterséges intelligencia-alapú szerkesztő programot használok, amellyel csodás végeredményeket tudok készíteni.",
 			},
 			en: {
 				id: "photo-editing",
 				question: "Do you edit the final photos?",
-				answer: "Every photo you receive will be individually edited and retouched. All photos you select after the shoot will be color-graded in a way that matches your personality, the location, and the theme of the shoot. Retouching includes removing skin imperfections and unnecessary flying hairs. Your photos won't be over-edited, they'll have just enough artistic touches applied to best tell your story.",
+				answer: "Every photo you receive will be individually edited and retouched. All photos you select after the shoot will be color-graded in a way that matches your personality, the location, and the theme of the shoot. Retouching includes removing skin imperfections and unnecessary flying hairs. Your photos won't be over-edited, they'll have just enough artistic touches applied to best tell your story. For retouching I use an artificial intelligence-driven editor, with which I can create shockingly beutiful results for you.",
 			},
 		},
 		{
@@ -110,26 +110,26 @@ module.exports = {
 		},
 		{
 			hu: {
-				id: "miert-fekete-feherek",
-				question: "Miért fekete-fehérek és vízjelezettek a válogatásra kiadott képek?",
-				answer: "Azért fekete-fehérek, hogy jobban tudj koncentrálni a képen az arckifejezésedre, a pózra, a környezetre; nem akarom, hogy a nyers színek, amelyeken később úgyis alakítani fogok, elvegyék a kedved egy fotótól. A válogatásra kiadott képek továbbá vízjellel vannak ellátva, hogy jelöljék, hogy ezek nem a véglegesen elkészített képek.",
+				id: "miert-vizjel",
+				question: "Miért vízjelezettek a válogatásra kiadott képek?",
+				answer: "A válogatásra kiadott képek vízjellel vannak ellátva, hogy jelöljék, hogy ezek nem a véglegesen elkészített képek. Kérlek, ezeket a képeket ne oszd meg, mert nem tükrözik a fotóid végleges arculatát.",
 			},
 			en: {
-				id: "why-black-and-white",
-				question: "Why are the photos for selection black-and-white and watermarked?",
-				answer: "The reason for <abbr title='black-and-white'>B/W</abbr> is so that you can better concentrate on the composition, your facial expressions and poses rather than the colors, which will be processed later, anyway. Your photos for selection will be watermarked to denote that they're not final images.",
+				id: "why-watermark",
+				question: "Why are the photos in the proof gallery watermarked?",
+				answer: "Your photos for selection will be watermarked to denote that they're not final images. Please do not share these raw images, as they're not the final products.",
 			},
 		},
 		{
 			hu: {
 				id: "vegleges-vizjelezett",
 				question: "A végleges fotók is vízjelezettek?",
-				answer: "Nem. A végleges képek önmagukért beszélnek, és nincs szükségük a nevemmel büszkélkedni.",
+				answer: "Nem. A végleges fotóid nem vízjelezettek. Ezek a képek önmagukért beszélnek, nincs szükségük a nevemmel büszkélkedni.",
 			},
 			en: {
 				id: "final-photos-watermarked",
 				question: "Are the final photos also watermarked?",
-				answer: "No. I believe your final, edited photos speak for themselves and don't need watermarks.",
+				answer: "No, they are not. I believe your final, edited photos speak for themselves and don't need watermarks.",
 			},
 		},
 		{
@@ -172,12 +172,12 @@ module.exports = {
 			hu: {
 				id: "peldak-arazasra",
 				question: "Adsz néhány példát az árazásra?",
-				answer: "<ul class='list'><li><strong>1. eset:</strong> Csak 5 fotóra van szükséged &mdash; 10.000 Ft.</li><li><strong>2. eset:</strong> 10 fotóra van szükséged &mdash; 20.000 Ft.</li><li><strong>3. eset:</strong> 16 fotóra van szükséged &mdash; 26.000 Ft.</li><li><strong>4. eset:</strong> 8 fotóra van szükséged és béreltünk egy autót 3.000 Ft-ért &mdash; 16.000 + 1.500 = 17.500 Ft.</li></ul>",
+				answer: "<ul class='list'><li><strong>1. eset:</strong> Csak 5 fotóra van szükséged &mdash; 25.000 Ft, ami az alapáram. Így kapsz még 5 képet, amit további módokon fel tudsz használni.</li><li><strong>2. eset:</strong> 10 fotóra van szükséged &mdash; 25.000 Ft, pontosan az alapár.</li><li><strong>3. eset:</strong> 20 fotót választottál a fotózás után &mdash; ez összesen 35.000 Ft.</li><li><strong>4. eset:</strong> 12 fotóra van szükséged és béreltünk egy autót 2.000 Ft-ért &mdash; ez így 25.000 (alapár) + 2.000 (+2 kép) + 2.000 (carsharing) = 29.000 Ft.</li></ul>",
 			},
 			en: {
 				id: "pricing-examples",
 				question: "Can I get some examples on pricing?",
-				answer: "<ul class='list'><li>You only need 5 photos &mdash; that'll be 10.000 HUF.</li><li>You need 10 photos &mdash; that's 20.000 HUF.</li><li>You need 16 photos &mdash; that's only 26.000 HUF.</li><li>You need 8 photos and we rented a car and used it for a total cost of 3.000 HUF &mdash; that's 16.000 + 1.500 = 17.500 HUF.</li></ul>",
+				answer: "<ul class='list'><li>You really only need 5 photos &mdash; that's 25.000 HUF which is my current base fee. That will include an additional 5 photos for further use.</li><li>You need 10 photos &mdash; that's 25.000 HUF, same as the base fee.</li><li>You choose 20 photos after the shoot &mdash; that's a total of 35.000 HUF.</li><li>You need 12 photos and we used a carsharing service to travel between locations for 2.000 HUF &mdash; that's 25.000 (base fee) + 2.000 (+2 photos) + 2.000 (carsharing) = 29.000 HUF.</li></ul>",
 			},
 		},
 		{
@@ -189,31 +189,31 @@ module.exports = {
 			en: {
 				id: "how-many-photos-average",
 				question: "How many photos does your average client order?",
-				answer: "My happy clients usually choose around 20 photos. They sometimes only want 5-10 photos initially, but they quickly realize after the shoot that there are plenty more amazing shots they can choose from and usually go around or above 20 photos. The more photos you choose, the more discounts I can give you on your final order.",
+				answer: "My happy clients usually choose around 20 photos. Sometimes they only want 10 photos initially, but they quickly realize after the shoot that there are plenty more amazing shots they can choose from and usually go around or above 20 photos. The more photos you choose, the more discounts I can give you on your final order.",
 			},
 		},
 		{
 			hu: {
 				id: "felszereles",
 				question: "Milyen felszereléssel dolgozol?",
-				answer: "A Sony Alpha 7 III professzionális full-frame tükörmentes fényképezőgépvázat használom egy rakás kiváló minőségű prím objektívvel. A legtöbbször a Sony FE 85mm f/1.8 obival dolgozom, ez a kedvenc gyújtótávolságom, ezt kiegészíti a Sony FE 50mm f/1.8 objektív, ha szűkebb a hely. Ezeken felül van egy Sigma 70mm f/2.8 DG Macro Art prímobjektívem, amivel 1:1 makró és közeli képeket tudunk csinálni, és nagyszerűen beilleszkedik a fenti 85mm és 50mm gyutáv közé. Szeretem a Tamron 20mm f/2.8 Di III OSD obit is használni a szuper széles látószögű képek elkészítéséhez. Ezeken felül van két, 50 éves vintage objektívem, amiknek rendkívül sajátos rajzolatuk és érdekes színviláguk van. Összeraktam egy külön oldalt, ha érdekel, hogy pontosan <a href='/hu/felszereles/'>milyen felszereléssel dolgozom</a>.",
+				answer: "A Sony Alpha 7 III professzionális full-frame tükörmentes fényképezőgépvázat használom egy rakás kiváló minőségű prím objektívvel. A legtöbbször a Sony FE 85mm f/1.8 obival dolgozom, ez a kedvenc gyújtótávolságom, ezt kiegészíti a Sony FE 50mm f/1.8 objektív, ha szűkebb a hely. Ezeken felül van egy Sigma 70mm f/2.8 DG Macro Art prímobjektívem, amivel 1:1 makró és közeli képeket tudunk csinálni, és nagyszerűen beilleszkedik a fenti 85mm és 50mm gyutáv közé. Szeretem a Tamron 20mm f/2.8 Di III OSD obit is használni a szuper széles látószögű képek elkészítéséhez. Ezeken felül van egy rakás öreg, filmes objektívem, amiknek rendkívül sajátos rajzolatuk és érdekes színviláguk van. Összeraktam egy külön oldalt, ha érdekel, hogy pontosan <a href='/hu/felszereles/'>milyen felszereléssel dolgozom</a>.",
 			},
 			en: {
 				id: "gear",
 				question: "What kind of gear do you use?",
-				answer: "I shoot with my trusty Sony Alpha 7 III professional full-frame mirrorless camera with a variety of top quality prime lenses. I use the Sony FE 85mm f/1.8 prime lens for most of my work, including portraits, accompanied by the Sony FE 50mm f/1.8 prime lens for the wider shots. I also use the Sigma 70mm f/2.8 DG Macro Art prime lens for close-up shots and as an in-between focal length between the aforementioned two lenses. I love using my Tamron 20mm f/2.8 Di III OSD for super wide-angle shots. I've also got two, 50-year-old vintage lenses which have their own unique way of rendering images. I've put together a separate page, if you want to <a href='/en/gear/'>learn more about my gear</a>.",
+				answer: "I shoot with my trusty Sony Alpha 7 III professional full-frame mirrorless camera with a variety of top quality prime lenses. I use the Sony FE 85mm f/1.8 prime lens for most of my work, including portraits, accompanied by the Sony FE 50mm f/1.8 prime lens for the wider shots. I also use the Sigma 70mm f/2.8 DG Macro Art prime lens for close-up shots and as an in-between focal length between the aforementioned two lenses. I love using my Tamron 20mm f/2.8 Di III OSD for super wide-angle shots. I've also got a bunch of old vintage lenses which have their own unique way of rendering images. I've put together a separate page, if you want to <a href='/en/gear/'>learn more about my gear</a>.",
 			},
 		},
 		{
 			hu: {
 				id: "hogyan-fizethetek",
 				question: "Hogyan fizethetek az elkészült képekért?",
-				answer: "Fizethetsz banki átutalással (preferált), Revolut-on, PayPal-on, vagy készpénzben. A fizetést kérlek azután kövesd el, hogy elküldted nekem a szerkesztésre kiválasztott képeket, én pedig leokéztam Veled őket. Köszönöm.",
+				answer: "Fizethetsz banki átutalással (preferált), Revolut-on, vagy PayPal-on keresztül. Készpénzes fizetést nem tudok elfogadni. A fizetést kérlek azután kövesd el, hogy elküldted nekem a szerkesztésre kiválasztott képeket, én pedig leokéztam Veled őket. Köszönöm.",
 			},
 			en: {
 				id: "payment-methods",
 				question: "What payment methods do you accept?",
-				answer: "I accept bank transfer (preferred), Revolut, PayPal, or cash. Please make the payment after you've sent me the selected photos for editing, and I've confirmed them with you. Thank you.",
+				answer: "I accept bank transfer (preferred), Revolut, or PayPal. I don't accept cash payment. Please make the payment after you've sent me the selected photos for editing, and I've confirmed them with you. Thank you.",
 			},
 		},
 		{
@@ -268,36 +268,36 @@ module.exports = {
 			hu: {
 				id: "egesz-nap-fotozas",
 				question: "Szeretnék egész nap fotózni, különböző helyszíneken, megoldható?",
-				answer: "Természetesen. Ilyen jellegű szándékodat, kérlek, mindenképpen jelezd előre, hogy én is tudjak időben tervezni a kéréseddel. Az egésznapos (4+ óra) fotózásokra egésznapos rendelkezésre állási díj vonatkozik, amelyet egyénileg határozunk meg. A helyszínek közötti ingázásban tudok segíteni Neked a helyi közösségi autóbérlési szolgáltatások igénybevételével.",
+				answer: "Természetesen. Ilyen jellegű szándékodat, kérlek, mindenképpen jelezd előre, hogy én is tudjak időben tervezni a kéréseddel. Az egésznapos (3+ óra) fotózásokra egésznapos rendelkezésre állási díj vonatkozik, amelyet egyénileg határozunk meg. A helyszínek közötti ingázásban tudok segíteni Neked a helyi közösségi autóbérlési szolgáltatások igénybevételével.",
 			},
 			en: {
 				id: "shoot-all-day",
 				question: "Is it possible to shoot all day in multiple locations?",
-				answer: "Absolutely. If you have this type of request, please let me know in advance, so I can plan my day ahead of time. These (4+ hours) photoshoots have an extra full-day commitment fee to them, which is determined on a case-by-case basis. For travelling between locations, I can drive you between places using one of the local e-carsharing services.",
+				answer: "Absolutely. If you have this type of request, please let me know in advance, so I can plan my day ahead of time. These (3+ hours) photoshoots have an extra full-day commitment fee to them, which is determined on a case-by-case basis. For travelling between locations, I can drive you between places using one of the local e-carsharing services.",
 			},
 		},
 		{
 			hu: {
 				id: "csendes-fotozas",
 				question: "Olyan helyszínen szeretnék fotózni, ahol csendben kell lenni. Megoldható?",
-				answer: "Igen, a fényképezőgépem tud teljes csendben is fotózni, amikor nem kattog a zár egy kép elkészültekor. Ha ilyen igényed van, szólj előre bátran, semmi gond!",
+				answer: "Igen, a fényképezőgépem tud teljes csendben is fotózni, amikor nem kattog a zár egy kép elkészültekor. Én pedig ügyesen járok lábujjhegyen. Ha ilyen igényed van, szólj előre bátran!",
 			},
 			en: {
 				id: "silent-shooting",
 				question: "I'd like to shoot at a place where we'll need to be silent. Is it possible?",
-				answer: "Yes, my camera has a silent mode feature where there's no shutter sound when a photo is taken. If you like to shoot silently, let me know in advance, no problem!",
+				answer: "Yes, my camera has a silent mode feature where there's no shutter sound when a photo is taken. I can also walk on tippy-toes like an expert. If you like to shoot silently, let me know in advance!",
 			},
 		},
 		{
 			hu: {
 				id: "budapesten-kivul",
 				question: "Vállalsz fotózást Budapesten kívül is?",
-				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így kb. 50 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 14.000 Forint, amit Neked kell állnod a fotók árán felül.",
+				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így ~100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 12.000 Forint, amit Neked kell állnod a fotózás árán felül.",
 			},
 			en: {
 				id: "outside-budapest",
 				question: "Is it possible to shoot outside of Budapest, too?",
-				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 50 km vicinity of Budapest. The daily fee for using this service is 14.000 HUF; which you will need to pay for, on top of the photos selected.",
+				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 100 km vicinity of Budapest. The daily fee for using this service is 12.000 HUF; which you will need to pay for, on top of the base fee.",
 			},
 		},
 		{
@@ -328,12 +328,12 @@ module.exports = {
 			hu: {
 				id: "igazolvanykepek",
 				question: "Csinálsz igazolvány/önéletrajz fotókat is?",
-				answer: "Persze! Szívesen segítek profi arcképet készíteni Rólad a LinkedIn-re, vagy a céges weboldaladra, vagy közösségi médiára. Annyi változás van itt, hogy az árazás picit másképp történik. Keress bátran az igényeiddel, szívesen segítek a tökéletes arcképed elkészítésében!",
+				answer: "Persze! Szívesen segítek profi arcképet készíteni Rólad a LinkedIn-re, vagy a céges weboldaladra, vagy közösségi médiára. Keress bátran az igényeiddel, szívesen segítek a tökéletes arcképed elkészítésében!",
 			},
 			en: {
 				id: "headshots",
 				question: "Do you do headshots?",
-				answer: "Certainly. I can help you get professional headshots for LinkedIn, or your company's website or social media. Please note that for headshots, pricing is a little different. Don't hesitate to reach out to me for details, I'll be glad to assist you!",
+				answer: "Certainly. I can help you get professional headshots for LinkedIn, or your company's website or social media. Don't hesitate to reach out to me for details, I'll be glad to assist you!",
 			},
 		},
 		{
