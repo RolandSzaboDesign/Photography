@@ -196,12 +196,12 @@ module.exports = {
 			hu: {
 				id: "felszereles",
 				question: "Milyen felszereléssel dolgozol?",
-				answer: "A Sony Alpha 7 III professzionális full-frame tükörmentes fényképezőgépvázat használom egy rakás kiváló minőségű prím objektívvel. A legtöbbször a Sony FE 85mm f/1.8 obival dolgozom, ez a kedvenc gyújtótávolságom, ezt kiegészíti a Sony FE 50mm f/1.8 objektív, ha szűkebb a hely. Ezeken felül van egy Sigma 70mm f/2.8 DG Macro Art prímobjektívem, amivel 1:1 makró és közeli képeket tudunk csinálni, és nagyszerűen beilleszkedik a fenti 85mm és 50mm gyutáv közé. Szeretem a Tamron 20mm f/2.8 Di III OSD obit is használni a szuper széles látószögű képek elkészítéséhez. Ezeken felül van egy rakás öreg, filmes objektívem, amiknek rendkívül sajátos rajzolatuk és érdekes színviláguk van. Összeraktam egy külön oldalt, ha érdekel, hogy pontosan <a href='/hu/felszereles/'>milyen felszereléssel dolgozom</a>.",
+				answer: "A Sony Alpha 7 III professzionális full-frame tükörmentes fényképezőgép-vázat használom egy rakás kiváló minőségű fix- és zoomobjektívvel. Összeraktam egy külön oldalt, ha érdekel, hogy pontosan <a href='/hu/felszereles/'>milyen felszereléssel dolgozom</a>.",
 			},
 			en: {
 				id: "gear",
 				question: "What kind of gear do you use?",
-				answer: "I shoot with my trusty Sony Alpha 7 III professional full-frame mirrorless camera with a variety of top quality prime lenses. I use the Sony FE 85mm f/1.8 prime lens for most of my work, including portraits, accompanied by the Sony FE 50mm f/1.8 prime lens for the wider shots. I also use the Sigma 70mm f/2.8 DG Macro Art prime lens for close-up shots and as an in-between focal length between the aforementioned two lenses. I love using my Tamron 20mm f/2.8 Di III OSD for super wide-angle shots. I've also got a bunch of old vintage lenses which have their own unique way of rendering images. I've put together a separate page, if you want to <a href='/en/gear/'>learn more about my gear</a>.",
+				answer: "I shoot with my trusty Sony Alpha 7 III professional full-frame mirrorless camera with a variety of top quality prime and zoom lenses. I've put together a separate page, if you want to <a href='/en/gear/'>learn more about my gear</a>.",
 			},
 		},
 		{
@@ -292,12 +292,12 @@ module.exports = {
 			hu: {
 				id: "budapesten-kivul",
 				question: "Vállalsz fotózást Budapesten kívül is?",
-				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így ~100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 12.000 Forint, amit Neked kell állnod a fotózás árán felül.",
+				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így ~100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 14.000 Forint, amit Neked kell állnod a fotózás árán felül.",
 			},
 			en: {
 				id: "outside-budapest",
 				question: "Is it possible to shoot outside of Budapest, too?",
-				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 100 km vicinity of Budapest. The daily fee for using this service is 12.000 HUF; which you will need to pay for, on top of the base fee.",
+				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 100 km vicinity of Budapest. The daily fee for using this service is 14.000 HUF; which you will need to pay for, on top of the base fee.",
 			},
 		},
 		{
