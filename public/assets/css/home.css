@@ -36,13 +36,13 @@
 	transition: var(--transition-duration) opacity, var(--transition-duration) transform;
 }
 
-.home-nav__link--female { background-image: url('/assets/images/portraiture/polina/01_700.webp'); }
-.home-nav__link--male   { background-image: url('/assets/images/portraiture/gabor/06_700.webp'); }
+.home-nav__link--female { background-image: url('/assets/images/portraiture/larae/03_700.webp'); }
+.home-nav__link--male   { background-image: url('/assets/images/portraiture/patrick/03_700.webp'); }
 .home-nav__link--couple { background-image: url('/assets/images/portraiture/iulia-radu/08_700.webp'); }
 
 @media only screen and (min-width: 768px) {
-	.home-nav__link--female { background-image: url('/assets/images/portraits/merci_700.webp'); }
-	.home-nav__link--male { background-image: url('/assets/images/portraiture/gabor/05_700.webp'); }
+	.home-nav__link--female { background-image: url('/assets/images/portraiture/larae/07_700.webp'); }
+	.home-nav__link--male { background-image: url('/assets/images/portraiture/patrick/04_700.webp'); }
 	.home-nav__link--couple { background-image: url('/assets/images/portraiture/iulia-radu/02_700.webp'); }
 }
 
