@@ -764,7 +764,7 @@ hr {
 }
 
 .testimonial__photo {
-	max-width: 150px;
+	max-width: 100px;
 	border-radius: 100%;
 	transition: transform var(--transition-duration);
 }
@@ -1026,6 +1026,10 @@ hr {
 
 	.testimonials {
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.testimonial__photo {
+		max-width: 150px;
 	}
 }
 
