@@ -14,16 +14,55 @@ module.exports = {
 		// 	},
 		// },
 		{
+			photo: "/assets/images/testimonial-larae.webp",
+			hu: {
+				name: "LaRae Day",
+				text: "Rolanddal kapcsolatos tapasztalataim egy szóban összefoglalva - KIVÉTELES. Kiváló szervezőkészséggel gondoskodott arról, hogy megfelelően felkészüljünk a fotózásunk napjára; a fotózás előtti kora reggelen felderítette a helyszínt! (Ez elég komoly elkötelezettség!) A fotózás során nagyon türelmes és alapos volt, hogy minden szögből, pózból és helyszínről a lehető legjobb képeket készítsük. A forgatás után számtalan órát töltött a fotóim művészi szerkesztésével, még a személyes preferenciáimat és az üzleti igényeinket is előtérbe helyezte. Emellett őszintén hiszem, hogy lehetetlen nem szupermodellnek érezni magad a Rolanddal való fotózás közben, ugyanis végig veled van és segít neked a fotózás elejétől a végéig! Annak ellenére, hogy a fotózásunk órákon át tartozz, a túláradó pozitív energiakészlete soha nem szűnt meg, és azt is meg kell említenem, hogy ez egy kora reggeli napkeltés fotózás volt, az első napsugaraktól kezdve ott voltunk. Foglald időpontot Rolanddal MÉG MA. Bátran támogathatom Rolandot ezzel az ígérettel – nekem elhiheted, nem fogsz csalódni!",
+				link: "/hu/portre/larae/",
+			},
+			en: {
+				name: "LaRae Day",
+				text: "To summarize my experience working with Roland in one word - EXCEPTIONAL. With prime organizational skills, he ensured we were properly prepared for our photoshoot day; he even scouted our location at sunrise, prior to our photoshoot day! (Now that’s some serious commitment!) During the photoshoot, he was very patient and thorough in ensuring we had gotten the very best possible photos out of every angle, pose, and location. After the shoot, he spent countless hours editing our gallery to utter perfection, even taking into consideration my personal preferences and business needs for our photos. I also sincerely believe it’s impossible not to feel like a supermodel while shooting with Roland because he will be verbally cheering you on from start to finish! Even though our shoot spanned hours, his contagious positive energy supply never gave out, and I should also mention this was an early morning sunrise shoot, literally taking place at the crack of dawn. Book your own photoshoot with Roland TODAY. I can confidently endorse Roland with this promise - you will not be disappointed!",
+				link: "/en/portraiture/larae/",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-rikarda-krisztian.webp",
+			hu: {
+				name: "N. Rikarda & Sz. Krisztián",
+				text: "Abban már a legelején biztosak voltunk, hogy a fotózás Rolanddal nagyon jó hangulatban fog telni, de arra, hogy ilyen hamar egy hullámhosszra kerülünk, és ilyen jól érezzük magunkat, nem számítottunk. A fotózás időpontja előtt alaposan átbeszéltük, milyen képeket szeretnénk, és hol, amiben Roland abszolút együttműködő volt. Teljes mértékben arra törekedett, hogy a számunkra legmegfelelőbb képeket készítse el. Rugalmassága és precízsége a profizmusának volt köszönhető, az időközben felmerülő esetleges változtatásokhoz is nyitottan állt és minden kívánságunkat meghallgatta. Maga a fotózás egy rendkívül laza, mégis dinamikus hangulatban telt. Rengeteg instrukciót kaptunk Rolandtól a fotózás ideje alatt, ami még inkább hozzájárult a fotók végeredményéhez, amik egytől-egyig magukért beszélnek. A fotózás végeztével már aznap kaptunk tőle ajándékba egyet az elkészült képek közül, és az általunk kiválasztott képeket alig pár nap alatt elkészítette. Szívből ajánljuk Rolandot mindazoknak, akik minőségi képekben szeretnék megörökíteni a számukra különleges eseményeket, pillanatokat, egy jó hangulatú fotózás során, egy profi szakemberrel.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Rikarda N. & Krisztián Sz.",
+				text: "We were sure from the very beginning that the photo shoot with Roland would be in a very good mood, but we did not expect that we would come on the same wavelength so soon and have such a good time. Before the photoshoot, we thoroughly discussed what kind of pictures we wanted and where, in which Roland was absolutely cooperative. He went out of his way to get the best pictures for us. His flexibility and precision were due to his professionalism, he was open to any changes that might arise in the meantime and he listened to all our special requests. The photo shoot itself took place in an extremely relaxed, yet dynamic atmosphere. We received a lot of instructions from Roland during the photo shoot, which contributed even more to the end result of the photos, which really speak for themselves. At the end of the photo shoot, we received one of the finalized photos as a gift on the very day of the photoshoot, and he had finalized the pictures we selected in just a few days. We wholeheartedly recommend Roland to all those who want to capture their special events and moments in high-quality pictures, during a photo shoot with a good atmosphere, with a professional photographer.",
+				link: "/en/portraiture/",
+			},
+		},
+		{
+			photo: "/assets/images/testimonial-.webp",
+			hu: {
+				name: "Melanie B.",
+				text: "Rolanddal az év elején találkoztam először, amikor odajött hozzám az utcán, és csináltunk néhány random képet, amik csodálatosan sikerültek. Néhány hónappal ezután, a művészi pályafutásom egy nagyon fontos mérföldkőhöz érkezett, amikor is Roland a kiállításom előtt az egész délelőttöt velem töltötte, és türelmesen lefotózott az összes festményemmel. A környezet nem volt túl segítőkész, csak egy egyszerű budapesti utca, de valahogy mégis sikerült megtalálnia a tökéletes háttereket, és az alkotásaimhoz és az aznapi öltözékemhez illő színeket. Öröm volt vele dolgozni, az eredmények pedig egyszerűen lenyűgözőek.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Melanie B.",
+				text: "I met Roland at the beginning of the year when he approached me at the street, and we casually took some pictures, which turned out amazing. A few months after that I had a very big day in my art career, where just before the exhibition, he spent the whole morning with me, patiently taking pictures of me with all my paintings. The surroundings weren't very helpful, just a regular street in Budapest, but he managed to find the perfect backgrounds, and matching colours with my artworks, and the outfit I put on that day. It was a pleasure to work with him, and the results are simply amazing.",
+				link: "/en/portraiture/",
+			},
+		},
+		{
 			photo: "/assets/images/testimonial-laura.webp",
 			hu: {
 				name: "F. Laura Hanna",
 				text: "Bár nem ez volt az első élményem Roli fényképezőgépének a túloldalán, én hajlamos vagyok rástresszelni az ilyen alkalmakra. Nagyjából 5 perc után viszont, mintha kicseréltek volna. A szokásos viccei és poénkodása mindig feldob egy ilyen fotózást. Mivel most különösen izgatott voltam a reptéri téma miatt, nekem hatalmas élmény volt, hogy mennyi gépet láthattam elszállni felettünk. Sokat nevettünk, sokat gyönyörködtünk. De a kedvencem, hogy annak ellenére, hogy nincsenek konkrét elképzeléseim képeket illetően, valahogy mindig olyanok születnek a végén, amik maximálisan tetszenek. Ez volt messze a legjobb fotós élményem eddig.",
-				link: "/hu/portre/laura",
+				link: "/hu/portre/laura/",
 			},
 			en: {
 				name: "Laura Hanna F.",
 				text: "Although this was not my first experience on the other side of Roli's camera, I tend to stress on such occasions. However, after about 5 minutes, it was as if I had been replaced. His usual jokes and banter always liven up a photoshoot like this. Since I was particularly excited about the airport theme, it was a great experience for me to see how many planes landed right above us. We laughed a lot, and enjoyed the process a lot. But my favorite thing is that, despite the fact that I don't have specific ideas about photos, I always end up with beautiful pictures that I really like. It was by far the best photography experience I've ever had.",
-				link: "/en/portraiture/laura",
+				link: "/en/portraiture/laura/",
 			},
 		},
 		{
@@ -31,12 +70,12 @@ module.exports = {
 			hu: {
 				name: "Iulia I. & Radu N.",
 				text: "Rolanddal fotózni abszolút élvezet volt. Ez volt az első profi fotózásunk, és nagyon egyszerűvé tette számunkra az egészet. Professzionalizmusa és minőségi poénjai, hogy jól érezzük magunkat, egy csomó nagyszerű eljegyzési fotót eredményezett, amelyeket örömmel fogunk újra és újra visszanézni.",
-				link: "/hu/portre/iulia-radu",
+				link: "/hu/portre/iulia-radu/",
 			},
 			en: {
 				name: "Iulia I. & Radu N.",
 				text: "Shooting with Roland was an absolute pleasure. Even if it was our first professional photo shooting, he made it all look very easy for us. His professionalism combined with quality jokes to make us feel at ease, resulted in a bunch of great engagement shots that are worth looking at over and over again.",
-				link: "/en/portraiture/iulia-radu",
+				link: "/en/portraiture/iulia-radu/",
 			},
 		},
 		{
@@ -44,12 +83,12 @@ module.exports = {
 			hu: {
 				name: "B. Gábor",
 				text: "Roland egy végtelenül kedves, türelmes és segítőkész ember. A fotózás elejétől kezdve nyugodt volt és igyekezett azon lenni, hogy ne stresszeljem túl a dolgokat. Kíváncsi volt az elképzeléseimre, közösen találtuk ki, hogy hol lehetne jó képeket készíteni (természetesen az ő szakértelmére hagyatkoztam leginkább, amit nem bántam meg). Beszélt arról is, hogy milyen objektíveket használ, hogy mit miért csinálunk, tippeket adott pózokhoz, így kipróbálhattam, hogy melyik kényelmes számomra. Humora nagyon ragadós, a képek készítése közben is elsütött pár poént, ami miatt az összes képemen a mosoly és nevetés valódi és egyáltalán nem erőltetett. Csak ajánlani tudom Rolandot, mert a közös munka eredménye garantált elégedettség.",
-				link: "/hu/portre/gabor",
+				link: "/hu/portre/gabor/",
 			},
 			en: {
 				name: "Gábor B.",
 				text: "Roland is an extremely kind, patient and helpful person. From the beginning of the photo shoot, he was calm and tried to make sure I didn't stress things too much. He was curious about my ideas; we figured out where to take good pictures together (of course, I relied mostly on his expertise, which I didn't regret). He also talked about the lenses he uses, why we do what we do, and gave tips for poses, so I could try out which ones are comfortable for me. His humor is very infectious, he cracked a few jokes even while taking the pictures, which made the smiles and laughter in all my photos genuine and not at all forced. I can only recommend Roland, because the result of working together with him is guaranteed satisfaction.",
-				link: "/en/portraiture/gabor",
+				link: "/en/portraiture/gabor/",
 			},
 		},
 		{
@@ -57,12 +96,12 @@ module.exports = {
 			hu: {
 				name: "A. Lackó",
 				text: "Körülbelül 2 éve ismertem meg Rolandot. Nagyon sok fotóst kipróbáltam előtte, de mióta Rolit ismerem, évente többször is átutazom az országot, mert Ő az a fotós, akit mindenki keres. Olyan képet készít Rólad, amilyet szeretnél, nem szól bele az elképzeléseidbe, de profi tanácsokkal lát el, hogy a képeid minél profibbak legyenek. Ha úgy mész hozzá, hogy nincs elképzelésed, sincs baj, mert mindenben segítőkész, emellett emberileg is egy jószívű, vicces, és legfőképp korrekt ember, aki mellett könnyen feloldódsz, és ezáltal a fotózás is gördülékenyen zajlik. Mindenkinek ajánlani tudom Rolandot így 200+ km-ről is!",
-				link: "/hu/portre/lacko-2",
+				link: "/hu/portre/lacko-2/",
 			},
 			en: {
 				name: "Lackó A.",
 				text: "I met Roland about 2 years ago. I'd tried a lot of photographers before, but since I've known Roli, I travel across the country several times a year, because he's the photographer everyone is looking for. He crafts photos of you that _you_ want, he doesn't interfere with your ideas, but he provides professional advice to make your pictures as great as possible. If you don't have any ideas, no problem; he's helpful in everything, and he's also a good-hearted, funny, and above all fair person, with whom you can easily relax, and thus the photoshoot goes smoothly. I can recommend Roland to everyone even from 200+ km away!",
-				link: "/en/portraiture/lacko-2",
+				link: "/en/portraiture/lacko-2/",
 			},
 		},
 		{
@@ -70,12 +109,12 @@ module.exports = {
 			hu: {
 				name: "K. Muskan",
 				text: "Szégyenlős vagyok a kamera előtt, nem feltétlenül szeretem ha fotóznak. A filmes fotózásunk elég nagy kihívást jelentett számomra, de Roland minden félelmemet elfeledtette velem a fotózás során. Laza stílusú, elbűvölő személyiség, akit kiváló munkamorál jellemez; a filmes portréfotózás egész folyamata könnyednek tűnt. A folyamat során gondoskodott róla, hogy végig magabiztos legyek. Most visszatekintve az egész élményre,  határozottan azt mondom, hogy nagyon élveztem -- köszönet Rolandnak, hogy ilyen csodálatos fotós!",
-				link: "/hu/portre/muskan",
+				link: "/hu/portre/muskan/",
 			},
 			en: {
 				name: "Muskan K.",
 				text: "I am camera shy, I don't necessarily like being in front of the camera. Going through our film photoshoot was a bit challenging for me, but Roland made me forget all of my fears during the shoot. He has an easy-going, charming personality, and excellent work ethics; the whole process of shooting film portraits with him felt effortless. He made me feel confident and good about myself throughout the process. Now looking back to the whole experience, I'd say that I thoroughly enjoyed the experience, kudos to Roland for being such an amazing photographer.",
-				link: "/en/portraiture/muskan",
+				link: "/en/portraiture/muskan/",
 			},
 		},
 		{
@@ -83,12 +122,12 @@ module.exports = {
 			hu: {
 				name: "H. György",
 				text: "Egy ismerősömön keresztül találtam rá Rolandra, és egyből megtetszett a stílusa. Rugalmasan meg tudtuk beszélni az időpontot, én megmondtam, hogy milyen jellegű képekre és háttérre gondolok, és ő egy tökéletes helyszínt ajánlott hozzá. Ez volt az első fotózásom, így az elején nem igazán éreztem magam a bőrömben, de Roland nagyon megértő volt, mindvégig rendkívül pozitív és laza volt a hangulat, emellett több hasznos tippet adott pózolás terén. Ezeknek köszönhetően a végére már sokkal magabiztosabbnak éreztem magam, és remek képek sikerültek. Ha első fotózásodon gondolkodsz, de bizonytalan vagy a megfelelő fotós terén, aki kisegít mindenben, szívből ajánlani tudom Rolandot, hihetetlen élmény lesz.",
-				link: "/hu/portre/gyuri",
+				link: "/hu/portre/gyuri/",
 			},
 			en: {
 				name: "György H.",
 				text: "I found Roland through an acquaintance and immediately liked his style. We were able to discuss the time flexibly, I told him what kind of pictures and background I had in mind, and he recommended just the perfect location. It was my first photoshoot, so I didn't really feel comfortable in my own skin at the beginning, but Roland was very understanding, the atmosphere was extremely positive and relaxed throughout the photoshoot, and he gave me several useful tips on posing. Thanks to these, I felt much more confident by the end, and we managed to take some incredible pictures. If you are thinking about your first photo shoot, but you are unsure about the right photographer who will help you in everything, I can wholeheartedly recommend Roland, it will be an incredible experience.",
-				link: "/en/portraiture/gyuri",
+				link: "/en/portraiture/gyuri/",
 			},
 		},
 		{
@@ -96,12 +135,12 @@ module.exports = {
 			hu: {
 				name: "Cs. Péter",
 				text: "Általában kerülöm a kamerát, így egyáltalán nem vártam, hogy részt vegyek egy páros fotózáson a feleségemmel. Roland professzionalizmusa és szakértelme azonban sokat segített a fotózásban. Hamar jól éreztem magam a kamera előtt, és a várakozásomat felülmúlta az egész élmény. Összességében a fotózás nagyon romantikus volt, és örökre megőrzöm ezeket a csodás emlékeket a feleségemmel.",
-				link: "/hu/portre/tatum-peter",
+				link: "/hu/portre/tatum-peter/",
 			},
 			en: {
 				name: "Péter Cs.",
 				text: "As someone who typically avoids the camera, I was not looking forward to participating in a couples shoot with my wife. However, Roland's professionalism and artistic understanding for composition helped guide the photoshoot. I felt comfortable in front of the camera and my expectations were exceeded for the entire experience. Overall, the photoshoot was quite romantic and I look forward to cherishing these forever memories with my wife.",
-				link: "/en/portraiture/tatum-peter",
+				link: "/en/portraiture/tatum-peter/",
 			},
 		},
 		{
@@ -109,12 +148,12 @@ module.exports = {
 			hu: {
 				name: "H. Ádám",
 				text: "Egy ideje követtem Roland munkásságát, és igazán tetszettek a portrék, amiket készített másokról, ezért megbeszéltünk egy fotózást. Nagyon rugalmas az időpontegyeztésben, így könnyű dolgod lesz vele. Illetve, ha ez lesz az első portréfotózásod, mint nekem, feltétlenül ajánlom Rolandot, hiszen mindenben türelmesen segített és a koncepciót is együtt találtuk ki. A fentieknek köszönhetően nagyon pozitív élmény volt számomra a fotózás, amit ezúton is köszönök mégegyszer!",
-				link: "/hu/portre/adam-3",
+				link: "/hu/portre/adam-3/",
 			},
 			en: {
 				name: "Ádám H.",
 				text: "I've been following Roland's work for a while and I really liked the portraits he made of others, so we arranged a photo shoot. He is very flexible in scheduling, so it will be easy for you to work with him. And, if this is your first portrait shoot, like me, I definitely recommend Roland, as he patiently helped with everything and we came up with the concept together. Thanks to the above, the photo shoot was a very positive experience for me, for which I would like to thank Roland once again!",
-				link: "/en/portraiture/adam-3",
+				link: "/en/portraiture/adam-3/",
 			},
 		},
 		{
@@ -122,12 +161,12 @@ module.exports = {
 			hu: {
 				name: "Cs. Tatum",
 				text: "Nemrég elhatároztam, hogy kilépek a komfortzónámból. Változásra vágytam. Évekig követtem Rolandot az Instagramon, és egy nap szeszélyből üzentem neki, hogy találkozzunk egy fotózáson. Íme az igazi csapás: Utálok kamera előtt állni. Úgy döntöttem, teljes mértékben elkötelezem magam amellett, hogy a kilépjek komfortzónámból. Az első képünk pillanatától kezdve kényelmesnek éreztem a fotózást, nagyon jól ment a kommunikáció. A fotózás során Roland irányított a pózolásban, és ragaszkodott ahhoz, hogy a lehető legkényelmesebbé tegye a dolgokat. A fotózás végére mély beszélgetésbe merültünk az önelégültség harcáról. A növekedéshez le kell győznünk a tökéletesség iránti vágyunkat, és fel kell ölelnünk azokat a területeket, ahol gyengék vagyunk. Aki fontolgatja, nagyon ajánlom, hogy tegye meg ezt a lépést, és foglaljon le egy fotózást Rolanddal. Ne feledd, nem tudsz fejlődni, ha a komfortzónádban maradsz.",
-				link: "/hu/portre/tatum",
+				link: "/hu/portre/tatum/",
 			},
 			en: {
 				name: "Tatum Cs.",
 				text: "Recently I became determined to push myself out of my comfort zone. I desired change. I followed Roland for several years on Instagram and messaged him on a whim to meet up for a photoshoot. Here is the real catch, I HATE standing in front of a camera. I decided I was fully committing to my leap outside of my comfort zone. From the moment of our first picture, I felt comfortable with our ability to communicate. Throughout the shoot, Roland guided me in posing and insisted on making things as comfortable as possible. By the end of the shoot, we delved into a deep conversation about fighting the battle of complacency. To grow, we must overcome our desire for perfection and embrace the areas where we are weak. For anyone considering it, I highly recommend taking that leap and booking a photoshoot with Roland. Remember, you cannot grow if you remain in your comfort zone.",
-				link: "/en/portraiture/tatum",
+				link: "/en/portraiture/tatum/",
 			},
 		},
 		{
