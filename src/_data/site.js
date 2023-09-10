@@ -94,13 +94,13 @@ module.exports = {
 		"analogPromoTitle": "Analog Film Photography",
 		"analogPromoText": "Step into the world of rich colors, grainy textures, and evocative storytelling by having your next portrait set shot on film.",
 		"analogPromoButton": "Let's see it!",
-		"analogPromoImageAlt": "Nostalgic photo of Muskan, shot on Kodak UltraMax 400 film with a 50-year old Soviet SLR camera.",
+		"analogPromoImageAlt": "Nostalgic photo of Eszter, shot on Fujifilm Velvia 50 film with a 50-year old Soviet SLR camera.",
 		"analogPromoLink": "/en/services/film-photo-walks/",
 
 		"vintagePromoTitle": "Best of Both Worlds",
 		"vintagePromoText": "Discover a whole new dimension of artistic expression, by merging the classic charm of vintage lenses with the convenience and versatility of modern technology.",
 		"vintagePromoButton": "Let's see it!",
-		"vintagePromoImageAlt": "Wonderful photo of Jázmin, taken with a Helios 44-2 vintage lens with incredible swirly bokeh rendering.",
+		"vintagePromoImageAlt": "Wonderful photo of Polina, taken with a Helios 44-2 vintage lens with incredible swirly bokeh rendering.",
 		"vintagePromoLink": "/en/services/vintage-photo-walks/",
 
 		"ctaTitle": "Would you like similar, amazing photos?",
@@ -190,13 +190,13 @@ module.exports = {
 		"analogPromoTitle": "Analóg Filmes Fotózás",
 		"analogPromoText": "Ha igazán retró hangulatú, valóban nem mindennapi fotósorozatot szeretnél, akkor szeretettel ajánlom a filmes fotózás gazdag színeit, szemcsés textúráit és hangulatos történetmesélését!",
 		"analogPromoButton": "Érdekel!",
-		"analogPromoImageAlt": "Nosztalgikus hangulatú fotó Muskan főszereplésében, melyet Kodak UltraMax 400 filmre fotóztunk egy 50 éves szovjet filmes fényképezőgéppel.",
+		"analogPromoImageAlt": "Nosztalgikus hangulatú fotó Eszterről, melyet Fujifilm Velvia 50 filmre fotóztunk egy 50 éves szovjet filmes fényképezőgéppel.",
 		"analogPromoLink": "/hu/szolgaltatasok/filmes-fotos-setak/",
 
 		"vintagePromoTitle": "Mindkét Világ Legjobbja",
 		"vintagePromoText": "Próbáld ki a művészi kifejezés egy új dimenzióját azáltal, hogy vintage objektívek egzitukus rajzolatát párosítjuk a modern technológia minőségével és kényelmével.",
 		"vintagePromoButton": "Érdekel!",
-		"vintagePromoImageAlt": "Jázmin csodás fotója, amit egy ötven éves, mesés rajzolatú Helios 44-2 objektívvel készítettünk",
+		"vintagePromoImageAlt": "Polina csodás fotója, amit egy ötven éves, mesés rajzolatú Helios 44-2 objektívvel készítettünk",
 		"vintagePromoLink": "/hu/szolgaltatasok/vintage-fotos-setak/",
 
 		"ctaTitle": "Szeretnél hasonló, szuper képeket?",

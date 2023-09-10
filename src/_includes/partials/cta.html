@@ -1,5 +1,18 @@
+{% assign source = testimonials.items | where: "type", type %}
+
+{{ count | default: 'nincs count' }}
+{{ id | default: 'nincs id' }}
+
 <div class="cta">
-	{% include "partials/testimonial.html", id: id %}
+	{% if count == "all" %}
+		<div class="testimonials">
+			{% for item in source %}
+				{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
+			{% endfor %}
+		</div>
+	{% else %}
+		{% include "partials/testimonial-excerpt.html", id: id | default: 0 %}
+	{% endif %}
 	<div class="cta__content">
 		<h2 class="cta__title">{{ site[locale].ctaTitle }}</h2>
 		<p class="cta__text">{{ site[locale].ctaText }}</p>

@@ -5,7 +5,7 @@ css: testimonials
 translation: testimonials
 ---
 
-<ul class="testimonials">
+<ul class="testimonials testimonials--single">
 	{% for item in testimonials.items %}
 		{% include "partials/testimonial.html", id: forloop.index0 %}
 	{% endfor %}

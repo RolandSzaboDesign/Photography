@@ -1,8 +1,8 @@
-{% assign source = source | default: testimonials.items %}
+{% assign source = source | default: "testimonials.items" %}
 
 <blockquote class="testimonial">
 	<div class="testimonial__content">
-		<p class="testimonial__text">{{ source[id][locale].text }}</p>
+		<p class="testimonial__text">{{ source[id][locale].excerpt }}</p>
 		<cite class="testimonial__cite">
 			<a class="testimonial__author" href="{{ source[id][locale].link }}">{{ source[id][locale].name }}</a>
 		</cite>

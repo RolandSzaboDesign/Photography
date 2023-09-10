@@ -729,8 +729,23 @@ hr {
 	align-items: start;
 }
 
+@media only screen and (min-width: 768px) {
+	.testimonials {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.testimonials {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.testimonials--single {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 .testimonial {
-	position: relative;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1.5rem;
@@ -751,7 +766,7 @@ hr {
 	content: '”';
 }
 
-.testimonial__author-link {
+.testimonial__author {
 	font-style: italic;
 	font-size: 1rem;
 	color: var(--text-light);
@@ -1022,14 +1037,6 @@ hr {
 	.polaroid__title {
 		padding: 1rem 1rem .375rem;
 		font-size: 1.125rem;
-	}
-
-	.testimonials {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.testimonial__photo {
-		max-width: 150px;
 	}
 }
 
