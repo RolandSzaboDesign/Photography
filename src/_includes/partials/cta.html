@@ -1,12 +1,15 @@
 {% assign source = testimonials.items | where: "type", type %}
 
-{{ count | default: 'nincs count' }}
-{{ id | default: 'nincs id' }}
-
 <div class="cta">
 	{% if count == "all" %}
 		<div class="testimonials">
 			{% for item in source %}
+				{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
+			{% endfor %}
+		</div>
+	{% elsif count > 1 %}
+		<div class="testimonials">
+			{% for item in source limit:count %}
 				{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
 			{% endfor %}
 		</div>
