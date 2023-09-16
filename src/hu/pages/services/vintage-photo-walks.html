@@ -90,15 +90,13 @@ css: photo-walks
 
 	<section class="section section--white section--border">
 		<div class="container">
-			<h2>Rólam Mondták</h2>
-			<ul class="testimonials">
-				{% include "partials/testimonial.html", id: 1 %}
-				{% include "partials/testimonial.html", id: 2 %}
-			</ul>
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% for item in source limit:3 %}
+					{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
+				{% endfor %}
+			</div>
 		</div>
-	</section>
-
-	<section class="section">
 		<div class="button-with-link">
 			<a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Írj Emailt a Kezdéshez</a>
 			<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>

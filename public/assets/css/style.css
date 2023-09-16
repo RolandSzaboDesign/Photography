@@ -755,7 +755,7 @@ hr {
 	text-align: left;
 	border-radius: .5rem;
 	background-color: #FFF;
-	box-shadow: 0 .125rem .5rem 0 rgba(0,0,0,.125);
+	box-shadow: 0 .125rem 2rem 0 rgba(0,0,0,.125);
 }
 
 @media only screen and (min-width: 768px) {

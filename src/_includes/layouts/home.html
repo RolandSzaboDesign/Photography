@@ -36,9 +36,16 @@ css: home
 		</div>
 	</section>
 
+	<section class="section section--white section--border">
+		<div class="container">
+			<h2 class="home__title text-center mt-0">{{ site[locale].homepageTestimonials }}</h2>
+			{% include "partials/cta-latest.html" %}
+		</div>
+	</section>
+
 	<section class="section section--border" id="latest">
 		<div class="container">
-			<h2 class="home__title mt-0">{{ site[locale].homepageRecentTitle }}</h2>
+			<h2 class="home__title text-center mt-0">{{ site[locale].homepageRecentTitle }}</h2>
 			<div class="masonry">
 				<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/larae/02_700.webp" alt="LaRae"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/greti-2/03_1400.webp" alt="Gréti"></a>
@@ -80,7 +87,7 @@ css: home
 		</div>
 	</section>
 
-	<section class="section section--white section--border">
+	<section class="section section--white">
 		<div class="home-about container">
 			<div>
 				{{ content }}
@@ -90,20 +97,9 @@ css: home
 				</div>
 			</div>
 			<figure>
-				<img src="/assets/images/roland-home.jpg" alt="Hellóka!" title="Hellóka!">
-				<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/oszkaipeter/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterOszkai }}</a></em></figcaption>
+				<img src="/assets/images/roland-home.jpg" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}">
+				<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 			</figure>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="container">
-			{% include "partials/cta.html", count: 3 %}
-
-			<div class="button-with-link">
-				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
-				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
-			</div>
 		</div>
 	</section>
 

@@ -73,6 +73,7 @@ module.exports = {
 		"homepageFemalePortraits": "Female Portraits",
 		"homepageMalePortraits": "Male Portraits",
 		"homepageCouplePortraits": "Couple/Family Portraits",
+		"homepageTestimonials": "Most Recent Reviews",
 
 		"calendarPromoTitle": "2023 Photo Calendar",
 		"calendarPromoIntro": "My 2023 photo calendar is ready for the taking in two pricing packages! The perfect Christmas gift, and a great way to support my work.",
@@ -86,6 +87,7 @@ module.exports = {
 		"aboutPhotoTitle": "Hey, it's me!",
 		"contactPhotoTitle": "How can I help you?",
 		"gearPhotoTitle": "I'm on fire, baby!",
+		"homePhotoTitle": "Visible concentration :D",
 
 		"servicesPortraitureIntro": "I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories. You can even bring your pet or your hobby! Here's how easy it is:",
 		"servicesVintagePortraitureIntro": "Let's make your portraits really special with vintage lenses made for old film cameras! Extraordinary colors, fabled background bokeh and stylistic image quality.",
@@ -169,6 +171,7 @@ module.exports = {
 		"homepageFemalePortraits": "Női Portrék",
 		"homepageMalePortraits": "Férfi Portrék",
 		"homepageCouplePortraits": "Páros/Családi Portrék",
+		"homepageTestimonials": "Rólam Mondtátok",
 
 		"calendarPromoTitle": "2023 Fotó Naptár",
 		"calendarPromoIntro": "A 2023 évi fotó naptáram rendelhető, két árazási csomagban! A tökéletes Karácsonyi ajándék, és egy nagyszerű módja annak, hogy támogasd a munkámat.",
@@ -182,6 +185,7 @@ module.exports = {
 		"aboutPhotoTitle": "Halihó, ez itt én vagyok.",
 		"contactPhotoTitle": "Miben tudok segíteni?",
 		"gearPhotoTitle": "Elég forró volt a helyzet...",
+		"homePhotoTitle": "Ne zavarj, koncentrálok! :D",
 
 		"servicesPortraitureIntro": "Laza, nyugodt hangulatú fotós séták során készítek maradandó emlékeket. A formátum lehet egyéni, páros vagy családi, de elhozhatod a kis kedvencedet vagy akár a hobbidat is! Ilyen egyszerű a folyamat:",
 		"servicesVintagePortraitureIntro": "Régi, filmes fényképezőgépekhez készült objektívek használatával egyedi megjelenésű portré fotókat készíthetünk, egzotikus rajzolattal, nem mindennapi színvilággal és mesébe illő háttérmosással. Kölcsönözz igazán egyedi hangulatot a fotóidnak!",

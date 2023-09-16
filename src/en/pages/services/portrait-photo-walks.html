@@ -127,11 +127,12 @@ css: photo-walks
 
 	<section class="section section--white section--border">
 		<div class="container">
-			<h2>Testimonials</h2>
-			<ul class="testimonials">
-				{% include "partials/testimonial.html", id: 1 %}
-				{% include "partials/testimonial.html", id: 2 %}
-			</ul>
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% for item in source limit:3 %}
+					{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
+				{% endfor %}
+			</div>
 		</div>
 	</section>
 
