@@ -1,13 +1,13 @@
 {% assign source = source | default: "testimonials.items" %}
 
 <blockquote class="testimonial">
+	<a class="testimonial__photo-link" href="{{ source[id][locale].link }}">
+		<img class="testimonial__photo" src="{{ source[id].photo }}" alt="{{ source[id][locale].name }}" width="100" height="100">
+	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">{{ source[id][locale].excerpt }}</p>
 		<cite class="testimonial__cite">
 			<a class="testimonial__author" href="{{ source[id][locale].link }}">{{ source[id][locale].name }}</a>
 		</cite>
 	</div>
-	<a class="testimonial__photo-link" href="{{ source[id][locale].link }}">
-		<img class="testimonial__photo" src="{{ source[id].photo }}" alt="{{ source[id][locale].name }}" width="100" height="100">
-	</a>
 </blockquote>
