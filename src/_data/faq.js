@@ -383,7 +383,7 @@ module.exports = {
 			en: {
 				id: "backup-lens",
 				question: "Are you bringing a modern autofocus lens as well?",
-				answer: "Yes, but only as a backup. In case the lens breaks, catches fire, or gets lost or swallowed by the Earth, then I'll have a proper AF lens with me, just in case.",
+				answer: "Yes, but only as a backup. In case the lens breaks, catches fire, gets lost or swallowed by the Earth, then I'll have a proper AF lens with me, just in case.",
 			},
 		},
 		{
@@ -404,12 +404,12 @@ module.exports = {
 			hu: {
 				id: "arazas",
 				question: "Mennyibe kerül mindez?",
-				answer: "Korlátozott ideig a filmes portréfotózás szolgáltatásomat anyagköltségen kínálom. Ez azt jelenti, hogy csak a filmtekercset, az előhívást és a szkennelést, illetve a választható nyomtatási költségeket kell fizetned. Egy egyszerűbb fekete-fehér tekercs, előhívással és kis méretű szkenneléssel kb. 6.000 Ft-ból kijön, nyomtatás nélkül. Egy egzotikusabb színes tekercs, előhívással és normál méretű szkenneléssel, nyomtatott képekkel sem lépi túl a 20.000 Ft-ot.",
+				answer: "A filmes portréfotózás díja a mindekori alapáram (jelenleg 25.000 Ft) plusz anyagköltség. Az anyagköltség a választott filmtekercs és a filmhez megfelelő előhívás + szkennelés díjával, és az esetleges nyomtatási költséggel egyenlő. Egy \"normál\" tekercs színes film esetében az anyagköltség kb. 10.000 Ft.",
 			},
 			en: {
 				id: "pricing",
 				question: "How much does it all cost?",
-				answer: "For a limited time, I'm offering my film photography services at material cost. This mean you only need to pay for the film stock, the development and scanning process, and the oprional printing costs. A more simple, black-and-white film with development and small size scan will cost around 6.000 HUF, but a more exotic color film with development and medium size scan with prints won't go over 20.000 HUF.",
+				answer: "The cost of a portrait photography session on film is my current base price (25.000 HUF) plus material costs. Material costs consist of the price of the chosen roll of film, the development and scanning fees and the optional printing fee. The material costs for a \"common\" roll of color film is around 10.000 HUF.",
 			},
 		},
 		{
