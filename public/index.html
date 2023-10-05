@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<title>Automotive Photography | </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="">
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+		<link rel="manifest" href="/assets/favicons/site.webmanifest">
+		<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- OpenGraph -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://rolandszabo.photo/">
+		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
+		<meta property="og:description" content="">
+		<meta property="og:title" content="Automotive Photography | ">
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="/assets/css/style.css">
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
+		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap"></noscript>
+
+		<!-- Google Analytics -->
+		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
+		<script defer src="/assets/js/analytics.js"></script>
+	</head>
+
+	<body>
+		<header class="header">
+	<div class="header__container container">
+		<a class="logo" href="//" title="Back to the Homepage">
+			<strong class="logo__name"></strong>
+			<span class="logo__tagline"></span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link" href="/en/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link" href="/hu/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="///"></a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="///"></a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="///"></a>
+				</li>
+				<li class="nav__item nav__item--button">
+					<a class="nav__link nav__link--button button" href="////"></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+		
+<main class="main">
+	<div class="container">
+		<header class="page-header">
+			<a class="page-header__category" href="//"></a>
+			<h1 class="page-header__title">Automotive Photography</h1>
+			<p class="page-header__description"></p>
+		</header>
+		<div class="masonry">
+			<a class="brick" href="#"><img class="brick__photo" src="" alt="Tatum & Péter"></a>
+		</div>
+	</div>
+</main>
+
+<script src="/assets/js/lightbox.js" defer></script>
+<aside class="lightbox">
+	<div class="lightbox__container">
+		<figure class="lightbox__figure">
+			<img class="lightbox__image" src="" alt="">
+			<figcaption class="lightbox__caption"></figcaption>
+		</figure>
+		<nav class="lightbox__nav">
+			<a class="lightbox__arrow" id="left" href="#" title="">◀</a>
+			<a class="lightbox__arrow" id="right" href="#" title="">▶</a>
+		</nav>
+	</div>
+	<a class="lightbox__close" href="#" title="">&times;</a>
+</aside>
+
+<script src="/assets/js/masonry.js"></script>
+<script>
+	var macyInstance = Macy ({
+		container: '.masonry',
+		mobileFirst: true,
+		// trueOrder: true,
+		columns: 2,
+		margin: 8,
+		breakAt: {
+			576: {
+				margin: 10
+			},
+			768: {
+				margin: 12
+			},
+			992: {
+				columns: 3,
+				margin: 16
+			}
+		}
+	});
+</script>
+
+		<footer class="footer">
+	<div class="footer__container container">
+		<p class="copyright">&copy; 2023 &ndash; ,  <br>  2023. 10. 05. 11:02:55 </p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="" width="80" height="40">
+		</a>
+	</div>
+</footer>
+
+
+		<script>
+			function toggleMainMenu() {
+				var button = document.getElementById("menu-toggle");
+				var menu = document.getElementById("main-menu");
+
+				if (menu.style.display === "block") {
+					menu.style.display = "none";
+					button.innerHTML = "☰";
+				} else {
+					menu.style.display = "block";
+					button.innerHTML = "✕";
+				}
+			}
+		</script>
+	</body>
+</html>
