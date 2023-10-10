@@ -62,7 +62,7 @@ module.exports = {
 		"slugTestimonials": "testimonials",
 		"slugCars": "cars",
 
-		"homepageMainTitle": "I take authentic portraits and tell terrible jokes.",
+		"homepageMainTitle": "I take authentic portraits and tell horrible jokes.",
 		"homepageRecentTitle": "Some of my Latest Work",
 		"homepageButton": "Let's do a Photoshoot",
 		"homepageVisitLatest": "or see my latest work",
