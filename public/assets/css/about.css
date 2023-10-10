@@ -1,3 +1,7 @@
+.about__magazine {
+	border-bottom: 0;
+}
+
 @media only screen and (min-width: 768px) {
 	.about {
 		display: grid;
@@ -17,5 +21,14 @@
 		z-index: 1;
 		grid-row: 2 / 3;
 		grid-column: 2 / 4;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px), (min-width: 992px) {
+	.about__magazine {
+		max-width: 300px;
+		float: right;
+		margin-left: 2rem;
+		margin-bottom: 1rem;
 	}
 }

@@ -180,6 +180,10 @@ a:focus {
 	color: var(--accent);
 }
 
+.bb-0 {
+	border-bottom: 0;
+}
+
 em {
 	font-style: italic;
 }
@@ -187,6 +191,15 @@ em {
 strong {
 	font-weight: 700;
 	color: var(--text-dark);
+}
+
+del {
+	color: var(--highlight);
+}
+
+ins {
+	font-style: italic;
+	text-decoration: none;
 }
 
 hr {
