@@ -5,15 +5,49 @@ module.exports = {
 		// 	photo: "/assets/images/testimonial-.webp",
 		// 	hu: {
 		// 		name: "",
+		// 		excerpt: "",
 		// 		text: "",
 		// 		link: "/hu/portre/",
 		// 	},
 		// 	en: {
 		// 		name: "",
+		// 		excerpt: "",
 		// 		text: "",
 		// 		link: "/en/portraiture/",
 		// 	},
 		// },
+		{
+			type: "female",
+			photo: "/assets/images/testimonial-anna-2.webp",
+			hu: {
+				name: "M. Anna",
+				excerpt: "Roland humorával, odaadásával és a fotózás iránti szenvedélyével mindenki biztonságban, megbecsülve érezheti magát",
+				text: "Aki régóta kacérkodik a gondolattal, hogy kamera elé álljon, de gátlásai vannak és nem mer lépni, jó helyen jár. Roland humorával, odaadásával és a fotózás iránti szenvedélyével mindenki biztonságban, megbecsülve érezheti magát. Aki pedig bátrabb és extra élményre vágyik, nagyon tudom ajánlani az analóg fotózást. Izgalmas, hogy a képet nem tudjuk azonnal megnézni a kijelzőn, és várnunk kell a végeredményre, amíg elő nincsenek hivatva. Eszméletlen különleges és hangulatos képek tudnak így születni!",
+				link: "/hu/portre/anna-9",
+			},
+			en: {
+				name: "Anna M.",
+				excerpt: "With Roland's humor, dedication and passion for photography, everyone can feel safe and valued",
+				text: "Anyone who has been flirting with the idea of appearing in front of a camera for a long time, but has inhibitions and does not dare to act, is in the right place with Roland. With his humor, dedication and passion for photography, everyone can feel safe and valued. And for those who are braver and want an extra experience, I can highly recommend analog photography. It's exciting that we can't see the image on the screen right away, and we have to wait for the final result until they are developed. Unbelievably special and atmospheric pictures can be created this way!",
+				link: "/en/portraiture/anna-9",
+			},
+		},
+		{
+			type: "couple",
+			photo: "/assets/images/testimonial-burcu-sebastian.webp",
+			hu: {
+				name: "Burcu Z. & Sebastian C.",
+				excerpt: "Gyönyörűen örökítette meg a spontán és valódi pillanatokat is, maradandó emlékeket teremtve nekünk",
+				text: "Roland hihetetlen volt! Professzionalizmusa, kivételes kiszolgálása és az általa készített esküvői fotóink lenyűgöző minősége felülmúlta minden várakozásunkat. Gyönyörűen örökítette meg a spontán és valódi pillanatokat is, maradandó emlékeket teremtve nekünk. Szívből ajánljuk őt a különleges napotokra!",
+				link: "/hu/portre/burcu-sebastian",
+			},
+			en: {
+				name: "Burcu Z. & Sebastian C.",
+				excerpt: "He captured both spontaneous and genuine moments beautifully, creating lasting memories",
+				text: "Roland was incredible! His professionalism, exceptional service, and the stunning quality of our wedding photos exceeded our expectations. He captured both spontaneous and genuine moments beautifully, creating lasting memories. We highly recommend him for your special day!",
+				link: "/en/portraiture/burcu-sebastian",
+			},
+		},
 		{
 			type: "female",
 			photo: "/assets/images/testimonial-larae.webp",
