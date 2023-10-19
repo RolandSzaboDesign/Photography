@@ -9,6 +9,26 @@
 	letter-spacing: -.05rem;
 }
 
+.home__title-cta {
+	margin-top: .75rem;
+	padding: .75rem 1rem;
+	font-weight: 700;
+	font-family: var(--sans);
+	border-radius: var(--border-radius);
+	background-color: var(--accent);
+}
+
+.home__title-cta-link {
+	color: var(--text-dark);
+	text-decoration: none;
+	border-bottom: 0;
+}
+
+.home__title-cta-link:hover,
+.home__title-cta-link:active {
+	color: #FFF;
+}
+
 .home-nav__list {
 	display: grid;
 	grid-gap: var(--grid-gutter);

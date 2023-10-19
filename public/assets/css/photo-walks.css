@@ -131,6 +131,54 @@
 	border: 0;
 }
 
+.blurbs {
+	display: grid;
+	grid-gap: 2rem;
+	margin-top: 2rem;
+}
+
+@media only screen and (min-width: 576px) { .blurbs { grid-template-columns: repeat(2, 1fr); } }
+@media only screen and (min-width: 992px) { .blurbs { grid-template-columns: repeat(3, 1fr); } }
+
+.blurb {
+	border-radius: .5rem;
+	background-color: #FFF;
+	box-shadow: 0 1rem 2rem 0 rgba(0,0,0,.1);
+}
+
+.blurb__image {
+	border-top-left-radius: .5rem;
+	border-top-right-radius: .5rem;
+}
+
+.blurb__title {
+	margin-bottom: 1rem;
+	font-family: var(--sans);
+	font-weight: 700;
+	padding: 0 1rem;
+}
+
+.blurb__text {
+	margin-bottom: 0;
+	padding: 0 1rem 2rem;
+}
+
+@media only screen and (min-width: 576px) {
+	.blurb__title,
+	.blurb__text {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.blurb__title,
+	.blurb__text {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
 @media only screen and (min-width: 768px) {
 	.vintage-promos {
 		display: grid;
