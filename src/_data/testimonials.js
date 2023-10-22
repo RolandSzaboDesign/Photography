@@ -18,6 +18,22 @@ module.exports = {
 		// },
 		{
 			type: "female",
+			photo: "/assets/images/testimonial-sara.webp",
+			hu: {
+				name: "Sara T.",
+				excerpt: "A fotózásunk első pillanattól kezdve kényelmesen és magabiztosnak éreztem magam a kamera előtt.",
+				text: "Nagyon szerettem Rolanddal dolgozni! A fotózásunk első pillanattól kezdve kényelmesen és magabiztosnak éreztem magam a kamera előtt. Nemcsak oldott légkört teremtett, de az élményt is hihetetlenül élvezetessé és szórakoztatóvá tette. A modellezési technikákkal kapcsolatos útmutatásai kivételesek voltak, emiatt imádtam a fotózás minden pillanatát. Összességében egy fantasztikus együttműködés volt, amitől magabiztosnak éreztem magam.",
+				link: "/hu/portre/sara",
+			},
+			en: {
+				name: "Sara T.",
+				excerpt: "His guidance on modeling techniques was exceptional, and I found myself loving every moment of it.",
+				text: "I absolutely adored working with Roland! From the moment we started shooting, I felt comfortable in front of the camera. Not only did he create a relaxed atmosphere, but he also made the experience incredibly enjoyable and fun. His guidance on modeling techniques was exceptional, and I found myself loving every moment of it. Overall, it was a fantastic collaboration that left me feeling confident.",
+				link: "/en/portraiture/sara",
+			},
+		},
+		{
+			type: "female",
 			photo: "/assets/images/testimonial-anna-2.webp",
 			hu: {
 				name: "M. Anna",
