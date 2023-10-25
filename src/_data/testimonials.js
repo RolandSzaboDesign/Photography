@@ -17,6 +17,23 @@ module.exports = {
 		// 	},
 		// },
 		{
+			// TODO: Add link
+			type: "couple",
+			photo: "/assets/images/testimonial-klemi-adam.webp",
+			hu: {
+				name: "S. Klementina & L. Ádám",
+				excerpt: "A kezdeti bátortalanságot gyorsan feloldották Roland poénos és segítő “utasításai”",
+				text: "Amilyen spontán ötlet volt a fotózás, pontosan olyan könnyedén megkaptuk a közös hangot Rolanddal. Volt egy kis izgalom bennünk, mivel nem mozgunk rutinosan a fényképezőgép előtt, de a kezdeti bátortalanságot gyorsan feloldották Roland poénos és segítő “utasításai”. A szuper hangulat és csodás fotók garantáltak!",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Klementina S. & Ádám L.",
+				excerpt: "Our initial timidity was quickly overcome by Roland's funny and helpful “instructions”",
+				text: "As spontaneous as the idea of photography was, we found common ground with Roland just as easily. We were a bit nervous as we don't routinely move in front of the camera, but our initial timidity was quickly overcome by Roland's funny and helpful “instructions”. Great atmosphere and wonderful photos are guaranteed!",
+				link: "/en/portraiture/",
+			},
+		},
+		{
 			type: "female",
 			photo: "/assets/images/testimonial-sara.webp",
 			hu: {
