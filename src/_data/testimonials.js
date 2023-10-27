@@ -2,23 +2,42 @@ module.exports = {
 	items: [
 		// {
 		// 	type: "male",
+		// 	score: "",
 		// 	photo: "/assets/images/testimonial-.webp",
 		// 	hu: {
 		// 		name: "",
 		// 		excerpt: "",
 		// 		text: "",
-		// 		link: "/hu/portre/",
+		// 		link: "/hu/portre//",
 		// 	},
 		// 	en: {
 		// 		name: "",
 		// 		excerpt: "",
 		// 		text: "",
-		// 		link: "/en/portraiture/",
+		// 		link: "/en/portraiture//",
 		// 	},
 		// },
 		{
+			type: "female",
+			score: "5.0",
+			photo: "/assets/images/testimonial-laura-2.webp",
+			hu: {
+				name: "Laura Sz.",
+				excerpt: "Roland mindig mondott valamit, amitől őszintén mosolyogni tudtam, és ezt kiadják a képek is",
+				text: "Szerintem nagyon ritka, amikor valakivel ennyire jól együtt lehet dolgozni, mint Rolanddal. Nagyon sok mindent tudtam meg a pózolásról és személyre szabottan is adott tippeket. Az egész fotózás nagyon könnyed hangulatban telt, nagyon könnyű vele beszélgetni. Én sosem szerettem azokat a képeimet, amiken teljesen mosolygok, mindig nagyon erőltetettnek tűntek; viszont most volt először olyan, hogy tetszettek ilyen képek magamról. Roland mindig mondott valamit, amitől őszintén mosolyogni tudtam, és ezt kiadják a képek is. Profi munkát végez, a kattintástól az utómunkáig; nagyon tetszett a szerkesztés is, pont olyanra képzeltem a képeket, amilyenekre megcsinálta. Nagyon türelmes volt végig és megbízható is. Nagyon jó a kommunikációja, egyenes instrukciókat ad; látszik, hogy szereti amit csinál és lelkes is.",
+				link: "/hu/portre/laura-2/",
+			},
+			en: {
+				name: "Sz. Laura",
+				excerpt: "Roland always said something that made me genuinely smile, and the pictures show that",
+				text: "I think it's very rare to work with someone as well as Roland. I've learned a lot about posing and he gave personalized tips during our shoot. The entire photo shoot was filled with a very light atmosphere, it was very easy to talk to him. I never liked those pictures of myself in which I am fully smiling, they always looked very forced; however, this was the first time that I liked such pictures of myself. Roland always said something that made me genuinely smile, and the pictures show that. He does a professional job, from the clicks to the post-production. I also really liked the editing, I imagined the pictures to be exactly the way he'd made them. He was very patient throughout the shoot and very reliable. His communication is very good, he gives straightforward instructions; it seems that he loves what he does and is very enthusiastic.",
+				link: "/en/portraiture/laura-2/",
+			},
+		},
+		{
 			// TODO: Add link
 			type: "couple",
+			score: "5.0",
 			photo: "/assets/images/testimonial-klemi-adam.webp",
 			hu: {
 				name: "S. Klementina & L. Ádám",
@@ -35,54 +54,58 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-sara.webp",
 			hu: {
 				name: "Sara T.",
-				excerpt: "A fotózásunk első pillanattól kezdve kényelmesen és magabiztosnak éreztem magam a kamera előtt.",
+				excerpt: "A fotózásunk első pillanattól kezdve kényelmesen és magabiztosnak éreztem magam a kamera előtt",
 				text: "Nagyon szerettem Rolanddal dolgozni! A fotózásunk első pillanattól kezdve kényelmesen és magabiztosnak éreztem magam a kamera előtt. Nemcsak oldott légkört teremtett, de az élményt is hihetetlenül élvezetessé és szórakoztatóvá tette. A modellezési technikákkal kapcsolatos útmutatásai kivételesek voltak, emiatt imádtam a fotózás minden pillanatát. Összességében egy fantasztikus együttműködés volt, amitől magabiztosnak éreztem magam.",
-				link: "/hu/portre/sara",
+				link: "/hu/portre/sara/",
 			},
 			en: {
 				name: "Sara T.",
-				excerpt: "His guidance on modeling techniques was exceptional, and I found myself loving every moment of it.",
+				excerpt: "His guidance on modeling techniques was exceptional, and I found myself loving every moment of it",
 				text: "I absolutely adored working with Roland! From the moment we started shooting, I felt comfortable in front of the camera. Not only did he create a relaxed atmosphere, but he also made the experience incredibly enjoyable and fun. His guidance on modeling techniques was exceptional, and I found myself loving every moment of it. Overall, it was a fantastic collaboration that left me feeling confident.",
-				link: "/en/portraiture/sara",
+				link: "/en/portraiture/sara/",
 			},
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-anna-2.webp",
 			hu: {
 				name: "M. Anna",
 				excerpt: "Roland humorával, odaadásával és a fotózás iránti szenvedélyével mindenki biztonságban, megbecsülve érezheti magát",
 				text: "Aki régóta kacérkodik a gondolattal, hogy kamera elé álljon, de gátlásai vannak és nem mer lépni, jó helyen jár. Roland humorával, odaadásával és a fotózás iránti szenvedélyével mindenki biztonságban, megbecsülve érezheti magát. Aki pedig bátrabb és extra élményre vágyik, nagyon tudom ajánlani az analóg fotózást. Izgalmas, hogy a képet nem tudjuk azonnal megnézni a kijelzőn, és várnunk kell a végeredményre, amíg elő nincsenek hivatva. Eszméletlen különleges és hangulatos képek tudnak így születni!",
-				link: "/hu/portre/anna-9",
+				link: "/hu/portre/anna-9/",
 			},
 			en: {
 				name: "Anna M.",
 				excerpt: "With Roland's humor, dedication and passion for photography, everyone can feel safe and valued",
 				text: "Anyone who has been flirting with the idea of appearing in front of a camera for a long time, but has inhibitions and does not dare to act, is in the right place with Roland. With his humor, dedication and passion for photography, everyone can feel safe and valued. And for those who are braver and want an extra experience, I can highly recommend analog photography. It's exciting that we can't see the image on the screen right away, and we have to wait for the final result until they are developed. Unbelievably special and atmospheric pictures can be created this way!",
-				link: "/en/portraiture/anna-9",
+				link: "/en/portraiture/anna-9/",
 			},
 		},
 		{
 			type: "couple",
+			score: "",
 			photo: "/assets/images/testimonial-burcu-sebastian.webp",
 			hu: {
 				name: "Burcu Z. & Sebastian C.",
 				excerpt: "Gyönyörűen örökítette meg a spontán és valódi pillanatokat is, maradandó emlékeket teremtve nekünk",
 				text: "Roland hihetetlen volt! Professzionalizmusa, kivételes kiszolgálása és az általa készített esküvői fotóink lenyűgöző minősége felülmúlta minden várakozásunkat. Gyönyörűen örökítette meg a spontán és valódi pillanatokat is, maradandó emlékeket teremtve nekünk. Szívből ajánljuk őt a különleges napotokra!",
-				link: "/hu/portre/burcu-sebastian",
+				link: "/hu/portre/burcu-sebastian/",
 			},
 			en: {
 				name: "Burcu Z. & Sebastian C.",
 				excerpt: "He captured both spontaneous and genuine moments beautifully, creating lasting memories",
 				text: "Roland was incredible! His professionalism, exceptional service, and the stunning quality of our wedding photos exceeded our expectations. He captured both spontaneous and genuine moments beautifully, creating lasting memories. We highly recommend him for your special day!",
-				link: "/en/portraiture/burcu-sebastian",
+				link: "/en/portraiture/burcu-sebastian/",
 			},
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-larae.webp",
 			hu: {
 				name: "LaRae Day",
@@ -99,38 +122,41 @@ module.exports = {
 		},
 		{
 			type: "couple",
+			score: "5.0",
 			photo: "/assets/images/testimonial-rikarda-krisztian.webp",
 			hu: {
 				name: "N. Rikarda & Sz. Krisztián",
 				excerpt: "Szívből ajánljuk Rolandot mindazoknak, akik minőségi képekben szeretnék megörökíteni a számukra különleges eseményeket, pillanatokat, egy jó hangulatú fotózás során",
 				text: "Abban már a legelején biztosak voltunk, hogy a fotózás Rolanddal nagyon jó hangulatban fog telni, de arra, hogy ilyen hamar egy hullámhosszra kerülünk, és ilyen jól érezzük magunkat, nem számítottunk. A fotózás időpontja előtt alaposan átbeszéltük, milyen képeket szeretnénk, és hol, amiben Roland abszolút együttműködő volt. Teljes mértékben arra törekedett, hogy a számunkra legmegfelelőbb képeket készítse el. Rugalmassága és precízsége a profizmusának volt köszönhető, az időközben felmerülő esetleges változtatásokhoz is nyitottan állt és minden kívánságunkat meghallgatta. Maga a fotózás egy rendkívül laza, mégis dinamikus hangulatban telt. Rengeteg instrukciót kaptunk Rolandtól a fotózás ideje alatt, ami még inkább hozzájárult a fotók végeredményéhez, amik egytől-egyig magukért beszélnek. A fotózás végeztével már aznap kaptunk tőle ajándékba egyet az elkészült képek közül, és az általunk kiválasztott képeket alig pár nap alatt elkészítette. Szívből ajánljuk Rolandot mindazoknak, akik minőségi képekben szeretnék megörökíteni a számukra különleges eseményeket, pillanatokat, egy jó hangulatú fotózás során, egy profi szakemberrel.",
-				link: "/hu/portre/",
+				link: "/hu/portre/rikarda-krisztian/",
 			},
 			en: {
 				name: "Rikarda N. & Krisztián Sz.",
 				excerpt: "We wholeheartedly recommend Roland to all those who want to capture their special events during a photo shoot with a good atmosphere",
 				text: "We were sure from the very beginning that the photo shoot with Roland would be in a very good mood, but we did not expect that we would come on the same wavelength so soon and have such a good time. Before the photoshoot, we thoroughly discussed what kind of pictures we wanted and where, in which Roland was absolutely cooperative. He went out of his way to get the best pictures for us. His flexibility and precision were due to his professionalism, he was open to any changes that might arise in the meantime and he listened to all our special requests. The photo shoot itself took place in an extremely relaxed, yet dynamic atmosphere. We received a lot of instructions from Roland during the photo shoot, which contributed even more to the end result of the photos, which really speak for themselves. At the end of the photo shoot, we received one of the finalized photos as a gift on the very day of the photoshoot, and he had finalized the pictures we selected in just a few days. We wholeheartedly recommend Roland to all those who want to capture their special events and moments in high-quality pictures, during a photo shoot with a good atmosphere, with a professional photographer.",
-				link: "/en/portraiture/",
+				link: "/en/portraiture/rikarda-krisztian/",
 			},
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-melanie.webp",
 			hu: {
 				name: "Melanie B.",
 				excerpt: "Öröm volt vele dolgozni, az eredmények pedig egyszerűen lenyűgözőek",
 				text: "Rolanddal az év elején találkoztam először, amikor odajött hozzám az utcán, és csináltunk néhány random képet, amik csodálatosan sikerültek. Néhány hónappal ezután, a művészi pályafutásom egy nagyon fontos mérföldkőhöz érkezett, amikor is Roland a kiállításom előtt az egész délelőttöt velem töltötte, és türelmesen lefotózott az összes festményemmel. A környezet nem volt túl segítőkész, csak egy egyszerű budapesti utca, de valahogy mégis sikerült megtalálnia a tökéletes háttereket, és az alkotásaimhoz és az aznapi öltözékemhez illő színeket. Öröm volt vele dolgozni, az eredmények pedig egyszerűen lenyűgözőek.",
-				link: "/hu/portre/",
+				link: "/hu/portre/mel/",
 			},
 			en: {
 				name: "Melanie B.",
 				excerpt: "It was a pleasure to work with him, and the results are simply amazing",
 				text: "I met Roland at the beginning of the year when he approached me at the street, and we casually took some pictures, which turned out amazing. A few months after that I had a very big day in my art career, where just before the exhibition, he spent the whole morning with me, patiently taking pictures of me with all my paintings. The surroundings weren't very helpful, just a regular street in Budapest, but he managed to find the perfect backgrounds, and matching colours with my artworks, and the outfit I put on that day. It was a pleasure to work with him, and the results are simply amazing.",
-				link: "/en/portraiture/",
+				link: "/en/portraiture/mel",
 			},
 		},
 		{
 			type: "female",
+			score: "4.9",
 			photo: "/assets/images/testimonial-laura.webp",
 			hu: {
 				name: "F. Laura Hanna",
@@ -147,6 +173,7 @@ module.exports = {
 		},
 		{
 			type: "couple",
+			score: "5.0",
 			photo: "/assets/images/testimonial-iulia-radu.webp",
 			hu: {
 				name: "Iulia I. & Radu N.",
@@ -163,6 +190,7 @@ module.exports = {
 		},
 		{
 			type: "male",
+			score: "5.0",
 			photo: "/assets/images/testimonial-gabor.webp",
 			hu: {
 				name: "B. Gábor",
@@ -179,6 +207,7 @@ module.exports = {
 		},
 		{
 			type: "male",
+			score: "",
 			photo: "/assets/images/testimonial-lacko.webp",
 			hu: {
 				name: "A. Lackó",
@@ -195,6 +224,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-muskan.webp",
 			hu: {
 				name: "K. Muskan",
@@ -211,6 +241,7 @@ module.exports = {
 		},
 		{
 			type: "male",
+			score: "",
 			photo: "/assets/images/testimonial-gyuri.webp",
 			hu: {
 				name: "H. György",
@@ -227,6 +258,7 @@ module.exports = {
 		},
 		{
 			type: "couple",
+			score: "5.0",
 			photo: "/assets/images/testimonial-tatum-peter.webp",
 			hu: {
 				name: "Cs. Péter",
@@ -243,6 +275,7 @@ module.exports = {
 		},
 		{
 			type: "male",
+			score: "5.0",
 			photo: "/assets/images/testimonial-adam.webp",
 			hu: {
 				name: "H. Ádám",
@@ -259,6 +292,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-tatum.webp",
 			hu: {
 				name: "Cs. Tatum",
@@ -275,6 +309,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-lilla.webp",
 			hu: {
 				name: "B. Lilla",
@@ -291,6 +326,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-eszter-3.webp",
 			hu: {
 				name: "Sz. Eszter",
@@ -307,6 +343,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-kata-mira.webp",
 			hu: {
 				name: "N. Kata",
@@ -323,6 +360,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-mici.webp",
 			hu: {
 				name: "G. Mici",
@@ -339,6 +377,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-detti.webp",
 			hu: {
 				name: "O. Detti",
@@ -355,6 +394,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-eszter-2.webp",
 			hu: {
 				name: "Sz. Eszter",
@@ -371,6 +411,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-eszter.webp",
 			hu: {
 				name: "B. Eszter",
@@ -387,6 +428,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-gabcsi.webp",
 			hu: {
 				name: "V. Gabcsi",
@@ -403,6 +445,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-reka.webp",
 			hu: {
 				name: "T. Réka",
@@ -419,6 +462,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-greti.webp",
 			hu: {
 				name: "A. Gréta",
@@ -435,6 +479,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-jazmin.webp",
 			hu: {
 				name: "V. Jázmin",
@@ -451,6 +496,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-kincso.webp",
 			hu: {
 				name: "Z. Kincső",
@@ -467,6 +513,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-saci.webp",
 			hu: {
 				name: "U. Sarolta",
@@ -483,6 +530,7 @@ module.exports = {
 		},
 		{
 			type: "couple",
+			score: "",
 			photo: "/assets/images/testimonial-jackeline-andre.webp",
 			hu: {
 				name: "Jackie N. & André P.",
@@ -499,6 +547,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-nori.webp",
 			hu: {
 				name: "V. Nóri",
@@ -515,6 +564,7 @@ module.exports = {
 		},
 		{
 			type: "male",
+			score: "",
 			photo: "/assets/images/testimonial-balazs.webp",
 			hu: {
 				name: "B. Balázs",
@@ -531,6 +581,7 @@ module.exports = {
 		},
 		{
 			type: "couple",
+			score: "",
 			photo: "/assets/images/testimonial-cinta-jorge.webp",
 			hu: {
 				name: "Cinta W. & Jorge G.",
@@ -547,6 +598,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-anna.webp",
 			hu: {
 				name: "M. Anna",
@@ -563,6 +615,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-cinti.webp",
 			hu: {
 				name: "M. Cinti",
@@ -579,6 +632,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-dori.webp",
 			hu: {
 				name: "E. Dóri",
@@ -595,6 +649,7 @@ module.exports = {
 		},
 		{
 			type: "couple",
+			score: "",
 			photo: "/assets/images/testimonial-luca-david.webp",
 			hu: {
 				name: "P. Luca & P. Dávid",
@@ -611,6 +666,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-vivien.webp",
 			hu: {
 				name: "É. Vivien",
@@ -627,6 +683,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-viktoria.webp",
 			hu: {
 				name: "M. Viktória",
@@ -643,6 +700,7 @@ module.exports = {
 		},
 		{
 			type: "female",
+			score: "",
 			photo: "/assets/images/testimonial-kata.webp",
 			hu: {
 				name: "P. Kata",
