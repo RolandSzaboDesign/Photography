@@ -326,7 +326,7 @@ module.exports = {
 		},
 		{
 			type: "female",
-			score: "",
+			score: "5.0",
 			photo: "/assets/images/testimonial-eszter-3.webp",
 			hu: {
 				name: "Sz. Eszter",
@@ -377,7 +377,7 @@ module.exports = {
 		},
 		{
 			type: "female",
-			score: "",
+			score: "5.0",
 			photo: "/assets/images/testimonial-detti.webp",
 			hu: {
 				name: "O. Detti",
@@ -462,7 +462,7 @@ module.exports = {
 		},
 		{
 			type: "female",
-			score: "",
+			score: "5.0",
 			photo: "/assets/images/testimonial-greti.webp",
 			hu: {
 				name: "A. Gréta",
@@ -485,13 +485,13 @@ module.exports = {
 				name: "V. Jázmin",
 				excerpt: "Roland humorának köszönhetően az első pillanattól kezdve megfeledkeztem arról, hogy egyáltalán fotózáson vagyok",
 				text: "Eddig kétszer volt alkalmam együtt dolgozni Rolanddal, és mindkét alkalom felejthetetlen élmény volt. Az első alkalommal nem tudtam mire számítsak, azt meg főleg nem, hogy hogyan kell \"pózolni\" a kamera előtt. Viszont Roland humorának köszönhetően az első pillanattól kezdve megfeledkeztem arról, hogy egyáltalán fotózáson vagyok! Amikor a párommal mentünk hozzá, féltünk, hogy furcsa lesz kamera előtt csókot váltani, de ott is végig humorizált, kihozta belőlünk a természetes, meghitt pillanatainkat. Ezáltal a fotók nem beállított pillanatokat, hanem valódi szeretetet sugároznak, amikre mindig mosolyogva nézünk. Röviden, ha valakit, Rolandot csakis ajánlani tudom!",
-				link: "/hu/portre/jazmin-beni/",
+				link: "/hu/portre/jazmin/",
 			},
 			en: {
 				name: "Jázmin V.",
 				excerpt: "Thanks to Roland's humor, I forgot that I was at a photo shoot from the very first moment",
 				text: "I have had the opportunity to work with Roland twice so far, and both times were unforgettable experiences. The first time I didn't know what to expect, especially not how to pose in front of the camera. However, thanks to Roland's humor, I forgot that I was at a photo shoot from the very first moment! When my partner and I went to see him, we were afraid that it would be strange to kiss in front of the camera, but even there he was humorous throughout, bringing out our natural, intimate moments. As a result, the photos don't show posed moments but radiate real love, which we always look at with a smile. In short, I can only recommend Roland!",
-				link: "/en/portraiture/jazmin-beni/",
+				link: "/en/portraiture/jazmin/",
 			},
 		},
 		{
