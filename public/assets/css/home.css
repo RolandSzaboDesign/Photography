@@ -56,14 +56,14 @@
 	transition: var(--transition-duration) opacity, var(--transition-duration) transform;
 }
 
-.home-nav__link--female { background-image: url('/assets/images/portraiture/larae/03_700.webp'); }
-.home-nav__link--male   { background-image: url('/assets/images/portraiture/patrick/03_700.webp'); }
-.home-nav__link--couple { background-image: url('/assets/images/portraiture/iulia-radu/08_700.webp'); }
+.home-nav__link--female { background-image: url('/assets/images/portraiture/virag/06_700.webp'); }
+.home-nav__link--male   { background-image: url('/assets/images/portraiture/gabor/06_700.webp'); }
+.home-nav__link--couple { background-image: url('/assets/images/portraiture/burcu-sebastian/06_700.webp'); }
 
 @media only screen and (min-width: 768px) {
-	.home-nav__link--female { background-image: url('/assets/images/portraiture/larae/07_700.webp'); }
-	.home-nav__link--male { background-image: url('/assets/images/portraiture/patrick/04_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/iulia-radu/02_700.webp'); }
+	.home-nav__link--female { background-image: url('/assets/images/portraiture/virag/05_700.webp'); }
+	.home-nav__link--male { background-image: url('/assets/images/portraiture/gabor/01_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/burcu-sebastian/01_700.webp'); }
 }
 
 .home-nav__link-text {
