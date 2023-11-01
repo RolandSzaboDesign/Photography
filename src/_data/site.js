@@ -65,7 +65,7 @@ module.exports = {
 
 		"homepageMainTitle": "I take authentic portraits and tell horrible jokes.",
 		"homepageAutumnCTA": "🍂 Let's create beautiful autumn memories together! 🍁",
-		"homepageRecentTitle": "Some of my Latest Work",
+		"homepageRecentTitle": "My Portrait Work from the Last 2 Months",
 		"homepageButton": "Let's do a Photoshoot",
 		"homepageVisitLatest": "or see my latest work",
 		"homepageVisitGalleries": "or check out all of my galleries",
@@ -165,7 +165,7 @@ module.exports = {
 
 		"homepageMainTitle": "Őszinte portré fotókat készítek és borzalmas vicceket mesélek.",
 		"homepageAutumnCTA": "🍂 Készítsünk gyönyörű őszi fotókat! 🍁",
-		"homepageRecentTitle": "Legfrissebb Munkáim",
+		"homepageRecentTitle": "Munkáim az Elmúlt 2 Hónapból",
 		"homepageButton": "Fotózzunk!",
 		"homepageVisitLatest": "vagy nézd meg a legfrissebb munkáimat",
 		"homepageVisitGalleries": "vagy nézd meg a galériámat",
