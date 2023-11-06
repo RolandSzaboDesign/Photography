@@ -6,6 +6,7 @@
 /contact												/hu/kapcsolat/							301
 /galleries/												/hu/portre/								301
 /galleries												/hu/portre/								301
+/hu/galeriak/											/hu/portre/								301
 /gear/													/hu/felszereles/						301
 /gear													/hu/felszereles/						301
 /legal/													/hu/kapcsolat/							301
@@ -178,6 +179,7 @@
 /hu/tags/k%C3%B6z%C3%B6ss%C3%A9gi-tartalom/				/hu/tags/all/							301
 /hu/tags/p%C3%A1ros/									/hu/tags/családi/páros/					301
 /hu/tags/people/										/hu/tags/all/							301
+/hu/tags/stores/										/hu/tags/all/							301
 /hu/tags/%C3%BCzlet/									/hu/tags/all/							301
 /hu/tags/used-car-photos/								/hu/tags/all/							301
 
