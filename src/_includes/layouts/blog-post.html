@@ -1,0 +1,21 @@
+---
+permalink: "/{{ locale }}/blog/{{ slug }}/"
+layout: layouts/base.html
+css: blog
+---
+
+<main class="main">
+	<div class="container">
+		<header class="page-header">
+			<a class="page-header__category" href="/{{ locale }}/blog/">Blog</a>
+			<h1 class="page-header__title">{{ title }}</h1>
+		</header>
+
+		{{ content }}
+
+		<footer class="written-by">
+			<p>Written by <a href="/{{ locale }}/{{ slugAbout }}/">Roland Szabó</a> on {{ date | date: "%Y.%m.%d". }}.</p>
+			<img src="" alt="Roland Szabó">
+		</footer>
+	</div>
+</main>
