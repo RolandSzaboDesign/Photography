@@ -899,6 +899,59 @@ hr {
 
 
 
+/* Blog */
+
+.blog-post {
+	margin-bottom: 2rem;
+	background-color: #FFF;
+	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.1);
+}
+
+.blog-post__link,
+.blog-post__link:hover,
+.blog-post__link:focus {
+	color: var(--text);
+	border-bottom: 0;
+}
+
+.blog-post__image {
+	display: flex;
+	object-fit: cover;
+	width: 100%;
+	height: 10rem;
+}
+
+.blog-post__content {
+	padding: 1rem;
+}
+
+.blog-post__title {
+	margin-top: 0;
+}
+
+.blog-post__intro {
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid var(--bg);
+}
+
+@media only screen and (min-width: 768px) {
+	.blog-post__link {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+
+	.blog-post__image {
+		height: initial;
+	}
+
+	.blog-post__content {
+		padding: 2rem;
+	}
+}
+
+
+
 /* Media Queries */
 
 @media only screen and (min-width: 425px) {

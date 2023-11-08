@@ -9,11 +9,17 @@ layout: layouts/base.html
 			<h1 class="page-header__title">Blog</h1>
 		</header>
 
-		<article class="blog-post">
-			<a href="/{{ locale }}/blog/{{ slug }}/">
-				<h2>Blog Post Title</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			</a>
-		</article>
+		{% for item in collections.blog %}
+			<article class="blog-post">
+				<a class="blog-post__link" href="/{{ locale }}/blog/{{ item.data.slug }}/">
+					<img class="blog-post__image" src="/assets/images/blog/{{ item.data.serial }}.webp" alt="Featured image for {{ item.data.title }}">
+					<div class="blog-post__content">
+						<h2 class="blog-post__title">{{ item.data.title }}</h2>
+						<p class="blog-post__intro">{{ item.data.intro }}</p>
+						<span>{{ item.data.date | date: "%Y.%m.%d." }}</span>
+					</div>
+				</a>
+			</article>
+		{% endfor %}
 	</div>
 </main>
