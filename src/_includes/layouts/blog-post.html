@@ -10,12 +10,26 @@ css: blog
 			<a class="page-header__category" href="/{{ locale }}/blog/">Blog</a>
 			<h1 class="page-header__title">{{ title }}</h1>
 		</header>
+	</div>
+
+	<div class="blog-container">
+		<figure class="featured-image">
+			<img class="featured-image__photo" src="/assets/images/blog/{{ count }}.webp" alt="{{ featuredImageTitle }}">
+			<figcaption class="featured-image__caption">
+				<p class="featured-image__title">{{ featuredImageTitle }}</p>
+				<small class="featured-image__details">
+					<span class="featured-image__info">{{ featuredImageDate }}</span>
+					<span class="featured-image__info">{{ featuredImageLocation }}</span>
+					<span class="featured-image__info">{{ featuredImageGear }}</span>
+				</small>
+			</figcaption>
+		</figure>
 
 		{{ content }}
 
 		<footer class="written-by">
-			<p>Written by <a href="/{{ locale }}/{{ slugAbout }}/">Roland Szabó</a> on {{ date | date: "%Y.%m.%d." }}</p>
-			<img src="" alt="Roland Szabó">
+			<img class="written-by__image" src="/assets/images/avatar.png" alt="Roland Szabó" width="600" height="300">
+			<p class="written-by__text"><strong>Written by <a href="/{{ locale }}/{{ slugAbout }}/">Roland Szabó</a></strong><br> <small>on {{ date | date: "%Y.%m.%d." }}</small></p>
 		</footer>
 	</div>
 </main>

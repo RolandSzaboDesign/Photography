@@ -1,21 +1,28 @@
 ---
 permalink: "/{{ locale }}/blog/"
 layout: layouts/base.html
+css: blog
 ---
 
 <main class="main">
-	<div class="container">
+	<div class="blog-container">
 		<header class="page-header">
 			<h1 class="page-header__title">Blog</h1>
 		</header>
 
-		{% for item in collections.blog %}
-			<article class="blog-post">
-				<a class="blog-post__link" href="/{{ locale }}/blog/{{ item.data.slug }}/">
-					<img class="blog-post__image" src="/assets/images/blog/{{ item.data.serial }}.webp" alt="Featured image for {{ item.data.title }}">
-					<div class="blog-post__content">
-						<h2 class="blog-post__title">{{ item.data.title }}</h2>
-						<p class="blog-post__intro">{{ item.data.intro }}</p>
+		{% if locale == "en" %}
+			{% assign blogsies = collections.blog-en %}
+		{% elsif locale == "hu" %}
+			{% assign blogsies = collections.blog-hu %}
+		{% endif %}
+
+		{% for item in blogsies %}
+			<article class="blog-lister">
+				<a class="blog-lister__link" href="/{{ locale }}/blog/{{ item.data.slug }}/">
+					<img class="blog-lister__image" src="/assets/images/blog/{{ item.data.count }}.webp" alt="Featured image for {{ item.data.title }}">
+					<div class="blog-lister__content">
+						<h2 class="blog-lister__title">{{ item.data.title }}</h2>
+						<p class="blog-lister__intro">{{ item.data.intro }}</p>
 						<span>{{ item.data.date | date: "%Y.%m.%d." }}</span>
 					</div>
 				</a>
