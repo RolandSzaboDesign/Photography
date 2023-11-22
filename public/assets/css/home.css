@@ -56,14 +56,14 @@
 	transition: var(--transition-duration) opacity, var(--transition-duration) transform;
 }
 
-.home-nav__link--female { background-image: url('/assets/images/portraiture/virag/06_700.webp'); }
-.home-nav__link--male   { background-image: url('/assets/images/portraiture/gabor/06_700.webp'); }
-.home-nav__link--couple { background-image: url('/assets/images/portraiture/burcu-sebastian/06_700.webp'); }
+.home-nav__link--female { background-image: url('/assets/images/portraiture/blanka-3/04_700.webp'); }
+.home-nav__link--male   { background-image: url('/assets/images/portraiture/abdallah/04_700.webp'); }
+.home-nav__link--couple { background-image: url('/assets/images/portraiture/klemi-adam/06_700.webp'); }
 
 @media only screen and (min-width: 768px) {
-	.home-nav__link--female { background-image: url('/assets/images/portraiture/virag/05_700.webp'); }
-	.home-nav__link--male { background-image: url('/assets/images/portraiture/gabor/01_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/burcu-sebastian/01_700.webp'); }
+	.home-nav__link--female { background-image: url('/assets/images/portraiture/blanka-3/06_700.webp'); }
+	.home-nav__link--male { background-image: url('/assets/images/portraiture/abdallah/06_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/klemi-adam/02_700.webp'); }
 }
 
 .home-nav__link-text {
