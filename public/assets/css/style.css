@@ -475,7 +475,7 @@ hr {
 /* Page Header */
 
 .page-header {
-	margin-bottom: 1.5rem;
+	margin-bottom: 2rem;
 	text-align: center;
 }
 
@@ -500,9 +500,11 @@ hr {
 }
 
 .page-header__intro {
-	margin-top: .5rem;
-	font-weight: 700;
-	line-height: 1.4;
+	font-family: var(--serif);
+	font-size: 1.125rem;
+	color: var(--text-dark);
+	line-height: 1.5;
+	letter-spacing: -0.25px;
 }
 
 
@@ -917,14 +919,17 @@ hr {
 		--polaroid-padding: .75rem;
 	}
 
+	.page-header {
+		margin-bottom: 2.5rem;
+	}
+
 	.page-header__title {
 		font-size: 2.125rem;
 	}
 
 	.page-header__intro {
-		font-size: 1.125rem;
+		font-size: 1.5rem;
 		letter-spacing: -.03125rem;
-		line-height: 1.5;
 	}
 
 	.polaroid__title {
@@ -1069,7 +1074,7 @@ hr {
 	}
 
 	.page-header {
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
 	}
 
 	.page-header__title {
@@ -1127,17 +1132,17 @@ hr {
 		font-size: 1.25rem;
 	}
 
-	.page-header__title {
-		font-size: 2.375rem;
-		letter-spacing: -.1rem;
-	}
-
 	.cta__title {
 		margin-bottom: 1.5rem;
 	}
 
 	.cta__text {
 		margin-bottom: 2rem;
+	}
+
+	.page-header__title {
+		font-size: 2.375rem;
+		letter-spacing: -.1rem;
 	}
 
 	.page-header--has-intro {

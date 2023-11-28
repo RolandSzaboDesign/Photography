@@ -7,43 +7,39 @@ css: photo-walks
 ---
 
 <main class="main">
-	<section class="section section--top section--border">
+	<section class="section section--top">
 		<div class="container">
 			<header class="page-header">
-				<span class="page-header__category">{{ site[locale].navServices }}</span>
+				<!-- <span class="page-header__category">{{ site[locale].navServices }}</span> -->
 				<h1 class="page-header__title">{{ site[locale].navServicesPortraiture }}</h1>
-				<p class="page-header__intro">{{ site[locale].servicesPortraitureIntro }}</p>
 			</header>
-
-			<ol class="steps">
-				<li class="step">
-					<header class="step__header">
-						<span class="step__nr">1</span>
-						<strong class="step__title">"Hey, Roland"</strong>
-					</header>
-					<p class="step__text">Every journey starts here. Drop me a line, we'll figure out the date and agree on the details. If you don't have an idea, I can help you. The consultation is free, so you've got nothing to lose.</p>
-				</li>
-				<li class="step">
-					<header class="step__header">
-						<span class="step__nr">2</span>
-						<strong class="step__title">The Big Day</strong>
-					</header>
-					<p class="step__text">You just arrive in style, I'll handle the good vibes and the amazing photos. On the day of the shoot, I'll gift you one of my favorite photos, edited.</p>
-				</li>
-				<li class="step">
-					<header class="step__header">
-						<span class="step__nr">3</span>
-						<strong class="step__title">Delivery</strong>
-					</header>
-					<p class="step__text">You get to select your favorite photos, you'll only need to pay for these. I'll deliver them in 1-3 days, so you can share them with those who are important.</p>
-				</li>
-			</ol>
-
-			{% include "partials/vintage-promo.html" %}
+			<div class="half">
+				<div>
+					<p class="page-header__intro">I want to show everyone's unique beauty by proving they're naturally photogenic, overcoming camera discomfort.</p>
+					<p>Through easygoing photo sessions in Budapest, I use empathy and humor. I also teach simple posing to boost confidence and help people feel at ease in front of the camera.</p>
+					<p>It's more than just photos—it's about feeling good. I capture authentic beauty, offer posing tips, and leave clients with not just pictures but newfound confidence in their natural charm.</p>
+					<p>Ready for your transformation?</p>
+					<a class="button" href="#ready">Read On</a>
+				</div>
+				<span class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="Relaxed Portrait Photography in Budapest">
+				</span>
+			</div>
 		</div>
 	</section>
 
-	<section class="section section--grey section--border">
+	<section class="section section--grey">
+		<div class="container">
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% include "partials/testimonial-excerpt.html", id: 0 %}
+				{% include "partials/testimonial-excerpt.html", id: 1 %}
+				{% include "partials/testimonial-excerpt.html", id: 2 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="ready">
 		<div class="container">
 			<h2>Here are the details:</h2>
 			<ol class="how-it-works">
@@ -89,7 +85,17 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--white section--border">
+	<section class="section section--grey">
+		<div class="container">
+			<div class="testimonials">
+				{% include "partials/testimonial-excerpt.html", id: 3 %}
+				{% include "partials/testimonial-excerpt.html", id: 4 %}
+				{% include "partials/testimonial-excerpt.html", id: 5 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
 		<div class="container">
 			<h2>Pricing</h2>
 			<figure class="floating-photo floating-photo--left">
@@ -110,7 +116,17 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--border">
+	<section class="section section--grey">
+		<div class="container">
+			<div class="testimonials">
+				{% include "partials/testimonial-excerpt.html", id: 6 %}
+				{% include "partials/testimonial-excerpt.html", id: 7 %}
+				{% include "partials/testimonial-excerpt.html", id: 8 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
 		<div class="container">
 			<h2 id="faq">Questions You Might Ask</h2>
 			<p>If you have any more questions, <a href="/{{ locale }}/{{ site[locale].slugContact }}/">don't hesitate to ask</a>, I'll answer promptly!</p>
@@ -121,17 +137,6 @@ css: photo-walks
 						<div class="faq__answer">{{ e[locale].answer }}</div>
 					</details>
 				{%- endfor -%}
-			</div>
-		</div>
-	</section>
-
-	<section class="section section--white section--border">
-		<div class="container">
-			<div class="testimonials">
-				{% assign source = testimonials.items %}
-				{% for item in source limit:3 %}
-					{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
-				{% endfor %}
 			</div>
 		</div>
 	</section>

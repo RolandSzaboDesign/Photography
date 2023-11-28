@@ -32,7 +32,7 @@ module.exports = {
 
 		"navAbout": "About",
 		"navServices": "Services",
-		"navServicesPortraiture": "Portrait Photo Walks",
+		"navServicesPortraiture": "Relaxed Portrait Photography in Budapest",
 		"navServicesVintagePortraiture": "Portrait Photo Walks with Vintage Lenses",
 		"navServicesAnalogPortraiture": "Analog Portrait Photo Walks Shot on Film",
 		"navServicesAutumnPortraiture": "Autumn Portrait Photography in Budapest",
