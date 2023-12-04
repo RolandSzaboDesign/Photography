@@ -4,26 +4,27 @@ title: About
 translation: about
 ---
 
-<p>Hey there, I'm Roland! At <span title="👴">33</span>, I'm not just an aspiring amateur photographer from Budapest, Hungary&mdash;I'm someone who's passionate about capturing the genuine beauty in every moment.</p>
+<p>Hey there, I'm Roland! At <span title="👴">34</span>, I'm not just an aspiring amateur photographer from Budapest, Hungary&mdash;I'm someone who's passionate about capturing the genuine beauty in every moment.</p>
 <p>I thrive on candid moments and the realness they convey. My aim is to bring out your authenticity and make you fall in love with portrait photography, just like I have.</p>
 <p>For me, the camera is more than just a tool; it's an extension of my creative self, a means of communicating with people, and a constant companion on my journey. Photography has opened doors to connections that were previously unimaginable, and for that, I am eternally grateful.</p>
 <p>When I'm not behind the lens or immersed in the world of editing, <a href="https://rolandszabo.design/" target="_blank" rel="noopener noreferrer">I'm designing websites</a> for a living, indulging in video and board games, practicing cardistry, or trying to solve the 3×3 Rubik's cube faster than ever before.</p>
 <p>I'd absolutely love to hear from you, so <a href="/{{ locale }}/{{ site[locale].slugContact }}/">don't hesitate to say hello</a>!</p>
 
-<h2>A Proud Achievement</h2>
-<a class="about__magazine" href="https://www.magcloud.com/browse/issue/2608675" target="_blank" rel="noopener noreferrer"><img src="/assets/images/dreamy-mag-584.png" alt="" title="Click here to view the magazine"></a>
-<p>As of September 2023, I'm honored to share that my work has graced the cover of DREAMY magazine (issue 584). This achievement fuels my dedication to create authentic portraits that capture the unique essence of each individual.</p>
-<!-- Magazine cover képek, link -->
-
 <h3>List of Publications</h3>
-<ul class="list">
-	<li><a href="https://www.magcloud.com/browse/issue/2608675" target="_blank" rel="noopener noreferrer">DREAMY Magazine, issue 584, September 2023</a></li>
-	<li><a href="https://issuu.com/mannpublicationsmagazines/docs/digital_magazine_e4bf1199c43348/48" target="_blank" rel="noopener noreferrer">Fashion Mannuscript, September 2023</a></li>
+<p>Recently, I've had the privilege of my photography appearing in and on the covers of various beauty and fashion magazines around the world. I'm incredibly humbled and grateful to everyone who made this possible.</p>
+<ul class="magazines">
+	{% for item in publications.list %}
+		<li class="magazine">
+			<img class="magazine__image" src="{{ item.image }}" alt="{{ item.title }} {{ item.description }}">
+			<h4 class="magazine__title">{{ item.title }} Magazine</h4>
+			<p class="magazine__description">{{ item[locale].description }}</p>
+			<p class="magazine__issue">{{ item[locale].issue }}</p>
+		</li>
+	{% endfor %}
 </ul>
 
 <h2>Your Budapest Portrait Photographer Awaits</h2>
 <p>If you're seeking a Budapest-based portrait photographer who's not bound by rigid schedules and offers exceptional value, you've found your match. Whether you're a seasoned pro or stepping in front of the camera for the first time, I'm here to create remarkable memories through portraits that truly reflect you.</p>
-<p class="emphasized">So, let's connect, embark on a photographic adventure, and capture moments that will last a lifetime&mdash;whether it's solo, with your special someone, or with your entire family.</p>
 
 <h2>Where to Next?</h2>
 <div class="buttons">

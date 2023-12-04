@@ -4,24 +4,27 @@ title: Rólam
 translation: about
 ---
 
-<p>Hellóka, Roland vagyok, <span title="👴">33 éves</span>, és szenvedélyem megörökíteni a valós szépséget a kamerán keresztül.</p>
+<p>Hellóka, Roland vagyok, <span title="👴">34 éves</span>, és szenvedélyem megörökíteni a valós szépséget a kamerán keresztül.</p>
 <p>Képeimmel az őszinte pillanatokra és az általuk közvetített valós érzelmekre törekszem. Célom, hogy megszerettessem veled a portréfotózást.</p>
 <p>Számomra a kamera több, mint egy eszköz; a kreatív énem kiterjesztése, az emberekkel való kommunikáció eszköze, és állandó kísérőm az utam során. A fotózás olyan kapcsolatokat tett lehetővé, amelyek korábban elképzelhetetlenek voltak, és ezért örökké hálás vagyok.</p>
 <p>Amikor nem a kamera mögött állok vagy a képeidet szerkesztem tökélyre, akkor <a href="https://rolandszabo.design/" target="_blank" rel="noopener noreferrer">weboldalakat tervezek és fejlesztek</a>, videó- és társasjátékokkal játszom, kártyabűvészetet gyakorlom, vagy igyekszem minden korábbinál gyorsabban kirakni a 3×3-as Rubik kockát.</p>
 <p>Nagyon szívesen hallanék Felőled, úgyhogy bátran <a href="/{{ locale }}/{{ site[locale].slugContact }}/">lépj velem kapcsolatba</a>!</p>
 
-<h2>Amire Büszke Vagyok</h2>
-<a class="about__magazine" href="https://www.magcloud.com/browse/issue/2608675" target="_blank" rel="noopener noreferrer"><img src="/assets/images/dreamy-mag-584.png" alt="" title="Kattintsd ide, hogy megnézd a magazint!"></a>
-<p>2023 szeptemberében az a megtiszteltetés ért, hogy az egyik portré fotós projektem a DREAMY magazin 584. számának borítóján szerepelt. Ez az eredmény tovább erősíti az elhivatottságomat, hogy hiteles portrékat készítsek, amelyek megragadják az egyének esszenciáját.</p>
 <h3>Publikációim</h3>
-<ul class="list">
-	<li><a href="https://www.magcloud.com/browse/issue/2608675" target="_blank" rel="noopener noreferrer">DREAMY Magazine, 584. szám, 2023 Szeptember</a></li>
-	<li><a href="https://issuu.com/mannpublicationsmagazines/docs/digital_magazine_e4bf1199c43348/48" target="_blank" rel="noopener noreferrer">Fashion Mannuscript, 2023 Szeptember</a></li>
+<p>Nemrég az a megtiszteltetés ért, hogy különböző világkörüli divatmagazinokban és azok címlapjain jelenhetett meg a munkám. Elképesztően hálás vagyok mindazoknak, akik lehetővé tették ezt.</p>
+<ul class="magazines">
+	{% for item in publications.list %}
+		<li class="magazine">
+			<img class="magazine__image" src="{{ item.image }}" alt="{{ item.title }} {{ item.description }}">
+			<h4 class="magazine__title">{{ item.title }} Magazin</h4>
+			<p class="magazine__description">{{ item[locale].description }}</p>
+			<p class="magazine__issue">{{ item[locale].issue }}</p>
+		</li>
+	{% endfor %}
 </ul>
 
 <h2>Irány a Portréfotózás Budapesten!</h2>
 <p>Ha olyan budapesti portréfotóst keresel, akit nem kötnek a merev időbeosztások, és kivételes értéket kínál, akkor ne is keress tovább. Akár tapasztalt modell vagy, akár először lépsz a kamera elé, én azért vagyok itt, hogy figyelemreméltó emlékeket teremtsek portré fotókon keresztül, amelyek teljes valódban tükröznek Téged.</p>
-<p class="emphasized">Ha meghoztam a kedved a fotózáshoz, írj rám bátran, és örökítsünk meg életre szóló emlékeket! Akár egyéniben, akár a Nagy Ővel, vagy akár az egész családoddal.</p>
 
 <h2>Hogyan Tovább?</h2>
 <div class="buttons">
