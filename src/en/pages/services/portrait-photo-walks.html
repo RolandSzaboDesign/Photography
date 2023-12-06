@@ -20,13 +20,13 @@ css: photo-walks
 					<p>Uncertain about posing? Unsure where to place your hands or how to look your best on camera? Rest assured, you're in capable hands. I'm prepared to demonstrate that you are, indeed, inherently photogenic.</p>
 				</div>
 				<div class="polaroid">
-					<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="Relaxed Portrait Photography in Budapest">
+					<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="{{ site[locale].navServicesPortraiture }}">
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section section--grey">
+	<section class="section section--testimonials">
 		<div class="container">
 			<div class="testimonials">
 				{% assign source = testimonials.items %}
@@ -82,7 +82,7 @@ css: photo-walks
 					</figure>
 					<p>Let's talk about what happens after the shutter clicks! On the day of the shoot, you'll receive a special treat: one of my favorite photos, edited and retouched, completely free.</p>
 					<p>Next, I'll dive into the initial culling phase, removing any blurry, duplicate, or less-than-flattering shots. No need for you to see them, and no need for me to keep them.</p>
-					<p>Once the selection is refined, I'll send you the remaining photos. These will be in black-and-white, small size, and watermarked. It's your chance to choose the ones you'd like me to edit and retouch.</p>
+					<p>Once the selection is refined, I'll send you the remaining photos. These will be in small size and watermarked. It's your chance to choose the ones you'd like me to edit and retouch.</p>
 					<p>Once you've made your selection, sit back for 1-3 days, and I'll work my magic on your chosen photos. And hey, if you need assistance with printing or creating a photo album, I've got you covered!</p>
 				</li>
 			</ol>
@@ -92,7 +92,7 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--grey">
+	<section class="section section--testimonials">
 		<div class="container">
 			<div class="testimonials">
 				{% include "partials/testimonial-excerpt.html", id: 3 %}
@@ -132,7 +132,7 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--grey">
+	<section class="section section--testimonials">
 		<div class="container">
 			<div class="testimonials">
 				{% include "partials/testimonial-excerpt.html", id: 6 %}
@@ -149,9 +149,6 @@ css: photo-walks
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Email me to Get Started</a>
 				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
 			</div>
-			<hr>
-			{% assign category = faq.general %}
-			{% include "partials/faq.html" %}
 		</div>
 	</section>
 </main>

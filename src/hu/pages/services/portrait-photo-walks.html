@@ -7,43 +7,37 @@ css: photo-walks
 ---
 
 <main class="main">
-	<section class="section section--top section--border">
+	<section class="section section--top">
 		<div class="container">
 			<header class="page-header">
-				<span class="page-header__category">{{ site[locale].navServices }}</span>
 				<h1 class="page-header__title">{{ site[locale].navServicesPortraiture }}</h1>
-				<p class="page-header__intro">{{ site[locale].servicesPortraitureIntro }}</p>
 			</header>
-
-			<ol class="steps">
-				<li class="step">
-					<header class="step__header">
-						<span class="step__nr">1</span>
-						<strong class="step__title">"Szia, Roland"</strong>
-					</header>
-					<p class="step__text">Minden élmény így kezdődik. Írj rám, kitaláljuk a dátumot és megbeszéljük a részleteket. Ha nincs ötleted, szívesen segítek. A konzultáció ingyenes, nincs mit veszíteni.</p>
-				</li>
-				<li class="step">
-					<header class="step__header">
-						<span class="step__nr">2</span>
-						<strong class="step__title">A Nagy Nap</strong>
-					</header>
-					<p class="step__text">Érkezz stílusosan, a jó hangulatról és a nagyszerű fotókról én gondoskodom. Még a fotózás napján kapsz tőlem egy elkészült képet ajándékba.</p>
-				</li>
-				<li class="step">
-					<header class="step__header">
-						<span class="step__nr">3</span>
-						<strong class="step__title">Boldogság</strong>
-					</header>
-					<p class="step__text">A kedvenc képeidet Te válogathatod ki, csak ezekért kell fizetned. Ezeket 1-3 napon belül kézhez is kapod, hogy megoszthasd azokkal, akik fontosak.</p>
-				</li>
-			</ol>
-
-			{% include "partials/vintage-promo.html" %}
+			<div class="half">
+				<div>
+					<p class="page-header__intro">Ha azt hiszed, hogy nem vagy fotogén, én bebizonyítom, hogy tévedsz.</p>
+					<p>Ha "nem vagy fotogén", az egyszerűen azt jelenti, hogy még senki sem örökítette meg az igazi szépségedet egy fényképen. Ez ma megváltozik.</p>
+					<p>Roland vagyok, a budapesti portréfotósod, empatikus személyiségemről és furcsa humorérzékemről vagyok ismert. Laza, nyugodt hangulatú budapesti fotózásokon keresztül segítek az embereknek legyőzni a fényképezőgéppel kapcsolatos szorongásukat, olyan hiteles fotók készítésével, amelyeket garantáltan imádni fogsz.</p>
+					<p>Bizonytalan a pózolással kapcsolatban? Nem tudod, hova helyezd a kezed, vagy hogyan nézz ki a legjobban a kamera előtt? Aggodalomra semmi ok, hozzáértő kezekben vagy. Készen állok, hogy bebizonyítsam, hogy valóban fotogén vagy!</p>
+				</div>
+				<div class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="{{ site[locale].navServicesPortraiture }}">
+				</div>
+			</div>
 		</div>
 	</section>
 
-	<section class="section section--grey section--border">
+	<section class="section section--testimonials">
+		<div class="container">
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% include "partials/testimonial-excerpt.html", id: 0 %}
+				{% include "partials/testimonial-excerpt.html", id: 1 %}
+				{% include "partials/testimonial-excerpt.html", id: 2 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="ready">
 		<div class="container">
 			<h2>Íme, a részletek:</h2>
 			<ol class="how-it-works">

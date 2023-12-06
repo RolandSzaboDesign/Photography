@@ -282,8 +282,6 @@ module.exports = {
 				answer: "I accept bank transfer (preferred), Revolut, or PayPal. I don't accept cash payment. Please make the payment after you've sent me the selected photos for editing, and I've confirmed them with you. Thank you.",
 			},
 		},
-	],
-	general: [
 		{
 			hu: {
 				id: "en-kepeim-is-megjelennek",

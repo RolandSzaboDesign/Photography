@@ -132,7 +132,7 @@ module.exports = {
 
 		"navAbout": "Rólam",
 		"navServices": "Szolgáltatások",
-		"navServicesPortraiture": "Portré Fotózás",
+		"navServicesPortraiture": "Portré Fotózás Budapesten",
 		"navServicesVintagePortraiture": "Portré Fotózás Vintage Objektívekkel",
 		"navServicesAnalogPortraiture": "Analóg Filmes Portré Fotózás",
 		"navServicesAutumnPortraiture": "Őszi Portré Fotózás Budapesten",
