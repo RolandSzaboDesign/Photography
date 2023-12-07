@@ -1,0 +1,8 @@
+<div class="faqs">
+	{%- for e in category -%}
+		<details class="faq">
+			<summary class="faq__question">{{ e[locale].question }}</summary>
+			<div class="faq__answer">{{ e[locale].answer }}</div>
+		</details>
+	{%- endfor -%}
+</div>

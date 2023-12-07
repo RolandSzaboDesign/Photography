@@ -7,139 +7,150 @@ css: photo-walks
 ---
 
 <main class="main">
-	<section class="section section--top section--border">
+	<section class="section section--top">
 		<div class="container">
 			<header class="page-header">
-				<span class="page-header__category">{{ site[locale].navServices }}</span>
-				<h1 class="page-header__title">{{ site[locale].navServicesPortraiture }}</h1>
-				<p class="page-header__intro">{{ site[locale].servicesPortraitureIntro }}</p>
+				<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
+				<p class="page-header__title">If you think you're not photogenic, I'm here to prove you wrong.</p>
 			</header>
-
-			<ol class="steps">
-				<li class="step">
-					<header class="step__header">
-						<span class="step__nr">1</span>
-						<strong class="step__title">"Hey, Roland"</strong>
-					</header>
-					<p class="step__text">Every journey starts here. Drop me a line, we'll figure out the date and agree on the details. If you don't have an idea, I can help you. The consultation is free, so you've got nothing to lose.</p>
-				</li>
-				<li class="step">
-					<header class="step__header">
-						<span class="step__nr">2</span>
-						<strong class="step__title">The Big Day</strong>
-					</header>
-					<p class="step__text">You just arrive in style, I'll handle the good vibes and the amazing photos. On the day of the shoot, I'll gift you one of my favorite photos, edited.</p>
-				</li>
-				<li class="step">
-					<header class="step__header">
-						<span class="step__nr">3</span>
-						<strong class="step__title">Delivery</strong>
-					</header>
-					<p class="step__text">You get to select your favorite photos, you'll only need to pay for these. I'll deliver them in 1-3 days, so you can share them with those who are important.</p>
-				</li>
-			</ol>
-
-			{% include "partials/vintage-promo.html" %}
+			<div class="half">
+				<div>
+					<p>Being camera shy simply means no one has ever captured your true beauty in a photograph. That changes today.</p>
+					<p>I'm Roland, your Budapest portrait photographer, known for my empathetic personality and quirky sense of humor. Through easygoing and fun photo sessions in Budapest, I guide people in overcoming camera anxiety by crafting authentic photographs that will resonate with you deeply.</p>
+					<p>Uncertain about posing? Unsure where to place your hands or how to look your best on camera? Rest assured, you're in capable hands. I'm prepared to demonstrate that you are, indeed, inherently photogenic.</p>
+				</div>
+				<!-- TODO: Carousel -->
+				<div class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="{{ site[locale].navServicesPortraiture }}">
+				</div>
+			</div>
 		</div>
 	</section>
 
-	<section class="section section--grey section--border">
+	<section class="section section--testimonials">
+		<div class="container">
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% include "partials/testimonial-excerpt.html", id: 0 %}
+				{% include "partials/testimonial-excerpt.html", id: 1 %}
+				{% include "partials/testimonial-excerpt.html", id: 2 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="ready">
 		<div class="container">
 			<h2>Here are the details:</h2>
 			<ol class="how-it-works">
 				<li class="how-it-works__item">
 					<h3 class="how-it-works__title">Preparation</h3>
 					<figure class="floating-photo floating-photo--right">
-						<img class="floating-photo__photo" src="/assets/images/photo-walk-06.webp" alt="Portrait Photo Walks" width="750" height="500">
-						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterLakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+						<img class="floating-photo__photo" src="/assets/images/photo-walk-08.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/wonderprism.photo/" target="_blank" rel="noopener noreferrer">{{ site[locale].benceMedveczky }}</a></em></figcaption>
 					</figure>
-					<p>Before we get into things, you should have a basic idea for your photoshoot; a theme or a concept, if you have any. Be sure to send me a few inspirational photos you found online. Here are a few examples to get you started:</p>
+					<p>Let's make your winter portrait session a delightful experience with these friendly ideas:</p>
 					<ul class="list">
-						<li>Urban photoshoot with modern architectural backgrounds, wearing a smart outfit</li>
-						<li>Close-to-nature photoshoot, wearing a long, colorful dress, located in one of the nearby nature reserves or forests in the afternoon</li>
-						<li>Night photoshoot downtown with lots of colorful bokeh balls in the background, wearing a shiny, reflective top to play with the city lights</li>
-						<li><em>Your creative idea goes here</em> 😉</li>
+						<li><strong>☃️ Snowy City Vibes:</strong> Wander through snow-covered streets, showcasing your winter style against the city's frosty backdrop. Think chic outfits that pop against the snowy scenes.</li>
+						<li><strong>☕ Café Comforts:</strong> Cozy up in a charming café with warm interiors. Sip on hot drinks, dress in your favorite winter gear, and let the café's ambiance set the stage for your portraits.</li>
+						<li><strong>⛰️ Nature's Frosty Hues:</strong> Head to nearby parks or wooded areas adorned with frost-covered branches. Bundle up in winter layers and let nature's winter palette add charm to your portraits.</li>
+						<li><strong>💡 Festive Streetlight Stroll:</strong> Embrace the holiday spirit with a nighttime shoot under the warm glow of festive streetlights. Dress up in your winter best, and let the city's festive vibe add magic to your photos.</li>
+						<li><strong>❄️ Your Winter Vision:</strong> Have a specific winter theme in mind? Whether you prefer the cityscape or the tranquility of nature, we'll work together to capture the warmth and magic of winter in your portraits.</li>
 					</ul>
-					<p>Based on your preferences, we can create a moodboard together, which we can refer to during your photoshoot.</p>
-					<p>Please also have a ballpark number of photos you'd need, as we'll set the length of your photoshoot based on this.</p>
+					<hr>
+					{% assign category = faq.preparation %}
+					{% include "partials/faq.html" %}
 				</li>
 				<li class="how-it-works__item clearfix">
 					<h3 class="how-it-works__title">Photoshoot</h3>
 					<figure class="floating-photo floating-photo--right">
-						<img class="floating-photo__photo" src="/assets/images/photo-walk-02.webp" alt="Portrait Photo Walks" width="750" height="500">
-						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+						<img class="floating-photo__photo" src="/assets/images/photo-walk-04.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 					</figure>
-					<p>During the photoshoot, I'll gladly assist you with prompts and posing, and tell a bunch of bad jokes to bring out your best smiles. I'll do my utmost to make you comfortable during the shoot, so you don't need to worry about a thing.</p>
-					<p>I'll also want to listen to your story, if you're willing to tell me; and I can also tell you my story, if you're interested. Talking and listening helps you to relax, and proceed with taking photos without inhibition or hindrances. We can create some incredibly intimate photos when we start getting to know each other better.</p>
-					<p>We don't need to strictly adhere to our moodboard, so if you find an interesting location that strikes your imagination, say it loud, and we can take a detour. The best photos are the spontaneous ones!</p>
+					<p>Time for the magic to happen! During our photoshoot, I'm not just your photographer; I'm your guide to making every moment shine.</p>
+					<p><strong>Posing Made Easy:</strong> If you're unsure about poses, don't worry—I've got your back. I'll provide friendly and easy-to-follow guidance to help you overcome camera shyness. As we navigate through poses together, any initial uncertainties will give way to your most natural and stunning self.</p>
+					<p><strong>Fun and Relaxed Vibes:</strong> Expect a session filled with laughter and genuine moments. My goal is to make you feel at ease, turning any camera shyness into a fun and enjoyable experience. So brace yourself for a bunch of bad jokes and prompts, that bring out your most authentic smiles.</p>
+					<p><strong>Connecting Through Stories:</strong> Beyond the camera, I'm all ears for your story. Conversations help us relax, setting the stage for photos without inhibition or hindrances. As we get to know each other, we'll capture wonderful moments that will reflect your true self.</p>
+					<p><strong>Your Transformation:</strong> Remember the days of feeling camera shy? Get ready to leave those behind. As we click away, you'll witness the transformation from hesitancy to embracing the camera, and in the end, falling in love with your portraits.</p>
+					<hr>
+					{% assign category = faq.photoshoot %}
+					{% include "partials/faq.html" %}
 				</li>
 				<li class="how-it-works__item clearfix">
 					<h3 class="how-it-works__title">Delivery</h3>
 					<figure class="floating-photo floating-photo--right">
-						<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-04.webp" alt="Portrait Photo Walks" width="750" height="500">
+						<img class="floating-photo__photo" src="/assets/images/photo-walk-05.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 					</figure>
-					<p>I'm a huge advocate of giving clients something on the day of the shoot. For the sake of this, <strong>you'll receive one of my favorite photos of the shoot for free</strong>, edited and retouched, at the end of the day.</p>
-					<p>After this, I'll go through the photos we took and do the initial culling. This means I'll delete all the photos that are blurry, duplicate, or unbecoming. You don't need to see them, and I don't need to keep them.</p>
-					<p>Once this is done, I'll send all the remaining photos for you to choose the ones you'd like me to edit and retouch. These photos will be in black-and-white, small size and watermarked.</p>
-					<p>Once you come back to me with your selection, please allow me 1-3 days to finish editing and retouching your photos.</p>
-					<p>If you need help printing your photos or creating a photo album, I can assist you with that as well.</p>
+					<p>Let's talk about what happens after the shutter clicks! On the day of the shoot, you'll receive a special treat: one of my favorite photos, edited and retouched, completely free.</p>
+					<p>Next, I'll dive into the initial culling phase, removing any blurry, duplicate, or less-than-flattering shots. No need for you to see them, and no need for me to keep them.</p>
+					<p>Once the selection is refined, I'll send you the remaining photos. These will be in small size and watermarked. It's your chance to choose the ones you'd like me to edit and retouch.</p>
+					<p>Once you've made your selection, sit back for 1-3 days, and I'll work my magic on your chosen photos. And hey, if you need assistance with printing or creating a photo album, I've got you covered!</p>
 				</li>
 			</ol>
+			<hr>
+			{% assign category = faq.delivery %}
+			{% include "partials/faq.html" %}
 		</div>
 	</section>
 
-	<section class="section section--white section--border">
-		<div class="container">
-			<h2>Pricing</h2>
-			<figure class="floating-photo floating-photo--left">
-				<img class="floating-photo__photo" src="/assets/images/photo-walk-03.webp" alt="Portrait Photo Walks"  width="750" height="500">
-				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
-			</figure>
-			<p><strong>Changes in pricing from 15 August 2023:</strong></p>
-			<p>The session fee of my portrait photography is 25.000 HUF, which contains 10× edited, retouched photos, which you yourself can choose after the photoshoot. You can select further photos for a price of 1.000 HUF each. Should you need many more photos, we'll figure out a personalized discount for you.</p>
-			<p>The photoshoot usually takes around 1-2 hours, but it can last for a maximum of 3 hours. Full-day (more than 3 hours) photoshoots are possible and welcome, for these, we'll figure out a personalized pricing structure based on your needs.</p>
-			<p>In certain cases, additional charges may occur:</p>
-			<ul class="list">
-				<li>If the place of your photoshoot requires me to use more than 1 mode of public transport, I'll use a carsharing service to drive there on my own, and this fee should be paid by you. This is applicable to the outer districts of Budapest and the countryside. The maximum distance of the carsharing vehicles is ~100km in one direction, and their maximum daily fee is 14.000 HUF).</li>
-				<li>If your portrait shoot involves more than 1 location, I can help transport us between destinations safely, quickly and efficiently with carsharing. The carsharing fee should be paid by you, this is normally around a few thousand HUF in Budapest.</li>
-				<li>If you'd like to shoot at a place that requires an entry fee or a permit, these expenses should be paid by you.</li>
-			</ul>
-			<p>Payment should be made after selecting your final photos for editing, and I've confirmed the number of photos. I accept bank transfer, Revolut, or PayPal. I do not accept cash. You will receive your final edited photos in 1-5 days after payment has been made.</p>
-			<p>You don't need to pay a retainer for your photoshoot.</p>
-		</div>
-	</section>
-
-	<section class="section section--border">
-		<div class="container">
-			<h2 id="faq">Questions You Might Ask</h2>
-			<p>If you have any more questions, <a href="/{{ locale }}/{{ site[locale].slugContact }}/">don't hesitate to ask</a>, I'll answer promptly!</p>
-			<div class="faqs">
-				{%- for e in faq.portraitPhotoWalks -%}
-					<details class="faq">
-						<summary class="faq__question">{{ e[locale].question }}</summary>
-						<div class="faq__answer">{{ e[locale].answer }}</div>
-					</details>
-				{%- endfor -%}
-			</div>
-		</div>
-	</section>
-
-	<section class="section section--white section--border">
+	<section class="section section--testimonials">
 		<div class="container">
 			<div class="testimonials">
-				{% assign source = testimonials.items %}
-				{% for item in source limit:3 %}
-					{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
-				{% endfor %}
+				{% include "partials/testimonial-excerpt.html", id: 3 %}
+				{% include "partials/testimonial-excerpt.html", id: 4 %}
+				{% include "partials/testimonial-excerpt.html", id: 5 %}
 			</div>
 		</div>
 	</section>
 
 	<section class="section">
-		<div class="button-with-link">
-			<a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Email me to Get Started</a>
-			<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
+		<div class="container">
+			<h2>Pricing</h2>
+			<figure class="floating-photo floating-photo--right">
+				<img class="floating-photo__photo" src="/assets/images/photo-walk-02.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
+			</figure>
+			<p>Let's make pricing simple and transparent!</p>
+			<p class="emphasized">Your Initial Investment: 25,000 HUF</p>
+			<ul class="list">
+				<li>✅ Includes 10 edited, retouched photos of your choice after the shoot.</li>
+				<li>✅ 1 Free photo on the day of the photoshoot.</li>
+				<li>✅ Additional photo selection at 1,000 HUF each.</li>
+				<li>✅ Personalized discounts for a larger photo package.</li>
+			</ul>
+			<p><strong>Session Duration:</strong> Usually 1-2 hours, with a maximum of 3 hours. Full-day shoots (over 3 hours) are welcome, and we'll create a personalized pricing structure based on your needs.</p>
+			<p><strong>Additional Charges May Apply:</strong></p>
+			<ul class="list">
+				<li><em>Transport:</em> For shoots beyond Budapest's outer districts or countryside, a carsharing fee may apply (max distance in one direction ~100km, daily fee up to 14,680 HUF).</li>
+				<li><em>Multi-location Shoots:</em> If your shoot involves more than one location, carsharing fees may apply (typically a few thousand HUF in Budapest).</li>
+				<li><em>Entry Fees/Permits:</em> Any costs for shooting in locations with entry fees or permits are covered by you.</li>
+			</ul>
+			<p><strong>Payment:</strong> Due after selecting your final photos for editing and confirmation of the quantity. Payment options include bank transfer, Revolut, or PayPal. No cash accepted. </p>
+			<p><strong>Retainer:</strong> Typically, there's no retainer for regular photoshoots. However, based on the specific shoot and its circumstances, I reserve the right to request a retainer. This would cover carsharing fees or any additional expenditures associated with the unique aspects of the shoot. Rest assured, any such requests will be discussed and agreed upon transparently before the shoot.</p>
+			<p><strong>Delivery:</strong> You'll receive your edited and retouched photos, in digital format, in 1-3 days after payment has been made. I don't deliver raw or unedited photos.</p>
+			<hr>
+			{% assign category = faq.pricing %}
+			{% include "partials/faq.html" %}
+		</div>
+	</section>
+
+	<section class="section section--testimonials">
+		<div class="container">
+			<div class="testimonials">
+				{% include "partials/testimonial-excerpt.html", id: 6 %}
+				{% include "partials/testimonial-excerpt.html", id: 7 %}
+				{% include "partials/testimonial-excerpt.html", id: 8 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<h2 class="text-center">Ready to Get Started?</h2>
+			<div class="button-with-link">
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Email me to Get Started</a>
+				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
+			</div>
 		</div>
 	</section>
 </main>
