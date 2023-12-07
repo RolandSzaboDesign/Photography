@@ -148,18 +148,6 @@ module.exports = {
 		},
 		{
 			hu: {
-				id: "milyen-hosszu",
-				question: "Milyen hosszú egy fotós séta?",
-				answer: "Addig maradunk, ameddig szeretnél, de maximum 3 órát. Ha egy gyors sétát szeretnél pár őszinte képpel, akkor 30-60 perccel számolj, ha azonban van kedved egy hosszabb körre, több helyszínnel és akár átöltözéssel, akkor akár 2-3 órát is kint lehetünk. Ha egész nap szeretnél fotózni nagyon sok helyszínen, azt is megbeszéljük.",
-			},
-			en: {
-				id: "how-long",
-				question: "How long is a photo walk?",
-				answer: "We'll stay out for as long as you wish, up to 3 hours. If you just want a quick walk with a few shots, we're done in 30-60 minutes, but if you want to visit multiple locations and even change outfits along the way, we can stay out for 2-3 hours. If you'd like to shoot all day in multiple locations, that's all good for me, let's talk about it.",
-			},
-		},
-		{
-			hu: {
 				id: "adatmentes",
 				question: "Nem fognak elveszni a fotózáskor készült képek?",
 				answer: "Aggodalomra semmi ok. A fényképezőgépemben két memóriakártya van, így amikor elkattintok egy képet, az egyidejűleg mindkét memóriakártyára kiíródik, így, ha az egyik meghibásodik a fotózás alatt vagy után, a másikon meglesz az összes kép, amit készítettünk. Itthon, a portréfotózások nyers képeit két különböző lemezre másolom fel, a tartalék fájlokat pedig addig tartom meg, amíg el nem küldtem Neked a kiválogatott, végleges fotókat.",
@@ -268,18 +256,6 @@ module.exports = {
 				id: "how-many-photos-average",
 				question: "How many photos does your average client order?",
 				answer: "My happy clients usually choose around 20 photos. Sometimes they only want 10 photos initially, but they quickly realize after the shoot that there are plenty more amazing shots they can choose from and usually go around or above 20 photos. The more photos you choose, the more discounts I can give you on your final order.",
-			},
-		},
-		{
-			hu: {
-				id: "hogyan-fizethetek",
-				question: "Hogyan fizethetek az elkészült képekért?",
-				answer: "Fizethetsz banki átutalással (preferált), Revolut-on, vagy PayPal-on keresztül. Készpénzes fizetést nem tudok elfogadni. A fizetést kérlek azután kövesd el, hogy elküldted nekem a szerkesztésre kiválasztott képeket, én pedig leokéztam Veled őket. Köszönöm.",
-			},
-			en: {
-				id: "payment-methods",
-				question: "What payment methods do you accept?",
-				answer: "I accept bank transfer (preferred), Revolut, or PayPal. I don't accept cash payment. Please make the payment after you've sent me the selected photos for editing, and I've confirmed them with you. Thank you.",
 			},
 		},
 		{

@@ -52,6 +52,7 @@
 
 .floating-photo__photo {
 	display: block;
+	aspect-ratio: 3/2;
 }
 
 .floating-photo__caption {

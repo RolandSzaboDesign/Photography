@@ -10,14 +10,14 @@ css: photo-walks
 	<section class="section section--top">
 		<div class="container">
 			<header class="page-header">
-				<h1 class="page-header__title">{{ site[locale].navServicesPortraiture }}</h1>
+				<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
+				<p class="page-header__title">Ha úgy gondolod, hogy nem vagy fotogén, akkor bebizonyítom, hogy tévedsz.</p>
 			</header>
 			<div class="half">
 				<div>
-					<p class="page-header__intro">Ha azt hiszed, hogy nem vagy fotogén, én bebizonyítom, hogy tévedsz.</p>
 					<p>Ha "nem vagy fotogén", az egyszerűen azt jelenti, hogy még senki sem örökítette meg az igazi szépségedet egy fényképen. Ez ma megváltozik.</p>
 					<p>Roland vagyok, a budapesti portréfotósod, empatikus személyiségemről és furcsa humorérzékemről vagyok ismert. Laza, nyugodt hangulatú budapesti fotózásokon keresztül segítek az embereknek legyőzni a fényképezőgéppel kapcsolatos szorongásukat, olyan hiteles fotók készítésével, amelyeket garantáltan imádni fogsz.</p>
-					<p>Bizonytalan a pózolással kapcsolatban? Nem tudod, hova helyezd a kezed, vagy hogyan nézz ki a legjobban a kamera előtt? Aggodalomra semmi ok, hozzáértő kezekben vagy. Készen állok, hogy bebizonyítsam, hogy valóban fotogén vagy!</p>
+					<p>Bizonytalan vagy a pózolással kapcsolatban? Nem tudod, hova helyezd a kezed, vagy hogyan nézz ki a legjobban a kamera előtt? Aggodalomra semmi ok, hozzáértő kezekben vagy. Készen állok, hogy bebizonyítsam, hogy valóban fotogén vagy!</p>
 				</div>
 				<div class="polaroid">
 					<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="{{ site[locale].navServicesPortraiture }}">
@@ -44,96 +44,112 @@ css: photo-walks
 				<li class="how-it-works__item">
 					<h3 class="how-it-works__title">Előkészületek</h3>
 					<figure class="floating-photo floating-photo--right">
-						<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-06.webp" alt="Portézós Fotós Séták" width="750" height="500">
-						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterLakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+						<img class="floating-photo__photo" src="/assets/images/photo-walk-08.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/wonderprism.photo/" target="_blank" rel="noopener noreferrer">{{ site[locale].benceMedveczky }}</a></em></figcaption>
 					</figure>
-					<p>Mielőtt nekikezdünk fényképeket készíteni, tudnom kell, hogy milyen koncepció jár a fejedben, ha van egyáltalán. Szívesen fogadok Tőled inspirációkat az internetről; komplett koncepciót, vagy csak helyszíneket, pózokat, stb; ami megtetszik. Íme néhány konkrét példa a kezdéshez:</p>
+					<p>Íme egy pár baráti ötlet, hogy a téli portréfotózásod igazán magával ragadó élmény legyen:</p>
 					<ul class="list">
-						<li>Urban jellegű fotózás a belvárosban modern, építészeti hátterekkel, csinos ruházatban</li>
-						<li>Természetközeli fotózás késő délután, hosszú színes dresszben, az egyik közeli természetvédelmi területen vagy erdőben</li>
-						<li>Éjszakai fotózás a belvárosban sok színes bokeh-val a háttérben, fényvisszaverő ruházatban és ékszerekkel</li>
-						<li><em>Ide jön a Te kreatív ötleted</em> 😉</li>
+						<li><strong>☃️ Havas Városi Hangulat:</strong> Sétáljunk a hóval borított budapesti utcákon, és mutasd meg téli stílusodat a város fagyos hátterében. Gyere csinos, elegáns ruhában, amely kiemelkedik a havas utcaképek előtt.</li>
+						<li><strong>☕ Kávéházi Kényelem:</strong> Helyezd magad kényelembe egy hangulatos kávézóban, meleg belső terekkel. Kortyolj forró italokat, öltözz fel kedvenc téli ruhádba, és hagyd, hogy a kávézó atmoszférája megteremtse a portrék hangulatát.</li>
+						<li><strong>⛰️ A Természet Fagyos Árnyalatai:</strong> Irány a közeli parkok vagy a fagyos ágakkal díszített erdős területek. Öltözz téli rétegekbe, és engedd, hogy a természet téli színei elvarázsolják a portréidat.</li>
+						<li><strong>💡 Ünnepi Utcai Fények:</strong> Öleld magadhoz az ünnepi hangulatot egy éjszakai fotózással az ünnepi utcai fényekkel. Öltözz fel a legjobb téli ruhádba, és hagyd, hogy a város ünnepi hangulata varázslatot adjon a fotóidnak.</li>
+						<li><strong>❄️ A Te Ötleted:</strong> Akár a városképet, akár a természet nyugalmát kedveled, közösen fogunk dolgozni azon, hogy a tél melegét és varázsát megörökítsük a portréidban.</li>
 					</ul>
-					<p>Az igényeid és ötleteid alapján készíthetünk egy stílustervet, amit majd a Fotózás alatt tudunk használni.</p>
-					<p>Kérlek, gondold át azt is, hogy körülbelül hány képre lesz szükséged, hogy ehhez mérten tudjam a fotós séta időtartamát belőni.</p>
+					<hr>
+					{% assign category = faq.preparation %}
+					{% include "partials/faq.html" %}
 				</li>
 				<li class="how-it-works__item clearfix">
 					<h3 class="how-it-works__title">Fotózás</h3>
 					<figure class="floating-photo floating-photo--right">
-						<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-02.webp" alt="Portézós Fotós Séták" width="750" height="500">
-						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+						<img class="floating-photo__photo" src="/assets/images/photo-walk-04.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 					</figure>
-					<p>A fotózás alatt szívesen segítek a pózok finomhangolásában, és legszebb mosolyod előcsalogatásában, amit empatikus természetemmel és borzalmasan rossz vicceimmel igyekszem elérni. Mindent megteszek azért, hogy a legjobban el tudj lazulni a fotózás alatt, és ne kelljen aggódnod semmi miatt.</p>
-					<p>Séta közben szívesen meghallgatom a történetedet, ha elmondod; ha pedig érdekel, én is elmesélhetem az enyémet. A közös beszélgetés segít megnyílni egymás előtt, és gátlások nélkül bonyolítani a fotózást. Elképesztő fotók tudnak születni akkor, ha már ismerjük a másikat, és egy hullámhosszra kerülünk.</p>
-					<p>Nem kell szigorúan tartanunk magunkat a stílustervhez, szóval ha megpillantasz egy érdekes helyszínt, ami hirtelen megtetszik, mondd bátran, és megnézzük. Én is pontosan így fogok tenni. A kedvenc fotóim azok, amik nincsenek tervben, hanem maguktól jönnek.</p>
+					<p>Itt az ideje, hogy a varázslat megtörténjen! A fotózás során nem csak a fotósod vagyok hanem azon dolgozom, hogy minden pillanatodat ragyogóvá tegyek.</p>
+					<p><strong>Könnyed Pózolás:</strong> Ha bizonytalan vagy a pózolással kapcsolatban, ne aggódj - segítek neked. Barátságos és könnyen követhető útmutatást adok, hogy segítsek leküzdeni a kamerával szembeni félelmedet. Ahogy együtt végigjárjuk a pózokat, a kezdeti bizonytalanságok átadják a helyüket a legtermészetesebb és legelképesztőbb énednek.</p>
+					<p><strong>Szórakoztató és Nyugodt Hangulat:</strong> Egy nevetéssel és őszinte pillanatokkal teli fotózásra számíthatsz. Célom, hogy jól érezd magad, és a kamerával szembeni félénkséget szórakoztató és élvezetes élménnyé varázsoljam. Szóval készülj fel egy csomó rossz viccre és felkérésre, amelyek kihozzák a legőszintébb mosolyodat.</p>
+					<p><strong>Kapcsolat a Történeteken Keresztül:</strong> A kamera mögött figyelek a történeteidre. A beszélgetések segítenek ellazulni, így gátlások és akadályok nélkül teremthetjük meg a fotózáshoz a nyugodt hangulatot. Ahogy egyre jobban megismerjük egymást, csodálatos pillanatokat fogunk megörökíteni, amelyek tükrözni fogják valódi énedet.</p>
+					<p><strong>Átalakulás:</strong> Emlékszel még, hogy a fotózás előtt félénknek érezted magad a kamerával? Készülj fel, hogy mindezt a hátad mögött hagyd. Miközben kattintgatunk, a bizonytalanságból gyorsan és könnyedén alakulsz majd át a kamera elfogadásába, és garantálom, hogy bele fogsz szeretni a portréidba.</p>
+					<hr>
+					{% assign category = faq.photoshoot %}
+					{% include "partials/faq.html" %}
 				</li>
 				<li class="how-it-works__item clearfix">
 					<h3 class="how-it-works__title">Boldogság</h3>
 					<figure class="floating-photo floating-photo--right">
-						<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-04.webp" alt="Portézós Fotós Séták" width="750" height="500">
+						<img class="floating-photo__photo" src="/assets/images/photo-walk-05.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 					</figure>
-					<p>Szívből hiszek az aznapi kiteljesedés élményében. Ezért a fotózás napjának végén <strong>elküldöm Neked a kedvenc képemet</strong>, megszerkesztve és retusálva. Ez az én ajándékom az aznapi örömszerzés jegyében.</p>
-					<p>Ezután leválogatom a fotózáson készült képeket. Az összes olyan fotót, ami bemozdult, duplikált, vagy előnytelen, azonnal törlöm. Neked már csak a legjobban sikerült képekből kell válogatnod.</p>
-					<p>Amint ez kész, elküldöm Neked az összes nyers képet, amikből kiválogathatod a kedvenceidet; azokat a képeket, amiket szeretnél, hogy színkezeljek és retusáljak. A nyers képeket fekete-fehérben, vízjelezve kapod meg.</p>
-					<p>Miután megkaptam Tőled a kiválogatott képek listáját, elkezdem a képek szerkesztését és retusálását, ami általában 1-3 napot vesz igénybe.</p>
-					<p>Ha szükséged van a képekre kézzel fogható, nyomtatott formában is, abban is tudok segíteni.</p>
+					<p>Mivel szívből hiszek az aznapi kiteljesedés élményében, még a fotózás napján különleges ajándékot kapsz tőlem: az egyik kedvenc fotómat szerkesztve és retusálva, teljesen ingyen.</p>
+					<p>Ezután belevetem magam a kezdeti válogatásba: eltávolítom a homályos, duplikált vagy kevésbé előnyös fotókat. Ezeket nem kell látnod, és nekem sem kell megtartanom őket.</p>
+					<p>Amint elkészült a válogatás, elküldöm a megmaradt fotókat. Ezek kis méretűek és vízjelesek lesznek. Ez lesz a te lehetőséged, hogy kiválaszd, melyiket szeretnéd, hogy szerkesszem és retusáljam.</p>
+					<p>Miután meghoztad a döntést, dőlj hátra 1-3 napig, én pedig meseszépre varázsolom a kiválasztott fotóidat. Ha pedig segítségre van szükséged a nyomtatással vagy egy fotóalbum elkészítésével kapcsolatban, szívesen segítek!</p>
 				</li>
 			</ol>
+			<hr>
+			{% assign category = faq.delivery %}
+			{% include "partials/faq.html" %}
 		</div>
 	</section>
 
-	<section class="section section--white section--border">
-		<div class="container">
-			<h2>Mennyibe kerül?</h2>
-			<figure class="floating-photo floating-photo--right">
-				<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-03.webp" alt="Portézós Fotós Séták" width="750" height="500">
-				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
-			</figure>
-			<p><strong>Változás 2023.08.15-től!</strong></p>
-			<p>A portréfotózási alkalom alapdíja 25.000 Forint, amely tartalmaz 10db szerkesztett, retusált képet, amelyet Te választhatsz ki a fotózás után az otthonod kényelmében. További fotókat is választhatsz korlátlanul, 1.000 Forintos darabáron. Amennyiben nagyon sok fotóra van szükséged, akkor kitalálunk egy mindkettőnk számára kedvező, egyéni árazást.</p>
-			<p>A fotózás általában 1-2 órát szokott igénybevenni, de maximálisan 3 óra lehet. Egész napos (3 óránál hosszabb időtartamú) fotózásoknál egyéni árajánlatot készítek.</p>
-			<p>Bizonyos esetekben, az alapdíjon felül, felárat számítok fel, az alábbiak szerint:</p>
-			<ul class="list">
-				<li>Ha a fotózás helyszíne a mindenkori lakhelyemtől 1-nél több tömegközlekedési eszköz igénybevételét igényli, úgy közösségi autóbérléssel közlekedem, amelynek a díját Neked kell állnod. Ez általában Budapest külkerületeire, és vidékre érvényes. Az autóbérlés maximális hatótávolsága ~100km egy irányban, a maximális díja pedig 14.000 Ft).</li>
-				<li>Ha a fotózás több helyszínt is magába foglal, úgy szívesen segítek a helyszínek közötti utazásban, közösségi autóbérléssel gyorsan, kényelmesen és legfőképp hatékonyan tudunk utazni. Az autóbérlés díját (maximum pár ezer Forint városon belül) Neked kell állnod.</li>
-				<li>Ha olyan helyen szeretnél fotózni, ami belépőt igényel, vagy engedélyköteles, úgy minden ilyen költséget Neked kell állnod.</li>
-			</ul>
-			<p>Kérlek, hogy a fizetést azután bonyolítsd le, hogy kiválasztottad és elküldted nekem a képeket szerkesztésre, és én jóváhagytam a darabszámot. Elfogadok banki átutalást, Revolut-ot, vagy PayPal-t. Készpénzes fizetésre nincs lehetőség. A végleges fotóidat az átutalástól számított 1-5 munkanapon belül kézhez fogod kapni.</p>
-			<p>Foglalót nem kell fizetni a fotózásra.</p>
-		</div>
-	</section>
-
-	<section class="section section--border">
-		<div class="container">
-			<h2 id="faq">Gyakran Felmerülő Kérdések</h2>
-			<p>Ha van bármi egyéb kérdésed, <a href="/{{ locale }}/{{ site[locale].slugContact }}/">kérdezz nyugodtan</a>, hamar válaszolok!</p>
-			<div class="faqs">
-				{%- for e in faq.portraitPhotoWalks -%}
-					<details class="faq" id="{{ e[locale].id }}">
-						<summary class="faq__question">{{ e[locale].question }}</summary>
-						<div class="faq__answer">{{ e[locale].answer }}</div>
-					</details>
-				{%- endfor -%}
-			</div>
-		</div>
-	</section>
-
-	<section class="section section--white section--border">
+	<section class="section section--testimonials">
 		<div class="container">
 			<div class="testimonials">
-				{% assign source = testimonials.items %}
-				{% for item in source limit:3 %}
-					{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
-				{% endfor %}
+				{% include "partials/testimonial-excerpt.html", id: 3 %}
+				{% include "partials/testimonial-excerpt.html", id: 4 %}
+				{% include "partials/testimonial-excerpt.html", id: 5 %}
 			</div>
 		</div>
 	</section>
 
 	<section class="section">
-		<div class="button-with-link">
-			<a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Írj Emailt a Kezdéshez</a>
-			<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
+		<div class="container">
+			<h2>Mennyibe kerül?</h2>
+			<figure class="floating-photo floating-photo--right">
+				<img class="floating-photo__photo" src="/assets/images/photo-walk-02.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
+			</figure>
+			<p>Legyen egyszerű és átlátható az árazás!</p>
+			<p class="emphasized">A Kiinduló Ár: 25.000 HUF</p>
+			<ul class="list">
+				<li>✅ Tartalmaz 10 db szerkesztett, retusált fotót, amelyet Te válaszhatsz ki a fotózás után.</li>
+				<li>✅ 1 db ingyenes fotó a fotózás napján.</li>
+				<li>✅ További fotóválasztás 1.000 Forintos áron.</li>
+				<li>✅ Személyre szabott kedvezmények nagyobb mennyiségű választott kép esetén.</li>
+			</ul>
+			<p><strong>Fotózás időtartama:</strong> Általában 1-2 óra, de maximum 3 óra. Egész napos (3 óránál hosszabb) fotózásokat is szívesen vállalok, és az igényeid alapján személyre szabott díjszabást fogunk kialakítani.</p>
+			<p><strong>Extra Díjak:</strong></p>
+			<ul class="list">
+				<li><em>Közlekedés:</em> Budapest külső kerületeiben vagy vidéken történő fotózások esetén autómegosztási díj fizetendő (max. távolság egy irányban ~100km, napi díj maximum 14.680 Ft).</li>
+				<li><em>Több Helyszínen Történő Fotózás:</em> Ha a fotózás több helyszínt is érint, akkor autómegosztási díj is felmerülhet (Budapesten belül jellemzően néhány ezer forint).</li>
+				<li><em>Belépési Díjak, Engedélyek:</em> A belépési díjjal, vagy engedéllyel rendelkező helyszíneken történő fotózás minden költsége Téged terhel.</li>
+			</ul>
+			<p><strong>Fizetés:</strong> A végleges fotók kiválasztása után esedékes. Fizetési lehetőségek: banki átutalás, Revolut vagy PayPal. Készpénzt nem fogadok el.</p>
+			<p><strong>Előleg:</strong> A normál fotózásoknál általában nincs előleg. Azonban a konkrét fotózás és annak körülményei alapján fenntartom a jogot, hogy előleget kérjek. Ez fedezi az autómegosztás díját vagy a fotózás egyedi szempontjaival kapcsolatos további kiadásokat. Biztosíthatlak, hogy minden ilyen kérést a fotózás előtt átláthatóan megbeszélünk és egyeztetünk.</p>
+			<p><strong>Átadás:</strong> A szerkesztett, retusált fotókat a kifizetést követő 1-3 napon belül, digitális formátumban adom át. Nyers képeket nem adok át.</p>
+			<hr>
+			{% assign category = faq.pricing %}
+			{% include "partials/faq.html" %}
+		</div>
+	</section>
+
+	<section class="section section--testimonials">
+		<div class="container">
+			<div class="testimonials">
+				{% include "partials/testimonial-excerpt.html", id: 6 %}
+				{% include "partials/testimonial-excerpt.html", id: 7 %}
+				{% include "partials/testimonial-excerpt.html", id: 8 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<h2 class="text-center">Készen Állsz?</h2>
+			<div class="button-with-link">
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Írj Emailt a Kezdéshez</a>
+				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
+			</div>
 		</div>
 	</section>
 </main>

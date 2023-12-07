@@ -10,15 +10,16 @@ css: photo-walks
 	<section class="section section--top">
 		<div class="container">
 			<header class="page-header">
-				<h1 class="page-header__title">{{ site[locale].navServicesPortraiture }}</h1>
+				<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
+				<p class="page-header__title">If you think you're not photogenic, I'm here to prove you wrong.</p>
 			</header>
 			<div class="half">
 				<div>
-					<p class="page-header__intro">If you think you're not photogenic, I'm here to prove you wrong.</p>
 					<p>Being camera shy simply means no one has ever captured your true beauty in a photograph. That changes today.</p>
 					<p>I'm Roland, your Budapest portrait photographer, known for my empathetic personality and quirky sense of humor. Through easygoing and fun photo sessions in Budapest, I guide people in overcoming camera anxiety by crafting authentic photographs that will resonate with you deeply.</p>
 					<p>Uncertain about posing? Unsure where to place your hands or how to look your best on camera? Rest assured, you're in capable hands. I'm prepared to demonstrate that you are, indeed, inherently photogenic.</p>
 				</div>
+				<!-- TODO: Carousel -->
 				<div class="polaroid">
 					<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="{{ site[locale].navServicesPortraiture }}">
 				</div>
@@ -44,8 +45,8 @@ css: photo-walks
 				<li class="how-it-works__item">
 					<h3 class="how-it-works__title">Preparation</h3>
 					<figure class="floating-photo floating-photo--right">
-						<img class="floating-photo__photo" src="/assets/images/photo-walk-06.webp" alt="Portrait Photo Walks" width="750" height="500">
-						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterLakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+						<img class="floating-photo__photo" src="/assets/images/photo-walk-08.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/wonderprism.photo/" target="_blank" rel="noopener noreferrer">{{ site[locale].benceMedveczky }}</a></em></figcaption>
 					</figure>
 					<p>Let's make your winter portrait session a delightful experience with these friendly ideas:</p>
 					<ul class="list">
@@ -62,8 +63,8 @@ css: photo-walks
 				<li class="how-it-works__item clearfix">
 					<h3 class="how-it-works__title">Photoshoot</h3>
 					<figure class="floating-photo floating-photo--right">
-						<img class="floating-photo__photo" src="/assets/images/photo-walk-02.webp" alt="Portrait Photo Walks" width="750" height="500">
-						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
+						<img class="floating-photo__photo" src="/assets/images/photo-walk-04.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 					</figure>
 					<p>Time for the magic to happen! During our photoshoot, I'm not just your photographer; I'm your guide to making every moment shine.</p>
 					<p><strong>Posing Made Easy:</strong> If you're unsure about poses, don't worry—I've got your back. I'll provide friendly and easy-to-follow guidance to help you overcome camera shyness. As we navigate through poses together, any initial uncertainties will give way to your most natural and stunning self.</p>
@@ -77,7 +78,7 @@ css: photo-walks
 				<li class="how-it-works__item clearfix">
 					<h3 class="how-it-works__title">Delivery</h3>
 					<figure class="floating-photo floating-photo--right">
-						<img class="floating-photo__photo aspect-ratio-3-2" src="/assets/images/photo-walk-04.webp" alt="Portrait Photo Walks" width="750" height="500">
+						<img class="floating-photo__photo" src="/assets/images/photo-walk-05.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 					</figure>
 					<p>Let's talk about what happens after the shutter clicks! On the day of the shoot, you'll receive a special treat: one of my favorite photos, edited and retouched, completely free.</p>
@@ -106,7 +107,7 @@ css: photo-walks
 		<div class="container">
 			<h2>Pricing</h2>
 			<figure class="floating-photo floating-photo--right">
-				<img class="floating-photo__photo" src="/assets/images/photo-walk-03.webp" alt="Portrait Photo Walks" width="750" height="500">
+				<img class="floating-photo__photo" src="/assets/images/photo-walk-02.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 			</figure>
 			<p>Let's make pricing simple and transparent!</p>
@@ -118,14 +119,15 @@ css: photo-walks
 				<li>✅ Personalized discounts for a larger photo package.</li>
 			</ul>
 			<p><strong>Session Duration:</strong> Usually 1-2 hours, with a maximum of 3 hours. Full-day shoots (over 3 hours) are welcome, and we'll create a personalized pricing structure based on your needs.</p>
-			<p>Additional Charges May Apply:</p>
+			<p><strong>Additional Charges May Apply:</strong></p>
 			<ul class="list">
-				<li><strong>Transport:</strong> For shoots beyond Budapest's outer districts or countryside, a carsharing fee may apply (max distance in one direction ~100km, daily fee up to 14,680 HUF).</li>
-				<li><strong>Multi-location Shoots:</strong> If your shoot involves more than one location, carsharing fees may apply (typically a few thousand HUF in Budapest).</li>
-				<li><strong>Entry Fees/Permits:</strong> Any costs for shooting in locations with entry fees or permits are covered by you.</li>
+				<li><em>Transport:</em> For shoots beyond Budapest's outer districts or countryside, a carsharing fee may apply (max distance in one direction ~100km, daily fee up to 14,680 HUF).</li>
+				<li><em>Multi-location Shoots:</em> If your shoot involves more than one location, carsharing fees may apply (typically a few thousand HUF in Budapest).</li>
+				<li><em>Entry Fees/Permits:</em> Any costs for shooting in locations with entry fees or permits are covered by you.</li>
 			</ul>
-			<p><strong>Payment:</strong> Due after selecting your final photos for editing and confirmation of the quantity. Payment options include bank transfer, Revolut, or PayPal. No cash accepted. Final edited photos delivered in 1-3 days post-payment.</p>
+			<p><strong>Payment:</strong> Due after selecting your final photos for editing and confirmation of the quantity. Payment options include bank transfer, Revolut, or PayPal. No cash accepted. </p>
 			<p><strong>Retainer:</strong> Typically, there's no retainer for regular photoshoots. However, based on the specific shoot and its circumstances, I reserve the right to request a retainer. This would cover carsharing fees or any additional expenditures associated with the unique aspects of the shoot. Rest assured, any such requests will be discussed and agreed upon transparently before the shoot.</p>
+			<p><strong>Delivery:</strong> You'll receive your edited and retouched photos, in digital format, in 1-3 days after payment has been made. I don't deliver raw or unedited photos.</p>
 			<hr>
 			{% assign category = faq.pricing %}
 			{% include "partials/faq.html" %}
