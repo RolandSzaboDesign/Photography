@@ -20,6 +20,59 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
+			photo: "/assets/images/testimonial-blanka.webp",
+			hu: {
+				name: "M. Blanka",
+				excerpt: "Igazán különlegesnek érezhettem magam a fotózásunk alatt",
+				text: "Egy csodálatos fotózást kaptam Rolandtól. Nagyon hidegben került sor a szabadtéri fotózásunkra, ami igencsak komoly kihívást jelentett, azonban ezen körülmények között is minden percét élveztem. Roland gyorsasága, precízsége és felkészültsége páratlan volt. Mindent megtett annak érdekében, hogy jól érezzem magam. Rengeteg segítséget nyújtott a legelőnyösebb pózok megtalálásában is, aminek szintén nagyon örültem. Nem “csak” fotókkal, hanem egy óriási élménnyel lehetsz gazdagabb, ha Rolandot választod! Én mindent megkaptam tőle, amit csak lehetett és igazán különlegesnek érezhettem magam a fotózásunk alatt. Csakis ajánlani tudom őt. Az biztos, hogy én még a jövőben is szeretnék dolgozni vele!",
+				link: "/hu/portre/blanka-3/",
+			},
+			en: {
+				name: "Blanka M.",
+				excerpt: "Roland made me feel truly special during our photo session",
+				text: "I had a wonderful photo session with Roland. Our outdoor shoot took place in very cold conditions, which was quite challenging, but I still enjoyed every minute of it. Roland's speed, precision and preparation were second to none. He did everything he could to make me feel comfortable. He also gave me a lot of help in finding the most advantageous poses, which I was very happy about. You will not only get photos, but a great experience as well if you choose Roland! He delivered everything he possibly could and made me feel truly special during our photo session. I can only recommend him. I would definitely like to work with him in the future!",
+				link: "/en/portraiture/blanka-3/",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			photo: "/assets/images/testimonial-betti-laci.webp",
+			hu: {
+				name: "M. Betti & P. Laci",
+				excerpt: "Roland igyekezte elkapni a kedves pillanatokat, amikből csodálatos képek születtek.",
+				text: "Párommal jegyes fotózáson vettünk részt, mindkettőnk számára új élmény volt maga a fotózás is. Tartottunk is tőle, de mindkettőnk számára pozitív csalódás volt, és csupa szuper élménnyel gazdagodtunk. Roland igyekezte elkapni a kedves pillanatokat, amikből csodálatos képek születtek.",
+				// TODO Link
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Betti M. & Laci P.",
+				excerpt: "Roland made sure to capture the lovely moments that resulted in wonderful pictures.",
+				text: "My partner and I attended an engagement shoot, and for both of us it was a new experience. We were a bit apprehensive, but it was a positive disappointment for both of us and we had a great experience. Roland made sure to capture the lovely moments that resulted in wonderful pictures.",
+				// TODO Link
+				link: "/en/portraiture/",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			photo: "/assets/images/testimonial-zsuzsika-gyuri.webp",
+			hu: {
+				name: "P. Zsuzsika & B. Gyuri",
+				excerpt: "Meglepően természetes módon viselkedtünk Roland kamerája előtt",
+				text: "Nagyon kellemes hangulatú fotózás volt, meglepően természetes módon viselkedtünk Roland kamerája előtt, ami a képeken is visszatükröződött. Bátran és szívből ajánljuk!",
+				link: "/hu/portre/zsuzsika-gyuri/",
+			},
+			en: {
+				name: "Zsuzsika P. & Gyuri B.",
+				excerpt: "We behaved in a surprisingly natural way in front of Roland's camera",
+				text: "It was a very pleasant photo session, we behaved in a surprisingly natural way in front of Roland's camera, which was reflected in the pictures. We highly recommend him!",
+				link: "/en/portraiture/zsuzsika-gyuri/",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonial-laura-2.webp",
 			hu: {
 				name: "Laura Sz.",
