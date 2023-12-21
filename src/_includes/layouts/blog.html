@@ -16,7 +16,7 @@ css: blog
 			{% assign blogsies = collections.blog-hu %}
 		{% endif %}
 
-		{% for item in blogsies %}
+		{% for item in blogsies reversed %}
 			<article class="blog-lister">
 				<a class="blog-lister__link" href="/{{ locale }}/blog/{{ item.data.slug }}/">
 					<img class="blog-lister__image" src="/assets/images/blog/{{ item.data.count }}.webp" alt="Featured image for {{ item.data.title }}">
