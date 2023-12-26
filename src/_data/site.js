@@ -110,6 +110,10 @@ module.exports = {
 		"ctaTitle": "Would you like similar, amazing photos?",
 		"ctaText": "I can make beautiful photos of you on our laid-back photo walk. Learn more to see how easy it is!",
 		"ctaButton": "Let's see the details",
+
+		"blogWrittenBy": "Written by",
+		"blogWrittenOn": "on",
+		"blogRolandSzabo": "Roland Szabó",
 	},
 	hu: {
 		"siteTitle": "Szabó Roland | Budapesti Portré Fotós",
@@ -209,5 +213,9 @@ module.exports = {
 		"ctaTitle": "Szeretnél hasonló, szuper képeket?",
 		"ctaText": "Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!",
 		"ctaButton": "Nézzük a részleteket",
+
+		"blogWrittenBy": "Írta",
+		"blogWrittenOn": "ekkor:",
+		"blogRolandSzabo": "Szabó Roland",
 	},
 };

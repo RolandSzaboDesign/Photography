@@ -189,6 +189,11 @@ strong {
 	color: var(--text-dark);
 }
 
+small {
+	font-size: 85%;
+	letter-spacing: 0;
+}
+
 del {
 	color: var(--highlight);
 }
