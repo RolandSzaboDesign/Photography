@@ -1259,3 +1259,16 @@ hr {
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
 
+.half {
+	display: grid;
+	grid-gap: 1rem;
+	align-items: center;
+	margin: 1.5rem 0;
+}
+
+@media only screen and (min-width: 992px) {
+	.half {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 3rem;
+	}
+}
