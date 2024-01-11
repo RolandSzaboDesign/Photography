@@ -319,4 +319,18 @@ module.exports = {
 			},
 		},
 	],
+	budapestPhotoWalk: [
+		{
+			hu: {
+				id: "",
+				question: "",
+				answer: "",
+			},
+			en: {
+				id: "question",
+				question: "Question",
+				answer: "Answer.",
+			},
+		},
+	],
 }
