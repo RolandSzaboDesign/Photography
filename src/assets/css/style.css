@@ -224,6 +224,10 @@ hr {
 	text-align: center;
 }
 
+.text-right {
+	text-align: right;
+}
+
 .text-highlight {
 	color: var(--highlight);
 }
