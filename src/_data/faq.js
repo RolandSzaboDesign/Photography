@@ -322,14 +322,50 @@ module.exports = {
 	budapestPhotoWalk: [
 		{
 			hu: {
-				id: "",
-				question: "",
-				answer: "",
+				id: "meddig-tart",
+				question: "Meddig tart egy Photo Walk?",
+				answer: "Általában naplemente előtt pár órával szoktunk találkozni, és naplementéig szokott tartani az esemény. Természetesen, ha előbb kell menjél, vagy előbb szeretnél menni, csak nyugodtan.",
 			},
 			en: {
-				id: "question",
-				question: "Question",
-				answer: "Answer.",
+				id: "how-long-it-lasts",
+				question: "How long does a Photo Walk last?",
+				answer: "Usually we start a couple of hours before sunset and do the Walk until sunset. Of course, if you have to or want to leave earlier, you're free to do so.",
+			},
+		},
+		{
+			hu: {
+				id: "talalkozo",
+				question: "Pontosan hol van a szokott találkozóhely?",
+				answer: "A The Ritz Carlton hotelnek azon a sarkán, ami a legközelebb van a Fröccsteraszról a Fashion Street felé vezető gyalogátkezőhelyhez. Az épület sarkain jellegzetes női kancsós szobrok találhatók. Íme egy link, hogy ne téveszd el. <a href='https://maps.app.goo.gl/vAgfWCe45xfDFDdR6' target='_blank' rel='noopener noreferrer'>https://maps.app.goo.gl/vAgfWCe45xfDFDdR6</a>",
+			},
+			en: {
+				id: "meeting-point",
+				question: "Where exactly is the usual meeting spot?",
+				answer: "It's on the corner of The Ritz Carlton Hotel at Deák Ferenc square, just opposite the pedestrian crossing from Fröccsterasz towards Fashion Street. On the corner of the building there are characteristic female statues holding jugs. Here's a link so you don't miss it! <a href='https://maps.app.goo.gl/vAgfWCe45xfDFDdR6' target='_blank' rel='noopener noreferrer'>https://maps.app.goo.gl/vAgfWCe45xfDFDdR6</a>",
+			},
+		},
+		{
+			hu: {
+				id: "merre-a-seta",
+				question: "Merre fogunk sétálni?",
+				answer: "Minden photo walkon másik irányba indulunk, többnyire. Viszont a csapat hangulata és az időjárás milyensége erősen befolyásolja az irányunkat. Igazából arra megyünk, amerre a csapat gondolja, általában nincs előre meghatározott útvonal.",
+			},
+			en: {
+				id: "where-we-walk",
+				question: "Where do we usually walk?",
+				answer: "Our destinations on regular photo walks are always different. We go in different directions every time, however, the weather and the group's mood will have an impact on our starting directions. We just basically go wherever we like, there are usually no set rules.",
+			},
+		},
+		{
+			hu: {
+				id: "mikor-kezdodott",
+				question: "Mikor volt az első Photo Walk?",
+				answer: "Az első alkalom 2023 januárjában történt, és 2023-ban minden hónapban egyszer találkoztunk. 2024-ben többször is találkozhatunk, mert tervben vannak speciális alkalmak minden legalább második hónapban.",
+			},
+			en: {
+				id: "when-it-started",
+				question: "When was the first Photo Walk?",
+				answer: "We held our first one in January 2023, and we've met once every month last year. This year we'll have the opportunity to meet more than once a month, as we'll be having specials at least every other month.",
 			},
 		},
 	],
