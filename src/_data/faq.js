@@ -336,7 +336,7 @@ module.exports = {
 			hu: {
 				id: "talalkozo",
 				question: "Pontosan hol van a szokott találkozóhely?",
-				answer: "A The Ritz Carlton hotelnek azon a sarkán, ami a legközelebb van a Fröccsteraszról a Fashion Street felé vezető gyalogátkezőhelyhez. Az épület sarkain jellegzetes női kancsós szobrok találhatók. Íme egy link, hogy ne téveszd el. <a href='https://maps.app.goo.gl/vAgfWCe45xfDFDdR6' target='_blank' rel='noopener noreferrer'>https://maps.app.goo.gl/vAgfWCe45xfDFDdR6</a>",
+				answer: "A The Ritz Carlton hotelnek azon a sarkán, ami a legközelebb van a Fröccsteraszról a Fashion Street felé vezető gyalogátkelőhelyhez. Az épület sarkain jellegzetes női kancsós szobrok találhatók. Íme egy link, hogy ne téveszd el. <a href='https://maps.app.goo.gl/vAgfWCe45xfDFDdR6' target='_blank' rel='noopener noreferrer'>https://maps.app.goo.gl/vAgfWCe45xfDFDdR6</a>",
 			},
 			en: {
 				id: "meeting-point",
