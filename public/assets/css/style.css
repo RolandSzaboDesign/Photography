@@ -1044,7 +1044,10 @@ hr {
 	}
 
 	.nav__dropdown {
-		border-top: 1px dashed var(--bg-medium);
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 0 1rem;
+		border-top: 1px dashed var(--bg-dark);
 	}
 
 	.nav__list > .nav__item {
@@ -1053,6 +1056,12 @@ hr {
 
 	.nav__list > .nav__item > .nav__link {
 		font-weight: 700;
+	}
+
+	.nav__link {
+		text-align: left;
+		line-height: 1.25;
+		border-bottom: 0;
 	}
 }
 
