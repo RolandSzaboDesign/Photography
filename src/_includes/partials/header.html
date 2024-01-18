@@ -25,16 +25,49 @@
 		<nav id="main-menu" class="nav nav--header">
 			<ul class="nav__list">
 				<li class="nav__item">
-					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].navAbout }}</a>
+					<span class="nav__link">{{ site[locale].navMe }}</span>
+					<ul class="nav__dropdown">
+						<li class="nav__item">
+							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].navAbout }}</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugGear }}/">{{ site[locale].navGear }}</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ site[locale].navContact }}</a>
+						</li>
+					</ul>
 				</li>
 				<li class="nav__item">
-					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">{{ site[locale].navPortraitWorks }}</a>
+					<span class="nav__link">{{ site[locale].navMyWork }}</span>
+					<ul class="nav__dropdown">
+						<li class="nav__item">
+							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugFemalePortraits }}/">{{ site[locale].navFemalePortraits }}</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugMalePortraits }}/">{{ site[locale].navMalePortraits }}</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugCouplePortraits }}/">{{ site[locale].navCouplePortraits }}</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">{{ site[locale].navPortraitWorks }}</a>
+						</li>
+					</ul>
 				</li>
 				<li class="nav__item">
-					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ site[locale].navContact }}</a>
+					<span class="nav__link">{{ site[locale].navProjects }}</span>
+					<ul class="nav__dropdown">
+						<li class="nav__item">
+							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugBudapestPhotoWalk }}/">Budapest Photo Walk</a>
+						</li>
+					</ul>
 				</li>
-				<li class="nav__item nav__item--button">
-					<a class="nav__link nav__link--button button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].navPhotoWalks }}</a>
+				<li class="nav__item">
+					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugBlog }}/">{{ site[locale].navBlog }}</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].navPhotoWalks }}</a>
 				</li>
 			</ul>
 		</nav>

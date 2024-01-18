@@ -330,6 +330,7 @@ hr {
 }
 
 .nav__link {
+	cursor: pointer;
 	display: block;
 	padding: .75rem;
 	color: var(--text);
