@@ -6,7 +6,7 @@
 .home__title {
 	font-size: 1.5rem;
 	color: var(--text-dark);
-	letter-spacing: -.05rem;
+	letter-spacing: -.075rem;
 }
 
 .home__title-cta {
@@ -40,6 +40,7 @@
 	overflow: hidden;
 	margin-bottom: 0;
 	border-radius: 1rem;
+	box-shadow: var(--box-shadow-strong);
 }
 
 .home-nav__link {
@@ -131,6 +132,6 @@
 	.home__title {
 		margin-bottom: 1.5rem;
 		font-size: 2.5rem;
-		letter-spacing: -.1rem;
+		letter-spacing: -.125rem;
 	}
 }

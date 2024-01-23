@@ -1,15 +1,14 @@
+<script src="/assets/js/lightbox.js" defer></script>
 <aside class="lightbox">
 	<div class="lightbox__container">
 		<figure class="lightbox__figure">
 			<img class="lightbox__image" src="" alt="">
-			<!-- <figcaption class="lightbox__caption"></figcaption> -->
+			<figcaption class="lightbox__caption"></figcaption>
 		</figure>
 		<nav class="lightbox__nav">
-			<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-			<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
+			<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}"><i class="fa-solid fa-caret-left"></i></a>
+			<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}"><i class="fa-solid fa-caret-right"></i></a>
 		</nav>
 	</div>
-	<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
+	<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}"><i class="fa-solid fa-xmark"></i></a>
 </aside>
-
-<script src="/assets/js/lightbox.js" defer></script>

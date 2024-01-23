@@ -76,12 +76,12 @@ module.exports = {
 			hu: {
 				id: "budapesten-kivul",
 				question: "Vállalsz fotózást Budapesten kívül is?",
-				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így ~100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 14.000 Forint, amit Neked kell állnod a fotózás árán felül.",
+				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így ~100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 14.680 HUF, amit Neked kell állnod a fotózás árán felül.",
 			},
 			en: {
 				id: "outside-budapest",
 				question: "Is it possible to shoot outside of Budapest, too?",
-				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 100 km vicinity of Budapest. The daily fee for using this service is 14.000 HUF; which you will need to pay for, on top of the base fee.",
+				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 100 km vicinity of Budapest. The maximum daily fee for using this service is 40 EUR; which you will need to pay for, on top of the base fee.",
 			},
 		},
 		{
@@ -243,7 +243,7 @@ module.exports = {
 			en: {
 				id: "pricing-examples",
 				question: "Can I get some examples on pricing?",
-				answer: "<ul class='list'><li>You really only need 5 photos &mdash; that's 25.000 HUF which is my current base fee. That will include an additional 5 photos for further use.</li><li>You need 10 photos &mdash; that's 25.000 HUF, same as the base fee.</li><li>You choose 20 photos after the shoot &mdash; that's a total of 35.000 HUF.</li><li>You need 12 photos and we used a carsharing service to travel between locations for 2.000 HUF &mdash; that's 25.000 (base fee) + 2.000 (+2 photos) + 2.000 (carsharing) = 29.000 HUF.</li></ul>",
+				answer: "<ul class='list'><li>You really only need 5 photos &mdash; that's 100 EUR which is my current base fee. That will include an additional 5 photos for further use.</li><li>You need 10 photos &mdash; that's 100 EUR, same as the base fee.</li><li>You choose 20 photos after the shoot &mdash; that's a total of 150 EUR.</li><li>You need 12 photos and we used a carsharing service to travel between locations for 5 EUR &mdash; that's 100 EUR (base fee) + 10 EUR (+2 photos) + 5 EUR (carsharing) = 115 EUR.</li></ul>",
 			},
 		},
 		{

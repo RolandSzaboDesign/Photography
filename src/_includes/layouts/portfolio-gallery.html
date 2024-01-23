@@ -15,20 +15,7 @@ css: lightbox
 	</div>
 </main>
 
-<script src="/assets/js/lightbox.js" defer></script>
-<aside class="lightbox">
-	<div class="lightbox__container">
-		<figure class="lightbox__figure">
-			<img class="lightbox__image" src="" alt="">
-			<figcaption class="lightbox__caption"></figcaption>
-		</figure>
-		<nav class="lightbox__nav">
-			<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-			<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
-		</nav>
-	</div>
-	<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
-</aside>
+{% include "partials/lightbox.html" %}
 
 <script src="/assets/js/masonry.js"></script>
 <script>

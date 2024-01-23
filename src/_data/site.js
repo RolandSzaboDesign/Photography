@@ -50,6 +50,8 @@ module.exports = {
 		"navContact": "Contact Me",
 		"navGear": "Gear I Use",
 		"navTestimonials": "Testimonials",
+		"navBudapestPhotoWalk": "Budapest Photo Walk",
+		"navCarPhotography": "Car Photography",
 
 		"slugAbout": "about",
 		"slugBlog": "blog",
@@ -70,7 +72,7 @@ module.exports = {
 		"slugContact": "contact",
 		"slugGear": "gear",
 		"slugTestimonials": "testimonials",
-		"slugCars": "cars",
+		"slugCarPhotography": "cars",
 
 		"homepageMainTitle": "I take authentic portraits and tell horrible jokes.",
 		"homepageRecentTitle": "My Portrait Work from the Last 2 Months",
@@ -158,7 +160,9 @@ module.exports = {
 		"navPortraitWorks": "Összes Portré Munkáim",
 		"navContact": "Elérhetőségeim",
 		"navGear": "Felszerelés",
-		"navTestimonials": "Rólam Mondták",
+		"navTestimonials": "Rólam Mondtátok",
+		"navBudapestPhotoWalk": "Budapest Photo Walk",
+		"navCarPhotography": "Autó Fotózás",
 
 		"slugAbout": "rolam",
 		"slugBlog": "blog",
@@ -179,7 +183,7 @@ module.exports = {
 		"slugContact": "kapcsolat",
 		"slugGear": "felszereles",
 		"slugTestimonials": "rolam-mondtak",
-		"slugCars": "auto",
+		"slugCarPhotography": "auto",
 
 		"homepageMainTitle": "Őszinte portré fotókat készítek és borzalmas vicceket mesélek.",
 		"homepageRecentTitle": "Munkáim az Elmúlt 2 Hónapból",

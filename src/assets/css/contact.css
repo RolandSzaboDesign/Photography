@@ -16,6 +16,10 @@
 		transform: rotate(3deg);
 	}
 
+	.contact__photo-img {
+		box-shadow: var(--box-shadow-small);
+	}
+
 	.contact__content {
 		position: relative;
 		z-index: 1;
