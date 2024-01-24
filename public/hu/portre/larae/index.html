@@ -23,16 +23,21 @@
 		<meta property="og:url" content="https://rolandszabo.photo/hu/portre/larae/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
 		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
-		<meta property="og:title" content="LaRae Day | Szabó Roland | Budapesti Portré Fotós">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
 
-		<!-- Fonts -->
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
-		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap"></noscript>
+		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		</noscript>
+
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
@@ -67,13 +72,16 @@
 					<span class="nav__link">Rólam</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/rolam/">Bemutatkozás</a>
+							<a class="nav__link" href="/hu/rolam/"><i class="nav__icon fa-solid fa-fw fa-hand"></i> Bemutatkozás</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/felszereles/">Felszerelés</a>
+							<a class="nav__link" href="/hu/rolam-mondtak/"><i class="nav__icon fa-solid fa-fw fa-comment"></i> Rólam Mondtátok</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/kapcsolat/">Elérhetőségeim</a>
+							<a class="nav__link" href="/hu/felszereles/"><i class="nav__icon fa-solid fa-fw fa-camera"></i> Felszerelés</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/kapcsolat/"><i class="nav__icon fa-solid fa-fw fa-phone"></i> Elérhetőségeim</a>
 						</li>
 					</ul>
 				</li>
@@ -81,16 +89,16 @@
 					<span class="nav__link">Munkáim</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/noi-portrek/">Női Portrék</a>
+							<a class="nav__link" href="/hu/noi-portrek/"><i class="nav__icon fa-solid fa-fw fa-venus"></i> Női Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/ferfi-portrek/">Férfi Portrék</a>
+							<a class="nav__link" href="/hu/ferfi-portrek/"><i class="nav__icon fa-solid fa-fw fa-mars"></i> Férfi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/paros-portrek/">Páros/Családi Portrék</a>
+							<a class="nav__link" href="/hu/paros-portrek/"><i class="nav__icon fa-solid fa-fw fa-people-group"></i> Páros/Családi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/portre/">Összes Portré Munkáim</a>
+							<a class="nav__link" href="/hu/portre/"><i class="nav__icon fa-solid fa-fw fa-table-cells"></i> Összes Portré Munkáim</a>
 						</li>
 					</ul>
 				</li>
@@ -98,7 +106,10 @@
 					<span class="nav__link">Projektek</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/budapest-photo-walk/">Budapest Photo Walk</a>
+							<a class="nav__link" href="/hu/budapest-photo-walk/"><i class="nav__icon fa-solid fa-fw fa-person-walking"></i> Budapest Photo Walk</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/auto/"><i class="nav__icon fa-solid fa-fw fa-car-side"></i> Autó Fotózás</a>
 						</li>
 					</ul>
 				</li>
@@ -525,7 +536,7 @@
 
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright">&copy; 2023 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 01. 18. 18:56:32 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 01. 24. 16:04:29 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
 		</a>

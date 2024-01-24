@@ -23,17 +23,22 @@
 		<meta property="og:url" content="https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
 		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
-		<meta property="og:title" content="Portré Fotózás Budapesten | Szabó Roland | Budapesti Portré Fotós">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
 		<link rel="stylesheet" href="/assets/css/photo-walks.css">
 
-		<!-- Fonts -->
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
-		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap"></noscript>
+		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		</noscript>
+
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
@@ -68,13 +73,16 @@
 					<span class="nav__link">Rólam</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/rolam/">Bemutatkozás</a>
+							<a class="nav__link" href="/hu/rolam/"><i class="nav__icon fa-solid fa-fw fa-hand"></i> Bemutatkozás</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/felszereles/">Felszerelés</a>
+							<a class="nav__link" href="/hu/rolam-mondtak/"><i class="nav__icon fa-solid fa-fw fa-comment"></i> Rólam Mondtátok</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/kapcsolat/">Elérhetőségeim</a>
+							<a class="nav__link" href="/hu/felszereles/"><i class="nav__icon fa-solid fa-fw fa-camera"></i> Felszerelés</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/kapcsolat/"><i class="nav__icon fa-solid fa-fw fa-phone"></i> Elérhetőségeim</a>
 						</li>
 					</ul>
 				</li>
@@ -82,16 +90,16 @@
 					<span class="nav__link">Munkáim</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/noi-portrek/">Női Portrék</a>
+							<a class="nav__link" href="/hu/noi-portrek/"><i class="nav__icon fa-solid fa-fw fa-venus"></i> Női Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/ferfi-portrek/">Férfi Portrék</a>
+							<a class="nav__link" href="/hu/ferfi-portrek/"><i class="nav__icon fa-solid fa-fw fa-mars"></i> Férfi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/paros-portrek/">Páros/Családi Portrék</a>
+							<a class="nav__link" href="/hu/paros-portrek/"><i class="nav__icon fa-solid fa-fw fa-people-group"></i> Páros/Családi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/portre/">Összes Portré Munkáim</a>
+							<a class="nav__link" href="/hu/portre/"><i class="nav__icon fa-solid fa-fw fa-table-cells"></i> Összes Portré Munkáim</a>
 						</li>
 					</ul>
 				</li>
@@ -99,7 +107,10 @@
 					<span class="nav__link">Projektek</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/budapest-photo-walk/">Budapest Photo Walk</a>
+							<a class="nav__link" href="/hu/budapest-photo-walk/"><i class="nav__icon fa-solid fa-fw fa-person-walking"></i> Budapest Photo Walk</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/auto/"><i class="nav__icon fa-solid fa-fw fa-car-side"></i> Autó Fotózás</a>
 						</li>
 					</ul>
 				</li>
@@ -228,7 +239,7 @@
 			<div class="faq__answer">Igen, a fényképezőgépem tud teljes csendben is fotózni, amikor nem kattog a zár egy kép elkészültekor. Én pedig ügyesen járok lábujjhegyen. Ha ilyen igényed van, szólj előre bátran!</div>
 		</details><details class="faq">
 			<summary class="faq__question">Vállalsz fotózást Budapesten kívül is?</summary>
-			<div class="faq__answer">Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így ~100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 14.000 Forint, amit Neked kell állnod a fotózás árán felül.</div>
+			<div class="faq__answer">Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így ~100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 14.680 HUF, amit Neked kell állnod a fotózás árán felül.</div>
 		</details><details class="faq">
 			<summary class="faq__question">Vállalsz eseményfotózást is?</summary>
 			<div class="faq__answer">Természetesen, fotóztam már ünnepi beszédeket, üzlet megnyitókat, de diplomaosztó ünnepséget is. Keress meg bátran, ha egy fontos eseményedet szeretnéd, hogy dokumentáljam, és megbeszéljük a részleteket.</div>
@@ -360,15 +371,14 @@
 			<h2>Mennyibe kerül?</h2>
 			<figure class="floating-photo floating-photo--right">
 				<img class="floating-photo__photo" src="/assets/images/photo-walk-02.webp" alt="Portré Fotózás Budapesten" width="750" height="500">
-				<figcaption class="floating-photo__caption"><em>Fotó és szerkesztés: <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">Németh Dános</a></em></figcaption>
+				<figcaption class="floating-photo__caption"><em>Fotó és szerkesztés: <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">Lakinger Péter</a></em></figcaption>
 			</figure>
-			<p>Legyen egyszerű és átlátható az árazás!</p>
 			<p class="emphasized">A Kiinduló Ár: 25.000 HUF</p>
 			<ul class="list">
-				<li>✅ Tartalmaz 10 db szerkesztett, retusált fotót, amelyet Te válaszhatsz ki a fotózás után.</li>
-				<li>✅ 1 db ingyenes fotó a fotózás napján.</li>
-				<li>✅ További fotóválasztás 1.000 Forintos áron.</li>
-				<li>✅ Személyre szabott kedvezmények nagyobb mennyiségű választott kép esetén.</li>
+				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Tartalmaz 10 db szerkesztett, retusált fotót, amelyet Te válaszhatsz ki a fotózás után.</li>
+				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; 1 db ingyenes fotó a fotózás napján.</li>
+				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; További fotóválasztás 1.000 Forintos áron.</li>
+				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Személyre szabott kedvezmények nagyobb mennyiségű választott kép esetén.</li>
 			</ul>
 			<p><strong>Fotózás időtartama:</strong> Általában 1-2 óra, de maximum 3 óra. Egész napos (3 óránál hosszabb) fotózásokat is szívesen vállalok, és az igényeid alapján személyre szabott díjszabást fogunk kialakítani.</p>
 			<p><strong>Extra Díjak:</strong></p>
@@ -488,7 +498,7 @@
 		"availability": "https://schema.org/InStock",
 		"price": "25.000",
 		"priceCurrency": "HUF",
-		"priceValidUntil": "2024-01-01"
+		"priceValidUntil": "2025-01-01"
 	},
 	"review": [
 		{
@@ -526,7 +536,7 @@
 
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright">&copy; 2023 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 01. 18. 18:56:32 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 01. 24. 16:04:29 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
 		</a>
