@@ -22,7 +22,9 @@ css: blog
 					<img class="blog-lister__image" src="/assets/images/blog/{{ item.data.count }}.webp" alt="Featured image for {{ item.data.title }}">
 					<div class="blog-lister__content">
 						<h2 class="blog-lister__title">{{ item.data.title }}</h2>
-						<span><i class="fa-regular fa-calendar"></i>&nbsp; {{ item.data.date | date: "%Y.%m.%d." }}</span>
+						<span class="blog-lister__date">
+							<i class="fa-regular fa-calendar"></i>&nbsp; {{ item.data.date | date: "%Y.%m.%d." }}
+						</span>
 					</div>
 				</a>
 			</article>

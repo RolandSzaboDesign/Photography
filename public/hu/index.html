@@ -168,7 +168,7 @@
 
 <blockquote class="testimonial">
 	<a class="testimonial__photo-link" href="/hu/portre/blanka-3/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-blanka.webp" alt="M. Blanka" width="100" height="100">
+		<img class="testimonial__photo" src="/assets/images/testimonials/blanka.webp" alt="M. Blanka" width="100" height="100">
 	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">Igazán különlegesnek érezhettem magam a fotózásunk alatt</p>
@@ -183,13 +183,13 @@
 		
 
 <blockquote class="testimonial">
-	<a class="testimonial__photo-link" href="/hu/portre/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-betti-laci.webp" alt="M. Betti & P. Laci" width="100" height="100">
+	<a class="testimonial__photo-link" href="/hu/portre/betti-laci/">
+		<img class="testimonial__photo" src="/assets/images/testimonials/betti-laci.webp" alt="M. Betti & P. Laci" width="100" height="100">
 	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">Roland igyekezte elkapni a kedves pillanatokat, amikből csodálatos képek születtek.</p>
 		<cite class="testimonial__cite">
-			<a class="testimonial__author" href="/hu/portre/">M. Betti & P. Laci</a>
+			<a class="testimonial__author" href="/hu/portre/betti-laci/">M. Betti & P. Laci</a>
 			<div class="testimonial__rating">⭐⭐⭐⭐⭐</div>
 		</cite>
 	</div>
@@ -200,7 +200,7 @@
 
 <blockquote class="testimonial">
 	<a class="testimonial__photo-link" href="/hu/portre/zsuzsika-gyuri/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-zsuzsika-gyuri.webp" alt="P. Zsuzsika & B. Gyuri" width="100" height="100">
+		<img class="testimonial__photo" src="/assets/images/testimonials/zsuzsika-gyuri.webp" alt="P. Zsuzsika & B. Gyuri" width="100" height="100">
 	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">Meglepően természetes módon viselkedtünk Roland kamerája előtt</p>
@@ -230,9 +230,6 @@
 
 <p>Nem érzed jól Magad a kamera előtt? Nem tudod, hogyan kell pózolni, vagy amiatt aggódsz, hogy nem nézel ki jól a fotókon? Ezzel nem vagy egyedül. Szinte az összes vendégem tapasztalta már ezt a szorongást életében. És itt jövök én a képbe.</p>
 <p>Roland vagyok, 2 éve fotózom embereket, és elhivatottan törekszem arra, hogy megszerettessem az emberekkel a portré fotózást. Semmi sem okoz nagyobb örömet számomra, mint szemtanúja lenni az átalakulásnak, amikor meglátod az első fotódat a fényképezőgépben&mdash;Látni, ahogy a kételyeid azonnal feloldódnak, és őszinte érzelmekkel és önfeledt mosolyokkal folytatjuk a fotózást.</p>
-
-<!-- Képek ide -->
-
 <p>A fotózásunk során kellemes időtöltést ígérek empatikus személyiségemmel és <del>borzalmas</del> <ins>páratlan</ins> humorérzékemmel. Szilárd meggyőződésem, hogy a nyugodt légkör megteremtése kulcsfontosságú az igazi lényeg megragadásához, amit nem minden fotós tud biztosítani.</p>
 <p>Ha nem szeretsz fotózkodni, mert a Te is fentiektől tartasz, akkor kiváló helyen vagy. Készen állok, hogy mind a velem töltött időd, mind a végleges fotóid felejthetetlenek legyenek!</p>
 
@@ -242,13 +239,15 @@
 				</div>
 			</div>
 			<figure>
-				<img src="/assets/images/roland-home.jpg" alt="Ne zavarj, koncentrálok! :D" title="Ne zavarj, koncentrálok! :D">
+				<img src="/assets/images/roland-home.webp" alt="Ne zavarj, koncentrálok! :D" title="Ne zavarj, koncentrálok! :D">
 				<figcaption><em>Fotó és szerkesztés: <a href="https://www.instagram.com/p_varsics/" target="_blank" rel="noopener noreferrer">Varsics Péter</a></em></figcaption>
 			</figure>
 		</div>
 	</section>
+</main>
 
-	<script src="/assets/js/lightbox.js" defer></script>
+<link rel="stylesheet" href="/assets/css/lightbox.css">
+
 <aside class="lightbox">
 	<div class="lightbox__container">
 		<figure class="lightbox__figure">
@@ -263,28 +262,35 @@
 	<a class="lightbox__close" href="#" title="Bezárás"><i class="fa-solid fa-xmark"></i></a>
 </aside>
 
+<script src="/assets/js/lightbox.js" defer></script>
 
-	<script src="/assets/js/masonry.js"></script>
-	<script>
-		var macyInstance = Macy ({
-			container: '.masonry',
-			mobileFirst: true,
-			// trueOrder: true,
-			columns: 2,
-			margin: 10,
-			breakAt: {
-				992: {
-					columns: 3,
-					margin: 16
-				}
+<script src="/assets/js/masonry.js"></script>
+<script>
+	var macyInstance = Macy ({
+		container: '.masonry',
+		mobileFirst: true,
+		// trueOrder: true,
+		columns: 2,
+		margin: 8,
+		breakAt: {
+			576: {
+				margin: 10
+			},
+			768: {
+				margin: 12
+			},
+			992: {
+				columns: 3,
+				margin: 16
 			}
-		});
-	</script>
-</main>
+		}
+	});
+</script>
+
 
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 01. 24. 16:04:29 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 01. 24. 19:47:57 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
 		</a>

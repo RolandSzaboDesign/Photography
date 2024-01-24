@@ -53,28 +53,12 @@ css: home
 				</div>
 			</div>
 			<figure>
-				<img src="/assets/images/roland-home.jpg" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}">
+				<img src="/assets/images/roland-home.webp" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}">
 				<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/p_varsics/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterVarsics }}</a></em></figcaption>
 			</figure>
 		</div>
 	</section>
-
-	{% include "partials/lightbox.html" %}
-
-	<script src="/assets/js/masonry.js"></script>
-	<script>
-		var macyInstance = Macy ({
-			container: '.masonry',
-			mobileFirst: true,
-			// trueOrder: true,
-			columns: 2,
-			margin: 10,
-			breakAt: {
-				992: {
-					columns: 3,
-					margin: 16
-				}
-			}
-		});
-	</script>
 </main>
+
+{% include "partials/lightbox.html" %}
+{% include "partials/masonry-home.html" %}

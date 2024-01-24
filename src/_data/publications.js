@@ -13,6 +13,30 @@ module.exports = {
 		// 	}
 		// },
 		{
+			title: "StyléCruze",
+			image: "/assets/images/publications/stylecruze-24-jan.webp",
+			en: {
+				"description": "Publication",
+				"issue": "January 2024, issue 718",
+			},
+			hu: {
+				"description": "Megjelenés",
+				"issue": "2024 Január, 718-ik kiadás",
+			}
+		},
+		{
+			title: "Dappy",
+			image: "/assets/images/publications/dappy-23-dec.webp",
+			en: {
+				"description": "Front & Back Cover",
+				"issue": "December 2023, issue 03",
+			},
+			hu: {
+				"description": "Címlap és Hátlap",
+				"issue": "2023 December, 03-ik kiadás",
+			}
+		},
+		{
 			title: "Moveux",
 			image: "/assets/images/publications/moveux-23-nov.webp",
 			en: {

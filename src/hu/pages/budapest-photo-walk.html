@@ -106,7 +106,7 @@ translation: budapest-photo-walk
 		</div>
 	</section>
 
-	<section class="section section--white">
+	<section class="section">
 		<div class="container">
 			<h2 class="mt-0">Szeretettel várunk Téged is!</h2>
 			<p>Ha szeretnél csatlakozni bármelyik 2024-es fotós sétánkhoz, írj nekem egy DM-et Instagramon, és felveszlek a csoportos csevegésünkbe, ahol bejelentem a közelgő dátumokat és témákat. Nincs spammelés, ígérem!</p>
@@ -116,28 +116,4 @@ translation: budapest-photo-walk
 </main>
 
 {% include "partials/lightbox.html" %}
-
-<script src="/assets/js/masonry.js"></script>
-<script>
-	var macyInstance = Macy ({
-		container: '.masonry',
-		mobileFirst: true,
-		// trueOrder: true,
-		columns: 2,
-		margin: 8,
-		breakAt: {
-				576: {
-					columns: 3,
-					margin: 10
-				},
-				768: {
-					columns: 4,
-					margin: 12,
-				},
-				992: {
-					columns: 5,
-					margin: 16
-				}
-			}
-	});
-</script>
+{% include "partials/masonry.html" %}

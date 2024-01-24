@@ -241,7 +241,7 @@
 		</div>
 	</section>
 
-	<section class="section section--white">
+	<section class="section">
 		<div class="container">
 			<h2 class="mt-0">Szeretettel várunk Téged is!</h2>
 			<p>Ha szeretnél csatlakozni bármelyik 2024-es fotós sétánkhoz, írj nekem egy DM-et Instagramon, és felveszlek a csoportos csevegésünkbe, ahol bejelentem a közelgő dátumokat és témákat. Nincs spammelés, ígérem!</p>
@@ -250,7 +250,8 @@
 	</section>
 </main>
 
-<script src="/assets/js/lightbox.js" defer></script>
+<link rel="stylesheet" href="/assets/css/lightbox.css">
+
 <aside class="lightbox">
 	<div class="lightbox__container">
 		<figure class="lightbox__figure">
@@ -265,36 +266,37 @@
 	<a class="lightbox__close" href="#" title="Bezárás"><i class="fa-solid fa-xmark"></i></a>
 </aside>
 
+<script src="/assets/js/lightbox.js" defer></script>
 
 <script src="/assets/js/masonry.js"></script>
 <script>
 	var macyInstance = Macy ({
 		container: '.masonry',
 		mobileFirst: true,
-		// trueOrder: true,
 		columns: 2,
 		margin: 8,
 		breakAt: {
-				576: {
-					columns: 3,
-					margin: 10
-				},
-				768: {
-					columns: 4,
-					margin: 12,
-				},
-				992: {
-					columns: 5,
-					margin: 16
-				}
+			576: {
+				columns: 3,
+				margin: 10
+			},
+			768: {
+				columns: 4,
+				margin: 12
+			},
+			992: {
+				columns: 5,
+				margin: 16
 			}
+		}
 	});
 </script>
 
 
+
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 01. 24. 16:04:29 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 01. 24. 19:47:57 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
 		</a>

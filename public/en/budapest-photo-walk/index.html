@@ -241,7 +241,7 @@
 		</div>
 	</section>
 
-	<section class="section section--white">
+	<section class="section">
 		<div class="container">
 			<h2 class="mt-0">You are Welcome to Join!</h2>
 			<p>If you're interested in joining any of our photo walks in 2024, hit me with a DM on Instagram and I'll add you to our Group Chat, where I'll announce upcoming dates and themes. No spamming, promise!</p>
@@ -250,7 +250,8 @@
 	</section>
 </main>
 
-<script src="/assets/js/lightbox.js" defer></script>
+<link rel="stylesheet" href="/assets/css/lightbox.css">
+
 <aside class="lightbox">
 	<div class="lightbox__container">
 		<figure class="lightbox__figure">
@@ -258,42 +259,44 @@
 			<figcaption class="lightbox__caption"></figcaption>
 		</figure>
 		<nav class="lightbox__nav">
-			<a class="lightbox__arrow" id="left" href="#" title="Previous Photo">◀</a>
-			<a class="lightbox__arrow" id="right" href="#" title="Next Photo">▶</a>
+			<a class="lightbox__arrow" id="left" href="#" title="Previous Photo"><i class="fa-solid fa-caret-left"></i></a>
+			<a class="lightbox__arrow" id="right" href="#" title="Next Photo"><i class="fa-solid fa-caret-right"></i></a>
 		</nav>
 	</div>
-	<a class="lightbox__close" href="#" title="Close">&times;</a>
+	<a class="lightbox__close" href="#" title="Close"><i class="fa-solid fa-xmark"></i></a>
 </aside>
+
+<script src="/assets/js/lightbox.js" defer></script>
 
 <script src="/assets/js/masonry.js"></script>
 <script>
 	var macyInstance = Macy ({
 		container: '.masonry',
 		mobileFirst: true,
-		// trueOrder: true,
 		columns: 2,
 		margin: 8,
 		breakAt: {
-				576: {
-					columns: 3,
-					margin: 10
-				},
-				768: {
-					columns: 4,
-					margin: 12,
-				},
-				992: {
-					columns: 5,
-					margin: 16
-				}
+			576: {
+				columns: 3,
+				margin: 10
+			},
+			768: {
+				columns: 4,
+				margin: 12
+			},
+			992: {
+				columns: 5,
+				margin: 16
 			}
+		}
 	});
 </script>
 
 
+
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Roland Szabó, All rights reserved. <br> Last updated on 2024. 01. 24. 16:04:29 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Roland Szabó, All rights reserved. <br> Last updated on 2024. 01. 24. 19:47:57 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
 		</a>

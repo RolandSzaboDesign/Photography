@@ -106,7 +106,7 @@ translation: budapest-photo-walk
 		</div>
 	</section>
 
-	<section class="section section--white">
+	<section class="section">
 		<div class="container">
 			<h2 class="mt-0">You are Welcome to Join!</h2>
 			<p>If you're interested in joining any of our photo walks in 2024, hit me with a DM on Instagram and I'll add you to our Group Chat, where I'll announce upcoming dates and themes. No spamming, promise!</p>
@@ -115,42 +115,5 @@ translation: budapest-photo-walk
 	</section>
 </main>
 
-<script src="/assets/js/lightbox.js" defer></script>
-<aside class="lightbox">
-	<div class="lightbox__container">
-		<figure class="lightbox__figure">
-			<img class="lightbox__image" src="" alt="">
-			<figcaption class="lightbox__caption"></figcaption>
-		</figure>
-		<nav class="lightbox__nav">
-			<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-			<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
-		</nav>
-	</div>
-	<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
-</aside>
-
-<script src="/assets/js/masonry.js"></script>
-<script>
-	var macyInstance = Macy ({
-		container: '.masonry',
-		mobileFirst: true,
-		// trueOrder: true,
-		columns: 2,
-		margin: 8,
-		breakAt: {
-				576: {
-					columns: 3,
-					margin: 10
-				},
-				768: {
-					columns: 4,
-					margin: 12,
-				},
-				992: {
-					columns: 5,
-					margin: 16
-				}
-			}
-	});
-</script>
+{% include "partials/lightbox.html" %}
+{% include "partials/masonry.html" %}

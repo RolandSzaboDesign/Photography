@@ -24,9 +24,9 @@
 	margin-right: .5rem;
 	font-family: var(--sans);
 	font-weight: 700;
+	color: #FFF;
 	line-height: 1;
 	border-radius: 1.5rem;
-	color: #FFF;
 	background-color: var(--highlight);
 }
 
@@ -34,6 +34,23 @@
 	margin-bottom: 1rem;
 	color: var(--bg-dark);
 	background-color: var(--text-dark);
+}
+
+@media only screen and (min-width: 768px) {
+	.floating-photo {
+		width: 40%;
+	}
+
+	@media only screen and (min-width: 768px) {
+	.floating-photo--left {
+		float: left;
+		margin-right: 2rem;
+	}
+
+	.floating-photo--right {
+		float: right;
+		margin-left: 2rem;
+	}
 }
 
 .floating-photo__photo {
@@ -46,20 +63,4 @@
 	font-size: .875rem;
 	text-align: center;
 	line-height: 1;
-}
-
-@media only screen and (min-width: 768px) {
-	.floating-photo {
-		width: 40%;
-	}
-
-	.floating-photo--left {
-		float: left;
-		margin-right: 2rem;
-	}
-
-	.floating-photo--right {
-		float: right;
-		margin-left: 2rem;
-	}
 }

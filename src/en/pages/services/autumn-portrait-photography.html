@@ -145,29 +145,5 @@ css: photo-walks
 	</section>
 
 	{% include "partials/lightbox.html" %}
-
-	<script src="/assets/js/masonry.js"></script>
-	<script>
-		var macyInstance = Macy ({
-			container: '.masonry',
-			mobileFirst: true,
-			// trueOrder: true,
-			columns: 2,
-			margin: 8,
-			breakAt: {
-				576: {
-					columns: 3,
-					margin: 10
-				},
-				768: {
-					columns: 4,
-					margin: 12,
-				},
-				992: {
-					columns: 5,
-					margin: 16
-				}
-			}
-		});
-	</script>
+	{% include "partials/masonry.html" %}
 </main>

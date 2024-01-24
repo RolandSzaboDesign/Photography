@@ -4,6 +4,12 @@
 	grid-template-columns: repeat(2, 1fr);
 }
 
+@media only screen and (min-width: 992px) {
+	.magazines {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
 .magazine {
 	text-align: center;
 }
@@ -24,6 +30,12 @@
 	margin-bottom: .5rem;
 }
 
+@media only screen and (min-width: 768px) {
+	.magazine__description {
+		font-size: 1rem;
+	}
+}
+
 .magazine__issue {
 	margin-bottom: 0;
 	font-style: italic;
@@ -31,11 +43,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-	.magazine__description,
 	.magazine__issue {
 		font-size: 1rem;
 	}
+}
 
+@media only screen and (min-width: 768px) {
 	.about {
 		display: grid;
 		grid-template-columns: 3fr .5fr 6fr;
@@ -67,11 +80,5 @@
 		float: right;
 		margin-left: 2rem;
 		margin-bottom: 1rem;
-	}
-}
-
-@media only screen and (min-width: 992px) {
-	.magazines {
-		grid-template-columns: repeat(3, 1fr);
 	}
 }

@@ -1,12 +1,22 @@
-.home-about {
-	display: grid;
-	grid-gap: 2rem;
-}
-
 .home__title {
 	font-size: 1.5rem;
 	color: var(--text-dark);
 	letter-spacing: -.075rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.home__title {
+		font-size: 2rem;
+		letter-spacing: -.1rem;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.home__title {
+		margin-bottom: 1.5rem;
+		font-size: 2.5rem;
+		letter-spacing: -.125rem;
+	}
 }
 
 .home__title-cta {
@@ -36,6 +46,19 @@
 	margin-bottom: 0;
 }
 
+@media only screen and (min-width: 768px) {
+	.home-nav__list {
+		grid-template-columns: repeat(3, 1fr);
+		min-height: calc(100vh - 15rem);
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.home-nav__list {
+		min-height: calc(100vh - 13rem);
+	}
+}
+
 .home-nav__item {
 	overflow: hidden;
 	margin-bottom: 0;
@@ -57,6 +80,13 @@
 	transition: var(--transition-duration) opacity, var(--transition-duration) transform;
 }
 
+@media only screen and (min-width: 768px) {
+	.home-nav__link {
+		justify-content: center;
+		border-radius: 1rem;
+	}
+}
+
 .home-nav__link--female { background-image: url('/assets/images/portraiture/andi/03_700.webp'); }
 .home-nav__link--male   { background-image: url('/assets/images/portraiture/tomer-3/03_700.webp'); }
 .home-nav__link--couple { background-image: url('/assets/images/portraiture/dori-laci/03_700.webp'); }
@@ -65,6 +95,11 @@
 	.home-nav__link--female { background-image: url('/assets/images/portraiture/andi/05_700.webp'); }
 	.home-nav__link--male { background-image: url('/assets/images/portraiture/tomer-3/01_700.webp'); }
 	.home-nav__link--couple { background-image: url('/assets/images/portraiture/dori-laci/01_700.webp'); }
+}
+
+.home-nav__link:hover,
+.home-nav__link:focus {
+	transform: scale(1.0);
 }
 
 .home-nav__link-text {
@@ -79,9 +114,12 @@
 	transition: var(--transition-duration) background-color;
 }
 
-.home-nav__link:hover,
-.home-nav__link:focus {
-	transform: scale(1.0);
+@media only screen and (min-width: 768px) {
+	.home-nav__link-text {
+		margin-bottom: 1rem;
+		font-size: 1.25rem;
+		letter-spacing: -.025rem;
+	}
 }
 
 .home-nav__link:hover .home-nav__link-text,
@@ -89,49 +127,14 @@
 	background-color: rgba(0,0,0,.75);
 }
 
-@media only screen and (min-width: 576px) {
-	.home__title {
-		margin-bottom: 1.25rem;
-	}
+.home-about {
+	display: grid;
+	grid-gap: 2rem;
 }
 
 @media only screen and (min-width: 768px) {
-	.home__title {
-		margin-bottom: 1rem;
-		font-size: 2rem;
-		letter-spacing: -.1rem;
-	}
-
-	.home-nav__list {
-		grid-template-columns: repeat(3, 1fr);
-		min-height: calc(100vh - 15rem);
-	}
-
-	.home-nav__link {
-		justify-content: center;
-		border-radius: 1rem;
-	}
-
-	.home-nav__link-text {
-		margin-bottom: 1rem;
-		font-size: 1.25rem;
-		letter-spacing: -.025rem;
-	}
-
 	.home-about {
 		grid-template-columns: 2fr 1fr;
 		align-items: center;
-	}
-}
-
-@media only screen and (min-width: 992px) {
-	.home-nav__list {
-		min-height: calc(100vh - 13rem);
-	}
-
-	.home__title {
-		margin-bottom: 1.5rem;
-		font-size: 2.5rem;
-		letter-spacing: -.125rem;
 	}
 }

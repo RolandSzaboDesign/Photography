@@ -11,12 +11,12 @@ css: photo-walks
 		<div class="container">
 			<header class="page-header">
 				<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
-				<p class="page-header__title">If you think you're not photogenic, I'm here to prove you wrong.</p>
+				<p class="page-header__title h1">If you think you're not photogenic, I'm here to prove you wrong.</p>
 			</header>
 			<div class="half">
 				<div>
 					<p>Being camera shy simply means no one has ever captured your true beauty in a photograph. That changes today.</p>
-					<p>I'm Roland, your Budapest portrait photographer, known for my empathetic personality and quirky sense of humor. Through easygoing and fun photo sessions in Budapest, I guide people in overcoming camera anxiety by crafting authentic photographs that will resonate with you deeply.</p>
+					<p>I'm Roland, your Budapest portrait photographer, known for my empathetic personality and quirky sense of humor. Through easygoing and fun photo sessions in Budapest, I'll guide you in overcoming camera anxiety by crafting authentic photographs that will resonate with you deeply.</p>
 					<p>Uncertain about posing? Unsure where to place your hands or how to look your best on camera? Rest assured, you're in capable hands. I'm prepared to demonstrate that you are, indeed, inherently photogenic.</p>
 				</div>
 				<!-- TODO: Carousel -->
@@ -27,7 +27,7 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--testimonials">
+	<section class="section section--white section--testimonials">
 		<div class="container">
 			<div class="testimonials">
 				{% assign source = testimonials.items %}
@@ -38,9 +38,9 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section" id="ready">
+	<section class="section">
 		<div class="container">
-			<h2>Here are the details:</h2>
+			<h2 class="mt-0">Here are the details:</h2>
 			<ol class="how-it-works">
 				<li class="how-it-works__item">
 					<h3 class="how-it-works__title">Preparation</h3>
@@ -50,11 +50,11 @@ css: photo-walks
 					</figure>
 					<p>Let's make your winter portrait session a delightful experience with these friendly ideas:</p>
 					<ul class="list">
-						<li><strong>☃️ Snowy City Vibes:</strong> Wander through snow-covered streets, showcasing your winter style against the city's frosty backdrop. Think chic outfits that pop against the snowy scenes.</li>
-						<li><strong>☕ Café Comforts:</strong> Cozy up in a charming café with warm interiors. Sip on hot drinks, dress in your favorite winter gear, and let the café's ambiance set the stage for your portraits.</li>
-						<li><strong>⛰️ Nature's Frosty Hues:</strong> Head to nearby parks or wooded areas adorned with frost-covered branches. Bundle up in winter layers and let nature's winter palette add charm to your portraits.</li>
-						<li><strong>💡 Festive Streetlight Stroll:</strong> Embrace the holiday spirit with a nighttime shoot under the warm glow of festive streetlights. Dress up in your winter best, and let the city's festive vibe add magic to your photos.</li>
-						<li><strong>❄️ Your Winter Vision:</strong> Have a specific winter theme in mind? Whether you prefer the cityscape or the tranquility of nature, we'll work together to capture the warmth and magic of winter in your portraits.</li>
+						<li><strong>Snowy City Vibes:</strong> Wander through snow-covered streets, showcasing your winter style against the city's frosty backdrop. Think chic outfits that pop against the snowy scenes.</li>
+						<li><strong>Café Comforts:</strong> Cozy up in a charming café with warm interiors. Sip on hot drinks, dress in your favorite winter gear, and let the café's ambiance set the stage for your portraits.</li>
+						<li><strong>Nature's Frosty Hues:</strong> Head to nearby parks or wooded areas adorned with frost-covered branches. Bundle up in winter layers and let nature's winter palette add charm to your portraits.</li>
+						<li><strong>Festive Streetlight Stroll:</strong> Embrace the holiday spirit with a nighttime shoot under the warm glow of festive streetlights. Dress up in your winter best, and let the city's festive vibe add magic to your photos.</li>
+						<li><strong>Your Winter Vision:</strong> Have a specific winter theme in mind? Whether you prefer the cityscape or the tranquility of nature, we'll work together to capture the warmth and magic of winter in your portraits.</li>
 					</ul>
 					<hr>
 					{% assign category = faq.preparation %}
@@ -81,7 +81,7 @@ css: photo-walks
 						<img class="floating-photo__photo" src="/assets/images/photo-walk-05.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 						<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 					</figure>
-					<p>Let's talk about what happens after the shutter clicks! On the day of the shoot, you'll receive a special treat: one of my favorite photos, edited and retouched, completely free.</p>
+					<p>On the day of the shoot, you'll receive a special treat: one of my favorite photos, edited and retouched, completely free.</p>
 					<p>Next, I'll dive into the initial culling phase, removing any blurry, duplicate, or less-than-flattering shots. No need for you to see them, and no need for me to keep them.</p>
 					<p>Once the selection is refined, I'll send you the remaining photos. These will be in small size and watermarked. It's your chance to choose the ones you'd like me to edit and retouch.</p>
 					<p>Once you've made your selection, sit back for 1-3 days, and I'll work my magic on your chosen photos. And hey, if you need assistance with printing or creating a photo album, I've got you covered!</p>
@@ -93,7 +93,7 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--testimonials">
+	<section class="section section--white section--testimonials">
 		<div class="container">
 			<div class="testimonials">
 				{% include "partials/testimonial-excerpt.html", id: 3 %}
@@ -105,7 +105,7 @@ css: photo-walks
 
 	<section class="section">
 		<div class="container">
-			<h2>Pricing</h2>
+			<h2 class="mt-0">Pricing</h2>
 			<figure class="floating-photo floating-photo--right">
 				<img class="floating-photo__photo" src="/assets/images/photo-walk-02.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/peterlakinger/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterLakinger }}</a></em></figcaption>
@@ -115,7 +115,7 @@ css: photo-walks
 				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Includes 10 edited, retouched photos of your choice after the shoot.</li>
 				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; 1 Free photo on the day of the photoshoot.</li>
 				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Additional photo selection at 5 EUR each.</li>
-				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Personalized discounts for a larger photo package.</li>
+				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Personalized discounts when choosing lots of photos.</li>
 			</ul>
 			<p><strong>Session Duration:</strong> Usually 1-2 hours, with a maximum of 3 hours. Full-day shoots (over 3 hours) are welcome, and we'll create a personalized pricing structure based on your needs.</p>
 			<p><strong>Additional Charges May Apply:</strong></p>
@@ -133,7 +133,7 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--testimonials">
+	<section class="section section--white section--testimonials">
 		<div class="container">
 			<div class="testimonials">
 				{% include "partials/testimonial-excerpt.html", id: 6 %}
@@ -145,7 +145,7 @@ css: photo-walks
 
 	<section class="section">
 		<div class="container">
-			<h2 class="text-center">Ready to Get Started?</h2>
+			<h2 class="mt-0 text-center">Ready to Get Started?</h2>
 			<div class="button-with-link">
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Email me to Get Started</a>
 				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
