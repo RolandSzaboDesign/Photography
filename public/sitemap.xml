@@ -1241,10 +1241,6 @@
 		<lastmod>2023-12-16T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/about/</loc>
-		<lastmod>2023-12-21T15:48:59.332Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/hu/rolam/</loc>
 		<lastmod>2023-12-21T15:48:59.340Z</lastmod>
 	</url>
@@ -1359,5 +1355,9 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
 		<lastmod>2024-01-24T18:46:48.122Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/about/</loc>
+		<lastmod>2024-01-25T09:07:47.481Z</lastmod>
 	</url>
 </urlset>
