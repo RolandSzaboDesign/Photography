@@ -21,7 +21,11 @@
 		<!-- OpenGraph -->
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="{{ site.url | append: page.url }}">
+		{%- if og_image %}
+		<meta property="og:image" content="{{ og_image }}">
+		{%- else %}
 		<meta property="og:image" content="{{ site.url }}/assets/images/roland-og.jpg">
+		{%- endif %}
 		<meta property="og:description" content="{{ site[locale].homepageMainTitle }}">
 		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
 
