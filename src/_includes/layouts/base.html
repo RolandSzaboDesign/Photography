@@ -5,7 +5,11 @@
 		<title>{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		{%- if og_description %}
+		<meta name="description" content="{{ og_description }}">
+		{%- else %}
 		<meta name="description" content="{{ site[locale].homepageMainTitle }}">
+		{%- endif %}
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -26,7 +30,11 @@
 		{%- else %}
 		<meta property="og:image" content="{{ site.url }}/assets/images/roland-og.jpg">
 		{%- endif %}
+		{%- if og_description %}
+		<meta property="og:description" content="{{ og_description }}">
+		{%- else %}
 		<meta property="og:description" content="{{ site[locale].homepageMainTitle }}">
+		{%- endif %}
 		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
 
 		<!-- Styles -->
