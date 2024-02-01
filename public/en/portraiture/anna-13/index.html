@@ -23,16 +23,21 @@
 		<meta property="og:url" content="https://rolandszabo.photo/en/portraiture/anna-13/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
 		<meta property="og:description" content="I take authentic portraits and tell horrible jokes.">
-		<meta property="og:title" content="Anna | Roland Szabó | Budapest Portrait Photographer">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
 
-		<!-- Fonts -->
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
-		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap"></noscript>
+		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		</noscript>
+
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
@@ -67,13 +72,16 @@
 					<span class="nav__link">About</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/en/about/">Introduction</a>
+							<a class="nav__link" href="/en/about/"><i class="nav__icon fa-solid fa-fw fa-hand"></i> Introduction</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/gear/">Gear I Use</a>
+							<a class="nav__link" href="/en/testimonials/"><i class="nav__icon fa-solid fa-fw fa-comment"></i> Testimonials</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/contact/">Contact Me</a>
+							<a class="nav__link" href="/en/gear/"><i class="nav__icon fa-solid fa-fw fa-camera"></i> Gear I Use</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/en/contact/"><i class="nav__icon fa-solid fa-fw fa-phone"></i> Contact Me</a>
 						</li>
 					</ul>
 				</li>
@@ -81,16 +89,16 @@
 					<span class="nav__link">My Work</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/en/female-portraits/">Female Portraits</a>
+							<a class="nav__link" href="/en/female-portraits/"><i class="nav__icon fa-solid fa-fw fa-venus"></i> Female Portraits</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/male-portraits/">Male Portraits</a>
+							<a class="nav__link" href="/en/male-portraits/"><i class="nav__icon fa-solid fa-fw fa-mars"></i> Male Portraits</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/couple-portraits/">Couple/Family Portraits</a>
+							<a class="nav__link" href="/en/couple-portraits/"><i class="nav__icon fa-solid fa-fw fa-people-group"></i> Couple/Family Portraits</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/portraiture/">All Portrait Works</a>
+							<a class="nav__link" href="/en/portraiture/"><i class="nav__icon fa-solid fa-fw fa-table-cells"></i> All Portrait Works</a>
 						</li>
 					</ul>
 				</li>
@@ -98,7 +106,10 @@
 					<span class="nav__link">Projects</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/en/budapest-photo-walk/">Budapest Photo Walk</a>
+							<a class="nav__link" href="/en/budapest-photo-walk/"><i class="nav__icon fa-solid fa-fw fa-person-walking"></i> Budapest Photo Walk</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/en/cars/"><i class="nav__icon fa-solid fa-fw fa-car-side"></i> Car Photography</a>
 						</li>
 					</ul>
 				</li>
@@ -207,26 +218,80 @@
 
 <div class="cta">
 	
-		
+		<div class="testimonials">
+			
+				
 
 <blockquote class="testimonial">
-	<a class="testimonial__photo-link" href="/en/portraiture/klemi-adam/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-klemi-adam.webp" alt="Klementina S. & Ádám L." width="100" height="100">
+	<a class="testimonial__photo-link" href="/en/portraiture/blanka-3/">
+		<img class="testimonial__photo" src="/assets/images/testimonials/blanka.webp" alt="Blanka M." width="100" height="100">
 	</a>
 	<div class="testimonial__content">
-		<p class="testimonial__text">Our initial timidity was quickly overcome by Roland's funny and helpful “instructions”</p>
+		<p class="testimonial__text">Roland made me feel truly special during our photo session</p>
 		<cite class="testimonial__cite">
-			<a class="testimonial__author" href="/en/portraiture/klemi-adam/">Klementina S. & Ádám L.</a>
-			<div class="testimonial__rating">⭐⭐⭐⭐⭐</div>
+			<a class="testimonial__author" href="/en/portraiture/blanka-3/">Blanka M.</a>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
 		</cite>
 	</div>
 </blockquote>
 
+			
+				
+
+<blockquote class="testimonial">
+	<a class="testimonial__photo-link" href="/en/portraiture/betti-laci/">
+		<img class="testimonial__photo" src="/assets/images/testimonials/betti-laci.webp" alt="Betti M. & Laci P." width="100" height="100">
+	</a>
+	<div class="testimonial__content">
+		<p class="testimonial__text">Roland made sure to capture the lovely moments that resulted in wonderful pictures.</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author" href="/en/portraiture/betti-laci/">Betti M. & Laci P.</a>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
+		</cite>
+	</div>
+</blockquote>
+
+			
+				
+
+<blockquote class="testimonial">
+	<a class="testimonial__photo-link" href="/en/portraiture/zsuzsika-gyuri/">
+		<img class="testimonial__photo" src="/assets/images/testimonials/zsuzsika-gyuri.webp" alt="Zsuzsika P. & Gyuri B." width="100" height="100">
+	</a>
+	<div class="testimonial__content">
+		<p class="testimonial__text">We behaved in a surprisingly natural way in front of Roland's camera</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author" href="/en/portraiture/zsuzsika-gyuri/">Zsuzsika P. & Gyuri B.</a>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
+		</cite>
+	</div>
+</blockquote>
+
+			
+		</div>
 	
 	<div class="cta__content">
-		<h2 class="cta__title">Would you like similar, amazing photos?</h2>
-		<p class="cta__text">I can make beautiful photos of you on our laid-back photo walk. Learn more to see how easy it is!</p>
-		<a class="button" href="/en/services/portrait-photo-walks/">Let's see the details</a>
+		<h2 class="cta__title">Let's Create Your Unique Story</h2>
+		<p class="cta__text">Whether you have a creative idea in mind or simply want to discover the magic of being authentically captured, the next chapter of your story starts here.</p>
+		<a class="button" href="/en/services/portrait-photo-walks/">Let's do a Photoshoot</a>
 	</div>
 </div>
 
@@ -235,7 +300,7 @@
 
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright">&copy; 2023 &ndash; Roland Szabó, All rights reserved. <br> Last updated on 2024. 02. 01. 9:50:21 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Roland Szabó, All rights reserved. <br> Last updated on 2024. 02. 01. 13:37:00 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
 		</a>

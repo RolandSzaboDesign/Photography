@@ -3,7 +3,7 @@ module.exports = {
 		// {
 		// 	type: "male",
 		// 	score: "",
-		// 	photo: "/assets/images/testimonial-.webp",
+		// 	photo: "/assets/images/testimonials/.webp",
 		// 	hu: {
 		// 		name: "",
 		// 		excerpt: "",
@@ -20,7 +20,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-blanka.webp",
+			photo: "/assets/images/testimonials/blanka.webp",
 			hu: {
 				name: "M. Blanka",
 				excerpt: "Igazán különlegesnek érezhettem magam a fotózásunk alatt",
@@ -37,26 +37,24 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			photo: "/assets/images/testimonial-betti-laci.webp",
+			photo: "/assets/images/testimonials/betti-laci.webp",
 			hu: {
 				name: "M. Betti & P. Laci",
 				excerpt: "Roland igyekezte elkapni a kedves pillanatokat, amikből csodálatos képek születtek.",
 				text: "Párommal jegyes fotózáson vettünk részt, mindkettőnk számára új élmény volt maga a fotózás is. Tartottunk is tőle, de mindkettőnk számára pozitív csalódás volt, és csupa szuper élménnyel gazdagodtunk. Roland igyekezte elkapni a kedves pillanatokat, amikből csodálatos képek születtek.",
-				// TODO Link
-				link: "/hu/portre/",
+				link: "/hu/portre/betti-laci/",
 			},
 			en: {
 				name: "Betti M. & Laci P.",
 				excerpt: "Roland made sure to capture the lovely moments that resulted in wonderful pictures.",
 				text: "My partner and I attended an engagement shoot, and for both of us it was a new experience. We were a bit apprehensive, but it was a positive disappointment for both of us and we had a great experience. Roland made sure to capture the lovely moments that resulted in wonderful pictures.",
-				// TODO Link
-				link: "/en/portraiture/",
+				link: "/en/portraiture/betti-laci/",
 			},
 		},
 		{
 			type: "couple",
 			score: "5.0",
-			photo: "/assets/images/testimonial-zsuzsika-gyuri.webp",
+			photo: "/assets/images/testimonials/zsuzsika-gyuri.webp",
 			hu: {
 				name: "P. Zsuzsika & B. Gyuri",
 				excerpt: "Meglepően természetes módon viselkedtünk Roland kamerája előtt",
@@ -73,7 +71,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-laura-2.webp",
+			photo: "/assets/images/testimonials/laura-2.webp",
 			hu: {
 				name: "Laura Sz.",
 				excerpt: "Roland mindig mondott valamit, amitől őszintén mosolyogni tudtam, és ezt kiadják a képek is",
@@ -90,7 +88,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			photo: "/assets/images/testimonial-klemi-adam.webp",
+			photo: "/assets/images/testimonials/klemi-adam.webp",
 			hu: {
 				name: "S. Klementina & L. Ádám",
 				excerpt: "A kezdeti bátortalanságot gyorsan feloldották Roland poénos és segítő “utasításai”",
@@ -107,7 +105,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-sara.webp",
+			photo: "/assets/images/testimonials/sara.webp",
 			hu: {
 				name: "Sara T.",
 				excerpt: "A fotózásunk első pillanattól kezdve kényelmesen és magabiztosnak éreztem magam a kamera előtt",
@@ -124,7 +122,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-anna-2.webp",
+			photo: "/assets/images/testimonials/anna-2.webp",
 			hu: {
 				name: "M. Anna",
 				excerpt: "Roland humorával, odaadásával és a fotózás iránti szenvedélyével mindenki biztonságban, megbecsülve érezheti magát",
@@ -141,7 +139,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "",
-			photo: "/assets/images/testimonial-burcu-sebastian.webp",
+			photo: "/assets/images/testimonials/burcu-sebastian.webp",
 			hu: {
 				name: "Burcu Z. & Sebastian C.",
 				excerpt: "Gyönyörűen örökítette meg a spontán és valódi pillanatokat is, maradandó emlékeket teremtve nekünk",
@@ -158,7 +156,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-larae.webp",
+			photo: "/assets/images/testimonials/larae.webp",
 			hu: {
 				name: "LaRae Day",
 				excerpt: "Lehetetlen nem szupermodellnek érezni magad a Rolanddal való fotózás közben",
@@ -175,7 +173,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			photo: "/assets/images/testimonial-rikarda-krisztian.webp",
+			photo: "/assets/images/testimonials/rikarda-krisztian.webp",
 			hu: {
 				name: "N. Rikarda & Sz. Krisztián",
 				excerpt: "Szívből ajánljuk Rolandot mindazoknak, akik minőségi képekben szeretnék megörökíteni a számukra különleges eseményeket, pillanatokat, egy jó hangulatú fotózás során",
@@ -192,7 +190,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-melanie.webp",
+			photo: "/assets/images/testimonials/melanie.webp",
 			hu: {
 				name: "Melanie B.",
 				excerpt: "Öröm volt vele dolgozni, az eredmények pedig egyszerűen lenyűgözőek",
@@ -209,7 +207,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "4.9",
-			photo: "/assets/images/testimonial-laura.webp",
+			photo: "/assets/images/testimonials/laura.webp",
 			hu: {
 				name: "F. Laura Hanna",
 				excerpt: "Ez volt messze a legjobb fotós élményem eddig",
@@ -226,7 +224,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			photo: "/assets/images/testimonial-iulia-radu.webp",
+			photo: "/assets/images/testimonials/iulia-radu.webp",
 			hu: {
 				name: "Iulia I. & Radu N.",
 				excerpt: "Professzionalizmusa és minőségi poénjai egy csomó nagyszerű fotót eredményezett",
@@ -243,7 +241,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "5.0",
-			photo: "/assets/images/testimonial-gabor.webp",
+			photo: "/assets/images/testimonials/gabor.webp",
 			hu: {
 				name: "B. Gábor",
 				excerpt: "A képek készítése közben folyamatosan poénkodott, ami miatt az összes képemen valódi a mosoly",
@@ -260,7 +258,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "",
-			photo: "/assets/images/testimonial-lacko.webp",
+			photo: "/assets/images/testimonials/lacko.webp",
 			hu: {
 				name: "A. Lackó",
 				excerpt: "Ő az a fotós, akit mindenki keres",
@@ -277,7 +275,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-muskan.webp",
+			photo: "/assets/images/testimonials/muskan.webp",
 			hu: {
 				name: "K. Muskan",
 				excerpt: "Roland minden félelmemet elfeledtette velem a fotózás során",
@@ -294,7 +292,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "",
-			photo: "/assets/images/testimonial-gyuri.webp",
+			photo: "/assets/images/testimonials/gyuri.webp",
 			hu: {
 				name: "H. György",
 				excerpt: "Ha első fotózásodon gondolkodsz, de keresed a megfelelő fotóst, aki kisegít mindenben, szívből ajánlani tudom Rolandot, hihetetlen élmény lesz",
@@ -311,7 +309,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			photo: "/assets/images/testimonial-tatum-peter.webp",
+			photo: "/assets/images/testimonials/tatum-peter.webp",
 			hu: {
 				name: "Cs. Péter",
 				excerpt: "Jól éreztem magam Roland kamerája előtt",
@@ -328,7 +326,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "5.0",
-			photo: "/assets/images/testimonial-adam.webp",
+			photo: "/assets/images/testimonials/adam.webp",
 			hu: {
 				name: "H. Ádám",
 				excerpt: "Ha ez lesz az első portréfotózásod, feltétlenül ajánlom Rolandot, hiszen mindenben türelmesen segít",
@@ -345,7 +343,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-tatum.webp",
+			photo: "/assets/images/testimonials/tatum.webp",
 			hu: {
 				name: "Cs. Tatum",
 				excerpt: "Az első képünk pillanatától kezdve kényelmesnek éreztem a fotózást, nagyon jól ment a kommunikáció",
@@ -362,7 +360,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-lilla.webp",
+			photo: "/assets/images/testimonials/lilla.webp",
 			hu: {
 				name: "B. Lilla",
 				excerpt: "Rolanddal a fotózások mindig iszonyat jó hangulatban telnek, egy percig nem érzi feszélyezve magát az ember",
@@ -379,7 +377,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-eszter-3.webp",
+			photo: "/assets/images/testimonials/eszter-3.webp",
 			hu: {
 				name: "Sz. Eszter",
 				excerpt: "Bátran ajánlom őt azoknak, akik szeretnének olyan képeket magukról, amiken tényleg a legjobb oldaluk köszön vissza",
@@ -396,7 +394,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-kata-mira.webp",
+			photo: "/assets/images/testimonials/kata-mira.webp",
 			hu: {
 				name: "N. Kata",
 				excerpt: "A sok poénjával könnyen oldotta a hangulatot, így egyből az igazi mosolyom bújt elő, és szenzációs képeink születtek",
@@ -413,7 +411,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-mici.webp",
+			photo: "/assets/images/testimonials/mici.webp",
 			hu: {
 				name: "G. Mici",
 				excerpt: "A fotózás alatt gondoskodott az oldott hangulatról, könnyen meg tudtuk találni a közös hangot, és tökéletesen el tudta találni az elképzelésemet",
@@ -430,7 +428,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-detti.webp",
+			photo: "/assets/images/testimonials/detti.webp",
 			hu: {
 				name: "O. Detti",
 				excerpt: "Kedves, türelmes, és a fotózás teljes időtartalma alatt igyekszik az önfeledt légkör megteremtésére",
@@ -447,7 +445,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-eszter-2.webp",
+			photo: "/assets/images/testimonials/eszter-2.webp",
 			hu: {
 				name: "Sz. Eszter",
 				excerpt: "Az egész fotózás pörgős volt, az ötletek egymást követték, a hideg és a szél pedig háttérbe szorultak",
@@ -464,7 +462,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-eszter.webp",
+			photo: "/assets/images/testimonials/eszter.webp",
 			hu: {
 				name: "B. Eszter",
 				excerpt: "Összeségében nagyon élveztem a fotózást Rolanddal, tökéletes első alkalom volt",
@@ -481,7 +479,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-gabcsi.webp",
+			photo: "/assets/images/testimonials/gabcsi.webp",
 			hu: {
 				name: "V. Gabcsi",
 				excerpt: "Ez volt az első alkalom, amikor a leghamarabb feloldódtam fotózás során",
@@ -498,7 +496,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-reka.webp",
+			photo: "/assets/images/testimonials/reka.webp",
 			hu: {
 				name: "T. Réka",
 				excerpt: "Azonnal meg tudtam nyílni, hiszen egy rendkívül biztonságos és kellemes légkört teremtett már az első pillanattól kezdve",
@@ -515,7 +513,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-greti.webp",
+			photo: "/assets/images/testimonials/greti.webp",
 			hu: {
 				name: "A. Gréta",
 				excerpt: "Nem számítottam arra, hogy mekkora magabiztosságot és önbizalmat ad majd a fotózás Rolanddal",
@@ -532,7 +530,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-jazmin.webp",
+			photo: "/assets/images/testimonials/jazmin.webp",
 			hu: {
 				name: "V. Jázmin",
 				excerpt: "Roland humorának köszönhetően az első pillanattól kezdve megfeledkeztem arról, hogy egyáltalán fotózáson vagyok",
@@ -549,7 +547,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-kincso.webp",
+			photo: "/assets/images/testimonials/kincso.webp",
 			hu: {
 				name: "Z. Kincső",
 				excerpt: "A legjobb fotózás volt az életemben",
@@ -566,7 +564,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-saci.webp",
+			photo: "/assets/images/testimonials/saci.webp",
 			hu: {
 				name: "U. Sarolta",
 				excerpt: "Egy teljesen új arcomat mutatta meg, amiért nagyon hálás vagyok",
@@ -583,7 +581,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "",
-			photo: "/assets/images/testimonial-jackeline-andre.webp",
+			photo: "/assets/images/testimonials/jackeline-andre.webp",
 			hu: {
 				name: "Jackie N. & André P.",
 				excerpt: "Roland nagyon barátságos volt, sokat beszélgettünk és nevettünk, így könnyen feloldódtunk és hihetetlen jó képek készültek rólunk",
@@ -600,7 +598,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-nori.webp",
+			photo: "/assets/images/testimonials/nori.webp",
 			hu: {
 				name: "V. Nóri",
 				excerpt: "Sikerült elérnie, hogy feloldódjak, folyamatosan instruált, a végeredmény pedig gyönyörű lett",
@@ -617,7 +615,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "",
-			photo: "/assets/images/testimonial-balazs.webp",
+			photo: "/assets/images/testimonials/balazs.webp",
 			hu: {
 				name: "B. Balázs",
 				excerpt: "Nem volt nyomás, nem volt stressz",
@@ -634,7 +632,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "",
-			photo: "/assets/images/testimonial-cinta-jorge.webp",
+			photo: "/assets/images/testimonials/cinta-jorge.webp",
 			hu: {
 				name: "Cinta W. & Jorge G.",
 				excerpt: "Nagyon izgultunk az elején, de Roland, nagyszerű személyiség és szakember lévén, segített végig nyugodtnak maradni",
@@ -651,7 +649,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-anna.webp",
+			photo: "/assets/images/testimonials/anna.webp",
 			hu: {
 				name: "M. Anna",
 				excerpt: "Teljesen érthető és követhető instrukciókat adott, valamint segített, hogy az általam elképzelt képek tényleg olyanok legyenek, ahogy azt megálmodtam",
@@ -668,7 +666,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-cinti.webp",
+			photo: "/assets/images/testimonials/cinti.webp",
 			hu: {
 				name: "M. Cinti",
 				excerpt: "Nagyon közvetlenül telt a fotózás Rolanddal már az első perctől kezdve",
@@ -685,7 +683,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-dori.webp",
+			photo: "/assets/images/testimonials/dori.webp",
 			hu: {
 				name: "E. Dóri",
 				excerpt: "A gyönyörű képek mellé pedig grátiszként egy végtelenül jó fej és vicces fotóst is kapsz",
@@ -702,7 +700,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "",
-			photo: "/assets/images/testimonial-luca-david.webp",
+			photo: "/assets/images/testimonials/luca-david.webp",
 			hu: {
 				name: "P. Luca & P. Dávid",
 				excerpt: "Nem csak figyelmes, de maximálisan professzionális (és nem mellesleg a humorérzéke is páratlan)",
@@ -719,7 +717,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-vivien.webp",
+			photo: "/assets/images/testimonials/vivien.webp",
 			hu: {
 				name: "É. Vivien",
 				excerpt: "Roland csodásan megvalósítja azokat a képeket, amiket a fejemben elképzelek",
@@ -736,7 +734,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			photo: "/assets/images/testimonial-viktoria.webp",
+			photo: "/assets/images/testimonials/viktoria.webp",
 			hu: {
 				name: "M. Viktória",
 				excerpt: "Könnyű volt feloldódni, nem éreztem gátlásosnak magam, sokat viccelődtünk",
@@ -753,7 +751,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "",
-			photo: "/assets/images/testimonial-kata.webp",
+			photo: "/assets/images/testimonials/kata.webp",
 			hu: {
 				name: "P. Kata",
 				excerpt: "Roland által ki tudtam lépni a komfortzónámból",

@@ -23,16 +23,21 @@
 		<meta property="og:url" content="https://rolandszabo.photo/hu/tags/városi/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
 		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
-		<meta property="og:title" content="Címkék | Szabó Roland | Budapesti Portré Fotós">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
 
-		<!-- Fonts -->
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
-		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap"></noscript>
+		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		</noscript>
+
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
@@ -67,13 +72,16 @@
 					<span class="nav__link">Rólam</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/rolam/">Bemutatkozás</a>
+							<a class="nav__link" href="/hu/rolam/"><i class="nav__icon fa-solid fa-fw fa-hand"></i> Bemutatkozás</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/felszereles/">Felszerelés</a>
+							<a class="nav__link" href="/hu/rolam-mondtak/"><i class="nav__icon fa-solid fa-fw fa-comment"></i> Rólam Mondtátok</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/kapcsolat/">Elérhetőségeim</a>
+							<a class="nav__link" href="/hu/felszereles/"><i class="nav__icon fa-solid fa-fw fa-camera"></i> Felszerelés</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/kapcsolat/"><i class="nav__icon fa-solid fa-fw fa-phone"></i> Elérhetőségeim</a>
 						</li>
 					</ul>
 				</li>
@@ -81,16 +89,16 @@
 					<span class="nav__link">Munkáim</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/noi-portrek/">Női Portrék</a>
+							<a class="nav__link" href="/hu/noi-portrek/"><i class="nav__icon fa-solid fa-fw fa-venus"></i> Női Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/ferfi-portrek/">Férfi Portrék</a>
+							<a class="nav__link" href="/hu/ferfi-portrek/"><i class="nav__icon fa-solid fa-fw fa-mars"></i> Férfi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/paros-portrek/">Páros/Családi Portrék</a>
+							<a class="nav__link" href="/hu/paros-portrek/"><i class="nav__icon fa-solid fa-fw fa-people-group"></i> Páros/Családi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/portre/">Összes Portré Munkáim</a>
+							<a class="nav__link" href="/hu/portre/"><i class="nav__icon fa-solid fa-fw fa-table-cells"></i> Összes Portré Munkáim</a>
 						</li>
 					</ul>
 				</li>
@@ -98,7 +106,10 @@
 					<span class="nav__link">Projektek</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/budapest-photo-walk/">Budapest Photo Walk</a>
+							<a class="nav__link" href="/hu/budapest-photo-walk/"><i class="nav__icon fa-solid fa-fw fa-person-walking"></i> Budapest Photo Walk</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/auto/"><i class="nav__icon fa-solid fa-fw fa-car-side"></i> Autó Fotózás</a>
 						</li>
 					</ul>
 				</li>
@@ -128,1729 +139,1585 @@
 					
 						
 						
-					<a class="polaroids" href="/hu/portre/anna-14/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-14/01_700.webp 700w,
-									 	/assets/images/portraiture/anna-14/01_500.webp 500w,
-									 	/assets/images/portraiture/anna-14/01_350.webp 350w,
-									 	/assets/images/portraiture/anna-14/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-14/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/viki-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/viki-2/01_700.webp 700w,
-									 	/assets/images/portraiture/viki-2/01_500.webp 500w,
-									 	/assets/images/portraiture/viki-2/01_350.webp 350w,
-									 	/assets/images/portraiture/viki-2/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/viki-2/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Viki</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/kata-3/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/kata-3/01_700.webp 700w,
-									 	/assets/images/portraiture/kata-3/01_500.webp 500w,
-									 	/assets/images/portraiture/kata-3/01_350.webp 350w,
-									 	/assets/images/portraiture/kata-3/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/kata-3/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Kata</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna-13/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-13/01_700.webp 700w,
-									 	/assets/images/portraiture/anna-13/01_500.webp 500w,
-									 	/assets/images/portraiture/anna-13/01_350.webp 350w,
-									 	/assets/images/portraiture/anna-13/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-13/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna-12/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-12/01_700.webp 700w,
-									 	/assets/images/portraiture/anna-12/01_500.webp 500w,
-									 	/assets/images/portraiture/anna-12/01_350.webp 350w,
-									 	/assets/images/portraiture/anna-12/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-12/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/tatum-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/tatum-2/01_700.webp 700w,
-									 	/assets/images/portraiture/tatum-2/01_500.webp 500w,
-									 	/assets/images/portraiture/tatum-2/01_350.webp 350w,
-									 	/assets/images/portraiture/tatum-2/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/tatum-2/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Tatum</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/zsuzsika-gyuri/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/zsuzsika-gyuri/01_700.webp 700w,
-									 	/assets/images/portraiture/zsuzsika-gyuri/01_500.webp 500w,
-									 	/assets/images/portraiture/zsuzsika-gyuri/01_350.webp 350w,
-									 	/assets/images/portraiture/zsuzsika-gyuri/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/zsuzsika-gyuri/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Zsuzsika & Gyuri</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/klemi-adam/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/klemi-adam/01_700.webp 700w,
-									 	/assets/images/portraiture/klemi-adam/01_500.webp 500w,
-									 	/assets/images/portraiture/klemi-adam/01_350.webp 350w,
-									 	/assets/images/portraiture/klemi-adam/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/klemi-adam/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Klemi & Ádám</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/sara/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/sara/01_700.webp 700w,
-									 	/assets/images/portraiture/sara/01_500.webp 500w,
-									 	/assets/images/portraiture/sara/01_350.webp 350w,
-									 	/assets/images/portraiture/sara/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/sara/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Sara</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna-10/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-10/01_700.webp 700w,
-									 	/assets/images/portraiture/anna-10/01_500.webp 500w,
-									 	/assets/images/portraiture/anna-10/01_350.webp 350w,
-									 	/assets/images/portraiture/anna-10/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-10/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/jazmin-beni-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/jazmin-beni-2/04_700.webp 700w,
-									 	/assets/images/portraiture/jazmin-beni-2/04_500.webp 500w,
-									 	/assets/images/portraiture/jazmin-beni-2/04_350.webp 350w,
-									 	/assets/images/portraiture/jazmin-beni-2/04_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/jazmin-beni-2/04_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Jázmin & Beni</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna-9/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-9/01_700.webp 700w,
-									 	/assets/images/portraiture/anna-9/01_500.webp 500w,
-									 	/assets/images/portraiture/anna-9/01_350.webp 350w,
-									 	/assets/images/portraiture/anna-9/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-9/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna 🎞️</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/burcu-sebastian/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/burcu-sebastian/02_700.webp 700w,
-									 	/assets/images/portraiture/burcu-sebastian/02_500.webp 500w,
-									 	/assets/images/portraiture/burcu-sebastian/02_350.webp 350w,
-									 	/assets/images/portraiture/burcu-sebastian/02_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/burcu-sebastian/02_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Burcu & Sebastian</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/eszter-10/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/eszter-10/01_700.webp 700w,
-									 	/assets/images/portraiture/eszter-10/01_500.webp 500w,
-									 	/assets/images/portraiture/eszter-10/01_350.webp 350w,
-									 	/assets/images/portraiture/eszter-10/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/eszter-10/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Eszter</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/alexander/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/alexander/01_700.webp 700w,
-									 	/assets/images/portraiture/alexander/01_500.webp 500w,
-									 	/assets/images/portraiture/alexander/01_350.webp 350w,
-									 	/assets/images/portraiture/alexander/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/alexander/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Alexander</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/tomass/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/tomass/01_700.webp 700w,
-									 	/assets/images/portraiture/tomass/01_500.webp 500w,
-									 	/assets/images/portraiture/tomass/01_350.webp 350w,
-									 	/assets/images/portraiture/tomass/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/tomass/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Tomass</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/laura-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/laura-2/04_700.webp 700w,
-									 	/assets/images/portraiture/laura-2/04_500.webp 500w,
-									 	/assets/images/portraiture/laura-2/04_350.webp 350w,
-									 	/assets/images/portraiture/laura-2/04_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/laura-2/04_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Laura</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/mel/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/mel/04_700.webp 700w,
-									 	/assets/images/portraiture/mel/04_500.webp 500w,
-									 	/assets/images/portraiture/mel/04_350.webp 350w,
-									 	/assets/images/portraiture/mel/04_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/mel/04_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Melanie</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/rikarda-krisztian/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/rikarda-krisztian/01_700.webp 700w,
-									 	/assets/images/portraiture/rikarda-krisztian/01_500.webp 500w,
-									 	/assets/images/portraiture/rikarda-krisztian/01_350.webp 350w,
-									 	/assets/images/portraiture/rikarda-krisztian/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/rikarda-krisztian/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Rikarda & Krisztián</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/janka/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/janka/01_700.webp 700w,
-									 	/assets/images/portraiture/janka/01_500.webp 500w,
-									 	/assets/images/portraiture/janka/01_350.webp 350w,
-									 	/assets/images/portraiture/janka/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/janka/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Janka</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/patrick/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/patrick/01_700.webp 700w,
-									 	/assets/images/portraiture/patrick/01_500.webp 500w,
-									 	/assets/images/portraiture/patrick/01_350.webp 350w,
-									 	/assets/images/portraiture/patrick/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/patrick/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Patrick</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna-8/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-8/05_700.webp 700w,
-									 	/assets/images/portraiture/anna-8/05_500.webp 500w,
-									 	/assets/images/portraiture/anna-8/05_350.webp 350w,
-									 	/assets/images/portraiture/anna-8/05_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-8/05_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna-7/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-7/01_700.webp 700w,
-									 	/assets/images/portraiture/anna-7/01_500.webp 500w,
-									 	/assets/images/portraiture/anna-7/01_350.webp 350w,
-									 	/assets/images/portraiture/anna-7/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-7/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/emilia/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/emilia/01_700.webp 700w,
-									 	/assets/images/portraiture/emilia/01_500.webp 500w,
-									 	/assets/images/portraiture/emilia/01_350.webp 350w,
-									 	/assets/images/portraiture/emilia/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/emilia/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Emília</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/larae/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/larae/01_700.webp 700w,
-									 	/assets/images/portraiture/larae/01_500.webp 500w,
-									 	/assets/images/portraiture/larae/01_350.webp 350w,
-									 	/assets/images/portraiture/larae/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/larae/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">LaRae Day</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/larae-deiji/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/larae-deiji/01_700.webp 700w,
-									 	/assets/images/portraiture/larae-deiji/01_500.webp 500w,
-									 	/assets/images/portraiture/larae-deiji/01_350.webp 350w,
-									 	/assets/images/portraiture/larae-deiji/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/larae-deiji/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">LaRae Day × Deiji Design</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/iulia-radu/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/iulia-radu/01_700.webp 700w,
-									 	/assets/images/portraiture/iulia-radu/01_500.webp 500w,
-									 	/assets/images/portraiture/iulia-radu/01_350.webp 350w,
-									 	/assets/images/portraiture/iulia-radu/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/iulia-radu/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Iulia & Radu</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/laura/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/laura/01_700.webp 700w,
-									 	/assets/images/portraiture/laura/01_500.webp 500w,
-									 	/assets/images/portraiture/laura/01_350.webp 350w,
-									 	/assets/images/portraiture/laura/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/laura/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Laura</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/gabor/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/gabor/01_700.webp 700w,
-									 	/assets/images/portraiture/gabor/01_500.webp 500w,
-									 	/assets/images/portraiture/gabor/01_350.webp 350w,
-									 	/assets/images/portraiture/gabor/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/gabor/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Gábor</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/eszter-8/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/eszter-8/01_700.webp 700w,
-									 	/assets/images/portraiture/eszter-8/01_500.webp 500w,
-									 	/assets/images/portraiture/eszter-8/01_350.webp 350w,
-									 	/assets/images/portraiture/eszter-8/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/eszter-8/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Eszter 🎞️</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/orsi-mira/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/orsi-mira/09_700.webp 700w,
-									 	/assets/images/portraiture/orsi-mira/09_500.webp 500w,
-									 	/assets/images/portraiture/orsi-mira/09_350.webp 350w,
-									 	/assets/images/portraiture/orsi-mira/09_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/orsi-mira/09_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Orsi & Mira</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/leonora/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/leonora/01_700.webp 700w,
-									 	/assets/images/portraiture/leonora/01_500.webp 500w,
-									 	/assets/images/portraiture/leonora/01_350.webp 350w,
-									 	/assets/images/portraiture/leonora/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/leonora/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Leonóra</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/lacko-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/lacko-2/02_700.webp 700w,
-									 	/assets/images/portraiture/lacko-2/02_500.webp 500w,
-									 	/assets/images/portraiture/lacko-2/02_350.webp 350w,
-									 	/assets/images/portraiture/lacko-2/02_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/lacko-2/02_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Lackó</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/muskan/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/muskan/01_700.webp 700w,
-									 	/assets/images/portraiture/muskan/01_500.webp 500w,
-									 	/assets/images/portraiture/muskan/01_350.webp 350w,
-									 	/assets/images/portraiture/muskan/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/muskan/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Muskan 🎞️</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/gyuri/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/gyuri/01_700.webp 700w,
-									 	/assets/images/portraiture/gyuri/01_500.webp 500w,
-									 	/assets/images/portraiture/gyuri/01_350.webp 350w,
-									 	/assets/images/portraiture/gyuri/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/gyuri/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Gyuri</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/aliz/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/aliz/01_700.webp 700w,
-									 	/assets/images/portraiture/aliz/01_500.webp 500w,
-									 	/assets/images/portraiture/aliz/01_350.webp 350w,
-									 	/assets/images/portraiture/aliz/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/aliz/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Alíz</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/tatum-peter/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/tatum-peter/01_700.webp 700w,
-									 	/assets/images/portraiture/tatum-peter/01_500.webp 500w,
-									 	/assets/images/portraiture/tatum-peter/01_350.webp 350w,
-									 	/assets/images/portraiture/tatum-peter/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/tatum-peter/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Tatum & Péter 🎞️</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/detti-dani/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/detti-dani/01_700.webp 700w,
-									 	/assets/images/portraiture/detti-dani/01_500.webp 500w,
-									 	/assets/images/portraiture/detti-dani/01_350.webp 350w,
-									 	/assets/images/portraiture/detti-dani/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/detti-dani/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Detti & Dani</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/adam-3/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/adam-3/01_700.webp 700w,
-									 	/assets/images/portraiture/adam-3/01_500.webp 500w,
-									 	/assets/images/portraiture/adam-3/01_350.webp 350w,
-									 	/assets/images/portraiture/adam-3/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/adam-3/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Ádám</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/szilvi/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/szilvi/03_700.webp 700w,
-									 	/assets/images/portraiture/szilvi/03_500.webp 500w,
-									 	/assets/images/portraiture/szilvi/03_350.webp 350w,
-									 	/assets/images/portraiture/szilvi/03_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/szilvi/03_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Szilvi</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/csenge-rebeka/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/csenge-rebeka/01_700.webp 700w,
-									 	/assets/images/portraiture/csenge-rebeka/01_500.webp 500w,
-									 	/assets/images/portraiture/csenge-rebeka/01_350.webp 350w,
-									 	/assets/images/portraiture/csenge-rebeka/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/csenge-rebeka/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Csenge & Rebeka</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/eszter-6/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/eszter-6/01_700.webp 700w,
-									 	/assets/images/portraiture/eszter-6/01_500.webp 500w,
-									 	/assets/images/portraiture/eszter-6/01_350.webp 350w,
-									 	/assets/images/portraiture/eszter-6/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/eszter-6/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Eszter</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/gabcsi/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/gabcsi/06_700.webp 700w,
-									 	/assets/images/portraiture/gabcsi/06_500.webp 500w,
-									 	/assets/images/portraiture/gabcsi/06_350.webp 350w,
-									 	/assets/images/portraiture/gabcsi/06_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/gabcsi/06_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Gabcsi</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/eszter-5/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/eszter-5/01_700.webp 700w,
-									 	/assets/images/portraiture/eszter-5/01_500.webp 500w,
-									 	/assets/images/portraiture/eszter-5/01_350.webp 350w,
-									 	/assets/images/portraiture/eszter-5/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/eszter-5/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Eszter</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/eszter-4/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/eszter-4/01_700.webp 700w,
-									 	/assets/images/portraiture/eszter-4/01_500.webp 500w,
-									 	/assets/images/portraiture/eszter-4/01_350.webp 350w,
-									 	/assets/images/portraiture/eszter-4/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/eszter-4/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Eszter</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/kata-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/kata-2/06_700.webp 700w,
-									 	/assets/images/portraiture/kata-2/06_500.webp 500w,
-									 	/assets/images/portraiture/kata-2/06_350.webp 350w,
-									 	/assets/images/portraiture/kata-2/06_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/kata-2/06_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Kata</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/reka-borbala-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/reka-borbala-2/04_700.webp 700w,
-									 	/assets/images/portraiture/reka-borbala-2/04_500.webp 500w,
-									 	/assets/images/portraiture/reka-borbala-2/04_350.webp 350w,
-									 	/assets/images/portraiture/reka-borbala-2/04_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/reka-borbala-2/04_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Réka</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/jazmin-beni/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/jazmin-beni/02_700.webp 700w,
-									 	/assets/images/portraiture/jazmin-beni/02_500.webp 500w,
-									 	/assets/images/portraiture/jazmin-beni/02_350.webp 350w,
-									 	/assets/images/portraiture/jazmin-beni/02_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/jazmin-beni/02_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Jázmin & Beni</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/abdallah/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/abdallah/06_700.webp 700w,
-									 	/assets/images/portraiture/abdallah/06_500.webp 500w,
-									 	/assets/images/portraiture/abdallah/06_350.webp 350w,
-									 	/assets/images/portraiture/abdallah/06_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/abdallah/06_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Abdallah</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/kira/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/kira/02_700.webp 700w,
-									 	/assets/images/portraiture/kira/02_500.webp 500w,
-									 	/assets/images/portraiture/kira/02_350.webp 350w,
-									 	/assets/images/portraiture/kira/02_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/kira/02_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Kíra</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/kincso/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/kincso/03_700.webp 700w,
-									 	/assets/images/portraiture/kincso/03_500.webp 500w,
-									 	/assets/images/portraiture/kincso/03_350.webp 350w,
-									 	/assets/images/portraiture/kincso/03_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/kincso/03_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Kincső</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/kiran/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/kiran/01_700.webp 700w,
-									 	/assets/images/portraiture/kiran/01_500.webp 500w,
-									 	/assets/images/portraiture/kiran/01_350.webp 350w,
-									 	/assets/images/portraiture/kiran/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/kiran/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Kiran</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/reka-adam/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/reka-adam/06_700.webp 700w,
-									 	/assets/images/portraiture/reka-adam/06_500.webp 500w,
-									 	/assets/images/portraiture/reka-adam/06_350.webp 350w,
-									 	/assets/images/portraiture/reka-adam/06_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/reka-adam/06_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Réka & Ádám</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/orsi-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/orsi-2/02_700.webp 700w,
-									 	/assets/images/portraiture/orsi-2/02_500.webp 500w,
-									 	/assets/images/portraiture/orsi-2/02_350.webp 350w,
-									 	/assets/images/portraiture/orsi-2/02_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/orsi-2/02_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Orsi</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna-5/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-5/01_700.webp 700w,
-									 	/assets/images/portraiture/anna-5/01_500.webp 500w,
-									 	/assets/images/portraiture/anna-5/01_350.webp 350w,
-									 	/assets/images/portraiture/anna-5/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-5/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/adam-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/adam-2/02_700.webp 700w,
-									 	/assets/images/portraiture/adam-2/02_500.webp 500w,
-									 	/assets/images/portraiture/adam-2/02_350.webp 350w,
-									 	/assets/images/portraiture/adam-2/02_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/adam-2/02_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Ádám</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/nicolas-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/nicolas-2/01_700.webp 700w,
-									 	/assets/images/portraiture/nicolas-2/01_500.webp 500w,
-									 	/assets/images/portraiture/nicolas-2/01_350.webp 350w,
-									 	/assets/images/portraiture/nicolas-2/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/nicolas-2/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Nicolas</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/viktor/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/viktor/01_700.webp 700w,
-									 	/assets/images/portraiture/viktor/01_500.webp 500w,
-									 	/assets/images/portraiture/viktor/01_350.webp 350w,
-									 	/assets/images/portraiture/viktor/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/viktor/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Viktor</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/tomer/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/tomer/01_700.webp 700w,
-									 	/assets/images/portraiture/tomer/01_500.webp 500w,
-									 	/assets/images/portraiture/tomer/01_350.webp 350w,
-									 	/assets/images/portraiture/tomer/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/tomer/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Tomer</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/reka-borbala/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/reka-borbala/02_700.webp 700w,
-									 	/assets/images/portraiture/reka-borbala/02_500.webp 500w,
-									 	/assets/images/portraiture/reka-borbala/02_350.webp 350w,
-									 	/assets/images/portraiture/reka-borbala/02_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/reka-borbala/02_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Réka</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/fernando/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/fernando/01_700.webp 700w,
-									 	/assets/images/portraiture/fernando/01_500.webp 500w,
-									 	/assets/images/portraiture/fernando/01_350.webp 350w,
-									 	/assets/images/portraiture/fernando/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/fernando/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Fernando</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/jackeline-andre/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/jackeline-andre/04_700.webp 700w,
-									 	/assets/images/portraiture/jackeline-andre/04_500.webp 500w,
-									 	/assets/images/portraiture/jackeline-andre/04_350.webp 350w,
-									 	/assets/images/portraiture/jackeline-andre/04_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/jackeline-andre/04_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Jackeline & André</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna-3/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-3/01_700.webp 700w,
-									 	/assets/images/portraiture/anna-3/01_500.webp 500w,
-									 	/assets/images/portraiture/anna-3/01_350.webp 350w,
-									 	/assets/images/portraiture/anna-3/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-3/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/nori-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/nori-2/03_700.webp 700w,
-									 	/assets/images/portraiture/nori-2/03_500.webp 500w,
-									 	/assets/images/portraiture/nori-2/03_350.webp 350w,
-									 	/assets/images/portraiture/nori-2/03_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/nori-2/03_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Nóri</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/balazs/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/balazs/01_700.webp 700w,
-									 	/assets/images/portraiture/balazs/01_500.webp 500w,
-									 	/assets/images/portraiture/balazs/01_350.webp 350w,
-									 	/assets/images/portraiture/balazs/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/balazs/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Balázs</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/eperke/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/eperke/03_700.webp 700w,
-									 	/assets/images/portraiture/eperke/03_500.webp 500w,
-									 	/assets/images/portraiture/eperke/03_350.webp 350w,
-									 	/assets/images/portraiture/eperke/03_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/eperke/03_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Eperke [Sonnar 135mm Teszt]</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/eszter-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/eszter-2/01_700.webp 700w,
-									 	/assets/images/portraiture/eszter-2/01_500.webp 500w,
-									 	/assets/images/portraiture/eszter-2/01_350.webp 350w,
-									 	/assets/images/portraiture/eszter-2/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/eszter-2/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Eszter</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/blanka/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/blanka/03_700.webp 700w,
-									 	/assets/images/portraiture/blanka/03_500.webp 500w,
-									 	/assets/images/portraiture/blanka/03_350.webp 350w,
-									 	/assets/images/portraiture/blanka/03_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/blanka/03_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Blanka</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/nori/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/nori/01_700.webp 700w,
-									 	/assets/images/portraiture/nori/01_500.webp 500w,
-									 	/assets/images/portraiture/nori/01_350.webp 350w,
-									 	/assets/images/portraiture/nori/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/nori/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Nóri</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna-2/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna-2/04_700.webp 700w,
-									 	/assets/images/portraiture/anna-2/04_500.webp 500w,
-									 	/assets/images/portraiture/anna-2/04_350.webp 350w,
-									 	/assets/images/portraiture/anna-2/04_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna-2/04_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna Katana</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/anna/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/anna/01_700.webp 700w,
-									 	/assets/images/portraiture/anna/01_500.webp 500w,
-									 	/assets/images/portraiture/anna/01_350.webp 350w,
-									 	/assets/images/portraiture/anna/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/anna/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Anna</strong>
-							</figcaption>
-						</figure>
-					</a>
-				
-					
-					
-						
-						
-					<a class="polaroids" href="/hu/portre/zsanett-matthias/">
-						<figure class="polaroid">
-							<div class="polaroid__square">
-								<img class="polaroid__photo"
-									 srcset="
-										/assets/images/portraiture/zsanett-matthias/01_700.webp 700w,
-									 	/assets/images/portraiture/zsanett-matthias/01_500.webp 500w,
-									 	/assets/images/portraiture/zsanett-matthias/01_350.webp 350w,
-									 	/assets/images/portraiture/zsanett-matthias/01_200.webp 200w
-									 "
-									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-									 src="/assets/images/portraiture/zsanett-matthias/01_200.webp"
-									 alt="Photo of Címkék">
-							</div>
-							<figcaption class="polaroid__caption">
-								<strong class="polaroid__title">Zsanett & Matthias</strong>
-							</figcaption>
-						</figure>
-					</a>
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-14/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-14/01_700.webp 700w,
+								 	/assets/images/portraiture/anna-14/01_500.webp 500w,
+								 	/assets/images/portraiture/anna-14/01_350.webp 350w,
+								 	/assets/images/portraiture/anna-14/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-14/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/viki-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/viki-2/01_700.webp 700w,
+								 	/assets/images/portraiture/viki-2/01_500.webp 500w,
+								 	/assets/images/portraiture/viki-2/01_350.webp 350w,
+								 	/assets/images/portraiture/viki-2/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/viki-2/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Viki</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/kata-3/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/kata-3/01_700.webp 700w,
+								 	/assets/images/portraiture/kata-3/01_500.webp 500w,
+								 	/assets/images/portraiture/kata-3/01_350.webp 350w,
+								 	/assets/images/portraiture/kata-3/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/kata-3/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Kata</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-13/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-13/01_700.webp 700w,
+								 	/assets/images/portraiture/anna-13/01_500.webp 500w,
+								 	/assets/images/portraiture/anna-13/01_350.webp 350w,
+								 	/assets/images/portraiture/anna-13/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-13/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-12/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-12/01_700.webp 700w,
+								 	/assets/images/portraiture/anna-12/01_500.webp 500w,
+								 	/assets/images/portraiture/anna-12/01_350.webp 350w,
+								 	/assets/images/portraiture/anna-12/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-12/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/tatum-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/tatum-2/01_700.webp 700w,
+								 	/assets/images/portraiture/tatum-2/01_500.webp 500w,
+								 	/assets/images/portraiture/tatum-2/01_350.webp 350w,
+								 	/assets/images/portraiture/tatum-2/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/tatum-2/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Tatum</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/zsuzsika-gyuri/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/zsuzsika-gyuri/01_700.webp 700w,
+								 	/assets/images/portraiture/zsuzsika-gyuri/01_500.webp 500w,
+								 	/assets/images/portraiture/zsuzsika-gyuri/01_350.webp 350w,
+								 	/assets/images/portraiture/zsuzsika-gyuri/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/zsuzsika-gyuri/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Zsuzsika & Gyuri</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/klemi-adam/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/klemi-adam/01_700.webp 700w,
+								 	/assets/images/portraiture/klemi-adam/01_500.webp 500w,
+								 	/assets/images/portraiture/klemi-adam/01_350.webp 350w,
+								 	/assets/images/portraiture/klemi-adam/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/klemi-adam/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Klemi & Ádám</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/sara/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/sara/01_700.webp 700w,
+								 	/assets/images/portraiture/sara/01_500.webp 500w,
+								 	/assets/images/portraiture/sara/01_350.webp 350w,
+								 	/assets/images/portraiture/sara/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/sara/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Sara</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-10/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-10/01_700.webp 700w,
+								 	/assets/images/portraiture/anna-10/01_500.webp 500w,
+								 	/assets/images/portraiture/anna-10/01_350.webp 350w,
+								 	/assets/images/portraiture/anna-10/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-10/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/jazmin-beni-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/jazmin-beni-2/04_700.webp 700w,
+								 	/assets/images/portraiture/jazmin-beni-2/04_500.webp 500w,
+								 	/assets/images/portraiture/jazmin-beni-2/04_350.webp 350w,
+								 	/assets/images/portraiture/jazmin-beni-2/04_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/jazmin-beni-2/04_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Jázmin & Beni</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-9/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-9/01_700.webp 700w,
+								 	/assets/images/portraiture/anna-9/01_500.webp 500w,
+								 	/assets/images/portraiture/anna-9/01_350.webp 350w,
+								 	/assets/images/portraiture/anna-9/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-9/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna 🎞️</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/burcu-sebastian/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/burcu-sebastian/02_700.webp 700w,
+								 	/assets/images/portraiture/burcu-sebastian/02_500.webp 500w,
+								 	/assets/images/portraiture/burcu-sebastian/02_350.webp 350w,
+								 	/assets/images/portraiture/burcu-sebastian/02_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/burcu-sebastian/02_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Burcu & Sebastian</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/eszter-10/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/eszter-10/01_700.webp 700w,
+								 	/assets/images/portraiture/eszter-10/01_500.webp 500w,
+								 	/assets/images/portraiture/eszter-10/01_350.webp 350w,
+								 	/assets/images/portraiture/eszter-10/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/eszter-10/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Eszter</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/alexander/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/alexander/01_700.webp 700w,
+								 	/assets/images/portraiture/alexander/01_500.webp 500w,
+								 	/assets/images/portraiture/alexander/01_350.webp 350w,
+								 	/assets/images/portraiture/alexander/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/alexander/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Alexander</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/tomass/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/tomass/01_700.webp 700w,
+								 	/assets/images/portraiture/tomass/01_500.webp 500w,
+								 	/assets/images/portraiture/tomass/01_350.webp 350w,
+								 	/assets/images/portraiture/tomass/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/tomass/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Tomass</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/laura-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/laura-2/04_700.webp 700w,
+								 	/assets/images/portraiture/laura-2/04_500.webp 500w,
+								 	/assets/images/portraiture/laura-2/04_350.webp 350w,
+								 	/assets/images/portraiture/laura-2/04_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/laura-2/04_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Laura</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/mel/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/mel/04_700.webp 700w,
+								 	/assets/images/portraiture/mel/04_500.webp 500w,
+								 	/assets/images/portraiture/mel/04_350.webp 350w,
+								 	/assets/images/portraiture/mel/04_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/mel/04_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Melanie</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/rikarda-krisztian/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/rikarda-krisztian/01_700.webp 700w,
+								 	/assets/images/portraiture/rikarda-krisztian/01_500.webp 500w,
+								 	/assets/images/portraiture/rikarda-krisztian/01_350.webp 350w,
+								 	/assets/images/portraiture/rikarda-krisztian/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/rikarda-krisztian/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Rikarda & Krisztián</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/janka/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/janka/01_700.webp 700w,
+								 	/assets/images/portraiture/janka/01_500.webp 500w,
+								 	/assets/images/portraiture/janka/01_350.webp 350w,
+								 	/assets/images/portraiture/janka/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/janka/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Janka</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/patrick/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/patrick/01_700.webp 700w,
+								 	/assets/images/portraiture/patrick/01_500.webp 500w,
+								 	/assets/images/portraiture/patrick/01_350.webp 350w,
+								 	/assets/images/portraiture/patrick/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/patrick/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Patrick</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-8/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-8/05_700.webp 700w,
+								 	/assets/images/portraiture/anna-8/05_500.webp 500w,
+								 	/assets/images/portraiture/anna-8/05_350.webp 350w,
+								 	/assets/images/portraiture/anna-8/05_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-8/05_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-7/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-7/01_700.webp 700w,
+								 	/assets/images/portraiture/anna-7/01_500.webp 500w,
+								 	/assets/images/portraiture/anna-7/01_350.webp 350w,
+								 	/assets/images/portraiture/anna-7/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-7/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/emilia/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/emilia/01_700.webp 700w,
+								 	/assets/images/portraiture/emilia/01_500.webp 500w,
+								 	/assets/images/portraiture/emilia/01_350.webp 350w,
+								 	/assets/images/portraiture/emilia/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/emilia/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Emília</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/larae/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/larae/01_700.webp 700w,
+								 	/assets/images/portraiture/larae/01_500.webp 500w,
+								 	/assets/images/portraiture/larae/01_350.webp 350w,
+								 	/assets/images/portraiture/larae/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/larae/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">LaRae Day</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/larae-deiji/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/larae-deiji/01_700.webp 700w,
+								 	/assets/images/portraiture/larae-deiji/01_500.webp 500w,
+								 	/assets/images/portraiture/larae-deiji/01_350.webp 350w,
+								 	/assets/images/portraiture/larae-deiji/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/larae-deiji/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">LaRae Day × Deiji Design</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/iulia-radu/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/iulia-radu/01_700.webp 700w,
+								 	/assets/images/portraiture/iulia-radu/01_500.webp 500w,
+								 	/assets/images/portraiture/iulia-radu/01_350.webp 350w,
+								 	/assets/images/portraiture/iulia-radu/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/iulia-radu/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Iulia & Radu</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/laura/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/laura/01_700.webp 700w,
+								 	/assets/images/portraiture/laura/01_500.webp 500w,
+								 	/assets/images/portraiture/laura/01_350.webp 350w,
+								 	/assets/images/portraiture/laura/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/laura/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Laura</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/gabor/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/gabor/01_700.webp 700w,
+								 	/assets/images/portraiture/gabor/01_500.webp 500w,
+								 	/assets/images/portraiture/gabor/01_350.webp 350w,
+								 	/assets/images/portraiture/gabor/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/gabor/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Gábor</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/eszter-8/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/eszter-8/01_700.webp 700w,
+								 	/assets/images/portraiture/eszter-8/01_500.webp 500w,
+								 	/assets/images/portraiture/eszter-8/01_350.webp 350w,
+								 	/assets/images/portraiture/eszter-8/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/eszter-8/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Eszter 🎞️</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/orsi-mira/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/orsi-mira/09_700.webp 700w,
+								 	/assets/images/portraiture/orsi-mira/09_500.webp 500w,
+								 	/assets/images/portraiture/orsi-mira/09_350.webp 350w,
+								 	/assets/images/portraiture/orsi-mira/09_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/orsi-mira/09_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Orsi & Mira</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/leonora/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/leonora/01_700.webp 700w,
+								 	/assets/images/portraiture/leonora/01_500.webp 500w,
+								 	/assets/images/portraiture/leonora/01_350.webp 350w,
+								 	/assets/images/portraiture/leonora/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/leonora/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Leonóra</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/lacko-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/lacko-2/02_700.webp 700w,
+								 	/assets/images/portraiture/lacko-2/02_500.webp 500w,
+								 	/assets/images/portraiture/lacko-2/02_350.webp 350w,
+								 	/assets/images/portraiture/lacko-2/02_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/lacko-2/02_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Lackó</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/muskan/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/muskan/01_700.webp 700w,
+								 	/assets/images/portraiture/muskan/01_500.webp 500w,
+								 	/assets/images/portraiture/muskan/01_350.webp 350w,
+								 	/assets/images/portraiture/muskan/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/muskan/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Muskan 🎞️</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/gyuri/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/gyuri/01_700.webp 700w,
+								 	/assets/images/portraiture/gyuri/01_500.webp 500w,
+								 	/assets/images/portraiture/gyuri/01_350.webp 350w,
+								 	/assets/images/portraiture/gyuri/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/gyuri/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Gyuri</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/aliz/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/aliz/01_700.webp 700w,
+								 	/assets/images/portraiture/aliz/01_500.webp 500w,
+								 	/assets/images/portraiture/aliz/01_350.webp 350w,
+								 	/assets/images/portraiture/aliz/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/aliz/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Alíz</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/tatum-peter/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/tatum-peter/01_700.webp 700w,
+								 	/assets/images/portraiture/tatum-peter/01_500.webp 500w,
+								 	/assets/images/portraiture/tatum-peter/01_350.webp 350w,
+								 	/assets/images/portraiture/tatum-peter/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/tatum-peter/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Tatum & Péter 🎞️</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/detti-dani/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/detti-dani/01_700.webp 700w,
+								 	/assets/images/portraiture/detti-dani/01_500.webp 500w,
+								 	/assets/images/portraiture/detti-dani/01_350.webp 350w,
+								 	/assets/images/portraiture/detti-dani/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/detti-dani/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Detti & Dani</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/adam-3/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/adam-3/01_700.webp 700w,
+								 	/assets/images/portraiture/adam-3/01_500.webp 500w,
+								 	/assets/images/portraiture/adam-3/01_350.webp 350w,
+								 	/assets/images/portraiture/adam-3/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/adam-3/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Ádám</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/szilvi/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/szilvi/03_700.webp 700w,
+								 	/assets/images/portraiture/szilvi/03_500.webp 500w,
+								 	/assets/images/portraiture/szilvi/03_350.webp 350w,
+								 	/assets/images/portraiture/szilvi/03_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/szilvi/03_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Szilvi</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/csenge-rebeka/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/csenge-rebeka/01_700.webp 700w,
+								 	/assets/images/portraiture/csenge-rebeka/01_500.webp 500w,
+								 	/assets/images/portraiture/csenge-rebeka/01_350.webp 350w,
+								 	/assets/images/portraiture/csenge-rebeka/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/csenge-rebeka/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Csenge & Rebeka</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/eszter-6/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/eszter-6/01_700.webp 700w,
+								 	/assets/images/portraiture/eszter-6/01_500.webp 500w,
+								 	/assets/images/portraiture/eszter-6/01_350.webp 350w,
+								 	/assets/images/portraiture/eszter-6/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/eszter-6/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Eszter</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/gabcsi/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/gabcsi/06_700.webp 700w,
+								 	/assets/images/portraiture/gabcsi/06_500.webp 500w,
+								 	/assets/images/portraiture/gabcsi/06_350.webp 350w,
+								 	/assets/images/portraiture/gabcsi/06_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/gabcsi/06_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Gabcsi</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/eszter-5/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/eszter-5/01_700.webp 700w,
+								 	/assets/images/portraiture/eszter-5/01_500.webp 500w,
+								 	/assets/images/portraiture/eszter-5/01_350.webp 350w,
+								 	/assets/images/portraiture/eszter-5/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/eszter-5/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Eszter</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/eszter-4/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/eszter-4/01_700.webp 700w,
+								 	/assets/images/portraiture/eszter-4/01_500.webp 500w,
+								 	/assets/images/portraiture/eszter-4/01_350.webp 350w,
+								 	/assets/images/portraiture/eszter-4/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/eszter-4/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Eszter</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/kata-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/kata-2/06_700.webp 700w,
+								 	/assets/images/portraiture/kata-2/06_500.webp 500w,
+								 	/assets/images/portraiture/kata-2/06_350.webp 350w,
+								 	/assets/images/portraiture/kata-2/06_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/kata-2/06_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Kata</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/reka-borbala-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/reka-borbala-2/04_700.webp 700w,
+								 	/assets/images/portraiture/reka-borbala-2/04_500.webp 500w,
+								 	/assets/images/portraiture/reka-borbala-2/04_350.webp 350w,
+								 	/assets/images/portraiture/reka-borbala-2/04_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/reka-borbala-2/04_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Réka</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/jazmin-beni/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/jazmin-beni/02_700.webp 700w,
+								 	/assets/images/portraiture/jazmin-beni/02_500.webp 500w,
+								 	/assets/images/portraiture/jazmin-beni/02_350.webp 350w,
+								 	/assets/images/portraiture/jazmin-beni/02_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/jazmin-beni/02_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Jázmin & Beni</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/abdallah/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/abdallah/06_700.webp 700w,
+								 	/assets/images/portraiture/abdallah/06_500.webp 500w,
+								 	/assets/images/portraiture/abdallah/06_350.webp 350w,
+								 	/assets/images/portraiture/abdallah/06_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/abdallah/06_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Abdallah</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/kira/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/kira/02_700.webp 700w,
+								 	/assets/images/portraiture/kira/02_500.webp 500w,
+								 	/assets/images/portraiture/kira/02_350.webp 350w,
+								 	/assets/images/portraiture/kira/02_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/kira/02_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Kíra</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/kincso/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/kincso/03_700.webp 700w,
+								 	/assets/images/portraiture/kincso/03_500.webp 500w,
+								 	/assets/images/portraiture/kincso/03_350.webp 350w,
+								 	/assets/images/portraiture/kincso/03_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/kincso/03_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Kincső</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/kiran/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/kiran/01_700.webp 700w,
+								 	/assets/images/portraiture/kiran/01_500.webp 500w,
+								 	/assets/images/portraiture/kiran/01_350.webp 350w,
+								 	/assets/images/portraiture/kiran/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/kiran/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Kiran</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/reka-adam/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/reka-adam/06_700.webp 700w,
+								 	/assets/images/portraiture/reka-adam/06_500.webp 500w,
+								 	/assets/images/portraiture/reka-adam/06_350.webp 350w,
+								 	/assets/images/portraiture/reka-adam/06_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/reka-adam/06_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Réka & Ádám</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/orsi-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/orsi-2/02_700.webp 700w,
+								 	/assets/images/portraiture/orsi-2/02_500.webp 500w,
+								 	/assets/images/portraiture/orsi-2/02_350.webp 350w,
+								 	/assets/images/portraiture/orsi-2/02_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/orsi-2/02_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Orsi</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-5/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-5/01_700.webp 700w,
+								 	/assets/images/portraiture/anna-5/01_500.webp 500w,
+								 	/assets/images/portraiture/anna-5/01_350.webp 350w,
+								 	/assets/images/portraiture/anna-5/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-5/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/adam-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/adam-2/02_700.webp 700w,
+								 	/assets/images/portraiture/adam-2/02_500.webp 500w,
+								 	/assets/images/portraiture/adam-2/02_350.webp 350w,
+								 	/assets/images/portraiture/adam-2/02_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/adam-2/02_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Ádám</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/nicolas-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/nicolas-2/01_700.webp 700w,
+								 	/assets/images/portraiture/nicolas-2/01_500.webp 500w,
+								 	/assets/images/portraiture/nicolas-2/01_350.webp 350w,
+								 	/assets/images/portraiture/nicolas-2/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/nicolas-2/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Nicolas</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/viktor/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/viktor/01_700.webp 700w,
+								 	/assets/images/portraiture/viktor/01_500.webp 500w,
+								 	/assets/images/portraiture/viktor/01_350.webp 350w,
+								 	/assets/images/portraiture/viktor/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/viktor/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Viktor</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/tomer/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/tomer/01_700.webp 700w,
+								 	/assets/images/portraiture/tomer/01_500.webp 500w,
+								 	/assets/images/portraiture/tomer/01_350.webp 350w,
+								 	/assets/images/portraiture/tomer/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/tomer/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Tomer</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/reka-borbala/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/reka-borbala/02_700.webp 700w,
+								 	/assets/images/portraiture/reka-borbala/02_500.webp 500w,
+								 	/assets/images/portraiture/reka-borbala/02_350.webp 350w,
+								 	/assets/images/portraiture/reka-borbala/02_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/reka-borbala/02_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Réka</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/fernando/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/fernando/01_700.webp 700w,
+								 	/assets/images/portraiture/fernando/01_500.webp 500w,
+								 	/assets/images/portraiture/fernando/01_350.webp 350w,
+								 	/assets/images/portraiture/fernando/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/fernando/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Fernando</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/jackeline-andre/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/jackeline-andre/04_700.webp 700w,
+								 	/assets/images/portraiture/jackeline-andre/04_500.webp 500w,
+								 	/assets/images/portraiture/jackeline-andre/04_350.webp 350w,
+								 	/assets/images/portraiture/jackeline-andre/04_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/jackeline-andre/04_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Jackeline & André</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-3/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-3/01_700.webp 700w,
+								 	/assets/images/portraiture/anna-3/01_500.webp 500w,
+								 	/assets/images/portraiture/anna-3/01_350.webp 350w,
+								 	/assets/images/portraiture/anna-3/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-3/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/nori-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/nori-2/03_700.webp 700w,
+								 	/assets/images/portraiture/nori-2/03_500.webp 500w,
+								 	/assets/images/portraiture/nori-2/03_350.webp 350w,
+								 	/assets/images/portraiture/nori-2/03_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/nori-2/03_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Nóri</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/balazs/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/balazs/01_700.webp 700w,
+								 	/assets/images/portraiture/balazs/01_500.webp 500w,
+								 	/assets/images/portraiture/balazs/01_350.webp 350w,
+								 	/assets/images/portraiture/balazs/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/balazs/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Balázs</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/eperke/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/eperke/03_700.webp 700w,
+								 	/assets/images/portraiture/eperke/03_500.webp 500w,
+								 	/assets/images/portraiture/eperke/03_350.webp 350w,
+								 	/assets/images/portraiture/eperke/03_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/eperke/03_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Eperke [Sonnar 135mm Teszt]</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/eszter-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/eszter-2/01_700.webp 700w,
+								 	/assets/images/portraiture/eszter-2/01_500.webp 500w,
+								 	/assets/images/portraiture/eszter-2/01_350.webp 350w,
+								 	/assets/images/portraiture/eszter-2/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/eszter-2/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Eszter</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/blanka/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/blanka/03_700.webp 700w,
+								 	/assets/images/portraiture/blanka/03_500.webp 500w,
+								 	/assets/images/portraiture/blanka/03_350.webp 350w,
+								 	/assets/images/portraiture/blanka/03_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/blanka/03_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Blanka</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/nori/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/nori/01_700.webp 700w,
+								 	/assets/images/portraiture/nori/01_500.webp 500w,
+								 	/assets/images/portraiture/nori/01_350.webp 350w,
+								 	/assets/images/portraiture/nori/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/nori/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Nóri</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna-2/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna-2/04_700.webp 700w,
+								 	/assets/images/portraiture/anna-2/04_500.webp 500w,
+								 	/assets/images/portraiture/anna-2/04_350.webp 350w,
+								 	/assets/images/portraiture/anna-2/04_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna-2/04_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna Katana</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/anna/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/anna/01_700.webp 700w,
+								 	/assets/images/portraiture/anna/01_500.webp 500w,
+								 	/assets/images/portraiture/anna/01_350.webp 350w,
+								 	/assets/images/portraiture/anna/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/anna/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Anna</strong>
+						</figcaption>
+					</figure>
+				
+					
+					
+						
+						
+					<figure class="polaroid">
+						<a class="polaroid__square" href="/hu/portre/zsanett-matthias/">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/zsanett-matthias/01_700.webp 700w,
+								 	/assets/images/portraiture/zsanett-matthias/01_500.webp 500w,
+								 	/assets/images/portraiture/zsanett-matthias/01_350.webp 350w,
+								 	/assets/images/portraiture/zsanett-matthias/01_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+								 src="/assets/images/portraiture/zsanett-matthias/01_200.webp"
+								 alt="Photo of Címkék">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">Zsanett & Matthias</strong>
+						</figcaption>
+					</figure>
 				
 			</div>
 		
@@ -1859,7 +1726,7 @@
 
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright">&copy; 2023 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 02. 01. 9:50:21 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 02. 01. 13:37:00 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
 		</a>

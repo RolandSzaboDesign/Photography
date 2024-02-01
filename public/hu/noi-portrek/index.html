@@ -23,17 +23,21 @@
 		<meta property="og:url" content="https://rolandszabo.photo/hu/noi-portrek/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
 		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
-		<meta property="og:title" content="Női Portré Munkáim | Szabó Roland | Budapesti Portré Fotós">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
-		<link rel="stylesheet" href="/assets/css/lightbox.css">
 
-		<!-- Fonts -->
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
-		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap"></noscript>
+		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		</noscript>
+
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
@@ -68,13 +72,16 @@
 					<span class="nav__link">Rólam</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/rolam/">Bemutatkozás</a>
+							<a class="nav__link" href="/hu/rolam/"><i class="nav__icon fa-solid fa-fw fa-hand"></i> Bemutatkozás</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/felszereles/">Felszerelés</a>
+							<a class="nav__link" href="/hu/rolam-mondtak/"><i class="nav__icon fa-solid fa-fw fa-comment"></i> Rólam Mondtátok</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/kapcsolat/">Elérhetőségeim</a>
+							<a class="nav__link" href="/hu/felszereles/"><i class="nav__icon fa-solid fa-fw fa-camera"></i> Felszerelés</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/kapcsolat/"><i class="nav__icon fa-solid fa-fw fa-phone"></i> Elérhetőségeim</a>
 						</li>
 					</ul>
 				</li>
@@ -82,16 +89,16 @@
 					<span class="nav__link">Munkáim</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/noi-portrek/">Női Portrék</a>
+							<a class="nav__link" href="/hu/noi-portrek/"><i class="nav__icon fa-solid fa-fw fa-venus"></i> Női Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/ferfi-portrek/">Férfi Portrék</a>
+							<a class="nav__link" href="/hu/ferfi-portrek/"><i class="nav__icon fa-solid fa-fw fa-mars"></i> Férfi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/paros-portrek/">Páros/Családi Portrék</a>
+							<a class="nav__link" href="/hu/paros-portrek/"><i class="nav__icon fa-solid fa-fw fa-people-group"></i> Páros/Családi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/portre/">Összes Portré Munkáim</a>
+							<a class="nav__link" href="/hu/portre/"><i class="nav__icon fa-solid fa-fw fa-table-cells"></i> Összes Portré Munkáim</a>
 						</li>
 					</ul>
 				</li>
@@ -99,7 +106,10 @@
 					<span class="nav__link">Projektek</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/budapest-photo-walk/">Budapest Photo Walk</a>
+							<a class="nav__link" href="/hu/budapest-photo-walk/"><i class="nav__icon fa-solid fa-fw fa-person-walking"></i> Budapest Photo Walk</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/auto/"><i class="nav__icon fa-solid fa-fw fa-car-side"></i> Autó Fotózás</a>
 						</li>
 					</ul>
 				</li>
@@ -124,6 +134,14 @@
 		</header>
 		
 <div class="masonry">
+	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/anna-14/01_700.webp" alt="Anna"></a>
+	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/aysooda/01_700.webp" alt="Aisouda"></a>
+	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/viki-2/04_700.webp" alt="Viki"></a>
+	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/velva/01_700.webp" alt="Velva"></a>
+	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/maria/01_700.webp" alt="Maria"></a>
+	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/kata-3/01_700.webp" alt="Kata"></a>
+	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/anna-12/04_700.webp" alt="Anna"></a>
+	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/tatum-2/04_700.webp" alt="Tatum"></a>
 	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/blanka-3/01_700.webp" alt="Blanka"></a>
 	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/saci-2/02_700.webp" alt="Saci"></a>
 	<a class="brick" href="#"><img class="brick__photo" src="/assets/images/portraiture/andi/04_700.webp" alt="Andi"></a>
@@ -172,13 +190,19 @@
 
 <blockquote class="testimonial">
 	<a class="testimonial__photo-link" href="/hu/portre/blanka-3/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-blanka.webp" alt="M. Blanka" width="100" height="100">
+		<img class="testimonial__photo" src="/assets/images/testimonials/blanka.webp" alt="M. Blanka" width="100" height="100">
 	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">Igazán különlegesnek érezhettem magam a fotózásunk alatt</p>
 		<cite class="testimonial__cite">
 			<a class="testimonial__author" href="/hu/portre/blanka-3/">M. Blanka</a>
-			<div class="testimonial__rating">⭐⭐⭐⭐⭐</div>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
 		</cite>
 	</div>
 </blockquote>
@@ -188,13 +212,19 @@
 
 <blockquote class="testimonial">
 	<a class="testimonial__photo-link" href="/hu/portre/laura-2/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-laura-2.webp" alt="Laura Sz." width="100" height="100">
+		<img class="testimonial__photo" src="/assets/images/testimonials/laura-2.webp" alt="Laura Sz." width="100" height="100">
 	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">Roland mindig mondott valamit, amitől őszintén mosolyogni tudtam, és ezt kiadják a képek is</p>
 		<cite class="testimonial__cite">
 			<a class="testimonial__author" href="/hu/portre/laura-2/">Laura Sz.</a>
-			<div class="testimonial__rating">⭐⭐⭐⭐⭐</div>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
 		</cite>
 	</div>
 </blockquote>
@@ -204,13 +234,19 @@
 
 <blockquote class="testimonial">
 	<a class="testimonial__photo-link" href="/hu/portre/sara/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-sara.webp" alt="Sara T." width="100" height="100">
+		<img class="testimonial__photo" src="/assets/images/testimonials/sara.webp" alt="Sara T." width="100" height="100">
 	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">A fotózásunk első pillanattól kezdve kényelmesen és magabiztosnak éreztem magam a kamera előtt</p>
 		<cite class="testimonial__cite">
 			<a class="testimonial__author" href="/hu/portre/sara/">Sara T.</a>
-			<div class="testimonial__rating">⭐⭐⭐⭐⭐</div>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
 		</cite>
 	</div>
 </blockquote>
@@ -220,13 +256,19 @@
 
 <blockquote class="testimonial">
 	<a class="testimonial__photo-link" href="/hu/portre/anna-9/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-anna-2.webp" alt="M. Anna" width="100" height="100">
+		<img class="testimonial__photo" src="/assets/images/testimonials/anna-2.webp" alt="M. Anna" width="100" height="100">
 	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">Roland humorával, odaadásával és a fotózás iránti szenvedélyével mindenki biztonságban, megbecsülve érezheti magát</p>
 		<cite class="testimonial__cite">
 			<a class="testimonial__author" href="/hu/portre/anna-9/">M. Anna</a>
-			<div class="testimonial__rating">⭐⭐⭐⭐⭐</div>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
 		</cite>
 	</div>
 </blockquote>
@@ -236,13 +278,19 @@
 
 <blockquote class="testimonial">
 	<a class="testimonial__photo-link" href="/hu/portre/larae/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-larae.webp" alt="LaRae Day" width="100" height="100">
+		<img class="testimonial__photo" src="/assets/images/testimonials/larae.webp" alt="LaRae Day" width="100" height="100">
 	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">Lehetetlen nem szupermodellnek érezni magad a Rolanddal való fotózás közben</p>
 		<cite class="testimonial__cite">
 			<a class="testimonial__author" href="/hu/portre/larae/">LaRae Day</a>
-			<div class="testimonial__rating">⭐⭐⭐⭐⭐</div>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
 		</cite>
 	</div>
 </blockquote>
@@ -252,13 +300,19 @@
 
 <blockquote class="testimonial">
 	<a class="testimonial__photo-link" href="/hu/portre/mel/">
-		<img class="testimonial__photo" src="/assets/images/testimonial-melanie.webp" alt="Melanie B." width="100" height="100">
+		<img class="testimonial__photo" src="/assets/images/testimonials/melanie.webp" alt="Melanie B." width="100" height="100">
 	</a>
 	<div class="testimonial__content">
 		<p class="testimonial__text">Öröm volt vele dolgozni, az eredmények pedig egyszerűen lenyűgözőek</p>
 		<cite class="testimonial__cite">
 			<a class="testimonial__author" href="/hu/portre/mel/">Melanie B.</a>
-			<div class="testimonial__rating">⭐⭐⭐⭐⭐</div>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
 		</cite>
 	</div>
 </blockquote>
@@ -267,16 +321,17 @@
 		</div>
 	
 	<div class="cta__content">
-		<h2 class="cta__title">Szeretnél hasonló, szuper képeket?</h2>
-		<p class="cta__text">Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!</p>
-		<a class="button" href="/hu/szolgaltatasok/portre-fotos-setak/">Nézzük a részleteket</a>
+		<h2 class="cta__title">Készítsük el a Te Történetedet</h2>
+		<p class="cta__text">Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.</p>
+		<a class="button" href="/hu/szolgaltatasok/portre-fotos-setak/">Nézzük a Részleteket</a>
 	</div>
 </div>
 
 	</div>
 </main>
 
-<script src="/assets/js/lightbox.js" defer></script>
+<link rel="stylesheet" href="/assets/css/lightbox.css">
+
 <aside class="lightbox">
 	<div class="lightbox__container">
 		<figure class="lightbox__figure">
@@ -284,12 +339,14 @@
 			<figcaption class="lightbox__caption"></figcaption>
 		</figure>
 		<nav class="lightbox__nav">
-			<a class="lightbox__arrow" id="left" href="#" title="Előző Fotó">◀</a>
-			<a class="lightbox__arrow" id="right" href="#" title="Következő Fotó">▶</a>
+			<a class="lightbox__arrow" id="left" href="#" title="Előző Fotó"><i class="fa-solid fa-caret-left"></i></a>
+			<a class="lightbox__arrow" id="right" href="#" title="Következő Fotó"><i class="fa-solid fa-caret-right"></i></a>
 		</nav>
 	</div>
-	<a class="lightbox__close" href="#" title="Bezárás">&times;</a>
+	<a class="lightbox__close" href="#" title="Bezárás"><i class="fa-solid fa-xmark"></i></a>
 </aside>
+
+<script src="/assets/js/lightbox.js" defer></script>
 
 <script src="/assets/js/masonry.js"></script>
 <script>
@@ -314,9 +371,10 @@
 	});
 </script>
 
+
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright">&copy; 2023 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 02. 01. 9:50:21 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 02. 01. 13:37:00 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
 		</a>

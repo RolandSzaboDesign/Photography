@@ -5,42 +5,41 @@ translation: budapest-photo-walk
 ---
 
 <main class="main">
-	<div class="container">
-		<header class="page-header">
-			<h1 class="page-header__title mb-1">Budapest Photo Walk</h1>
-			<p>Join us every month for a laid-back exploration of Budapest through our lenses! Whether you're a seasoned photographer, an up-coming enthusiast, or just someone who loves to capture moments with their phone, our photo walks are open to all. Entry is free.</p>
-		</header>
-		<div class="half">
-			<div>
-				<p><strong>What to expect:</strong></p>
-				<ul class="list">
-					<li><strong>Casual Atmosphere:</strong> No pressure, no hard competition – just a laid-back stroll through the city with fellow photography enthusiasts.</li>
-					<li><strong>Diverse Locations:</strong> Explore different facets of Budapest's beauty on each walk. From historic landmarks to hidden gems, we'll cover them all. Eventually.</li>
-					<li><strong>Networking:</strong> Connect with local photographers, models, and friends who share your passion for photography. We're all big talkers!</li>
-				</ul>
-			</div>
-			<div>
-				<div class="polaroid">
-					<img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/budapest-photo-walk/budapest-photo-walk-38.webp" alt="Budapest Photo Walk">
+	<section class="section section--top">
+		<div class="container">
+			<header class="page-header">
+				<h1 class="page-header__title mb-1">Budapest Photo Walk</h1>
+				<p>Join us every month for a laid-back exploration of Budapest through our lenses! Whether you're a seasoned photographer, an up-coming enthusiast, or just someone who loves to capture moments with their phone, our photo walks are open to all. Entry is free.</p>
+			</header>
+			<div class="half">
+				<div>
+					<ul class="list">
+						<li><strong>Casual Atmosphere:</strong> No pressure, no hard competition – just a laid-back stroll through the city with fellow photography enthusiasts.</li>
+						<li><strong>Diverse Locations:</strong> Explore different facets of Budapest's beauty on each walk. From historic landmarks to hidden gems, we'll cover them all. Eventually.</li>
+						<li><strong>Networking:</strong> Connect with local photographers, models, and friends who share your passion for photography. We're all big talkers!</li>
+					</ul>
+					<p>If you're interested in joining any of our photo walks in 2024, hit me with a DM on Instagram and I'll add you to our Group Chat, where I'll announce upcoming dates and themes. No spamming, promise!</p>
+					<a class="button" href="https://www.instagram.com/rolandszabo.photo/" target="_blank" rel="noopener noreferrer">Add me to the Group Chat!</a>
+				</div>
+				<div>
+					<div class="polaroid">
+						<img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/budapest-photo-walk/budapest-photo-walk-38.webp" alt="Budapest Photo Walk">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<section class="section section--white">
 		<div class="container">
-			<h2>Next Photo Walk Dates</h2>
-			<p>In January 2024 we're having two Photo Walks.</p>
-			<div class="half align-start">
+			<h2 class="mt-0">Next Photo Walk Dates</h2>
+			<p>The official date of the February Photo Walk will be determined shortly.</p>
+			<!--
 				<article>
 					<h3>January 21st, 14:00</h3>
 					<p>The regular Photo Walk will happen on the 21st of January. Meeting place is the usual Deák Ferenc square, next to The Ritz Carlton Hotel at 14:00 local time. No pre-determined destination, we'll figure something out based on the weather and lighting conditions. We might play a few light challenges along the way.</p>
 				</article>
-				<article>
-					<h3>January 28th, 14:00</h3>
-					<p>Our special Photo Walk this month will involve a group of 10 photo enthusiasts from Edinburgh. They're coming all the way to see our wonderful city and will be spending some time with us to go on a photo walk together. We have a pre-planned route, visiting Elizabeth Bridge, the Buda Castle and the Chain Bridge on the way back. We're meeting at 14:00 local time at Deák Ferenc square. English speaking is mandatory!</p>
-				</article>
-			</div>
+			-->
 			<div class="text-center">
 				<a class="button" href="https://www.instagram.com/rolandszabo.photo/" target="_blank" rel="noopener noreferrer">Add me to the Group Chat!</a>
 			</div>
@@ -49,7 +48,7 @@ translation: budapest-photo-walk
 
 	<section class="section">
 		<div class="container">
-			<h2>Gallery</h2>
+			<h2 class="mt-0">Gallery</h2>
 			<p>Check out some BTS images from last year's Photo Walks.</p>
 			<div class="masonry">
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/budapest-photo-walk/budapest-photo-walk-1.webp" alt="Budapest Photo Walks in 2023"></a>
@@ -96,58 +95,21 @@ translation: budapest-photo-walk
 
 	<section class="section section--grey">
 		<div class="container">
-			<h2>FAQ</h2>
+			<h2 class="mt-0">FAQ</h2>
 			<p>A couple of questions you might have, are already answered:</p>
 			{% assign category = faq.budapestPhotoWalk %}
 			{% include "partials/faq.html" %}
 		</div>
 	</section>
 
-	<section class="section section--white">
+	<section class="section">
 		<div class="container">
-			<h2>You are Welcome to Join!</h2>
+			<h2 class="mt-0">You are Welcome to Join!</h2>
 			<p>If you're interested in joining any of our photo walks in 2024, hit me with a DM on Instagram and I'll add you to our Group Chat, where I'll announce upcoming dates and themes. No spamming, promise!</p>
 			<a class="button" href="https://www.instagram.com/rolandszabo.photo/" target="_blank" rel="noopener noreferrer">Add me to the Group Chat!</a>
 		</div>
 	</section>
 </main>
 
-<script src="/assets/js/lightbox.js" defer></script>
-<aside class="lightbox">
-	<div class="lightbox__container">
-		<figure class="lightbox__figure">
-			<img class="lightbox__image" src="" alt="">
-			<figcaption class="lightbox__caption"></figcaption>
-		</figure>
-		<nav class="lightbox__nav">
-			<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-			<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
-		</nav>
-	</div>
-	<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
-</aside>
-
-<script src="/assets/js/masonry.js"></script>
-<script>
-	var macyInstance = Macy ({
-		container: '.masonry',
-		mobileFirst: true,
-		// trueOrder: true,
-		columns: 2,
-		margin: 8,
-		breakAt: {
-				576: {
-					columns: 3,
-					margin: 10
-				},
-				768: {
-					columns: 4,
-					margin: 12,
-				},
-				992: {
-					columns: 5,
-					margin: 16
-				}
-			}
-	});
-</script>
+{% include "partials/lightbox.html" %}
+{% include "partials/masonry.html" %}

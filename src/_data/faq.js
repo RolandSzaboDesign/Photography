@@ -76,12 +76,12 @@ module.exports = {
 			hu: {
 				id: "budapesten-kivul",
 				question: "Vállalsz fotózást Budapesten kívül is?",
-				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így ~100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 14.000 Forint, amit Neked kell állnod a fotózás árán felül.",
+				answer: "Igen, ilyen alkalmakra a GreenGo e-carsharing szolgáltatást használom. A GreenGo-nak csak elektromos autói vannak, limitált hatótávval, így ~100 km-ig tudok velük utazni egy irányban. A napi maximális bérlési díj 14.680 HUF, amit Neked kell állnod a fotózás árán felül.",
 			},
 			en: {
 				id: "outside-budapest",
 				question: "Is it possible to shoot outside of Budapest, too?",
-				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 100 km vicinity of Budapest. The daily fee for using this service is ~40 EUR; which you will need to pay for, on top of the base fee.",
+				answer: "Yes, absolutely. For these cases I use a local e-carsharing service, GreenGo, to get around. GreenGo employs only electric cars with a limited range, so it's best to stay in a 100 km vicinity of Budapest. The maximum daily fee for using this service is 40 EUR; which you will need to pay for, on top of the base fee.",
 			},
 		},
 		{

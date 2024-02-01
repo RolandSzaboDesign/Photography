@@ -104,44 +104,7 @@ css: photo-walks
 			<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }}</a>
 		</div>
 	</section>
-
-	<script src="/assets/js/lightbox.js" defer></script>
-	<aside class="lightbox">
-		<div class="lightbox__container">
-			<figure class="lightbox__figure">
-				<img class="lightbox__image" src="" alt="">
-				<figcaption class="lightbox__caption"></figcaption>
-			</figure>
-			<nav class="lightbox__nav">
-				<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-				<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
-			</nav>
-		</div>
-		<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
-	</aside>
-
-	<script src="/assets/js/masonry.js"></script>
-	<script>
-		var macyInstance = Macy ({
-			container: '.masonry',
-			mobileFirst: true,
-			// trueOrder: true,
-			columns: 2,
-			margin: 8,
-			breakAt: {
-				576: {
-					columns: 3,
-					margin: 10
-				},
-				768: {
-					columns: 4,
-					margin: 12,
-				},
-				992: {
-					columns: 5,
-					margin: 16
-				}
-			}
-		});
-	</script>
 </main>
+
+{% include "partials/lightbox.html" %}
+{% include "partials/masonry.html" %}

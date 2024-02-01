@@ -23,17 +23,22 @@
 		<meta property="og:url" content="https://rolandszabo.photo/en/about/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
 		<meta property="og:description" content="I take authentic portraits and tell horrible jokes.">
-		<meta property="og:title" content="About | Roland Szabó | Budapest Portrait Photographer">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
 		<link rel="stylesheet" href="/assets/css/about.css">
 
-		<!-- Fonts -->
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
-		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap"></noscript>
+		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		</noscript>
+
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
@@ -68,13 +73,16 @@
 					<span class="nav__link">About</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/en/about/">Introduction</a>
+							<a class="nav__link" href="/en/about/"><i class="nav__icon fa-solid fa-fw fa-hand"></i> Introduction</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/gear/">Gear I Use</a>
+							<a class="nav__link" href="/en/testimonials/"><i class="nav__icon fa-solid fa-fw fa-comment"></i> Testimonials</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/contact/">Contact Me</a>
+							<a class="nav__link" href="/en/gear/"><i class="nav__icon fa-solid fa-fw fa-camera"></i> Gear I Use</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/en/contact/"><i class="nav__icon fa-solid fa-fw fa-phone"></i> Contact Me</a>
 						</li>
 					</ul>
 				</li>
@@ -82,16 +90,16 @@
 					<span class="nav__link">My Work</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/en/female-portraits/">Female Portraits</a>
+							<a class="nav__link" href="/en/female-portraits/"><i class="nav__icon fa-solid fa-fw fa-venus"></i> Female Portraits</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/male-portraits/">Male Portraits</a>
+							<a class="nav__link" href="/en/male-portraits/"><i class="nav__icon fa-solid fa-fw fa-mars"></i> Male Portraits</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/couple-portraits/">Couple/Family Portraits</a>
+							<a class="nav__link" href="/en/couple-portraits/"><i class="nav__icon fa-solid fa-fw fa-people-group"></i> Couple/Family Portraits</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/en/portraiture/">All Portrait Works</a>
+							<a class="nav__link" href="/en/portraiture/"><i class="nav__icon fa-solid fa-fw fa-table-cells"></i> All Portrait Works</a>
 						</li>
 					</ul>
 				</li>
@@ -99,7 +107,10 @@
 					<span class="nav__link">Projects</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/en/budapest-photo-walk/">Budapest Photo Walk</a>
+							<a class="nav__link" href="/en/budapest-photo-walk/"><i class="nav__icon fa-solid fa-fw fa-person-walking"></i> Budapest Photo Walk</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/en/cars/"><i class="nav__icon fa-solid fa-fw fa-car-side"></i> Car Photography</a>
 						</li>
 					</ul>
 				</li>
@@ -122,15 +133,52 @@
 	<section class="about container">
 		<article class="about__content content-box">
 			
-<p>Hey there, I'm Roland! At <span title="👴">34</span>, I'm not just an aspiring amateur photographer from Budapest, Hungary&mdash;I'm someone who's passionate about capturing the genuine beauty in every moment.</p>
-<p>I thrive on candid moments and the realness they convey. My aim is to bring out your authenticity and make you fall in love with portrait photography, just like I have.</p>
-<p>For me, the camera is more than just a tool; it's an extension of my creative self, a means of communicating with people, and a constant companion on my journey. Photography has opened doors to connections that were previously unimaginable, and for that, I am eternally grateful.</p>
-<p>When I'm not behind the lens or immersed in the world of editing, <a href="https://rolandszabo.design/" target="_blank" rel="noopener noreferrer">I'm designing websites</a> for a living, indulging in video and board games, practicing cardistry, or trying to solve the 3×3 Rubik's cube faster than ever before.</p>
-<p>I'd absolutely love to hear from you, so <a href="/en/contact/">don't hesitate to say hello</a>!</p>
+<h2 class="mt-0">Discover Your True Self in Photos</h2>
+<p>I'm Roland, your Budapest portrait photographer, nice to meet you! I've been capturing portraits for three years. My journey into photography was sparked by a deep appreciation for human beauty and a desire to capture genuine emotions.</p>
+<h3>The Why, How & What</h3>
+<p>I am dedicated to helping people like you embrace their genuine beauty through portrait photography. I believe everyone has a natural charm, and I'm here to capture that essence in a relaxed and authentic environment.</p>
+<p>During our relaxed portrait sessions, filled with empathy and a touch of humor, we create a space where you can authentically express yourself. You'll be surprised how quickly your initial anxiety dissipates, making way for a relaxed atmosphere and genuine emotions.</p>
+<p>The end result is more than just photos; it's a transformation. Expect a collection of photographs that not only capture your true self but also become a source of genuine joy. These portraits are crafted to boost your confidence and leave you with images you'll truly love.</p>
 
-<h3>List of Publications</h3>
-<p>Recently, I've had the privilege of my photography appearing in and on the covers of various beauty and fashion magazines around the world. I'm incredibly humbled and grateful to everyone who made this possible.</p>
+<div class="emphasized">
+	<h2 class="mt-0">Let's Create Your Unique Story</h2>
+	<p>Whether you have a creative idea in mind or simply want to discover the magic of being authentically captured, the next chapter of your story starts here.</p>
+	<div class="button-with-link">
+		<a class="button" href="/en/services/portrait-photo-walks/">Let's do a Photoshoot</a>
+		<a class="button-with-link__link" href="/en/portraiture">or check out all of my galleries</a>
+	</div>
+</div>
+
+<h2>Companies I've Worked With</h2>
+<p>Throughout my journey as a portrait photographer, I've had the privilege of collaborating with diverse and inspiring entities. Here are some of the remarkable brands I've had the pleasure of working with:</p>
+<ul class="brands">
+	<li class="brand polaroid"><img src="/assets/images/brands/greengo.webp" alt="GreenGo logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/budapart.webp" alt="Budapart logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/maszka.webp" alt="Maszka logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/bartokfeszt.webp" alt="BartókFeszt logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/pinceszinhaz.webp" alt="Pinceszínház logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/powerlab.webp" alt="PowerLab logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/pechke.webp" alt="Pechke logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/hevn.webp" alt="HEVN logo" width="300" height="300"></li>
+</ul>
+
+<h2>Published in Print</h2>
+<p>My work has recently found its way into the pages of several magazines, showcasing a blend of creativity and visual storytelling. Each of these publications represent a milestone in my photographic journey, with some even gracing the covers.</p>
 <ul class="magazines">
+	
+		<li class="magazine">
+			<img class="magazine__image" src="/assets/images/publications/stylecruze-24-jan.webp" alt="StyléCruze ">
+			<h4 class="magazine__title">StyléCruze Magazine</h4>
+			<p class="magazine__description">Publication</p>
+			<p class="magazine__issue">January 2024, issue 718</p>
+		</li>
+	
+		<li class="magazine">
+			<img class="magazine__image" src="/assets/images/publications/dappy-23-dec.webp" alt="Dappy ">
+			<h4 class="magazine__title">Dappy Magazine</h4>
+			<p class="magazine__description">Front & Back Cover</p>
+			<p class="magazine__issue">December 2023, issue 03</p>
+		</li>
 	
 		<li class="magazine">
 			<img class="magazine__image" src="/assets/images/publications/moveux-23-nov.webp" alt="Moveux ">
@@ -169,18 +217,18 @@
 	
 </ul>
 
-<h2>Your Budapest Portrait Photographer Awaits</h2>
-<p>If you're seeking a Budapest-based portrait photographer who's not bound by rigid schedules and offers exceptional value, you've found your match. Whether you're a seasoned pro or stepping in front of the camera for the first time, I'm here to create remarkable memories through portraits that truly reflect you.</p>
-
-<h2>Where to Next?</h2>
-<div class="buttons">
-	<a class="button button--with-arrow" href="/en/services/portrait-photo-walks/">Photoshoot</a>
-	<a class="button button--with-arrow" href="/en/portraiture/">Recent Work</a>
+<div class="emphasized">
+	<h2 class="mt-0">Let's Create Your Unique Story</h2>
+	<p>Whether you have a creative idea in mind or simply want to discover the magic of being authentically captured, the next chapter of your story starts here.</p>
+	<div class="button-with-link">
+		<a class="button" href="/en/services/portrait-photo-walks/">Let's do a Photoshoot</a>
+		<a class="button-with-link__link" href="/en/portraiture">or check out all of my galleries</a>
+	</div>
 </div>
 
 		</article>
 		<figure class="about__photo">
-			<img src="/assets/images/roland-about.jpg" alt="Hey, it's me!" title="Hey, it's me!">
+			<img class="about__photo-img" src="/assets/images/roland-about.webp" alt="Hey, it's me!" title="Hey, it's me!">
 			<figcaption><em>Photo and edit by <a href="https://www.instagram.com/rohde_photo/" target="_blank" rel="noopener noreferrer">Csilla Rohde</a></em></figcaption>
 		</figure>
 	</section>
@@ -188,7 +236,7 @@
 
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright">&copy; 2023 &ndash; Roland Szabó, All rights reserved. <br> Last updated on 2024. 02. 01. 9:50:21 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Roland Szabó, All rights reserved. <br> Last updated on 2024. 02. 01. 13:37:00 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Back to the top of the page" width="80" height="40">
 		</a>

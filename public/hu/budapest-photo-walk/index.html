@@ -23,16 +23,21 @@
 		<meta property="og:url" content="https://rolandszabo.photo/hu/budapest-photo-walk/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
 		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
-		<meta property="og:title" content="Szabó Roland | Budapesti Portré Fotós">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
 
-		<!-- Fonts -->
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
-		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap"></noscript>
+		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		</noscript>
+
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
@@ -67,13 +72,16 @@
 					<span class="nav__link">Rólam</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/rolam/">Bemutatkozás</a>
+							<a class="nav__link" href="/hu/rolam/"><i class="nav__icon fa-solid fa-fw fa-hand"></i> Bemutatkozás</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/felszereles/">Felszerelés</a>
+							<a class="nav__link" href="/hu/rolam-mondtak/"><i class="nav__icon fa-solid fa-fw fa-comment"></i> Rólam Mondtátok</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/kapcsolat/">Elérhetőségeim</a>
+							<a class="nav__link" href="/hu/felszereles/"><i class="nav__icon fa-solid fa-fw fa-camera"></i> Felszerelés</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/kapcsolat/"><i class="nav__icon fa-solid fa-fw fa-phone"></i> Elérhetőségeim</a>
 						</li>
 					</ul>
 				</li>
@@ -81,16 +89,16 @@
 					<span class="nav__link">Munkáim</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/noi-portrek/">Női Portrék</a>
+							<a class="nav__link" href="/hu/noi-portrek/"><i class="nav__icon fa-solid fa-fw fa-venus"></i> Női Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/ferfi-portrek/">Férfi Portrék</a>
+							<a class="nav__link" href="/hu/ferfi-portrek/"><i class="nav__icon fa-solid fa-fw fa-mars"></i> Férfi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/paros-portrek/">Páros/Családi Portrék</a>
+							<a class="nav__link" href="/hu/paros-portrek/"><i class="nav__icon fa-solid fa-fw fa-people-group"></i> Páros/Családi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/portre/">Összes Portré Munkáim</a>
+							<a class="nav__link" href="/hu/portre/"><i class="nav__icon fa-solid fa-fw fa-table-cells"></i> Összes Portré Munkáim</a>
 						</li>
 					</ul>
 				</li>
@@ -98,7 +106,10 @@
 					<span class="nav__link">Projektek</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/budapest-photo-walk/">Budapest Photo Walk</a>
+							<a class="nav__link" href="/hu/budapest-photo-walk/"><i class="nav__icon fa-solid fa-fw fa-person-walking"></i> Budapest Photo Walk</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/auto/"><i class="nav__icon fa-solid fa-fw fa-car-side"></i> Autó Fotózás</a>
 						</li>
 					</ul>
 				</li>
@@ -116,42 +127,41 @@
 		
 
 <main class="main">
-	<div class="container">
-		<header class="page-header">
-			<h1 class="page-header__title mb-1">Budapest Photo Walk</h1>
-			<p>Csatlakozz hozzánk minden hónapban egy budapesti összejövetelre, ahol baráti sétáink során felfedezzük a város szépségét. Akár tapasztalt fotós vagy, akár feltörekvő rajongó, vagy csak olyasvalaki, aki szereti megörökíteni a pillanatokat a telefonjával, fotós sétáink mindenki számára nyitottak. A részvétel ingyenes.</p>
-		</header>
-		<div class="half">
-			<div>
-				<p><strong>Mire számíthatsz:</strong></p>
-				<ul class="list">
-					<li><strong>Laza Hangulat:</strong> Nincs nyomás, nincs versengés – csak egy laza beszélgetős séta a városban a fotózás szerelmeseivel.</li>
-					<li><strong>Változatos helyszínek:</strong> Fedezzük fel Budapest szépségének különböző aspektusait minden egyes sétán. Idővel minden apró csoda helyet megtalálunk.</li>
-					<li><strong>Kapcsolatépítés:</strong> Kapcsolódj helyi fotósokkal, modellekkel és szerezz új barátokat, akik osztoznak a fotózás iránti szenvedélyedben.</li>
-				</ul>
-			</div>
-			<div>
-				<div class="polaroid">
-					<img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/budapest-photo-walk/budapest-photo-walk-38.webp" alt="Budapest Photo Walk">
+	<section class="section section--top">
+		<div class="container">
+			<header class="page-header">
+				<h1 class="page-header__title mb-1">Budapest Photo Walk</h1>
+				<p>Csatlakozz hozzánk minden hónapban egy budapesti összejövetelre, ahol baráti sétáink során felfedezzük a város szépségét. Akár tapasztalt fotós vagy, akár feltörekvő rajongó, vagy csak olyasvalaki, aki szereti megörökíteni a pillanatokat a telefonjával, fotós sétáink mindenki számára nyitottak. A részvétel ingyenes.</p>
+			</header>
+			<div class="half">
+				<div>
+					<ul class="list">
+						<li><strong>Laza Hangulat:</strong> Nincs nyomás, nincs versengés – csak egy laza beszélgetős séta a városban a fotózás szerelmeseivel.</li>
+						<li><strong>Változatos helyszínek:</strong> Fedezzük fel Budapest szépségének különböző aspektusait minden egyes sétán. Idővel minden apró csoda helyet megtalálunk.</li>
+						<li><strong>Kapcsolatépítés:</strong> Kapcsolódj helyi fotósokkal, modellekkel és szerezz új barátokat, akik osztoznak a fotózás iránti szenvedélyedben.</li>
+					</ul>
+					<p>Ha szeretnél csatlakozni bármelyik 2024-es fotós sétánkhoz, írj nekem egy DM-et Instagramon, és felveszlek a csoportos csevegésünkbe, ahol bejelentem a közelgő dátumokat és témákat. Nincs spammelés, ígérem!</p>
+					<a class="button" href="https://www.instagram.com/rolandszabo.photo/" target="_blank" rel="noopener noreferrer">Adj hozzá a csoportos beszélgetéshez!</a>
+				</div>
+				<div>
+					<div class="polaroid">
+						<img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/budapest-photo-walk/budapest-photo-walk-38.webp" alt="Budapest Photo Walk">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<section class="section section--white">
 		<div class="container">
-			<h2>Következő Photo Walk Dátumok</h2>
-			<p>2024 januárjában két Photo Walkot tartunk.</p>
-			<div class="half align-start">
-				<article>
-					<h3>Január 21., 14:00</h3>
-					<p>A szokásos fotós séta január 21-én kerül megrendezésre. Találkozóhely a szokásos Deák Ferenc téren, a The Ritz Carlton Hotel mellett, helyi idő szerint 14:00-kor. Nincs előre meghatározott úticél, az időjárási és fényviszonyok alapján találunk ki valamit. Lehet, hogy útközben játszunk egy könnyed kihívást.</p>
-				</article>
+			<h2 class="mt-0">Következő Photo Walk Dátumok</h2>
+			<p>A februári Photo Walk dátuma hamarosan kiderül!</p>
+			<!--
 				<article>
 					<h3>Január 28., 14:00</h3>
-					<p>Különleges fotós sétánkon ebben a hónapban egy 10 fős, Edinburgh-i fotórajongó csoport vesz részt. Egészen idáig jönnek, hogy megnézzék csodálatos városunkat, és egy közös fotós séta alkalmán eltöltenek velünk egy kis közös időt. Előre megtervezett útvonalunk van: Erzsébet híd, Budai Vár, Lánchíd. Helyi idő szerint 14:00-kor találkozunk a Deák Ferenc téren. Angol tudás kötelező!</p>
+					<p>Különleges fotós sétánkon ebben a hónapban egy 10 fős nemzetközi (Athén, Szaloniki, Edinburgh, Cambridge, Nápoly) fotórajongó csoport vesz részt. Egészen idáig jönnek, hogy megnézzék csodálatos városunkat, és egy közös fotós séta alkalmán eltöltenek velünk egy kis közös időt. Előre megtervezett útvonalunk van: Deák tér, Erzsébet híd, Budai Vár, Lánchíd, Deák tér. Helyi idő szerint 14:00-kor találkozunk a Deák Ferenc téren. Angol tudás kötelező!</p>
 				</article>
-			</div>
+			-->
 			<div class="text-center">
 				<a class="button" href="https://www.instagram.com/rolandszabo.photo/" target="_blank" rel="noopener noreferrer">Adj hozzá a csoportos beszélgetéshez!</a>
 			</div>
@@ -160,7 +170,7 @@
 
 	<section class="section">
 		<div class="container">
-			<h2>Galéria</h2>
+			<h2 class="mt-0">Galéria</h2>
 			<p>Íme, néhány BTS kép a tavalyi fotós sétákról.</p>
 			<div class="masonry">
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/budapest-photo-walk/budapest-photo-walk-1.webp" alt="Budapest Photo Walks in 2023"></a>
@@ -207,7 +217,7 @@
 
 	<section class="section section--grey">
 		<div class="container">
-			<h2>GYIK</h2>
+			<h2 class="mt-0">GYIK</h2>
 			<p>Néhány kérdésre, ami felmerülhet, már válaszoltunk:</p>
 			
 			<div class="faqs"><details class="faq">
@@ -227,16 +237,17 @@
 		</div>
 	</section>
 
-	<section class="section section--white">
+	<section class="section">
 		<div class="container">
-			<h2>Szeretettel várunk Téged is!</h2>
+			<h2 class="mt-0">Szeretettel várunk Téged is!</h2>
 			<p>Ha szeretnél csatlakozni bármelyik 2024-es fotós sétánkhoz, írj nekem egy DM-et Instagramon, és felveszlek a csoportos csevegésünkbe, ahol bejelentem a közelgő dátumokat és témákat. Nincs spammelés, ígérem!</p>
 			<a class="button" href="https://www.instagram.com/rolandszabo.photo/" target="_blank" rel="noopener noreferrer">Adj hozzá a csoportos beszélgetéshez!</a>
 		</div>
 	</section>
 </main>
 
-<script src="/assets/js/lightbox.js" defer></script>
+<link rel="stylesheet" href="/assets/css/lightbox.css">
+
 <aside class="lightbox">
 	<div class="lightbox__container">
 		<figure class="lightbox__figure">
@@ -244,42 +255,44 @@
 			<figcaption class="lightbox__caption"></figcaption>
 		</figure>
 		<nav class="lightbox__nav">
-			<a class="lightbox__arrow" id="left" href="#" title="Előző Fotó">◀</a>
-			<a class="lightbox__arrow" id="right" href="#" title="Következő Fotó">▶</a>
+			<a class="lightbox__arrow" id="left" href="#" title="Előző Fotó"><i class="fa-solid fa-caret-left"></i></a>
+			<a class="lightbox__arrow" id="right" href="#" title="Következő Fotó"><i class="fa-solid fa-caret-right"></i></a>
 		</nav>
 	</div>
-	<a class="lightbox__close" href="#" title="Bezárás">&times;</a>
+	<a class="lightbox__close" href="#" title="Bezárás"><i class="fa-solid fa-xmark"></i></a>
 </aside>
+
+<script src="/assets/js/lightbox.js" defer></script>
 
 <script src="/assets/js/masonry.js"></script>
 <script>
 	var macyInstance = Macy ({
 		container: '.masonry',
 		mobileFirst: true,
-		// trueOrder: true,
 		columns: 2,
 		margin: 8,
 		breakAt: {
-				576: {
-					columns: 3,
-					margin: 10
-				},
-				768: {
-					columns: 4,
-					margin: 12,
-				},
-				992: {
-					columns: 5,
-					margin: 16
-				}
+			576: {
+				columns: 3,
+				margin: 10
+			},
+			768: {
+				columns: 4,
+				margin: 12
+			},
+			992: {
+				columns: 5,
+				margin: 16
 			}
+		}
 	});
 </script>
 
 
+
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright">&copy; 2023 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 02. 01. 9:50:21 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 02. 01. 13:37:00 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
 		</a>

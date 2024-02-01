@@ -1,0 +1,22 @@
+<script src="/assets/js/masonry.js"></script>
+<script>
+	var macyInstance = Macy ({
+		container: '.masonry',
+		mobileFirst: true,
+		// trueOrder: true,
+		columns: 2,
+		margin: 8,
+		breakAt: {
+			576: {
+				margin: 10
+			},
+			768: {
+				margin: 12
+			},
+			992: {
+				columns: 3,
+				margin: 16
+			}
+		}
+	});
+</script>

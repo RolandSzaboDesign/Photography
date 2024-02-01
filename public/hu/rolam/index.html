@@ -2,7 +2,7 @@
 <html lang="hu">
 	<head>
 		<meta charset="utf-8">
-		<title>Rólam | Szabó Roland | Budapesti Portré Fotós</title>
+		<title>About | Szabó Roland | Budapesti Portré Fotós</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
@@ -23,17 +23,22 @@
 		<meta property="og:url" content="https://rolandszabo.photo/hu/rolam/">
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
 		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
-		<meta property="og:title" content="Rólam | Szabó Roland | Budapesti Portré Fotós">
+		<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
 		<link rel="stylesheet" href="/assets/css/about.css">
 
-		<!-- Fonts -->
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap">
-		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Flex:wght@300;700&display=swap"></noscript>
+		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		</noscript>
+
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
@@ -68,13 +73,16 @@
 					<span class="nav__link">Rólam</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/rolam/">Bemutatkozás</a>
+							<a class="nav__link" href="/hu/rolam/"><i class="nav__icon fa-solid fa-fw fa-hand"></i> Bemutatkozás</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/felszereles/">Felszerelés</a>
+							<a class="nav__link" href="/hu/rolam-mondtak/"><i class="nav__icon fa-solid fa-fw fa-comment"></i> Rólam Mondtátok</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/kapcsolat/">Elérhetőségeim</a>
+							<a class="nav__link" href="/hu/felszereles/"><i class="nav__icon fa-solid fa-fw fa-camera"></i> Felszerelés</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/kapcsolat/"><i class="nav__icon fa-solid fa-fw fa-phone"></i> Elérhetőségeim</a>
 						</li>
 					</ul>
 				</li>
@@ -82,16 +90,16 @@
 					<span class="nav__link">Munkáim</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/noi-portrek/">Női Portrék</a>
+							<a class="nav__link" href="/hu/noi-portrek/"><i class="nav__icon fa-solid fa-fw fa-venus"></i> Női Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/ferfi-portrek/">Férfi Portrék</a>
+							<a class="nav__link" href="/hu/ferfi-portrek/"><i class="nav__icon fa-solid fa-fw fa-mars"></i> Férfi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/paros-portrek/">Páros/Családi Portrék</a>
+							<a class="nav__link" href="/hu/paros-portrek/"><i class="nav__icon fa-solid fa-fw fa-people-group"></i> Páros/Családi Portrék</a>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/portre/">Összes Portré Munkáim</a>
+							<a class="nav__link" href="/hu/portre/"><i class="nav__icon fa-solid fa-fw fa-table-cells"></i> Összes Portré Munkáim</a>
 						</li>
 					</ul>
 				</li>
@@ -99,7 +107,10 @@
 					<span class="nav__link">Projektek</span>
 					<ul class="nav__dropdown">
 						<li class="nav__item">
-							<a class="nav__link" href="/hu/budapest-photo-walk/">Budapest Photo Walk</a>
+							<a class="nav__link" href="/hu/budapest-photo-walk/"><i class="nav__icon fa-solid fa-fw fa-person-walking"></i> Budapest Photo Walk</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/auto/"><i class="nav__icon fa-solid fa-fw fa-car-side"></i> Autó Fotózás</a>
 						</li>
 					</ul>
 				</li>
@@ -122,85 +133,102 @@
 	<section class="about container">
 		<article class="about__content content-box">
 			
-<p>Hellóka, Roland vagyok, <span title="👴">34 éves</span>, és szenvedélyem megörökíteni a valós szépséget a kamerán keresztül.</p>
-<p>Képeimmel az őszinte pillanatokra és az általuk közvetített valós érzelmekre törekszem. Célom, hogy megszerettessem veled a portréfotózást.</p>
-<p>Számomra a kamera több, mint egy eszköz; a kreatív énem kiterjesztése, az emberekkel való kommunikáció eszköze, és állandó kísérőm az utam során. A fotózás olyan kapcsolatokat tett lehetővé, amelyek korábban elképzelhetetlenek voltak, és ezért örökké hálás vagyok.</p>
-<p>Amikor nem a kamera mögött állok vagy a képeidet szerkesztem tökélyre, akkor <a href="https://rolandszabo.design/" target="_blank" rel="noopener noreferrer">weboldalakat tervezek és fejlesztek</a>, videó- és társasjátékokkal játszom, kártyabűvészetet gyakorlom, vagy igyekszem minden korábbinál gyorsabban kirakni a 3×3-as Rubik kockát.</p>
-<p>Nagyon szívesen hallanék Felőled, úgyhogy bátran <a href="/hu/kapcsolat/">lépj velem kapcsolatba</a>!</p>
+<h2 class="mt-0">Fedezd Fel a Valódi Énedet a Fotókon</h2>
+<p>Roland vagyok, budapesti portréfotós, örülök, hogy megismerhetlek! Három éve készítek portrékat. A fotózás felé vezető utamat az emberi szépség iránti mély elismerés és az őszinte érzelmek megörökítésének vágya indította el.</p>
+<h3>Miért, Hogyan és Mit</h3>
+<p>Elkötelezetten segítek a hozzád hasonló embereknek, hogy felfedezzék valódi szépségüket a portréfotózáson keresztül. Hiszek abban, hogy mindenkinek van természetes kisugárzása, és azért vagyok itt, hogy ezt nyugodt és hiteles környezetben megörökítsem.</p>
+<p>Nyugodt, empátiával és egy csipetnyi humorral teli portréfotózásaink során olyan teret teremtünk, ahol Te is őszintén kifejezheted magad. Meg fogsz lepődni, milyen gyorsan eloszlik a kezdeti szorongásod, helyet adva a nyugodt légkörnek és az őszinte mosolyoknak.</p>
+<p>A végeredmény több, mint egyszerű fotók; ez egy átalakulás. Olyan fényképekre számíthatsz, amelyek nemcsak az igazi énedet örökítik meg, hanem valódi örömforrássá is válnak. A portréidat úgy alkotom meg, hogy erősítsék az önbizalmadat, és olyan fotókat hagyjanak hátra, amelyeket igazán szeretni fogsz.</p>
 
-<h3>Publikációim</h3>
-<p>Nemrég az a megtiszteltetés ért, hogy különböző világkörüli divatmagazinokban és azok címlapjain jelenhetett meg a munkám. Elképesztően hálás vagyok mindazoknak, akik lehetővé tették ezt.</p>
+<div class="emphasized">
+	<h2 class="mt-0">Készítsük el a Te Történetedet</h2>
+	<p>Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.</p>
+	<div class="button-with-link">
+		<a class="button" href="/hu/szolgaltatasok/portre-fotos-setak/">Nézzük a Részleteket</a>
+		<a class="button-with-link__link" href="/hu/portre">vagy nézd meg a galériámat</a>
+	</div>
+</div>
+
+<h2>Cégek, Akikkel Együtt Dolgoztam</h2>
+<p>Fotós pályafutásom során abban a kiváltságban volt részem, hogy sokféle inspiráló partnerrel dolgozhattam együtt. Íme néhány kiemelkedő márka, akikkel volt szerencsém közösen alkotni:</p>
+<ul class="brands">
+	<li class="brand polaroid"><img src="/assets/images/brands/greengo.webp" alt="GreenGo logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/budapart.webp" alt="Budapart logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/maszka.webp" alt="Maszka logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/bartokfeszt.webp" alt="BartókFeszt logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/pinceszinhaz.webp" alt="Pinceszínház logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/powerlab.webp" alt="PowerLab logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/pechke.webp" alt="Pechke logo" width="300" height="300"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/hevn.webp" alt="HEVN logo" width="300" height="300"></li>
+</ul>
+
+<h2>Magazin Megjelenéseim</h2>
+<p>Munkáim nemrégiben több magazin oldalaira is bekerültek. Ezek a kiadványok mindegyike komoly mérföldkövet jelent fotós pályafutásom során, sőt, némelyikük még a címlapot is díszíti.</p>
 <ul class="magazines">
 	
 		<li class="magazine">
+			<img class="magazine__image" src="/assets/images/publications/stylecruze-24-jan.webp" alt="StyléCruze ">
+			<h4 class="magazine__title">StyléCruze Magazine</h4>
+			<p class="magazine__description">Megjelenés</p>
+			<p class="magazine__issue">2024 Január, 718-ik kiadás</p>
+		</li>
+	
+		<li class="magazine">
+			<img class="magazine__image" src="/assets/images/publications/dappy-23-dec.webp" alt="Dappy ">
+			<h4 class="magazine__title">Dappy Magazine</h4>
+			<p class="magazine__description">Címlap és Hátlap</p>
+			<p class="magazine__issue">2023 December, 03-ik kiadás</p>
+		</li>
+	
+		<li class="magazine">
 			<img class="magazine__image" src="/assets/images/publications/moveux-23-nov.webp" alt="Moveux ">
-			<h4 class="magazine__title">Moveux Magazin</h4>
+			<h4 class="magazine__title">Moveux Magazine</h4>
 			<p class="magazine__description">Megjelenés</p>
 			<p class="magazine__issue">2023 November</p>
 		</li>
 	
 		<li class="magazine">
 			<img class="magazine__image" src="/assets/images/publications/untold-23-nov.webp" alt="UnTold ">
-			<h4 class="magazine__title">UnTold Magazin</h4>
+			<h4 class="magazine__title">UnTold Magazine</h4>
 			<p class="magazine__description">Címlap</p>
 			<p class="magazine__issue">2023 November</p>
 		</li>
 	
 		<li class="magazine">
 			<img class="magazine__image" src="/assets/images/publications/proficient-23-nov.webp" alt="Proficient ">
-			<h4 class="magazine__title">Proficient Magazin</h4>
+			<h4 class="magazine__title">Proficient Magazine</h4>
 			<p class="magazine__description">Címlap és Hátlap</p>
 			<p class="magazine__issue">2023 November, 141-ik kiadás</p>
 		</li>
 	
 		<li class="magazine">
 			<img class="magazine__image" src="/assets/images/publications/fashion-mannuscript-23-sep.webp" alt="Fashion Mannuscript ">
-			<h4 class="magazine__title">Fashion Mannuscript Magazin</h4>
+			<h4 class="magazine__title">Fashion Mannuscript Magazine</h4>
 			<p class="magazine__description">Megjelenés</p>
 			<p class="magazine__issue">2023 Szeptember</p>
 		</li>
 	
 		<li class="magazine">
 			<img class="magazine__image" src="/assets/images/publications/dreamy-23-sep.webp" alt="Dreamy ">
-			<h4 class="magazine__title">Dreamy Magazin</h4>
+			<h4 class="magazine__title">Dreamy Magazine</h4>
 			<p class="magazine__description">Címlap</p>
 			<p class="magazine__issue">2023 Szeptember, 584-ik kiadás</p>
 		</li>
 	
 </ul>
 
-<h2>Irány a Portréfotózás Budapesten!</h2>
-<p>Ha olyan budapesti portréfotóst keresel, akit nem kötnek a merev időbeosztások, és kivételes értéket kínál, akkor ne is keress tovább. Akár tapasztalt modell vagy, akár először lépsz a kamera elé, én azért vagyok itt, hogy figyelemreméltó emlékeket teremtsek portré fotókon keresztül, amelyek teljes valódban tükröznek Téged.</p>
-
-<h2>Hogyan Tovább?</h2>
-<div class="buttons">
-	<a class="button button--with-arrow" href="/hu/szolgaltatasok/portre-fotos-setak/">Portré Fotózás</a>
-	<a class="button button--with-arrow" href="/hu/portre/">Munkáim</a>
+<div class="emphasized">
+	<h2 class="mt-0">Készítsük el a Te Történetedet</h2>
+	<p>Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.</p>
+	<div class="button-with-link">
+		<a class="button" href="/hu/szolgaltatasok/portre-fotos-setak/">Nézzük a Részleteket</a>
+		<a class="button-with-link__link" href="/hu/portre">vagy nézd meg a galériámat</a>
+	</div>
 </div>
-
-<script type="application/ld+json">
-{
-	"@context": "https://schema.org/",
-	"@type": "Person",
-	"name": "Roland Szabó",
-	"url": "https://rolandszabo.photo/hu/",
-	"image": "https://rolandszabo.design/assets/images/roland.jpg",
-	"sameAs": [
-		"https://www.facebook.com/RolandSzaboPhotography/",
-		"https://www.instagram.com/rolandszabo.photo/",
-		"https://rolandszabo.photo/hu/"
-	],
-	"jobTitle": "Photographer",
-	"worksFor": {
-		"@type": "Organization",
-		"name": "Roland Szabó Photography"
-	}
-}
-</script>
 
 		</article>
 		<figure class="about__photo">
-			<img src="/assets/images/roland-about.jpg" alt="Halihó, ez itt én vagyok." title="Halihó, ez itt én vagyok.">
+			<img class="about__photo-img" src="/assets/images/roland-about.webp" alt="Halihó, ez itt én vagyok." title="Halihó, ez itt én vagyok.">
 			<figcaption><em>Fotó és szerkesztés: <a href="https://www.instagram.com/rohde_photo/" target="_blank" rel="noopener noreferrer">Rohde Csilla</a></em></figcaption>
 		</figure>
 	</section>
@@ -208,7 +236,7 @@
 
 		<footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright">&copy; 2023 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 02. 01. 9:50:21 </p>
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva. <br> Utoljára frissítve: 2024. 02. 01. 13:37:00 </p>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
 		</a>

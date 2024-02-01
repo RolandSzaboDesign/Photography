@@ -5,9 +5,9 @@ css: home
 ---
 
 <main class="main home">
-	<section class="section section--top section--border">
+	<section class="section section--top">
 		<div class="container">
-			<header class="page-header">
+			<header class="page-header page-header--home">
 				<h1 class="home__title">{{ site[locale].homepageMainTitle }}</h1>
 			</header>
 			<nav class="home-nav">
@@ -30,16 +30,27 @@ css: home
 				</ul>
 			</nav>
 			<div class="button-with-link">
-				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
-				<a class="button-with-link__link" href="#latest">{{ site[locale].homepageVisitLatest }}</a>
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
+				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">{{ site[locale].homepageVisitLatest }}</a>
 			</div>
 		</div>
 	</section>
 
-	<section class="section section--white section--border">
+	<section class="section section--white">
 		<div class="container">
 			<h2 class="home__title text-center mt-0">{{ site[locale].homepageTestimonials }}</h2>
-			{% include "partials/cta-latest.html" %}
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% for item in source limit:3 %}
+					{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
+				{% endfor %}
+			</div>
+
+			<div class="button-with-link">
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
+				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }} ({{ testimonials.items.length }})</a>
+			</div>
+
 		</div>
 	</section>
 
@@ -48,46 +59,17 @@ css: home
 			<div>
 				{{ content }}
 				<div class="button-with-link">
-					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
 					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
 				</div>
 			</div>
 			<figure>
-				<img src="/assets/images/roland-home.jpg" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}">
+				<img src="/assets/images/roland-home.webp" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}">
 				<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/p_varsics/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterVarsics }}</a></em></figcaption>
 			</figure>
 		</div>
 	</section>
-
-	<script src="/assets/js/lightbox.js" defer></script>
-	<aside class="lightbox">
-		<div class="lightbox__container">
-			<figure class="lightbox__figure">
-				<img class="lightbox__image" src="" alt="">
-				<figcaption class="lightbox__caption"></figcaption>
-			</figure>
-			<nav class="lightbox__nav">
-				<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-				<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
-			</nav>
-		</div>
-		<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
-	</aside>
-
-	<script src="/assets/js/masonry.js"></script>
-	<script>
-		var macyInstance = Macy ({
-			container: '.masonry',
-			mobileFirst: true,
-			// trueOrder: true,
-			columns: 2,
-			margin: 10,
-			breakAt: {
-				992: {
-					columns: 3,
-					margin: 16
-				}
-			}
-		});
-	</script>
 </main>
+
+{% include "partials/lightbox.html" %}
+{% include "partials/masonry-home.html" %}

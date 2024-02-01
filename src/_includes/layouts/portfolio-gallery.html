@@ -1,6 +1,5 @@
 ---
 layout: layouts/base.html
-css: lightbox
 ---
 
 <main class="main">
@@ -15,40 +14,5 @@ css: lightbox
 	</div>
 </main>
 
-<script src="/assets/js/lightbox.js" defer></script>
-<aside class="lightbox">
-	<div class="lightbox__container">
-		<figure class="lightbox__figure">
-			<img class="lightbox__image" src="" alt="">
-			<figcaption class="lightbox__caption"></figcaption>
-		</figure>
-		<nav class="lightbox__nav">
-			<a class="lightbox__arrow" id="left" href="#" title="{{ site[locale].lightboxPreviousPhoto }}">◀</a>
-			<a class="lightbox__arrow" id="right" href="#" title="{{ site[locale].lightboxNextPhoto }}">▶</a>
-		</nav>
-	</div>
-	<a class="lightbox__close" href="#" title="{{ site[locale].lightboxClose }}">&times;</a>
-</aside>
-
-<script src="/assets/js/masonry.js"></script>
-<script>
-	var macyInstance = Macy ({
-		container: '.masonry',
-		mobileFirst: true,
-		// trueOrder: true,
-		columns: 2,
-		margin: 8,
-		breakAt: {
-			576: {
-				margin: 10
-			},
-			768: {
-				margin: 12
-			},
-			992: {
-				columns: 3,
-				margin: 16
-			}
-		}
-	});
-</script>
+{% include "partials/lightbox.html" %}
+{% include "partials/masonry-portfolio.html" %}

@@ -50,6 +50,8 @@ module.exports = {
 		"navContact": "Contact Me",
 		"navGear": "Gear I Use",
 		"navTestimonials": "Testimonials",
+		"navBudapestPhotoWalk": "Budapest Photo Walk",
+		"navCarPhotography": "Car Photography",
 
 		"slugAbout": "about",
 		"slugBlog": "blog",
@@ -70,11 +72,10 @@ module.exports = {
 		"slugContact": "contact",
 		"slugGear": "gear",
 		"slugTestimonials": "testimonials",
-		"slugCars": "cars",
+		"slugCarPhotography": "cars",
 
 		"homepageMainTitle": "I take authentic portraits and tell horrible jokes.",
 		"homepageRecentTitle": "My Portrait Work from the Last 2 Months",
-		"homepageButton": "Let's do a Photoshoot",
 		"homepageVisitLatest": "or see my latest work",
 		"homepageVisitGalleries": "or check out all of my galleries",
 		"homepageVisitAbout": "or get to know me better",
@@ -112,9 +113,9 @@ module.exports = {
 		"vintagePromoImageAlt": "Wonderful photo of Polina, taken with a Helios 44-2 vintage lens with incredible swirly bokeh rendering.",
 		"vintagePromoLink": "/en/services/vintage-photo-walks/",
 
-		"ctaTitle": "Would you like similar, amazing photos?",
-		"ctaText": "I can make beautiful photos of you on our laid-back photo walk. Learn more to see how easy it is!",
-		"ctaButton": "Let's see the details",
+		"ctaTitle": "Let's Create Your Unique Story",
+		"ctaText": "Whether you have a creative idea in mind or simply want to discover the magic of being authentically captured, the next chapter of your story starts here.",
+		"ctaButton": "Let's do a Photoshoot",
 
 		"blogWrittenBy": "Written by",
 		"blogWrittenOn": "on",
@@ -158,7 +159,9 @@ module.exports = {
 		"navPortraitWorks": "Összes Portré Munkáim",
 		"navContact": "Elérhetőségeim",
 		"navGear": "Felszerelés",
-		"navTestimonials": "Rólam Mondták",
+		"navTestimonials": "Rólam Mondtátok",
+		"navBudapestPhotoWalk": "Budapest Photo Walk",
+		"navCarPhotography": "Autó Fotózás",
 
 		"slugAbout": "rolam",
 		"slugBlog": "blog",
@@ -179,7 +182,7 @@ module.exports = {
 		"slugContact": "kapcsolat",
 		"slugGear": "felszereles",
 		"slugTestimonials": "rolam-mondtak",
-		"slugCars": "auto",
+		"slugCarPhotography": "auto",
 
 		"homepageMainTitle": "Őszinte portré fotókat készítek és borzalmas vicceket mesélek.",
 		"homepageRecentTitle": "Munkáim az Elmúlt 2 Hónapból",
@@ -220,9 +223,9 @@ module.exports = {
 		"vintagePromoImageAlt": "Polina csodás fotója, amit egy ötven éves, mesés rajzolatú Helios 44-2 objektívvel készítettünk",
 		"vintagePromoLink": "/hu/szolgaltatasok/vintage-fotos-setak/",
 
-		"ctaTitle": "Szeretnél hasonló, szuper képeket?",
-		"ctaText": "Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!",
-		"ctaButton": "Nézzük a részleteket",
+		"ctaTitle": "Készítsük el a Te Történetedet",
+		"ctaText": "Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.",
+		"ctaButton": "Nézzük a Részleteket",
 
 		"blogWrittenBy": "Írta",
 		"blogWrittenOn": "ekkor:",
