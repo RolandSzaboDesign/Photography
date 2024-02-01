@@ -24,6 +24,6 @@ layout: layouts/base.html
 		{% assign month = date | date: "%m" %}
 		{% assign year = date | date: "%y" %}
 		{% assign random = day | times: month | times: year | minus: translation.length | modulo: testimonials.items.length %}
-		{% include "partials/cta.html", count: 1, id: random %}
+		{% include "partials/cta.html", count: 3, id: random %}
 	</div>
 </main>

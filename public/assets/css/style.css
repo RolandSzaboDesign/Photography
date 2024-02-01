@@ -361,27 +361,18 @@ hr {
 }
 
 .emphasized {
-	display: inline-block;
-	padding: 1.25rem 1.5rem;
-	font-weight: 600;
-	font-size: 1.125rem;
-	color: var(--text-dark);
-	letter-spacing: -.5px;
-	border-left: .25rem solid var(--highlight);
+	display: block;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding: 1.5rem;
+	border-top: .5rem solid var(--highlight);
 	background-color: #FFF;
+	box-shadow: var(--box-shadow-strong);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
 	.emphasized {
-		font-size: 1.25rem;
-		letter-spacing: -.5px;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.emphasized {
-		font-size: 1.375rem;
-		letter-spacing: -.625px;
+		padding: 2rem;
 	}
 }
 
@@ -1091,18 +1082,17 @@ hr {
 	}
 }
 
-.testimonial__author {
-	font-weight: 700;
-	font-size: 1rem;
-	color: var(--text-light);
+.testimonial__photo-link {
+	display: flex;
 	border-bottom: 0;
 }
 
-.testimonial__photo-link {
-	float: left;
-	display: flex;
-	margin: 0 1rem 1rem 0;
-	border-bottom: 0;
+@media only screen and (max-width: 767px) {
+	.testimonial__photo-link {
+		float: left;
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+	}
 }
 
 .testimonial__photo {
@@ -1119,6 +1109,20 @@ hr {
 @media only screen and (min-width: 576px) {
 	.testimonials--single .testimonial__photo {
 		max-width: 150px;
+	}
+}
+
+.testimonial__author {
+	display: block;
+	font-weight: 700;
+	font-size: 1rem;
+	color: var(--text-light);
+	border-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.testimonial__cite {
+		text-align: right;
 	}
 }
 
@@ -1142,15 +1146,20 @@ hr {
 }
 
 .cta:before {
-	content: '📷';
+	content: '\f030';
 	position: absolute;
-	top: -2rem;
+	top: -1.875rem;
 	left: 50%;
-	margin-left: -2rem;
+	margin-left: -1.75rem;
 	padding: 1rem;
+	font: var(--fa-font-solid);
 	font-size: 1.5rem;
 	line-height: 1;
 	background-color: var(--bg);
+}
+
+.cta__title {
+	margin-top: 0;
 }
 
 @media only screen and (min-width: 992px) {
@@ -1163,6 +1172,10 @@ hr {
 	.cta__text {
 		margin-bottom: 2rem;
 	}
+}
+
+.cta__content {
+	margin-top: 2rem;
 }
 
 

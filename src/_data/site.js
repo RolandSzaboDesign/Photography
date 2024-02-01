@@ -76,7 +76,6 @@ module.exports = {
 
 		"homepageMainTitle": "I take authentic portraits and tell horrible jokes.",
 		"homepageRecentTitle": "My Portrait Work from the Last 2 Months",
-		"homepageButton": "Let's do a Photoshoot",
 		"homepageVisitLatest": "or see my latest work",
 		"homepageVisitGalleries": "or check out all of my galleries",
 		"homepageVisitAbout": "or get to know me better",
@@ -114,9 +113,9 @@ module.exports = {
 		"vintagePromoImageAlt": "Wonderful photo of Polina, taken with a Helios 44-2 vintage lens with incredible swirly bokeh rendering.",
 		"vintagePromoLink": "/en/services/vintage-photo-walks/",
 
-		"ctaTitle": "Would you like similar, amazing photos?",
-		"ctaText": "I can make beautiful photos of you on our laid-back photo walk. Learn more to see how easy it is!",
-		"ctaButton": "Let's see the details",
+		"ctaTitle": "Let's Create Your Unique Story",
+		"ctaText": "Whether you have a creative idea in mind or simply want to discover the magic of being authentically captured, the next chapter of your story starts here.",
+		"ctaButton": "Let's do a Photoshoot",
 
 		"blogWrittenBy": "Written by",
 		"blogWrittenOn": "on",

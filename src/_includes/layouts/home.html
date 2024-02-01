@@ -30,7 +30,7 @@ css: home
 				</ul>
 			</nav>
 			<div class="button-with-link">
-				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
 				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">{{ site[locale].homepageVisitLatest }}</a>
 			</div>
 		</div>
@@ -39,7 +39,18 @@ css: home
 	<section class="section section--white">
 		<div class="container">
 			<h2 class="home__title text-center mt-0">{{ site[locale].homepageTestimonials }}</h2>
-			{% include "partials/cta-latest.html" %}
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% for item in source limit:3 %}
+					{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
+				{% endfor %}
+			</div>
+
+			<div class="button-with-link">
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
+				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }} ({{ testimonials.items.length }})</a>
+			</div>
+
 		</div>
 	</section>
 
@@ -48,7 +59,7 @@ css: home
 			<div>
 				{{ content }}
 				<div class="button-with-link">
-					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].homepageButton }}</a>
+					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
 					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
 				</div>
 			</div>
