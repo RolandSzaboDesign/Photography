@@ -372,6 +372,8 @@ hr {
 
 @media only screen and (min-width: 992px) {
 	.emphasized {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 		padding: 2rem;
 	}
 }
@@ -1283,6 +1285,10 @@ hr {
 .mb-0 { margin-bottom: 0; }
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
+
+.inline-block {
+	display: inline-block;
+}
 
 .align-start {
 	align-items: start;

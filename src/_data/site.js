@@ -223,9 +223,9 @@ module.exports = {
 		"vintagePromoImageAlt": "Polina csodás fotója, amit egy ötven éves, mesés rajzolatú Helios 44-2 objektívvel készítettünk",
 		"vintagePromoLink": "/hu/szolgaltatasok/vintage-fotos-setak/",
 
-		"ctaTitle": "Szeretnél hasonló, szuper képeket?",
-		"ctaText": "Laza, nyugodt hangulatú fotós sétánkon Rólad is tudok nagyszerű fotókat készíteni. Nézd meg, mennyire egyszerű a folyamat!",
-		"ctaButton": "Nézzük a részleteket",
+		"ctaTitle": "Készítsük el a Te Történetedet",
+		"ctaText": "Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.",
+		"ctaButton": "Nézzük a Részleteket",
 
 		"blogWrittenBy": "Írta",
 		"blogWrittenOn": "ekkor:",
