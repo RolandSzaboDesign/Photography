@@ -1201,12 +1201,44 @@
 		<lastmod>2023-12-25T00:00:00.000Z</lastmod>
 	</url>
 	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/eric/</loc>
+		<lastmod>2023-12-30T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/eric/</loc>
+		<lastmod>2023-12-30T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/szilvi-laci/</loc>
+		<lastmod>2024-01-09T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/szilvi-laci/</loc>
+		<lastmod>2024-01-09T00:00:00.000Z</lastmod>
+	</url>
+	<url>
 		<loc>https://rolandszabo.photo/en/blog/instagram-grid-layouts/</loc>
 		<lastmod>2024-01-11T00:00:00.000Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/blog/instagram-grid-elrendezes/</loc>
 		<lastmod>2024-01-11T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/amanda/</loc>
+		<lastmod>2024-01-19T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/amanda/</loc>
+		<lastmod>2024-01-19T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/laura-4/</loc>
+		<lastmod>2024-01-21T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/laura-4/</loc>
+		<lastmod>2024-01-21T00:00:00.000Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/</loc>
@@ -1359,5 +1391,13 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/tags/all/</loc>
 		<lastmod>2024-02-01T13:55:17.154Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/laura-5/</loc>
+		<lastmod>2024-02-06T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/laura-5/</loc>
+		<lastmod>2024-02-06T00:00:00.000Z</lastmod>
 	</url>
 </urlset>
