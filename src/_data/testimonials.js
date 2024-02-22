@@ -1,5 +1,22 @@
 module.exports = {
 	items: [
+		{
+			type: "couple",
+			score: "5.0",
+			photo: "/assets/images/testimonials/szilvi-laci.webp",
+			hu: {
+				name: "M. Szilvi",
+				excerpt: "Roland gyorsan elérte, hogy ellazuljunk a kamera előtt, mivel nem vagyunk rutinosak",
+				text: "Rolival nagyon kellemes volt a fotózás. Jó hangulatban telt, elkapta a legjobb pillanatokat. Gyorsan elérte, hogy ellazuljunk a kamera előtt, mivel nem vagyunk rutinosak. Profi az egész, amit csinál, a végeredmény pedig magáért beszél; gyönyörűek a képek. Szívből ajánljuk őt!",
+				link: "/hu/portre/szilvi-laci/",
+			},
+			en: {
+				name: "Szilvi M.",
+				excerpt: "He quickly made us relax in front of the camera, as we are not experienced",
+				text: "It was a very pleasant photo session with Roli. We had a good atmosphere, and he managed to catch the best moments. He quickly made us relax in front of the camera, as we are not experienced. What he does is professional and the end result speaks for itself, the pictures are beautiful. We heartily recommend him!",
+				link: "/en/portraiture/szilvi-laci/",
+			},
+		},
 		// {
 		// 	type: "male",
 		// 	score: "",
