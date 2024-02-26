@@ -75,7 +75,7 @@ module.exports = {
 		"slugCarPhotography": "cars",
 
 		"homepageMainTitle": "I take authentic portraits and tell horrible jokes.",
-		"homepageRecentTitle": "My Portrait Work from the Last 2 Months",
+		"homepageRecentTitle": "Latest Portrait Work",
 		"homepageVisitLatest": "or see my latest work",
 		"homepageVisitGalleries": "or check out all of my galleries",
 		"homepageVisitAbout": "or get to know me better",
@@ -185,7 +185,7 @@ module.exports = {
 		"slugCarPhotography": "auto",
 
 		"homepageMainTitle": "Őszinte portré fotókat készítek és borzalmas vicceket mesélek.",
-		"homepageRecentTitle": "Munkáim az Elmúlt 2 Hónapból",
+		"homepageRecentTitle": "Legutóbbi Munkáim",
 		"homepageButton": "Fotózzunk!",
 		"homepageVisitLatest": "vagy nézd meg a legfrissebb munkáimat",
 		"homepageVisitGalleries": "vagy nézd meg a galériámat",

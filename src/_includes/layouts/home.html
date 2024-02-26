@@ -36,6 +36,43 @@ css: home
 		</div>
 	</section>
 
+	<section class="section section--grey">
+		<div class="container">
+			<h2 class="home__title text-center mt-0">{{ site[locale].homepageRecentTitle }}</h2>
+			<div class="gallery">
+				{% assign index = 0 %}
+
+				{% if locale == "en" %}
+					{% assign portraitsies = collections.portraiture | reverse | slice: 0,4 %}
+				{% elsif locale == "hu" %}
+					{% assign portraitsies = collections.portré | reverse | slice: 0,4 %}
+				{% endif %}
+
+				{% for post in portraitsies %}
+					<figure class="polaroid">
+						<a class="polaroid__square" href="{{ post.url }}">
+							<img class="polaroid__photo"
+								 srcset="
+									/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_700.webp 700w,
+								 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_500.webp 500w,
+								 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w,
+								 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp 200w
+								 "
+								 sizes="(min-width: 1500px) 400px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), calc(50vw - 55px)"
+								 src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp"
+								 alt="{{ post.data.title }}"
+								 width="350"
+								 height="350">
+						</a>
+						<figcaption class="polaroid__caption">
+							<strong class="polaroid__title">{{ post.data.title }}</strong>
+						</figcaption>
+					</figure>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
 	<section class="section section--white">
 		<div class="container">
 			<h2 class="home__title text-center mt-0">{{ site[locale].homepageTestimonials }}</h2>

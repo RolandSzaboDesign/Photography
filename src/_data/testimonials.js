@@ -1,22 +1,5 @@
 module.exports = {
 	items: [
-		{
-			type: "couple",
-			score: "5.0",
-			photo: "/assets/images/testimonials/szilvi-laci.webp",
-			hu: {
-				name: "M. Szilvi",
-				excerpt: "Roland gyorsan elérte, hogy ellazuljunk a kamera előtt, mivel nem vagyunk rutinosak",
-				text: "Rolival nagyon kellemes volt a fotózás. Jó hangulatban telt, elkapta a legjobb pillanatokat. Gyorsan elérte, hogy ellazuljunk a kamera előtt, mivel nem vagyunk rutinosak. Profi az egész, amit csinál, a végeredmény pedig magáért beszél; gyönyörűek a képek. Szívből ajánljuk őt!",
-				link: "/hu/portre/szilvi-laci/",
-			},
-			en: {
-				name: "Szilvi M.",
-				excerpt: "He quickly made us relax in front of the camera, as we are not experienced",
-				text: "It was a very pleasant photo session with Roli. We had a good atmosphere, and he managed to catch the best moments. He quickly made us relax in front of the camera, as we are not experienced. What he does is professional and the end result speaks for itself, the pictures are beautiful. We heartily recommend him!",
-				link: "/en/portraiture/szilvi-laci/",
-			},
-		},
 		// {
 		// 	type: "male",
 		// 	score: "",
@@ -34,6 +17,40 @@ module.exports = {
 		// 		link: "/en/portraiture//",
 		// 	},
 		// },
+		{
+			type: "female",
+			score: "5.0",
+			photo: "/assets/images/testimonials/verka.webp",
+			hu: {
+				name: "S. Veronika",
+				excerpt: "Hihetetlen jó érzéke van ahhoz, hogy fellazítsa az embert ebben a komfortzónán kívüli helyzetben",
+				text: "Nagyon jó élmény volt a fotózás Rolanddal. Hihetetlen jó érzéke van ahhoz, hogy fellazítsa az embert ebben a helyzetben, ami nekem kifezetetten komfortzónán kívüli. Már az egyeztetésnél nagyon készséges és alkalmazkodó volt, a fotózás maga pedig nagyon jól sikerült, maximálisan elégedett vagyok a munkájával, jó szívvel ajánlom.",
+				link: "/hu/portre/verka/",
+			},
+			en: {
+				name: "Veronika S.",
+				excerpt: "He has an incredible sense of how to loosen you up on a photoshoot",
+				text: "It was a very good experience shooting with Roland. He has an incredible sense of how to loosen you up in this situation, which for me is out of my comfort zone. He was already very responsive and flexible during the consultation, and the photo shoot itself was very well done, I am completely satisfied with his work, I recommend him wholeheartedly.",
+				link: "/en/portraiture/verka/",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			photo: "/assets/images/testimonials/szilvi-laci.webp",
+			hu: {
+				name: "M. Szilvi",
+				excerpt: "Roland gyorsan elérte, hogy ellazuljunk a kamera előtt, mivel nem vagyunk rutinosak",
+				text: "Rolival nagyon kellemes volt a fotózás. Jó hangulatban telt, elkapta a legjobb pillanatokat. Gyorsan elérte, hogy ellazuljunk a kamera előtt, mivel nem vagyunk rutinosak. Profi az egész, amit csinál, a végeredmény pedig magáért beszél; gyönyörűek a képek. Szívből ajánljuk őt!",
+				link: "/hu/portre/szilvi-laci/",
+			},
+			en: {
+				name: "Szilvi M.",
+				excerpt: "He quickly made us relax in front of the camera, as we are not experienced",
+				text: "It was a very pleasant photo session with Roli. We had a good atmosphere, and he managed to catch the best moments. He quickly made us relax in front of the camera, as we are not experienced. What he does is professional and the end result speaks for itself, the pictures are beautiful. We heartily recommend him!",
+				link: "/en/portraiture/szilvi-laci/",
+			},
+		},
 		{
 			type: "female",
 			score: "5.0",
