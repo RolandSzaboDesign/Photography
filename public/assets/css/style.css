@@ -387,9 +387,11 @@ hr {
 }
 
 .list {
-	list-style: disc;
 	margin-left: 1.5rem;
 }
+
+ul.list { list-style: disc; }
+ol.list { list-style: decimal; }
 
 .content-box {
 	padding: 1rem;
