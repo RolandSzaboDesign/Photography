@@ -87,14 +87,14 @@
 	}
 }
 
-.home-nav__link--female { background-image: url('/assets/images/portraiture/laura-4/01_700.webp'); }
+.home-nav__link--female { background-image: url('/assets/images/portraiture/aiganysh/03_700.webp'); }
 .home-nav__link--male   { background-image: url('/assets/images/portraiture/gabor/06_700.webp'); }
-.home-nav__link--couple { background-image: url('/assets/images/portraiture/dori-laci/03_700.webp'); }
+.home-nav__link--couple { background-image: url('/assets/images/portraiture/alejandro-ana/06_700.webp'); }
 
 @media only screen and (min-width: 768px) {
-	.home-nav__link--female { background-image: url('/assets/images/portraiture/laura-4/03_700.webp'); }
+	.home-nav__link--female { background-image: url('/assets/images/portraiture/aiganysh/05_700.webp'); }
 	.home-nav__link--male { background-image: url('/assets/images/portraiture/gabor/01_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/dori-laci/01_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/alejandro-ana/01_700.webp'); }
 }
 
 .home-nav__link:hover,
