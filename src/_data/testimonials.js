@@ -20,6 +20,57 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
+			photo: "/assets/images/testimonials/aiganysh.webp",
+			hu: {
+				name: "Aiganysh K.",
+				excerpt: "Roland kisugárzása és humora nem csak kényelmessé, de igazán magabiztossá is tett a kamera előtt",
+				text: "Nagyon szerettem Rolanddal dolgozni, és nem tudom eléggé ajánlani őt! Kellemes kisugárzása és humora nem csak kényelmessé, de igazán magabiztossá is tett a kamera előtt. A képek hihetetlenül gyönyörűek lettek, és minden egyes fotóba beleszerettem. Végignézve a képeket, egyszerre találom őket természetesnek és lenyűgözően profinak. Aki szeretné, hogy a pillanatait ne csak szépen, de különlegesen is megörökítsék, annak Roland egyértelműen a legjobb ötlet!",
+				link: "/hu/portre/aiganysh/",
+			},
+			en: {
+				name: "Aiganysh K.",
+				excerpt: "Roland's pleasant aura and humor made me feel comfortable and genuinely confident in front of the camera",
+				text: "I absolutely loved working with Roland and I can't recommend him enough! His pleasant aura and humor made me feel not only comfortable but also genuinely confident in front of the camera. The pictures turned out incredibly beautiful and I fell in love with every shot. Looking through the collection, I found them both natural and strikingly professional. For anyone looking to have their moments captured not only beautiful but also special, Roland is definitely the best idea!",
+				link: "/en/portraiture/aiganysh/",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			photo: "/assets/images/testimonials/altjin-baysa.webp",
+			hu: {
+				name: "Altjin E. & Baysa E.",
+				excerpt: "A szolgáltatásai kétségtelenül csúcsminőségűek voltak, és maga az élmény is élvezetes volt",
+				text: "Roland nagyon jó abban, amit csinál, és a családommal együtt nagyon nyugodtnak és magabiztosnak éreztük magunkat a fotózás alatt. A szolgáltatásai kétségtelenül csúcsminőségűek voltak, és maga az élmény is élvezetes volt. A legjobb fotózás, amiben eddig részem volt.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Altjin E. & Baysa E.",
+				excerpt: "His services were definitely top tier and the experience itself was delightful",
+				text: "Roland is really good at what he does and me and my family felt very relaxed and engaged during our shoot. His services were definitely top tier and the experience itself was delightful. Best photoshoot I've had so far.",
+				link: "/en/portraiture/",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			photo: "/assets/images/testimonials/anna-3.webp",
+			hu: {
+				name: "Cs. Anna",
+				excerpt: "Nagyon jó érzéke van ahhoz, hogy a modell, még ha kezdő is, komfortosan érezze magát",
+				text: "Roland számomra a tökéletes fotós! Együtt működtem már sok fotóssal, de a Rolanddal töltött fotózások mindig nagyon emlékezetesek és jó hangulatban zajlanak. Nagyon jó érzéke van ahhoz, hogy a modell, még ha kezdő is, komfortosan érezze magát és ezáltal a legtökéletesebb pillanatban tudja őket lencsevégre kapni. Természetesen Roland kedves személyisége is hozzá járul ehhez. Az utómunkálatokat mindig precízen, de gyorsan végzi. Összegezve gondoltam, ha valaki nincsen jóban a kamerával, Roland mellett biztosan el tudja engedni majd a gátlásait, ezért is szívből ajánlom mindenkinek!",
+				link: "/hu/portre/anna-15/",
+			},
+			en: {
+				name: "Anna Cs.",
+				excerpt: "He has a very good sense for making the model, even if she is a beginner, feel comfortable",
+				text: "Roland is the perfect photographer for me! I've worked with many photographers, but sessions with Roland are always very memorable and fun. He has a very good sense for making the model, even if she is a beginner, feel comfortable and thus being able to capture them in the most perfect moments. Of course, Roland's friendly personality also contributes to this. His post-processing is always precise but quick. To sum up, I think that if you are not at ease with the camera, with Roland you will be able to let go of your inhibitions, and I would highly recommend him to everyone!",
+				link: "/en/portraiture/anna-15/",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonials/viktoria.webp",
 			hu: {
 				name: "M. Viktória",

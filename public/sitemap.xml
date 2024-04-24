@@ -1321,10 +1321,6 @@
 		<lastmod>2024-02-01T13:55:17.137Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
-		<lastmod>2024-02-01T13:55:17.138Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/services/vintage-photo-walks/</loc>
 		<lastmod>2024-02-01T13:55:17.138Z</lastmod>
 	</url>
@@ -1421,14 +1417,6 @@
 		<lastmod>2024-02-22T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/budapest-photo-walk/</loc>
-		<lastmod>2024-02-22T21:15:39.161Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/budapest-photo-walk/</loc>
-		<lastmod>2024-02-22T21:15:39.161Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/female-portraits/</loc>
 		<lastmod>2024-02-24T15:23:38.586Z</lastmod>
 	</url>
@@ -1489,11 +1477,11 @@
 		<lastmod>2024-03-15T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/pages/aiganysh/</loc>
+		<loc>https://rolandszabo.photo/en/portraiture/aiganysh/</loc>
 		<lastmod>2024-03-19T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/portraiture/aiganysh/</loc>
+		<loc>https://rolandszabo.photo/hu/portre/aiganysh/</loc>
 		<lastmod>2024-03-19T00:00:00.000Z</lastmod>
 	</url>
 	<url>
@@ -1535,5 +1523,17 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/blog/tajfotozas-elokeszuletek/</loc>
 		<lastmod>2024-04-24T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/budapest-photo-walk/</loc>
+		<lastmod>2024-04-24T19:19:15.925Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
+		<lastmod>2024-04-24T19:19:15.926Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/budapest-photo-walk/</loc>
+		<lastmod>2024-04-24T19:19:15.935Z</lastmod>
 	</url>
 </urlset>
