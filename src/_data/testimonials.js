@@ -35,6 +35,23 @@ module.exports = {
 			},
 		},
 		{
+			type: "male",
+			score: "5.0",
+			photo: "/assets/images/testimonials/mate-2.webp",
+			hu: {
+				name: "S. Máté",
+				excerpt: "Garantálom, hogy nem ez lesz az utolsó portrésorozatod Rolanddal",
+				text: "A legjobb választás Roland, ha életed első fotózásán veszel részt, garantálom, hogy nem ez lesz az utolsó portrésorozatod nála.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Máté S.",
+				excerpt: "I can guarantee that your first portrait session with Roland won't be your last one",
+				text: "Roland is the best choice if you're on the first photo shoot of your life, and I guarantee it won't be your last portrait session with him.",
+				link: "/en/portraiture/",
+			},
+		},
+		{
 			type: "couple",
 			score: "5.0",
 			photo: "/assets/images/testimonials/altjin-baysa.webp",
@@ -57,13 +74,13 @@ module.exports = {
 			photo: "/assets/images/testimonials/anna-3.webp",
 			hu: {
 				name: "Cs. Anna",
-				excerpt: "Nagyon jó érzéke van ahhoz, hogy a modell, még ha kezdő is, komfortosan érezze magát",
+				excerpt: "Nagyon jó érzéke van ahhoz, hogy a modell komfortosan érezze magát, még ha kezdő is",
 				text: "Roland számomra a tökéletes fotós! Együtt működtem már sok fotóssal, de a Rolanddal töltött fotózások mindig nagyon emlékezetesek és jó hangulatban zajlanak. Nagyon jó érzéke van ahhoz, hogy a modell, még ha kezdő is, komfortosan érezze magát és ezáltal a legtökéletesebb pillanatban tudja őket lencsevégre kapni. Természetesen Roland kedves személyisége is hozzá járul ehhez. Az utómunkálatokat mindig precízen, de gyorsan végzi. Összegezve gondoltam, ha valaki nincsen jóban a kamerával, Roland mellett biztosan el tudja engedni majd a gátlásait, ezért is szívből ajánlom mindenkinek!",
 				link: "/hu/portre/anna-15/",
 			},
 			en: {
 				name: "Anna Cs.",
-				excerpt: "He has a very good sense for making the model, even if she is a beginner, feel comfortable",
+				excerpt: "He has a very good sense for making the model feel comfortable, even if she is a beginner",
 				text: "Roland is the perfect photographer for me! I've worked with many photographers, but sessions with Roland are always very memorable and fun. He has a very good sense for making the model, even if she is a beginner, feel comfortable and thus being able to capture them in the most perfect moments. Of course, Roland's friendly personality also contributes to this. His post-processing is always precise but quick. To sum up, I think that if you are not at ease with the camera, with Roland you will be able to let go of your inhibitions, and I would highly recommend him to everyone!",
 				link: "/en/portraiture/anna-15/",
 			},
