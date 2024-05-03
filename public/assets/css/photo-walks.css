@@ -41,7 +41,6 @@
 		width: 40%;
 	}
 
-	@media only screen and (min-width: 768px) {
 	.floating-photo--left {
 		float: left;
 		margin-right: 2rem;
@@ -63,4 +62,10 @@
 	font-size: .875rem;
 	text-align: center;
 	line-height: 1;
+}
+
+.photo-grid {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-gap: 0;
 }

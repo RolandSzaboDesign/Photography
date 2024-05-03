@@ -355,6 +355,7 @@ ins {
 }
 
 hr {
+	clear: both;
 	margin: 2rem 0;
 	border: 0;
 	border-bottom: 1px solid var(--bg-dark);

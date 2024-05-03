@@ -26,6 +26,7 @@ module.exports = {
 		"peterVarsics": "Peter Varsics",
 		"csanadAlfoldi": "Csanad Alfoldi",
 		"benceMedveczky": "Bence Medveczky",
+		"gaborTomor": "Gabor Tomor",
 
 		"headerName": "Roland Szabó",
 		"headerDescription": "Budapest Portrait Photographer",
@@ -136,6 +137,7 @@ module.exports = {
 		"peterVarsics": "Varsics Péter",
 		"csanadAlfoldi": "Alföldi Csanád",
 		"benceMedveczky": "Medveczky Bence",
+		"gaborTomor": "Tömör Gábor",
 
 		"headerName": "Szabó Roland",
 		"headerDescription": "Budapesti Portré Fotós",
