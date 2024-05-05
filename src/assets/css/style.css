@@ -341,8 +341,12 @@ strong {
 }
 
 small {
-	font-size: 85%;
+	font-size: 80%;
 	letter-spacing: 0;
+}
+
+.small {
+	font-size: 70%;
 }
 
 del {

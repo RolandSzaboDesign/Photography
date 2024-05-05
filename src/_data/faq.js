@@ -236,14 +236,26 @@ module.exports = {
 	pricing: [
 		{
 			hu: {
+				id: "extra-koltsegek",
+				question: "Vannak extra költségek?",
+				answer: "Csak speciális esetekben: <ul class='list'><li><strong>Közlekedés:</strong> Budapest külső kerületeiben vagy vidéken történő fotózások esetén autómegosztási díj fizetendő (max. távolság egy irányban ~100km, napi díj maximum 14.680 Ft).</li><li><strong>Több helyszínen történő fotózás:</strong> Ha a fotózás több, egymástól messze lévő helyszínt is érint, akkor autómegosztási díj is felmerülhet (Budapesten belül jellemzően néhány ezer forint).</li><li><strong>Belépők, engedélyek:</strong> A belépési díjjal, vagy engedéllyel rendelkező helyszíneken történő fotózás minden költsége Téged terhel.</li></ul>",
+			},
+			en: {
+				id: "additional-fees",
+				question: "Are there any additional fees?",
+				answer: "Only in special cases, as follows: <ul class='list'><li><strong>Transport:</strong> For shoots beyond Budapest's outer districts or countryside, a carsharing fee may apply (max distance in one direction: ~100km, maximum daily fee: 40 EUR).</li><li><strong>Multi-location photo sessions:</strong> If your shoot involves more than one location, carsharing fees may apply (typically a few EUR inside Budapest).</li><li><strong>Entry fees, permits</strong> Any costs for shooting in locations with entry fees or permits are covered by you.</li></ul>",
+			},
+		},
+		{
+			hu: {
 				id: "peldak-arazasra",
 				question: "Adsz néhány példát az árazásra?",
-				answer: "<ul class='list'><li><strong>1. eset:</strong> Csak 5 fotóra van szükséged &mdash; 25.000 Ft, ami az alapáram. Így kapsz még 5 képet, amit további módokon fel tudsz használni.</li><li><strong>2. eset:</strong> 10 fotóra van szükséged &mdash; 25.000 Ft, pontosan az alapár.</li><li><strong>3. eset:</strong> 20 fotót választottál a fotózás után &mdash; ez összesen 35.000 Ft.</li><li><strong>4. eset:</strong> 12 fotóra van szükséged és béreltünk egy autót 2.000 Ft-ért &mdash; ez így 25.000 (alapár) + 2.000 (+2 kép) + 2.000 (carsharing) = 29.000 Ft.</li></ul>",
+				answer: "Minden példa A Teljes Élményre vonatkozik. <ul class='list'><li><strong>1. eset:</strong> Csak 5 fotóra van szükséged &mdash; 25.000 Ft, ami az alapáram. Így kapsz még 5 képet, amit további módokon fel tudsz használni.</li><li><strong>2. eset:</strong> 10 fotóra van szükséged &mdash; 25.000 Ft, pontosan az alapár.</li><li><strong>3. eset:</strong> 20 fotót választottál a fotózás után &mdash; ez összesen 35.000 Ft.</li><li><strong>4. eset:</strong> 12 fotóra van szükséged és béreltünk egy autót 2.000 Ft-ért &mdash; ez így 25.000 (alapár) + 2.000 (+2 kép) + 2.000 (carsharing) = 29.000 Ft.</li></ul>",
 			},
 			en: {
 				id: "pricing-examples",
 				question: "Can I get some examples on pricing?",
-				answer: "<ul class='list'><li>You really only need 5 photos &mdash; that's 100 EUR which is my current base fee. That will include an additional 5 photos for further use.</li><li>You need 10 photos &mdash; that's 100 EUR, same as the base fee.</li><li>You choose 20 photos after the shoot &mdash; that's a total of 150 EUR.</li><li>You need 12 photos and we used a carsharing service to travel between locations for 5 EUR &mdash; that's 100 EUR (base fee) + 10 EUR (+2 photos) + 5 EUR (carsharing) = 115 EUR.</li></ul>",
+				answer: "All examples apply to The Full Experience. <ul class='list'><li>You really only need 5 photos &mdash; that's 100 EUR which is my current base fee. That will include an additional 5 photos for further use.</li><li>You need 10 photos &mdash; that's 100 EUR, same as the base fee.</li><li>You choose 20 photos after the shoot &mdash; that's a total of 150 EUR.</li><li>You need 12 photos and we used a carsharing service to travel between locations for 5 EUR &mdash; that's 100 EUR (base fee) + 10 EUR (+2 photos) + 5 EUR (carsharing) = 115 EUR.</li></ul>",
 			},
 		},
 		{

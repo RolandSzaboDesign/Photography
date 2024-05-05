@@ -138,6 +138,10 @@ img {
 	padding-right: var(--grid-gutter);
 }
 
+.container--thin {
+	max-width: 60rem;
+}
+
 .section {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -341,8 +345,12 @@ strong {
 }
 
 small {
-	font-size: 85%;
+	font-size: 80%;
 	letter-spacing: 0;
+}
+
+.small {
+	font-size: 70%;
 }
 
 del {

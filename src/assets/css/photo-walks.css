@@ -69,3 +69,49 @@
 	grid-template-columns: repeat(7, 1fr);
 	grid-gap: 0;
 }
+
+.plans {
+	display: grid;
+	align-items: start;
+	grid-gap: 2rem;
+	margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.plans {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.plan {
+	padding: 2rem;
+	border-top: .5rem solid var(--highlight);
+	background-color: #FFF;
+	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.25);
+}
+
+.plan__title {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.plan__price-starts {
+	padding: .5rem 1rem;
+	font-weight: 700;
+	font-size: .875rem;
+	line-height: 1;
+	text-transform: uppercase;
+	border-radius: .5rem;
+	background-color: var(--bg);
+}
+
+.plan__price-amount {
+	display: block;
+	font-family: var(--serif);
+	font-weight: 400;
+	font-size: 3rem;
+	color: var(--text-dark);
+	letter-spacing: -1px;
+}
