@@ -138,10 +138,6 @@ img {
 	padding-right: var(--grid-gutter);
 }
 
-.container--thin {
-	max-width: 60rem;
-}
-
 .section {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
