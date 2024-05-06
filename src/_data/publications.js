@@ -13,6 +13,42 @@ module.exports = {
 		// 	}
 		// },
 		{
+			title: "Beautica",
+			image: "/assets/images/publications/beautica-24-apr.webp",
+			en: {
+				"description": "Publication",
+				"issue": "April 2024",
+			},
+			hu: {
+				"description": "Megjelenés",
+				"issue": "2024 Április",
+			}
+		},
+		{
+			title: "GMARO",
+			image: "/assets/images/publications/gmaro-39.webp",
+			en: {
+				"description": "Publication",
+				"issue": "April 2024, issue 39",
+			},
+			hu: {
+				"description": "Megjelenés",
+				"issue": "2024 Április, 39-ik kiadás",
+			}
+		},
+		{
+			title: "Penida",
+			image: "/assets/images/publications/penida-11.webp",
+			en: {
+				"description": "Publication",
+				"issue": "March 2024, issue 11",
+			},
+			hu: {
+				"description": "Megjelenés",
+				"issue": "2024 Március, 11-ik kiadás",
+			}
+		},
+		{
 			title: "StyléCruze",
 			image: "/assets/images/publications/stylecruze-24-jan.webp",
 			en: {
