@@ -116,7 +116,8 @@ module.exports = {
 
 		"ctaTitle": "Let's Create Your Unique Story",
 		"ctaText": "Whether you have a creative idea in mind or simply want to discover the magic of being authentically captured, the next chapter of your story starts here.",
-		"ctaButton": "Let's do a Photoshoot",
+		"ctaButton": "Choose Your Experience",
+		"latestButton": "Check out my Recent Work",
 
 		"blogWrittenBy": "Written by",
 		"blogWrittenOn": "on",
@@ -227,7 +228,8 @@ module.exports = {
 
 		"ctaTitle": "Készítsük el a Te Történetedet",
 		"ctaText": "Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.",
-		"ctaButton": "Nézzük a Részleteket",
+		"ctaButton": "Válassz Élményt",
+		"latestButton": "Nézd Meg a Munkáimat",
 
 		"blogWrittenBy": "Írta",
 		"blogWrittenOn": "ekkor:",
