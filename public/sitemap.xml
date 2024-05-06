@@ -1253,16 +1253,8 @@
 		<lastmod>2024-02-01T13:49:36.624Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/services/</loc>
-		<lastmod>2024-02-01T13:52:05.928Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/hu/portre/</loc>
 		<lastmod>2024-02-01T13:52:05.958Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/szolgaltatasok/</loc>
-		<lastmod>2024-02-01T13:52:05.962Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/404.html</loc>
@@ -1313,10 +1305,6 @@
 		<lastmod>2024-02-01T13:55:17.137Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/services/autumn-portrait-photography/</loc>
-		<lastmod>2024-02-01T13:55:17.137Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/services/film-photo-walks/</loc>
 		<lastmod>2024-02-01T13:55:17.137Z</lastmod>
 	</url>
@@ -1362,10 +1350,6 @@
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/ferfi-portrek/</loc>
-		<lastmod>2024-02-01T13:55:17.153Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/szolgaltatasok/oszi-portre-fotozas/</loc>
 		<lastmod>2024-02-01T13:55:17.153Z</lastmod>
 	</url>
 	<url>
@@ -1559,5 +1543,13 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
 		<lastmod>2024-05-03T16:11:57.614Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/services/</loc>
+		<lastmod>2024-05-06T09:57:28.723Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/</loc>
+		<lastmod>2024-05-06T09:57:28.724Z</lastmod>
 	</url>
 </urlset>
