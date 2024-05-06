@@ -97,23 +97,6 @@ module.exports = {
 		"gearPhotoTitle": "I'm on fire, baby!",
 		"homePhotoTitle": "Visible concentration :D",
 
-		"servicesPortraitureIntro": "I do outdoor photo walks in Budapest with individuals, couples and families to create everlasting memories. You can even bring your pet or your hobby! Here's how easy it is:",
-		"servicesVintagePortraitureIntro": "Let's make your portraits really special with vintage lenses made for old film cameras! Extraordinary colors, fabled background bokeh and stylistic image quality.",
-		"servicesAnalogPortraitureIntro": "Introducing Film Portraits: Rediscover the Art of Timeless Expression. 36 clicks that you'll cherish for a lifetime.",
-		"servicesAutumnPortraitureIntro": "Autumn Intro EN",
-
-		"analogPromoTitle": "Analog Film Photography",
-		"analogPromoText": "Step into the world of rich colors, grainy textures, and evocative storytelling by having your next portrait set shot on film.",
-		"analogPromoButton": "Let's see it!",
-		"analogPromoImageAlt": "Nostalgic photo of Eszter, shot on Fujifilm Velvia 50 film with a 50-year old Soviet SLR camera.",
-		"analogPromoLink": "/en/services/film-photo-walks/",
-
-		"vintagePromoTitle": "Best of Both Worlds",
-		"vintagePromoText": "Discover a whole new dimension of artistic expression, by merging the classic charm of vintage lenses with the convenience and versatility of modern technology.",
-		"vintagePromoButton": "Let's see it!",
-		"vintagePromoImageAlt": "Wonderful photo of Polina, taken with a Helios 44-2 vintage lens with incredible swirly bokeh rendering.",
-		"vintagePromoLink": "/en/services/vintage-photo-walks/",
-
 		"ctaTitle": "Let's Create Your Unique Story",
 		"ctaText": "Whether you have a creative idea in mind or simply want to discover the magic of being authentically captured, the next chapter of your story starts here.",
 		"ctaButton": "Choose Your Experience",
@@ -209,22 +192,6 @@ module.exports = {
 		"contactPhotoTitle": "Miben tudok segíteni?",
 		"gearPhotoTitle": "Elég forró volt a helyzet...",
 		"homePhotoTitle": "Ne zavarj, koncentrálok! :D",
-
-		"servicesPortraitureIntro": "Laza, nyugodt hangulatú fotós séták során készítek maradandó emlékeket. A formátum lehet egyéni, páros vagy családi, de elhozhatod a kis kedvencedet vagy akár a hobbidat is! Ilyen egyszerű a folyamat:",
-		"servicesVintagePortraitureIntro": "Régi, filmes fényképezőgépekhez készült objektívek használatával egyedi megjelenésű portré fotókat készíthetünk, egzotikus rajzolattal, nem mindennapi színvilággal és mesébe illő háttérmosással. Kölcsönözz igazán egyedi hangulatot a fotóidnak!",
-		"servicesAnalogPortraitureIntro": "A mai digitális képekkel telített világban a filmes portrékkal igazán kitűnhetsz a tömegből! Klasszikus színek, művészien szemcsés képek, és a jól megszokott nagyszerű hangulat vár Rád a filmes portréfotózáson!",
-
-		"analogPromoTitle": "Analóg Filmes Fotózás",
-		"analogPromoText": "Ha igazán retró hangulatú, valóban nem mindennapi fotósorozatot szeretnél, akkor szeretettel ajánlom a filmes fotózás gazdag színeit, szemcsés textúráit és hangulatos történetmesélését!",
-		"analogPromoButton": "Érdekel!",
-		"analogPromoImageAlt": "Nosztalgikus hangulatú fotó Eszterről, melyet Fujifilm Velvia 50 filmre fotóztunk egy 50 éves szovjet filmes fényképezőgéppel.",
-		"analogPromoLink": "/hu/szolgaltatasok/filmes-fotos-setak/",
-
-		"vintagePromoTitle": "Mindkét Világ Legjobbja",
-		"vintagePromoText": "Próbáld ki a művészi kifejezés egy új dimenzióját azáltal, hogy vintage objektívek egzitukus rajzolatát párosítjuk a modern technológia minőségével és kényelmével.",
-		"vintagePromoButton": "Érdekel!",
-		"vintagePromoImageAlt": "Polina csodás fotója, amit egy ötven éves, mesés rajzolatú Helios 44-2 objektívvel készítettünk",
-		"vintagePromoLink": "/hu/szolgaltatasok/vintage-fotos-setak/",
 
 		"ctaTitle": "Készítsük el a Te Történetedet",
 		"ctaText": "Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.",
