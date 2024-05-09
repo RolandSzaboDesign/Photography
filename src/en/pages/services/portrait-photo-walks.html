@@ -50,9 +50,6 @@ css: photo-walks
 			<p>You don't need to be a model to look incredible in photographs. Whether you want to stroll through the streets of Budapest or take a walk in the calmness of nature, I'll capture your true self in every shot.</p>
 			<p>Ready to prove those doubts wrong? Book a session with me today and experience the joy of being authentically photographed. Say hello to your true photogenic self.</p>
 			<p><a class="button" href="#pricing"><i class="fas fa-fw fa-circle-down"></i>&nbsp; Start Your Transformation</a></p>
-			<hr>
-			{% assign category = faq.delivery %}
-			{% include "partials/faq.html" %}
 		</div>
 	</section>
 
@@ -71,8 +68,8 @@ css: photo-walks
 			<div class="half">
 				<div>
 					<h2 class="mt-0 mb-2">They Weren't Born Models Either</h2>
-					<p>Before they stepped in front of my lens, many of my clients doubted their photogenic potential. But after our sessions, they discovered something remarkable – their true beauty.</p>
-					<p>Just like them, you may have questioned your photogenic abilities. But rest assured, I'm here to show you that you are inherently photogenic – and together, we'll capture the best version of you.</p>
+					<p>Before they stepped in front of my lens, many of my clients doubted their photogenic potential. But after our sessions, they discovered something remarkable &ndash; their true beauty.</p>
+					<p>Just like them, you may have questioned your photogenic abilities. But rest assured, I'm here to show you that you are inherently photogenic &ndash; and together, we'll capture the best version of you.</p>
 					<p><a class="button mt-2" href="#pricing"><i class="fas fa-fw fa-circle-down"></i>&nbsp; I'm Ready</a></p>
 				</div>
 				<div class="photo-grid">
@@ -214,6 +211,36 @@ css: photo-walks
 				{% include "partials/testimonial-excerpt.html", id: 9 %}
 				{% include "partials/testimonial-excerpt.html", id: 10 %}
 				{% include "partials/testimonial-excerpt.html", id: 11 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<h2>Why Choose Me</h2>
+			<figure class="floating-photo floating-photo--right">
+				<img class="floating-photo__photo" src="/assets/images/bts-2.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos.photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
+			</figure>
+			<p>Over the years I've developed our a method that I swear you'll be in good hands with if you choose me as your photographer. Here are some of the benefits I think you'll like.</p>
+			<ul>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Portrait photography for me is not a production line job, but a unique, personalized experience. My primary goal is not to take great photos, but to make you feel as comfortable as possible.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; I really do care about your situation, and you're encouraged to talk about your feelings. If you're able to relax and feel at ease, a safe atmosphere is created that allows us both to be authentic and take great photos.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; You can choose the location, the outfits, the theme, everything. I'm always open to your ideas during our photo session.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; On the day of your session, I will give you one of my favorite photos, edited and retouched, free of charge. So you'll already have a great photo from the day of your session to share or print.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; After your session, you'll be able to choose your favourite photos for me to work on. I'll be happy to help you find the best ones photographically, but you have 100% freedom to choose the photos you like best.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Sometimes I'll take 1 or 2 photos on film, if I have my analog camera with me. I'll gift you those photos as soon as I get them back from the lab.</li>
+			</ul>
+			<p><a class="button" href="https://instagram.com/rolandszabo.photo/"><i class="fas fa-fw fa-envelope"></i>&nbsp; This is for me!</a></p>
+		</div>
+	</section>
+
+	<section class="section section--white section--testimonials">
+		<div class="container">
+			<div class="testimonials">
+				{% include "partials/testimonial-excerpt.html", id: 12 %}
+				{% include "partials/testimonial-excerpt.html", id: 13 %}
+				{% include "partials/testimonial-excerpt.html", id: 14 %}
 			</div>
 		</div>
 	</section>

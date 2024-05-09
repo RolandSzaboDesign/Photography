@@ -50,9 +50,6 @@ css: photo-walks
 			<p>Nem kell modellnek lenned ahhoz, hogy hihetetlenül jól nézz ki a fényképeken. Akár Budapest utcáin szeretnél sétálni, akár a természet nyugalmában, minden fotón igyekszem megragadni az igazi énedet.</p>
 			<p>Készen állsz arra, hogy megcáfold a kételyeidet? Foglalj időpontot még ma, és ismerd meg a hiteles fotózás örömét. Én készen állok. És Te?</p>
 			<p><a class="button" href="#elmenyek"><i class="fas fa-fw fa-circle-down"></i>&nbsp; Irány az Átalakulás</a></p>
-			<hr>
-			{% assign category = faq.delivery %}
-			{% include "partials/faq.html" %}
 		</div>
 	</section>
 
@@ -217,57 +214,34 @@ css: photo-walks
 			</div>
 		</div>
 	</section>
-</main>
 
-<script type="application/ld+json">
-{
-	"@context": "http://schema.org",
-	"@type": "Product",
-	"name": "Portré Fotózás",
-	"image": "https://rolandszabo.photo/assets/images/portraiture/polina/04_700.webp",
-	"description": "Laza, nyugodt hangulatú fotós séták során készítek maradandó emlékeket. A formátum lehet egyéni, páros vagy családi, de elhozhatod a kis kedvencedet vagy akár a hobbidat is!",
-	"brand": {
-		"@type": "Brand",
-		"name": "Szabó Roland",
-		"logo": "https://rolandszabo.photo/assets/images/logo.svg"
-	},
-	"offers": {
-		"@type": "Offer",
-		"availability": "https://schema.org/InStock",
-		"price": "25.000",
-		"priceCurrency": "HUF",
-		"priceValidUntil": "2025-01-01"
-	},
-	"review": [
-		{
-			"@type": "Review",
-			"author": {
-				"@type": "Person",
-				"name": "S. Klementina & L. Ádám"
-			},
-			"reviewBody": "A kezdeti bátortalanságot gyorsan feloldották Roland poénos és segítő “utasításai”"
-		},
-		{
-			"@type": "Review",
-			"author": {
-				"@type": "Person",
-				"name": "Sara T."
-			},
-			"reviewBody": "A fotózásunk első pillanattól kezdve kényelmesen és magabiztosnak éreztem magam a kamera előtt"
-		},
-		{
-			"@type": "Review",
-			"author": {
-				"@type": "Person",
-				"name": "M. Anna"
-			},
-			"reviewBody": "Roland humorával, odaadásával és a fotózás iránti szenvedélyével mindenki biztonságban, megbecsülve érezheti magát"
-		}
-	],
-	"aggregateRating": {
-		"@type": "AggregateRating",
-		"ratingValue": 5.0,
-		"reviewCount": 40
-	}
-}
-</script>
+	<section class="section">
+		<div class="container">
+			<h2>Miért Válassz Engem?</h2>
+			<figure class="floating-photo floating-photo--right">
+				<img class="floating-photo__photo" src="/assets/images/bts-2.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
+				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos.photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
+			</figure>
+			<p>Az évek során kialakítottam egy olyan módszert, amivel bátran állíthatom, hogy jó kezekben leszel, ha engem választasz fotósodként. Íme pár előny, ami tetszeni fog.</p>
+			<ul>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Nekem a fotózás nem futószalagos munka, hanem egyedi, személyre szabott élmény. Sosem a fotók az elsőszámú célom, hanem az, hogy a lehető legjobban érezd Magad.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Engem tényleg érdekel, hogy hogy érzed Magad, és bátran beszélhetsz is az érzéseidről. Ha el tudsz lazulni, azzal kialakul egy olyan baráti közeg, amiben kényelmesen mozgunk és őszinte képeket készítünk.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Te választhatsz helyszínt, ruhát, kiegészítőt, és nyitott vagyok minden ötletedre és kreatív gondolatodra a fotózás során.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Még a fotózás napján kapsz tőlem egy végleges, retusált képet ajándékba, ami az én egyik kedvencem. Így már aznap lesz egy profi fotód, amit azonnal meg is oszthatsz a szeretteiddel, vagy akár ki is nyomtathatsz.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Te válaszhatod ki a fotózás után a kedvenc képeidet, amiket megszerkesztek. Szívesen segítek a fotográfiailag legjobbakat kiválasztani, de végső soron 100%-ban a Te kezedben van a döntés.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Néha elkattintok pár képet filmre is, ha nálam van az analóg fényképezőgépem. Ezeket a képeket mindig ajándékba kapod tőlem, amint előhívják a tekercset.</li>
+			</ul>
+			<p><a class="button" href="https://instagram.com/rolandszabo.photo/"><i class="fas fa-fw fa-envelope"></i>&nbsp; Írok is Üzenetet</a></p>
+		</div>
+	</section>
+
+	<section class="section section--white section--testimonials">
+		<div class="container">
+			<div class="testimonials">
+				{% include "partials/testimonial-excerpt.html", id: 12 %}
+				{% include "partials/testimonial-excerpt.html", id: 13 %}
+				{% include "partials/testimonial-excerpt.html", id: 14 %}
+			</div>
+		</div>
+	</section>
+</main>
