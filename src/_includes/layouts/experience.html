@@ -29,6 +29,17 @@ css: photo-walks
 		</div>
 	</section>
 
+	<section class="section section--white section--testimonials">
+		<div class="container">
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% include "partials/testimonial-excerpt.html", id: 0 %}
+				{% include "partials/testimonial-excerpt.html", id: 1 %}
+				{% include "partials/testimonial-excerpt.html", id: 2 %}
+			</div>
+		</div>
+	</section>
+
 	<section class="section">
 		<div class="container">
 			<div class="half">
@@ -38,8 +49,34 @@ css: photo-walks
 				<div>
 					<h2 class="mt-0 mb-2">{{ experiences[experience][locale].experienceTitle }}</h2>
 					<p>{{ experiences[experience][locale].experienceText }}</p>
+					<p class="mb-0"><a class="button" href="#"><i class="fas fa-fw fa-circle-down"></i>&nbsp; {{ experiences[experience][locale].experienceButtonText }}</a></p>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<section class="section section--white section--testimonials">
+		<div class="container">
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% include "partials/testimonial-excerpt.html", id: 3 %}
+				{% include "partials/testimonial-excerpt.html", id: 4 %}
+				{% include "partials/testimonial-excerpt.html", id: 5 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="half">
+				<div>
+				</div>
+				<div>
+					<h2 class="mt-0 mb-2">További élmények</h2>
+					<p>for összes mínusz jelenlegi</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 </main>

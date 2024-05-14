@@ -18,8 +18,9 @@ module.exports = {
 			heroTitle: 'Being camera shy simply means no one has ever captured your true beauty in a photograph. <br><em>That changes today.</em>',
 			heroTagline: 'Dive into a quick but wholesome session where we\'ll unveil your innate beauty. In just 30 minutes, I\'ll show you that you are indeed photogenic.',
 			heroButtonText: 'I\'m interested!',
-			experienceTitle: 'Here\'s What You Get',
-			experienceText: 'Get ready for a fun and empowering session! We\'ll capture your essence in one location, with one outfit, and deliver three beautifully retouched photos within 1-3 days. It\'s a fast-track to confidence and self-discovery!',
+			experienceTitle: 'Who is this for?',
+			experienceText: 'If you\'re feeling camera-shy or uncertain about your photogenic abilities, then this is the experience you\'ve been waiting for! This introductory session is designed for new customers who want to dip their toes into the world of portrait photography. It\'s ideal for individuals who have never had a professional photo session or who may feel nervous in front of the camera. <br><br><em>This experience is only available in solo format and for new customers. If you\'ve already had the pleasure of shooting with me before, I recommend upgrading to <a href="/experiences/the-full-experience">The Full Experience</a> for a more immersive and personalized journey into the world of portraiture.</em>',
+			experienceButtonText: 'This is for me!',
 		},
 		hu: {
 			name: '"Nem Vagyok Fotogén"',
@@ -62,6 +63,9 @@ module.exports = {
 			heroTitle: '',
 			heroTagline: '',
 			heroButtonText: '',
+			experienceTitle: 'Who is this for?',
+			experienceText: 'The Full Experience is tailor-made for those seeking a deeper dive into the world of portrait photography. Whether you\'re a seasoned model or a first-time subject, this adventure is perfect for anyone ready to laugh, explore, and embrace their unique radiance. Ideal for individuals, couples, families, and friends, this package offers flexibility and variety to suit your preferences and style. Plus, with personalized discounts on additional photo selections, it\'s perfect for those looking to create lasting memories and cherish every moment.',
+			experienceButtonText: 'This is for me!',
 		},
 		hu: {
 			name: 'A Teljes Élmény',
@@ -107,6 +111,9 @@ module.exports = {
 			heroTitle: '',
 			heroTagline: '',
 			heroButtonText: '',
+			experienceTitle: 'Who is this for?',
+			experienceText: 'Calling all dreamers and adventurers! Fairytale Fantasy is designed for those who dare to dream and desire a truly enchanting experience. Whether you\'re celebrating a special occasion or simply want to indulge in a magical transformation, this package is for you. Ideal for individuals looking to channel their inner heroine or for couples seeking a romantic escapade, Fairytale Fantasy offers a whimsical journey filled with wonder and delight. With professional makeup services and the option to don a fancy dress costume, it\'s perfect for those ready to step into the spotlight and create their own fairy tale ending.',
+			experienceButtonText: 'This is for me!',
 		},
 		hu: {
 			name: 'Tündérmese Fantázia',
