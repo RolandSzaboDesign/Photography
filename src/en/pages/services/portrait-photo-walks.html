@@ -140,57 +140,11 @@ css: photo-walks
 	<section class="section" id="pricing">
 		<div class="container">
 			<h2 class="h1 mt-0 mb-2 text-center">Pricing</h2>
-			<ul class="plans">
-				<li class="plan">
-					<h3 class="plan__title">"I'm Not Photogenic"</h3>
-					<p>Quick but wholesome experience where I'll show you that you are indeed photogenic. Only available for first-time customers.</p>
-					<p class="plan__price">
-						<strong class="plan__price-amount">40.00 <small class="small">EUR</small></strong>
-					</p>
-					<ul>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; You'll receive <strong>3</strong> retouched photos</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Up to 30 minutes of shooting</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; 1 location</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; 1 outfit</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Final photos delivered in 1-3 days</li>
-					</ul>
-				</li>
-				<li class="plan">
-					<h3 class="plan__title">The Full Experience</h3>
-					<p>Dive into a world of fun and laughter with my signature portrait experience. We walk, we talk, we create photos, and you walk away being a better version of yourself.</p>
-					<p class="plan__price">
-						<span class="plan__price-starts">Initial Investment</span>
-						<strong class="plan__price-amount">100.00 <small class="small">EUR</small></strong>
-					</p>
-					<ul>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; You'll receive <strong>10</strong> edited and retouched photos of your choice</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Up to 2 hours of shooting</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Up to 2 locations</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Up to 2 outfits</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Final photos delivered in 1-5 days</li>
-						<li><i class="fa-solid fa-circle-plus text-highlight"></i>&nbsp; I'll gift you my favorite photo of the day, edited and retouched</li>
-						<li><i class="fa-solid fa-circle-plus text-highlight"></i>&nbsp; Additional photo selection from 5.00 EUR each with personalized discounts when choosing lots of photos</li>
-					</ul>
-				</li>
-				<li class="plan">
-					<h3 class="plan__title">Fairytale Fantasy</h3>
-					<p>Become the protagonist of your very own fairy tale. Experience a magical transformation that will create everlasting memories and magazine-worthy photographs.</p>
-					<p class="plan__price">
-						<span class="plan__price-starts">Initial Investment</span>
-						<strong class="plan__price-amount">160.00 <small class="small">EUR</small></strong>
-					</p>
-					<ul>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; You'll receive <strong>20</strong> edited and retouched photos of your choice</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Up to 3 hours of shooting</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Up to 3 locations</li>
-						<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; Final photos delivered in 1-7 days</li>
-						<li><i class="fa-solid fa-circle-plus text-highlight"></i>&nbsp; I'll gift you my favorite photo of the day, edited and retouched</li>
-						<li><i class="fa-solid fa-circle-plus text-highlight"></i>&nbsp; Additional photo selection from 5.00 EUR each with personalized discounts when choosing lots of photos</li>
-						<li><i class="fa-solid fa-circle-plus text-highlight"></i>&nbsp; Professional make-up services included</li>
-						<li><i class="fa-solid fa-circle-plus text-highlight"></i>&nbsp; Fancy dress custome of your choice included (optional)</li>
-					</ul>
-				</li>
-			</ul>
+			<div class="plans">
+				{% include 'partials/pricing-table.html', type: 'imNotPhotogenic' %}
+				{% include 'partials/pricing-table.html', type: 'theFullExperience' %}
+				{% include 'partials/pricing-table.html', type: 'fairytaleFantasy' %}
+			</div>
 			<figure class="floating-photo floating-photo--left">
 				<img class="floating-photo__photo" src="/assets/images/bts-10.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/james.acs.tta/" target="_blank" rel="noopener noreferrer">{{ site[locale].csanadAlfoldi }}</a></em></figcaption>

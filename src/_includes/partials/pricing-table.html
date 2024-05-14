@@ -1,0 +1,15 @@
+<div class="plan">
+	<h3 class="plan__title">{{ experiences[type][locale].name }}</h3>
+	<p>{{ experiences[type][locale].pricing.description }}</p>
+	<p class="plan__price">
+		{% if experiences[type][locale].pricing.label %}
+			<span class="plan__price-starts">{{ experiences[type][locale].pricing.label }}</span>
+		{% endif %}
+		<strong class="plan__price-amount">{{ experiences[type][locale].pricing.price }} <small class="small">{{ experiences[type][locale].pricing.currency }}</small></strong>
+	</p>
+	<ul>
+		{% for item in experiences[type][locale].pricing.bulletPoints %}
+			<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; {{ item }}</li>
+		{% endfor %}
+	</ul>
+</div>

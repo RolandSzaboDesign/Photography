@@ -88,3 +88,26 @@
 	color: var(--text-dark);
 	letter-spacing: -1px;
 }
+
+.hero-portraits {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+}
+
+.hero-portraits__item {
+	padding: 1rem;
+}
+
+.hero-portraits__item--left {
+	position: relative;
+	left: 1.5rem;
+	transform: rotate(-3deg);
+}
+
+.hero-portraits__item--right {
+	position: relative;
+	top: 3rem;
+	right: 1.5rem;
+	transform: rotate(3deg);
+}

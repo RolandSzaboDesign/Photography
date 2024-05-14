@@ -1,0 +1,45 @@
+---
+layout: layouts/base.html
+permalink: "/{{ locale }}/{{ site[locale].slugExperiences }}/{{ slug }}/"
+css: photo-walks
+---
+
+<main class="main">
+	<section class="section section--top">
+		<div class="container">
+			<header class="page-header">
+				<h1 class="page-header__category">{{ site[locale].navExperiencesCategory }}</h1>
+				<p class="page-header__title h1">{{ experiences[experience][locale].name }}</p>
+			</header>
+			<div class="half">
+				<div>
+					<h2>{{ experiences[experience][locale].heroTitle }}</h2>
+					<p>{{ experiences[experience][locale].heroTagline }}</p>
+					<p class="mb-0"><a class="button" href="#"><i class="fas fa-fw fa-circle-down"></i>&nbsp; {{ experiences[experience][locale].heroButtonText }}</a></p>
+				</div>
+				<div class="hero-portraits">
+					<div class="hero-portraits__item hero-portraits__item--left polaroid">
+						<img class="polaroid__photo" src="/assets/images/services/{{ translation }}-1.webp" alt="{{ site[locale].navServicesPortraiture }}">
+					</div>
+					<div class="hero-portraits__item hero-portraits__item--right polaroid">
+						<img class="polaroid__photo" src="/assets/images/services/{{ translation }}-2.webp" alt="{{ site[locale].navServicesPortraiture }}">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="half">
+				<div>
+					{% include 'partials/pricing-table.html', type: 'imNotPhotogenic' %}
+				</div>
+				<div>
+					<h2 class="mt-0 mb-2">{{ experiences[experience][locale].experienceTitle }}</h2>
+					<p>{{ experiences[experience][locale].experienceText }}</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
