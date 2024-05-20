@@ -1297,14 +1297,6 @@
 		<lastmod>2024-02-01T13:55:17.136Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/couple-portraits/</loc>
-		<lastmod>2024-02-01T13:55:17.136Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/male-portraits/</loc>
-		<lastmod>2024-02-01T13:55:17.137Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/services/film-photo-walks/</loc>
 		<lastmod>2024-02-01T13:55:17.137Z</lastmod>
 	</url>
@@ -1315,10 +1307,6 @@
 	<url>
 		<loc>https://rolandszabo.photo/en/tags/all/</loc>
 		<lastmod>2024-02-01T13:55:17.138Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/rolam/</loc>
-		<lastmod>2024-02-01T13:55:17.150Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/blog/</loc>
@@ -1339,18 +1327,6 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/</loc>
 		<lastmod>2024-02-01T13:55:17.152Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/paros-portrek/</loc>
-		<lastmod>2024-02-01T13:55:17.152Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/noi-portrek/</loc>
-		<lastmod>2024-02-01T13:55:17.153Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/ferfi-portrek/</loc>
-		<lastmod>2024-02-01T13:55:17.153Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/filmes-fotos-setak/</loc>
@@ -1395,10 +1371,6 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/portre/viki-3/</loc>
 		<lastmod>2024-02-22T00:00:00.000Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/female-portraits/</loc>
-		<lastmod>2024-02-24T15:23:38.586Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/portraiture/anna-15/</loc>
@@ -1529,27 +1501,119 @@
 		<lastmod>2024-04-24T00:00:00.000Z</lastmod>
 	</url>
 	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/eszter-13/</loc>
+		<lastmod>2024-04-25T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/eszter-13/</loc>
+		<lastmod>2024-04-25T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/eszter-14/</loc>
+		<lastmod>2024-04-28T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/laura-8/</loc>
+		<lastmod>2024-04-28T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/eszter-14/</loc>
+		<lastmod>2024-04-28T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/laura-8/</loc>
+		<lastmod>2024-04-28T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/dori-laci-2/</loc>
+		<lastmod>2024-04-30T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/dori-laci-2/</loc>
+		<lastmod>2024-04-30T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/reka-2/</loc>
+		<lastmod>2024-05-01T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/reka-2/</loc>
+		<lastmod>2024-05-01T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/abigail-es-anyukaja/</loc>
+		<lastmod>2024-05-05T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/abigail-es-anyukaja/</loc>
+		<lastmod>2024-05-05T00:00:00.000Z</lastmod>
+	</url>
+	<url>
 		<loc>https://rolandszabo.photo/en/budapest-photo-walk/</loc>
-		<lastmod>2024-04-24T19:19:15.925Z</lastmod>
+		<lastmod>2024-05-10T15:28:07.820Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/hu/budapest-photo-walk/</loc>
-		<lastmod>2024-04-24T19:19:15.935Z</lastmod>
+		<loc>https://rolandszabo.photo/en/couple-portraits/</loc>
+		<lastmod>2024-05-10T15:28:07.825Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
-		<lastmod>2024-05-03T16:11:57.614Z</lastmod>
+		<loc>https://rolandszabo.photo/en/female-portraits/</loc>
+		<lastmod>2024-05-10T15:28:07.830Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
-		<lastmod>2024-05-03T16:11:57.614Z</lastmod>
+		<loc>https://rolandszabo.photo/en/male-portraits/</loc>
+		<lastmod>2024-05-10T15:28:07.834Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/services/</loc>
-		<lastmod>2024-05-06T09:57:28.723Z</lastmod>
+		<lastmod>2024-05-10T15:28:07.835Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/rolam/</loc>
+		<lastmod>2024-05-10T15:28:07.840Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/budapest-photo-walk/</loc>
+		<lastmod>2024-05-10T15:28:07.840Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/paros-portrek/</loc>
+		<lastmod>2024-05-10T15:28:07.845Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/noi-portrek/</loc>
+		<lastmod>2024-05-10T15:28:07.850Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/ferfi-portrek/</loc>
+		<lastmod>2024-05-10T15:28:07.856Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/</loc>
-		<lastmod>2024-05-06T09:57:28.724Z</lastmod>
+		<lastmod>2024-05-10T15:28:07.857Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/yang/</loc>
+		<lastmod>2024-05-12T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/yang/</loc>
+		<lastmod>2024-05-12T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/portraiture/mona-gerda/</loc>
+		<lastmod>2024-05-13T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/portre/mona-gerda/</loc>
+		<lastmod>2024-05-13T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
+		<lastmod>2024-05-20T12:14:33.300Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
+		<lastmod>2024-05-20T12:14:33.301Z</lastmod>
 	</url>
 </urlset>
