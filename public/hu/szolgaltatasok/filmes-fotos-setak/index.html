@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="utf-8">
+		<title>Analóg Filmes Portré Fotózás Budapesten | Szabó Roland | Budapesti Portré Fotós</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+		<link rel="manifest" href="/assets/favicons/site.webmanifest">
+		<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- OpenGraph -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://rolandszabo.photo/hu/szolgaltatasok/filmes-fotos-setak/">
+		<meta property="og:image" content="https://rolandszabo.photo/assets/images/roland-og.jpg">
+		<meta property="og:description" content="Őszinte portré fotókat készítek és borzalmas vicceket mesélek.">
+		<meta property="og:title" content="Analóg Filmes Portré Fotózás Budapesten | Szabó Roland | Budapesti Portré Fotós">
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="stylesheet" href="/assets/css/photo-walks.css">
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+		</noscript>
+
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+		<!-- Google Analytics -->
+		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
+		<script defer src="/assets/js/analytics.js"></script>
+	</head>
+
+	<body>
+		<header class="header">
+	<div class="header__container container">
+		<a class="logo" href="/hu/" title="Back to the Homepage">
+			<strong class="logo__name">Szabó Roland</strong>
+			<span class="logo__tagline">Budapesti Portré Fotós</span>
+		</a>
+		<nav class="lang">
+			<ul class="lang__list">
+					<li class="lang__item">
+						<a class="lang__link" href="/en/services/film-photo-walks/">
+							<img class="lang__flag" src="/assets/images/flag-en.svg" alt="English" title="English" width="32" height="24">
+						</a>
+					</li>
+					<li class="lang__item">
+						<a class="lang__link lang__link--active" href="/hu/szolgaltatasok/filmes-fotos-setak/">
+							<img class="lang__flag" src="/assets/images/flag-hu.svg" alt="Magyar" title="Magyar" width="32" height="24">
+						</a>
+					</li>
+			</ul>
+		</nav>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<nav id="main-menu" class="nav nav--header">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<span class="nav__link">Rólam</span>
+					<ul class="nav__dropdown">
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/rolam/"><i class="nav__icon fa-solid fa-fw fa-hand"></i> Bemutatkozás</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/rolam-mondtak/"><i class="nav__icon fa-solid fa-fw fa-comment"></i> Rólam Mondtátok</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/felszereles/"><i class="nav__icon fa-solid fa-fw fa-camera"></i> Felszerelés</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/kapcsolat/"><i class="nav__icon fa-solid fa-fw fa-phone"></i> Elérhetőségeim</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav__item">
+					<span class="nav__link">Munkáim</span>
+					<ul class="nav__dropdown">
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/noi-portrek/"><i class="nav__icon fa-solid fa-fw fa-venus"></i> Női Portrék</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/ferfi-portrek/"><i class="nav__icon fa-solid fa-fw fa-mars"></i> Férfi Portrék</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/paros-portrek/"><i class="nav__icon fa-solid fa-fw fa-people-group"></i> Páros/Családi Portrék</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/portre/"><i class="nav__icon fa-solid fa-fw fa-table-cells"></i> Összes Portré Munkáim</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav__item">
+					<span class="nav__link">Projektek</span>
+					<ul class="nav__dropdown">
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/budapest-photo-walk/"><i class="nav__icon fa-solid fa-fw fa-person-walking"></i> Budapest Photo Walk</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="/hu/auto/"><i class="nav__icon fa-solid fa-fw fa-car-side"></i> Autó Fotózás</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/blog/">Blog</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="/hu/szolgaltatasok/portre-fotos-setak/"><strong>Portréfotózás</strong></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+		
+<main class="main">
+	<section class="section section--top section--border">
+		<div class="container">
+			<header class="page-header">
+				<span class="page-header__category">Szolgáltatások</span>
+				<h1 class="page-header__title">Analóg Filmes Portré Fotózás</h1>
+				<p class="page-header__intro"></p>
+			</header>
+
+			<h2>Miért Válasszuk a Filmes Portréfotózást?</h2>
+			<figure class="floating-photo floating-photo--right">
+				<img class="floating-photo__photo" src="/assets/images/photo-walk-07.webp" alt="Portrait Photo Walks" width="750" height="500">
+				<figcaption class="floating-photo__caption"><em>Fotó és szerkesztés: <a href="https://www.instagram.com/james.acs.tta/" target="_blank" rel="noopener noreferrer">Alföldi Csanád</a></em></figcaption>
+			</figure>
+			<p>A mai digitális-uralta korszakban a filmportrék eredeti, nyers szépségükkel tűnnek ki. Egy komoly változás a pixel-pontos, filterekkel elárasztott képektől, amik ellepik a hírfolyamainkat. Az analóg fotózás viszont az autentikus szépséget és jellemet rögzíti a pillanatokban, amit egyszerűen képtelenség lemásolni a digitális technológiával.</p>
+			<ul class="list">
+				<li><strong>Hiteles valódiság</strong> &ndash; Minden egyes képkockát gondosan megtervezünk, és valódi pillanatokat örökítünk meg, amelyek elmesélik a történetedet. A film lágy árnyalataival, gazdag textúráival és finom szemcséivel időtlen varázst kölcsönöz a képeidnek, melyet a digitális fotókon nem találsz meg.</li>
+				<li><strong>Időtlen elegancia</strong> &ndash; A filmes portréknak egy olyan klasszikus kvalitásuk van, ami túlmutat a  múló trendeken. Legyen szó a fekete-fehér időtlen eleganciájáról vagy a színes filmek egyedi színvilágáról, a filmes médium által olyan portrékat hozunk létre, amik soha nem mennek ki a divatból.</li>
+				<li><strong>Tudatos kapcsolat</strong> &ndash; A filmes portréfotózás során minden képkocka mögött szándék van, ami mélyebb kapcsolatot teremt közted és a fotográfusod között. Ez a tudatos megközelítés egy olyan légkört hoz létre, amiben a bizalom, a kreativitás és az valódi érzelmek igazán megmutatkoznak.</li>
+				<li><strong>A meglepetés ereje</strong> &ndash; Míg a digitális fotózás azonnali visszajelzést ad, a filmes médium egy izgalmas utazásra kalauzol, amely tele van várakozással. Az izgalom, hogy láthasd a végeredményt, csodával és örömmel tölti el a folyamatot. </li>
+				<li><strong>Kézzel fogható emlékek</strong> &ndash; Egy nyomtatott kép, amelyet a kezedben tartasz, visszahozza azokat az érzéseket, amiket egy képernyőn való görgetés egyszerűen nem adhat. A kiállított filmes portrék időtlen varázslatot csempésznek az otthonodba, és emlékeztetnek Téged azokra a pillanatokra, amik igazán számítanak.</li>
+			</ul>
+			<p>Remélem, sikerült átadnom, hogy a filmre fotózás nem csak arról szól, hogy egyszerű fényképeket készítünk. A tökéletes filmtekercsek kiválasztásától kezdve a végső fotók kezedben tartásáig, minden lépés tele van várakozássa. Ez egy lassabb folyamat, de hidd el, az eredmény megéri. A várakozás öröme, az előhívott fényképek felfedezése és a nyomtatott fotók kezedben tartása - ez egy olyan élmény, amit a digitális világ nem tud megadni.</p>
+		</div>
+	</section>
+
+	<section class="section section--white section--border">
+		<div class="container">
+			<h2>A Filmes Portrézás Folyamata</h2>
+			<figure class="floating-photo floating-photo--right">
+				<img class="floating-photo__photo" src="/assets/images/photo-walk-08.webp" alt="Portrait Photo Walks" width="750" height="500">
+				<figcaption class="floating-photo__caption"><em>Fotó és szerkesztés: <a href="https://www.instagram.com/wonderprism.photo" target="_blank" rel="noopener noreferrer">Medveczky Bence</a></em></figcaption>
+			</figure>
+			<p>A Film Portrék során végigvezetlek a filmfotózás minden technikai aspektusán, hogy zökkenőmentes és élvezetes élményben legyen részed az elejétől a végéig.</p>
+			<ol class="list">
+				<li><strong>Személyre Szabott Filmválasztás</strong> &ndash; A megfelelő filmtekercs kiválasztása óriási különbséget jelenthet a portréid végeredményében. Segítek ajánlani Neked olyan filmet, ami passzol a kívánt stílusodhoz, legyen az a fekete-fehér időtálló eleganciája vagy a színes film vibráló árnyalatai.</li>
+				<li><strong>Együttműködés a Fotózás Során</strong> &ndash; A filmes portré fotózás egy közös utazás, ahol együtt dolgozunk azon, hogy megragadjuk azt, ami igazán Te vagy. Nyugodt, kényelmes légkört teremtek, hogy előcsaljuk az igazi szépséget és a természetes érzelmeket.</li>
+				<li><strong>Segítség az Előhívással</strong> &ndash; Amint elkattintjuk az utolsó képkockát is, teljes körű segítséget nyújtok az előhívás és szkennelés folyamatában. A legjobb előhívási szolgáltatást választjuk, hogy gondoskodjunk a képeidről, és lenyűgöző eredményeket érjünk el.</li>
+				<li><strong>Őrizd meg az Emlékeket</strong> &ndash; Hiszek abban, hogy a képek fizikai másolatának tapintása különleges kapcsolatot teremt az emlékeiddel. Lehetőséged van a gyönyörű fotóid nyomtatására közvetlenül a laborból, hogy újra és újra átéld ezeket a szép pillanatokat.</li>
+			</ol>
+		</div>
+	</section>
+
+	<section class="section section--grey section--border">
+		<div class="container">
+			<h2>Mintaképek</h2>
+			<p>Íme néhány a kedvenc filmes portréim közül. A képek filmtekercs szerint vannak rendezve, a legfrissebb fotók vannak legfelül a listában.</p>
+			<p>Ha szeretnél több filmes portré galériát megnézni, nézz be ide is:</p>
+			<p><a class="button" href="/hu/tags/analóg/">Filmes Portré Galériák</a></p>
+			<div class="masonry">
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/anna-4.jpg" alt="Anna × Film Washi X 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/eszter-5.jpg" alt="Eszter × Film Washi X 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/tomass.jpg" alt="Tomass × Film Washi X 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/nori.jpg" alt="Nóri × Film Washi X 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/laura-2.jpg" alt="Laura × Film Washi X 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/alexander.jpg" alt="Alexander × Film Washi X 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/tess-will.jpg" alt="Tess & Will × Film Washi X 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/rikarda-krisztian.jpg" alt="Rikarda & Krisztián × Film Washi X 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/eszter-6.jpg" alt="Eszter × Film Washi X 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/eszter-4.jpg" alt="Eszter × Fujifilm Velvia 50"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/eszter-3.jpg?updatedAt=1693835625495" alt="Eszter × Fujifilm Velvia 50"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/greti.jpg" alt="Gréti × Kodak ProImage 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/jazmin.jpg" alt="Jázmin × Kodak ProImage 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/anna-3.jpg" alt="Anna × Kodak Ektar 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/anna-2.jpg" alt="Anna × Kodak Ektar 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/tatum-peter.jpg" alt="Tatum & Péter × Kodak Gold 200"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/tatum-peter-2.jpg" alt="Tatum & Péter × Kodak Gold 200"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/larae.jpg" alt="LaRae × Kodak Portra 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/emilia.jpg" alt="Emília × Kodak Portra 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/feri.jpg" alt="Feri × Kodak Portra 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/laura.jpg" alt="Laura × Kodak Portra 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/anna.jpg" alt="Anna × Kodak Portra 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/iulia-radu.jpg" alt="Iulia & Radu × Kodak Portra 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/gabor.jpg" alt="Gábor × Kodak Portra 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/julia.jpg" alt="Julia × Kodak Portra 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/eszter-2.jpg" alt="Eszter × Ilford Delta 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/eszter.jpg" alt="Eszter × Ilford Delta 100"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/muskan.jpg" alt="Muskan × Kodak UltraMax 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/muskan-2.jpg" alt="Muskan × Kodak UltraMax 400"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/merci.jpg" alt="Merci × CaféAnalóg Kino 50D"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/mira.jpg" alt="Mira × CaféAnalóg Kino 50D"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/hiroshi.jpg" alt="Hiroshi × CaféAnalóg Kino 50D"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/analog/netsanet.jpg" alt="Netsanet × CaféAnalóg Kino 50D"></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--border">
+		<div class="container">
+			<h2 id="faq">Gyakran Felmerülő Kérdések</h2>
+			<p>Az alábbi információk specifikusan a Filmes Portré Fotózáshoz tartoznak. Kérlek, mindenképpen olvasd el a <a href="/hu/szolgaltatasok/portre-fotos-setak/#faq">Portréfotózás GYIK</a> szakaszt, mielőtt továbbhaladsz az itteni információkkal.</p>
+			<div class="faqs"></div>
+		</div>
+	</section>
+
+	<section class="section section--white section--border">
+		<div class="container">
+			<div class="testimonials">
+				
+				
+					
+
+<blockquote class="testimonial">
+	<a class="testimonial__photo-link" href="/hu/portre/aiganysh/">
+		<img class="testimonial__photo" src="/assets/images/testimonials/aiganysh.webp" alt="Aiganysh K." width="100" height="100">
+	</a>
+	<div class="testimonial__content">
+		<p class="testimonial__text">Roland kisugárzása és humora nem csak kényelmessé, de igazán magabiztossá is tett a kamera előtt</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author" href="/hu/portre/aiganysh/">Aiganysh K.</a>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
+		</cite>
+	</div>
+</blockquote>
+
+				
+					
+
+<blockquote class="testimonial">
+	<a class="testimonial__photo-link" href="/hu/portre/">
+		<img class="testimonial__photo" src="/assets/images/testimonials/mate-2.webp" alt="S. Máté" width="100" height="100">
+	</a>
+	<div class="testimonial__content">
+		<p class="testimonial__text">Garantálom, hogy nem ez lesz az utolsó portrésorozatod Rolanddal</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author" href="/hu/portre/">S. Máté</a>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
+		</cite>
+	</div>
+</blockquote>
+
+				
+					
+
+<blockquote class="testimonial">
+	<a class="testimonial__photo-link" href="/hu/portre/">
+		<img class="testimonial__photo" src="/assets/images/testimonials/altjin-baysa.webp" alt="Altjin E. & Baysa E." width="100" height="100">
+	</a>
+	<div class="testimonial__content">
+		<p class="testimonial__text">A szolgáltatásai kétségtelenül csúcsminőségűek voltak, és maga az élmény is élvezetes volt</p>
+		<cite class="testimonial__cite">
+			<a class="testimonial__author" href="/hu/portre/">Altjin E. & Baysa E.</a>
+			<div class="testimonial__rating text-highlight">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
+		</cite>
+	</div>
+</blockquote>
+
+				
+			</div>
+		</div>
+		<div class="button-with-link">
+			<a class="button" href="/hu/kapcsolat/">Írj Emailt a Kezdéshez</a>
+			<a class="button-with-link__link" href="/hu/rolam-mondtak/">vagy olvasd el az összes értékelésemet</a>
+		</div>
+	</section>
+</main>
+
+<link rel="stylesheet" href="/assets/css/lightbox.css">
+
+<aside class="lightbox">
+	<div class="lightbox__container">
+		<figure class="lightbox__figure">
+			<img class="lightbox__image" src="" alt="">
+			<figcaption class="lightbox__caption"></figcaption>
+		</figure>
+		<nav class="lightbox__nav">
+			<a class="lightbox__arrow" id="left" href="#" title="Előző Fotó"><i class="fa-solid fa-caret-left"></i></a>
+			<a class="lightbox__arrow" id="right" href="#" title="Következő Fotó"><i class="fa-solid fa-caret-right"></i></a>
+		</nav>
+	</div>
+	<a class="lightbox__close" href="#" title="Bezárás"><i class="fa-solid fa-xmark"></i></a>
+</aside>
+
+<script src="/assets/js/lightbox.js" defer></script>
+
+<script src="/assets/js/masonry.js"></script>
+<script>
+	var macyInstance = Macy ({
+		container: '.masonry',
+		mobileFirst: true,
+		columns: 2,
+		margin: 8,
+		breakAt: {
+			576: {
+				columns: 3,
+				margin: 12
+			},
+			992: {
+				columns: 4,
+				margin: 16
+			}
+		}
+	});
+</script>
+
+
+		<footer class="footer">
+	<div class="footer__container container">
+		<p class="copyright"><i class="fa-regular fa-copyright" alt="Copyright" title="Copyright"></i> 2024 &ndash; Szabó Roland, Minden jog fenntartva.</p>
+		<a class="footer__logo" href="#">
+			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="Vissza az oldal tetejére" width="80" height="40">
+		</a>
+	</div>
+</footer>
+
+
+		<script>
+			function toggleMainMenu() {
+				var button = document.getElementById("menu-toggle");
+				var menu = document.getElementById("main-menu");
+
+				if (menu.style.display === "block") {
+					menu.style.display = "none";
+					button.innerHTML = "☰";
+				} else {
+					menu.style.display = "block";
+					button.innerHTML = "✕";
+				}
+			}
+		</script>
+	</body>
+</html>

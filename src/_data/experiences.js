@@ -19,7 +19,7 @@ module.exports = {
 			heroTagline: 'Dive into a quick but wholesome session where we\'ll unveil your innate beauty. In just 30 minutes, I\'ll show you that you are indeed photogenic.',
 			heroButtonText: 'I\'m interested!',
 			experienceTitle: 'Who is this for?',
-			experienceText: 'If you\'re feeling camera-shy or uncertain about your photogenic abilities, then this is the experience you\'ve been waiting for! This introductory session is designed for new customers who want to dip their toes into the world of portrait photography. It\'s ideal for individuals who have never had a professional photo session or who may feel nervous in front of the camera. <br><br><em>This experience is only available in solo format and for new customers. If you\'ve already had the pleasure of shooting with me before, I recommend upgrading to <a href="/experiences/the-full-experience">The Full Experience</a> for a more immersive and personalized journey into the world of portraiture.</em>',
+			experienceText: 'If you\'re feeling camera-shy or uncertain about your photogenic abilities, then this is the experience you\'ve been waiting for! This introductory session is designed for new customers who want to dip their toes into the world of portrait photography. It\'s ideal for individuals who have never had a professional photo session or who may feel nervous in front of the camera. <br><br><em>This experience is only available in solo format and for new customers. If you\'ve already had the pleasure of shooting with me before, I recommend upgrading to <a href="/en/experiences/the-full-experience/">The Full Experience</a> for a more immersive and personalized journey into the world of portraiture.</em>',
 			experienceButtonText: 'This is for me!',
 		},
 		hu: {

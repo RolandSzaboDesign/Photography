@@ -337,13 +337,13 @@ module.exports = {
 			photo: "/assets/images/testimonials/betti-laci.webp",
 			hu: {
 				name: "M. Betti & P. Laci",
-				excerpt: "Roland igyekezte elkapni a kedves pillanatokat, amikből csodálatos képek születtek.",
+				excerpt: "Roland igyekezte elkapni a kedves pillanatokat, amikből csodálatos képek születtek",
 				text: "Párommal jegyes fotózáson vettünk részt, mindkettőnk számára új élmény volt maga a fotózás is. Tartottunk is tőle, de mindkettőnk számára pozitív csalódás volt, és csupa szuper élménnyel gazdagodtunk. Roland igyekezte elkapni a kedves pillanatokat, amikből csodálatos képek születtek.",
 				link: "/hu/portre/betti-laci/",
 			},
 			en: {
 				name: "Betti M. & Laci P.",
-				excerpt: "Roland made sure to capture the lovely moments that resulted in wonderful pictures.",
+				excerpt: "Roland made sure to capture the lovely moments that resulted in wonderful pictures",
 				text: "My partner and I attended an engagement shoot, and for both of us it was a new experience. We were a bit apprehensive, but it was a positive disappointment for both of us and we had a great experience. Roland made sure to capture the lovely moments that resulted in wonderful pictures.",
 				link: "/en/portraiture/betti-laci/",
 			},
@@ -388,13 +388,13 @@ module.exports = {
 			photo: "/assets/images/testimonials/klemi-adam.webp",
 			hu: {
 				name: "S. Klementina & L. Ádám",
-				excerpt: "A kezdeti bátortalanságot gyorsan feloldották Roland poénos és segítő “utasításai”",
+				excerpt: "A kezdeti bátortalanságot gyorsan feloldották Roland poénos és segítő utasításai",
 				text: "Amilyen spontán ötlet volt a fotózás, pontosan olyan könnyedén megkaptuk a közös hangot Rolanddal. Volt egy kis izgalom bennünk, mivel nem mozgunk rutinosan a fényképezőgép előtt, de a kezdeti bátortalanságot gyorsan feloldották Roland poénos és segítő “utasításai”. A szuper hangulat és csodás fotók garantáltak!",
 				link: "/hu/portre/klemi-adam/",
 			},
 			en: {
 				name: "Klementina S. & Ádám L.",
-				excerpt: "Our initial timidity was quickly overcome by Roland's funny and helpful “instructions”",
+				excerpt: "Our initial timidity was quickly overcome by Roland's funny and helpful instructions",
 				text: "As spontaneous as the idea of photography was, we found common ground with Roland just as easily. We were a bit nervous as we don't routinely move in front of the camera, but our initial timidity was quickly overcome by Roland's funny and helpful “instructions”. Great atmosphere and wonderful photos are guaranteed!",
 				link: "/en/portraiture/klemi-adam/",
 			},
