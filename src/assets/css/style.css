@@ -1033,24 +1033,21 @@ ol.list { list-style: decimal; }
 
 .testimonials {
 	display: grid;
-	grid-gap: var(--grid-gutter);
+	grid-gap: 2rem;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
 	.testimonials {
 		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 2rem;
 	}
 
 	.testimonials--single {
 		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 2rem;
 	}
 }
 
 .testimonial {
 	padding: var(--grid-gutter);
-	align-items: start;
 	text-align: left;
 	border-radius: .5rem;
 	background-color: #FFF;
@@ -1063,14 +1060,6 @@ ol.list { list-style: decimal; }
 	}
 }
 
-@media only screen and (min-width: 768px) {
-	.testimonial {
-		display: grid;
-		grid-template-columns: 100px 1fr;
-		grid-gap: 0 1.5rem;
-	}
-}
-
 .section--testimonials .testimonial {
 	padding: 0;
 	background-color: transparent;
@@ -1079,7 +1068,7 @@ ol.list { list-style: decimal; }
 
 .testimonial__text {
 	max-width: 64rem;
-	margin-bottom: .75rem;
+	margin-bottom: 0;
 }
 
 .testimonial__text:before { content: '“'; }
@@ -1105,14 +1094,12 @@ ol.list { list-style: decimal; }
 }
 
 .testimonial__photo {
-	max-width: 100px;
-	border-radius: .5rem;
 	transition: var(--transition-duration) transform;
 }
 
 .testimonial__photo:hover,
 .testimonial__photo:focus {
-	transform: scale(.95) rotate(5deg);
+	transform: rotate(5deg);
 }
 
 @media only screen and (min-width: 576px) {
@@ -1121,22 +1108,59 @@ ol.list { list-style: decimal; }
 	}
 }
 
+@media only screen and (max-width: 479px) {
+	.testimonial__photo {
+		max-width: 60px;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	.testimonial__photo {
+		max-width: 100px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.testimonial__photo {
+		border-radius: 10rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.testimonial__photo {
+		margin: 0 auto 1rem;
+		border-radius: .5rem;
+	}
+}
+
 .testimonial__author {
-	display: block;
 	font-weight: 700;
 	font-size: 1rem;
 	color: var(--text-light);
 	border-bottom: 0;
 }
 
-@media only screen and (max-width: 767px) {
+.testimonial__cite {
+	display: block;
+}
+
+@media only screen and (min-width: 768px) {
 	.testimonial__cite {
-		text-align: right;
+		text-align: center;
 	}
 }
 
 .testimonial__rating {
-	font-size: .75rem;
+	margin-bottom: 1rem;
+	font-size: 1.25rem;
+	color: var(--highlight);
+	letter-spacing: -2.5px;
+}
+
+@media only screen and (min-width: 768px) {
+	.testimonial__rating {
+		text-align: center;
+	}
 }
 
 

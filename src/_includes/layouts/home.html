@@ -83,7 +83,7 @@ css: home
 			<div class="testimonials">
 				{% assign source = testimonials.items %}
 				{% for item in source limit:3 %}
-					{% include "partials/testimonial-excerpt.html", id: forloop.index0 %}
+					{% include "partials/testimonial.html", type: "excerpt", id: forloop.index0 %}
 				{% endfor %}
 			</div>
 

@@ -1549,10 +1549,6 @@
 		<lastmod>2024-05-05T00:00:00.000Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/budapest-photo-walk/</loc>
-		<lastmod>2024-05-10T15:28:07.820Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/couple-portraits/</loc>
 		<lastmod>2024-05-10T15:28:07.825Z</lastmod>
 	</url>
@@ -1570,10 +1566,6 @@
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/rolam/</loc>
-		<lastmod>2024-05-10T15:28:07.840Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/budapest-photo-walk/</loc>
 		<lastmod>2024-05-10T15:28:07.840Z</lastmod>
 	</url>
 	<url>
@@ -1609,11 +1601,19 @@
 		<lastmod>2024-05-13T00:00:00.000Z</lastmod>
 	</url>
 	<url>
+		<loc>https://rolandszabo.photo/en/budapest-photo-walk/</loc>
+		<lastmod>2024-05-21T10:01:33.592Z</lastmod>
+	</url>
+	<url>
 		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
-		<lastmod>2024-05-21T07:42:16.404Z</lastmod>
+		<lastmod>2024-05-21T10:01:33.593Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/budapest-photo-walk/</loc>
+		<lastmod>2024-05-21T10:01:33.595Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
-		<lastmod>2024-05-21T07:42:16.407Z</lastmod>
+		<lastmod>2024-05-21T10:01:33.595Z</lastmod>
 	</url>
 </urlset>

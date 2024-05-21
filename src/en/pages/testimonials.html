@@ -7,6 +7,6 @@ translation: testimonials
 
 <ul class="testimonials testimonials--single">
 	{% for item in testimonials.items %}
-		{% include "partials/testimonial.html", id: forloop.index0 %}
+		{% include "partials/testimonial.html", type: "text", id: forloop.index0 %}
 	{% endfor %}
 </ul>

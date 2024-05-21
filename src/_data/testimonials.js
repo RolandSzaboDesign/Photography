@@ -20,6 +20,60 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
+			googleURL: "https://g.co/kgs/49YMa9C",
+			photo: "/assets/images/testimonials/eszter-4.webp",
+			hu: {
+				name: "H. Eszter",
+				excerpt: "Szívből tudom ajánlani azoknak, akik bizonytalanok fotózáskor, akik azt hiszik, hogy nem fotogének! Roland bebizonyítja ennek ellenkezőjét",
+				text: "Rolandtól nem csak csodás képeket, de egy fantasztikus élményt is kaptam. Valami egészen különleges módon figyel az emberre, teljesen nyugodt légkört teremt még a városi nagy forgatagban, nyüzsgésben is. Pozitívum még, hogy nincsen időnyomás, nem sürget, teljesen a fotóalanyra hangolódik, hogy kihozza a legjobb oldalát, figyelembe veszi annak preferenciáit is. Szívből tudom ajánlani bárkinek, de különösen azoknak akik bizonytalanok fotózáskor, akik azt hiszik, hogy ők nem fotogének! Roland bebizonyítja ennek ellenkezőjét! Tapasztalatból mondom :)",
+				link: "/hu/portre/eszter-13/",
+			},
+			en: {
+				name: "Eszter H.",
+				excerpt: "If you are insecure when taking photos or if you are not photogenic, Roland proves otherwise! I speak from experience",
+				text: "Roland gave me not only wonderful pictures, but also a fantastic experience. He has a very special way of listening to you, creating a completely relaxed atmosphere even in the hustle and bustle of the city. Another positive thing is that there is no time pressure, no rush. He is completely attuned to the subject to bring out the best in them, taking into account their preferences. I can wholeheartedly recommend him to anyone, but especially to those who are insecure when taking photos, who think that they are not photogenic! Roland proves otherwise! I speak from experience. :)",
+				link: "/en/portraiture/eszter-13/",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/zWRPBwZ",
+			photo: "/assets/images/testimonials/abigail.webp",
+			hu: {
+				name: "K. Abigail",
+				excerpt: "Roland nagyon ért mindenki nyelvén, és ezáltal feszengős fotózás helyett egy kifejezetten jó hangulatú élményben részesültünk",
+				text: "Nagyon elégedettek vagyunk Roland munkájával! Nagyon ért mindenki nyelvén, és ezáltal feszengős fotózás helyett egy kifejezetten jó hangulatú élményben részesültünk. Fantasztikus, ahogy meg tudja örökíteni a pillanatokat, érzéseket a képeken és mindenkiből a legjobbat hozza ki. Emellett rugalmas, felkészült és kreatív is, szóval minden pozitívat el lehet róla mondani. Mi imádjuk a képeket amik elkészültek, egytől-egyig nagyon minőségi. Bátran ajánljuk Rolandot mindenki számára! Köszönjük mégegyszer!",
+				link: "/hu/portre/abigail-es-anyukaja/",
+			},
+			en: {
+				name: "Abigail K.",
+				excerpt: "Roland really understands everyone's language, so instead of a stressful photo session, we had a really good experience",
+				text: "We are very satisfied with Roland's work! He really understands everyone's language, so instead of a stressful photo shoot, we had a really good experience. He is fantastic at capturing moments and emotions in pictures and bringing out the best in everyone. He is also flexible, prepared and creative, so everything positive can be said about him. We love the pictures she has taken, each and every one is of very high quality. We highly recommend Roland to everyone! Thank you again!",
+				link: "/en/portraiture/abigail-es-anyukaja/",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/wDkL89s",
+			photo: "/assets/images/testimonials/andi.webp",
+			hu: {
+				name: "Bitay Andrea",
+				excerpt: "Az általa készített fotók annyira jók lettek, hogy bátran használom weboldalon, social media felületeken vagy cikkekben",
+				text: "Nem szeretem, ha fotóznak. Befeszülök tőle. Roland viszont az első pillanattól fogva empátiával közeledett. Nem erőltetett dolgokat, mégis magabiztosan vezetett a fotózás során. Humora gyorsan jó hangulatot teremtett, ami fontos a jó fotók elkészítéséhez. A fotózás jó ritmusban pörgött, jó szeme van ahhoz, hogy meglássa a szépen fotózható környezetet és az előnyös szögeket. Az általa készített fotók annyira jók lettek, hogy bátran használom weboldalon, social media felületeken vagy cikkekben. Azóta már több ismerősömnek ajánlottam őt, és akivel fotózott, nem csalódott benne!",
+				link: "/hu/portre/andi/",
+			},
+			en: {
+				name: "Andrea Bitay",
+				excerpt: "The photos he took were so good that I feel confident using them on websites, social media platforms or in articles",
+				text: "I don't like being photographed. It makes me tense up. But Roland approached me with empathy from the first moment. He didn't force things, yet he led the photo session with confidence. His humour quickly created a fun atmosphere, which is important for good photos. The shoot flowed at a good pace, with a good eye for spotting nice photogenic environments and preferred angles. The photos he took were so good that I feel confident using them on websites, social media platforms or in articles. I have since recommended him to several people I know, and those who have photographed with him have not been disappointed!",
+				link: "/en/portraiture/andi/",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
 			photo: "/assets/images/testimonials/aiganysh.webp",
 			hu: {
 				name: "Aiganysh K.",
