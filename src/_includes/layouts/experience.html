@@ -15,7 +15,7 @@ css: photo-walks
 				<div>
 					<h2>{{ experiences[experience][locale].heroTitle }}</h2>
 					<p>{{ experiences[experience][locale].heroTagline }}</p>
-					<p class="mb-0"><a class="button" href="#"><i class="fas fa-fw fa-circle-down"></i>&nbsp; {{ experiences[experience][locale].heroButtonText }}</a></p>
+					<p class="mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-arrow-down"></i>&nbsp; {{ experiences[experience][locale].heroButtonText }}</a></p>
 				</div>
 				<div class="hero-portraits">
 					<div class="hero-portraits__item hero-portraits__item--left polaroid">
@@ -33,9 +33,9 @@ css: photo-walks
 		<div class="container">
 			<div class="testimonials">
 				{% assign source = testimonials.items %}
-				{% include "partials/testimonial-excerpt.html", id: 0 %}
-				{% include "partials/testimonial-excerpt.html", id: 1 %}
-				{% include "partials/testimonial-excerpt.html", id: 2 %}
+				{% include 'partials/testimonial-excerpt.html', id: 0 %}
+				{% include 'partials/testimonial-excerpt.html', id: 1 %}
+				{% include 'partials/testimonial-excerpt.html', id: 2 %}
 			</div>
 		</div>
 	</section>
@@ -44,12 +44,12 @@ css: photo-walks
 		<div class="container">
 			<div class="half">
 				<div>
-					{% include 'partials/pricing-table.html', type: 'imNotPhotogenic' %}
+					{% include 'partials/photo-grid.html' %}
 				</div>
 				<div>
 					<h2 class="mt-0 mb-2">{{ experiences[experience][locale].experienceTitle }}</h2>
 					<p>{{ experiences[experience][locale].experienceText }}</p>
-					<p class="mb-0"><a class="button" href="#"><i class="fas fa-fw fa-circle-down"></i>&nbsp; {{ experiences[experience][locale].experienceButtonText }}</a></p>
+					<p class="mb-0"><a class="button" href="#"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].experienceButtonText }}</a></p>
 				</div>
 			</div>
 		</div>
@@ -59,18 +59,18 @@ css: photo-walks
 		<div class="container">
 			<div class="testimonials">
 				{% assign source = testimonials.items %}
-				{% include "partials/testimonial-excerpt.html", id: 3 %}
-				{% include "partials/testimonial-excerpt.html", id: 4 %}
-				{% include "partials/testimonial-excerpt.html", id: 5 %}
+				{% include 'partials/testimonial-excerpt.html', id: 3 %}
+				{% include 'partials/testimonial-excerpt.html', id: 4 %}
+				{% include 'partials/testimonial-excerpt.html', id: 5 %}
 			</div>
 		</div>
 	</section>
 
 	<section class="section">
 		<div class="container">
-			<h2>What You're Getting</h2>
-			<p>Other than a memorable photo experience you'll want to tell everyone, a fresh new knowledge of simple poses to make you look your best in the future, and aching face muscles from the constant smiles? 3 beautifully crafted, individually edited and professionally retouched photos of yourself that you'll be certainly proud of.</p>
-			<p>Here's a demo gallery to get you excited!</p>
+			<h2>{{ experiences[experience][locale].whatsIncludedTitle }}</h2>
+			<p>{{ experiences[experience][locale].whatsIncludedText1 }}</p>
+			<p>{{ experiences[experience][locale].whatsIncludedText2 }}</p>
 			<div class="third">
 				<span class="polaroid">
 					<img class="polaroid__photo" src="/assets/images/portraiture/kata-3/02_700.webp" alt="Photo of Kata" width="700" height="1050">
@@ -82,7 +82,34 @@ css: photo-walks
 					<img class="polaroid__photo" src="/assets/images/portraiture/kata-3/04_700.webp" alt="Photo of Kata" width="700" height="1050">
 				</span>
 			</div>
-			<p class="mt-2 mb-0"><a class="button" href="#"><i class="fas fa-fw fa-circle-down"></i>&nbsp; {{ experiences[experience][locale].experienceButtonText }}</a></p>
+			<p class="mt-2 mb-0"><a class="button" href="#"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whatsIncludedButtonText }}</a></p>
+		</div>
+	</section>
+
+	<section class="section section--white section--testimonials">
+		<div class="container">
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% include 'partials/testimonial-excerpt.html', id: 6 %}
+				{% include 'partials/testimonial-excerpt.html', id: 7 %}
+				{% include 'partials/testimonial-excerpt.html', id: 8 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="contact">
+		<div class="container">
+			<h2>{{ experience }}</h2>
+			<ul class="list">
+				{% for i in experiences %}
+					{% if i[0] != experience %}
+						<li>{{ i[1][locale].name }}</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+			<strong>{{ experiences[experience][locale].name }}</strong>
+			{{ experiences.theFullExperience[locale].name }}
+			{{ experiences.fairytaleFantasy[locale].name }}
 		</div>
 	</section>
 </main>
