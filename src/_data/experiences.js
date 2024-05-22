@@ -2,6 +2,7 @@ module.exports = {
 	imNotPhotogenic: {
 		en: {
 			name: '"I\'m Not Photogenic!"',
+			slug: 'im-not-photogenic',
 			pricing: {
 				description: 'Quick but wholesome experience where I\'ll show you that you are indeed photogenic. Only available for first-time customers.',
 				price: '40.00',
@@ -28,6 +29,7 @@ module.exports = {
 		},
 		hu: {
 			name: '"Nem Vagyok Fotogén"',
+			slug: 'nem-vagyok-fotogen',
 			pricing: {
 				description: 'Gyors de meghatározó élmény, ahol bebizonyítom, hogy igenis fotogén vagy. Csak új vendégek részére.',
 				price: '10.000',
@@ -56,6 +58,7 @@ module.exports = {
 	theFullExperience: {
 		en: {
 			name: 'The Full Experience',
+			slug: 'the-full-experience',
 			pricing: {
 				description: 'Dive into a world of fun and laughter with my signature portrait experience. We walk, we talk, we create photos, and you walk away being a better version of yourself.',
 				price: '100.00',
@@ -84,6 +87,7 @@ module.exports = {
 		},
 		hu: {
 			name: 'A Teljes Élmény',
+			slug: 'a-teljes-elmeny',
 			pricing: {
 				description: 'Gyere el egy laza hangulatú, kötetlen portréfotózásra, ahol bőven van időnk sétálni, beszélgetni és fotózni. Éld át Te is az élményt, amiről mindenki beszél!',
 				price: '25.000',
@@ -114,6 +118,7 @@ module.exports = {
 	fairytaleFantasy: {
 		en: {
 			name: 'Fairytale Fantasy',
+			slug: 'fairytale-fantasy',
 			pricing: {
 				description: 'Become the protagonist of your very own fairy tale. Experience a magical transformation that will create everlasting memories and magazine-worthy photographs.',
 				price: '200.00',
@@ -143,6 +148,7 @@ module.exports = {
 		},
 		hu: {
 			name: 'Tündérmese Fantázia',
+			slug: 'tundermese-fantazia',
 			pricing: {
 				description: 'Legyél a saját tündérmeséd főszereplője! Élj át velünk egy varázslatos átalakulást, ahol a profi sminkeddel és a mesebeli jelmezeddel az lehetsz, aki csak akarsz, magazinba illő fotókkal megkoronázva.',
 				price: '50.000',

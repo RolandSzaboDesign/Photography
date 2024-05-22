@@ -92,6 +92,11 @@ module.exports = {
 		"ctaButton": "Choose Your Experience",
 		"latestButton": "Check out my Recent Work",
 
+		"contactEmailText": "Drop me an email with your idea",
+		"contactEmailButton": "Write an Email",
+		"contactInstagramText": "Or better, DM me on Instagram",
+		"contactInstagramButton": "DM on Instagram",
+	
 		"socialTagline": "Your business deserves more than smartphone photos",
 		"socialCtaTitle": "Ready to get started with your own brand's professional photography?",
 		"socialCtaDescription": "If you like the above examples and would like to work with me in telling your brand's story through my images, don't be afraid to get in touch with me!",
@@ -183,6 +188,11 @@ module.exports = {
 		"ctaText": "Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.",
 		"ctaButton": "Válassz Élményt",
 		"latestButton": "Nézd Meg a Munkáimat",
+
+		"contactEmailText": "Írj egy emailt és beszéljünk",
+		"contactEmailButton": "Emailt írok",
+		"contactInstagramText": "Vagy írj rám Instagramon, az még jobb",
+		"contactInstagramButton": "Írok Instán",
 
 		"socialTagline": "A vállalkozásod többet érdemel a mobiltelefonos fotóknál",
 		"socialCtaTitle": "Szeretnéd, hogy a Te márkádnak is végre profi képei legyenek?",

@@ -98,18 +98,47 @@ css: photo-walks
 	</section>
 
 	<section class="section" id="contact">
+		<div class="experience-contact container">
+			<article>
+				<h2>Who's Behind the Camera?</h2>
+				<p>Great question! Hi, I'm Roland, and I help people like you feel your best in front of the camera. I firmly believe that everyone is inherently photogenic and I'm here to show it, one photograph at a time.</p>
+				<p>On our photo sessions I strive to create a very authentic atmosphere where you can be your true self and not be afraid of the camera. We talk a lot, we walk a lot and we laugh a lot together. We also take some photos here and there. I achieve this intimate atmosphere with my horrible sense of humour and empathetic personality. You'll love it!</p>
+				<p>I'll also help you with posing. Now, I know what you're thinking: I don't want posed photos. Trust me, you do. I love capturing the in-between moments, but they have to be <em>in between</em> (get it?) poses. Instead of showing you poses, I'll teach you how to pose, so you can feel more confident next time you're being photographed.</p>
+				<p>Now, if this all makes you shiver in excitement, then here's your ways to contact me and get started on your photographic journey.</p>
+				<hr>
+				{% include 'partials/contact-options.html' %}
+			</article>
+			<img src="/assets/images/roland-home.webp" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}">
+		</div>
+	</section>
+
+	<section class="section section--white section--testimonials">
 		<div class="container">
-			<h2>{{ experience }}</h2>
-			<ul class="list">
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% include 'partials/testimonial-excerpt.html', id: 9 %}
+				{% include 'partials/testimonial-excerpt.html', id: 10 %}
+				{% include 'partials/testimonial-excerpt.html', id: 11 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<h2 class="mb-2">Other ways I can help you</h2>
+			<div class="plans plans--two">
 				{% for i in experiences %}
 					{% if i[0] != experience %}
-						<li>{{ i[1][locale].name }}</li>
+						<div class="plan">
+							<h3 class="plan__title">{{ i[1][locale].name }}</h3>
+							<p>{{ i[1][locale].pricing.description }}</p>
+							<p class="text-center mb-0">
+								<a class="button" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ i[1][locale].slug }}">Learn More</a>
+							</p>
+						</div>
 					{% endif %}
 				{% endfor %}
-			</ul>
-			<strong>{{ experiences[experience][locale].name }}</strong>
-			{{ experiences.theFullExperience[locale].name }}
-			{{ experiences.fairytaleFantasy[locale].name }}
+			</div>
 		</div>
 	</section>
 </main>

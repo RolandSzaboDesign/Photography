@@ -49,6 +49,10 @@
 	.plans {
 		grid-template-columns: repeat(3, 1fr);
 	}
+
+	.plans--two {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 .plan {
@@ -110,4 +114,16 @@
 	top: 3rem;
 	right: 1.5rem;
 	transform: rotate(3deg);
+}
+
+.experience-contact {
+	display: grid;
+	grid-gap: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.experience-contact {
+		grid-template-columns: 2fr 1fr;
+		align-items: center;
+	}
 }
