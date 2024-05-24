@@ -1265,14 +1265,6 @@
 		<lastmod>2024-02-01T13:53:32.882Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/testimonials/</loc>
-		<lastmod>2024-02-01T13:54:25.216Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/rolam-mondtak/</loc>
-		<lastmod>2024-02-01T13:54:25.220Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/en/about/</loc>
 		<lastmod>2024-02-01T13:55:17.134Z</lastmod>
 	</url>
@@ -1282,10 +1274,6 @@
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/cars/</loc>
-		<lastmod>2024-02-01T13:55:17.135Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/en/contact/</loc>
 		<lastmod>2024-02-01T13:55:17.135Z</lastmod>
 	</url>
 	<url>
@@ -1306,10 +1294,6 @@
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/auto/</loc>
-		<lastmod>2024-02-01T13:55:17.151Z</lastmod>
-	</url>
-	<url>
-		<loc>https://rolandszabo.photo/hu/kapcsolat/</loc>
 		<lastmod>2024-02-01T13:55:17.151Z</lastmod>
 	</url>
 	<url>
@@ -1586,18 +1570,34 @@
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/budapest-photo-walk/</loc>
-		<lastmod>2024-05-21T10:01:33.592Z</lastmod>
+		<lastmod>2024-05-24T07:33:51.319Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/contact/</loc>
+		<lastmod>2024-05-24T07:33:51.320Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/en/services/portrait-photo-walks/</loc>
-		<lastmod>2024-05-21T10:01:33.593Z</lastmod>
+		<lastmod>2024-05-24T07:33:51.328Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/testimonials/</loc>
+		<lastmod>2024-05-24T07:33:51.333Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/budapest-photo-walk/</loc>
-		<lastmod>2024-05-21T10:01:33.595Z</lastmod>
+		<lastmod>2024-05-24T07:33:51.347Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/kapcsolat/</loc>
+		<lastmod>2024-05-24T07:33:51.348Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
-		<lastmod>2024-05-21T10:01:33.595Z</lastmod>
+		<lastmod>2024-05-24T07:33:51.356Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/rolam-mondtak/</loc>
+		<lastmod>2024-05-24T07:33:51.356Z</lastmod>
 	</url>
 </urlset>
