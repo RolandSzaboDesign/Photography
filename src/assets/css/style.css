@@ -206,7 +206,6 @@ img {
 @media only screen and (min-width: 768px) {
 	.third {
 		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 2rem;
 	}
 }
 

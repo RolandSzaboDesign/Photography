@@ -97,6 +97,7 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
+	margin-bottom: 2rem;
 }
 
 .hero-portraits__item {

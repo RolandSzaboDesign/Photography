@@ -104,8 +104,8 @@ module.exports = {
 
 		whosBehindTitle: 'Who\'s Behind the Camera?',
 		whosBehindText1: 'Great question! Hi, I\'m Roland, and I help people like you feel your best in front of the camera. I firmly believe that everyone is inherently photogenic and I\'m here to show it, one photograph at a time.',
-		whosBehindText2: 'With my empathetic personality and horrible sense of humour, I\'ll create a easy-going atmosphere where you can be your true self and not be afraid of the camera. We talk a lot, we walk a lot and we laugh a lot together. We also take some photos here and there that you\'ll definitely love in the end.',
-		whosBehindText3: 'I\'ll also help you with posing. Now, I know what you\'re thinking: I don\'t want posed photos. Trust me, you do. I love capturing the in-between moments, but they have to be <em>in between</em> (get it?) poses. Instead of showing you poses, I\'ll teach you how to pose, so you can feel more confident next time you\'re being photographed.',
+		whosBehindText2: 'With my empathetic personality and horrible sense of humour, I\'ll create an easy-going atmosphere where you can be your true self and not be afraid of the camera. We talk a lot, we walk a lot and we laugh a lot together. We also take some photos here and there that you\'ll definitely love in the end.',
+		whosBehindText3: 'You don\'t need to worry about posing, I\ll be helping you all along the way. Now, I know what you\'re thinking: I don\'t want my photos to look posed. I get it! So instead of showing you concrete poses, I\'ll actually teach you how to look your best when you\'re being photographed, so you can feel more confident the next time it comes to taking your photos.',
 		whosBehindText4: 'Now, if this all makes you shiver in excitement, then here\'s your ways to contact me and get started on your photographic journey.',
 		otherWaysTitle: 'Other ways I can help you',
 		otherWaysLearnMore: 'Learn More',
