@@ -2,7 +2,8 @@ module.exports = {
 	items: [
 		// {
 		// 	type: "male",
-		// 	score: "",
+		// 	score: "5.0",
+		// 	googleURL: "",
 		// 	photo: "/assets/images/testimonials/.webp",
 		// 	hu: {
 		// 		name: "",
@@ -18,18 +19,72 @@ module.exports = {
 		// 	},
 		// },
 		{
+			type: "male",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/abfeJW9",
+			photo: "/assets/images/testimonials/gabor-2.webp",
+			hu: {
+				name: "Papp Gábor",
+				excerpt: "Egyénre szabott, személyes, nem tömeg élmény!",
+				text: "Szuper élmény volt a közös munka, jó hangulatban, mégis profin vezette Roland a közös időnket. A képek kivalasztasa során rugalmas volt, adott tanácsokat és folyamatosan bátorított, adott visszajelzést is. Egyénre szabott, személyes, nem tömeg élmény! :)",
+				link: "/hu/portre/gabor-2/",
+			},
+			en: {
+				name: "Gábor Papp",
+				excerpt: "A personalized, one-on-one, non conveyor belt experience!",
+				text: "It was a great experience working together, Roland led our time together in a good atmosphere, yet in a professional way. He was flexible, gave advice, encouragement and feedback during the photo shoot. A personalized, one-on-one, non conveyor belt experience! :)",
+				link: "/en/portraiture/gabor-2/",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/qMLsC9Q",
+			photo: "/assets/images/testimonials/gerda.webp",
+			hu: {
+				name: "Botka Gerda",
+				excerpt: "Annyira jók lettek a képek, hogy magam sem hittem el, hogy én vagyok rajtuk",
+				text: "Szuper hangulatú fotózáson vettem részt Rolival. Hihetetlenül profi, vicces, a képek pedig annyira jók lettek, hogy még magam sem hittem el néha, hogy én vagyok rajtuk. ☺️",
+				link: "/hu/portre/mona-gerda/",
+			},
+			en: {
+				name: "Gerda Botka",
+				excerpt: "The pictures turned out so good I couldn't believe I was in them",
+				text: "I took part in a great photo shoot with Roli. He was incredibly professional, funny and the pictures turned out so good that I couldn't believe I was in them. ☺️",
+				link: "/en/portraiture/mona-gerda/",
+			},
+		},
+		{
+			type: "male",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/ZyfnVE9",
+			photo: "/assets/images/testimonials/karcsi.webp",
+			hu: {
+				name: "Nagy Károly",
+				excerpt: "Roland poénjaival és profi instrukcióival jól éreztem magam, és tényleg elhittem, hogy fotogén vagyok",
+				text: "Nagyon barátságos hangulatú volt a fotózás. Ezelőtt sosem szerettem, ha fotóznak, de Roland pár perc alatt elérte poénjaival, profi instrukcióival hogy ellazuljak, jól érezzem magam és tényleg elhittem, hogy fotogén vagyok. Amellett hogy a képek nagyon jók lettek, egy nagyszerű élménnyel is gazdagabb lettem. Bátran ajánlom mindenkinek.",
+				link: "/hu/portre/karcsi/",
+			},
+			en: {
+				name: "Károly Nagy",
+				excerpt: "I really felt photogenic with his professional instructions and jokes",
+				text: "The photo shoot was very friendly. I never liked being photographed before, but Roland made me feel relaxed and comfortable, and I really felt photogenic with his professional instructions and jokes. Apart from the great pictures, I also had a great experience. I highly recommend it to everyone.",
+				link: "/en/portraiture/karcsi/",
+			},
+		},
+		{
 			type: "female",
 			score: "5.0",
 			googleURL: "https://g.co/kgs/49YMa9C",
 			photo: "/assets/images/testimonials/eszter-4.webp",
 			hu: {
-				name: "H. Eszter",
+				name: "Horváth Eszter",
 				excerpt: "Szívből tudom ajánlani azoknak, akik bizonytalanok fotózáskor, akik azt hiszik, hogy nem fotogének! Roland bebizonyítja ennek ellenkezőjét",
 				text: "Rolandtól nem csak csodás képeket, de egy fantasztikus élményt is kaptam. Valami egészen különleges módon figyel az emberre, teljesen nyugodt légkört teremt még a városi nagy forgatagban, nyüzsgésben is. Pozitívum még, hogy nincsen időnyomás, nem sürget, teljesen a fotóalanyra hangolódik, hogy kihozza a legjobb oldalát, figyelembe veszi annak preferenciáit is. Szívből tudom ajánlani bárkinek, de különösen azoknak akik bizonytalanok fotózáskor, akik azt hiszik, hogy ők nem fotogének! Roland bebizonyítja ennek ellenkezőjét! Tapasztalatból mondom :)",
 				link: "/hu/portre/eszter-13/",
 			},
 			en: {
-				name: "Eszter H.",
+				name: "Eszter Horváth",
 				excerpt: "If you are insecure when taking photos or if you are not photogenic, Roland proves otherwise! I speak from experience",
 				text: "Roland gave me not only wonderful pictures, but also a fantastic experience. He has a very special way of listening to you, creating a completely relaxed atmosphere even in the hustle and bustle of the city. Another positive thing is that there is no time pressure, no rush. He is completely attuned to the subject to bring out the best in them, taking into account their preferences. I can wholeheartedly recommend him to anyone, but especially to those who are insecure when taking photos, who think that they are not photogenic! Roland proves otherwise! I speak from experience. :)",
 				link: "/en/portraiture/eszter-13/",
@@ -41,13 +96,13 @@ module.exports = {
 			googleURL: "https://g.co/kgs/zWRPBwZ",
 			photo: "/assets/images/testimonials/abigail.webp",
 			hu: {
-				name: "K. Abigail",
+				name: "Kormány Abigail",
 				excerpt: "Roland nagyon ért mindenki nyelvén, és ezáltal feszengős fotózás helyett egy kifejezetten jó hangulatú élményben részesültünk",
 				text: "Nagyon elégedettek vagyunk Roland munkájával! Nagyon ért mindenki nyelvén, és ezáltal feszengős fotózás helyett egy kifejezetten jó hangulatú élményben részesültünk. Fantasztikus, ahogy meg tudja örökíteni a pillanatokat, érzéseket a képeken és mindenkiből a legjobbat hozza ki. Emellett rugalmas, felkészült és kreatív is, szóval minden pozitívat el lehet róla mondani. Mi imádjuk a képeket amik elkészültek, egytől-egyig nagyon minőségi. Bátran ajánljuk Rolandot mindenki számára! Köszönjük mégegyszer!",
 				link: "/hu/portre/abigail-es-anyukaja/",
 			},
 			en: {
-				name: "Abigail K.",
+				name: "Abigail Kormány",
 				excerpt: "Roland really understands everyone's language, so instead of a stressful photo session, we had a really good experience",
 				text: "We are very satisfied with Roland's work! He really understands everyone's language, so instead of a stressful photo shoot, we had a really good experience. He is fantastic at capturing moments and emotions in pictures and bringing out the best in everyone. He is also flexible, prepared and creative, so everything positive can be said about him. We love the pictures she has taken, each and every one is of very high quality. We highly recommend Roland to everyone! Thank you again!",
 				link: "/en/portraiture/abigail-es-anyukaja/",
