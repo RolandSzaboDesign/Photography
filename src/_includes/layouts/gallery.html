@@ -17,7 +17,11 @@ layout: layouts/base.html
 			</ul>
 			<p class="page-header__description">{{ intro }}</p>
 		</header>
-		<div class="gallery gallery--single">
+		{% if imNotPhotogenic %}
+			<div class="gallery gallery--three-up">
+		{% else %}
+			<div class="gallery gallery--single">
+		{% endif %}
 			{{ content }}
 		</div>
 		{% assign day = date | date: "%d" %}

@@ -945,6 +945,12 @@ ol.list { list-style: decimal; }
 	}
 }
 
+@media only screen and (min-width: 768px) {
+	.gallery--three-up {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
 .polaroid {
 	position: relative;
 	display: flex;
