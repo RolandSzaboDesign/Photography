@@ -94,6 +94,13 @@ module.exports = {
 		"ctaButton": "Choose Your Experience",
 		"latestButton": "Check out my Recent Work",
 
+		"carsGreenGoTitle": "Commercial Work for GreenGo",
+		"carsGreenGoDescription": "GreenGo is a car-sharing service in Budapest that offers eco-friendly electric vehicles for rent by the minute, providing a convenient and sustainable transportation option. Being someone who loves electic cars and sustainability, I'm proud to be one of the photographers for their marketing team.",
+		"carsBeautyShootsTitle": "Beauty Shoots",
+		"carsBeautyShootsDescription": "I do beauty shoots with cars and motorbikes to create eye-catching images that showcase the vehicle's elegance and appeal, making it perfect for those who want to highlight their vehicle's beauty in a set of beautiful digital images.",
+		"carsUsedCarsTitle": "Used Car Photography",
+		"carsUsedCarsDescription": "I photograph used cars to create high-quality images that meet the standards of used car dealer websites, helping sellers attract the right buyers by showcasing the vehicle's features and condition.",
+		
 		"blogWrittenBy": "Written by",
 		"blogWrittenOn": "on",
 		"blogRolandSzabo": "Roland Szabó",
@@ -182,6 +189,13 @@ module.exports = {
 		"ctaText": "Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.",
 		"ctaButton": "Válassz Élményt",
 		"latestButton": "Nézd Meg a Munkáimat",
+
+		"carsGreenGoTitle": "GreenGo-nak Készített Munkáim",
+		"carsGreenGoDescription": "A GreenGo egy budapesti autómegosztó szolgáltatás, amely környezetbarát elektromos járműveket kínál percdíjas bérlésre, kényelmes és fenntartható közlekedési lehetőséget biztosítva. Nagyon szeretem az elektromos autókat és a fenntarthatóságot, ezért büszke vagyok arra, hogy a marketing csapatuk egyik állandó fotósa lehetek.",
+		"carsBeautyShootsTitle": "Szépség Fotózások",
+		"carsBeautyShootsDescription": "Szépségfotókat készítek autókkal és motorokkal, hogy szemet gyönyörködtető fotókat készítsek, amelyek bemutatják a jármű eleganciáját és vonzerejét, így tökéletes választás azoknak, akik szeretnék kihangsúlyozni a járművük szépségét egy gyönyörű digitális képsorozatban.",
+		"carsUsedCarsTitle": "Használtautó-fotózás",
+		"carsUsedCarsDescription": "Használt autókat fotózok, hogy olyan kiváló minőségű képeket készítsek, amelyek megfelelnek a használtautó-kereskedő weboldalak elvárásainak, és a jármű jellemzőinek és állapotának hiteles bemutatásával segítek az eladóknak abban, hogy megtalálják a megfelelő vevőket.",
 
 		"blogWrittenBy": "Írta",
 		"blogWrittenOn": "ekkor:",
