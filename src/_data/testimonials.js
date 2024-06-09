@@ -19,6 +19,24 @@ module.exports = {
 		// 	},
 		// },
 		{
+			type: "couple",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/UMMWRop",
+			photo: "/assets/images/testimonials/zsofi-benedek.webp",
+			hu: {
+				name: "Stein Zsófi",
+				excerpt: "Roland remekül instruált, és elérte nálunk az őszinte nevetéseket",
+				text: "Nagyon elégedettek vagyunk a képekkel, Roland remekül instruált, elérte nálunk az őszinte nevetéseket, és az utómunkája is nagyon igényes.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Zsófi Stein",
+				excerpt: "Roland did a great job instructing us, and he got us to laugh genuinely",
+				text: "We're very happy with the pictures, Roland did a great job instructing us, he got us to laugh genuinely, and his post-production is very impressive.",
+				link: "/en/portraiture/",
+			},
+		},
+		{
 			type: "male",
 			score: "5.0",
 			googleURL: "https://g.co/kgs/abfeJW9",
@@ -151,13 +169,13 @@ module.exports = {
 				name: "S. Máté",
 				excerpt: "Garantálom, hogy nem ez lesz az utolsó portrésorozatod Rolanddal",
 				text: "A legjobb választás Roland, ha életed első fotózásán veszel részt, garantálom, hogy nem ez lesz az utolsó portrésorozatod nála.",
-				link: "/hu/portre/",
+				link: "/hu/portre/mate-2/",
 			},
 			en: {
 				name: "Máté S.",
 				excerpt: "I can guarantee that your first portrait session with Roland won't be your last one",
 				text: "Roland is the best choice if you're on the first photo shoot of your life, and I guarantee it won't be your last portrait session with him.",
-				link: "/en/portraiture/",
+				link: "/en/portraiture/mate-2/",
 			},
 		},
 		{

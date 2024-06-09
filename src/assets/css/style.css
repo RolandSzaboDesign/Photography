@@ -365,6 +365,10 @@ hr {
 	border-bottom: 1px solid var(--bg-dark);
 }
 
+.hr-xl {
+	margin: 4rem 0 3rem;
+}
+
 .emphasized {
 	display: block;
 	margin-top: 2rem;

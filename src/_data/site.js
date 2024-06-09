@@ -100,6 +100,9 @@ module.exports = {
 		"carsBeautyShootsDescription": "I do beauty shoots with cars and motorbikes to create eye-catching images that showcase the vehicle's elegance and appeal, making it perfect for those who want to highlight their vehicle's beauty in a set of beautiful digital images.",
 		"carsUsedCarsTitle": "Used Car Photography",
 		"carsUsedCarsDescription": "I photograph used cars to create high-quality images that meet the standards of used car dealer websites, helping sellers attract the right buyers by showcasing the vehicle's features and condition.",
+		"carsCtaTitle": "Let's get right into it!",
+		"carsCtaDescription": "If you like the above examples and would like a beautiful set of photos of your vehicle(s), feel free to get in touch with me!",
+		"carsCtaButton": "Let's do a photoshoot!",
 		
 		"blogWrittenBy": "Written by",
 		"blogWrittenOn": "on",
@@ -196,6 +199,9 @@ module.exports = {
 		"carsBeautyShootsDescription": "Szépségfotókat készítek autókkal és motorokkal, hogy szemet gyönyörködtető fotókat készítsek, amelyek bemutatják a jármű eleganciáját és vonzerejét, így tökéletes választás azoknak, akik szeretnék kihangsúlyozni a járművük szépségét egy gyönyörű digitális képsorozatban.",
 		"carsUsedCarsTitle": "Használtautó-fotózás",
 		"carsUsedCarsDescription": "Használt autókat fotózok, hogy olyan kiváló minőségű képeket készítsek, amelyek megfelelnek a használtautó-kereskedő weboldalak elvárásainak, és a jármű jellemzőinek és állapotának hiteles bemutatásával segítek az eladóknak abban, hogy megtalálják a megfelelő vevőket.",
+		"carsCtaTitle": "Vágjunk is bele!",
+		"carsCtaDescription": "Ha tetszenek a fenti munkáim és Te is szeretnél az autó(i)dról csodás képeket, keress meg bizalommal! Szeretettel dolgoznék együtt autókkal foglalkozó cégekkel, akár márkákkal és autóit szakszerű képekkel hirdetni vágyó magánszemélyekkel is.",
+		"carsCtaButton": "Fotózzunk autót!",
 
 		"blogWrittenBy": "Írta",
 		"blogWrittenOn": "ekkor:",
