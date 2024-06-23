@@ -88,12 +88,12 @@
 
 .home-nav__link--female { background-image: url('/assets/images/portraiture/aiganysh/03_700.webp'); }
 .home-nav__link--male   { background-image: url('/assets/images/portraiture/mate-2/03_700.webp'); }
-.home-nav__link--couple { background-image: url('/assets/images/portraiture/szilvi-laci-2/03_700.webp'); }
+.home-nav__link--couple { background-image: url('/assets/images/portraiture/zsofi-benedek/03_700.webp'); }
 
 @media only screen and (min-width: 768px) {
 	.home-nav__link--female { background-image: url('/assets/images/portraiture/eszter-15/02_700.webp'); }
 	.home-nav__link--male { background-image: url('/assets/images/portraiture/gabor-2/01_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/dori-laci-2/04_700.webp'); }
+	.home-nav__link--couple { background-image: url('/assets/images/portraiture/zsofi-benedek/01_700.webp'); }
 }
 
 .home-nav__link:hover,
