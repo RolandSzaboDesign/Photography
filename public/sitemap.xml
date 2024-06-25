@@ -1273,7 +1273,7 @@
 		<lastmod>2024-02-01T13:55:17.134Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/en/cars/</loc>
+		<loc>https://rolandszabo.photo/en/services/automotive-photography/</loc>
 		<lastmod>2024-02-01T13:55:17.135Z</lastmod>
 	</url>
 	<url>
@@ -1289,7 +1289,7 @@
 		<lastmod>2024-02-01T13:55:17.150Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/hu/auto/</loc>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/auto-fotozas/</loc>
 		<lastmod>2024-02-01T13:55:17.151Z</lastmod>
 	</url>
 	<url>
@@ -1681,19 +1681,19 @@
 		<lastmod>2024-06-08T08:07:10.526Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/hu/budapest-photo-walk/</loc>
-		<lastmod>2024-06-08T08:07:10.563Z</lastmod>
-	</url>
-	<url>
 		<loc>https://rolandszabo.photo/hu/kapcsolat/</loc>
 		<lastmod>2024-06-08T08:07:10.563Z</lastmod>
 	</url>
 	<url>
-		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
-		<lastmod>2024-06-08T08:07:10.568Z</lastmod>
+		<loc>https://rolandszabo.photo/hu/budapest-photo-walk/</loc>
+		<lastmod>2024-06-08T08:07:10.563Z</lastmod>
 	</url>
 	<url>
 		<loc>https://rolandszabo.photo/hu/rolam-mondtak/</loc>
+		<lastmod>2024-06-08T08:07:10.568Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/portre-fotos-setak/</loc>
 		<lastmod>2024-06-08T08:07:10.568Z</lastmod>
 	</url>
 	<url>
@@ -1711,5 +1711,13 @@
 	<url>
 		<loc>https://rolandszabo.photo/hu/portre/veronika-szabolcs/</loc>
 		<lastmod>2024-06-12T00:00:00.000Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/en/services/social-media-content-creation/</loc>
+		<lastmod>2024-06-25T21:55:20.329Z</lastmod>
+	</url>
+	<url>
+		<loc>https://rolandszabo.photo/hu/szolgaltatasok/kozossegi-tartalom-gyartas/</loc>
+		<lastmod>2024-06-25T21:56:31.180Z</lastmod>
 	</url>
 </urlset>

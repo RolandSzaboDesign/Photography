@@ -492,6 +492,8 @@ ol.list { list-style: decimal; }
 }
 
 .menu-toggle {
+	grid-row: 1;
+	grid-column: 3;
 	cursor: pointer;
 	width: 3rem;
 	margin-left: auto;
@@ -540,6 +542,7 @@ ol.list { list-style: decimal; }
 	.nav__list {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 	}
 }
 
@@ -635,6 +638,18 @@ ol.list { list-style: decimal; }
 	}
 }
 
+.nav__caret {
+	position: relative;
+	top: .125rem;
+	left: .125rem;
+}
+
+@media only screen and (max-width: 799px) {
+	.nav__caret {
+		display: none;
+	}
+}
+
 .nav__dropdown {
 	margin-bottom: 0;
 }
@@ -657,9 +672,8 @@ ol.list { list-style: decimal; }
 		padding: .5rem 0;
 		white-space: nowrap;
 		border-radius: .5rem;
-		border: 1px solid var(--bg-medium);
 		box-shadow: var(--box-shadow-strong);
-		background-color: var(--bg);
+		background-color: #FFF;
 	}
 
 	.nav__item:hover > .nav__dropdown,
@@ -669,7 +683,16 @@ ol.list { list-style: decimal; }
 }
 
 .lang {
+	grid-row: 1;
 	justify-self: end;
+}
+
+@media only screen and (max-width: 767px) {
+	.lang { grid-column: 2; }
+}
+
+@media only screen and (min-width: 768px) {
+	.lang { grid-column: 3; }
 }
 
 .lang__list {
