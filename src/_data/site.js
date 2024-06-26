@@ -95,6 +95,11 @@ module.exports = {
 		"carsCtaDescription": "If you like the above examples and would like a beautiful set of photos of your vehicle(s), feel free to get in touch with me!",
 		"carsCtaButton": "Let's do a phootshoot!",
 		
+		"socialTagline": "Your business deserves more than smartphone photos",
+		"socialCtaTitle": "Ready to get started with your own brand's professional photography?",
+		"socialCtaDescription": "If you like the above examples and would like to work with me in telling your brand's story through my images, don't be afraid to get in touch with me!",
+		"socialCtaButton": "Let's work together!",
+
 		"blogWrittenBy": "Written by",
 		"blogWrittenOn": "on",
 		"blogRolandSzabo": "Roland Szabó",
@@ -184,6 +189,11 @@ module.exports = {
 		"carsCtaTitle": "Vágjunk is bele!",
 		"carsCtaDescription": "Ha tetszenek a fenti munkáim és Te is szeretnél az autó(i)dról csodás képeket, keress meg bizalommal! Szeretettel dolgoznék együtt autókkal foglalkozó cégekkel, akár márkákkal és autóit szakszerű képekkel hirdetni vágyó magánszemélyekkel is.",
 		"carsCtaButton": "Fotózzunk autót!",
+
+		"socialTagline": "A vállalkozásod többet érdemel a mobiltelefonos fotóknál",
+		"socialCtaTitle": "Szeretnéd, hogy a Te márkádnak is végre profi képei legyenek?",
+		"socialCtaDescription": "Ha tetszenek a fenti képek és szeretnél a Te vállalkozásodnak is szemet gyönyörködtető képeket, keress meg bizalommal! Szeretettel dolgoznék együtt kisvállalkozókkal, hazai cégekkel és influenszerekkel, hogy olyan képeket tudjunk alkotni közösen, amik elmesélik a márkád történetét és megszólítják az embereket.",
+		"socialCtaButton": "Készen állok, csináljuk!",
 
 		"blogWrittenBy": "Írta",
 		"blogWrittenOn": "ekkor:",
