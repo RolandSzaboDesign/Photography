@@ -31,9 +31,9 @@ css: photo-walks
 		<div class="container">
 			<div class="testimonials">
 				{% assign source = testimonials.items %}
-				{% include 'partials/testimonial-excerpt.html', id: 0 %}
-				{% include 'partials/testimonial-excerpt.html', id: 1 %}
-				{% include 'partials/testimonial-excerpt.html', id: 2 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 0 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 1 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 2 %}
 			</div>
 		</div>
 	</section>
@@ -56,9 +56,9 @@ css: photo-walks
 	<section class="section section--white section--testimonials">
 		<div class="container">
 			<div class="testimonials">
-				{% include 'partials/testimonial-excerpt.html', id: 3 %}
-				{% include 'partials/testimonial-excerpt.html', id: 4 %}
-				{% include 'partials/testimonial-excerpt.html', id: 5 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 3 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 4 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 5 %}
 			</div>
 		</div>
 	</section>
@@ -72,57 +72,7 @@ css: photo-walks
 					<p>Lehet, hogy hozzájuk hasonlóan Te is kételkedsz magadban. Aggodalomra semmi ok; én azért vagyok itt, hogy megmutassam Neked, hogy igenis fotogén vagy, és hogy Rólad is tudok nagyszerű fotókat készíteni.</p>
 					<p><a class="button mt-2" href="#elmenyek"><i class="fas fa-fw fa-circle-down"></i>&nbsp; Fedezd Fel a Fotogén Énedet</a></p>
 				</div>
-				<div class="photo-grid">
-					<img src="/assets/images/testimonials/adam.webp" alt="Ádám" title="Ádám">
-					<img src="/assets/images/testimonials/aiganysh.webp" alt="Aiganysh" title="Aiganysh">
-					<img src="/assets/images/testimonials/alejandro-ana.webp" alt="Alejandro & Ana" title="Alejandro & Ana">
-					<img src="/assets/images/testimonials/altjin-baysa.webp" alt="Altjin & Baysa" title="Altjin & Baysa">
-					<img src="/assets/images/testimonials/anna.webp" alt="Anna" title="Anna">
-					<img src="/assets/images/testimonials/anna-2.webp" alt="Anna" title="Anna">
-					<img src="/assets/images/testimonials/anna-3.webp" alt="Anna" title="Anna">
-					<img src="/assets/images/testimonials/balazs.webp" alt="Balázs" title="Balázs">
-					<img src="/assets/images/testimonials/betti-laci.webp" alt="Betti & Laci" title="Betti & Laci">
-					<img src="/assets/images/testimonials/blanka.webp" alt="Blanka" title="Blanka">
-					<img src="/assets/images/testimonials/burcu-sebastian.webp" alt="Burcu & Sebastian" title="Burcu & Sebastian">
-					<img src="/assets/images/testimonials/cinta-jorge.webp" alt="Cinta & Jorge" title="Cinta & Jorge">
-					<img src="/assets/images/testimonials/cinti.webp" alt="Cinti" title="Cinti">
-					<img src="/assets/images/testimonials/detti.webp" alt="Detti" title="Detti">
-					<img src="/assets/images/testimonials/dori.webp" alt="Dóri" title="Dóri">
-					<img src="/assets/images/testimonials/eszter.webp" alt="Eszter" title="Eszter">
-					<img src="/assets/images/testimonials/eszter-2.webp" alt="Eszter" title="Eszter">
-					<img src="/assets/images/testimonials/eszter-3.webp" alt="Eszter" title="Eszter">
-					<img src="/assets/images/testimonials/gabcsi.webp" alt="Gabcsi" title="Gabcsi">
-					<img src="/assets/images/testimonials/gabor.webp" alt="Gábor" title="Gábor">
-					<img src="/assets/images/testimonials/greti.webp" alt="Gréti" title="Gréti">
-					<img src="/assets/images/testimonials/gyuri.webp" alt="Gyuri" title="Gyuri">
-					<img src="/assets/images/testimonials/iulia-radu.webp" alt="Iulia & Radu" title="Iulia & Radu">
-					<img src="/assets/images/testimonials/jackeline-andre.webp" alt="Jackie & André" title="Jackie & André">
-					<img src="/assets/images/testimonials/kata.webp" alt="Kata" title="Kata">
-					<img src="/assets/images/testimonials/jazmin.webp" alt="Jázmin" title="Jázmin">
-					<img src="/assets/images/testimonials/kata-mira.webp" alt="Kata" title="Kata">
-					<img src="/assets/images/testimonials/kincso.webp" alt="Kincső" title="Kincső">
-					<img src="/assets/images/testimonials/klemi-adam.webp" alt="Klemi & Ádám" title="Klemi & Ádám">
-					<img src="/assets/images/testimonials/lacko.webp" alt="Lackó" title="Lackó">
-					<img src="/assets/images/testimonials/laura.webp" alt="Laura" title="Laura">
-					<img src="/assets/images/testimonials/laura-2.webp" alt="Laura" title="Laura">
-					<img src="/assets/images/testimonials/lilla.webp" alt="Lilla" title="Lilla">
-					<img src="/assets/images/testimonials/luca-david.webp" alt="Luca & Dávid" title="Luca & Dávid">
-					<img src="/assets/images/testimonials/mate.webp" alt="Máté" title="Máté">
-					<img src="/assets/images/testimonials/mate-2.webp" alt="Máté" title="Máté">
-					<img src="/assets/images/testimonials/melanie.webp" alt="Mel" title="Mel">
-					<img src="/assets/images/testimonials/mici.webp" alt="Mici" title="Mici">
-					<img src="/assets/images/testimonials/muskan.webp" alt="Muskan" title="Muskan">
-					<img src="/assets/images/testimonials/nori.webp" alt="Nóri" title="Nóri">
-					<img src="/assets/images/testimonials/reka.webp" alt="Réka" title="Réka">
-					<img src="/assets/images/testimonials/rikarda-krisztian.webp" alt="Riki & Krisztián" title="Riki & Krisztián">
-					<img src="/assets/images/testimonials/saci.webp" alt="Saci" title="Saci">
-					<img src="/assets/images/testimonials/sara.webp" alt="Sara" title="Sara">
-					<img src="/assets/images/testimonials/szilvi-laci.webp" alt="Szilvi & Laci" title="Szilvi & Laci">
-					<img src="/assets/images/testimonials/tatum.webp" alt="Tatum" title="Tatum">
-					<img src="/assets/images/testimonials/verka.webp" alt="Veronika" title="Veronika">
-					<img src="/assets/images/testimonials/viktoria.webp" alt="Viktória" title="Viktória">
-					<img src="/assets/images/testimonials/zsuzsika-gyuri.webp" alt="Zsuzsika & Gyuri" title="Zsuzsika & Gyuri">
-				</div>
+				{% include 'partials/photo-grid.html' %}
 			</div>
 		</div>
 	</section>
@@ -130,9 +80,9 @@ css: photo-walks
 	<section class="section section--white section--testimonials">
 		<div class="container">
 			<div class="testimonials">
-				{% include 'partials/testimonial-excerpt.html', id: 6 %}
-				{% include 'partials/testimonial-excerpt.html', id: 7 %}
-				{% include 'partials/testimonial-excerpt.html', id: 8 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 6 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 7 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 8 %}
 			</div>
 		</div>
 	</section>
@@ -162,9 +112,9 @@ css: photo-walks
 	<section class="section section--white section--testimonials">
 		<div class="container">
 			<div class="testimonials">
-				{% include 'partials/testimonial-excerpt.html', id: 9 %}
-				{% include 'partials/testimonial-excerpt.html', id: 10 %}
-				{% include 'partials/testimonial-excerpt.html', id: 11 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 9 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 10 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 11 %}
 			</div>
 		</div>
 	</section>
@@ -192,9 +142,9 @@ css: photo-walks
 	<section class="section section--white section--testimonials">
 		<div class="container">
 			<div class="testimonials">
-				{% include 'partials/testimonial-excerpt.html', id: 12 %}
-				{% include 'partials/testimonial-excerpt.html', id: 13 %}
-				{% include 'partials/testimonial-excerpt.html', id: 14 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 12 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 13 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 14 %}
 			</div>
 		</div>
 	</section>
