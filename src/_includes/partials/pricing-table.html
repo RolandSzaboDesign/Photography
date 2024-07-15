@@ -1,15 +1,22 @@
-<div class="plan">
+<a class="plan" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences[type][locale].slug }}/">
+	{% if experiences[type][locale].slug == 'photogenic-discovery' %}
+		<img class="plan__image" src="/assets/images/portraiture/aiganysh/06_1400.webp" alt="{{ experiences[type][locale].name }}">
+	{% elsif experiences[type][locale].slug == 'signature-experience' %}
+		<img class="plan__image" src="/assets/images/portraiture/cinta-jorge/01_1400.webp" alt="{{ experiences[type][locale].name }}">
+	{% elsif experiences[type][locale].slug == 'ultimate-journey' %}
+		<img class="plan__image" src="/assets/images/portraiture/larae/03_1400.webp" alt="{{ experiences[type][locale].name }}">
+	{% endif %}
 	<h3 class="plan__title">{{ experiences[type][locale].name }}</h3>
-	<p>{{ experiences[type][locale].pricing.description }}</p>
+	<p class="plan__description">{{ experiences[type][locale].pricing.description }}</p>
 	<p class="plan__price">
-		{% if experiences[type][locale].pricing.label %}
+		<!-- {% if experiences[type][locale].pricing.label %}
 			<span class="plan__price-starts">{{ experiences[type][locale].pricing.label }}</span>
-		{% endif %}
+		{% endif %} -->
 		<strong class="plan__price-amount">{{ experiences[type][locale].pricing.price }} <small class="small">{{ experiences[type][locale].pricing.currency }}</small></strong>
 	</p>
-	<ul>
+	<ul class="plan__details">
 		{% for item in experiences[type][locale].pricing.bulletPoints %}
 			<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; {{ item }}</li>
 		{% endfor %}
 	</ul>
-</div>
+</a>

@@ -209,11 +209,21 @@ img {
 	}
 }
 
+@media only screen and (min-width: 576px) {
+	.fifth {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1rem;
+	}
+}
+
 @media only screen and (min-width: 768px) {
 	.fifth {
 		grid-template-columns: repeat(5, 1fr);
-		grid-gap: 2rem;
 	}
+}
+
+.fifth .polaroid {
+	padding: .5rem;
 }
 
 .embed {
@@ -913,6 +923,18 @@ ol.list { list-style: decimal; }
 
 .page-header--home {
 	margin-bottom: 1.5rem;
+}
+
+.page-header--with-nav {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	grid-gap: 1rem;
+	align-items: center;*
+}
+
+.page-header__arrow {
+	color: var(--text);
+	border: 0;
 }
 
 .page-header__category {

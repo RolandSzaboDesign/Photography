@@ -8,8 +8,24 @@ css: photo-walks
 	<section class="section section--top">
 		<div class="container">
 			<header class="page-header">
-				<h1 class="page-header__category">{{ site[locale].navExperiencesCategory }}</h1>
-				<p class="page-header__title h1">{{ experiences[experience][locale].name }}</p>
+				<p class="page-header__category">{{ site[locale].navExperiencesCategory }}</p>
+				<div class="page-header--with-nav">
+					{% if experience == 'photogenicDiscovery' %}
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fas fa-arrow-left-long"></i></a>
+					{% elsif experience == 'signatureExperience' %}
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fas fa-arrow-left-long"></i></a>
+					{% elsif experience == 'ultimateJourney' %}
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fas fa-arrow-left-long"></i></a>
+					{% endif %}
+					<h1 class="page-header__title">{{ experiences[experience][locale].name }}</h1>
+					{% if experience == 'photogenicDiscovery' %}
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fas fa-arrow-right-long"></i></a>
+					{% elsif experience == 'signatureExperience' %}
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fas fa-arrow-right-long"></i></a>
+					{% elsif experience == 'ultimateJourney' %}
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fas fa-arrow-right-long"></i></a>
+					{% endif %}
+				</div>
 			</header>
 			<div class="half">
 				<div>
@@ -70,18 +86,73 @@ css: photo-walks
 			<h2>{{ experiences[experience][locale].whatsIncludedTitle }}</h2>
 			<p>{{ experiences[experience][locale].whatsIncludedText1 }}</p>
 			<p>{{ experiences[experience][locale].whatsIncludedText2 }}</p>
-			<div class="third">
-				<span class="polaroid">
-					<img class="polaroid__photo" src="/assets/images/portraiture/kata-3/02_700.webp" alt="Photo of Kata" width="700" height="1050">
-				</span>
-				<span class="polaroid">
-					<img class="polaroid__photo" src="/assets/images/portraiture/kata-3/03_700.webp" alt="Photo of Kata" width="700" height="1050">
-				</span>
-				<span class="polaroid">
-					<img class="polaroid__photo" src="/assets/images/portraiture/kata-3/04_700.webp" alt="Photo of Kata" width="700" height="1050">
-				</span>
-			</div>
-			<p class="mt-2 mb-0"><a class="button" href="#"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whatsIncludedButtonText }}</a></p>
+
+			{% if experience == 'photogenicDiscovery' %}
+				<div class="third">
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/kata-3/02_700.webp" alt="Kata" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/kata-3/03_700.webp" alt="Kata" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/kata-3/04_700.webp" alt="Kata" width="700" height="1050">
+					</span>
+				</div>
+			{% elsif experience == 'signatureExperience' %}
+				<div class="fifth">
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/reka-adam-2/01_700.webp" alt="Réka & Ádám" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/mona-gerda/05_700.webp" alt="Gerda" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/eszter-2/01_700.webp" alt="Eszter" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/gabor-2/01_700.webp" alt="Gábor" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/rikarda-krisztian/07_700.webp" alt="Rikarda & Krisztián" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/larae/07_700.webp" alt="LaRae" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/balazs/01_700.webp" alt="Balázs" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/burcu-sebastian/07_700.webp" alt="Burcu & Sebastian" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/06_700.webp" alt="Blanka" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/arianna/02_700.webp" alt="Arianna" width="700" height="1050">
+					</span>
+				</div>
+			{% elsif experience == 'ultimateJourney' %}
+				<div class="fifth">
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/laura-3/05_700.webp" alt="Laura" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/eszter-12/05_700.webp" alt="Eszter" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/anna-11/02_700.webp" alt="Anna" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/gabi/01_700.webp" alt="Gabi" width="700" height="1050">
+					</span>
+					<span class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/portraiture/amanda/03_700.webp" alt="Amanda" width="700" height="1050">
+					</span>
+				</div>
+			{% endif %}
+
+			<p class="mt-2 mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whatsIncludedButtonText }}</a></p>
 		</div>
 	</section>
 

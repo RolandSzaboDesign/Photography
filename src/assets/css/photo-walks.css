@@ -56,17 +56,29 @@
 }
 
 .plan {
-	padding: 2rem;
-	border-top: .5rem solid var(--highlight);
+	color: var(--text);
 	background-color: #FFF;
 	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.25);
 }
 
+.plan:hover,
+.plan:focus {
+	color: var(--text);
+}
+
+.plan__image {
+	display: block;
+}
+
 .plan__title {
-	margin-top: 0;
-	margin-bottom: 1.5rem;
+	margin: 2rem;
 	font-size: 2rem;
 	text-align: center;
+}
+
+.plan__description {
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 .plan__image {
@@ -75,6 +87,8 @@
 }
 
 .plan__price-starts {
+	margin-left: 2rem;
+	margin-right: 2rem;
 	padding: .5rem 1rem;
 	font-weight: 700;
 	font-size: .875rem;
@@ -86,11 +100,19 @@
 
 .plan__price-amount {
 	display: block;
+	margin-left: 2rem;
+	margin-right: 2rem;
 	font-family: var(--serif);
 	font-weight: 400;
 	font-size: 3rem;
 	color: var(--text-dark);
 	letter-spacing: -1px;
+}
+
+.plan__details {
+	margin-left: 2rem;
+	margin-right: 2rem;
+	padding-bottom: 2rem;
 }
 
 .hero-portraits {

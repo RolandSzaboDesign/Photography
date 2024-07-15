@@ -11,18 +11,15 @@ css: photo-walks
 		<div class="container">
 			<header class="page-header">
 				<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
-				<p class="page-header__title h1">If you think you're not photogenic, I'm here to prove you wrong.</p>
+				<p class="page-header__title h1">I make everyday people look amazing.</p>
 			</header>
-			<div class="half">
-				<div>
-					<p>Being camera shy simply means no one has ever captured your true beauty in a photograph. That changes today.</p>
-					<p>I'm Roland, your Budapest portrait photographer, known for my empathetic personality and <del>horrible</del> <ins>quirky</ins>  sense of humor. Through easygoing and fun photo sessions in Budapest, I'll guide you in overcoming camera anxiety by crafting authentic photographs that will resonate with you deeply.</p>
-					<p>Uncertain about posing? Unsure where to place your hands or how to look your best on camera? Rest assured, you're in capable hands. I'm prepared to demonstrate that you are, indeed, inherently photogenic.</p>
-					<p><a class="button" href="#pricing"><i class="fas fa-fw fa-circle-down"></i>&nbsp; Let's Do It</a></p>
-				</div>
-				<div class="polaroid">
-					<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="{{ site[locale].navServicesPortraiture }}">
-				</div>
+			<p>I'm Roland, your Budapest portrait photographer, known for my empathetic personality and <del>horrible</del> <ins>quirky</ins> sense of humor. Through easygoing and fun photo sessions in Budapest, I'll guide you in overcoming camera anxiety by crafting authentic photographs that will resonate with you deeply.</p>
+			<p>Uncertain about posing? Unsure where to place your hands or how to look your best on camera? Rest assured, you're in capable hands.</p>
+			<h2 class="mb-2 text-center">Choose Your Experience</h2>
+			<div class="plans">
+				{% include 'partials/pricing-table.html', type: 'photogenicDiscovery' %}
+				{% include 'partials/pricing-table.html', type: 'signatureExperience' %}
+				{% include 'partials/pricing-table.html', type: 'ultimateJourney' %}
 			</div>
 		</div>
 	</section>
@@ -89,12 +86,6 @@ css: photo-walks
 
 	<section class="section" id="pricing">
 		<div class="container">
-			<h2 class="h1 mt-0 mb-2 text-center">Pricing</h2>
-			<div class="plans">
-				{% include 'partials/pricing-table.html', type: 'imNotPhotogenic' %}
-				{% include 'partials/pricing-table.html', type: 'theFullExperience' %}
-				{% include 'partials/pricing-table.html', type: 'fairytaleFantasy' %}
-			</div>
 			<figure class="floating-photo floating-photo--left">
 				<img class="floating-photo__photo" src="/assets/images/bts-10.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/james.acs.tta/" target="_blank" rel="noopener noreferrer">{{ site[locale].csanadAlfoldi }}</a></em></figcaption>
