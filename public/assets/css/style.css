@@ -176,16 +176,28 @@ img {
 	background-color: var(--bg-medium);
 }
 
-.half {
+.half,
+.third,
+.fourth {
 	display: grid;
 	grid-gap: 1rem;
-	align-items: center;
+	align-items: start;
 	margin: 1.5rem 0;
 }
 
 @media only screen and (min-width: 992px) {
 	.half {
 		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 3rem;
+	}
+
+	.third {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 3rem;
+	}
+
+	.fourth {
+		grid-template-columns: repeat(4, 1fr);
 		grid-gap: 3rem;
 	}
 }
@@ -401,6 +413,18 @@ hr {
 
 .text-highlight {
 	color: var(--highlight);
+}
+
+@media only screen and (min-width: 768px) {
+	p.text-smaller {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	p.text-smaller {
+		font-size: 1.125rem;
+	}
 }
 
 .list {
@@ -1045,6 +1069,12 @@ ol.list { list-style: decimal; }
 	.polaroid__title {
 		font-size: 1.25rem;
 	}
+}
+
+.polaroid-caption {
+	margin-top: .75rem;
+	font-size: 100%;
+	text-align: center;
 }
 
 

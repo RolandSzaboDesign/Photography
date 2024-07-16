@@ -20,6 +20,7 @@ module.exports = {
 		"photoAndEditBy": "Photo and edit by",
 		"peterLakinger": "Peter Lakinger",
 		"danosNemeth": "Danos Nemeth",
+		"tamasBernat": "Tamas Bernat",
 		"csillaRohde": "Csilla Rohde",
 		"peterVarsics": "Peter Varsics",
 		"csanadAlfoldi": "Csanad Alfoldi",
@@ -88,13 +89,6 @@ module.exports = {
 		"ctaButton": "Choose Your Experience",
 		"latestButton": "Check out my Recent Work",
 
-		"carsCommercialTitle": "Professional Commercial Work",
-		"carsBeautyTitle": "Personal Beauty Shoot Projects",
-		"carsUsedTitle": "Used Car Photography",
-		"carsCtaTitle": "Let's get right into it!",
-		"carsCtaDescription": "If you like the above examples and would like a beautiful set of photos of your vehicle(s), feel free to get in touch with me!",
-		"carsCtaButton": "Let's do a phootshoot!",
-		
 		"socialTagline": "Your business deserves more than smartphone photos",
 		"socialCtaTitle": "Ready to get started with your own brand's professional photography?",
 		"socialCtaDescription": "If you like the above examples and would like to work with me in telling your brand's story through my images, don't be afraid to get in touch with me!",
@@ -114,6 +108,7 @@ module.exports = {
 		"photoAndEditBy": "Fotó és szerkesztés:",
 		"peterLakinger": "Lakinger Péter",
 		"danosNemeth": "Németh Dános",
+		"tamasBernat": "Bernát Tamás",
 		"csillaRohde": "Rohde Csilla",
 		"peterVarsics": "Varsics Péter",
 		"csanadAlfoldi": "Alföldi Csanád",
@@ -182,13 +177,6 @@ module.exports = {
 		"ctaText": "Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.",
 		"ctaButton": "Válassz Élményt",
 		"latestButton": "Nézd Meg a Munkáimat",
-
-		"carsCommercialTitle": "Megbízásos Munkáim",
-		"carsBeautyTitle": "Saját Autó Fotós Projektek",
-		"carsUsedTitle": "Használtautó Fotózás",
-		"carsCtaTitle": "Vágjunk is bele!",
-		"carsCtaDescription": "Ha tetszenek a fenti munkáim és Te is szeretnél az autó(i)dról csodás képeket, keress meg bizalommal! Szeretettel dolgoznék együtt autókkal foglalkozó cégekkel, akár márkákkal és autóit szakszerű képekkel hirdetni vágyó magánszemélyekkel is.",
-		"carsCtaButton": "Fotózzunk autót!",
 
 		"socialTagline": "A vállalkozásod többet érdemel a mobiltelefonos fotóknál",
 		"socialCtaTitle": "Szeretnéd, hogy a Te márkádnak is végre profi képei legyenek?",
