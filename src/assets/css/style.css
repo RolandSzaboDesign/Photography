@@ -178,7 +178,7 @@ img {
 
 .half,
 .third,
-.fourth, {
+.fourth,
 .fifth {
 	display: grid;
 	grid-gap: 1rem;
