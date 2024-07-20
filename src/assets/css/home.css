@@ -42,20 +42,13 @@
 .home-nav__list {
 	display: grid;
 	grid-gap: var(--grid-gutter);
-	min-height: calc(100vh - 12.5rem);
+	min-height: 60vh;
 	margin-bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
 	.home-nav__list {
 		grid-template-columns: repeat(3, 1fr);
-		min-height: calc(100vh - 15rem);
-	}
-}
-
-@media only screen and (min-width: 992px) {
-	.home-nav__list {
-		min-height: calc(100vh - 13rem);
 	}
 }
 
@@ -86,14 +79,14 @@
 	}
 }
 
-.home-nav__link--female { background-image: url('/assets/images/portraiture/aiganysh/03_700.webp'); }
-.home-nav__link--male   { background-image: url('/assets/images/portraiture/mate-2/03_700.webp'); }
-.home-nav__link--couple { background-image: url('/assets/images/portraiture/zsofi-benedek/03_700.webp'); }
+.home-nav__link--portrait { background-image: url('/assets/images/portraiture/mona-gerda/10_1400.webp'); }
+.home-nav__link--social   { background-image: url('https://ik.imagekit.io/rolandszabophoto/social-content/inna-faith-tattoo-8.jpg'); }
+.home-nav__link--automotive { background-image: url('https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-1.jpg'); }
 
 @media only screen and (min-width: 768px) {
-	.home-nav__link--female { background-image: url('/assets/images/portraiture/eszter-15/02_700.webp'); }
-	.home-nav__link--male { background-image: url('/assets/images/portraiture/gabor-2/01_700.webp'); }
-	.home-nav__link--couple { background-image: url('/assets/images/portraiture/zsofi-benedek/01_700.webp'); }
+	.home-nav__link--portrait { background-image: url('/assets/images/portraiture/eszter-15/01_700.webp'); }
+	.home-nav__link--social { background-image: url('https://ik.imagekit.io/rolandszabophoto/social-content/dam-6.jpg'); }
+	.home-nav__link--automotive { background-image: url('https://ik.imagekit.io/rolandszabophoto/cars/megane-impreza-1.jpg'); }
 }
 
 .home-nav__link:hover,
@@ -115,7 +108,6 @@
 
 @media only screen and (min-width: 768px) {
 	.home-nav__link-text {
-		margin-bottom: 1rem;
 		font-size: 1.25rem;
 		letter-spacing: -.025rem;
 	}

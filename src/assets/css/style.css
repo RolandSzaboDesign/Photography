@@ -927,13 +927,18 @@ ol.list { list-style: decimal; }
 
 .page-header--with-nav {
 	display: grid;
-	grid-template-columns: auto 1fr auto;
+	grid-template-columns: repeat(3, auto);
 	grid-gap: 1rem;
-	align-items: center;*
+	align-items: center;
+	justify-content: center;
 }
 
 .page-header__arrow {
+	display: block;
+	padding: .75rem 1rem;
+	font-size: 1.25rem;
 	color: var(--text);
+	line-height: 1;
 	border: 0;
 }
 

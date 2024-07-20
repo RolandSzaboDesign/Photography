@@ -11,19 +11,19 @@ css: photo-walks
 				<p class="page-header__category">{{ site[locale].navExperiencesCategory }}</p>
 				<div class="page-header--with-nav">
 					{% if experience == 'photogenicDiscovery' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fas fa-arrow-left-long"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fas fa-circle-left"></i></a>
 					{% elsif experience == 'signatureExperience' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fas fa-arrow-left-long"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fas fa-circle-left"></i></a>
 					{% elsif experience == 'ultimateJourney' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fas fa-arrow-left-long"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fas fa-circle-left"></i></a>
 					{% endif %}
 					<h1 class="page-header__title">{{ experiences[experience][locale].name }}</h1>
 					{% if experience == 'photogenicDiscovery' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fas fa-arrow-right-long"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fas fa-circle-right"></i></a>
 					{% elsif experience == 'signatureExperience' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fas fa-arrow-right-long"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fas fa-circle-right"></i></a>
 					{% elsif experience == 'ultimateJourney' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fas fa-arrow-right-long"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fas fa-circle-right"></i></a>
 					{% endif %}
 				</div>
 			</header>
