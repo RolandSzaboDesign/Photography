@@ -1412,9 +1412,9 @@ ol.list { list-style: decimal; }
 	display: inline-block;
 }
 
-.align-start {
-	align-items: start;
-}
+.align-start { align-items: start; }
+.align-center { align-items: center; }
+.align-end { align-items: end; }
 
 .full {
 	grid-column: 1 / -1;
