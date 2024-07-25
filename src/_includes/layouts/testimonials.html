@@ -8,7 +8,11 @@ layout: layouts/base.html
 		<h1 class="page-header__title">{{ site[locale].navTestimonials }}</h1>
 	</header>
 	<section class="container">
-		{{ content }}
+		<ul class="testimonials testimonials--single">
+			{% for item in testimonials.items %}
+				{% include "partials/testimonial.html", type: "text", id: forloop.index0 %}
+			{% endfor %}
+		</ul>
 
 		<div class="cta">
 			<div class="cta__content">
