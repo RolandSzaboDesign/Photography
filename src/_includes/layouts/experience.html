@@ -45,7 +45,7 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--white section--testimonials">
+	<section>
 		<div class="container">
 			<div class="testimonials">
 				{% assign source = testimonials.items %}
@@ -71,7 +71,7 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--white section--testimonials">
+	<section>
 		<div class="container">
 			<div class="testimonials">
 				{% include 'partials/testimonial.html', type: 'excerpt', id: 3 %}
@@ -83,7 +83,7 @@ css: photo-walks
 
 	<section class="section">
 		<div class="container">
-			<h2>{{ experiences[experience][locale].whatsIncludedTitle }}</h2>
+			<h2 class="mt-0">{{ experiences[experience][locale].whatsIncludedTitle }}</h2>
 			<p>{{ experiences[experience][locale].whatsIncludedText1 }}</p>
 			<p>{{ experiences[experience][locale].whatsIncludedText2 }}</p>
 
@@ -156,7 +156,7 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--white section--testimonials">
+	<section>
 		<div class="container">
 			<div class="testimonials">
 				{% include 'partials/testimonial.html', type: 'excerpt', id: 6 %}
@@ -181,7 +181,7 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section section--white section--testimonials">
+	<section>
 		<div class="container">
 			<div class="testimonials">
 				{% include 'partials/testimonial.html', type: 'excerpt', id: 9 %}
@@ -199,8 +199,8 @@ css: photo-walks
 					{% if i[0] != experience %}
 						<div class="plan">
 							<h3 class="plan__title">{{ i[1][locale].name }}</h3>
-							<p>{{ i[1][locale].pricing.description }}</p>
-							<p class="text-center mb-0">
+							<p class="plan__description">{{ i[1][locale].pricing.description }}</p>
+							<p class="text-center">
 								<a class="button" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ i[1][locale].slug }}">{{ site[locale].otherWaysLearnMore }}</a>
 							</p>
 						</div>

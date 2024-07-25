@@ -1,6 +1,7 @@
 {% assign source = source | default: testimonials.items %}
 
 <blockquote class="testimonial">
+	<p class="testimonial__text">{{ source[id][locale][type] }}</p>
 	<a class="testimonial__photo-link" href="{{ source[id][locale].link }}">
 		<img class="testimonial__photo" src="{{ source[id].photo }}" alt="{{ source[id][locale].name }}" width="150" height="150">
 	</a>
@@ -8,8 +9,7 @@
 		{% if source[id].googleURL %}
 			<a class="testimonial__author" href="{{ source[id].googleURL }}" target="_blank" rel="noreferrer noopener" title="This is a Google Review"><i class="fab fa-google"></i></a> &nbsp;
 		{% endif %}
-		<a class="testimonial__author" href="{{ source[id][locale].link }}">{{ 
-			source[id][locale].name }}</a>
+		<a class="testimonial__author" href="{{ source[id][locale].link }}">{{ source[id][locale].name }}</a>
 	</cite>
 	<div class="testimonial__rating">
 		<i class="fa-solid fa-star"></i>
@@ -18,5 +18,4 @@
 		<i class="fa-solid fa-star"></i>
 		<i class="fa-solid fa-star"></i>
 	</div>
-	<p class="testimonial__text">{{ source[id][locale][type] }}</p>
 </blockquote>
