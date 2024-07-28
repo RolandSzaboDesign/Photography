@@ -16,17 +16,6 @@ module.exports = {
 		backToTop: "Back to the top of the page",
 		backToHomepage: "Back to the Homepage",
 
-		photoBy: "Photo by",
-		photoAndEditBy: "Photo and edit by",
-		peterLakinger: "Peter Lakinger",
-		danosNemeth: "Danos Nemeth",
-		tamasBernat: "Tamas Bernat",
-		csillaRohde: "Csilla Rohde",
-		peterVarsics: "Peter Varsics",
-		csanadAlfoldi: "Csanad Alfoldi",
-		benceMedveczky: "Bence Medveczky",
-		gaborTomor: "Gabor Tomor",
-
 		headerName: "Roland Szabó",
 		headerDescription: "Budapest Portrait Photographer",
 
@@ -116,23 +105,20 @@ module.exports = {
 		blogWrittenBy: "Written by",
 		blogWrittenOn: "on",
 		blogRolandSzabo: "Roland Szabó",
+
+		faq: "Frequently Asked Questions",
+		summaryPrice: "Price",
+		summaryIncludes: "Includes",
+		summaryDuration: "Duration",
+		summaryFormat: "Format",
+		summaryLocations: "Locations",
+		summaryOutfits: "Outfits",
 	},
 	hu: {
 		siteTitle: "Szabó Roland | Budapesti Portré Fotós",
 		copyright: "Minden jog fenntartva.",
 		backToTop: "Vissza az oldal tetejére",
 		backToHomepage: "Vissza a Kezdőoldalra",
-
-		photoBy: "Fotó:",
-		photoAndEditBy: "Fotó és szerkesztés:",
-		peterLakinger: "Lakinger Péter",
-		danosNemeth: "Németh Dános",
-		tamasBernat: "Bernát Tamás",
-		csillaRohde: "Rohde Csilla",
-		peterVarsics: "Varsics Péter",
-		csanadAlfoldi: "Alföldi Csanád",
-		benceMedveczky: "Medveczky Bence",
-		gaborTomor: "Tömör Gábor",
 
 		headerName: "Szabó Roland",
 		headerDescription: "Budapesti Portré Fotós",
@@ -224,5 +210,13 @@ module.exports = {
 		blogWrittenBy: "Írta",
 		blogWrittenOn: "ekkor:",
 		blogRolandSzabo: "Szabó Roland",
+
+		faq: "Gyakran Ismételt Kérdések",
+		summaryPrice: "Ár",
+		summaryIncludes: "Tartalmaz",
+		summaryDuration: "Fotózás Időtartama",
+		summaryFormat: "Formátum",
+		summaryLocations: "Helyszínek",
+		summaryOutfits: "Ruhák",
 	},
 };

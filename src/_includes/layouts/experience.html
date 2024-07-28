@@ -27,12 +27,12 @@ css: photo-walks
 					{% endif %}
 				</div>
 			</header>
-			<div class="half">
-				<div>
+			<div class="half align-center">
+				<article>
 					<h2>{{ experiences[experience][locale].heroTitle }}</h2>
 					<p>{{ experiences[experience][locale].heroTagline }}</p>
-					<p class="mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-arrow-down"></i>&nbsp; {{ experiences[experience][locale].heroButtonText }}</a></p>
-				</div>
+					<p class="mb-0"><a class="button" href="#learn-more"><i class="fas fa-fw fa-arrow-down"></i>&nbsp; {{ experiences[experience][locale].heroButton }}</a></p>
+				</article>
 				<div class="hero-portraits">
 					<div class="hero-portraits__item hero-portraits__item--left polaroid">
 						<img class="polaroid__photo" src="/assets/images/services/{{ translation }}-1.webp" alt="{{ site[locale].navServicesPortraiture }}">
@@ -56,17 +56,21 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section" id="learn-more">
 		<div class="container">
-			<div class="half">
-				<div>
-					{% include 'partials/photo-grid.html' %}
-				</div>
-				<div>
-					<h2 class="mt-0 mb-2">{{ experiences[experience][locale].experienceTitle }}</h2>
+			<div class="grid-3-2">
+				<article>
+					<h2 class="mb-2">{{ experiences[experience][locale].experienceTitle }}</h2>
 					<p>{{ experiences[experience][locale].experienceText }}</p>
-					<p class="mb-0"><a class="button" href="#"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].experienceButtonText }}</a></p>
-				</div>
+					<p class="mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].experienceButton }}</a></p>
+				</article>
+				{% if experience == 'photogenicDiscovery' %}
+					<img class="rotate-5" src="/assets/images/bts-2.webp" alt="{{ experiences[experience][locale].name }}">
+				{% elsif experience == 'signatureExperience' %}
+					<img class="rotate-5" src="/assets/images/photo-walk-04.webp" alt="{{ experiences[experience][locale].name }}">
+				{% elsif experience == 'ultimateJourney' %}
+					<img class="rotate-5" src="/assets/images/bts-9.webp" alt="{{ experiences[experience][locale].name }}">
+				{% endif %}
 			</div>
 		</div>
 	</section>
@@ -83,10 +87,14 @@ css: photo-walks
 
 	<section class="section">
 		<div class="container">
-			<h2 class="mt-0">{{ experiences[experience][locale].whatsIncludedTitle }}</h2>
-			<p>{{ experiences[experience][locale].whatsIncludedText1 }}</p>
-			<p>{{ experiences[experience][locale].whatsIncludedText2 }}</p>
-
+			<h2 class="mb-2">{{ experiences[experience][locale].whatsIncludedTitle }}</h2>
+			<ul>
+				{% for item in experiences[experience][locale].whatsIncludedBulletPoints %}
+					<li><i class="fas fa-check-circle fa-fw text-highlight"></i>&nbsp; {{ item }}</li>
+				{% endfor %}
+			</ul>
+			
+			<h3 class="mt-2">{{ experiences[experience][locale].whatsIncludedSubtitle }}</h3>
 			{% if experience == 'photogenicDiscovery' %}
 				<div class="third">
 					<span class="polaroid">
@@ -152,7 +160,7 @@ css: photo-walks
 				</div>
 			{% endif %}
 
-			<p class="mt-2 mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whatsIncludedButtonText }}</a></p>
+			<p class="mt-2 mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whatsIncludedButton }}</a></p>
 		</div>
 	</section>
 
@@ -166,18 +174,56 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section class="section" id="contact">
-		<div class="experience-contact container">
-			<article>
-				<h2>{{ site[locale].whosBehindTitle }}</h2>
-				<p>{{ site[locale].whosBehindText1 }}</p>
-				<p>{{ site[locale].whosBehindText2 }}</p>
-				<p>{{ site[locale].whosBehindText3 }}</p>
-				<p>{{ site[locale].whosBehindText4 }}</p>
-				<hr>
-				{% include 'partials/contact-options.html' %}
-			</article>
-			<img src="/assets/images/roland-home.webp" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}">
+	<section class="section">
+		<div class="container">
+			<h2 class="mb-2">{{ experiences[experience][locale].whyTitle }}</h2>
+			<ul class="fourth">
+				<li>
+					{% if experience == 'photogenicDiscovery' %}
+						<img src="/assets/images/portraiture/tamas/03_1400.webp" alt="{{ experiences[experience][locale].why1Title }}">
+					{% elsif experience == 'signatureExperience' %}
+						<img src="/assets/images/portraiture/zsofi-benedek/03_1400.webp" alt="{{ experiences[experience][locale].why1Title }}">
+					{% elsif experience == 'ultimateJourney' %}
+						<img src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="{{ experiences[experience][locale].why1Title }}">
+					{% endif %}
+					<h3>{{ experiences[experience][locale].why1Title }}</h3>
+					<p class="text-smaller">{{ experiences[experience][locale].why1Text }}.</p>
+				</li>
+				<li>
+					{% if experience == 'photogenicDiscovery' %}
+						<img src="/assets/images/portraiture/eperke-2/01_1400.webp" alt="{{ experiences[experience][locale].why2Title }}">
+					{% elsif experience == 'signatureExperience' %}
+						<img src="/assets/images/portraiture/kati-es-a-fiuk/03_1400.webp" alt="{{ experiences[experience][locale].why2Title }}">
+					{% elsif experience == 'ultimateJourney' %}
+						<img src="/assets/images/portraiture/laura/03_1400.webp" alt="{{ experiences[experience][locale].why2Title }}">
+					{% endif %}
+					<h3>{{ experiences[experience][locale].why2Title }}</h3>
+					<p class="text-smaller">{{ experiences[experience][locale].why2Text }}</p>
+				</li>
+				<li>
+					{% if experience == 'photogenicDiscovery' %}
+						<img src="/assets/images/portraiture/reka-borbala-3/05_1400.webp" alt="{{ experiences[experience][locale].why3Title }}">
+					{% elsif experience == 'signatureExperience' %}
+						<img src="/assets/images/portraiture/rikarda-krisztian/03_1400.webp" alt="{{ experiences[experience][locale].why3Title }}">
+					{% elsif experience == 'ultimateJourney' %}
+						<img src="/assets/images/portraiture/orsi-mira/07_1400.webp" alt="{{ experiences[experience][locale].why3Title }}">
+					{% endif %}
+					<h3>{{ experiences[experience][locale].why3Title }}</h3>
+					<p class="text-smaller">{{ experiences[experience][locale].why3Text }}</p>
+				</li>
+				<li>
+					{% if experience == 'photogenicDiscovery' %}
+						<img src="/assets/images/portraiture/adam-4/03_1400.webp" alt="{{ experiences[experience][locale].why4Title }}">
+					{% elsif experience == 'signatureExperience' %}
+						<img src="/assets/images/portraiture/papa-mama/03_1400.webp" alt="{{ experiences[experience][locale].why4Title }}">
+					{% elsif experience == 'ultimateJourney' %}
+						<img src="/assets/images/portraiture/greti/03_1400.webp" alt="{{ experiences[experience][locale].why4Title }}">
+					{% endif %}
+					<h3>{{ experiences[experience][locale].why4Title }}</h3>
+					<p class="text-smaller">{{ experiences[experience][locale].why4Text }}</p>
+				</li>
+			</ul>
+			<p class="mt-2 mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whyButton }}</a></p>
 		</div>
 	</section>
 
@@ -187,6 +233,68 @@ css: photo-walks
 				{% include 'partials/testimonial.html', type: 'excerpt', id: 9 %}
 				{% include 'partials/testimonial.html', type: 'excerpt', id: 10 %}
 				{% include 'partials/testimonial.html', type: 'excerpt', id: 11 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="contact">
+		<div class="container">
+			<article>
+				<h2 class="mb-2">{{ experiences[experience][locale].ctaTitle }}</h2>
+				<p class="text-larger">{{ experiences[experience][locale].ctaText }}</p>
+				<div class="summary mt-2">
+					<article>
+						<h3 class="summary__title h1">{{ experiences[experience][locale].name }}</h3>
+						<p class="summary__description">{{ experiences[experience][locale].pricing.description }}</p>
+						<dl class="summary__list">
+							<div class="summary__item">
+								<dt class="summary__key">{{ site[locale].summaryPrice }}</dt>
+								<dd class="summary__value">{{ experiences[experience][locale].pricing.price }} {{ experiences[experience][locale].pricing.currency }}</dd>
+							</div>
+							<div class="summary__item">
+								<dt class="summary__key">{{ site[locale].summaryIncludes }}</dt>
+								<dd class="summary__value">{{ experiences[experience][locale].pricing.includes }}</dd>
+							</div>
+							<div class="summary__item">
+								<dt class="summary__key">{{ site[locale].summaryFormat }} <i class="far fa-question-circle" title="Solo, Couples, Families, Pets, Hobbies"></i></dt>
+								<dd class="summary__value">{{ experiences[experience][locale].pricing.format }}</dd>
+							</div>
+							<div class="summary__item">
+								<dt class="summary__key">{{ site[locale].summaryDuration }}</dt>
+								<dd class="summary__value">{{ experiences[experience][locale].pricing.duration }}</dd>
+							</div>
+							<div class="summary__item">
+								<dt class="summary__key">{{ site[locale].summaryLocations }}</dt>
+								<dd class="summary__value">{{ experiences[experience][locale].pricing.locations }}</dd>
+							</div>
+							<div class="summary__item">
+								<dt class="summary__key">{{ site[locale].summaryOutfits }}</dt>
+								<dd class="summary__value">{{ experiences[experience][locale].pricing.outfits }}</dd>
+							</div>
+						</dl>
+						<div class="summary__cta buttons">
+							<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fas fa-envelope"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
+							<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fab fa-instagram"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
+						</div>
+					</article>
+					{% if experience == 'photogenicDiscovery' %}
+						<img src="/assets/images/portraiture/viki-3/03_1400.webp" alt="{{ experiences[experience][locale].ctaTitle }}">
+					{% elsif experience == 'signatureExperience' %}
+						<img src="/assets/images/portraiture/laura-8/03_1400.webp" alt="{{ experiences[experience][locale].ctaTitle }}">
+					{% elsif experience == 'ultimateJourney' %}
+						<img src="/assets/images/portraiture/larae/09_1400.webp" alt="{{ experiences[experience][locale].ctaTitle }}">
+					{% endif %}
+				</div>
+			</article>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="testimonials">
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 12 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 13 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 14 %}
 			</div>
 		</div>
 	</section>
@@ -207,6 +315,24 @@ css: photo-walks
 					{% endif %}
 				{% endfor %}
 			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="testimonials">
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 15 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 16 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 17 %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<h2 class="mb-2">{{ site[locale].faq }}</h2>
+			{% assign category = faq[experience] %}
+			{% include 'partials/faq.html' %}
 		</div>
 	</section>
 </main>

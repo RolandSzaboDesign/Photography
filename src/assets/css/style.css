@@ -182,14 +182,31 @@ img {
 	margin: 1.5rem 0;
 }
 
+@media only screen and (min-width: 576px) {
+	.fourth {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 2rem;
+	}
+	
+	.fifth {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.third {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 2rem;
+	}
+
+	.fifth {
+		grid-template-columns: repeat(5, 1fr);
+	}
+}
+
 @media only screen and (min-width: 992px) {
 	.half {
 		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 3rem;
-	}
-
-	.third {
-		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 3rem;
 	}
 
@@ -199,27 +216,21 @@ img {
 	}
 }
 
-@media only screen and (min-width: 768px) {
-	.third {
-		grid-template-columns: repeat(3, 1fr);
-	}
-}
-
-@media only screen and (min-width: 576px) {
-	.fifth {
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 1rem;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	.fifth {
-		grid-template-columns: repeat(5, 1fr);
-	}
-}
-
 .fifth .polaroid {
 	padding: .5rem;
+}
+
+.grid-3-2 {
+	display: grid;
+	grid-gap: 2rem;
+	align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.grid-3-2 {
+		grid-template-columns: 3fr 2fr;
+		grid-gap: 4rem;
+	}
 }
 
 .embed {
@@ -435,16 +446,18 @@ hr {
 	color: var(--highlight);
 }
 
+p.text-larger {
+	font-size: 1.125rem;
+}
+
 @media only screen and (min-width: 768px) {
-	p.text-smaller {
-		font-size: 1rem;
-	}
+	p.text-smaller { font-size: 1rem; }
+	p.text-larger { font-size: 1.25rem; }
 }
 
 @media only screen and (min-width: 1200px) {
-	p.text-smaller {
-		font-size: 1.125rem;
-	}
+	p.text-smaller { font-size: 1.125rem; }
+	p.text-larger { font-size: 1.375rem; }
 }
 
 .list {
@@ -1386,17 +1399,13 @@ ol.list { list-style: decimal; }
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
 
-.inline-block {
-	display: inline-block;
-}
-
 .align-start { align-items: start; }
 .align-center { align-items: center; }
 .align-end { align-items: end; }
 
-.full {
-	grid-column: 1 / -1;
-}
+.full { grid-column: 1 / -1; }
+
+.rotate-5 { transform: rotate(5deg); }
 
 .hidden {
 	opacity: 0;

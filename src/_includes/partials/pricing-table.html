@@ -9,9 +9,6 @@
 	<h3 class="plan__title">{{ experiences[type][locale].name }}</h3>
 	<p class="plan__description">{{ experiences[type][locale].pricing.description }}</p>
 	<p class="plan__price">
-		<!-- {% if experiences[type][locale].pricing.label %}
-			<span class="plan__price-starts">{{ experiences[type][locale].pricing.label }}</span>
-		{% endif %} -->
 		<strong class="plan__price-amount">{{ experiences[type][locale].pricing.price }} <small class="small">{{ experiences[type][locale].pricing.currency }}</small></strong>
 	</p>
 	<ul class="plan__details">
