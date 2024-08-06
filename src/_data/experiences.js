@@ -210,7 +210,7 @@ module.exports = {
 			name: "Ultimate Journey",
 			slug: "ultimate-journey",
 			pricing: {
-				description: "It's the ultimate in customisation, and we'll create a unique and flexible photography adventure that's tailor-made to fit your vision and desires.",
+				description: "The ultimate in customisation. We'll create a unique and flexible photography adventure that's tailor-made to fit your vision and desires.",
 				price: "200.00",
 				currency: "EUR",
 				includes: "20+1 photos",
