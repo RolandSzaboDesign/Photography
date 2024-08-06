@@ -1,7 +1,10 @@
+.floating-photo {
+	margin-bottom: 1.5rem;
+}
+
 @media only screen and (min-width: 768px) {
 	.floating-photo {
 		width: 40%;
-		margin-bottom: 1rem;
 	}
 
 	.floating-photo--left {
