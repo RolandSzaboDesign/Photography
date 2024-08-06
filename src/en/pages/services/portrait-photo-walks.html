@@ -7,16 +7,17 @@ css: photo-walks
 ---
 
 <main class="main">
+	<header class="page-header">
+		<div class="container">
+			<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
+			<p class="page-header__title h1">I Make Everyday People Look Amazing</p>
+		</div>
+	</header>
+
 	<section class="section section--top">
 		<div class="container">
-			<header class="page-header">
-				<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
-				<p class="page-header__title h1">I make everyday people look amazing.</p>
-			</header>
-			<p>I'm Roland, your Budapest portrait photographer, known for my empathetic personality and <del>horrible</del> <ins>quirky</ins> sense of humor. Through easygoing and fun photo sessions in Budapest, I'll guide you in overcoming camera anxiety by crafting authentic photographs that will resonate with you deeply.</p>
-			<p>Uncertain about posing? Unsure where to place your hands or how to look your best on camera? Rest assured, you're in capable hands.</p>
-			<h2 class="mb-2 text-center">Choose Your Experience</h2>
-			<div class="plans">
+			<p>I'm Roland, your Budapest portrait photographer, known for my empathetic personality and <del>horrible</del> <ins>quirky</ins> sense of humor. Through easygoing and fun photo sessions in Budapest, I'll guide you in overcoming camera anxiety by crafting authentic photographs that will resonate with you deeply. Uncertain about posing? Unsure where to place your hands or how to look your best on camera? Rest assured, you're in capable hands.</p>
+			<div class="plans mt-2" id="pricing">
 				{% include 'partials/pricing-table.html', type: 'photogenicDiscovery' %}
 				{% include 'partials/pricing-table.html', type: 'signatureExperience' %}
 				{% include 'partials/pricing-table.html', type: 'ultimateJourney' %}
@@ -24,119 +25,64 @@ css: photo-walks
 		</div>
 	</section>
 
-	<section>
-		<div class="container">
-			<div class="testimonials">
-				{% assign source = testimonials.items %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 0 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 1 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 2 %}
-			</div>
-		</div>
-	</section>
+	<hr class="fancy-separator container">
 
 	<section class="section">
 		<div class="container">
-			<h2 class="mt-0 mb-2">It's Time to Redefine What it Means to be Photogenic</h2>
-			<figure class="floating-photo floating-photo--left">
-				<img class="floating-photo__photo" src="/assets/images/bts-9.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
-				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/gaborfotoz/" target="_blank" rel="noopener noreferrer">{{ site[locale].gaborTomor }}</a></em></figcaption>
-			</figure>
-			<p>Regardless of your gender, size, or age, I believe there's beauty to be found in every individual. My mission is to unleash it and capture it like you've never seen before.</p>
-			<p>You can forget awkward poses and forced smiles. With my easygoing approach and empathetic personality, I'll make you feel very comfortable in front of my camera. Together, we'll create authentic portraits that you'll love forever.</p>
-			<p>You don't need to be a model to look incredible in photographs. Whether you want to stroll through the streets of Budapest or take a walk in the calmness of nature, I'll capture your true self in every shot.</p>
-			<p>Ready to prove those doubts wrong? Book a session with me today and experience the joy of being authentically photographed. Say hello to your true photogenic self.</p>
-			<p><a class="button" href="#pricing"><i class="fas fa-fw fa-circle-down"></i>&nbsp; Start Your Transformation</a></p>
-		</div>
-	</section>
-
-	<section>
-		<div class="container">
-			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 3 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 4 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 5 %}
-			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="container">
-			<div class="half">
-				<div>
-					<h2 class="mt-0 mb-2">They Weren't Born Models Either</h2>
-					<p>Before they stepped in front of my lens, many of my clients doubted their photogenic potential. But after our sessions, they discovered something remarkable &ndash; their true beauty.</p>
-					<p>Just like them, you may have questioned your photogenic abilities. But rest assured, I'm here to show you that you are inherently photogenic &ndash; and together, we'll capture the best version of you.</p>
-					<p><a class="button mt-2" href="#pricing"><i class="fas fa-fw fa-circle-down"></i>&nbsp; I'm Ready</a></p>
-				</div>
+			<div class="grid-3-2">
+				<article>
+					<h2 class="mt-0 mb-2">My Philosophy</h2>
+					<p class="text-larger">I firmly believe that every human being, regardless of gender, size, or age, deserves to be seen as beautiful. My mission is to unleash this beauty and capture it like you've never seen before.</p>
+					<p>Forget awkward poses and forced smiles. I promise you'll feel comfortable in front of my camera because I'm easygoing and empathetic. I'll capture your true self in every shot, whether you want to stroll through the streets of Budapest or take a walk in the calmness of nature. Together, we'll create portraits that you'll love forever.</p>
+					<p>Ready to prove those doubts wrong? Book a session with me today and experience the joy of being authentically photographed. Say hello to your true photogenic self.</p>
+					<p><a class="button" href="#pricing"><i class="fas fa-fw fa-circle-up"></i>&nbsp; Start Your Transformation</a></p>
+				</article>
 				{% include 'partials/photo-grid.html' %}
 			</div>
 		</div>
 	</section>
 
-	<section>
-		<div class="container">
-			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 6 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 7 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 8 %}
-			</div>
-		</div>
-	</section>
-
-	<section class="section" id="pricing">
-		<div class="container">
-			<figure class="floating-photo floating-photo--left">
-				<img class="floating-photo__photo" src="/assets/images/bts-10.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
-				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/james.acs.tta/" target="_blank" rel="noopener noreferrer">{{ site[locale].csanadAlfoldi }}</a></em></figcaption>
-			</figure>
-			<p><strong>Payment:</strong> Due after selecting your final photos for editing and confirmation of the quantity. Payment options include bank transfer, Revolut, or PayPal. No cash accepted.</p>
-			<p><strong>Retainer:</strong> Typically, there's no retainer for regular photoshoots. However, based on the specific shoot and its circumstances, I reserve the right to request a retainer. This would cover carsharing fees or any additional expenditures associated with the unique aspects of the shoot. Rest assured, any such requests will be discussed and agreed upon transparently before the shoot.</p>
-			<p><strong>Delivery:</strong> You'll receive your edited and retouched photos, in digital format, in 1-7 days (depending on your chosen experience) after payment has been made. I don't deliver raw or unedited photos.</p>
-			<p><a class="button" href="https://instagram.com/rolandszabo.photo/"><i class="fas fa-fw fa-envelope"></i>&nbsp; DM Me to Get Started</a></p>
-			<hr>
-			{% assign category = faq.pricing %}
-			{% include 'partials/faq.html' %}
-		</div>
-	</section>
-
-	<section>
-		<div class="container">
-			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 9 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 10 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 11 %}
-			</div>
-		</div>
-	</section>
+	<hr class="fancy-separator container">
 
 	<section class="section">
 		<div class="container">
-			<h2>Why Choose Me</h2>
+			<h2 class="mt-0 mb-2">Why Choose Me</h2>
 			<figure class="floating-photo floating-photo--right">
 				<img class="floating-photo__photo" src="/assets/images/bts-2.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos.photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 			</figure>
-			<p>Over the years I've developed a method that I swear you'll be in good hands with if you choose me as your photographer. Here are some of the benefits I think you'll like.</p>
+			<p>Over the years, I've developed a method that I truly believe will make you feel right at home with me as your photographer. Here are just a few of the ways I think you'll love working with me.</p>
 			<ul>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Portrait photography for me is not a production line job, but a unique, personalized experience. My primary goal is not to take great photos, but to make you feel as comfortable as possible.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; I really do care about your situation, and you're encouraged to talk about your feelings. If you're able to relax and feel at ease, a safe atmosphere is created that allows us both to be authentic and take great photos.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; You can choose the location, the outfits, the theme, everything. I'm always open to your ideas during our photo session.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; On the day of your session, I will give you one of my favorite photos, edited and retouched, free of charge. So you'll already have a great photo from the day of your session to share or print.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; After your session, you'll be able to choose your favourite photos for me to work on. I'll be happy to help you find the best ones photographically, but you have 100% freedom to choose the photos you like best.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Sometimes I'll take 1 or 2 photos on film, if I have my analog camera with me. I'll gift you those photos as soon as I get them back from the lab.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Personalized Experience:</strong> I don't see portrait photography as a production line job. I see it as a unique, personalized experience, and I love making people feel comfortable and at ease. My main goal is to make you feel as comfortable as possible, so you can just relax and enjoy the photos being taken!</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Empathetic Approach:</strong> I really care about you and your situation, and I'd love for you to talk about your feelings. If you're able to relax and feel at ease, we can create a safe atmosphere where we can both be our true selves and take some truly amazing photos together!</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Flexibility:</strong> You have so many choices! You can choose the location, the outfits, the theme&mdash;everything! I love hearing your ideas during our photo session!</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Same-Day Photo Gift:</strong> On the day of your session, I'll give you one of my favorite photos, edited and retouched, absolutely free of charge! You'll already have a great photo from the day of your session to share or print!</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Freedom to Choose:</strong> After your session, you'll be able to choose your favorite photos for me to work on. I'll be happy to help you find the best ones photographically, but you have 100% freedom to choose the photos you like best. I'm here to make sure you'll love the photos you receive!</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Analog Touch:</strong> I love taking photos with my analog camera! Sometimes I'll take one or two photos on film and I'll gift them to you as soon as I get them back from the lab.</li>
 			</ul>
-			<p><a class="button" href="https://instagram.com/rolandszabo.photo/"><i class="fas fa-fw fa-envelope"></i>&nbsp; This is for me!</a></p>
+			<p><a class="button" href="#pricing"><i class="fas fa-fw fa-circle-up"></i>&nbsp; This is for me!</a></p>
 		</div>
 	</section>
 
-	<section>
+	<hr class="fancy-separator container">
+
+	<section class="section">
 		<div class="container">
+			<h2 class="mt-0">Testimonials</h2>
+			<p class="text-larger mb-2">Don't just take my word for it. <a href="/en/testimonials/">Read more</a></p>
 			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 12 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 13 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 14 %}
+				{% assign source = testimonials.items %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 0 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 1 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 2 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 3 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 4 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 5 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 6 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 7 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 8 %}
 			</div>
+			<p class="mt-2 text-center"><a class="button" href="#pricing"><i class="fas fa-fw fa-circle-up"></i>&nbsp; Let's Do This!</a></p>
 		</div>
 	</section>
 </main>

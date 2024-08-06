@@ -10,8 +10,8 @@ module.exports = {
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Meddig tart az élmény?",
+				answer: "A Fotogén Felfedezés élmény 30 percig tart. Bár gyakran rövidebb idő alatt végzünk, szívesen maradok a teljes időtartam alatt, hogy biztosítsam, hogy elegendő egyedi és fotogén képet készítsünk.",
 			},
 		},
 		{
@@ -22,8 +22,8 @@ module.exports = {
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Hozhatok barátot vagy családtagot a fotózásra?",
+				answer: "Ezt a sessiont egyéni portrék készítésére teveztem, hogy segítsen felfedezni a fotogén oldaladat. Ha szeretnél egy barátot vagy családtagot is magaddal hozni, javaslom, hogy válaszd A Teljes Élményt, amely nagyobb rugalmasságot biztosít a résztvevők tekintetében.",
 			},
 		},
 		{
@@ -34,20 +34,20 @@ module.exports = {
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Mit viseljek a fotózáson?",
+				answer: "Válassz olyan ruhát, amelyben kényelmesen és magabiztosan érzed magad. Szívesen segítek kiválasztani a legjobb ruhát a konzultációnk során, hogy a lehető legjobban nézz ki a fotókon.",
 			},
 		},
 		{
 			en: {
 				id: "",
 				question: "How do I book?",
-				answer: "Booking is simple! Click the button below to schedule your session through Instagram. I am usually available for these shorter sessions, making it easy to find a convenient time for you.",
+				answer: "It's really simple, just <a href='https://www.instagram.com/rolandszabo.photo/' target='_blank' rel='noreferrer noopener'>DM me on Instagram</a> or <a href='mailto:hi@rolandszabo.photo' target='_blank' rel='noreferrer noopener'>drop me an email</a>, whichever is more convenient for you. I am usually available for these shorter sessions, making it easy to find a convenient time for you.",
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Hogyan tudok időpontot foglalni?",
+				answer: "Nagyon egyszerű, csak <a href='https://www.instagram.com/rolandszabo.photo/' target='_blank' rel='noreferrer noopener'>írj üzenetet Instagramon</a> vagy <a href='mailto:hi@rolandszabo.photo' target='_blank' rel='noreferrer noopener'>dobj egy e-mailt</a>, amelyik kényelmesebb Neked. Általában elérhető vagyok ezekre a rövidebb sessionökre, így könnyen találunk egy számodra megfelelő időpontot.",
 			},
 		},
 	],
@@ -60,8 +60,8 @@ module.exports = {
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Meddig tart az élmény?",
+				answer: "A Teljes Élmény általában 2 órát szokott igénybe venni, így elegendő idő áll rendelkezésre a különböző fotókhoz és ruhaváltásokra is.",
 			},
 		},
 		{
@@ -72,8 +72,8 @@ module.exports = {
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Hozhatok barátokat, családtagokat vagy háziállatokat?",
+				answer: "Abszolút! Ezt a sessiont úgy alakítottam ki, hogy rugalmas és befogadó legyen, így tökéletes egyének, párok, családok, barátok és háziállatok számára is; de elhozhatod akár a hobbidat is!",
 			},
 		},
 		{
@@ -84,20 +84,20 @@ module.exports = {
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Milyen ruhát viseljek?",
+				answer: "Két ruhát hozhatsz magaddal, hogy átöltözhess a fotózás alatt. Szívesen segítek kiválasztani a legjobb ruhákat, hogy fantasztikusan nézz ki.",
 			},
 		},
 		{
 			en: {
 				id: "",
 				question: "How do I book?",
-				answer: "Booking is simple! Click the button below to schedule your session through Instagram. I'm usually available for these sessions, making it easy to find a convenient time for you.",
+				answer: "It's really simple, just <a href='https://www.instagram.com/rolandszabo.photo/' target='_blank' rel='noreferrer noopener'>DM me on Instagram</a> or <a href='mailto:hi@rolandszabo.photo' target='_blank' rel='noreferrer noopener'>drop me an email</a>, whichever is more convenient for you.",
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Hogyan tudok időpontot foglalni?",
+				answer: "Nagyon egyszerű, csak <a href='https://www.instagram.com/rolandszabo.photo/' target='_blank' rel='noreferrer noopener'>írj üzenetet Instagramon</a> vagy <a href='mailto:hi@rolandszabo.photo' target='_blank' rel='noreferrer noopener'>dobj egy e-mailt</a>, amelyik kényelmesebb Neked.",
 			},
 		},
 	],
@@ -110,8 +110,8 @@ module.exports = {
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Milyen hosszú a fotózás?",
+				answer: "Ez az élmény korlátlan fotózási időt kínál, így annyi időt szánhatunk a tökéletes fotók elkészítésére, amennyire csak szükségünk van.",
 			},
 		},
 		{
@@ -122,8 +122,8 @@ module.exports = {
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Hozhatok barátokat, családtagokat vagy háziállatokat?",
+				answer: "Abszolút! Ezt a sessiont is úgy alakítottam ki, hogy rugalmas és befogadó legyen, így tökéletes egyének, párok, családok, barátok és háziállatok számára is; de elhozhatod akár a hobbidat is!",
 			},
 		},
 		{
@@ -134,20 +134,20 @@ module.exports = {
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Milyen ruhát viseljek?",
+				answer: "Több ruhát is hozhatsz magaddal, hogy a fotózás alatt átöltözhess. Felfedezhetünk extravagáns jelmezeket és tematikus öltözeteket is. Szívesen segítek kiválasztani az elképzelésednek legmegfelelőbb öltözéket.",
 			},
 		},
 		{
 			en: {
 				id: "",
 				question: "How do I book?",
-				answer: "Booking is easy! Schedule your session through Instagram. I'm excited to work with you to create stunning portraits and offer priority booking for seasonal or special events.",
+				answer: "It's really simple, just <a href='https://www.instagram.com/rolandszabo.photo/' target='_blank' rel='noreferrer noopener'>DM me on Instagram</a> or <a href='mailto:hi@rolandszabo.photo' target='_blank' rel='noreferrer noopener'>drop me an email</a>, whichever is more convenient for you. I'm excited to work with you to create stunning portraits and offer priority booking for seasonal or special events.",
 			},
 			hu: {
 				id: "",
-				question: "",
-				answer: "",
+				question: "Hogyan tudok időpontot foglalni?",
+				answer: "Nagyon egyszerű, csak <a href='https://www.instagram.com/rolandszabo.photo/' target='_blank' rel='noreferrer noopener'>írj üzenetet Instagramon</a> vagy <a href='mailto:hi@rolandszabo.photo' target='_blank' rel='noreferrer noopener'>dobj egy e-mailt</a>, amelyik kényelmesebb Neked. Örömmel dolgozom veled együtt, hogy lenyűgöző portrékat készítsünk, és elsőbbségi foglalást kínálok szezonális vagy különleges eseményekre.",
 			},
 		},
 	],

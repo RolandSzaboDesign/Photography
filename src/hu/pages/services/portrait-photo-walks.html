@@ -1,151 +1,88 @@
 ---
 layout: layouts/base.html
-title: Portré Fotózás Budapesten
+title: Portrait Photography in Budapest
 permalink: "/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"
 translation: photo-walks
 css: photo-walks
 ---
 
 <main class="main">
+	<header class="page-header">
+		<div class="container">
+			<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
+			<p class="page-header__title h1">Átlagemebrekből Varázsolok Szupermodelleket</p>
+		</div>
+	</header>
+
 	<section class="section section--top">
 		<div class="container">
-			<header class="page-header">
-				<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
-				<p class="page-header__title h1">Ha úgy gondolod, hogy nem vagy fotogén, akkor bebizonyítom, hogy tévedsz.</p>
-			</header>
-			<div class="half">
-				<div>
-					<p>Az, hogy "nem vagy fotogén", egyszerűen annyit tesz, hogy még senki sem örökítette meg az igazi szépségedet egy fényképen. Ez ma megváltozik.</p>
-					<p>Roland vagyok, a budapesti portréfotósod. Empatikus személyiségemről és <del>szar</del> <ins>egyedülálló</ins> humorérzékemről vagyok ismert. Laza, nyugodt hangulatú budapesti fotózásokon keresztül segítek, hogy legyőzd a fényképezőgéppel kapcsolatos szorongásodat, olyan őszinte fotók készítésével, amelyekért garantáltan rajongani fogsz.</p>
-					<p>Bizonytalan vagy a pózolással kapcsolatban? Nem tudod, hova helyezd a kezed, vagy hogyan nézz ki a legjobban a kamera előtt? Aggodalomra semmi ok, hozzáértő kezekben vagy. Készen állok, hogy bebizonyítsam, hogy valóban fotogén vagy!</p>
-					<p><a class="button" href="#elmenyek"><i class="fas fa-fw fa-circle-down"></i>&nbsp; Készen Állok</a></p>
-				</div>
-				<div class="polaroid">
-					<img class="polaroid__photo" src="/assets/images/portraiture/blanka-3/04_1400.webp" alt="{{ site[locale].navServicesPortraiture }}">
-				</div>
+			<p>Roland vagyok, a budapesti portréfotósod. Empatikus személyiségemről és <del>szar</del> <ins>egyedülálló</ins> humorérzékemről vagyok ismert. Laza, nyugodt hangulatú budapesti fotózásokon keresztül segítek, hogy legyőzd a fényképezőgéppel kapcsolatos szorongásodat, olyan őszinte fotók készítésével, amelyekért garantáltan rajongani fogsz. Bizonytalan vagy a pózolással kapcsolatban? Nem tudod, hova helyezd a kezed, vagy hogyan nézz ki a legjobban a kamera előtt? Aggodalomra semmi ok, hozzáértő kezekben vagy.</p>
+			<div class="plans mt-2" id="elmenyek">
+				{% include 'partials/pricing-table.html', type: 'photogenicDiscovery' %}
+				{% include 'partials/pricing-table.html', type: 'signatureExperience' %}
+				{% include 'partials/pricing-table.html', type: 'ultimateJourney' %}
 			</div>
 		</div>
 	</section>
 
-	<section class="section section--white section--testimonials">
-		<div class="container">
-			<div class="testimonials">
-				{% assign source = testimonials.items %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 0 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 1 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 2 %}
-			</div>
-		</div>
-	</section>
+	<hr class="fancy-separator container">
 
 	<section class="section">
 		<div class="container">
-			<h2 class="mt-0 mb-2">Ideje újragondolni, hogy mit jelent fotogénnek lenni</h2>
-			<figure class="floating-photo floating-photo--left">
-				<img class="floating-photo__photo" src="/assets/images/bts-9.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
-				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/gaborfotoz/" target="_blank" rel="noopener noreferrer">{{ site[locale].gaborTomor }}</a></em></figcaption>
-			</figure>
-			<p>Nemtől, mérettől és kortól függetlenül hiszem, hogy minden emberben megtalálható a szépség. Az a célom, hogy ezt megmutassam Neked, és olyan képeket készítsek Rólad, ahogyan még soha nem láttad Magad.</p>
-			<p>Felejtsd el a kínos pózokat és az erőltetett mosolyokat. Laza szemléletemmel és empatikus személyiségemmel azon dolgozom, hogy mindenki jól érezze magát a kamerám előtt. Együtt olyan hiteles portrékat készítünk, amelyeket örökké imádni fogsz.</p>
-			<p>Nem kell modellnek lenned ahhoz, hogy hihetetlenül jól nézz ki a fényképeken. Akár Budapest utcáin szeretnél sétálni, akár a természet nyugalmában, minden fotón igyekszem megragadni az igazi énedet.</p>
-			<p>Készen állsz arra, hogy megcáfold a kételyeidet? Foglalj időpontot még ma, és ismerd meg a hiteles fotózás örömét. Én készen állok. És Te?</p>
-			<p><a class="button" href="#elmenyek"><i class="fas fa-fw fa-circle-down"></i>&nbsp; Irány az Átalakulás</a></p>
-		</div>
-	</section>
-
-	<section class="section section--white section--testimonials">
-		<div class="container">
-			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 3 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 4 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 5 %}
-			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="container">
-			<div class="half">
-				<div>
-					<h2 class="mt-0 mb-2">Ők sem voltak profi modellek</h2>
-					<p>Mielőtt a fényképezőgépem elé álltak volna, sok vendégem kételkedett a bennük rejlő potenciálban. A közös munkának köszönhetően azonban sikerült felfedezniük egy nagyon fontos dolgot: az igazi szépségüket.</p>
-					<p>Lehet, hogy hozzájuk hasonlóan Te is kételkedsz magadban. Aggodalomra semmi ok; én azért vagyok itt, hogy megmutassam Neked, hogy igenis fotogén vagy, és hogy Rólad is tudok nagyszerű fotókat készíteni.</p>
-					<p><a class="button mt-2" href="#elmenyek"><i class="fas fa-fw fa-circle-down"></i>&nbsp; Fedezd Fel a Fotogén Énedet</a></p>
-				</div>
+			<div class="grid-3-2">
+				<article>
+					<h2 class="mt-0 mb-2">A Filozófiám</h2>
+					<p class="text-larger">Nemtől, mérettől és kortól függetlenül hiszem, hogy minden emberben megtalálható a szépség. Az a célom, hogy ezt megmutassam Neked, és olyan képeket készítsek Rólad, ahogyan még soha nem láttad Magad.</p>
+					<p>Felejtsd el a kínos pózokat és az erőltetett mosolyokat. Laza szemléletemmel és empatikus személyiségemmel azon dolgozom, hogy mindenki jól érezze magát a kamerám előtt. Együtt olyan hiteles portrékat készítünk, amelyeket örökké imádni fogsz.</p>
+					<p>Készen állsz arra, hogy megcáfold a kételyeidet? Foglalj időpontot még ma, és ismerd meg a hiteles fotózás örömét.</p>
+					<p><a class="button" href="#elmenyek"><i class="fas fa-fw fa-circle-up"></i>&nbsp; Irány az Átalakulás</a></p>
+				</article>
 				{% include 'partials/photo-grid.html' %}
 			</div>
 		</div>
 	</section>
 
-	<section class="section section--white section--testimonials">
-		<div class="container">
-			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 6 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 7 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 8 %}
-			</div>
-		</div>
-	</section>
-
-	<section class="section" id="elmenyek">
-		<div class="container">
-			<h2 class="h1 mt-0 mb-2 text-center">Élmények</h2>
-			<div class="plans">
-				{% include 'partials/pricing-table.html', type: 'imNotPhotogenic' %}
-				{% include 'partials/pricing-table.html', type: 'theFullExperience' %}
-				{% include 'partials/pricing-table.html', type: 'fairytaleFantasy' %}
-			</div>
-			<figure class="floating-photo floating-photo--left">
-				<img class="floating-photo__photo" src="/assets/images/bts-10.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
-				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/james.acs.tta/" target="_blank" rel="noopener noreferrer">{{ site[locale].csanadAlfoldi }}</a></em></figcaption>
-			</figure>
-			<p><strong>Fizetés:</strong> A végleges fotók kiválasztása után esedékes. Fizetési lehetőségek: banki átutalás vagy Revolut. Készpénzt nem fogadok el. Minden fotózásról számlát állítok ki.</p>
-			<p><strong>Előleg:</strong> A normál fotózásoknál általában nincs előleg. Azonban a konkrét fotózás és annak körülményei alapján fenntartom a jogot, hogy előleget kérjek. Ez fedezi az autómegosztás díját vagy a fotózás egyedi szempontjaival kapcsolatos további kiadásokat. Biztosíthatlak, hogy minden ilyen kérést a fotózás előtt átláthatóan megbeszélünk és egyeztetünk.</p>
-			<p><strong>Átadás:</strong> A szerkesztett, retusált fotókat a kifizetést követő 1-7 napon belül (az élményedtől függően), digitális formátumban adom át. Nyers képeket nem adok át.</p>
-			<p><a class="button" href="https://instagram.com/rolandszabo.photo/"><i class="fas fa-fw fa-envelope"></i>&nbsp; Írj üzenetet a Kezdéshez</a></p>
-			<hr>
-			{% assign category = faq.pricing %}
-			{% include 'partials/faq.html' %}
-		</div>
-	</section>
-
-	<section class="section section--white section--testimonials">
-		<div class="container">
-			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 9 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 10 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 11 %}
-			</div>
-		</div>
-	</section>
+	<hr class="fancy-separator container">
 
 	<section class="section">
 		<div class="container">
-			<h2>Miért Válassz Engem?</h2>
+			<h2 class="mt-0 mb-2">Why Choose Me</h2>
 			<figure class="floating-photo floating-photo--right">
 				<img class="floating-photo__photo" src="/assets/images/bts-2.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
 				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos.photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
 			</figure>
 			<p>Az évek során kialakítottam egy olyan módszert, amivel bátran állíthatom, hogy jó kezekben leszel, ha engem választasz fotósodként. Íme pár előny, ami tetszeni fog.</p>
 			<ul>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Nekem a fotózás nem futószalagos munka, hanem egyedi, személyre szabott élmény. Sosem a fotók az elsőszámú célom, hanem az, hogy a lehető legjobban érezd Magad.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Engem tényleg érdekel, hogy hogy érzed Magad, és bátran beszélhetsz is az érzéseidről. Ha el tudsz lazulni, azzal kialakul egy olyan baráti közeg, amiben kényelmesen mozgunk és őszinte képeket készítünk.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Te választhatsz helyszínt, ruhát, kiegészítőt, és nyitott vagyok minden ötletedre és kreatív gondolatodra a fotózás során.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Még a fotózás napján kapsz tőlem egy végleges, retusált képet ajándékba, ami az én egyik kedvencem. Így már aznap lesz egy profi fotód, amit azonnal meg is oszthatsz a szeretteiddel, vagy akár ki is nyomtathatsz.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Te válaszhatod ki a fotózás után a kedvenc képeidet, amiket megszerkesztek. Szívesen segítek a fotográfiailag legjobbakat kiválasztani, de végső soron 100%-ban a Te kezedben van a döntés.</li>
-				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; Néha elkattintok pár képet filmre is, ha nálam van az analóg fényképezőgépem. Ezeket a képeket mindig ajándékba kapod tőlem, amint előhívják a tekercset.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Személyre Szabott Élmények:</strong> Nekem a fotózás nem futószalagos munka, hanem egyedi, személyre szabott élmény. Sosem a fotók az elsőszámú célom, hanem az, hogy a lehető legjobban érezd Magad.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Emberközeliség:</strong> Engem tényleg érdekel, hogy hogy érzed Magad, és bátran beszélhetsz is az érzéseidről. Ha el tudsz lazulni, azzal kialakul egy olyan baráti közeg, amiben kényelmesen mozgunk és őszinte képeket készítünk.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Rugalmasság:</strong> Te választhatsz helyszínt, ruhát, kiegészítőt, és nyitott vagyok minden ötletedre és kreatív gondolatodra a fotózás során.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Aznapi Ajándék Fotó:</strong> Még a fotózás napján kapsz tőlem egy végleges, retusált képet ajándékba, ami az én egyik kedvencem. Így már aznap lesz egy profi fotód, amit azonnal meg is oszthatsz a szeretteiddel, vagy akár ki is nyomtathatsz.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Tiéd a Választás:</strong> Te válaszhatod ki a fotózás után a kedvenc képeidet, amiket megszerkesztek. Szívesen segítek a fotográfiailag legjobbakat kiválasztani, de végső soron 100%-ban a Te kezedben van a döntés.</li>
+				<li><i class="fas fa-check-circle text-highlight"></i>&nbsp; <strong>Filmes Fotózás:</strong> Néha elkattintok pár képet filmre is, ha nálam van az analóg fényképezőgépem. Ezeket a képeket mindig ajándékba kapod tőlem, amint előhívják a tekercset.</li>
 			</ul>
-			<p><a class="button" href="https://instagram.com/rolandszabo.photo/"><i class="fas fa-fw fa-envelope"></i>&nbsp; Írok is Üzenetet</a></p>
+			<p><a class="button" href="#elmenyek"><i class="fas fa-fw fa-circle-up"></i>&nbsp; Nézzük az Élményeket</a></p>
 		</div>
 	</section>
 
-	<section class="section section--white section--testimonials">
+	<hr class="fancy-separator container">
+
+	<section class="section">
 		<div class="container">
+			<h2 class="mt-0">Rólam Mondtátok</h2>
+			<p class="text-larger mb-2">Ne higgy nekem, higgy nekik. <a href="/hu/rolam-mondtak/">Itt van még jó sok</a></p>
 			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 12 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 13 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 14 %}
+				{% assign source = testimonials.items %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 0 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 1 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 2 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 3 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 4 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 5 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 6 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 7 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 8 %}
 			</div>
+			<p class="mt-2 text-center"><a class="button" href="#elmenyek"><i class="fas fa-fw fa-circle-up"></i>&nbsp; Csináljuk!</a></p>
 		</div>
 	</section>
 </main>

@@ -256,7 +256,7 @@ css: photo-walks
 								<dd class="summary__value">{{ experiences[experience][locale].pricing.includes }}</dd>
 							</div>
 							<div class="summary__item">
-								<dt class="summary__key">{{ site[locale].summaryFormat }} <i class="far fa-question-circle" title="Solo, Couples, Families, Pets, Hobbies"></i></dt>
+								<dt class="summary__key">{{ site[locale].summaryFormat }} <i class="far fa-question-circle" title="{{ site[locale].format }}"></i></dt>
 								<dd class="summary__value">{{ experiences[experience][locale].pricing.format }}</dd>
 							</div>
 							<div class="summary__item">
@@ -286,21 +286,9 @@ css: photo-walks
 					{% endif %}
 				</div>
 			</article>
-		</div>
-	</section>
 
-	<section>
-		<div class="container">
-			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 12 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 13 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 14 %}
-			</div>
-		</div>
-	</section>
+			<hr class="fancy-separator">
 
-	<section class="section">
-		<div class="container">
 			<h2 class="mb-2">{{ site[locale].otherWaysTitle }}</h2>
 			<div class="plans plans--two">
 				{% for i in experiences %}
@@ -315,23 +303,10 @@ css: photo-walks
 					{% endif %}
 				{% endfor %}
 			</div>
-		</div>
-	</section>
 
-	<section>
-		<div class="container">
-			<div class="testimonials">
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 15 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 16 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 17 %}
-			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="container">
+			<br>
 			<h2 class="mb-2">{{ site[locale].faq }}</h2>
-			{% assign category = faq[experience] %}
+			{% assign category = faq[experience] %}	
 			{% include 'partials/faq.html' %}
 		</div>
 	</section>

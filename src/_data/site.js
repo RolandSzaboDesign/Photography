@@ -107,6 +107,9 @@ module.exports = {
 		blogRolandSzabo: "Roland Szabó",
 
 		faq: "Frequently Asked Questions",
+		format: "Solo, Couples, Families, Pets, Hobbies",
+		learnMore: "Learn More",
+
 		summaryPrice: "Price",
 		summaryIncludes: "Includes",
 		summaryDuration: "Duration",
@@ -212,11 +215,14 @@ module.exports = {
 		blogRolandSzabo: "Szabó Roland",
 
 		faq: "Gyakran Ismételt Kérdések",
+		format: "Egyéni, Páros, Családi, Kisállat, Hobbi",
+		learnMore: "Részletek",
+
 		summaryPrice: "Ár",
-		summaryIncludes: "Tartalmaz",
+		summaryIncludes: "Végleges Fotók",
 		summaryDuration: "Fotózás Időtartama",
 		summaryFormat: "Formátum",
-		summaryLocations: "Helyszínek",
-		summaryOutfits: "Ruhák",
+		summaryLocations: "Helyszín",
+		summaryOutfits: "Ruha",
 	},
 };
