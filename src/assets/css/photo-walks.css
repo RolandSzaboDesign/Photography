@@ -61,7 +61,7 @@
 }
 
 .plan__title {
-	margin: 2rem;
+	margin: 2rem 2rem 1rem;
 	font-size: 2rem;
 	text-align: center;
 }
@@ -76,15 +76,28 @@
 	margin: 0 auto;
 }
 
+@media only screen and (min-width: 500px) and (max-width: 991px) {
+	.plan__image--with-margin {
+		margin-top: 1.5rem;
+	}
+}
+
 .plan__price-amount {
 	display: block;
 	margin-left: 2rem;
 	margin-right: 2rem;
 	font-family: var(--serif);
 	font-weight: 400;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: var(--text-dark);
 	letter-spacing: -1px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.plan__price-amount {
+		font-size: 3rem;
+		letter-spacing: -2px;
+	}
 }
 
 .plan__details {

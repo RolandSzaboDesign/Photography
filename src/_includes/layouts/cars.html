@@ -178,22 +178,28 @@ og_image: https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-1.jpg
 			<p>{{ cars[locale].servicesText }}</p>
 			<div class="plans mt-2">
 				<article class="plan">
-					<img class="plan__image" src="/assets/images/cars/autofotozas-5.webp" alt="{{ cars[locale].service1Title }}">
+					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-5.webp" alt="{{ cars[locale].service1Title }}">
 					<h3 class="plan__title">{{ cars[locale].service1Title }}</h3>
 					<p class="plan__description text-center"><em>{{ cars[locale].service1Tagline }}</em></p>
+					<p class="plan__price-amount text-center">{{ cars[locale].service1Price }}</p>
 					<p class="plan__description text-smaller">{{ cars[locale].service1Text }}</p>
+					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
 				</article>
 				<article class="plan">
-					<img class="plan__image" src="/assets/images/cars/autofotozas-6.webp" alt="{{ cars[locale].service2Title }}">
+					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-6.webp" alt="{{ cars[locale].service2Title }}">
 					<h3 class="plan__title">{{ cars[locale].service2Title }}</h3>
 					<p class="plan__description text-center"><em>{{ cars[locale].service2Tagline }}</em></p>
+					<p class="plan__price-amount text-center">{{ cars[locale].service2Price }}</p>
 					<p class="plan__description text-smaller">{{ cars[locale].service2Text }}</p>
+					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
 				</article>
 				<article class="plan">
-					<img class="plan__image" src="/assets/images/cars/autofotozas-7.webp" alt="{{ cars[locale].service3Title }}">
+					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-7.webp" alt="{{ cars[locale].service3Title }}">
 					<h3 class="plan__title">{{ cars[locale].service3Title }}</h3>
 					<p class="plan__description text-center"><em>{{ cars[locale].service3Tagline }}</em></p>
+					<p class="plan__price-amount text-center">{{ cars[locale].service3Price }}</p>
 					<p class="plan__description text-smaller">{{ cars[locale].service3Text }}</p>
+					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
 				</article>
 			</div>
 		</div>
