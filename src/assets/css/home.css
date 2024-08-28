@@ -42,7 +42,7 @@
 .home-nav__list {
 	display: grid;
 	grid-gap: var(--grid-gutter);
-	min-height: 60vh;
+	height: 60vh;
 	margin-bottom: 0;
 }
 
