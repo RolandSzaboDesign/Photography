@@ -11,19 +11,19 @@ css: photo-walks
 				<p class="page-header__category">{{ site[locale].navExperiencesCategory }}</p>
 				<div class="page-header--with-nav">
 					{% if experience == 'photogenicDiscovery' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fas fa-circle-left"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fa-solid fa-circle-left"></i></a>
 					{% elsif experience == 'signatureExperience' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fas fa-circle-left"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fa-solid fa-circle-left"></i></a>
 					{% elsif experience == 'ultimateJourney' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fas fa-circle-left"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fa-solid fa-circle-left"></i></a>
 					{% endif %}
 					<h1 class="page-header__title">{{ experiences[experience][locale].name }}</h1>
 					{% if experience == 'photogenicDiscovery' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fas fa-circle-right"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.signatureExperience[locale].slug }}/"><i class="fa-solid fa-circle-right"></i></a>
 					{% elsif experience == 'signatureExperience' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fas fa-circle-right"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.ultimateJourney[locale].slug }}/"><i class="fa-solid fa-circle-right"></i></a>
 					{% elsif experience == 'ultimateJourney' %}
-						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fas fa-circle-right"></i></a>
+						<a class="page-header__arrow" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences.photogenicDiscovery[locale].slug }}/"><i class="fa-solid fa-circle-right"></i></a>
 					{% endif %}
 				</div>
 			</header>
@@ -31,7 +31,7 @@ css: photo-walks
 				<article>
 					<h2>{{ experiences[experience][locale].heroTitle }}</h2>
 					<p>{{ experiences[experience][locale].heroTagline }}</p>
-					<p class="mb-0"><a class="button" href="#learn-more"><i class="fas fa-fw fa-arrow-down"></i>&nbsp; {{ experiences[experience][locale].heroButton }}</a></p>
+					<p class="mb-0"><a class="button" href="#learn-more"><i class="fa-solid fa-fw fa-arrow-down"></i>&nbsp; {{ experiences[experience][locale].heroButton }}</a></p>
 				</article>
 				<div class="hero-portraits">
 					<div class="hero-portraits__item hero-portraits__item--left polaroid">
@@ -62,7 +62,7 @@ css: photo-walks
 				<article>
 					<h2 class="mb-2">{{ experiences[experience][locale].experienceTitle }}</h2>
 					<p>{{ experiences[experience][locale].experienceText }}</p>
-					<p class="mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].experienceButton }}</a></p>
+					<p class="mb-0"><a class="button" href="#contact"><i class="fa-solid fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].experienceButton }}</a></p>
 				</article>
 				{% if experience == 'photogenicDiscovery' %}
 					<img class="rotate-5" src="/assets/images/bts-2.webp" alt="{{ experiences[experience][locale].name }}">
@@ -90,7 +90,7 @@ css: photo-walks
 			<h2 class="mb-2">{{ experiences[experience][locale].whatsIncludedTitle }}</h2>
 			<ul>
 				{% for item in experiences[experience][locale].whatsIncludedBulletPoints %}
-					<li><i class="fas fa-check-circle fa-fw text-highlight"></i>&nbsp; {{ item }}</li>
+					<li><i class="fa-solid fa-check-circle fa-fw text-highlight"></i>&nbsp; {{ item }}</li>
 				{% endfor %}
 			</ul>
 
@@ -160,7 +160,7 @@ css: photo-walks
 				</div>
 			{% endif %}
 
-			<p class="mt-2 mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whatsIncludedButton }}</a></p>
+			<p class="mt-2 mb-0"><a class="button" href="#contact"><i class="fa-solid fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whatsIncludedButton }}</a></p>
 		</div>
 	</section>
 
@@ -223,7 +223,7 @@ css: photo-walks
 					<p class="text-smaller">{{ experiences[experience][locale].why4Text }}</p>
 				</li>
 			</ul>
-			<p class="mt-2 mb-0"><a class="button" href="#contact"><i class="fas fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whyButton }}</a></p>
+			<p class="mt-2 mb-0"><a class="button" href="#contact"><i class="fa-solid fa-fw fa-check"></i>&nbsp; {{ experiences[experience][locale].whyButton }}</a></p>
 		</div>
 	</section>
 
@@ -256,7 +256,7 @@ css: photo-walks
 								<dd class="summary__value">{{ experiences[experience][locale].pricing.includes }}</dd>
 							</div>
 							<div class="summary__item">
-								<dt class="summary__key">{{ site[locale].summaryFormat }} <i class="far fa-question-circle" title="{{ site[locale].format }}"></i></dt>
+								<dt class="summary__key">{{ site[locale].summaryFormat }} <i class="fa-solid fa-question-circle" title="{{ site[locale].format }}"></i></dt>
 								<dd class="summary__value">{{ experiences[experience][locale].pricing.format }}</dd>
 							</div>
 							<div class="summary__item">
@@ -273,8 +273,8 @@ css: photo-walks
 							</div>
 						</dl>
 						<div class="summary__cta buttons">
-							<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fas fa-envelope"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
-							<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fab fa-instagram"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
+							<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fa-solid fa-envelope"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
+							<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fa-brands fa-instagram"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
 						</div>
 					</article>
 					{% if experience == 'photogenicDiscovery' %}

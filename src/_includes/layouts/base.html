@@ -11,6 +11,12 @@
 		<meta name="description" content="{{ site[locale].homepageMainTitle }}">
 		{%- endif %}
 
+		<!-- Styles -->
+		<link rel="stylesheet" href="/assets/css/style.css">
+		{%- if css %}
+		<link rel="stylesheet" href="/assets/css/{{ css }}.css">
+		{%- endif %}
+
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
@@ -39,12 +45,6 @@
 		{%- endif %}
 		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
 
-		<!-- Styles -->
-		<link rel="stylesheet" href="/assets/css/style.css">
-		{%- if css %}
-		<link rel="stylesheet" href="/assets/css/{{ css }}.css">
-		{%- endif %}
-
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,7 +54,8 @@
 		</noscript>
 
 		<!-- FontAwesome -->
-		<link rel="stylesheet" href="/assets/css/fontawesome.css">
+		<link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+		<link rel="stylesheet" href="/assets/css/fontawesome-solid.min.css">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>
