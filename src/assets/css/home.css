@@ -78,14 +78,16 @@
 	}
 }
 
-.home-nav__link--portrait { background-image: url('/assets/images/portraiture/larae/09_700.webp'); }
-.home-nav__link--social   { background-image: url('https://ik.imagekit.io/rolandszabophoto/social-content/hevn-2.jpg'); }
-.home-nav__link--automotive { background-image: url('https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-1.jpg'); }
+@media only screen and (max-width: 767px) {
+	.home-nav__link--portrait { background-image: url('/assets/images/portraiture/larae/09_700.webp'); }
+	.home-nav__link--social   { background-image: url('/assets/images/home/social-content-landscape.webp'); }
+	.home-nav__link--automotive { background-image: url('/assets/images/home/automotive-landscape.webp'); }
+}
 
 @media only screen and (min-width: 768px) {
 	.home-nav__link--portrait { background-image: url('/assets/images/portraiture/eszter-15/01_700.webp'); }
-	.home-nav__link--social { background-image: url('https://ik.imagekit.io/rolandszabophoto/social-content/dam-6.jpg'); }
-	.home-nav__link--automotive { background-image: url('https://ik.imagekit.io/rolandszabophoto/cars/megane-impreza-1.jpg'); }
+	.home-nav__link--social { background-image: url('/assets/images/home/social-content-portrait.webp'); }
+	.home-nav__link--automotive { background-image: url('/assets/images/home/automotive-portrait.webp'); }
 }
 
 .home-nav__link:hover,
