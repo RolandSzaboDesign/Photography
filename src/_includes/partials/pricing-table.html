@@ -1,10 +1,10 @@
 <a class="plan" href="/{{ locale }}/{{ site[locale].slugExperiences }}/{{ experiences[type][locale].slug }}/">
 	{% if type == 'photogenicDiscovery' %}
-		<img class="plan__image" src="/assets/images/portraiture/aiganysh/06_1400.webp" alt="{{ experiences[type][locale].name }}">
+		<img class="plan__image" src="/assets/images/portraiture/aiganysh/06_1400.webp" alt="{{ experiences[type][locale].name }}" width="1000" height="667">
 	{% elsif type == 'signatureExperience' %}
-		<img class="plan__image" src="/assets/images/portraiture/cinta-jorge/01_1400.webp" alt="{{ experiences[type][locale].name }}">
+		<img class="plan__image" src="/assets/images/portraiture/cinta-jorge/01_1400.webp" alt="{{ experiences[type][locale].name }}" width="1000" height="667">
 	{% elsif type == 'ultimateJourney' %}
-		<img class="plan__image" src="/assets/images/portraiture/larae/03_1400.webp" alt="{{ experiences[type][locale].name }}">
+		<img class="plan__image" src="/assets/images/portraiture/larae/03_1400.webp" alt="{{ experiences[type][locale].name }}" width="1000" height="667">
 	{% endif %}
 	<h2 class="plan__title">{{ experiences[type][locale].name }}</h2>
 	<p class="plan__description">{{ experiences[type][locale].pricing.description }}</p>
