@@ -85,7 +85,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-	.home-nav__link--portrait { background-image: url('/assets/images/portraiture/eszter-15/01_700.webp'); }
+	.home-nav__link--portrait { background-image: url('/assets/images/portraiture/eszter-15/01_500.webp'); }
 	.home-nav__link--social { background-image: url('/assets/images/home/social-content-portrait.webp'); }
 	.home-nav__link--automotive { background-image: url('/assets/images/home/automotive-portrait.webp'); }
 }
