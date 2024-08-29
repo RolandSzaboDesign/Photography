@@ -100,7 +100,7 @@ module.exports = {
 		whosBehindText3: 'You don\'t need to worry about posing, I\ll be helping you all along the way. Now, I know what you\'re thinking: I don\'t want my photos to look posed. I get it! So instead of showing you concrete poses, I\'ll actually teach you how to look your best when you\'re being photographed, so you can feel more confident the next time it comes to taking your photos.',
 		whosBehindText4: 'Now, if this all makes you shiver in excitement, then here\'s your ways to contact me and get started on your photographic journey.',
 		otherWaysTitle: 'Other ways I can help you',
-		otherWaysLearnMore: 'Learn More',
+		otherWaysLearnMore: 'Let\'s See!',
 
 		blogWrittenBy: "Written by",
 		blogWrittenOn: "on",
