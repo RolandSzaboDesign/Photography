@@ -19,7 +19,7 @@ css: blog
 		{% for item in blogsies reversed %}
 			<article class="blog-lister">
 				<a class="blog-lister__link" href="/{{ locale }}/blog/{{ item.data.slug }}/">
-					<img class="blog-lister__image" src="/assets/images/blog/{{ item.data.count }}.webp" alt="Featured image for {{ item.data.title }}">
+					<img class="blog-lister__image" src="/assets/images/blog/{{ item.data.count }}.webp" alt="Featured image for {{ item.data.title }}" width="600" height="300">
 					<div class="blog-lister__content">
 						<h2 class="blog-lister__title">{{ item.data.title }}</h2>
 						<span class="blog-lister__date">
