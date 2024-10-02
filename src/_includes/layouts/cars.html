@@ -3,7 +3,7 @@ permalink: "/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugCa
 layout: layouts/base.html
 translation: cars
 css: photo-walks
-og_image: https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-1.jpg
+og_image: https://rolandszabo.photo/assets/images/cars/og-image.webp
 ---
 
 <main class="main">
@@ -16,146 +16,109 @@ og_image: https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-1.jpg
 
 	<section class="section section--top">
 		<div class="container">
-			<div class="half">
+			<div class="half align-center">
 				<div>
-					<div>
-						<p>{{ cars[locale].introText1 }}</p>
-						<p>{{ cars[locale].introText2 }}</p>
-					</div>
-					<p><strong>{{ cars[locale].onThisPage }}</strong></p>
-					<nav>
-						<ul class="list">
-							<li><a href="#why">{{ cars[locale].subtitle1 }}</a></li>
-							<li><a href="#portfolio">{{ cars[locale].subtitle2 }}</a></li>
-							<li><a href="#services">{{ cars[locale].subtitle3 }}</a></li>
-							<li><a href="#contact">{{ cars[locale].subtitle4 }}</a></li>
-						</ul>
-					</nav>
+					<p>{{ cars[locale].introText1 }}</p>
+					<p>{{ cars[locale].introText2 }}</p>
+					<p><a class="btn" href="#services"></a></p>
 				</div>
 				<figure class="polaroid">
-					<img class="polaroid__photo" src="/assets/images/cars/autofotozas-8.webp" alt="{{ title }}">
+					<img class="polaroid__photo" src="/assets/images/cars/autofotozas-1.webp" alt="{{ title }}">
 				</figure>
 			</div>
 		</section>
 	</section>
 
-	<section class="section section--white" id="why">
+	<section class="section section--grey" id="services">
 		<div class="container">
-			<h2 class="mt-0 text-center">{{ cars[locale].subtitle1 }}</h2>
-			<div class="fourth">
-				<article>
-					<img src="/assets/images/cars/autofotozas-1.webp" alt="{{ cars[locale].whyReason1Title }}">
-					<h3 class="mb-1">{{ cars[locale].whyReason1Title }}</h3>
-					<p class="text-smaller">{{ cars[locale].whyReason1Text }}</p>
+			<h2 class="h1 mt-0 mb-2 text-center">{{ cars[locale].servicesTitle }}</h2>
+			<p>{{ cars[locale].servicesText }}</p>
+			<div class="plans mt-2">
+				<article class="plan">
+					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-2.webp" alt="{{ cars[locale].service1Title }}">
+					<h3 class="plan__title">{{ cars[locale].service1Title }}</h3>
+					<p class="plan__description text-center"><em>{{ cars[locale].service1Tagline }}</em></p>
+					<p class="plan__price-amount text-center">{{ cars[locale].service1Price }}</p>
+					<p class="plan__description text-smaller">{{ cars[locale].service1Text }}</p>
+					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
 				</article>
-				<article>
-					<img src="/assets/images/cars/autofotozas-2.webp" alt="{{ cars[locale].whyReason2Title }}">
-					<h3 class="mb-1">{{ cars[locale].whyReason2Title }}</h3>
-					<p class="text-smaller">{{ cars[locale].whyReason2Text }}</p>
+				<article class="plan">
+					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-3.webp" alt="{{ cars[locale].service2Title }}">
+					<h3 class="plan__title">{{ cars[locale].service2Title }}</h3>
+					<p class="plan__description text-center"><em>{{ cars[locale].service2Tagline }}</em></p>
+					<p class="plan__price-amount text-center">{{ cars[locale].service2Price }}</p>
+					<p class="plan__description text-smaller">{{ cars[locale].service2Text }}</p>
+					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
 				</article>
-				<article>
-					<img src="/assets/images/cars/autofotozas-3.webp" alt="{{ cars[locale].whyReason3Title }}">
-					<h3 class="mb-1">{{ cars[locale].whyReason3Title }}</h3>
-					<p class="text-smaller">{{ cars[locale].whyReason3Text }}</p>
-				</article>
-				<article>
-					<img src="/assets/images/cars/autofotozas-4.webp" alt="{{ cars[locale].whyReason4Title }}">
-					<h3 class="mb-1">{{ cars[locale].whyReason4Title }}</h3>
-					<p class="text-smaller">{{ cars[locale].whyReason4Text }}</p>
+				<article class="plan">
+					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-4.webp" alt="{{ cars[locale].service3Title }}">
+					<h3 class="plan__title">{{ cars[locale].service3Title }}</h3>
+					<p class="plan__description text-center"><em>{{ cars[locale].service3Tagline }}</em></p>
+					<p class="plan__price-amount text-center">{{ cars[locale].service3Price }}</p>
+					<p class="plan__description text-smaller">{{ cars[locale].service3Text }}</p>
+					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
 				</article>
 			</div>
-		</section>
+		</div>
 	</section>
 
-	<section class="section" id="portfolio">
+	<section class="section section--white" id="portfolio">
 		<div class="container">
-			<h2 class="mt-0 text-center">{{ cars[locale].subtitle2 }}</h2>
+			<h2 class="h1 mt-0 text-center">{{ cars[locale].portfolioTitle }}</h2>
 			<h3 class="mb-2">{{ cars[locale].portfolioProfessional }}</h3>
 			<div class="bricks">
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-5-1.jpg" alt="BMW 5 Series for Corner Car"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-5-2.jpg" alt="BMW 5 Series for Corner Car"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-5-3.jpg?updatedAt=1719315471636" alt="BMW 5 Series for Corner Car"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-5-4.jpg?updatedAt=1719315471581" alt="BMW 5 Series for Corner Car"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-ix-1.webp" alt="BMW iX M60 for Corner Car"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-ix-2.webp" alt="BMW iX M60 for Corner Car"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-ix-3.webp" alt="BMW iX M60 for Corner Car"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-ix-4.webp" alt="BMW iX M60 for Corner Car"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-torokbalint-1.webp" alt="Kia Niro EV for GreenGo"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-balaton-1.webp" alt="Kia Niro EV for GreenGo"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-torokbalint-3.webp" alt="Kia Niro EV for GreenGo"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-balaton-1.webp" alt="Kia Niro EV for GreenGo"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-balaton-4.webp" alt="Kia Niro EV for GreenGo"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/vivaro-1.jpg" alt="Opel Vivaro E for GreenGo"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/vivaro-2.jpg" alt="Opel Vivaro E for GreenGo"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/vivaro-3.jpg" alt="Opel Vivaro E for GreenGo"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/vivaro-4.jpg" alt="Opel Vivaro E for GreenGo"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-esztergom-1.webp" alt="Kia Niro EV for GreenGo"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-esztergom-2.webp" alt="Kia Niro EV for GreenGo"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-esztergom-3.webp" alt="Kia Niro EV for GreenGo"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-esztergom-4.webp" alt="Kia Niro EV for GreenGo"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rentben/octavia-1.jpg" alt="Skoda Octavia for RentBen Carsharing"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rentben/octavia-2.jpg" alt="Skoda Octavia for RentBen Carsharing"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rentben/octavia-3.jpg" alt="Skoda Octavia for RentBen Carsharing"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rentben/octavia-4.jpg" alt="Skoda Octavia for RentBen Carsharing"></a>
 			</div>
 			<hr class="hr-xl">
 			<h3 class="mb-2">{{ cars[locale].portfolioProjects }}</h3>
 			<div class="bricks">
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/c3-corvette-1.webp" alt="Chevrolet Corvette C3 Stingray Convertible"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/c3-corvette-2.webp" alt="Chevrolet Corvette C3 Stingray Convertible"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/c3-corvette-3.webp" alt="Chevrolet Corvette C3 Stingray Convertible"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/c3-corvette-4.webp" alt="Chevrolet Corvette C3 Stingray Convertible"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-1.webp" alt="Porsche 911 [997.2] Carrera 4S"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-2.webp?updatedAt=1721683331756" alt="Porsche 911 [997.2] Carrera 4S"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-3.webp" alt="Porsche 911 [997.2] Carrera 4S"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-4.webp" alt="Porsche 911 [997.2] Carrera 4S"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-impreza-1.jpg" alt="Renault Mégane RS & Subaru Impreza WRX"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-impreza-2.jpg" alt="Renault Mégane RS & Subaru Impreza WRX"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-impreza-3.jpg" alt="Renault Mégane RS & Subaru Impreza WRX"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-impreza-4.jpg" alt="Renault Mégane RS & Subaru Impreza WRX"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/abarth-595-1.jpg" alt="Abarth 595 S Pista"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/abarth-595-2.jpg" alt="Abarth 595 S Pista"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/abarth-595-3.jpg" alt="Abarth 595 S Pista"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/abarth-595-4.jpg" alt="Abarth 595 S Pista"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-1.jpg" alt="Porsche 911 [997.1] Carrera 4S"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-2.jpg" alt="Porsche 911 [997.1] Carrera 4S"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-5.jpg" alt="Porsche 911 [997.1] Carrera 4S"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-6.jpg" alt="Porsche 911 [997.1] Carrera 4S"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-2.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-5.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-8.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-6.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-3.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-1.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-7.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-4.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-2.jpg" alt="Porsche 944 S2 Coupé"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-3.jpg" alt="Porsche 944 S2 Coupé"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-7.jpg" alt="Porsche 944 S2 Coupé"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-6.jpg" alt="Porsche 944 S2 Coupé"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-5.jpg" alt="Porsche 944 S2 Coupé"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-1.jpg" alt="Porsche 944 S2 Coupé"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-4.jpg" alt="Porsche 944 S2 Coupé"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-8.jpg" alt="Porsche 944 S2 Coupé"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-2.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-5.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-8.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-6.jpg" alt="Lamborghini Huracán EVO Spyder"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-7.jpg" alt="Audi ABT RS5-R Coupé B9"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-5.jpg" alt="Audi ABT RS5-R Coupé B9"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-1.jpg" alt="Audi ABT RS5-R Coupé B9"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-2.jpg" alt="Audi ABT RS5-R Coupé B9"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-3.jpg" alt="Audi ABT RS5-R Coupé B9"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-4.jpg" alt="Audi ABT RS5-R Coupé B9"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-8.jpg" alt="Audi ABT RS5-R Coupé B9"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-6.jpg" alt="Audi ABT RS5-R Coupé B9"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/tesla-1.jpg" alt="Tesla Model S 100D"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/tesla-4.jpg" alt="Tesla Model S 100D"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/tesla-5.jpg" alt="Tesla Model S 100D"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/tesla-2.jpg" alt="Tesla Model S 100D"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/tesla-7.jpg" alt="Tesla Model S 100D"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/tesla-8.jpg" alt="Tesla Model S 100D"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-5.jpg" alt="Porsche 911 [991.2] Cabriolet"></a>
+				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-6.jpg" alt="Porsche 911 [991.2] Cabriolet"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-2.jpg" alt="Audi RS5 Coupé B8 4.2l N/A"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-1.jpg" alt="Audi RS5 Coupé B8 4.2l N/A"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-3.jpg" alt="Audi RS5 Coupé B8 4.2l N/A"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-4.jpg" alt="Audi RS5 Coupé B8 4.2l N/A"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-5.jpg" alt="Audi RS5 Coupé B8 4.2l N/A"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-8.jpg" alt="Audi RS5 Coupé B8 4.2l N/A"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-1.jpg" alt="Porsche 911 [991.2] Cabriolet"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-3.jpg" alt="Porsche 911 [991.2] Cabriolet"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-5.jpg" alt="Porsche 911 [991.2] Cabriolet"></a>
-				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-6.jpg" alt="Porsche 911 [991.2] Cabriolet"></a>
 			</div>
 			<hr class="hr-xl">
 			<h3 class="mb-2">{{ cars[locale].portfolioUsed }}</h3>
@@ -168,39 +131,6 @@ og_image: https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-1.jpg
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-6.jpg" alt="Kia Ceed SW"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-7.jpg" alt="Kia Ceed SW"></a>
 				<a class="brick" href="#"><img class="brick__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-8.jpg" alt="Kia Ceed SW"></a>
-			</div>
-		</div>
-	</section>
-
-	<section class="section section--grey" id="services">
-		<div class="container">
-			<h2 class="mt-0 mb-2 text-center">{{ cars[locale].subtitle3 }}</h2>
-			<p>{{ cars[locale].servicesText }}</p>
-			<div class="plans mt-2">
-				<article class="plan">
-					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-5.webp" alt="{{ cars[locale].service1Title }}">
-					<h3 class="plan__title">{{ cars[locale].service1Title }}</h3>
-					<p class="plan__description text-center"><em>{{ cars[locale].service1Tagline }}</em></p>
-					<p class="plan__price-amount text-center">{{ cars[locale].service1Price }}</p>
-					<p class="plan__description text-smaller">{{ cars[locale].service1Text }}</p>
-					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
-				</article>
-				<article class="plan">
-					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-6.webp" alt="{{ cars[locale].service2Title }}">
-					<h3 class="plan__title">{{ cars[locale].service2Title }}</h3>
-					<p class="plan__description text-center"><em>{{ cars[locale].service2Tagline }}</em></p>
-					<p class="plan__price-amount text-center">{{ cars[locale].service2Price }}</p>
-					<p class="plan__description text-smaller">{{ cars[locale].service2Text }}</p>
-					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
-				</article>
-				<article class="plan">
-					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-7.webp" alt="{{ cars[locale].service3Title }}">
-					<h3 class="plan__title">{{ cars[locale].service3Title }}</h3>
-					<p class="plan__description text-center"><em>{{ cars[locale].service3Tagline }}</em></p>
-					<p class="plan__price-amount text-center">{{ cars[locale].service3Price }}</p>
-					<p class="plan__description text-smaller">{{ cars[locale].service3Text }}</p>
-					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
-				</article>
 			</div>
 		</div>
 	</section>
