@@ -1,199 +1,188 @@
-/														/en/											301
+/														/en/
 
-/about													/en/about/										301
-/about/													/en/about/										301
-
-/auto/													/en/services/automotive-photography/			301
-/automotive												/en/services/automotive-photography/			301
-/automotive/											/en/services/automotive-photography/			301
-/automotive/911-sc/										/en/services/automotive-photography/			301
-/automotive/924/										/en/services/automotive-photography/			301
-/automotive/991.2-cabriolet/							/en/services/automotive-photography/			301
-/automotive/993-carrera-rs/								/en/services/automotive-photography/			301
-/automotive/a5/											/en/services/automotive-photography/			301
-/automotive/amg-a35/									/en/services/automotive-photography/			301
-/automotive/amg-gts/									/en/services/automotive-photography/			301
-/automotive/aventador-svj/								/en/services/automotive-photography/			301
-/automotive/huracan-evo-spyder/							/en/services/automotive-photography/			301
-/automotive/huracan/									/en/services/automotive-photography/			301
-/automotive/mol-limo-1/									/en/services/automotive-photography/			301
-/automotive/mol-limo-2/									/en/services/automotive-photography/			301
-/automotive/r8-green-hell/								/en/services/automotive-photography/			301
-/automotive/rs5-r/										/en/services/automotive-photography/			301
-/cars/													/en/services/automotive-photography/			301
-
-/contact												/en/contact/									301
-/contact/												/en/contact/									301
-
-/en/automotive/											/en/services/automotive-photography/			301
-/en/automotive/991.2-cabriolet/							/en/services/automotive-photography/			301
-/en/automotive/amg-a35/									/en/services/automotive-photography/			301
-/en/automotive/huracan-evo-spyder/						/en/services/automotive-photography/			301
-/en/automotive/rs5-b8/									/en/services/automotive-photography/			301
-/en/automotive/rs5-r/									/en/services/automotive-photography/			301
-/en/calendar/											/en/											301
-/en/galleries/											/en/portraiture/								301
-/en/portre/												/en/portraiture/								301
-/en/services/autumn-portrait-photography/				/en/services/portrait-photo-walks/				301
-/en/services/film-photo-walks/							/en/services/portrait-photo-walks/				301
-/en/services/vintage-photo-walks/						/en/services/portrait-photo-walks/				301
-/en/social-content/										/en/services/social-media-content-creation/		301
-/en/social-content/aqua-toria/							/en/services/social-media-content-creation/		301
-/en/social-content/budapart-mol-limo/					/en/services/social-media-content-creation/		301
-/en/social-content/four-seasons-hotel-budapest/			/en/services/social-media-content-creation/		301
-/en/social-content/inna-faith-tattoo/					/en/services/social-media-content-creation/		301
-/en/social-content/pinceszinhaz/						/en/services/social-media-content-creation/		301
-/en/social-content/the-damn-good-place/					/en/services/social-media-content-creation/		301
-/en/tags/%C3%A9letst%C3%ADlus/							/en/tags/all/									301
-/en/tags/%C3%BCzlet/									/en/tags/all/									301
-/en/tags/artist/										/en/tags/all/									301
-/en/tags/beauty%20shoot/								/en/tags/all/									301
-/en/tags/beauty-shoot/									/en/tags/all/									301
-/en/tags/belt%C3%A9r/									/en/tags/indoors/								301
-/en/tags/beltér/										/en/tags/all/									301
-/en/tags/cars/											/en/tags/all/									301
-/en/tags/couples/										/en/tags/family/couples/						301
-/en/tags/creative/										/en/tags/all/									301
-/en/tags/emberek/										/en/tags/all/									301
-/en/tags/family/										/en/tags/family/couples/						301
-/en/tags/hotels/										/en/tags/all/									301
-/en/tags/lifestyle/										/en/tags/all/									301
-/en/tags/people/										/en/tags/all/									301
-/en/tags/photo%20story/									/en/tags/all/									301
-/en/tags/stores/										/en/tags/all/									301
-/en/tags/used-car-photos/								/en/tags/all/									301
-
-/galleries												/en/portraiture/								301
-/galleries/												/en/portraiture/								301
-/gear													/en/gear/										301
-/gear/													/en/gear/										301
-
-/hu/auto/												/hu/szolgaltatasok/auto-fotozas/				301
-/hu/auto/991.2-cabriolet/								/hu/szolgaltatasok/auto-fotozas/				301
-/hu/auto/amg-a35/										/hu/szolgaltatasok/auto-fotozas/				301
-/hu/auto/huracan-evo-spyder/							/hu/szolgaltatasok/auto-fotozas/				301
-/hu/auto/rs5-b8/										/hu/szolgaltatasok/auto-fotozas/				301
-/hu/auto/rs5-r/											/hu/szolgaltatasok/auto-fotozas/				301
-/hu/galeriak/											/hu/portre/										301
-/hu/kozossegi-tartalom/									/hu/szolgaltatasok/kozossegi-tartalom-gyartas/	301
-/hu/kozossegi-tartalom/aqua-toria/						/hu/szolgaltatasok/kozossegi-tartalom-gyartas/	301
-/hu/kozossegi-tartalom/budapart-mol-limo/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/	301
-/hu/kozossegi-tartalom/four-seasons-hotel-budapest/		/hu/szolgaltatasok/kozossegi-tartalom-gyartas/	301
-/hu/kozossegi-tartalom/inna-faith-tattoo/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/	301
-/hu/kozossegi-tartalom/pinceszinhaz/					/hu/szolgaltatasok/kozossegi-tartalom-gyartas/	301
-/hu/kozossegi-tartalom/the-damn-good-place/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/	301
-/hu/naptar/												/hu/											301
-/hu/pages/alejandro-ana/								/hu/portre/alejandro-ana						301
-/hu/pages/anna-15/										/hu/portre/anna-15								301
-/hu/portraiture/										/hu/portre/										301
-/hu/portre/adel-sango//1000								/hu/portre/										301
-/hu/szolgaltatasok/filmes-fotos-setak/					/hu/szolgaltatasok/portre-fotos-setak/			301
-/hu/szolgaltatasok/oszi-portre-fotozas/					/hu/szolgaltatasok/portre-fotos-setak/			301
-/hu/szolgaltatasok/vintage-fotos-setak/					/hu/szolgaltatasok/portre-fotos-setak/			301
-/hu/tags/%C3%BCzlet/									/en/tags/all/									301
-/hu/tags/artist/										/en/tags/all/									301
-/hu/tags/aut%C3%B3/										/en/tags/all/									301
-/hu/tags/aut%C3%B3k/									/en/tags/all/									301
-/hu/tags/automotive/									/en/tags/all/									301
-/hu/tags/beauty%20shoot/								/en/tags/all/									301
-/hu/tags/beauty-shoot/									/en/tags/all/									301
-/hu/tags/belt%C3%A9r/									/hu/tags/beltéri/								301
-/hu/tags/beltér/										/hu/tags/beltéri/								301
-/hu/tags/creative/										/en/tags/all/									301
-/hu/tags/csal%C3%A1di/									/hu/tags/családi/páros/							301
-/hu/tags/culture/										/en/tags/all/									301
-/hu/tags/emebrek/										/en/tags/all/									301
-/hu/tags/family/										/en/tags/all/									301
-/hu/tags/fot%C3%B3riport/								/en/tags/all/									301
-/hu/tags/hotel/											/en/tags/all/									301
-/hu/tags/hotels/										/en/tags/all/									301
-/hu/tags/k%C3%B6z%C3%B6ss%C3%A9gi-tartalom/				/en/tags/all/									301
-/hu/tags/kult%C3%BAra/									/en/tags/all/									301
-/hu/tags/p%C3%A1ros/									/hu/tags/családi/páros/							301
-/hu/tags/people/										/en/tags/all/									301
-/hu/tags/stores/										/en/tags/all/									301
-/hu/tags/used-car-photos/								/en/tags/all/									301
-
-/landscape												/en/											301
-/landscape/												/en/											301
-/landscape/gellert-hegy-2021-10-23/						/en/											301
-/landscape/gellert-hegy-2021-11-21/						/en/											301
-/landscape/hunyad-orom-2021-11-07/						/en/											301
-/landscape/kaan-karoly-kilato-2021-11-20/				/en/											301
-/landscape/ordog-orom-2021-11-16/						/en/											301
-/landscape/sas-hegy-2021-11-14/							/en/											301
-
-/legal													/en/contact/									301
-/legal/													/en/contact/									301
-
-/portrait												/en/portraiture/								301
-/portrait/												/en/portraiture/								301
-/portrait/dalma/										/en/portraiture/dalma/							301
-/portrait/daniella/										/en/portraiture/daniella/						301
-/portrait/denise-mark/									/en/portraiture/denise-mark/					301
-/portrait/eniko-barbi/									/en/portraiture/								301
-/portrait/fanni/										/en/portraiture/								301
-/portrait/gabi-szabi/									/en/portraiture/								301
-/portrait/imola/										/en/portraiture/								301
-/portrait/kata-2/										/en/portraiture/kata/							301
-/portrait/kata-3/										/en/portraiture/kata/							301
-/portrait/kata/											/en/portraiture/kata/							301
-/portrait/kinga/										/en/portraiture/kinga/							301
-/portrait/kitti/										/en/portraiture/								301
-/portrait/lacko/										/en/portraiture/lacko/							301
-/portrait/laura-2/										/en/portraiture/								301
-/portrait/laura/										/en/portraiture/								301
-/portrait/levente/										/en/portraiture/levente/						301
-/portrait/lilla/										/en/portraiture/lilla/							301
-/portrait/loretta-2/									/en/portraiture/loretta/						301
-/portrait/loretta-3/									/en/portraiture/loretta/						301
-/portrait/loretta/										/en/portraiture/loretta/						301
-/portrait/niki-dani/									/en/portraiture/								301
-/portrait/reka/											/en/portraiture/reka/							301
-/portrait/tanya/										/en/portraiture/								301
-/portrait/timi/											/en/portraiture/								301
-/portrait/tina-evelin/									/en/portraiture/								301
-/portrait/velva/										/en/portraiture/								301
-/portrait/viki-egon-felix/								/en/portraiture/viki-egon-felix/				301
-/portrait/viki-egon/									/en/portraiture/viki-egon-felix/				301
-/portrait/viktoria/										/en/portraiture/viki-virag/						301
-/portrait/virag/										/en/portraiture/viki-virag/						301
-/portrait/vivi-2/										/en/portraiture/vivi/							301
-/portrait/vivi-3/										/en/portraiture/vivi/							301
-/portrait/vivi/											/en/portraiture/vivi/							301
-/portrait/vivien/										/en/portraiture/vivi/							301
-/portraiture											/en/portraiture/								301
-/portraiture/											/en/portraiture/								301
-/portraiture/dalma/										/en/portraiture/dalma/							301
-/portraiture/reka/										/en/portraiture/reka/							301
-/portraiture/viki-virag/								/en/portraiture/viki-virag/						301
-
-/social-content											/en/services/social-media-content-creation/		301
-/social-content/										/en/services/social-media-content-creation/		301
-/social-content/budapart-mol-limo/						/en/services/social-media-content-creation/		301
-/social-content/inna-faith-tattoo/						/en/services/social-media-content-creation/		301
-/social-content/pinceszinhaz/							/en/services/social-media-content-creation/		301
-/social-content/the-damn-good-place/					/en/services/social-media-content-creation/		301
-
-/street													/en/											301
-/street/												/en/											301
-/street/2021-11-21/										/en/											301
-/street/2021-11-25/										/en/											301
-/street/2021-11-26/										/en/											301
-/street/2021-11-28/										/en/											301
-/street/2021-11-30/										/en/											301
-/street/2021-12-03/										/en/											301
-/street/2021-12-06/										/en/											301
-/street/2021-12-13/										/en/											301
-
-/tags/artist/											/en/tags/all/									301
-/tags/beauty%20shoot/									/en/tags/all/									301
-/tags/emebrek/											/en/tags/all/									301
-/tags/family/											/hu/tags/családi/páros/							301
-/tags/female/											/en/tags/female/								301
-/tags/lifestyle/										/en/tags/all/									301
-/tags/solo/												/hu/tags/egyéni/								301
-/tags/used%20car%20photos/								/en/tags/all/									301
+/about													/en/about/
+/about/													/en/about/
+/auto/													/en/services/automotive-photography/
+/automotive												/en/services/automotive-photography/
+/automotive/											/en/services/automotive-photography/
+/automotive/911-sc/										/en/services/automotive-photography/
+/automotive/924/										/en/services/automotive-photography/
+/automotive/991.2-cabriolet/							/en/services/automotive-photography/
+/automotive/993-carrera-rs/								/en/services/automotive-photography/
+/automotive/a5/											/en/services/automotive-photography/
+/automotive/amg-a35/									/en/services/automotive-photography/
+/automotive/amg-gts/									/en/services/automotive-photography/
+/automotive/aventador-svj/								/en/services/automotive-photography/
+/automotive/huracan-evo-spyder/							/en/services/automotive-photography/
+/automotive/huracan/									/en/services/automotive-photography/
+/automotive/mol-limo-1/									/en/services/automotive-photography/
+/automotive/mol-limo-2/									/en/services/automotive-photography/
+/automotive/r8-green-hell/								/en/services/automotive-photography/
+/automotive/rs5-r/										/en/services/automotive-photography/
+/cars/													/en/services/automotive-photography/
+/contact												/en/contact/
+/contact/												/en/contact/
+/en/automotive/											/en/services/automotive-photography/
+/en/automotive/991.2-cabriolet/							/en/services/automotive-photography/
+/en/automotive/amg-a35/									/en/services/automotive-photography/
+/en/automotive/huracan-evo-spyder/						/en/services/automotive-photography/
+/en/automotive/rs5-b8/									/en/services/automotive-photography/
+/en/automotive/rs5-r/									/en/services/automotive-photography/
+/en/calendar/											/en/
+/en/galleries/											/en/portraiture/
+/en/portre/												/en/portraiture/
+/en/services/autumn-portrait-photography/				/en/services/portrait-photo-walks/
+/en/services/film-photo-walks/							/en/services/portrait-photo-walks/
+/en/services/vintage-photo-walks/						/en/services/portrait-photo-walks/
+/en/social-content/										/en/services/social-media-content-creation/
+/en/social-content/aqua-toria/							/en/services/social-media-content-creation/
+/en/social-content/budapart-mol-limo/					/en/services/social-media-content-creation/
+/en/social-content/four-seasons-hotel-budapest/			/en/services/social-media-content-creation/
+/en/social-content/inna-faith-tattoo/					/en/services/social-media-content-creation/
+/en/social-content/pinceszinhaz/						/en/services/social-media-content-creation/
+/en/social-content/the-damn-good-place/					/en/services/social-media-content-creation/
+/en/tags/%C3%A9letst%C3%ADlus/							/en/tags/all/
+/en/tags/%C3%BCzlet/									/en/tags/all/
+/en/tags/artist/										/en/tags/all/
+/en/tags/beauty%20shoot/								/en/tags/all/
+/en/tags/beauty-shoot/									/en/tags/all/
+/en/tags/belt%C3%A9r/									/en/tags/indoors/
+/en/tags/beltér/										/en/tags/all/
+/en/tags/cars/											/en/tags/all/
+/en/tags/couples/										/en/tags/family/couples/
+/en/tags/creative/										/en/tags/all/
+/en/tags/emberek/										/en/tags/all/
+/en/tags/family/										/en/tags/family/couples/
+/en/tags/hotels/										/en/tags/all/
+/en/tags/lifestyle/										/en/tags/all/
+/en/tags/people/										/en/tags/all/
+/en/tags/photo%20story/									/en/tags/all/
+/en/tags/stores/										/en/tags/all/
+/en/tags/used-car-photos/								/en/tags/all/
+/galleries												/en/portraiture/
+/galleries/												/en/portraiture/
+/gear													/en/gear/
+/gear/													/en/gear/
+/hu/auto/												/hu/szolgaltatasok/auto-fotozas/
+/hu/auto/991.2-cabriolet/								/hu/szolgaltatasok/auto-fotozas/
+/hu/auto/amg-a35/										/hu/szolgaltatasok/auto-fotozas/
+/hu/auto/huracan-evo-spyder/							/hu/szolgaltatasok/auto-fotozas/
+/hu/auto/rs5-b8/										/hu/szolgaltatasok/auto-fotozas/
+/hu/auto/rs5-r/											/hu/szolgaltatasok/auto-fotozas/
+/hu/galeriak/											/hu/portre/
+/hu/kozossegi-tartalom/									/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
+/hu/kozossegi-tartalom/aqua-toria/						/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
+/hu/kozossegi-tartalom/budapart-mol-limo/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
+/hu/kozossegi-tartalom/four-seasons-hotel-budapest/		/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
+/hu/kozossegi-tartalom/inna-faith-tattoo/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
+/hu/kozossegi-tartalom/pinceszinhaz/					/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
+/hu/kozossegi-tartalom/the-damn-good-place/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
+/hu/naptar/												/hu/
+/hu/pages/alejandro-ana/								/hu/portre/alejandro-ana
+/hu/pages/anna-15/										/hu/portre/anna-15
+/hu/portraiture/										/hu/portre/
+/hu/portre/adel-sango//1000								/hu/portre/
+/hu/szolgaltatasok/filmes-fotos-setak/					/hu/szolgaltatasok/portre-fotos-setak/
+/hu/szolgaltatasok/oszi-portre-fotozas/					/hu/szolgaltatasok/portre-fotos-setak/
+/hu/szolgaltatasok/vintage-fotos-setak/					/hu/szolgaltatasok/portre-fotos-setak/
+/hu/tags/%C3%BCzlet/									/en/tags/all/
+/hu/tags/artist/										/en/tags/all/
+/hu/tags/aut%C3%B3/										/en/tags/all/
+/hu/tags/aut%C3%B3k/									/en/tags/all/
+/hu/tags/automotive/									/en/tags/all/
+/hu/tags/beauty%20shoot/								/en/tags/all/
+/hu/tags/beauty-shoot/									/en/tags/all/
+/hu/tags/belt%C3%A9r/									/hu/tags/beltéri/
+/hu/tags/beltér/										/hu/tags/beltéri/
+/hu/tags/creative/										/en/tags/all/
+/hu/tags/csal%C3%A1di/									/hu/tags/családi/páros/
+/hu/tags/culture/										/en/tags/all/
+/hu/tags/emebrek/										/en/tags/all/
+/hu/tags/family/										/en/tags/all/
+/hu/tags/fot%C3%B3riport/								/en/tags/all/
+/hu/tags/hotel/											/en/tags/all/
+/hu/tags/hotels/										/en/tags/all/
+/hu/tags/k%C3%B6z%C3%B6ss%C3%A9gi-tartalom/				/en/tags/all/
+/hu/tags/kult%C3%BAra/									/en/tags/all/
+/hu/tags/p%C3%A1ros/									/hu/tags/családi/páros/
+/hu/tags/people/										/en/tags/all/
+/hu/tags/stores/										/en/tags/all/
+/hu/tags/used-car-photos/								/en/tags/all/
+/landscape												/en/
+/landscape/												/en/
+/landscape/gellert-hegy-2021-10-23/						/en/
+/landscape/gellert-hegy-2021-11-21/						/en/
+/landscape/hunyad-orom-2021-11-07/						/en/
+/landscape/kaan-karoly-kilato-2021-11-20/				/en/
+/landscape/ordog-orom-2021-11-16/						/en/
+/landscape/sas-hegy-2021-11-14/							/en/
+/legal													/en/contact/
+/legal/													/en/contact/
+/portrait												/en/portraiture/
+/portrait/												/en/portraiture/
+/portrait/dalma/										/en/portraiture/dalma/
+/portrait/daniella/										/en/portraiture/daniella/
+/portrait/denise-mark/									/en/portraiture/denise-mark/
+/portrait/eniko-barbi/									/en/portraiture/
+/portrait/fanni/										/en/portraiture/
+/portrait/gabi-szabi/									/en/portraiture/
+/portrait/imola/										/en/portraiture/
+/portrait/kata-2/										/en/portraiture/kata/
+/portrait/kata-3/										/en/portraiture/kata/
+/portrait/kata/											/en/portraiture/kata/
+/portrait/kinga/										/en/portraiture/kinga/
+/portrait/kitti/										/en/portraiture/
+/portrait/lacko/										/en/portraiture/lacko/
+/portrait/laura-2/										/en/portraiture/
+/portrait/laura/										/en/portraiture/
+/portrait/levente/										/en/portraiture/levente/
+/portrait/lilla/										/en/portraiture/lilla/
+/portrait/loretta-2/									/en/portraiture/loretta/
+/portrait/loretta-3/									/en/portraiture/loretta/
+/portrait/loretta/										/en/portraiture/loretta/
+/portrait/niki-dani/									/en/portraiture/
+/portrait/reka/											/en/portraiture/reka/
+/portrait/tanya/										/en/portraiture/
+/portrait/timi/											/en/portraiture/
+/portrait/tina-evelin/									/en/portraiture/
+/portrait/velva/										/en/portraiture/
+/portrait/viki-egon-felix/								/en/portraiture/viki-egon-felix/
+/portrait/viki-egon/									/en/portraiture/viki-egon-felix/
+/portrait/viktoria/										/en/portraiture/viki-virag/
+/portrait/virag/										/en/portraiture/viki-virag/
+/portrait/vivi-2/										/en/portraiture/vivi/
+/portrait/vivi-3/										/en/portraiture/vivi/
+/portrait/vivi/											/en/portraiture/vivi/
+/portrait/vivien/										/en/portraiture/vivi/
+/portraiture											/en/portraiture/
+/portraiture/											/en/portraiture/
+/portraiture/dalma/										/en/portraiture/dalma/
+/portraiture/reka/										/en/portraiture/reka/
+/portraiture/viki-virag/								/en/portraiture/viki-virag/
+/social-content											/en/services/social-media-content-creation/
+/social-content/										/en/services/social-media-content-creation/
+/social-content/budapart-mol-limo/						/en/services/social-media-content-creation/
+/social-content/inna-faith-tattoo/						/en/services/social-media-content-creation/
+/social-content/pinceszinhaz/							/en/services/social-media-content-creation/
+/social-content/the-damn-good-place/					/en/services/social-media-content-creation/
+/street													/en/
+/street/												/en/
+/street/2021-11-21/										/en/
+/street/2021-11-25/										/en/
+/street/2021-11-26/										/en/
+/street/2021-11-28/										/en/
+/street/2021-11-30/										/en/
+/street/2021-12-03/										/en/
+/street/2021-12-06/										/en/
+/street/2021-12-13/										/en/
+/tags/artist/											/en/tags/all/
+/tags/beauty%20shoot/									/en/tags/all/
+/tags/emebrek/											/en/tags/all/
+/tags/family/											/hu/tags/családi/páros/
+/tags/female/											/en/tags/female/
+/tags/lifestyle/										/en/tags/all/
+/tags/solo/												/hu/tags/egyéni/
+/tags/used%20car%20photos/								/en/tags/all/
 
 /en/*													/en/404.html									404
 /hu/*													/hu/404.html									404
