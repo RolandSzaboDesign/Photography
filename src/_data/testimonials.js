@@ -19,6 +19,42 @@ module.exports = {
 		// 	},
 		// },
 		{
+			type: "male",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/9jvnGxxQ91jbmLo58",
+			photo: "/assets/images/testimonials/viktor.webp",
+			hu: {
+				name: "Asztalos Viktor",
+				excerpt: "Roland azon dolgozik, hogy olyan élményt és képeket adjon a megrendelőnek amire mindig is vágyott",
+				text: "Rolandhoz már második alkalommal mentem vissza, mivel nem csak nagyszerű képeket csinál, hanem rendkívül kellemes és természetes hangulatban telik a fotózás, nem érez az ember nyomást, nem az óráját fogja nézni hogy mikor jár le az a pár óra, hanem azon dolgozik, hogy olyan élményt és képeket adjon a megrendelőnek amire mindig is vágyott. Bátran ajánlom mindenkinek, csalódni senki se fog, az biztos.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Viktor Asztalos",
+				excerpt: "Roland always works to give the client the experience and pictures they always wanted",
+				text: "I went back to Roland for the second time, because not only does he take great pictures, but he makes the shoot very pleasant and natural, you don't feel under pressure, you don't look at your watch to see when the few hours are up. Instead, he works to give the client the experience and pictures they always wanted. I would recommend him to everyone, no one will be disappointed, that's for sure.",
+				link: "/en/portraiture/",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/SW6ctKKMSXn9w79g8",
+			photo: "/assets/images/testimonials/vivien-2.webp",
+			hu: {
+				name: "Bottyán Vivien",
+				excerpt: "Laza hangulat. Jó képek. Folyamatos kapcsolattartás. Rugalmasság. Extra jófejség.",
+				text: "Laza hangulat. Jó képek. Menő városi helyszínek. Folyamatos kapcsolattartás. Rugalmasság. Extra jófejség. :) Köszönjük a szuper fotókat, Roland! :)",
+				link: "/hu/portre/vivi-norbi/",
+			},
+			en: {
+				name: "Vivien Bottyán",
+				excerpt: "Relaxed atmosphere. Great pictures. Constant communication. Flexibility. Extra kind.",
+				text: "Relaxed atmosphere. Great pictures. Cool urban locations. Constant communication. Flexibility. Extra nice. :) Thanks for the great photos, Roland! :)",
+				link: "/en/portraiture/vivi-norbi/",
+			},
+		},
+		{
 			type: "couple",
 			score: "5.0",
 			googleURL: "https://maps.app.goo.gl/WADTuJkWMUGpcm8Z8",
