@@ -57,7 +57,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "Great photographer, I can only recommend him!",
+			googleURL: "https://maps.app.goo.gl/YN5FHjJidQazSFX69",
 			photo: "/assets/images/testimonials/norbi.webp",
 			hu: {
 				name: "T. Norbert",
