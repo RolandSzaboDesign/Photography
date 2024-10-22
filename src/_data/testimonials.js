@@ -19,9 +19,99 @@ module.exports = {
 		// 	},
 		// },
 		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/qDHMpBx",
+			photo: "/assets/images/testimonials/zsofi.webp",
+			hu: {
+				name: "Fábián Zsófia Eszter",
+				excerpt: "Végig jól éreztem magam, sokat beszélgettünk, ötleteltünk, közös, kreatív folyamatként zajlott az egész fotózás, illetve végig figyelt rá, hogy a lehető legnagyobb kényelemben legyek",
+				text: "Egy nyári utcai fotózás alkalmával ismertem meg Rolandot, amikor megállított a Duna-parton pár kép erejéig. Elsőre is kedvesnek, szimpatikusnak tűnt, utána Instagramon felvettük a kapcsolatot. Októberben keresett meg egy storymra reagálva, hogy elmennék-e vele egy tematikus Halloween fotózásra. Nem gyakran szoktam ilyesmire időt, energiát szánni, mégis igent mondtam neki. Nagyon jó döntés volt, fantasztikus képek születtek! Egészen sok mindennel készültünk az eseményre, kinézet terén teljesen szabad kezet kaptam, helyszínt ő választott, kiegészítőket vittünk mindketten. Végig jól éreztem magam, sokat beszélgettünk, ötleteltünk, közös, kreatív folyamatként zajlott az egész fotózás, illetve végig figyelt rá, hogy a lehető legnagyobb kényelemben legyek. Korábban pár hobbifotóssal volt dolgom, tőlük is pozitív emlékekkel távoztam, de itt tényleg érezhető volt a minőségbeli ugrás, nemcsak csodaszép fotók készültek, hanem élményt, szolgáltatást is kaptam.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Zsófia Eszter Fábián",
+				excerpt: "I felt comfortable all the way through, we talked a lot, we brainstormed, it was a collaborative, creative process and he also made sure I was as comfortable as possible",
+				text: "I met Roland during a summer street photo shoot, when he stopped me by the Danube bank for a few pictures. He seemed nice and sympathetic from the first time I met him, then we got in touch on Instagram. In October, he contacted me in response to a story of mine, asking if I would go with him to a Halloween themed photo shoot. It's not often I take the time and energy to do something like that, but I said yes. It was a very good decision and the pictures were fantastic! We had quite a lot prepared for the event, I was given complete freedom in terms of the look, he chose the location, and we both brought accessories. I felt comfortable all the way through, we talked a lot, we brainstormed, it was a collaborative, creative process and he also made sure I was as comfortable as possible. I had worked with a couple of hobby photographers before, and I left with positive memories of them too, but here I really felt the leap in quality, not only did I get beautiful photos, but I also got an experience and service.",
+				link: "/en/portraiture/",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/VZdMhQp",
+			photo: "/assets/images/testimonials/willie.webp",
+			hu: {
+				name: "Willie Gevertz",
+				excerpt: "Nem is választhattunk volna jobb fotóst életünk ezen kiemelkedően fontos mérföldkövéhez",
+				text: "Roland végig tökéletes szakember volt a fotózás során. A fotóink hatalmas visszhangot kaptak a barátoktól és szeretteinktől, és ami még fontosabb, hogy sok-sok évig gyönyörű emlék lesz. Nem is választhattunk volna jobb fotóst életünk ezen kiemelkedően fontos mérföldkövéhez (első terhesség). Minden gyönyörűen összeállt és megfelelt az elképzeléseinknek.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Willie Gevertz",
+				excerpt: "Could not have picked a better photographer for this very important milestone in our life",
+				text: "Roland was the consummate professional throughout the shoot. Our photos got a huge response from friends and loved ones and will more importantly be a beautiful memory for many years to come. Could not have picked a better photographer for this very important milestone in our life (first pregnancy). Everything came together beautifully and matched our vision.",
+				link: "/en/portraiture/",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/XZoFsBW",
+			photo: "/assets/images/testimonials/karina.webp",
+			hu: {
+				name: "Horváth Karina",
+				excerpt: "A mindennapokban ódzkodok tőle, ha valamilyen kép készül rólam, de Roland segített felfedezni az előnyös oldalamat",
+				text: "Korábbi rossz tapasztalataimat (pl. tablófotózás) teljesen meghazudtolva, Roland fantasztikus élménnyé tette a 30. születésnapomra ajándékba kapott fotózást. Az októberi szeszélyes időjárás (eső), és a pózolás miatt bennem lévő félelem arra sarkallt, hogy lemondjam az egészet, de utólag nagyon örülök, hogy nem tettem. Roland egy percig sem riadt vissza, nagyon rugalmas volt, minden felmerülő kérdésemre, problémámra, kételyemre volt egy, de általában több megoldása. Végtelen türelme, segítőkészsége és humora varázsolta felejthetetlenné ezt a délutánt. A mindennapokban ódzkodok tőle, ha valamilyen kép készül rólam, de Roland segített felfedezni az előnyös oldalamat. Izgatottan várom a következő közös alkalmat!",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Karina Horváth",
+				excerpt: "In my everyday life I shy away from having my picture taken, but Roland helped me discover my positive side",
+				text: "Completely defying my previous bad experiences (e.g. tabloid photography), Roland made my 30th birthday photo shoot a fantastic experience. The changeable weather in October (rain) and my fear of posing made me want to cancel the whole thing, but in hindsight I'm very glad I didn't. Roland was not for a moment deterred, he was very flexible, he had ready solutions to all my questions, problems and doubts. His endless patience, helpfulness and humour made this afternoon unforgettable. In my everyday life I shy away from having my picture taken, but Roland helped me discover my positive side. I am excited for our next time together!",
+				link: "/en/portraiture/",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/G6ESvDe",
+			photo: "/assets/images/testimonials/kitti.webp",
+			hu: {
+				name: "Kun Kitti",
+				excerpt: "A fotózás nagyon szórakoztató és nyugodt élmény volt. Remekül megragadta a személyiségemet, és elérte, hogy kényelmesen érezzem magam a kamera előtt.",
+				text: "Rolanddal örömmel dolgoztam együtt, és nem is lehetnék boldogabb az eredménnyel! A fotózás szabadtéren zajlott, és nagyon szórakoztató és nyugodt élmény volt. A végső képek lenyűgözőek. Tényleg remekül megragadta a személyiségemet, és elérte, hogy kényelmesen érezzem magam a kamera előtt. Nagyon ajánlom Rolandot! Köszönöm ezeket a csodálatos emlékeket.",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Kitti Kun",
+				excerpt: "It was such a fun and relaxed experience, he really captured my personality and made me feel comfortable in front of the camera.",
+				text: "I had the pleasure of working with Roland and I couldn't be happier with the results! The photoshoot took place outdoor and it was such a fun and relaxed experience. The final images are absolutely stunning. He really captured my personality and made me feel comfortable in front of the camera. I highly recommend Roland! Thank you for these amazing memories.",
+				link: "/en/portraiture/",
+			},
+		},
+		{
 			type: "male",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/9jvnGxxQ91jbmLo58",
+			googleURL: "https://g.co/kgs/zmybtyj",
+			photo: "/assets/images/testimonials/gergely.webp",
+			hu: {
+				name: "Simon Gergely",
+				excerpt: "Roland közvetlen és profi, nagyon jó hangulatú volt a fotózás",
+				text: "Roland közvetlen és profi, nagyon jó hangulatú volt a fotózás",
+				link: "/hu/portre/",
+			},
+			en: {
+				name: "Gergely Simon",
+				excerpt: "Roland is direct and professional, the photoshoot was very nice",
+				text: "Roland is direct and professional, the photoshoot was very nice",
+				link: "/en/portraiture/",
+			},
+		},
+		{
+			type: "male",
+			score: "5.0",
+			googleURL: "https://g.co/kgs/BguSkMg",
 			photo: "/assets/images/testimonials/viktor.webp",
 			hu: {
 				name: "Asztalos Viktor",
@@ -39,7 +129,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/SW6ctKKMSXn9w79g8",
+			googleURL: "https://g.co/kgs/CVra4Pw",
 			photo: "/assets/images/testimonials/vivien-2.webp",
 			hu: {
 				name: "Bottyán Vivien",
@@ -57,7 +147,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/WADTuJkWMUGpcm8Z8",
+			googleURL: "https://g.co/kgs/G5ya7nh",
 			photo: "/assets/images/testimonials/kseniia-nicolo.webp",
 			hu: {
 				name: "Kseniia G. & Nicoló R.",
@@ -75,7 +165,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/8YGN16Zt7sachuBs6",
+			googleURL: "https://g.co/kgs/YtAfdWH",
 			photo: "/assets/images/testimonials/eszter-2.webp",
 			hu: {
 				name: "Sz. Eszter",
@@ -93,7 +183,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/YN5FHjJidQazSFX69",
+			googleURL: "https://g.co/kgs/H1dthGV",
 			photo: "/assets/images/testimonials/norbi.webp",
 			hu: {
 				name: "T. Norbert",
@@ -111,7 +201,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/GxAV3wQfngAFQqfL8",
+			googleURL: "https://g.co/kgs/Pbn55H5",
 			photo: "/assets/images/testimonials/veronika.webp",
 			hu: {
 				name: "N. Veronika & Sz. Szabolcs",
@@ -129,7 +219,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/QV7VcEcFUobxpQPx5",
+			googleURL: "https://g.co/kgs/FT4sXiV",
 			photo: "/assets/images/testimonials/adrijan.webp",
 			hu: {
 				name: "Adrijan M.",
@@ -147,7 +237,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/ZpSzxPhZ9ZXE16tn9",
+			googleURL: "https://g.co/kgs/86ZnqGL",
 			photo: "/assets/images/testimonials/laci.webp",
 			hu: {
 				name: "K. László",
@@ -165,7 +255,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/NropzU5CfRjRwVGDA",
+			googleURL: "https://g.co/kgs/KaJ8j58",
 			photo: "/assets/images/testimonials/zdenek.webp",
 			hu: {
 				name: "Zdenek S.",
@@ -183,7 +273,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/oMDqWHuMCa2BjRw3A",
+			googleURL: "https://g.co/kgs/vh9kGmY",
 			photo: "/assets/images/testimonials/laci-2.webp",
 			hu: {
 				name: "Cs. László",
@@ -201,7 +291,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/g9Msxzqoasgs3tQC8",
+			googleURL: "https://g.co/kgs/MNVSWac",
 			photo: "/assets/images/testimonials/mona.webp",
 			hu: {
 				name: "B. Ramóna",
@@ -219,7 +309,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/L5Z6nbvAeeeoYYqx9",
+			googleURL: "https://g.co/kgs/1JkMgZb",
 			photo: "/assets/images/testimonials/eszter-3.webp",
 			hu: {
 				name: "Sz. Eszter",
@@ -237,7 +327,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/EnwZWf8bcs8YTtSb9",
+			googleURL: "https://g.co/kgs/vPSJmEh",
 			photo: "/assets/images/testimonials/boroka.webp",
 			hu: {
 				name: "K. Boróka",
@@ -255,7 +345,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/wQ6Kbs3mfp14i7js5",
+			googleURL: "https://g.co/kgs/NmeGpCu",
 			photo: "/assets/images/testimonials/jazmin-2.webp",
 			hu: {
 				name: "M. Jázmin",
@@ -273,7 +363,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/i83eEFLY9HrPt4Cx7",
+			googleURL: "https://g.co/kgs/YR2T8LR",
 			photo: "/assets/images/testimonials/reka-2.webp",
 			hu: {
 				name: "K. Réka",
@@ -291,7 +381,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "",
+			googleURL: "https://g.co/kgs/GTAYqCL",
 			photo: "/assets/images/testimonials/attila.webp",
 			hu: {
 				name: "N. Petra & H. Attila",
@@ -309,7 +399,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/Wbx8XRwi1Qkadj5XA",
+			googleURL: "https://g.co/kgs/1zxrmFh",
 			photo: "/assets/images/testimonials/gerda.webp",
 			hu: {
 				name: "Botka Gerda",
@@ -327,7 +417,7 @@ module.exports = {
 		{
 			type: "male",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/B2SjgvQDPK8bh1by9",
+			googleURL: "https://g.co/kgs/mDkYYaN",
 			photo: "/assets/images/testimonials/bence.webp",
 			hu: {
 				name: "Domokos Bence",
@@ -345,7 +435,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/FcGbhdaLVPWMM6zKA",
+			googleURL: "https://g.co/kgs/4p6q7W6",
 			photo: "/assets/images/testimonials/judit-gergo.webp",
 			hu: {
 				name: "Farkas Judit & Olgyay Gergő",
@@ -363,7 +453,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/rgjMNo7xdVFRDGiZ6",
+			googleURL: "https://g.co/kgs/6fhyEJg",
 			photo: "/assets/images/testimonials/polina.webp",
 			hu: {
 				name: "Polina Voronina",
@@ -381,7 +471,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/6QMXj28R2GPhEw139",
+			googleURL: "https://g.co/kgs/pdkE31B",
 			photo: "/assets/images/testimonials/polina-nijat.webp",
 			hu: {
 				name: "Nijat Hasanov",
@@ -399,7 +489,7 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/XVT3xbvRRA7jm6hU6",
+			googleURL: "https://g.co/kgs/n8VWjR5",
 			photo: "/assets/images/testimonials/gabi.webp",
 			hu: {
 				name: "Horváth Gabriella",
@@ -417,7 +507,7 @@ module.exports = {
 		{
 			type: "automotive",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/XVT3xbvRRA7jm6hU6",
+			googleURL: "https://g.co/kgs/iHjEqtt",
 			photo: "/assets/images/testimonials/barni.webp",
 			hu: {
 				name: "Gombos Barnabás",
@@ -435,7 +525,7 @@ module.exports = {
 		{
 			type: "couple",
 			score: "5.0",
-			googleURL: "https://maps.app.goo.gl/3VN8WHJh7f4GL1xm8",
+			googleURL: "https://g.co/kgs/dQuKF6b",
 			photo: "/assets/images/testimonials/parinita-roopesh.webp",
 			hu: {
 				name: "Parinita Kumar",
