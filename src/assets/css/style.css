@@ -212,7 +212,6 @@ img {
 
 	.fourth {
 		grid-template-columns: repeat(4, 1fr);
-		grid-gap: 3rem;
 	}
 }
 
@@ -446,6 +445,10 @@ hr {
 	color: var(--highlight);
 }
 
+.text-danger {
+	color: var(--danger);
+}
+
 p.text-larger {
 	font-size: 1.125rem;
 }
@@ -458,6 +461,10 @@ p.text-larger {
 @media only screen and (min-width: 1200px) {
 	p.text-smaller { font-size: 1.125rem; }
 	p.text-larger { font-size: 1.375rem; }
+}
+
+.icon-left {
+	padding-right: .5rem;
 }
 
 .list {
