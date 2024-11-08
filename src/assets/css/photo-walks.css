@@ -76,7 +76,7 @@
 	margin: 0 auto;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 991px) {
+@media only screen and (min-width: 500px) and (max-width: 991.98px) {
 	.plan__image--with-margin {
 		margin-top: 1.5rem;
 	}
