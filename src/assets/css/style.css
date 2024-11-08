@@ -591,7 +591,7 @@ ol.list { list-style: decimal; }
 	background-color: var(--bg-medium);
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.nav {
 		display: none;
 		grid-column: 1 / 4;
@@ -623,7 +623,7 @@ ol.list { list-style: decimal; }
 	font-size: 1rem;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.nav__list > .nav__item {
 		background-color: #FFF;
 	}
@@ -657,7 +657,7 @@ ol.list { list-style: decimal; }
 	transition: var(--transition-duration) color, var(--transition-duration) background-color;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.nav__link {
 		text-align: left;
 		line-height: 1.25;
@@ -709,7 +709,7 @@ ol.list { list-style: decimal; }
 	margin-right: .5rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 479.98px) {
 	.nav__link .nav__icon {
 		/* Need +1 specificity here */
 		display: none;
@@ -733,7 +733,7 @@ ol.list { list-style: decimal; }
 	margin-bottom: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.nav__dropdown {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -766,7 +766,7 @@ ol.list { list-style: decimal; }
 	justify-self: end;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.lang { grid-column: 2; }
 }
 
