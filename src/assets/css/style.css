@@ -69,7 +69,7 @@ html { box-sizing: border-box; }
 	}
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1499.98px) {
+@media only screen and (min-width: 1200px) {
 	:root {
 		--polaroid-padding: 1rem;
 	}
@@ -78,12 +78,6 @@ html { box-sizing: border-box; }
 @media only screen and (min-width: 1200px) {
 	:root {
 		--grid-gutter: 1.5rem;
-	}
-}
-
-@media only screen and (min-width: 1500px) {
-	:root {
-		--polaroid-padding: 1.25rem;
 	}
 }
 

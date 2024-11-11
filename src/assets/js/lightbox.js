@@ -1,5 +1,5 @@
-let portfolioImage = document.querySelectorAll('.brick');
-let lightboxEnabled = document.querySelectorAll('.brick__photo');
+let portfolioImage = document.querySelectorAll('.polaroid');
+let lightboxEnabled = document.querySelectorAll('.polaroid__photo');
 let lightboxArray = Array.from(lightboxEnabled);
 let lastImage = lightboxArray.length - 1;
 let lightboxContainer = document.querySelector('.lightbox');
