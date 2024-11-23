@@ -27,6 +27,16 @@ translation: contact
 </ul>
 
 <hr>
+<h2>Newsletter</h2>
+<p>Yes, I now have a newsletter. In there you'll find a summary of my recent blog posts, news about my photography business, some subscriber-only goodies and TFCD photo shoot opportunities. I'll only be sending emails occasionally.</p>
+<p>If you've already had the chance to enjoy my services, or are looking forward to be working with me in the future, I would love you to subscribe. No spammy stuff, unsubscribe any time with 1-click!</p>
+<form name="newsletter" method="POST" netlify>
+	<input type="hidden" name="form-name" value="newsletter">
+	<input class="input" type="email" name="email" placeholder="Your Email Address" required>
+	<button class="button" type="submit">Subscribe</button>
+</form>
+
+<hr>
 <h2>Fine Print & Legal</h2>
 <p>Website hand-crafted in HTML/CSS/JavaScript by <a href="https://rolandszabo.design/" target="_blank">{{ site[locale].headerName }}</a>. Generated with <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a>, hosted on <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>.</p>
 <p>All creative material, including all photos displayed on this website is property of {{ site[locale].headerName }}, unless noted otherwise. Use of this material without my permission is prohibited. If you'd like to use any of my work in your project, send me an email and we'll figure it out.</p>
