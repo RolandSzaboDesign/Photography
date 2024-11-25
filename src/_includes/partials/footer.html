@@ -1,6 +1,13 @@
 <footer class="footer">
 	<div class="footer__container container">
-		<p class="copyright">&copy; 2024 &ndash; {{ site[locale].headerName }}, {{ site[locale].copyright }}</p>
+		<div>
+			<p class="copyright">&copy; 2024 &ndash; {{ site[locale].headerName }}, {{ site[locale].copyright }}</p>
+			<nav class="footer-links">
+				<a class="footer-link" href="/{{ locale }}/{{ site[locale].slugLegalPrivacy }}/">{{ site[locale].navLegalPrivacy }}</a>
+				<a class="footer-link" href="/{{ locale }}/{{ site[locale].slugLegalTerms }}/">{{ site[locale].navLegalTerms }}</a>
+				<a class="footer-link" href="/{{ locale }}/{{ site[locale].slugLegalCookies }}/">{{ site[locale].navLegalCookies }}</a>
+			</nav>
+		</div>
 		<a class="footer__logo" href="#">
 			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="{{ site[locale].backToTop }}" width="80" height="40">
 		</a>

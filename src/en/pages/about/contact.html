@@ -39,8 +39,11 @@ translation: contact
 <hr>
 <h2>Fine Print & Legal</h2>
 <p>Website hand-crafted in HTML/CSS/JavaScript by <a href="https://rolandszabo.design/" target="_blank">{{ site[locale].headerName }}</a>. Generated with <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a>, hosted on <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>.</p>
-<p>All creative material, including all photos displayed on this website is property of {{ site[locale].headerName }}, unless noted otherwise. Use of this material without my permission is prohibited. If you'd like to use any of my work in your project, send me an email and we'll figure it out.</p>
-<p>This website does not use cookies.</p>
+<ul class="list">
+	<li><a href="/{{ locale }}/{{ site[locale].slugLegalPrivacy }}/">{{ site[locale].navLegalPrivacy }}</a></li>
+	<li><a href="/{{ locale }}/{{ site[locale].slugLegalTerms }}/">{{ site[locale].navLegalTerms }}</a></li>
+	<li><a href="/{{ locale }}/{{ site[locale].slugLegalCookies }}/">{{ site[locale].navLegalCookies }}</a></li>
+</ul>
 
 <hr>
 <p>I'm so excited to hear from you!</p>

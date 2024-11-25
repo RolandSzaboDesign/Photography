@@ -39,6 +39,9 @@ module.exports = {
 		navGear: "Gear I Use",
 		navTestimonials: "Testimonials",
 		navBudapestPhotoWalk: "Budapest Photo Walk",
+		navLegalPrivacy: "Privacy Policy",
+		navLegalTerms: "Terms and Conditions",
+		navLegalCookies: "Cookie Policy",
 
 		slugAbout: "about",
 		slugBlog: "blog",
@@ -58,6 +61,9 @@ module.exports = {
 		slugContact: "contact",
 		slugGear: "gear",
 		slugTestimonials: "testimonials",
+		slugLegalPrivacy: "privacy-policy",
+		slugLegalTerms: "terms-and-conditions",
+		slugLegalCookies: "cookie-policy",
 
 		homepageNavPortrait: "Portraiture",
 		homepageNavSocial: "Social Content",
@@ -146,6 +152,9 @@ module.exports = {
 		navGear: "Felszerelés",
 		navTestimonials: "Rólam Mondtátok",
 		navBudapestPhotoWalk: "Budapest Photo Walk",
+		navLegalPrivacy: "Adatvédelmi Nyilatkozat",
+		navLegalTerms: "Általános Szerződési Feltételek",
+		navLegalCookies: "Cookie Politika",
 
 		slugAbout: "rolam",
 		slugBlog: "blog",
@@ -165,6 +174,9 @@ module.exports = {
 		slugContact: "kapcsolat",
 		slugGear: "felszereles",
 		slugTestimonials: "rolam-mondtak",
+		slugLegalPrivacy: "adatvedelmi-nyilatkozat",
+		slugLegalTerms: "altalanos-szerzodesi-feltetelek",
+		slugLegalCookies: "cookie-politika",
 
 		homepageNavPortrait: "Portré",
 		homepageNavSocial: "Közösségi Tartalom",
