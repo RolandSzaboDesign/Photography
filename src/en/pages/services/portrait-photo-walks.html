@@ -3,86 +3,153 @@ layout: layouts/base.html
 title: Portrait Photography in Budapest
 permalink: "/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"
 translation: photo-walks
-css: photo-walks
+css: landing-page
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
 <main class="main">
-	<header class="page-header">
+	<header class="amazing-page-header">
 		<div class="container">
-			<h1 class="page-header__category">{{ site[locale].navServicesPortraiture }}</h1>
+			<h1 class="page-header__category">Budapest Portrait Photography</h1>
 			<p class="page-header__title h1">I Make Everyday People Look Amazing</p>
+			<!-- Desktopon max-width 50% -->
+			<p class="page-header__text">Think You’re Not Photogenic? Let’s Change How You See Yourself.</p>
+			<p class="page-header__text">Discover how easy and enjoyable it can be to feel confident and photogenic with a tailored portrait experience.</p>
+			<div class="buttons mt-2">
+				<a class="button" href="#experiences"><i class="fas fa-camera icon-left"></i>&nbsp; Experiences</a>
+				<a class="button" href="#more"><i class="fas fa-arrow-down icon-left"></i>&nbsp; See How</a>
+			</div>
 		</div>
 	</header>
 
-	<section class="section section--top">
+	<section class="section section--top" id="more">
 		<div class="container">
-			<p>I'm Roland, your Budapest portrait photographer, known for my empathetic personality and <del>horrible</del> <ins>quirky</ins> sense of humor. Through easygoing and fun photo sessions in Budapest, I'll guide you in overcoming camera anxiety by crafting authentic photographs that will resonate with you deeply. Uncertain about posing? Unsure where to place your hands or how to look your best on camera? Rest assured, you're in capable hands.</p>
-			<div class="plans mt-2" id="pricing">
-				{% include 'partials/pricing-table.html', type: 'photogenicDiscovery' %}
-				{% include 'partials/pricing-table.html', type: 'signatureExperience' %}
-				{% include 'partials/pricing-table.html', type: 'ultimateJourney' %}
-			</div>
+			<h2 class="mt-0">You're Not Alone—And You're Not the Problem.</h2>
+			<p>Feeling nervous about being photographed? Worried the camera won’t capture you at your best? <strong>I get it.</strong> For many people, the thought of being in front of the lens brings a mix of anxiety and self-doubt. You might feel like it’s impossible to look good in photos or worry that you’ll feel awkward the whole time.</p>
+			<p><strong>Those feelings are real</strong>—and they’re completely valid. But here’s the truth: with the right approach, you can feel comfortable, confident, and even enjoy the experience. My goal is to guide you through every step, and show you that great photos are absolutely possible&hellip; or dare I say easy.</p>
 		</div>
 	</section>
 
-	<hr class="fancy-separator container">
-
-	<section class="section">
+	<section class="section section--top">
 		<div class="container">
 			<div class="grid-3-2">
 				<article>
-					<h2 class="mt-0 mb-2">My Philosophy</h2>
-					<p class="text-larger">I firmly believe that every human being, regardless of gender, size, or age, deserves to be seen as beautiful. My mission is to unleash this beauty and capture it like you've never seen before.</p>
-					<p>Forget awkward poses and forced smiles. I promise you'll feel comfortable in front of my camera because I'm easygoing and empathetic. I'll capture your true self in every shot, whether you want to stroll through the streets of Budapest or take a walk in the calmness of nature. Together, we'll create portraits that you'll love forever.</p>
-					<p>Ready to prove those doubts wrong? Book a session with me today and experience the joy of being authentically photographed. Say hello to your true photogenic self.</p>
-					<p><a class="button" href="#pricing"><i class="fa-solid fa-fw fa-circle-up"></i>&nbsp; Start Your Transformation</a></p>
+					<h2 class="mt-0">My Solution: An Experience Just for You.</h2>
+					<p>Your portrait session isn’t just about taking photos; it’s about creating a space where you feel at ease. It’s about building trust, having fun, and capturing the version of yourself you want the world to see.</p>
+					<p>This is your time to shine, and I’ll be there every step of the way, guiding and supporting you. By the end of our session, you’ll have more than just beautiful portraits—you’ll have a newfound sense of confidence.</p>
 				</article>
-				{% include 'partials/photo-grid.html' %}
+				<img class="polaroid rotate-5" src="/assets/images/photo-walk-04.webp" alt="Budapest Portrait Photography">
 			</div>
 		</div>
 	</section>
 
-	<hr class="fancy-separator container">
-
-	<section class="section">
+	<section class="section section--top">
 		<div class="container">
-			<h2 class="mt-0 mb-2">Why Choose Me</h2>
-			<figure class="floating-photo floating-photo--right">
-				<img class="floating-photo__photo" src="/assets/images/bts-2.webp" alt="{{ site[locale].navServicesPortraiture }}" width="750" height="500">
-				<figcaption class="floating-photo__caption"><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos.photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>
-			</figure>
-			<p>Over the years, I've developed a method that I truly believe will make you feel right at home with me as your photographer. Here are just a few of the ways I think you'll love working with me.</p>
-			<ul>
-				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; <strong>Personalized Experience:</strong> I don't see portrait photography as a production line job. I see it as a unique, personalized experience, and I love making people feel comfortable and at ease. My main goal is to make you feel as comfortable as possible, so you can just relax and enjoy the photos being taken!</li>
-				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; <strong>Empathetic Approach:</strong> I really care about you and your situation, and I'd love for you to talk about your feelings. If you're able to relax and feel at ease, we can create a safe atmosphere where we can both be our true selves and take some truly amazing photos together!</li>
-				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; <strong>Flexibility:</strong> You have so many choices! You can choose the location, the outfits, the theme&mdash;everything! I love hearing your ideas during our photo session!</li>
-				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; <strong>Same-Day Photo Gift:</strong> On the day of your session, I'll give you one of my favorite photos, edited and retouched, absolutely free of charge! You'll already have a great photo from the day of your session to share or print!</li>
-				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; <strong>Freedom to Choose:</strong> After your session, you'll be able to choose your favorite photos for me to work on. I'll be happy to help you find the best ones photographically, but you have 100% freedom to choose the photos you like best. I'm here to make sure you'll love the photos you receive!</li>
-				<li><i class="fa-solid fa-check-circle text-highlight"></i>&nbsp; <strong>Analog Touch:</strong> I love taking photos with my analog camera! Sometimes I'll take one or two photos on film and I'll gift them to you as soon as I get them back from the lab.</li>
-			</ul>
-			<p><a class="button" href="#pricing"><i class="fa-solid fa-fw fa-circle-up"></i>&nbsp; This is for me!</a></p>
-		</div>
-	</section>
-
-	<hr class="fancy-separator container">
-
-	<section class="section">
-		<div class="container">
-			<h2 class="mt-0">Testimonials</h2>
-			<p class="text-larger mb-2">Don't just take my word for it. <a href="/en/testimonials/">Read more</a></p>
+			<h2 class="mt-0">Real People, Real Stories.</h2>
+			<p>The people you’re about to hear from aren’t models or actors—they’re everyday individuals who had the same fears and doubts you might have now. Each of them took the leap, trusted the process, and discovered how great they could look and feel in front of the camera.</p>
 			<div class="testimonials">
 				{% assign source = testimonials.items %}
 				{% include 'partials/testimonial.html', type: 'excerpt', id: 0 %}
 				{% include 'partials/testimonial.html', type: 'excerpt', id: 1 %}
 				{% include 'partials/testimonial.html', type: 'excerpt', id: 2 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 3 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 4 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 5 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 6 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 7 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 8 %}
 			</div>
-			<p class="mt-2 text-center"><a class="button" href="#pricing"><i class="fa-solid fa-fw fa-circle-up"></i>&nbsp; Let's Do This!</a></p>
+			<p class="mt-2">Want to see more? Check out the glowing reviews from my amazing clients on my <a href="https://maps.app.goo.gl/fVv8QJQWSGEf5HKz9" target="_blank" rel="noopener noreferrer">Google Business Profile</a>.</p>
+		</div>
+	</section>
+
+	<section class="section section--top" id="experiences">
+		<div class="container">
+			<h2 class="mt-0">Find the Right Portrait Experience for You.</h2>
+			<p>Whatever your needs, there’s a portrait experience designed just for you:</p>
+			<div class="fourth">
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/viktor-2/01_500.webp" alt="Male Portraits" title="Male Portraits">
+					</div>
+					<span class="polaroid__title">Male Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/aiganysh/05_500.webp" alt="Female Portraits" title="Female Portraits">
+					</div>
+					<span class="polaroid__title">Female Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/veronika-szabolcs-2/01_500.webp" alt="Couple Portraits" title="Couple Portraits">
+					</div>
+					<span class="polaroid__title">Couple Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/petra-attila-emili/01_500.webp" alt="Family Portraits" title="Family Portraits">
+					</div>
+					<span class="polaroid__title">Family Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/mona-gerda/01_500.webp" alt="Best Friend Portraits" title="Best Friend Portraits">
+					</div>
+					<span class="polaroid__title">Best Friend Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/dori-laci-2/06_500.webp" alt="Maternity Portraits" title="Maternity Portraits">
+					</div>
+					<span class="polaroid__title">Maternity Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+					<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/	alejandro-ana/01_500.webp" alt="Engagement Portraits" title="Engagement Portraits">
+				</div>
+					<span class="polaroid__title">Engagement Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/verka/01_500.webp" alt="Brand Portraits" title="Brand Portraits">
+					</div>
+					<span class="polaroid__title">Brand Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/amanda/03_500.webp" alt="Creative Portraits" title="Creative Portraits">
+					</div>
+					<span class="polaroid__title">Creative Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/gergo/01_500.webp" alt="CV Headshots" title="CV Headshots">
+					</div>
+					<span class="polaroid__title">CV Headshots</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/fanni/08_500.webp" alt="Pet Portraits" title="Pet Portraits">
+					</div>
+					<span class="polaroid__title">Pet Portraits</span>
+				</a>
+				<a class="polaroid" href="">
+					<div class="polaroid__square">
+						<img class="polaroid__photo" src="https://rolandszabo.photo/assets/images/portraiture/bence-2/01_500.webp" alt="Automotive Portraits" title="Automotive Portraits">
+					</div>
+					<span class="polaroid__title">Automotive Portraits</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--top">
+		<div class="container">
+			<h2 class="mt-0">Ready to See Yourself Differently?</h2>
+			<p>I would love to help you feel confident and look amazing in your photos. If you’re unsure where to start, let’s chat! I’m happy to offer a free consultation where we can talk about your goals, your concerns, and the experience that will benefit you most.</p>
+			<p>Even if we don’t end up working together, I’m here to guide you toward the best next step—because everyone deserves to feel great in front of the camera.</p>
+			<div class="buttons">
+				<a class="button" href="#experiences"><i class="fa-solid fa-arrow-up icon-left"></i>&nbsp; View Experiences</a>
+				<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fa-brands fa-instagram icon-left"></i>&nbsp; Message Me</a>
+			</div>
 		</div>
 	</section>
 </main>

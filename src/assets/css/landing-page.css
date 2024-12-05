@@ -1,0 +1,258 @@
+:root {
+	--sans: Outfit, sans-serif;
+	--serif: Domine, serif;
+}
+
+.logo__name {
+	font-weight: 700;
+	font-size: 1.8rem;
+	letter-spacing: -.75px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+	font-weight: 300;
+}
+
+.main {
+	padding: 0;
+}
+
+.section {
+	padding-top: 0
+	padding-bottom: 2rem;
+}
+
+.amazing-page-header {
+	color: #FFF;
+	margin-bottom: 4rem;
+	padding: 4rem 0;
+	text-shadow: 0 .1rem .1rem rgba(0,0,0,.5);
+	background: url('/assets/images/portraiture/gerda-2/06_1400.webp') no-repeat center center;
+	background-size: cover;
+}
+
+.page-header__category {
+	margin-bottom: .5rem;
+	padding-bottom: 0;
+	border-bottom: 0;
+	color: var(--bg);
+}
+
+.page-header__title {
+	margin-bottom: 3rem;
+	color: #FFF;
+	text-shadow: 0 .1rem .1rem rgba(0,0,0,.5), 0 .1rem 1rem rgba(0,0,0,.25);
+}
+
+@media only screen and (min-width: 992px) {
+	.page-header__text {
+		max-width: 50%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	h2, .h2 {
+		margin-bottom: 1.5rem; /* Put this in a CSS variable */
+	}
+}
+
+.testimonial {
+	padding: 1.25rem 1.75rem;
+}
+
+.testimonial__text {
+	margin-bottom: 1.5rem;
+}
+
+
+
+
+
+/* photo-walks.css */
+
+.floating-photo {
+	margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.floating-photo {
+		width: 40%;
+	}
+
+	.floating-photo--left {
+		float: left;
+		margin-right: 3rem;
+	}
+
+	.floating-photo--right {
+		float: right;
+		margin-left: 3rem;
+	}
+}
+
+.floating-photo__photo {
+	display: block;
+	aspect-ratio: 3/2;
+}
+
+.photo-grid {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-gap: 0;
+}
+
+.plans {
+	display: grid;
+	align-items: start;
+	grid-gap: 2rem;
+}
+
+@media only screen and (min-width: 992px) {
+	.plans {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.plans--two {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.plan {
+	color: var(--text);
+	background-color: #FFF;
+	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.25);
+}
+
+.plan:hover,
+.plan:focus {
+	color: var(--text);
+}
+
+.plan__image {
+	display: block;
+}
+
+.plan__title {
+	margin: 2rem 2rem 1rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.plan__description {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.plan__image {
+	display: block;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 991.98px) {
+	.plan__image--with-margin {
+		margin-top: 1.5rem;
+	}
+}
+
+.plan__price-amount {
+	display: block;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	font-family: var(--serif);
+	font-weight: 400;
+	font-size: 1.6rem;
+	color: var(--text-dark);
+	letter-spacing: -1px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.plan__price-amount {
+		font-size: 2rem;
+		letter-spacing: -1.5px;
+	}
+}
+
+.plan__details {
+	margin: 0 2rem 2rem;
+}
+
+.hero-portraits {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.hero-portraits__item {
+	padding: 1rem;
+}
+
+.hero-portraits__item--left {
+	position: relative;
+	left: 1.5rem;
+	transform: rotate(-3deg);
+}
+
+.hero-portraits__item--right {
+	position: relative;
+	top: 3rem;
+	right: 1.5rem;
+	transform: rotate(3deg);
+}
+
+.summary {
+	display: grid;
+	grid-gap: 2rem;
+	align-items: center;
+	margin-bottom: 2rem;
+	padding: 2rem;
+	background-color: #FFF;
+	border-left: .5rem solid var(--highlight);
+	box-shadow: 0 .25rem 1rem rgba(0,0,0,.25);
+}
+
+@media only screen and (min-width: 992px) {
+	.summary {
+		grid-template-columns: 3fr 2fr;
+		grid-gap: 4rem;
+	}
+}
+
+.summary__list {
+	display: grid;
+	grid-gap: 1rem;
+}
+
+@media only screen and (min-width: 576px) { .summary__list { grid-template-columns: repeat(2, 1fr); } }
+@media only screen and (min-width: 768px) { .summary__list { grid-template-columns: repeat(3, 1fr); } }
+
+.summary__title {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.summary__description {
+	margin-bottom: 2rem;
+}
+
+.summary__key {
+	font-weight: 300;
+	font-size: .875rem;
+	letter-spacing: 0;
+	text-transform: uppercase;
+}
+
+.summary__value {
+	font-family: var(--serif);
+	font-size: 1.75rem;
+	color: var(--text-dark);
+	letter-spacing: -.75px;
+}
+
+.summary__cta {
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
