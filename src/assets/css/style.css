@@ -146,6 +146,7 @@ img {
 }
 
 .container {
+	width: 100%;
 	max-width: 90rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -1300,6 +1301,29 @@ ol.list { list-style: decimal; }
 	}
 }
 
+.polaroid__title--long {
+	text-align: left;
+	line-height: 1.33;
+}
+
+@media only screen and (max-width: 767.98px) {
+	.polaroid__title--long {
+		font-size: .875rem;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+	.polaroid__title--long {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.polaroid__title--long {
+		font-size: 1.125rem;
+	}
+}
+
 .polaroid-caption {
 	margin-top: .75rem;
 	font-size: 100%;
@@ -1518,13 +1542,16 @@ ol.list { list-style: decimal; }
 	display: grid;
 	grid-gap: .625rem;
 	align-items: start;
+	margin-bottom: 2rem;
 }
 
-@media only screen and (min-width: 768px) {
-	.faqs {
-		grid-template-columns: repeat(2, 1fr);
+/*
+	@media only screen and (min-width: 768px) {
+		.faqs {
+			grid-template-columns: repeat(2, 1fr);
+		}
 	}
-}
+*/
 
 .faq {
 	background-color: #FFF;

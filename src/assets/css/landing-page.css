@@ -21,18 +21,42 @@ h4, .h4 {
 }
 
 .section {
-	padding-top: 0
+	padding-top: 0;
 	padding-bottom: 2rem;
 }
 
 .amazing-page-header {
-	color: #FFF;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: stretch;
+	min-height: 75vh;
 	margin-bottom: 4rem;
 	padding: 4rem 0;
+	color: #FFF;
 	text-shadow: 0 .1rem .1rem rgba(0,0,0,.5);
-	background: url('/assets/images/portraiture/gerda-2/06_1400.webp') no-repeat center center;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
+
+.amazing-page-header:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 70%);
+}
+
+.amazing-page-header .container {
+	position: relative;
+	z-index: 1;
+}
+
+.amazing-page-header--main { background-image: url('/assets/images/portraiture/gerda-2/06_1400.webp'); }
+.amazing-page-header--male { background-image: url('/assets/images/portraiture/viktor/03_1400.webp'); }
 
 .page-header__category {
 	margin-bottom: .5rem;
@@ -53,10 +77,18 @@ h4, .h4 {
 	}
 }
 
+h2, .h2 {
+	margin-top: 0;
+}
+
 @media only screen and (min-width: 992px) {
 	h2, .h2 {
 		margin-bottom: 1.5rem; /* Put this in a CSS variable */
 	}
+}
+
+.testimonials {
+	margin-bottom: 2rem;
 }
 
 .testimonial {
