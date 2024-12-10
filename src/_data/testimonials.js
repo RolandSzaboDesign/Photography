@@ -1110,7 +1110,7 @@ module.exports = {
 				name: "Melanie B.",
 				excerpt: "It was a pleasure to work with him, and the results are simply amazing",
 				text: "I met Roland at the beginning of the year when he approached me at the street, and we casually took some pictures, which turned out amazing. A few months after that I had a very big day in my art career, where just before the exhibition, he spent the whole morning with me, patiently taking pictures of me with all my paintings. The surroundings weren't very helpful, just a regular street in Budapest, but he managed to find the perfect backgrounds, and matching colours with my artworks, and the outfit I put on that day. It was a pleasure to work with him, and the results are simply amazing.",
-				link: "/en/portraiture/mel",
+				link: "/en/portraiture/mel/",
 			},
 		},
 		{
