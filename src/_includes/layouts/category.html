@@ -16,11 +16,10 @@ layout: layouts/base.html
 							 srcset="
 								/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_700.webp 700w,
 							 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_500.webp 500w,
-							 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w,
-							 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp 200w
+							 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w
 							 "
 							 sizes="(min-width: 1500px) 400px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), calc(50vw - 55px)"
-							 src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp"
+							 src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp"
 							 alt="{{ post.data.title }}"
 							 width="350"
 							 height="350">
