@@ -5,8 +5,10 @@ pagination:
     data: collections
     size: 1
     alias: tag
+    filter:
+    - blog-hu, blog-en
 permalink: /{{ locale }}/tags/{{ tag }}/
-translation: tagsHu
+translation: tagsList
 ---
 
 <main class="main">
@@ -28,37 +30,46 @@ translation: tagsHu
 				<a href="/en/tags/all/" class="page-header__category">Tags</a>
 				<h1 class="page-header__title">{{ tag | capitalize }}</h1>
 			</header>
-			<div class="gallery">
+			{% if tag == "blog-hu" or tag == "blog-en" %}
 				{% assign tagsies = collections[tag] %}
 				{% for post in tagsies reversed %}
-					{% assign slug = post.data.page.filePathStem | split: '/' %}
-					{% case slug[2] %}
-						{% when "portre", "portraiture" %}
-						{% assign folder = "portraiture" %}
-						{% when "auto", "automotive" %}
-						{% assign folder = "automotive" %}
-						{% when "kozossegi-tartalom", "social-content" %}
-						{% assign folder = "social-content" %}
-					{% endcase %}
-					<figure class="polaroid">
-						<a class="polaroid__square" href="{{ post.url }}">
-							<img class="polaroid__photo"
-								 srcset="
-									/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_700.webp 700w,
-								 	/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_500.webp 500w,
-								 	/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w,
-								 	/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp 200w
-								 "
-								 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
-								 src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp"
-								 alt="Photo of {{ title }}">
-						</a>
-						<figcaption class="polaroid__caption">
-							<strong class="polaroid__title">{{ post.data.title }}</strong>
-						</figcaption>
-					</figure>
+					<ul class="list">
+						<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+					</ul>
 				{% endfor %}
-			</div>
+			{% else %}
+				<div class="gallery">
+					{% assign tagsies = collections[tag] %}
+					{% for post in tagsies reversed %}
+						{% assign slug = post.data.page.filePathStem | split: '/' %}
+						{% case slug[2] %}
+							{% when "portre", "portraiture" %}
+							{% assign folder = "portraiture" %}
+							{% when "auto", "automotive" %}
+							{% assign folder = "automotive" %}
+							{% when "kozossegi-tartalom", "social-content" %}
+							{% assign folder = "social-content" %}
+						{% endcase %}
+						<figure class="polaroid">
+							<a class="polaroid__square" href="{{ post.url }}">
+								<img class="polaroid__photo"
+									 srcset="
+										/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_700.webp 700w,
+										/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_500.webp 500w,
+										/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w,
+										/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp 200w
+									 "
+									 sizes="(min-width: 1500px) 294px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), (min-width: 580px) calc(50vw - 70px), calc(50vw - 55px)"
+									 src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp"
+									 alt="Photo of {{ title }}">
+							</a>
+							<figcaption class="polaroid__caption">
+								<strong class="polaroid__title">{{ post.data.title }}</strong>
+							</figcaption>
+						</figure>
+					{% endfor %}
+				</div>
+			{% endif %}
 		{% endif %}
 	</div>
 </main>
