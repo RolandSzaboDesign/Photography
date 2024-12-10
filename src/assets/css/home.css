@@ -42,7 +42,6 @@
 .home-nav__list {
 	display: grid;
 	grid-gap: var(--grid-gutter);
-	height: 60vh;
 	margin-bottom: 0;
 }
 
@@ -53,9 +52,19 @@
 }
 
 .home-nav__item {
-	overflow: hidden;
 	margin-bottom: 0;
-	border-radius: 1rem;
+}
+
+@media only screen and (max-width: 767.98px) {
+	.home-nav__item {
+		height: 10rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.home-nav__item {
+		height: 16rem;
+	}
 }
 
 .home-nav__link {
@@ -64,31 +73,18 @@
 	align-items: flex-end;
 	text-align: center;
 	height: 100%;
-	border: 0;
+	border-bottom: 0;
+	border: .75rem solid #FFF;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	box-shadow: var(--box-shadow-small);
 	transition: var(--transition-duration) opacity, var(--transition-duration) transform;
 }
 
-@media only screen and (min-width: 768px) {
-	.home-nav__link {
-		justify-content: center;
-		border-radius: 1rem;
-	}
-}
-
-@media only screen and (max-width: 767.98px) {
-	.home-nav__link--portrait { background-image: url('/assets/images/portraiture/gerda-2/03_700.webp'); }
-	.home-nav__link--social   { background-image: url('/assets/images/home/social-content-landscape.webp'); }
-	.home-nav__link--automotive { background-image: url('/assets/images/home/automotive-landscape.webp'); }
-}
-
-@media only screen and (min-width: 768px) {
-	.home-nav__link--portrait { background-image: url('/assets/images/portraiture/virag/04_500.webp'); }
-	.home-nav__link--social { background-image: url('/assets/images/home/social-content-portrait.webp'); }
-	.home-nav__link--automotive { background-image: url('/assets/images/home/automotive-portrait.webp'); }
-}
+.home-nav__link--portrait { background-image: url('/assets/images/home/portraiture.webp'); }
+.home-nav__link--automotive { background-image: url('/assets/images/home/automotive.webp'); }
+.home-nav__link--social   { background-image: url('/assets/images/home/social.webp'); }
 
 .home-nav__link:hover,
 .home-nav__link:focus {
@@ -96,15 +92,22 @@
 }
 
 .home-nav__link-text {
+	position: relative;
+	top: 1px;
+	left: -1px;
 	display: inline-block;
-	margin-bottom: 1rem;
-	padding: .5rem 1.25rem;
-	font-size: 1rem;
-	color: #FFF;
-	letter-spacing: 0;
-	text-transform: uppercase;
-	background-color: rgba(0,0,0,.5);
+	padding: .375rem 1.25rem;
+	color: var(--text-dark);
+	background-color: #FFF;
 	transition: var(--transition-duration) background-color;
+}
+
+@media only screen and (max-width: 767.98px) {
+	.home-nav__link-text {
+		margin-bottom: 1rem;
+		font-size: 1rem;
+		letter-spacing: 0;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -112,11 +115,6 @@
 		font-size: 1.25rem;
 		letter-spacing: -.025rem;
 	}
-}
-
-.home-nav__link:hover .home-nav__link-text,
-.home-nav__link:focus .home-nav__link-text {
-	background-color: rgba(0,0,0,.75);
 }
 
 .home-about {

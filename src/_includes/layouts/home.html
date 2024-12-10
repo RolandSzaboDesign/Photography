@@ -20,13 +20,13 @@ css: home
 						</a>
 					</li>
 					<li class="home-nav__item">
-						<a class="home-nav__link home-nav__link--social" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugSocialPhotography }}/">
-							<span class="home-nav__link-text">{{ site[locale].homepageNavSocial }}</span>
+						<a class="home-nav__link home-nav__link--automotive" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugCarPhotography }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageNavAutomotive }}</span>
 						</a>
 					</li>
 					<li class="home-nav__item">
-						<a class="home-nav__link home-nav__link--automotive" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugCarPhotography }}/">
-							<span class="home-nav__link-text">{{ site[locale].homepageNavAutomotive }}</span>
+						<a class="home-nav__link home-nav__link--social" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugSocialPhotography }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageNavSocial }}</span>
 						</a>
 					</li>
 				</ul>
@@ -34,7 +34,20 @@ css: home
 		</div>
 	</section>
 
-	<section class="section section--grey">
+	<section class="section section--white">
+		<div class="home-about container">
+			<div>
+				{{ content }}
+				<div class="button-with-link">
+					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"><i class="fa-solid fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
+					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
+				</div>
+			</div>
+			<img src="/assets/images/roland-about.webp" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}" width="740" height="1110">
+		</div>
+	</section>
+
+	<section class="section">
 		<div class="container">
 			<h2 class="home__title text-center mt-0">{{ site[locale].homepageRecentTitle }}</h2>
 			<div class="gallery">
@@ -88,19 +101,6 @@ css: home
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"><i class="fa-solid fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
 				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }} ({{ testimonials.items.length }})</a>
 			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="home-about container">
-			<div>
-				{{ content }}
-				<div class="button-with-link">
-					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"><i class="fa-solid fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
-					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
-				</div>
-			</div>
-			<img src="/assets/images/roland-home.webp" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}" width="740" height="1110">
 		</div>
 	</section>
 </main>
