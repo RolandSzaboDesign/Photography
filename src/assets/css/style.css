@@ -30,10 +30,10 @@ html { box-sizing: border-box; }
 }
 
 @font-face {
-	font-display: swap;
 	font-family: 'DM Sans';
 	font-style: normal;
 	font-weight: 300;
+	font-display: swap;
 	src: url('../webfonts/dm-sans-v15-latin_latin-ext-300.woff2') format('woff2');
 }
 
