@@ -216,7 +216,6 @@
 /en/portraiture/tomer/Great photographer, I can only recommend him!							/en/portraiture/tomer/
 /en/portraiture/bence-2/Great photographer, I can only recommend him!						/en/portraiture/bence-2/
 
-/en/*													/en/404.html									404
-/hu/*													/hu/404.html									404
-/404.html												/404											404!
-/404													/404.html										404!
+/en/*		/en/404.html		404
+/hu/*		/hu/404.html		404
+/*			/404.html			404

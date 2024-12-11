@@ -1,0 +1,21 @@
+# HTML - Cache short, since it changes frequently
+/*
+  Cache-Control: public, max-age=3600
+
+# CSS and JavaScript - Cache long, as they are versioned with hashes
+/assets/*.css
+/assets/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images - Cache long, they rarely change
+/assets/images/*.jpg
+/assets/images/*.jpeg
+/assets/images/*.png
+/assets/images/*.webp
+/assets/images/*.gif
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts - Cache long, they rarely change
+/assets/fonts/*.woff2
+/assets/fonts/*.woff
+  Cache-Control: public, max-age=31536000, immutable
