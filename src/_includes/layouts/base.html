@@ -12,9 +12,11 @@
 		{%- endif %}
 
 		<!-- Styles -->
-		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="preload" href="/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
 		{%- if css %}
-		<link rel="stylesheet" href="/assets/css/{{ css }}.css">
+		<link rel="preload" href="/assets/css/{{ css }}.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="/assets/css/{{ css }}.css"></noscript>
 		{%- endif %}
 
 		<!-- Favicons -->
@@ -44,14 +46,6 @@
 		<meta property="og:description" content="{{ site[locale].homepageMainTitle }}">
 		{%- endif %}
 		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
-
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-		<noscript>
-			<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-		</noscript>
 
 		<!-- FontAwesome -->
 		<link rel="stylesheet" href="/assets/css/fontawesome.min.css">

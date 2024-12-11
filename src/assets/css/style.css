@@ -19,6 +19,52 @@ html { box-sizing: border-box; }
 
 
 
+/* Webfonts */
+
+@font-face {
+	font-family: 'Castoro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../webfonts/castoro-v19-latin_latin-ext-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../webfonts/dm-sans-v15-latin_latin-ext-300.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../webfonts/dm-sans-v15-latin_latin-ext-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('../webfonts/dm-sans-v15-latin_latin-ext-700.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url('../webfonts/dm-sans-v15-latin_latin-ext-900.woff2') format('woff2');
+}
+
+
+
+
+
 /* Variables */
 
 :root {
