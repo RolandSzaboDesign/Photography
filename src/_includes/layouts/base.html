@@ -12,11 +12,9 @@
 		{%- endif %}
 
 		<!-- Styles -->
-		<link rel="preload" href="/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-		<noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
+		<link rel="stylesheet" href="/assets/css/style.css">
 		{%- if css %}
-		<link rel="preload" href="/assets/css/{{ css }}.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-		<noscript><link rel="stylesheet" href="/assets/css/{{ css }}.css"></noscript>
+		<link rel="stylesheet" href="/assets/css/{{ css }}.css">
 		{%- endif %}
 
 		<!-- Favicons -->
