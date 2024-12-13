@@ -117,13 +117,13 @@ module.exports = {
 				name: "Sárvári Virág",
 				excerpt: "Nagyon ajánlom Rolandot mindenkinek, még annak is, aki nem érzi magát magabiztosnak a kamera előtt",
 				text: "Roland a legtehetségesebb fotós akit ismerek! Páros fotózáson voltunk nála a barátommal és hatalmas élmény volt. Laza, vicces de mégis profi! Nagyon jó hangulatban telt a fotózás és meseszép képek születtek! Nagyon ajánlom Roland mindenkinek, még annak is, aki nem érzi magát magabiztosnak a kamera előtt.",
-				link: "/hu/portre/",
+				link: "/hu/portre/virag-david/",
 			},
 			en: {
 				name: "Virág Sárvári",
 				excerpt: "I highly recommend Roland to everyone, even to someone who doesn't feel confident in front of the camera",
 				text: "Roland is the most talented photographer I know! My boyfriend and I had a couples shoot with him and it was a great experience. Relaxed, funny but still professional! The photoshoot was very fun and we had a great time and some fabulous pictures! I highly recommend Roland to everyone, even to someone who doesn't feel confident in front of the camera.",
-				link: "/en/portraiture/",
+				link: "/en/portraiture/virag-david/",
 			},
 		},
 		{

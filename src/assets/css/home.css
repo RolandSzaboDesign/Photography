@@ -102,7 +102,7 @@
 
 .home-nav__link--portrait { background-image: url('/assets/images/home/portraiture.webp'); }
 .home-nav__link--automotive { background-image: url('/assets/images/home/automotive.webp'); }
-.home-nav__link--social   { background-image: url('/assets/images/home/social.webp'); }
+.home-nav__link--social { background-image: url('/assets/images/home/social.webp'); }
 
 .home-nav__link-text {
 	position: relative;
