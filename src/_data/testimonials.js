@@ -19,6 +19,42 @@ module.exports = {
 		// 	},
 		// },
 		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/nudTozSKgF5B6qrJA",
+			photo: "/assets/images/testimonials/julia.webp",
+			hu: {
+				name: "Julia Nefedova",
+				excerpt: "A legjobb Budapesten. Tehetséges, és mindig kész bármilyen ötletet megvalósítani",
+				text: "Ahogy Roland mondja - tévedsz, ha azt hiszed, hogy rosszul nézel ki a fotókon. Nagyon szimpatikus fotós, akivel lehet beszélgetni, ez a siker kulcsa. Nagyon sok fotózást csináltam vele, és továbbra is csak vele fogok. A legjobb Budapesten. Tehetséges, és mindig kész bármilyen ötletet megvalósítani. Kiváló fényképezőgépe van és még filmre is fotózik. Ez manapság sokat mond.",
+				link: "/hu/portre/julia/",
+			},
+			en: {
+				name: "Julia Nefedova",
+				excerpt: "The best in Budapest. Talented, and always ready to implement any idea",
+				text: "As Roland says - you are wrong if you think that you look bad in photos. A very pleasant photographer to talk to, this is the key to success. I have done so many photo sessions with him and will continue to do only with him. The best in Budapest. Talented. Always ready to implement any idea. Have an excellent camera and even shoots on film. This says a lot these days.",
+				link: "/en/portraiture/julia/",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/qB1Qd4FAMujLzchZ7",
+			photo: "/assets/images/testimonials/linda-erwin.webp",
+			hu: {
+				name: "Szabó Linda",
+				excerpt: "Előtte sosem tudtuk, hogyan pózoljunk, de Roland végig koordinált minket, így a végeredmény egyszerűen tökéletes lett",
+				text: "Roland tökéletes munkát végzett a fotózásunk során! Nemcsak hogy nagyon jó hangulatot teremtett, de teljesen ki tudtunk lépni a komfortzónánkból, és végig profi segítséget kaptunk tőle. Előtte sosem tudtuk, hogyan pózoljunk, de Roland végig koordinált minket, így a végeredmény egyszerűen tökéletes lett. A fotók magukért beszélnek: profi, igényes, és a szerkesztéssel olyan dolgokat is megoldott, amiket lehetetlennek gondoltunk. Köszönjük az élményt és a csodás emlékeket!",
+				link: "/hu/portre/linda-erwin/",
+			},
+			en: {
+				name: "Linda Szabó",
+				excerpt: "We didn't know how to pose before, but Roland coordinated us all the way, so the end result was just perfect",
+				text: "Roland did a perfect job during our photo shoot! Not only did he create a great atmosphere, but we were able to step completely out of our comfort zone and had his professional help all the way. We didn't know how to pose before, but Roland coordinated us all the way, so the end result was just perfect. The photos speak for themselves: professional, sophisticated, and with the editing he managed to achieve things we thought impossible. Thank you for the experience and the wonderful memories!",
+				link: "/en/portraiture/linda-erwin/",
+			},
+		},
+		{
 			type: "couple",
 			score: "5.0",
 			googleURL: "https://maps.app.goo.gl/kfzvHDTV3PKq8qww6",
