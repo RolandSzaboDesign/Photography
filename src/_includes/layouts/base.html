@@ -29,14 +29,16 @@
 		<meta name="theme-color" content="#ffffff">
 
 		<!-- OpenGraph -->
-		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@szabokaphoto">
+		<meta name="twitter:creator" content="@szabokaphoto">
 		<meta property="og:url" content="{{ site.url | append: page.url }}">
 		{%- if tags[0] == "portraiture" or tags[0] == "portré" %}
-		<meta property="og:image" content="https://rolandszabo.photo/assets/images/portraiture/{{ translation }}/01_700.webp">
+		<meta property="og:image" content="https://rolandszabo.photo/assets/images/portraiture/{{ translation }}/01_700.webp" loading="lazy">
 		{%- elsif og_image %}
-		<meta property="og:image" content="{{ og_image }}">
+		<meta property="og:image" content="{{ og_image }}" loading="lazy">
 		{%- else %}
-		<meta property="og:image" content="{{ site.url }}/assets/images/roland-og.jpg">
+		<meta property="og:image" content="{{ site.url }}/assets/images/roland-og.webp" loading="lazy">
 		{%- endif %}
 		{%- if og_description %}
 		<meta property="og:description" content="{{ og_description }}">
@@ -45,16 +47,10 @@
 		{%- endif %}
 		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
 
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-
 		<!-- FontAwesome -->
-		<link rel="stylesheet" href="/assets/css/fontawesome.min.css">
-		<link rel="stylesheet" href="/assets/css/fontawesome-solid.min.css">
-		<link rel="stylesheet" href="/assets/css/fontawesome-brands.min.css">
+		<link rel="stylesheet" href="/assets/css/fontawesome.min.css" media="print" onload="this.media='all'">
+		<link rel="stylesheet" href="/assets/css/fontawesome-solid.min.css" media="print" onload="this.media='all'">
+		<link rel="stylesheet" href="/assets/css/fontawesome-brands.min.css" media="print" onload="this.media='all'">
 
 		<!-- Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script>

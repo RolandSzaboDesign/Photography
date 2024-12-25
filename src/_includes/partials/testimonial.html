@@ -3,7 +3,7 @@
 <blockquote class="testimonial">
 	<p class="testimonial__text">{{ source[id][locale][type] }}</p>
 	<a class="testimonial__photo-link" href="{{ source[id][locale].link }}">
-		<img class="testimonial__photo" src="{{ source[id].photo }}" alt="{{ source[id][locale].name }}" width="48" height="48">
+		<img class="testimonial__photo" src="{{ source[id].photo }}" alt="{{ source[id][locale].name }}" width="48" height="48" loading="lazy">
 	</a>
 	<cite class="testimonial__cite">
 		{% if source[id].googleURL %}

@@ -4,7 +4,9 @@ layout: layouts/base.html
 css: home
 ---
 
-<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/automotive-landscape.webp" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/portraiture.webp" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/automotive.webp" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/social.webp" type="image/webp">
 
 <main class="main home">
 	<section class="section section--top">
@@ -20,13 +22,13 @@ css: home
 						</a>
 					</li>
 					<li class="home-nav__item">
-						<a class="home-nav__link home-nav__link--social" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugSocialPhotography }}/">
-							<span class="home-nav__link-text">{{ site[locale].homepageNavSocial }}</span>
+						<a class="home-nav__link home-nav__link--automotive" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugCarPhotography }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageNavAutomotive }}</span>
 						</a>
 					</li>
 					<li class="home-nav__item">
-						<a class="home-nav__link home-nav__link--automotive" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugCarPhotography }}/">
-							<span class="home-nav__link-text">{{ site[locale].homepageNavAutomotive }}</span>
+						<a class="home-nav__link home-nav__link--social" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugSocialPhotography }}/">
+							<span class="home-nav__link-text">{{ site[locale].homepageNavSocial }}</span>
 						</a>
 					</li>
 				</ul>
@@ -34,7 +36,20 @@ css: home
 		</div>
 	</section>
 
-	<section class="section section--grey">
+	<section class="section section--white">
+		<div class="home-about container">
+			<div>
+				{{ content }}
+				<div class="button-with-link">
+					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"><i class="fa-solid fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
+					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
+				</div>
+			</div>
+			<img src="/assets/images/roland-about.webp" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}" width="740" height="1110" loading="lazy">
+		</div>
+	</section>
+
+	<section class="section">
 		<div class="container">
 			<h2 class="home__title text-center mt-0">{{ site[locale].homepageRecentTitle }}</h2>
 			<div class="gallery">
@@ -53,14 +68,14 @@ css: home
 								 srcset="
 									/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_700.webp 700w,
 								 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_500.webp 500w,
-								 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w,
-								 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp 200w
+								 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w
 								 "
 								 sizes="(min-width: 1500px) 400px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), calc(50vw - 55px)"
-								 src="/assets/images/{{ folder }}/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_200.webp"
+								 src="/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp"
 								 alt="{{ post.data.title }}"
 								 width="350"
-								 height="350">
+								 height="350"
+								 loading="lazy">
 						</a>
 						<figcaption class="polaroid__caption">
 							<strong class="polaroid__title">{{ post.data.title }}</strong>
@@ -89,19 +104,6 @@ css: home
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"><i class="fa-solid fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
 				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }} ({{ testimonials.items.length }})</a>
 			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="home-about container">
-			<div>
-				{{ content }}
-				<div class="button-with-link">
-					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"><i class="fa-solid fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
-					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
-				</div>
-			</div>
-			<img src="/assets/images/roland-home.webp" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}" width="740" height="1110">
 		</div>
 	</section>
 </main>

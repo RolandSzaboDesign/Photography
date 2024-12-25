@@ -16,21 +16,21 @@ translation: about
 	<p>{{ site[locale].ctaText }}</p>
 	<div class="button-with-link">
 		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/">{{ site[locale].ctaButton }}</a>
-		<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}">{{ site[locale].homepageVisitGalleries }}</a>
+		<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">{{ site[locale].homepageVisitGalleries }}</a>
 	</div>
 </div>
 
 <h2>Companies I've Worked With</h2>
 <p>Throughout my journey as a portrait photographer, I've had the privilege of collaborating with diverse and inspiring entities. Here are some of the remarkable brands I've had the pleasure of working with:</p>
 <ul class="brands">
-	<li class="brand polaroid"><img src="/assets/images/brands/greengo.webp" alt="GreenGo logo" width="200" height="200"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/budapart.webp" alt="Budapart logo" width="200" height="200"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/maszka.webp" alt="Maszka logo" width="200" height="200"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/bartokfeszt.webp" alt="BartókFeszt logo" width="200" height="200"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/pinceszinhaz.webp" alt="Pinceszínház logo" width="200" height="200"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/powerlab.webp" alt="PowerLab logo" width="200" height="200"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/pechke.webp" alt="Pechke logo" width="200" height="200"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/hevn.webp" alt="HEVN logo" width="200" height="200"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/greengo.webp" alt="GreenGo logo" width="200" height="200" loading="lazy"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/budapart.webp" alt="Budapart logo" width="200" height="200" loading="lazy"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/maszka.webp" alt="Maszka logo" width="200" height="200" loading="lazy"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/bartokfeszt.webp" alt="BartókFeszt logo" width="200" height="200" loading="lazy"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/pinceszinhaz.webp" alt="Pinceszínház logo" width="200" height="200" loading="lazy"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/powerlab.webp" alt="PowerLab logo" width="200" height="200" loading="lazy"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/pechke.webp" alt="Pechke logo" width="200" height="200" loading="lazy"></li>
+	<li class="brand polaroid"><img src="/assets/images/brands/hevn.webp" alt="HEVN logo" width="200" height="200" loading="lazy"></li>
 </ul>
 
 <h2>Published in Print</h2>
@@ -38,7 +38,7 @@ translation: about
 <ul class="magazines">
 	{% for item in publications.list %}
 		<li class="magazine">
-			<img class="magazine__image" src="{{ item.image }}" alt="{{ item.title }} {{ item.description }}" width="336" height="436">
+			<img class="magazine__image" src="{{ item.image }}" alt="{{ item.title }} {{ item.description }}" width="336" height="436" loading="lazy">
 			<h4 class="magazine__title">{{ item.title }} Magazine</h4>
 			<p class="magazine__description">{{ item[locale].description }}</p>
 			<p class="magazine__issue">{{ item[locale].issue }}</p>
@@ -51,6 +51,6 @@ translation: about
 	<p>{{ site[locale].ctaText }}</p>
 	<div class="button-with-link">
 		<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/">{{ site[locale].ctaButton }}</a>
-		<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}">{{ site[locale].homepageVisitGalleries }}</a>
+		<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/">{{ site[locale].homepageVisitGalleries }}</a>
 	</div>
 </div>
