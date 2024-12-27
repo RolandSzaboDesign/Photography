@@ -6,10 +6,10 @@
 		<img class="testimonial__photo" src="{{ source[id].photo }}" alt="{{ source[id][locale].name }}" width="48" height="48" loading="lazy">
 	</a>
 	<cite class="testimonial__cite">
-		{% if source[id].googleURL %}
-			<a class="testimonial__author" href="{{ source[id].googleURL }}" target="_blank" rel="noreferrer noopener" title="This is a Google Review"><i class="fa-brands fa-google"></i></a> &nbsp;
-		{% endif %}
 		<a class="testimonial__author" href="{{ source[id][locale].link }}">{{ source[id][locale].name }}</a>
+		{% if source[id].googleURL %}
+			&nbsp; <a class="testimonial__author" href="{{ source[id].googleURL }}" target="_blank" rel="noreferrer noopener" title="This is a Google Review"><i class="fa-brands fa-google"></i></a>
+		{% endif %}
 	</cite>
 	<div class="testimonial__rating">
 		<i class="fa-solid fa-star"></i>

@@ -55,8 +55,12 @@ h4, .h4 {
 	z-index: 1;
 }
 
-.amazing-page-header--main { background-image: url('/assets/images/portraiture/gerda-2/06_1400.webp'); }
-.amazing-page-header--male { background-image: url('/assets/images/portraiture/viktor/03_1400.webp'); }
+.amazing-page-header--main         { background-image: url('/assets/images/portraiture/gerda-2/06_1400.webp'); }
+.amazing-page-header--male         { background-image: url('/assets/images/portraiture/viktor/03_1400.webp'); }
+.amazing-page-header--female       { background-image: url('/assets/images/portraiture/eszter-13/03_1400.webp'); }
+.amazing-page-header--couple       { background-image: url('/assets/images/portraiture/linda-erwin/03_1400.webp'); }
+.amazing-page-header--family       { background-image: url('/assets/images/portraiture/abigail-es-anyukaja/06_1400.webp'); }
+.amazing-page-header--best-friends { background-image: url('/assets/images/portraiture/mona-gerda/03_1400.webp'); }
 
 .page-header__category {
 	margin-bottom: .5rem;
