@@ -61,6 +61,8 @@ h4, .h4 {
 .amazing-page-header--couple       { background-image: url('/assets/images/portraiture/linda-erwin/03_1400.webp'); }
 .amazing-page-header--family       { background-image: url('/assets/images/portraiture/abigail-es-anyukaja/06_1400.webp'); }
 .amazing-page-header--best-friends { background-image: url('/assets/images/portraiture/mona-gerda/03_1400.webp'); }
+.amazing-page-header--maternity    { background-image: url('/assets/images/experiences/maternity.webp'); }
+.amazing-page-header--engagement   { background-image: url('/assets/images/portraiture/alejandro-ana/03_1400.webp'); }
 
 .page-header__category {
 	margin-bottom: .5rem;
