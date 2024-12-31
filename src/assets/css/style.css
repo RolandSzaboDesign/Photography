@@ -63,8 +63,6 @@ html { box-sizing: border-box; }
 
 
 
-
-
 /* Variables */
 
 :root {
@@ -1385,52 +1383,6 @@ ol.list { list-style: decimal; }
 	margin-top: .75rem;
 	font-size: 100%;
 	text-align: center;
-}
-
-
-
-/* Masonry */
-
-.bricks {
-	display: grid;
-	grid-gap: 1rem;
-	align-items: center;
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767.98px) {
-	.bricks {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	.bricks {
-		grid-gap: 1.5rem;
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {
-	.bricks {
-		grid-template-columns: repeat(3, 1fr);
-	}
-}
-
-@media only screen and (min-width: 992px) {
-	.bricks {
-		grid-template-columns: repeat(4, 1fr);
-	}
-}
-
-.brick {
-	display: flex;
-	border-bottom: 0;
-	box-shadow: var(--box-shadow-small);
-	transition: opacity var(--transition-duration);
-}
-
-.brick:hover,
-.brick:focus {
-	opacity: .9;
 }
 
 
