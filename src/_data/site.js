@@ -68,7 +68,7 @@ module.exports = {
 		homepageNavPortrait: "Portraiture",
 		homepageNavSocial: "Branding & Social",
 		homepageNavAutomotive: "Automotive",
-		homepageMainTitle: "Budapest Photography, Tailored for Your Needs",
+		homepageMainTitle: "Budapest Photography, Tailored to Your Needs",
 		homepageRecentTitle: "Latest Portrait Work",
 		homepageVisitLatest: "or see my latest work",
 		homepageVisitGalleries: "or check out all of my galleries",
