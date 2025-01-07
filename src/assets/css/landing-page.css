@@ -64,6 +64,10 @@ h4, .h4 {
 .amazing-page-header--maternity    { background-image: url('/assets/images/experiences/maternity.webp'); }
 .amazing-page-header--engagement   { background-image: url('/assets/images/experiences/engagement.webp'); }
 .amazing-page-header--brand        { background-image: url('/assets/images/experiences/brand.webp'); }
+.amazing-page-header--creative     { background-image: url('/assets/images/experiences/creative.webp'); }
+.amazing-page-header--headshots    { background-image: url('/assets/images/experiences/headshots.webp'); }
+.amazing-page-header--pets         { background-image: url('/assets/images/experiences/pets.webp'); }
+.amazing-page-header--automotive   { background-image: url('/assets/images/experiences/automotive.webp'); }
 
 .page-header__category {
 	margin-bottom: .5rem;

@@ -61,9 +61,11 @@ layout: layouts/base.html
 					</div>
 				{% endfor %}
 			</div>
-			<div class="mb-2 text-center">
-				<a class="button" href="{{ gallery.moreLink }}">{{ gallery.more }}</a>
-			</div>
+			{% if gallery.more %}
+				<div class="mb-2 text-center">
+					<a class="button" href="{{ gallery.moreLink }}">{{ gallery.more }}</a>
+				</div>
+			{% endif %}
 		</div>
 	</section>
 
