@@ -1,31 +1,6 @@
-:root {
-	--sans: Outfit, sans-serif;
-	--serif: Domine, serif;
-}
+.section { padding-top: 0; }
 
-.logo__name {
-	font-weight: 700;
-	font-size: 1.8rem;
-	letter-spacing: -.75px;
-}
-
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4 {
-	font-weight: 300;
-}
-
-.main {
-	padding: 0;
-}
-
-.section {
-	padding-top: 0;
-	padding-bottom: 2rem;
-}
-
-.amazing-page-header {
+.fancy-page-header {
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -40,7 +15,13 @@ h4, .h4 {
 	background-position: center center;
 }
 
-.amazing-page-header:after {
+@media only screen and (max-width: 767.98px) {
+	.fancy-page-header {
+		background-position: 90% center;
+	}
+}
+
+.fancy-page-header:after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -50,71 +31,40 @@ h4, .h4 {
 	background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 70%);
 }
 
-.amazing-page-header .container {
+.fancy-page-header .container {
 	position: relative;
 	z-index: 1;
 }
 
-.amazing-page-header--main         { background-image: url('/assets/images/portraiture/gerda-2/06_1400.webp'); }
-.amazing-page-header--male         { background-image: url('/assets/images/experiences/male.webp'); }
-.amazing-page-header--female       { background-image: url('/assets/images/experiences/female.webp'); }
-.amazing-page-header--couple       { background-image: url('/assets/images/experiences/couple.webp'); }
-.amazing-page-header--family       { background-image: url('/assets/images/experiences/family.webp'); }
-.amazing-page-header--best-friends { background-image: url('/assets/images/experiences/best-friends.webp'); }
-.amazing-page-header--maternity    { background-image: url('/assets/images/experiences/maternity.webp'); }
-.amazing-page-header--engagement   { background-image: url('/assets/images/experiences/engagement.webp'); }
-.amazing-page-header--brand        { background-image: url('/assets/images/experiences/brand.webp'); }
-.amazing-page-header--creative     { background-image: url('/assets/images/experiences/creative.webp'); }
-.amazing-page-header--headshots    { background-image: url('/assets/images/experiences/headshots.webp'); }
-.amazing-page-header--pets         { background-image: url('/assets/images/experiences/pets.webp'); }
-.amazing-page-header--automotive   { background-image: url('/assets/images/experiences/automotive.webp'); }
+.fancy-page-header--home         { background-image: url('/assets/images/experiences/home.webp'); }
+.fancy-page-header--male         { background-image: url('/assets/images/experiences/male.webp'); }
+.fancy-page-header--female       { background-image: url('/assets/images/experiences/female.webp'); }
+.fancy-page-header--couple       { background-image: url('/assets/images/experiences/couple.webp'); }
+.fancy-page-header--family       { background-image: url('/assets/images/experiences/family.webp'); }
+.fancy-page-header--best-friends { background-image: url('/assets/images/experiences/best-friends.webp'); }
+.fancy-page-header--maternity    { background-image: url('/assets/images/experiences/maternity.webp'); }
+.fancy-page-header--engagement   { background-image: url('/assets/images/experiences/engagement.webp'); }
+.fancy-page-header--brand        { background-image: url('/assets/images/experiences/brand.webp'); }
+.fancy-page-header--creative     { background-image: url('/assets/images/experiences/creative.webp'); }
+.fancy-page-header--headshots    { background-image: url('/assets/images/experiences/headshots.webp'); }
+.fancy-page-header--pets         { background-image: url('/assets/images/experiences/pets.webp'); }
+.fancy-page-header--automotive   { background-image: url('/assets/images/experiences/automotive.webp'); }
 
-.page-header__category {
-	margin-bottom: .5rem;
-	padding-bottom: 0;
-	border-bottom: 0;
-	color: var(--bg);
-}
-
-.page-header__title {
+.fancy-page-header .page-header__title {
 	margin-bottom: 3rem;
 	color: #FFF;
 	text-shadow: 0 .1rem .1rem rgba(0,0,0,.5), 0 .1rem 1rem rgba(0,0,0,.25);
 }
 
 @media only screen and (min-width: 992px) {
-	.page-header__text {
+	.fancy-page-header .page-header__text {
 		max-width: 50%;
 	}
 }
 
-h2, .h2 {
-	margin-top: 0;
+.fancy-page-header .page-header__category {
+	color: var(--bg);
 }
-
-@media only screen and (min-width: 992px) {
-	h2, .h2 {
-		margin-bottom: 1.5rem; /* Put this in a CSS variable */
-	}
-}
-
-.testimonials {
-	margin-bottom: 2rem;
-}
-
-.testimonial {
-	padding: 1.25rem 1.75rem;
-}
-
-.testimonial__text {
-	margin-bottom: 1.5rem;
-}
-
-
-
-
-
-/* photo-walks.css */
 
 .floating-photo {
 	margin-bottom: 1.5rem;

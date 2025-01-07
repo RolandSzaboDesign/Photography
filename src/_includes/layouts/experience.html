@@ -3,7 +3,7 @@ layout: layouts/base.html
 ---
 
 <main class="main">
-	<header class="amazing-page-header amazing-page-header--{{ headerClass }}">
+	<header class="fancy-page-header fancy-page-header--{{ headerClass }}">
 		<div class="container">
 			<h1 class="page-header__category">{{ hero.h1 }}</h1>
 			<p class="page-header__title h1">{{ hero.title }}</p>
@@ -55,9 +55,9 @@ layout: layouts/base.html
 			<p>{{ gallery.intro }}</p>
 			<div class="third">
 				{% for item in gallery.items %}
-					<div class="polaroid">
+					<div class="polaroid polaroid--large">
 						<img class="polaroid__photo" src="{{ item.image }}" alt="{{ item.title }}" title="{{ item.title }}">
-						<span class="polaroid__title polaroid__title--long">{{ item.description }}</span>
+						<span class="polaroid__title polaroid__title">{{ item.description }}</span>
 					</div>
 				{% endfor %}
 			</div>
