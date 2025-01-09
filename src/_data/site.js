@@ -15,6 +15,7 @@ module.exports = {
 		copyright: "All rights reserved.",
 		backToTop: "Back to the top of the page",
 		backToHomepage: "Back to the Homepage",
+		toggleNavigation: "Toggle Navigation",
 
 		headerName: "Roland Szabó",
 		headerDescription: "Budapest Portrait Photographer",
@@ -128,6 +129,7 @@ module.exports = {
 		copyright: "Minden jog fenntartva.",
 		backToTop: "Vissza az oldal tetejére",
 		backToHomepage: "Vissza a Kezdőoldalra",
+		toggleNavigation: "Navigáció Mutatása",
 
 		headerName: "Szabó Roland",
 		headerDescription: "Budapesti Portré Fotós",
