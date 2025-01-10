@@ -1,5 +1,6 @@
 ---
 layout: layouts/base.html
+css: landing-page
 ---
 
 <main class="main">
@@ -9,15 +10,12 @@ layout: layouts/base.html
 			<p class="page-header__title h1">{{ hero.title }}</p>
 			<p class="page-header__text">{{ hero.text1 }}</p>
 			<p class="page-header__text">{{ hero.text2 }}</p>
-			<div class="buttons mt-2">
-				<a class="button" href="#experiences"><i class="fas fa-camera icon-left"></i>&nbsp; Experiences</a>
-				<a class="button" href="#more"><i class="fas fa-arrow-down icon-left"></i>&nbsp; See How</a>
-			</div>
+			<a class="button mt-2" href="#more"><i class="fas fa-arrow-down icon-left"></i>&nbsp; See How</a>
 			<p><small>{{ hero.trustline }}</small></p>
 		</div>
 	</header>
 
-	<section class="section" id="more">
+	<section class="section section--new" id="more">
 		<div class="container">
 			<h2>{{ uses.title }}</h2>
 			<p>{{ uses.intro }}</p>
@@ -38,7 +36,7 @@ layout: layouts/base.html
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section section--new">
 		<div class="container">
 			<h2>{{ steps.title }}</h2>
 			<ol class="list">
@@ -49,7 +47,7 @@ layout: layouts/base.html
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section section--new">
 		<div class="container">
 			<h2>{{ gallery.title }}</h2>
 			<p>{{ gallery.intro }}</p>
@@ -69,7 +67,7 @@ layout: layouts/base.html
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section section--new">
 		<div class="container">
 			<h2>{{ why.title }}</h2>
 			<p>{{ why.intro }}</p>
@@ -81,7 +79,7 @@ layout: layouts/base.html
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section section--new">
 		<div class="container">
 			<h2>{{ faqs.title }}</h2>
 			<p>{{ faqs.intro }}</p>
@@ -97,7 +95,7 @@ layout: layouts/base.html
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section section--new">
 		<div class="container">
 			<h2>{{ testimonials.title }}</h2>
 			<p>{{ testimonials.intro }}</p>
@@ -112,18 +110,40 @@ layout: layouts/base.html
 		</div>
 	</section>
 
-	<section class="section" id="start">
+	<section class="section section--new" id="start">
 		<div class="container">
-			<h2>{{ cta.title }}</h2>
-			<p>{{ cta.text1 }}</p>
-			<p class="mb-0">{{ cta.text2 }}</p>
-			<div class="emphasized">
-				<h3 class="mb-1 mt-0">{{ cta.emphasizedTitle }}</h3>
-				<p>{{ cta.emphasizedText }}</p>
-				<div class="buttons mt-1 mb-0">
-					<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fa-solid fa-envelope icon-left"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
-					<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fa-brands fa-instagram icon-left"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
+			<h2>{{ packages.title }}</h2>
+			<p>{{ packages.text }}</p>
+			<div class="packages">
+				{% if packages.photogenicDiscovery %}
+					<div class="package package--photogenic">
+						<i class="package__icon fas fa-stopwatch"></i>
+						<h3 class="package__name">{{ site[locale].photogenicDiscovery }}</h3>
+						<p class="package__text">{{ packages.photogenicDiscovery }}</p>
+						<ul class="tags">
+							<li class="tag tag__link">{{ site[locale].photogenicDiscoveryDuration }}</li>
+							<li class="tag tag__link">{{ site[locale].photogenicDiscoveryPhotos }}</li>
+							<li class="tag tag__link">{{ site[locale].photogenicDiscoveryLocations }}</li>
+							<li class="tag tag__link">{{ site[locale].photogenicDiscoveryOutfits }}</li>
+						</ul>
+					</div>
+				{% endif %}
+				<div class="package package--full">
+					<i class="package__icon fas fa-dove"></i>
+					<h3 class="package__name">{{ site[locale].theFullExperience }}</h3>
+					<p class="package__text">{{ packages.fullExperience }}</p>
+					<ul class="tags">
+							<li class="tag tag__link">{{ site[locale].theFullExperienceDuration }}</li>
+							<li class="tag tag__link">{{ site[locale].theFullExperiencePhotos }}</li>
+							<li class="tag tag__link">{{ site[locale].theFullExperienceLocations }}</li>
+							<li class="tag tag__link">{{ site[locale].theFullExperienceOutfits }}</li>
+						</ul>
 				</div>
+			</div>
+			<p>{{ packages.cta }}</p>
+			<div class="buttons mt-1 mb-0">
+				<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fa-solid fa-envelope icon-left"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
+				<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fa-brands fa-instagram icon-left"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
 			</div>
 		</div>
 	</section>

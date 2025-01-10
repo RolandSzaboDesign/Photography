@@ -122,6 +122,17 @@ module.exports = {
 		summaryFormat: "Format",
 		summaryLocations: "Locations",
 		summaryOutfits: "Outfits",
+
+		photogenicDiscovery: "Photogenic Discovery",
+		photogenicDiscoveryDuration: "30 minutes",
+		photogenicDiscoveryPhotos: "3 photos",
+		photogenicDiscoveryLocations: "1 location",
+		photogenicDiscoveryOutfits: "1 outfit",
+		theFullExperience: "The Full Experience",
+		theFullExperienceDuration: "Up to 120 minutes",
+		theFullExperiencePhotos: "10+1 photos",
+		theFullExperienceLocations: "Multiple locations",
+		theFullExperienceOutfits: "Multiple outfits",
 	},
 	hu: {
 		siteTitle: "Szabó Roland | Budapesti Portré Fotós",
@@ -236,5 +247,8 @@ module.exports = {
 		summaryFormat: "Formátum",
 		summaryLocations: "Helyszín",
 		summaryOutfits: "Ruha",
+
+		photogenicDiscovery: "Fotogén Felfedezés",
+		theFullExperience: "A Teljes Élmény",
 	},
 };

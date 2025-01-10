@@ -192,6 +192,10 @@ img {
 	}
 }
 
+.section--new {
+	padding-top: 0;
+}
+
 .section--white {
 	background-color: #FFF;
 }
@@ -618,14 +622,14 @@ ol.list { list-style: decimal; }
 @media only screen and (max-width: 575.98px) {
 	.logo__name {
 		font-size: 1.5rem;
-		letter-spacing: -.075rem;
+		letter-spacing: -.05rem;
 	}
 }
 
 @media only screen and (min-width: 576px) {
 	.logo__name {
 		font-size: 1.8rem;
-		letter-spacing: -.1rem;
+		letter-spacing: -.075rem;
 	}
 }
 
@@ -991,7 +995,7 @@ ol.list { list-style: decimal; }
 
 .button {
 	display: inline-block;
-	padding: 1.125rem 1.5rem 1rem;
+	padding: 1.125rem 1.75rem 1rem;
 	font: inherit;
 	font-weight: 700;
 	color: #FFF;
@@ -1001,7 +1005,7 @@ ol.list { list-style: decimal; }
 	text-decoration: none;
 	text-shadow: none;
 	border: 0;
-	border-radius: .5rem;
+	border-radius: 99rem;
 	border-bottom: .25rem solid var(--highlight-darker);
 	background: var(--highlight);
 	background: radial-gradient(circle, var(--highlight) 0%, var(--highlight-dark) 100%);
@@ -1082,6 +1086,7 @@ ol.list { list-style: decimal; }
 
 .page-header {
 	text-align: center;
+	padding-top: 2rem;
 }
 
 @media only screen and (max-width: 575.98px) {
@@ -1100,10 +1105,6 @@ ol.list { list-style: decimal; }
 	.page-header {
 		margin-bottom: 2rem;
 	}
-}
-
-.page-header--home {
-	margin-bottom: 1.5rem;
 }
 
 .page-header--with-nav {
@@ -1181,10 +1182,6 @@ ol.list { list-style: decimal; }
 
 	.page-header--has-intro .page-header__category {
 		grid-column: 1 / -1;
-	}
-
-	.page-header--has-intro .tags {
-		justify-content: start;
 	}
 
 	.page-header__description {
@@ -1513,31 +1510,35 @@ ol.list { list-style: decimal; }
 .tags {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 	margin-top: 1rem;
 	margin-bottom: 0;
 }
 
+.tags--center {
+	justify-content: center;
+}
+
 .tag {
+	margin-bottom: .5rem;
 	margin-right: .5rem;
-	font-weight: 700;
-	font-size: .75rem;
-	letter-spacing: 0;
-	text-transform: uppercase;
 }
 
 .tag__link {
 	display: inline-block;
 	padding: .125rem .75rem;
+	font-weight: 700;
+	font-size: .75rem;
 	color: var(--text);
+	letter-spacing: 0;
+	text-transform: uppercase;
 	border-bottom: 0;
 	border-radius: 99rem;
 	background-color: var(--bg-medium);
 	transition: var(--transition-duration) color, var(--transition-duration) background-color;
 }
 
-.tag__link:hover,
-.tag__link:focus {
+a.tag__link:hover,
+a.tag__link:focus {
 	color: var(--text-dark);
 	background-color: var(--bg-dark);
 }

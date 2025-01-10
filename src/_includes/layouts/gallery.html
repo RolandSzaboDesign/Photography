@@ -7,7 +7,7 @@ layout: layouts/base.html
 		<header class="page-header{% if intro %} page-header--has-intro{% endif %}">
 			<a class="page-header__category" href="/{{ locale }}/{{ tags[0] | replace: 'é', 'e' | replace: 'ó', 'o' | replace: 'ö', 'o' }}/" title="Back to {{ tags[0] | split: '-' | join: ' ' | capitalize }}">{{ tags[0] | split: "-" | join: " " | capitalize }}</a>
 			<h1 class="page-header__title">{{ title }}</h1>
-			<ul class="tags">
+			<ul class="tags{% unless intro %} tags--center{% endunless %}">
 				{% assign tagsies = tags | slice: 1, tags.size %}
 				{% for tag in tagsies %}
 					<li class="tag">

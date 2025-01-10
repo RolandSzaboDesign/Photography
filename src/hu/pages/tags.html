@@ -18,7 +18,7 @@ translation: tagsList
 				<span class="page-header__category">Címkék</span>
 				<h1 class="page-header__title">Összes Címke</h1>
 			</header>
-			<ul class="tags">
+			<ul class="tags tags--center">
 				{% for tag in collections.tagList %}
 					<li class="tag">
 						<a class="tag__link" href="/{{ locale }}/tags/{{ tag }}/">{{ tag }}</a>

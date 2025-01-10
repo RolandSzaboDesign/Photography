@@ -1,3 +1,8 @@
+.page-header--home {
+	padding-top: 0;
+	margin-bottom: 1.5rem;
+}
+
 .home__title {
 	font-size: 1.5rem;
 	color: var(--text-dark);
