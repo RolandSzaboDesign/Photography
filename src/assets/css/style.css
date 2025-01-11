@@ -394,6 +394,13 @@ h3, .h3 {
 	}
 }
 
+.yuge {
+	margin-bottom: 1rem;
+	font-size: 4rem;
+	letter-spacing: -.2rem;
+}
+
+
 @media only screen and (max-width: 1199.98px) {
 	p, ul, ol {
 		margin-bottom: 1rem;
@@ -1360,6 +1367,21 @@ ol.list { list-style: decimal; }
 	text-align: center;
 }
 
+.gallery--portfolio {
+	grid-gap: 1rem;
+	padding-bottom: 4rem;
+}
+
+.gallery--portfolio .polaroid {
+	cursor: pointer;
+	transition: var(--transition-duration) box-shadow;
+}
+
+.gallery--portfolio .polaroid:hover,
+.gallery--portfolio .polaroid:focus {
+	box-shadow: var(--box-shadow-strong);
+}
+
 
 
 /* Testimonials */
@@ -1467,6 +1489,7 @@ ol.list { list-style: decimal; }
 	text-align: center;
 	margin-top: 4rem;
 	padding-top: 4rem;
+	bottom: 4rem;
 	border-top: 1px solid var(--bg-dark);
 }
 

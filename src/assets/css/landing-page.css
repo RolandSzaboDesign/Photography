@@ -26,7 +26,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 70%);
+	background: linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 70%);
 }
 
 .fancy-page-header .container {
@@ -34,7 +34,7 @@
 	z-index: 1;
 }
 
-.fancy-page-header--home         { background-image: url('/assets/images/experiences/home.webp'); }
+.fancy-page-header--portrait-hub { background-image: url('/assets/images/experiences/portrait-hub.webp'); }
 .fancy-page-header--male         { background-image: url('/assets/images/experiences/male.webp'); }
 .fancy-page-header--female       { background-image: url('/assets/images/experiences/female.webp'); }
 .fancy-page-header--couple       { background-image: url('/assets/images/experiences/couple.webp'); }
@@ -47,6 +47,8 @@
 .fancy-page-header--headshots    { background-image: url('/assets/images/experiences/headshots.webp'); }
 .fancy-page-header--pets         { background-image: url('/assets/images/experiences/pets.webp'); }
 .fancy-page-header--automotive   { background-image: url('/assets/images/experiences/automotive.webp'); }
+
+.fancy-page-header--cars-hub     { background-image: url('/assets/images/experiences/cars-hub.webp'); }
 
 .fancy-page-header .page-header__title {
 	margin-bottom: 3rem;
@@ -174,15 +176,23 @@
 	color: var(--text);
 	background-color: #FFF;
 	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.25);
+	transition: var(--transition-duration) box-shadow;
 }
 
 .plan:hover,
 .plan:focus {
 	color: var(--text);
+	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.5);
 }
 
 .plan__image {
 	display: block;
+	transition: var(--transition-duration) opacity;
+}
+
+.plan:hover .plan__image,
+.plan:focus .plan__image {
+	opacity: .9;
 }
 
 .plan__title {
