@@ -81,22 +81,6 @@ css: landing-page
 
 	<section class="section section--new">
 		<div class="container">
-			<h2>{{ faqs.title }}</h2>
-			<p>{{ faqs.intro }}</p>
-			<div class="faqs">
-				{% for item in faqs.items %}
-					<details class="faq">
-						<summary class="faq__question">{{ item.title }}</summary>
-						<div class="faq__answer">{{ item.text }}</div>
-					</details>
-				{% endfor %}
-			</div>
-			<p>{{ faqs.ctaText }} <a href="#start">{{ faqs.ctaLink }}</a></p>
-		</div>
-	</section>
-
-	<section class="section section--new">
-		<div class="container">
 			<h2>{{ testimonials.title }}</h2>
 			<p>{{ testimonials.intro }}</p>
 			{% assign source = testimonials.items | where: "type", type %}
@@ -145,6 +129,22 @@ css: landing-page
 				<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fa-solid fa-envelope icon-left"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
 				<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fa-brands fa-instagram icon-left"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
 			</div>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ faqs.title }}</h2>
+			<p>{{ faqs.intro }}</p>
+			<div class="faqs">
+				{% for item in faqs.items %}
+					<details class="faq">
+						<summary class="faq__question">{{ item.title }}</summary>
+						<div class="faq__answer">{{ item.text }}</div>
+					</details>
+				{% endfor %}
+			</div>
+			<p>{{ faqs.ctaText }} <a href="#start">{{ faqs.ctaLink }}</a></p>
 		</div>
 	</section>
 </main>

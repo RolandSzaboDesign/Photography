@@ -174,6 +174,8 @@
 
 .plan {
 	color: var(--text);
+	text-align: center;
+	border-bottom: 0;
 	background-color: #FFF;
 	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.25);
 	transition: var(--transition-duration) box-shadow;
@@ -182,12 +184,7 @@
 .plan:hover,
 .plan:focus {
 	color: var(--text);
-	box-shadow: 0 .25rem 1rem 0 rgba(0,0,0,.5);
-}
-
-.plan__image {
-	display: block;
-	transition: var(--transition-duration) opacity;
+	box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,.1);
 }
 
 .plan:hover .plan__image,
@@ -195,48 +192,25 @@
 	opacity: .9;
 }
 
+.plan__image {
+	display: block;
+	margin-bottom: 0 auto;
+	transition: var(--transition-duration) opacity;
+}
+
 .plan__title {
-	margin: 2rem 2rem 1rem;
-	font-size: 2rem;
-	text-align: center;
+	margin: 1.5rem 1.5rem .75rem;
+}
+
+.plan__intro {
+	margin: 0 1.5rem 1.5rem;
+	font-style: italic;
+	line-height: 1.4;
 }
 
 .plan__description {
-	margin-left: 2rem;
-	margin-right: 2rem;
-}
-
-.plan__image {
-	display: block;
-	margin: 0 auto;
-}
-
-@media only screen and (min-width: 500px) and (max-width: 991.98px) {
-	.plan__image--with-margin {
-		margin-top: 1.5rem;
-	}
-}
-
-.plan__price-amount {
-	display: block;
-	margin-left: 2rem;
-	margin-right: 2rem;
-	font-family: var(--serif);
-	font-weight: 400;
-	font-size: 1.6rem;
-	color: var(--text-dark);
-	letter-spacing: -1px;
-}
-
-@media only screen and (min-width: 1200px) {
-	.plan__price-amount {
-		font-size: 2rem;
-		letter-spacing: -1.5px;
-	}
-}
-
-.plan__details {
-	margin: 0 2rem 2rem;
+	margin: 0 1.5rem 1.5rem;
+	text-align: left;
 }
 
 .hero-portraits {

@@ -497,16 +497,16 @@ hr {
 
 @media only screen and (max-width: 991.98px) {
 	.emphasized {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
 		padding: 1.5rem;
 	}
 }
 
 @media only screen and (min-width: 992px) {
 	.emphasized {
-		margin-top: 3rem;
-		margin-bottom: 3rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 		padding: 2rem;
 	}
 }
@@ -1641,6 +1641,7 @@ a.tag__link:focus {
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
 
+.align-stretch { align-items: stretch; }
 .align-start { align-items: start; }
 .align-center { align-items: center; }
 .align-end { align-items: end; }
