@@ -249,6 +249,14 @@ module.exports = {
 		summaryOutfits: "Ruha",
 
 		photogenicDiscovery: "Fotogén Felfedezés",
+		photogenicDiscoveryDuration: "30 perc",
+		photogenicDiscoveryPhotos: "3 fotó",
+		photogenicDiscoveryLocations: "1 helyszín",
+		photogenicDiscoveryOutfits: "1 ruha",
 		theFullExperience: "A Teljes Élmény",
+		theFullExperienceDuration: "Akár 120 perc",
+		theFullExperiencePhotos: "10+1 fotó",
+		theFullExperienceLocations: "Több helyszín",
+		theFullExperienceOutfits: "Több ruha",
 	},
 };

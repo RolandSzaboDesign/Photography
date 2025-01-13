@@ -394,13 +394,6 @@ h3, .h3 {
 	}
 }
 
-.yuge {
-	margin-bottom: 1rem;
-	font-size: 4rem;
-	letter-spacing: -.2rem;
-}
-
-
 @media only screen and (max-width: 1199.98px) {
 	p, ul, ol {
 		margin-bottom: 1rem;
@@ -458,6 +451,16 @@ small {
 
 .small {
 	font-size: 70%;
+}
+
+.yuge {
+	margin-bottom: 1rem;
+	font-size: 4rem;
+	letter-spacing: -.2rem;
+}
+
+.nowrap {
+	white-space: nowrap;
 }
 
 del {
