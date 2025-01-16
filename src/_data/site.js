@@ -11,13 +11,13 @@ module.exports = {
 		},
 	],
 	en: {
-		siteTitle: "Roland Szabó | Budapest Portrait Photographer",
+		siteTitle: "Roland Szabó | Budapest Photographer",
 		copyright: "All rights reserved.",
 		backToTop: "Back to the top of the page",
 		backToHomepage: "Back to the Homepage",
 
 		headerName: "Roland Szabó",
-		headerDescription: "Budapest Portrait Photographer",
+		headerDescription: "Budapest Photographer 📸",
 
 		navProjects: "Projects",
 		navMyWork: "Work",
@@ -135,13 +135,13 @@ module.exports = {
 		theFullExperienceOutfits: "Multiple outfits",
 	},
 	hu: {
-		siteTitle: "Szabó Roland | Budapesti Portré Fotós",
+		siteTitle: "Szabó Roland | Budapesti Fotós",
 		copyright: "Minden jog fenntartva.",
 		backToTop: "Vissza az oldal tetejére",
 		backToHomepage: "Vissza a Kezdőoldalra",
 
 		headerName: "Szabó Roland",
-		headerDescription: "Budapesti Portré Fotós",
+		headerDescription: "Budapesti Fotós 📸",
 
 		navProjects: "Projektek",
 		navMyWork: "Munkáim",
