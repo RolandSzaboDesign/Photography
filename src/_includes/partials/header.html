@@ -1,6 +1,6 @@
 <header class="header">
 	<div class="header__container container">
-		<a class="logo" href="/{{ locale }}/" title="Back to the Homepage">
+		<a class="logo" href="/{{ locale }}/" title="{{ site[locale].backToHomepage }}">
 			<strong class="logo__name">{{ site[locale].headerName }}</strong>
 			<span class="logo__tagline">{{ site[locale].headerDescription }}</span>
 		</a>
@@ -84,6 +84,6 @@
 				{%- endfor %}
 			</ul>
 		</nav>
-		<a id="menu-toggle" class="menu-toggle" href="#" title="Toggle Navigation" onclick="toggleMainMenu()">☰</a>
+		<a id="menu-toggle" class="menu-toggle" href="#" title="{{ site[locale].toggleNavigation }}" onclick="toggleMainMenu()">☰</a>
 	</div>
 </header>

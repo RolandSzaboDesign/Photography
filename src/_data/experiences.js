@@ -54,7 +54,7 @@ module.exports = {
 			slug: "fotogen-felfedezes",
 			pricing: {
 				description: "Gyors de meghatározó élmény, ahol bebizonyítom, hogy igenis fotogén vagy. Csak új vendégek részére, egy fős formátumban.",
-				price: "10.000",
+				price: "15.000",
 				currency: "HUF",
 				includes: "3 fotó",
 				format: "Egyéni",
