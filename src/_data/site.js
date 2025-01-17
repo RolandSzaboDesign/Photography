@@ -16,6 +16,7 @@ module.exports = {
 		backToTop: "Back to the top of the page",
 		backToHomepage: "Back to the Homepage",
 		toggleNavigation: "Toggle Navigation",
+		lastUpdated: "Last Updated",
 
 		headerName: "Roland Szabó",
 		headerDescription: "Budapest Photographer 📸",
@@ -35,7 +36,7 @@ module.exports = {
 		navServicesSocialContent: "Branding & Social Content Creation",
 		navServicesAutomotive: "Automotive Photography",
 		navPhotoWalks: "Photoshoot",
-		navPortraitWorks: "Portrait Galleries",
+		navPortraitWorks: "Gallery",
 		navContact: "Contact Me",
 		navGear: "Gear I Use",
 		navTestimonials: "Testimonials",
@@ -141,6 +142,7 @@ module.exports = {
 		backToTop: "Vissza az oldal tetejére",
 		backToHomepage: "Vissza a Kezdőoldalra",
 		toggleNavigation: "Navigáció Mutatása",
+		lastUpdated: "Legutóbb Frissítve",
 
 		headerName: "Szabó Roland",
 		headerDescription: "Budapesti Fotós 📸",
@@ -160,7 +162,7 @@ module.exports = {
 		navServicesSocialContent: "Branding & Social Fotózás",
 		navServicesAutomotive: "Autó Fotózás",
 		navPhotoWalks: "Portréfotózás",
-		navPortraitWorks: "Portréfotózás Galériák",
+		navPortraitWorks: "Galéria",
 		navContact: "Elérhetőségeim",
 		navGear: "Felszerelés",
 		navTestimonials: "Rólam Mondtátok",

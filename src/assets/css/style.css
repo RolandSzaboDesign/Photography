@@ -1485,28 +1485,11 @@ ol.list { list-style: decimal; }
 /* Call to Action */
 
 .cta {
-	position: relative;
 	display: grid;
 	grid-gap: 2rem;
 	align-items: center;
 	text-align: center;
-	margin-top: 4rem;
-	padding-top: 4rem;
-	bottom: 4rem;
-	border-top: 1px solid var(--bg-dark);
-}
-
-.cta:before {
-	content: '\f030';
-	position: absolute;
-	top: -1.875rem;
-	left: 50%;
-	margin-left: -1.75rem;
-	padding: 1rem;
-	font: var(--fa-font-solid);
-	font-size: 1.5rem;
-	line-height: 1;
-	background-color: var(--bg);
+	padding-bottom: 4rem;
 }
 
 .cta__title {
