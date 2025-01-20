@@ -51,7 +51,7 @@ css: home
 
 	<section class="section">
 		<div class="container">
-			<h2 class="home__title text-center mt-0">{{ site[locale].homepageRecentTitle }}</h2>
+			<h2 class="text-center mt-0">{{ site[locale].homepageRecentTitle }}</h2>
 			<div class="gallery">
 				{% assign index = 0 %}
 
@@ -92,7 +92,7 @@ css: home
 
 	<section class="section section--grey">
 		<div class="container">
-			<h2 class="home__title text-center mt-0">{{ site[locale].homepageTestimonials }}</h2>
+			<h2 class="text-center mt-0">{{ site[locale].homepageTestimonials }}</h2>
 			<div class="testimonials">
 				{% assign source = testimonials.items %}
 				{% for item in source limit:3 %}
