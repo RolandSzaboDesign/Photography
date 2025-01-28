@@ -5,11 +5,7 @@
 		<title>{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		{%- if og_description %}
-		<meta name="description" content="{{ og_description }}">
-		{%- else %}
-		<meta name="description" content="{{ site[locale].homepageMainTitle }}">
-		{%- endif %}
+		<meta name="description" content="{{ description | default: site[locale].homepageMainTitle }}">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
@@ -32,6 +28,7 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@szabokaphoto">
 		<meta name="twitter:creator" content="@szabokaphoto">
+		<meta property="og:type" content="website">
 		<meta property="og:url" content="{{ site.url | append: page.url }}">
 		{%- if tags[0] == "portraiture" or tags[0] == "portré" %}
 		<meta property="og:image" content="https://rolandszabo.photo/assets/images/portraiture/{{ translation }}/01_700.webp" loading="lazy">
@@ -40,11 +37,7 @@
 		{%- else %}
 		<meta property="og:image" content="{{ site.url }}/assets/images/roland-og.webp" loading="lazy">
 		{%- endif %}
-		{%- if og_description %}
-		<meta property="og:description" content="{{ og_description }}">
-		{%- else %}
-		<meta property="og:description" content="{{ site[locale].homepageMainTitle }}">
-		{%- endif %}
+		<meta property="og:description" content="{{ description | default: site[locale].homepageMainTitle }}">
 		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
 
 		<!-- FontAwesome -->
