@@ -1225,7 +1225,7 @@ module.exports = {
 			hu: {
 				name: "K. Muskan",
 				excerpt: "Roland minden félelmemet elfeledtette velem a fotózás során",
-				text: "Szégyenlős vagyok a kamera előtt, nem feltétlenül szeretem ha fotóznak. A filmes fotózásunk elég nagy kihívást jelentett számomra, de Roland minden félelmemet elfeledtette velem a fotózás során. Laza stílusú, elbűvölő személyiség, akit kiváló munkamorál jellemez; a filmes portréfotózás egész folyamata könnyednek tűnt. A folyamat során gondoskodott róla, hogy végig magabiztos legyek. Most visszatekintve az egész élményre,  határozottan azt mondom, hogy nagyon élveztem -- köszönet Rolandnak, hogy ilyen csodálatos fotós!",
+				text: "Szégyenlős vagyok a kamera előtt, nem feltétlenül szeretem ha fotóznak. A filmes fotózásunk elég nagy kihívást jelentett számomra, de Roland minden félelmemet elfeledtette velem a fotózás során. Laza stílusú, elbűvölő személyiség, akit kiváló munkamorál jellemez; a filmes portré fotózás egész folyamata könnyednek tűnt. A folyamat során gondoskodott róla, hogy végig magabiztos legyek. Most visszatekintve az egész élményre,  határozottan azt mondom, hogy nagyon élveztem -- köszönet Rolandnak, hogy ilyen csodálatos fotós!",
 				link: "/hu/portre/muskan/",
 			},
 			en: {
@@ -1275,8 +1275,8 @@ module.exports = {
 			photo: "/assets/images/testimonials/adam.webp",
 			hu: {
 				name: "H. Ádám",
-				excerpt: "Ha ez lesz az első portréfotózásod, feltétlenül ajánlom Rolandot, hiszen mindenben türelmesen segít",
-				text: "Egy ideje követtem Roland munkásságát, és igazán tetszettek a portrék, amiket készített másokról, ezért megbeszéltünk egy fotózást. Nagyon rugalmas az időpontegyeztésben, így könnyű dolgod lesz vele. Illetve, ha ez lesz az első portréfotózásod, mint nekem, feltétlenül ajánlom Rolandot, hiszen mindenben türelmesen segített és a koncepciót is együtt találtuk ki. A fentieknek köszönhetően nagyon pozitív élmény volt számomra a fotózás, amit ezúton is köszönök mégegyszer!",
+				excerpt: "Ha ez lesz az első portré fotózásod, feltétlenül ajánlom Rolandot, hiszen mindenben türelmesen segít",
+				text: "Egy ideje követtem Roland munkásságát, és igazán tetszettek a portrék, amiket készített másokról, ezért megbeszéltünk egy fotózást. Nagyon rugalmas az időpontegyeztésben, így könnyű dolgod lesz vele. Illetve, ha ez lesz az első portré fotózásod, mint nekem, feltétlenül ajánlom Rolandot, hiszen mindenben türelmesen segített és a koncepciót is együtt találtuk ki. A fentieknek köszönhetően nagyon pozitív élmény volt számomra a fotózás, amit ezúton is köszönök mégegyszer!",
 				link: "/hu/portre/adam-3/",
 			},
 			en: {

@@ -161,7 +161,7 @@ module.exports = {
 		navServicesPortraiture: "Portré Fotózás",
 		navServicesSocialContent: "Branding & Social Fotózás",
 		navServicesAutomotive: "Autó Fotózás",
-		navPhotoWalks: "Portréfotózás",
+		navPhotoWalks: "Portré Fotózás",
 		navPortraitWorks: "Galéria",
 		navContact: "Elérhetőségeim",
 		navGear: "Felszerelés",
