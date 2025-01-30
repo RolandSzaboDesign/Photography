@@ -37,20 +37,6 @@ css: landing-page
 		</div>
 	</section>
 
-	<section class="section section--new">
-		<div class="container">
-			<h2>{{ testimonials.title }}</h2>
-			<p>{{ testimonials.text }}</p>
-			<div class="testimonials">
-				{% assign source = testimonials.items %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 0 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 1 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: 2 %}
-			</div>
-			<p class="mt-2">{{ testimonials.ctaText }} <a href="https://maps.app.goo.gl/fVv8QJQWSGEf5HKz9" target="_blank" rel="noopener noreferrer">{{ testimonials.ctaLink }}</a>.</p>
-		</div>
-	</section>
-
 	<section class="section section--new" id="experiences">
 		<div class="container">
 			<h2>{{ experiences.title }}</h2>
@@ -141,6 +127,20 @@ css: landing-page
 					<p class="plan__intro text-smaller">{{ experiences.automotive.text }}</p>
 				</a>
 			</div>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ testimonials.title }}</h2>
+			<p>{{ testimonials.text }}</p>
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 0 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 1 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 2 %}
+			</div>
+			<p class="mt-2">{{ testimonials.ctaText }} <a href="https://maps.app.goo.gl/fVv8QJQWSGEf5HKz9" target="_blank" rel="noopener noreferrer">{{ testimonials.ctaLink }}</a>.</p>
 		</div>
 	</section>
 

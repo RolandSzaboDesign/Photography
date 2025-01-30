@@ -192,7 +192,8 @@ img {
 	}
 }
 
-.section--new {
+.section--new,
+.section--top {
 	padding-top: 0;
 }
 

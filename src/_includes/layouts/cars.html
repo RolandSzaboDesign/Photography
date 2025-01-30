@@ -1,144 +1,168 @@
 ---
-layout: layouts/base.html
-title: Car Photography in Budapest
 permalink: "/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugCarPhotography }}/"
+layout: layouts/base.html
 translation: cars
-css: landing-page
+css: photo-walks
 og_image: https://rolandszabo.photo/assets/images/cars/og-image.webp
 ---
 
 <main class="main">
-	<header class="fancy-page-header fancy-page-header--cars-hub">
+	<header class="page-header">
 		<div class="container">
-			<h1 class="page-header__category">Autó Fotózás Budapesten</h1>
-			<p class="page-header__title h1">Profi autós képek, amelyek kiemelnek a tömegből</p>
-			<p class="page-header__text">Szereted az autódat? Eladnád? Vagy csak megmutatnád a legjobb oldalát?</p>
-			<p class="page-header__text">Egy profi fotósorozat nemcsak szép emlék, de hatékony eszköz is lehet, ha eladni szeretnéd autódat, vagy céged számára erősebb marketinget keresel. Az autód megérdemli, hogy a legjobb fényben mutassuk meg.</p>
-			<div class="buttons mt-2">
-				<a class="button" href="#services"><i class="fas fa-camera icon-left"></i>&nbsp; Szolgáltatások</a>
-				<a class="button" href="#more"><i class="fas fa-arrow-down icon-left"></i>&nbsp; Részletek</a>
-			</div>
+			<h1 class="page-header__category">{{ site[locale].navServicesAutomotive }}</h1>
+			<p class="page-header__title h1">{{ cars[locale].title }}</p>
 		</div>
 	</header>
 
-	<section class="section section--new" id="more">
+	<section class="section section--top">
 		<div class="container">
-			<h2>Miért érdemes profi autófotózást választani?</h2>
-			<ul class="list">
-				<li><strong>Kiemelkedés a hirdetési oldalak tengeréből:</strong> Profi képekkel az autód már az első pillanatban megragadja a figyelmet, miközben a többi hirdetés eltűnik a háttérben. A jó fotók az autód egyedi stílusát és részleteit emelik ki, amitől a hirdetésed igazán emlékezetes lesz.</li>
-				<li><strong>Gyorsabb és könnyebb eladás:</strong> A minőségi fotók több érdeklődőt vonzanak, és segítenek abban, hogy az autó állapotát pontosan megmutasd, elkerülve a felesleges kérdéseket és félreértéseket. Ez azt jelenti, hogy csak olyan vevők keresnek majd, akik valóban komolyan gondolják.</li>
-				<li><strong>Büszkeség és emlékek:</strong> Ha különleges kapcsolatot ápolsz az autóddal, egy profi fotósorozat örök emlék lehet számodra. Az autód szépségét megörökíteni nemcsak egy pillanatnyi öröm, hanem egy életre szóló büszkeség forrása is lehet.</li>
-				<li><strong>Céges előnyök:</strong> A vonzó fotók segítenek növelni a márkád hitelességét és a termékeid iránti érdeklődést. Egy profi megjelenés nemcsak több ügyfelet vonzhat, hanem hozzájárulhat a céged pozitív megítéléséhez is a piacon.</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="section section--grey">
-		<div class="container">
-			<h2 class="mt-0">Rólam Mondták</h2>
-			<div class="testimonials testimonials--single mb-0">
-				<blockquote class="testimonial">
-					<p class="testimonial__text">Roland rugalmas volt az időbeosztással, jó javaslatai voltak már a tervezési fázisban, azonnal megértette és figyelembe vette a külüönleges kéréseimet, autófotózáskor tudta mit csinál és nem volt rest utasítani, a képeket pedig utómunkával együtt nagyon hamar meg is kaptam.</p>
-					<a class="testimonial__photo-link" href="https://maps.app.goo.gl/LKDkSKEJAVEXw5pC6">
-						<img class="testimonial__photo" src="/assets/images/testimonials/cars_corsa-e.webp" alt="Gombos Barni" width="48" height="48" loading="lazy">
-					</a>
-					<cite class="testimonial__cite">
-						<a class="testimonial__author" href="">Emmert Ármin</a>
-						&nbsp; <a class="testimonial__author" href="https://maps.app.goo.gl/LKDkSKEJAVEXw5pC6" target="_blank" rel="noreferrer noopener" title="This is a Google Review"><i class="fa-brands fa-google"></i></a>
-					</cite>
-					<div class="testimonial__rating">
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-					</div>
-				</blockquote>
-				<blockquote class="testimonial">
-					<p class="testimonial__text">Egy jó pár hete hirdettem az autóm, de szinte semmilyen érdeklődő sem keresett miatta. Gondoltam, megkeresem Rolandot, hogy lőjön pár profi képet az autóról. Hamar meg is beszéltük az időpontot. A fotók készítése közben még egy gyors “oktatást” is tartott, hogyan kell igazán király képeket lőni. Az új fotók feltöltése után napokon belül már el is vitték az autót. Úgy gondolom, Roland segítsége nélkül még most is árulnám a kocsit.</p>
-					<a class="testimonial__photo-link" href="https://maps.app.goo.gl/oJDvsubtXYCzPb117">
-						<img class="testimonial__photo" src="/assets/images/testimonials/cars_ceed-sw.webp" alt="Gombos Barni" width="48" height="48" loading="lazy">
-					</a>
-					<cite class="testimonial__cite">
-						<a class="testimonial__author" href="">Gombos Barni</a>
-						&nbsp; <a class="testimonial__author" href="https://maps.app.goo.gl/oJDvsubtXYCzPb117" target="_blank" rel="noreferrer noopener" title="This is a Google Review"><i class="fa-brands fa-google"></i></a>
-					</cite>
-					<div class="testimonial__rating">
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-					</div>
-				</blockquote>
+			<div class="half align-center">
+				<div>
+					<p>{{ cars[locale].introText1 }}</p>
+					<p>{{ cars[locale].introText2 }}</p>
+				</div>
+				<figure class="polaroid">
+					<img class="polaroid__photo" src="/assets/images/cars/autofotozas-1.webp" alt="{{ title }}" width="1000" height="666">
+				</figure>
 			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="container">
-			<h2>Hogyan zajlik az autófotózás folyamata?</h2>
-			<ol class="list">
-				<li><strong>Kapcsolatfelvétel:</strong> Írj emailt vagy küldj üzenetet Instagramon, és egyeztetjük az igényeidet. Megegyezünk a helyszínben, az időpontban és az autófotózás céljában (eladás, szépségfotózás vagy céges marketing). Már az első beszélgetésünkkor hasznos tanácsokkal látlak el, hogy a legtöbbet hozzuk ki az autódból.</li>
-				<li><strong>Autófotózás:</strong> A helyszínen gondosan megkomponált képeket készítek az autódról, kívül-belül. Minden részletre figyelek, hogy az autód a legjobb formáját mutassa, legyen szó látványos külső fotókról vagy az utastér finom részleteiről. Használt autó esetén dokumentáljuk az esetleges hibákat, sérüléseket is.</li>
-				<li><strong>Képek átadása:</strong> A fotózás után a képeket gyorsan feldolgozom, és 1-3 munkanapon belül átadom. A képeket online link segítségével érheted majd el, így azonnal felhasználhatod őket.</li>
-			</ol>
-		</div>
+		</section>
 	</section>
 
 	<section class="section section--grey" id="services">
 		<div class="container">
-			<h2 class="mt-0">Szolgáltatások</h2>
+			<h2 class="h1 mt-0 mb-2 text-center">{{ cars[locale].servicesTitle }}</h2>
+			<p>{{ cars[locale].servicesText }}</p>
 			<div class="plans mt-2">
 				<article class="plan">
-					<img class="plan__image" src="/assets/images/cars/autofotozas-1.webp" alt="Autó Szépségfotózás" width="500" height="333">
-					<h3 class="plan__title">Autó Szépségfotózás</h3>
-					<p class="plan__intro">Tökéletes választás különleges autók vagy ritkaságok számára!</p>
-					<p class="plan__description text-smaller">Szereted az autódat, és szeretnéd megörökíteni, ahogy a legszebb formájában ragyog? Az autó szépségfotózás azoknak szól, akik nagy becsben tartják járművüket, és szeretnék megmutatni annak részleteit és egyedi stílusát.</p>
-					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Részletek</a></p>
+					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-2.webp" alt="{{ cars[locale].service1Title }}" width="500" height="333">
+					<h3 class="plan__title">{{ cars[locale].service1Title }}</h3>
+					<p class="plan__description text-center"><em>{{ cars[locale].service1Tagline }}</em></p>
+					<p class="plan__price-amount text-center">{{ cars[locale].service1Price }}</p>
+					<p class="plan__description text-smaller">{{ cars[locale].service1Text }}</p>
+					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
 				</article>
 				<article class="plan">
-					<img class="plan__image" src="/assets/images/cars/autofotozas-2.webp" alt="Használtautó Fotózás" width="500" height="333">
-					<h3 class="plan__title">Használtautó Fotózás</h3>
-					<p class="plan__intro">Szakszerű fotók, több érdeklődő, kevesebb felesleges kérdés!</p>
-					<p class="plan__description text-smaller">Eladnád az autódat? A jó hirdetés alapja a profi fotózás, amely már az első pillanatban felkelti a vásárlók figyelmét. Egy letisztult képsorozat nemcsak abban segít, hogy autód gyorsabban és jobb áron találjon új gazdát, hanem abban is, hogy komoly érdeklődőket vonzzon.</p>
-					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Részletek</a></p>
+					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-3.webp" alt="{{ cars[locale].service2Title }}" width="500" height="333">
+					<h3 class="plan__title">{{ cars[locale].service2Title }}</h3>
+					<p class="plan__description text-center"><em>{{ cars[locale].service2Tagline }}</em></p>
+					<p class="plan__price-amount text-center">{{ cars[locale].service2Price }}</p>
+					<p class="plan__description text-smaller">{{ cars[locale].service2Text }}</p>
+					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
 				</article>
 				<article class="plan">
-					<img class="plan__image" src="/assets/images/cars/autofotozas-3.webp" alt="Autó Fotózás Cégeknek" width="500" height="333">
-					<h3 class="plan__title">Céges Autó Fotózás</h3>
-					<p class="plan__intro">A céged és az autóid is megérdemlik a profi megjelenést!</p>
-					<p class="plan__description text-smaller">Flottád van? Eladnál vagy bérbe adnál autókat? A profi autófotózás a legjobb választás, ha a marketingedet egy magasabb szintre szeretnéd emelni. Gondosan megkomponált képekkel mutatom be járműveidet, hogy azok a legjobb formájukban jelenjenek meg.</p>
-					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">Részletek</a></p>
+					<img class="plan__image plan__image--with-margin" src="/assets/images/cars/autofotozas-4.webp" alt="{{ cars[locale].service3Title }}" width="500" height="333">
+					<h3 class="plan__title">{{ cars[locale].service3Title }}</h3>
+					<p class="plan__description text-center"><em>{{ cars[locale].service3Tagline }}</em></p>
+					<p class="plan__price-amount text-center">{{ cars[locale].service3Price }}</p>
+					<p class="plan__description text-smaller">{{ cars[locale].service3Text }}</p>
+					<p class="text-center"><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
 				</article>
 			</div>
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section" id="portfolio">
 		<div class="container">
-			<h2>GYIK – Gyakran Ismételt Kérdések</h2>
-			<div class="faqs">
-				<details class="faq">
-					<summary class="faq__question">Mennyi időt vesz igénybe a fotózás?</summary>
-					<div class="faq__answer">Általában 1-2 órát, attól függően, hogy milyen típusú képeket szeretnél, és mennyire összetett az autó bemutatása.</div>
-				</details>
-				<details class="faq">
-					<summary class="faq__question">Kell-e előkészíteni az autót a fotózás előtt?</summary>
-					<div class="faq__answer">Igen, kérlek, hogy tisztán és rendezett állapotban hozd az autót fotózni, hogy a képek a legjobb eredményt nyújtsák. Külső és belső takarítás ajánlott.</div>
-				</details>
-				<details class="faq">
-					<summary class="faq__question">Hol történik a fotózás?</summary>
-					<div class="faq__answer">A helyszín rugalmas – lehet a városban, természetes környezetben, vagy akár céges telephelyen. Ha nincs konkrét ötleted, segítek a helyszín kiválasztásában, a konkrét igényeid alapján.</div>
-				</details>
-				<details class="faq">
-					<summary class="faq__question">Milyen formátumban kapom meg a képeket?</summary>
-					<div class="faq__answer">A képeket nagyfelbontású, digitális formátumban adom át, amelyek alkalmasak hirdetésekhez, weboldalakhoz, de akár nagyméretű nyomtatáshoz is.</div>
-				</details>
-				<details class="faq">
-					<summary class="faq__question">Szerkesztett végleges fotókat kapok?</summary>
-					<div class="faq__answer">Használtautó-fotózás esetén a képek nem retusáltak, hogy azok a valós állapotot mutassák. Kisebb zavaró tényezőket eltávolítok, például port vagy foltokat. Egyéb fotózásoknál igény szerint elérhető retusálás.</div>
-				</details>
+			<h2 class="h1 mt-0 text-center">{{ cars[locale].portfolioTitle }}</h2>
+			<h3 class="mb-2">{{ cars[locale].portfolioProfessional }}</h3>
+			<div class="gallery">
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-5-1.jpg" alt="BMW 5 Series for Corner Car" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-5-2.jpg" alt="BMW 5 Series for Corner Car" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-ix-2.webp" alt="BMW iX M60 for Corner Car" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/cornercar/bmw-ix-3.webp" alt="BMW iX M60 for Corner Car" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-torokbalint-1.webp" alt="Kia Niro EV for GreenGo" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-torokbalint-3.webp" alt="Kia Niro EV for GreenGo" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-balaton-1.webp" alt="Kia Niro EV for GreenGo" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/niro-balaton-4.webp" alt="Kia Niro EV for GreenGo" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/vivaro-1.jpg" alt="Opel Vivaro E for GreenGo" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/greengo/vivaro-3.jpg" alt="Opel Vivaro E for GreenGo" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rentben/octavia-2.jpg" alt="Skoda Octavia for RentBen Carsharing" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rentben/octavia-3.jpg" alt="Skoda Octavia for RentBen Carsharing" width="1400" height="933" loading="lazy"></a>
+			</div>
+			<hr class="hr-xl">
+			<h3 class="mb-2">{{ cars[locale].portfolioProjects }}</h3>
+			<div class="gallery">
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kitt-1.webp" alt="Pontiac Firebird K.I.T.T." width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kitt-2.webp" alt="Pontiac Firebird K.I.T.T." width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kitt-3.webp" alt="Pontiac Firebird K.I.T.T." width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kitt-4.webp" alt="Pontiac Firebird K.I.T.T." width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/c3-corvette-1.webp" alt="Chevrolet Corvette C3 Stingray Convertible" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/c3-corvette-2.webp" alt="Chevrolet Corvette C3 Stingray Convertible" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/c3-corvette-3.webp" alt="Chevrolet Corvette C3 Stingray Convertible" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/c3-corvette-4.webp" alt="Chevrolet Corvette C3 Stingray Convertible" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-1.webp" alt="Porsche 911 [997.2] Carrera 4S" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-2.webp?updatedAt=1721683331756" alt="Porsche 911 [997.2] Carrera 4S" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-3.webp" alt="Porsche 911 [997.2] Carrera 4S" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-4.webp" alt="Porsche 911 [997.2] Carrera 4S" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-impreza-1.jpg" alt="Renault Mégane RS & Subaru Impreza WRX" width="933" height="1400" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-impreza-2.jpg" alt="Renault Mégane RS & Subaru Impreza WRX" width="933" height="1400" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/abarth-595-1.jpg" alt="Abarth 595 S Pista" width="933" height="1400" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/abarth-595-2.jpg" alt="Abarth 595 S Pista" width="933" height="1400" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-1.jpg" alt="Porsche 911 [997.1] Carrera 4S" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-2.jpg" alt="Porsche 911 [997.1] Carrera 4S" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-5.jpg" alt="Porsche 911 [997.1] Carrera 4S" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-c4s-gt3-6.jpg" alt="Porsche 911 [997.1] Carrera 4S" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-2.jpg" alt="Porsche 944 S2 Coupé" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-3.jpg" alt="Porsche 944 S2 Coupé" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-7.jpg" alt="Porsche 944 S2 Coupé" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-6.jpg" alt="Porsche 944 S2 Coupé" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-2.jpg" alt="Lamborghini Huracán EVO Spyder" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-5.jpg" alt="Lamborghini Huracán EVO Spyder" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-8.jpg" alt="Lamborghini Huracán EVO Spyder" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/huracan-6.jpg" alt="Lamborghini Huracán EVO Spyder" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-7.jpg" alt="Audi ABT RS5-R Coupé B9" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-5.jpg" alt="Audi ABT RS5-R Coupé B9" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-1.jpg" alt="Audi ABT RS5-R Coupé B9" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b9-2.jpg" alt="Audi ABT RS5-R Coupé B9" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/tesla-1.jpg" alt="Tesla Model S 100D" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/tesla-4.jpg" alt="Tesla Model S 100D" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-5.jpg" alt="Porsche 911 [991.2] Cabriolet" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/911-6.jpg" alt="Porsche 911 [991.2] Cabriolet" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-2.jpg" alt="Audi RS5 Coupé B8 4.2l N/A" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-1.jpg" alt="Audi RS5 Coupé B8 4.2l N/A" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-3.jpg" alt="Audi RS5 Coupé B8 4.2l N/A" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/rs5-b8-4.jpg" alt="Audi RS5 Coupé B8 4.2l N/A" width="1400" height="933" loading="lazy"></a>
+			</div>
+			<hr class="hr-xl">
+			<h3 class="mb-2">{{ cars[locale].portfolioUsed }}</h3>
+			<div class="gallery">
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/corsa-e-1.webp" alt="Opel Corsa-e" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/corsa-e-2.webp" alt="Opel Corsa-e" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/corsa-e-3.webp" alt="Opel Corsa-e" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/corsa-e-4.webp" alt="Opel Corsa-e" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-rs-1.webp" alt="Renault Mégane RS" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-rs-2.webp" alt="Renault Mégane RS" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-rs-3.webp" alt="Renault Mégane RS" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/megane-rs-4.webp" alt="Renault Mégane RS" width="1400" height="933" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-1.jpg" alt="Kia Ceed SW" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-2.jpg" alt="Kia Ceed SW" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-3.jpg" alt="Kia Ceed SW" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-4.jpg" alt="Kia Ceed SW" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-5.jpg" alt="Kia Ceed SW" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-6.jpg" alt="Kia Ceed SW" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-7.jpg" alt="Kia Ceed SW" loading="lazy"></a>
+				<a class="polaroid" href="#"><img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/kia-ceed-8.jpg" alt="Kia Ceed SW" loading="lazy"></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="contact">
+		<div class="container">
+			<div class="half align-center">
+				<div>
+					<h2 class="mt-0">{{ cars[locale].contactTitle }}</h2>
+					<p>{{ cars[locale].contactText }}</p>
+					<p ><a class="button" href="/{{ locale }}/{{ site[locale].slugContact }}/">{{ cars[locale].contactButton }}</a></p>
+				</div>
+				<div>
+					<figure class="polaroid">
+						<img class="polaroid__photo" src="/assets/images/bts-cars.webp" alt="{{ title }}" width="1000" height="667" loading="lazy">
+					</figure>
+					<p class="polaroid-caption">
+						{{ site[locale].photoAndEditBy }}
+						{{ site[locale].danosNemeth }}
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>

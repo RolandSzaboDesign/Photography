@@ -30,13 +30,17 @@
 /en/automotive/rs5-r/									/en/services/automotive-photography/
 /en/calendar/											/en/
 /en/cars/												/en/services/automotive-photography/
-/en/edinburgh-portraits/								/en/services/portrait-photo-walks/
+/en/edinburgh-portraits/								/en/services/portrait-photography-budapest/
+/en/experiences/photogenic-discovery/					/en/services/portrait-photography-budapest/
+/en/experiences/signature-experience/					/en/services/portrait-photography-budapest/
+/en/experiences/ultimate-journey/						/en/services/portrait-photography-budapest/
 /en/galleries/											/en/portraiture/
 /en/portre/												/en/portraiture/
 /en/pages/aiganysh/										/en/portraiture/aiganysh/
-/en/services/autumn-portrait-photography/				/en/services/portrait-photo-walks/
-/en/services/film-photo-walks/							/en/services/portrait-photo-walks/
-/en/services/vintage-photo-walks/						/en/services/portrait-photo-walks/
+/en/services/autumn-portrait-photography/				/en/services/portrait-photography-budapest/
+/en/services/film-photo-walks/							/en/services/portrait-photography-budapest/
+/en/services/portrait-photo-!walks/						/en/services/portrait-photography-budapest/
+/en/services/vintage-photo-walks/						/en/services/portrait-photography-budapest/
 /en/social-content/										/en/services/social-media-content-creation/
 /en/social-content/aqua-toria/							/en/services/social-media-content-creation/
 /en/social-content/budapart-mol-limo/					/en/services/social-media-content-creation/
@@ -72,6 +76,9 @@
 /hu/auto/huracan-evo-spyder/							/hu/szolgaltatasok/auto-fotozas/
 /hu/auto/rs5-b8/										/hu/szolgaltatasok/auto-fotozas/
 /hu/auto/rs5-r/											/hu/szolgaltatasok/auto-fotozas/
+/hu/elmenyek/fotogen-felfedezes/						/hu/szolgaltatasok/portre-fotozas-budapest/
+/hu/elmenyek/a-megszokott-elmeny/						/hu/szolgaltatasok/portre-fotozas-budapest/
+/hu/elmenyek/a-te-izlesed-szerint/						/hu/szolgaltatasok/portre-fotozas-budapest/
 /hu/galeriak/											/hu/portre/
 /hu/kozossegi-tartalom/									/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
 /hu/kozossegi-tartalom/aqua-toria/						/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
@@ -85,9 +92,9 @@
 /hu/pages/anna-15/										/hu/portre/anna-15/
 /hu/portraiture/										/hu/portre/
 /hu/portre/adel-sango//1000								/hu/portre/
-/hu/szolgaltatasok/filmes-fotos-setak/					/hu/szolgaltatasok/portre-fotos-setak/
-/hu/szolgaltatasok/oszi-portre-fotozas/					/hu/szolgaltatasok/portre-fotos-setak/
-/hu/szolgaltatasok/vintage-fotos-setak/					/hu/szolgaltatasok/portre-fotos-setak/
+/hu/szolgaltatasok/filmes-fotos-setak/					/hu/szolgaltatasok/portre-fotozas-budapest/
+/hu/szolgaltatasok/oszi-portre-fotozas/					/hu/szolgaltatasok/portre-fotozas-budapest/
+/hu/szolgaltatasok/vintage-fotos-setak/					/hu/szolgaltatasok/portre-fotozas-budapest/
 /hu/tags/%C3%BCzlet/									/en/tags/all/
 /hu/tags/artist/										/en/tags/all/
 /hu/tags/aut%C3%B3/										/en/tags/all/
@@ -196,7 +203,7 @@
 /hu/portre/bia/Great photographer, I can only recommend him!								/hu/portre/bia/
 /hu/portre/Great photographer, I can only recommend him!									/hu/portre/
 /hu/portre/laura-6/Great photographer, I can only recommend him!							/hu/portre/laura-6/
-/hu/szolgaltatasok/portre-fotos-setak/Great photographer, I can only recommend him!			/hu/szolgaltatasok/portre-fotos-setak/
+/hu/szolgaltatasok/portre-fotozas-budapest/Great photographer, I can only recommend him!			/hu/szolgaltatasok/portre-fotozas-budapest/
 /hu/portre/betti-laci/Great photographer, I can only recommend him!							/hu/portre/betti-laci/
 /hu/portre/dori/Great photographer, I can only recommend him!								/hu/portre/dori/
 /hu/portre/maria/Great photographer, I can only recommend him!								/hu/portre/maria/
@@ -208,12 +215,12 @@
 /hu/portre/karcsi/Great photographer, I can only recommend him!								/hu/portre/karcsi/
 /en/portraiture/tomer/Great photographer, I can only recommend him!							/en/portraiture/tomer/
 /en/portraiture/laura-4/Great photographer, I can only recommend him!						/en/portraiture/laura-4/
-/en/services/portrait-photo-walks/Great photographer, I can only recommend him!				/en/services/portrait-photo-walks/
+/en/services/portrait-photography-budapest/Great photographer, I can only recommend him!				/en/services/portrait-photography-budapest/
 /en/portraiture/blanka-3/Great photographer, I can only recommend him!						/en/portraiture/blanka-3/
 /hu/portre/bia/Great photographer, I can only recommend him!								/hu/portre/bia/
 /hu/portre/Great photographer, I can only recommend him!									/hu/portre/
 /hu/portre/betti-laci/Great photographer, I can only recommend him!							/hu/portre/betti-laci/
-/hu/szolgaltatasok/portre-fotos-setak/Great photographer, I can only recommend him!			/hu/szolgaltatasok/portre-fotos-setak/
+/hu/szolgaltatasok/portre-fotozas-budapest/Great photographer, I can only recommend him!			/hu/szolgaltatasok/portre-fotozas-budapest/
 /hu/portre/dori/Great photographer, I can only recommend him!								/hu/portre/dori/
 /en/portraiture/tomer/Great photographer, I can only recommend him!							/en/portraiture/tomer/
 /en/portraiture/bence-2/Great photographer, I can only recommend him!						/en/portraiture/bence-2/
