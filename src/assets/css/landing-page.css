@@ -65,6 +65,9 @@
 .fancy-page-header--automotive   { background-image: url('/assets/images/experiences/automotive.webp'); }
 
 .fancy-page-header--cars-hub     { background-image: url('/assets/images/experiences/cars-hub.webp'); }
+.fancy-page-header--cars-beauty  { background-image: url('/assets/images/experiences/cars-beauty.webp'); }
+.fancy-page-header--cars-used    { background-image: url('/assets/images/experiences/cars-used.webp'); }
+.fancy-page-header--cars-fleet   { background-image: url('/assets/images/experiences/cars-fleet.webp'); }
 
 .fancy-page-header .page-header__title {
 	margin-bottom: 3rem;
