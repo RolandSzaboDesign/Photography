@@ -523,6 +523,10 @@ hr {
 	color: var(--highlight);
 }
 
+.text-warning {
+	color: var(--warning);
+}
+
 .text-danger {
 	color: var(--danger);
 }
@@ -1245,7 +1249,7 @@ ol.list { list-style: decimal; }
 }
 
 @media only screen and (min-width: 768px) {
-	.gallery--three-up {
+	.gallery--3 {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }

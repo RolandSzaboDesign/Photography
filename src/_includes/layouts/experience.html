@@ -99,7 +99,7 @@ css: landing-page
 			<p>{{ packages.text }}</p>
 			<div class="packages">
 				{% if packages.photogenicDiscovery %}
-					<div class="package package--photogenic">
+					<div class="package package--yellow">
 						<i class="package__icon fas fa-stopwatch"></i>
 						<h3 class="package__name">{{ site[locale].photogenicDiscovery }}</h3>
 						<p class="package__text">{{ packages.photogenicDiscovery }}</p>
@@ -111,16 +111,16 @@ css: landing-page
 						</ul>
 					</div>
 				{% endif %}
-				<div class="package package--full">
+				<div class="package package--green">
 					<i class="package__icon fas fa-dove"></i>
 					<h3 class="package__name">{{ site[locale].theFullExperience }}</h3>
 					<p class="package__text">{{ packages.fullExperience }}</p>
 					<ul class="tags">
-							<li class="tag tag__link">{{ site[locale].theFullExperienceDuration }}</li>
-							<li class="tag tag__link">{{ site[locale].theFullExperiencePhotos }}</li>
-							<li class="tag tag__link">{{ site[locale].theFullExperienceLocations }}</li>
-							<li class="tag tag__link">{{ site[locale].theFullExperienceOutfits }}</li>
-						</ul>
+						<li class="tag tag__link">{{ site[locale].theFullExperienceDuration }}</li>
+						<li class="tag tag__link">{{ site[locale].theFullExperiencePhotos }}</li>
+						<li class="tag tag__link">{{ site[locale].theFullExperienceLocations }}</li>
+						<li class="tag tag__link">{{ site[locale].theFullExperienceOutfits }}</li>
+					</ul>
 				</div>
 			</div>
 			<p>{{ packages.cta }}</p>
