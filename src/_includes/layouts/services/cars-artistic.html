@@ -32,11 +32,11 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-artistic.webp
 	<section class="section section--new">
 		<div class="container">
 			<h2>{{ how.title }}</h2>
-			{% for item in how.items %}
-				<ol class="list">
+			<ol class="list">
+				{% for item in how.items %}
 					<li><strong>{{ item.title }}</strong> {{ item.text }}</li>
-				</ol>
-			{% endfor %}
+				{% endfor %}
+			</ol>
 		</div>
 	</section>
 
