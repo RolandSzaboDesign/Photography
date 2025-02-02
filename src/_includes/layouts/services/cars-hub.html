@@ -1,0 +1,88 @@
+---
+layout: layouts/base.html
+translation: cars-hub
+css: landing-page
+og_image: https://rolandszabo.photo/assets/images/opengraph/cars-hub.webp
+---
+
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/experiences/{{ translation }}.webp" type="image/webp">
+
+<main class="main">
+	<header class="fancy-page-header fancy-page-header--{{ translation }}">
+		<div class="container">
+			<h1 class="page-header__category">{{ hero.h1 }}</h1>
+			<p class="page-header__title h1">{{ hero.title }}</p>
+			<p class="page-header__text">{{ hero.text1 }}</p>
+			<p class="page-header__text">{{ hero.text2 }}</p>
+			<div class="buttons mt-2">
+				<a class="button" href="#services"><i class="fas fa-camera icon-left"></i>&nbsp; {{ hero.button1 }}</a>
+				<a class="button" href="#more"><i class="fas fa-arrow-down icon-left"></i>&nbsp; {{ hero.button2 }}</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="section section--new" id="more">
+		<div class="container">
+			<h2>{{ why.title }}</h2>
+			<ul class="list">
+				{% for item in why.items %}
+					<li><strong>{{ item.title }}</strong> {{ item.text }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section section--grey" id="services">
+		<div class="container">
+			<h2 class="mt-0">{{ services.title }}</h2>
+			<div class="plans mt-2">
+				{% for item in services.items %}
+					<a class="plan" href="{{ item.link }}">
+						<img class="plan__image" src="{{ item.image }}" alt="{{ item.title }}" width="500" height="333">
+						<h3 class="plan__title">{{ item.title }}</h3>
+						<p class="plan__intro">{{ item.intro }}</p>
+						<p class="plan__description text-smaller">{{ item.text }}</p>
+						<p class="text-center"><span class="button">{{ services.button }}</span></p>
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<h2>{{ how.title }}</h2>
+			<ol class="list">
+				{% for item in how.items %}
+					<li><strong>{{ item.title }}</strong> {{ item.text }}</li>
+				{% endfor %}
+			</ol>
+		</div>
+	</section>
+
+	<section class="section section--grey">
+		<div class="container">
+			<h2 class="mt-0">{{ reviews.title }}</h2>
+			<div class="testimonials testimonials--single mb-0">
+				{% assign source = testimonials.items | where: "type", "automotive" %}
+				{% for item in source limit:2 %}
+					{% include 'partials/testimonial.html', type: 'text', id: forloop.index0 %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<h2>{{ faq.title }}</h2>
+			<div class="faqs">
+				{% for item in faq.items %}
+					<details class="faq">
+						<summary class="faq__question">{{ item.question }}</summary>
+						<div class="faq__answer">{{ item.answer }}</div>
+					</details>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+</main>

@@ -1,259 +1,89 @@
 ---
-layout: layouts/base.html
+layout: layouts/services/cars-used.html
 title: Használtautó Fotózás Budapesten
 permalink: "/{{ locale }}/{{ site[locale].slugServices }}/hasznaltauto-fotozas-budapest/"
-translation: cars-used
-css: landing-page
-og_image: https://rolandszabo.photo/assets/images/opengraph/cars-used.webp
 description: Adj el gyorsabban és jobb áron! Profi használtautó-fotózás Budapesten, hogy hirdetésed kiemelkedjen és több komoly vevőt vonzzon.
+
+hero:
+    h1: Használtautó Fotózás Budapesten
+    title: Gyorsabb Eladás, Jobb Ár, Kevesebb Stressz
+    text1: "Eladnád az autódat, de nincs időd vagy kedved órákat vesződni a hirdetés tökéletesítésével? Egy profi fotósorozat nemcsak gyorsabbá teszi az eladást, hanem akár magasabb árat is elérhetsz vele."
+    text2: "A rossz minőségű, sokszor ferde és életlen képek elijesztik a vevőket, míg a jól megkomponált, profi fotók bizalmat építenek és kiemelik az autódat a többi hirdetés közül."
+    button1: Fotós Csomagok
+    button2: Részletek
+
+why:
+    title: Miért éri meg a profi használtautó fotózás?
+    items:
+      - title: "Több érdeklődő, gyorsabb eladás:"
+        text: "Egy jó hirdetés első pillantásra megfogja a vásárlót. Ha az autódat igényesen mutatod be, többen fognak érdeklődni iránta, és gyorsabban találhat új gazdára."
+      - title: "A hirdetésed azonnal kitűnik a tömegből:"
+        text: "A legtöbb eladó telefonos képekkel hirdet, amelyek gyakran ferdék, életlenek és előnytelen szögekből és beállításokkal készülnek. Egy profi fotó azonnal megragadja a figyelmet a hirdetési listában, így sokkal több kattintást kap. Ha az első kép ütős, nagyobb eséllyel fognak rákattintani a hirdetésedre a vevők."
+      - title: "Jobb ár, kevesebb alkudozás:"
+        text: "A profi fotók növelik az autó értékérzetét. Egy gondosan bemutatott autóért többet hajlandók fizetni a vevők, és kisebb az esély arra, hogy lealkudják az árat."
+      - title: "Kevesebb felesleges kérdés, komolyabb érdeklődők:"
+        text: "Ha az autó minden részlete tisztán látható a képeken, kevesebb idő megy el felesleges üzenetekre és telefonokra. Olyan érdeklődők fognak jelentkezni, akik valóban komolyan gondolják a vásárlást."
+      - title: "Az igényes fotók jó tulajdonosi benyomást keltenek:"
+        text: "Ha valaki ennyit áldoz a hirdetés minőségére, az azt sugallja a vevőknek, hogy az autó karbantartására is hasonló gondossággal figyelt. A rendezettség, tisztaság és igényes bemutatás egyértelmű jel az érdeklődők számára, hogy az autó nem elhanyagolt, hanem gondosan karbantartott jármű."
+    ctaText: Profi képekkel gyorsabban és jobb áron tudod eladni autódat. Ne hagyd, hogy a hirdetésed elvesszen a tömegben!
+    ctaLink: Egyeztessünk időpontot!
+
+beforeAfter:
+    title: "Előtte&ndash;Utána: Ennyit számítanak a jó képek!"
+    text: "Egy rosszul megvilágított, előnytelen fotó könnyen elriaszthatja a vevőket, míg egy profi, jól komponált kép kiemeli az autód valódi értékét. Nézd meg a különbséget, és döntsd el magad: <strong>Melyik hirdetésre kattintanál inkább?</strong>"
+    before: Előtte
+    after: Utána
+
+how:
+    title: Hogyan zajlik egy használtautó fotózás?
+    items:
+      - title: "Egyeztetés:"
+        text: "Kiválasztjuk a helyszínt, időpontot és a legjobb megoldást az autód bemutatására."
+      - title: "Fotózás:"
+        text: "Egy profi fotósorozat készül az autó külsejéről és belsejéről, hogy minden fontos részlet látszódjon."
+      - title: "Képek átadása:"
+        text: "24 órán belül megkapod a képeket digitális formában, a legjobb minőségben, amiket azonnal fel is tölthetsz a hirdetésedbe."
+
+example:
+    title: Így néz ki egy teljes Alap Csomag galéria
+    text: "Az alábbi 12 kép pontosan azt mutatja, amit az Alap Csomagban kapsz: gondosan megkomponált, profi fotók az autó külsejéről és belsejéről. Ezek a képek ideálisak a <em>Használtautó.hu</em>, <em>Facebook Marketplace</em> vagy más hirdetési oldalak számára, hogy az autód a lehető legjobb benyomást keltse a vevőkben."
+    imageAlt: Használtautó Fotózás
+
+packages:
+    title: Csomagok és Árak
+    text: A profi fotózás egy egyszeri befektetés, amely segít gyorsabban és jobb áron eladni az autódat. Az alábbi csomagok közül választhatsz attól függően, hogy milyen részletességet szeretnél.
+    items:
+      - title: Alap Csomag
+        class: warning
+        icon: fa-car
+        items:
+          - text: "<strong>12 profi fotó az autó külsejéről és belsejéről.</strong>"
+          - text: "Olyan hirdetési oldalakhoz optimalizált képek, mint Használtautó.hu, a Jófogás vagy Facebook Marketplace."
+          - text: "A végleges fotókat 72 órán belül meg is kapod."
+          - text: "A fotózás Budapest belső kerületeiben történik."
+        price: 29.900 Ft
+      - title: Extra Csomag
+        class: highlight
+        icon: fa-rocket
+        items:
+          - text: "<strong>Minden elkészült fotó átadása (akár 100 kép).</strong>"
+          - text: "Ideális részletes dokumentációhoz, vagy ha külföldi hirdetési oldalra szeretnéd feltenni az autót."
+          - text: "A végleges fotókat már 24 órán belül meg is kapod."
+          - text: "A helyszín lehet Budapest környéke is."
+          - text: "A fotózás teljes szabadsága: minden szögből, minden apró részletet megörökítve."
+        price: 42.900 Ft
+
+faq:
+    title: Gyakran Ismételt Kérdések
+    items:
+      - question: "Mennyi ideig tart a fotózás?"
+        answer: "Általában 30-60 perc, attól függően, hogy milyen részletességet szeretnél."
+      - question: "Mennyire kell előkészíteni az autót?"
+        answer: "Nagyon fontos, hogy az autó tisztán és rendezett állapotban legyen, mert ez jelentősen növeli az eladhatóságát. Javasolt egy külső-belső takarítás."
+      - question: "Milyen képeket kapok meg?"
+        answer: "Az elkészült képeket nagy felbontásban, digitálisan adom át, amelyeket azonnal használhatsz a hirdetésedben."
+      - question: "Van lehetőség külső helyszínen fotózni?"
+        answer: "Használtautó-fotózásnál általában Budapest belső kerületeiben fotózunk. Utazási költség ellenében természetesen külső helyszín is megoldható."
+      - question: "Mi a különbség az alap és az extra csomag között?"
+        answer: "Az alapcsomag a legfontosabb 12 képet tartalmazza, amit a hirdetési oldalakhoz optimalizálunk. Az extra csomagban minden elkészült képet megkapsz, így maximálisan részletes hirdetést tudsz készíteni."
 ---
-
-<main class="main">
-	<header class="fancy-page-header fancy-page-header--cars-used">
-		<div class="container">
-			<h1 class="page-header__category">Használtautó Fotózás Budapesten</h1>
-			<p class="page-header__title h1">Gyorsabb Eladás, Jobb Ár, Kevesebb Stressz</p>
-			<p class="page-header__text">Eladnád az autódat, de nincs időd vagy kedved órákat vesződni a hirdetés tökéletesítésével? Egy profi fotósorozat nemcsak gyorsabbá teszi az eladást, hanem akár magasabb árat is elérhetsz vele.</p>
-			<p class="page-header__text">A rossz minőségű, sokszor ferde és életlen képek elijesztik a vevőket, míg a jól megkomponált, profi fotók bizalmat építenek és kiemelik az autódat a többi hirdetés közül.</p>
-			<div class="buttons mt-2">
-				<a class="button" href="#start"><i class="fas fa-camera icon-left"></i>&nbsp; Fotós Csomagok</a>
-				<a class="button" href="#more"><i class="fas fa-arrow-down icon-left"></i>&nbsp; Részletek</a>
-			</div>
-		</div>
-	</header>
-
-	<section class="section section--new" id="more">
-		<div class="container">
-			<h2>Miért éri meg a profi használtautó fotózás?</h2>
-			<ul>
-				<li><strong><i class="fas fa-check-square text-highlight icon-left"></i> Több érdeklődő, gyorsabb eladás:</strong> Egy jó hirdetés első pillantásra megfogja a vásárlót. Ha az autódat igényesen mutatod be, többen fognak érdeklődni iránta, és gyorsabban találhat új gazdára.</li>
-				<li><strong><i class="fas fa-check-square text-highlight icon-left"></i> A hirdetésed azonnal kitűnik a tömegből:</strong> A legtöbb eladó telefonos képekkel hirdet, amelyek gyakran ferdék, életlenek és előnytelen szögekből és beállításokkal készülnek. Egy profi fotó azonnal megragadja a figyelmet a hirdetési listában, így sokkal több kattintást kap. Ha az első kép ütős, nagyobb eséllyel fognak rákattintani a hirdetésedre a vevők.</li>
-				<li><strong><i class="fas fa-check-square text-highlight icon-left"></i> Jobb ár, kevesebb alkudozás:</strong> A profi fotók növelik az autó értékérzetét. Egy gondosan bemutatott autóért többet hajlandók fizetni a vevők, és kisebb az esély arra, hogy lealkudják az árat.</li>
-				<li><strong><i class="fas fa-check-square text-highlight icon-left"></i> Kevesebb felesleges kérdés, komolyabb érdeklődők:</strong> Ha az autó minden részlete tisztán látható a képeken, kevesebb idő megy el felesleges üzenetekre és telefonokra. Olyan érdeklődők fognak jelentkezni, akik valóban komolyan gondolják a vásárlást.</li>
-				<li><strong><i class="fas fa-check-square text-highlight icon-left"></i> Az igényes fotók jó tulajdonosi benyomást keltenek:</strong> Ha valaki ennyit áldoz a hirdetés minőségére, az azt sugallja a vevőknek, hogy az autó karbantartására is hasonló gondossággal figyelt. A rendezettség, tisztaság és igényes bemutatás egyértelmű jel az érdeklődők számára, hogy az autó nem elhanyagolt, hanem gondosan karbantartott jármű.</li>
-			</ul>
-			<p class="emphasized">Profi képekkel gyorsabban és jobb áron tudod eladni autódat. Ne hagyd, hogy a hirdetésed elvesszen a tömegben! <a href="#start">Egyeztessünk időpontot!</a></p>
-		</div>
-	</section>
-
-	<section class="section section--new">
-		<div class="container">
-			<h2>Előtte&ndash;Utána: Ennyit számítanak a jó képek!</h2>
-			<p>Egy rosszul megvilágított, előnytelen fotó könnyen elriaszthatja a vevőket, míg egy profi, jól komponált kép kiemeli az autód valódi értékét. Nézd meg a különbséget, és döntsd el magad: <strong>Melyik hirdetésre kattintanál inkább?</strong></p>
-			<div class="gallery gallery--single">
-				<div class="polaroid">
-					<img
-						src="/assets/images/cars/used/ceed-before-700.webp"
-						srcset="/assets/images/cars/used/ceed-before-350.webp 350w, /assets/images/cars/used/ceed-before-500.webp 500w, /assets/images/cars/used/ceed-before-700.webp 700w"
-						sizes="50vw, 700px"
-						alt="Kis Ceed SW"
-					>
-					<span class="polaroid__title">Előtte</span>
-				</div>
-				<div class="polaroid">
-					<img
-						src="/assets/images/cars/used/ceed-after-700.webp"
-						srcset="/assets/images/cars/used/ceed-after-350.webp 350w, /assets/images/cars/used/ceed-after-500.webp 500w, /assets/images/cars/used/ceed-after-700.webp 700w"
-						sizes="50vw, 700px"
-						alt="Kis Ceed SW"
-					>
-					<span class="polaroid__title">Utána</span>
-				</div>
-				<div class="polaroid">
-					<img
-						src="/assets/images/cars/used/997c4s-before-700.webp"
-						srcset="/assets/images/cars/used/997c4s-before-350.webp 350w, /assets/images/cars/used/997c4s-before-500.webp 500w, /assets/images/cars/used/997c4s-before-700.webp 700w"
-						sizes="50vw, 700px"
-						alt="Kis Ceed SW"
-					>
-					<span class="polaroid__title">Előtte</span>
-				</div>
-				<div class="polaroid">
-					<img
-						src="/assets/images/cars/used/997c4s-after-700.webp"
-						srcset="/assets/images/cars/used/997c4s-after-350.webp 350w, /assets/images/cars/used/997c4s-after-500.webp 500w, /assets/images/cars/used/997c4s-after-700.webp 700w"
-						sizes="50vw, 700px"
-						alt="Kis Ceed SW"
-					>
-					<span class="polaroid__title">Utána</span>
-				</div>
-				<div class="polaroid">
-					<img
-						src="/assets/images/cars/used/octavia-before-700.webp"
-						srcset="/assets/images/cars/used/octavia-before-350.webp 350w, /assets/images/cars/used/octavia-before-500.webp 500w, /assets/images/cars/used/octavia-before-700.webp 700w"
-						sizes="50vw, 700px"
-						alt="Kis Ceed SW"
-					>
-					<span class="polaroid__title">Előtte</span>
-				</div>
-				<div class="polaroid">
-					<img
-						src="/assets/images/cars/used/octavia-after-700.webp"
-						srcset="/assets/images/cars/used/octavia-after-350.webp 350w, /assets/images/cars/used/octavia-after-500.webp 500w, /assets/images/cars/used/octavia-after-700.webp 700w"
-						sizes="50vw, 700px"
-						alt="Kis Ceed SW"
-					>
-					<span class="polaroid__title">Utána</span>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="section section--new">
-		<div class="container">
-			<h2>Hogyan zajlik egy használtautó fotózás?</h2>
-			<ol class="list">
-				<li><strong>Egyeztetés:</strong> Kiválasztjuk a helyszínt, időpontot és a legjobb megoldást az autód bemutatására.</li>
-				<li><strong>Fotózás:</strong> Egy profi fotósorozat készül az autó külsejéről és belsejéről, hogy minden fontos részlet látszódjon.</li>
-				<li><strong>Képek átadása:</strong> 24 órán belül megkapod a képeket digitális formában, a legjobb minőségben, amiket azonnal fel is tölthetsz a hirdetésedbe.</li>
-			</ol>
-		</div>
-	</section>
-
-	<section class="section section--new">
-		<div class="container">
-			<h2>Így néz ki egy teljes Alap Csomag galéria</h2>
-			<p>Az alábbi 12 kép pontosan azt mutatja, amit az Alap Csomagban kapsz: gondosan megkomponált, profi fotók az autó külsejéről és belsejéről. Ezek a képek ideálisak a <em>Használtautó.hu</em>, <em>Facebook Marketplace</em> vagy más hirdetési oldalak számára, hogy az autód a lehető legjobb benyomást keltse a vevőkben.</p>
-			<div class="gallery">
-				<img
-					src="/assets/images/cars/used/gallery/kia-01-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-01-350.webp 350w, /assets/images/cars/used/gallery/kia-01-500.webp 500w, /assets/images/cars/used/gallery/kia-01-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-02-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-02-350.webp 350w, /assets/images/cars/used/gallery/kia-02-500.webp 500w, /assets/images/cars/used/gallery/kia-02-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-03-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-03-350.webp 350w, /assets/images/cars/used/gallery/kia-03-500.webp 500w, /assets/images/cars/used/gallery/kia-03-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-04-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-04-350.webp 350w, /assets/images/cars/used/gallery/kia-04-500.webp 500w, /assets/images/cars/used/gallery/kia-04-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-05-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-05-350.webp 350w, /assets/images/cars/used/gallery/kia-05-500.webp 500w, /assets/images/cars/used/gallery/kia-05-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-06-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-06-350.webp 350w, /assets/images/cars/used/gallery/kia-06-500.webp 500w, /assets/images/cars/used/gallery/kia-06-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-07-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-07-350.webp 350w, /assets/images/cars/used/gallery/kia-07-500.webp 500w, /assets/images/cars/used/gallery/kia-07-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-08-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-08-350.webp 350w, /assets/images/cars/used/gallery/kia-08-500.webp 500w, /assets/images/cars/used/gallery/kia-08-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-09-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-09-350.webp 350w, /assets/images/cars/used/gallery/kia-09-500.webp 500w, /assets/images/cars/used/gallery/kia-09-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-10-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-10-350.webp 350w, /assets/images/cars/used/gallery/kia-10-500.webp 500w, /assets/images/cars/used/gallery/kia-10-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-11-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-11-350.webp 350w, /assets/images/cars/used/gallery/kia-11-500.webp 500w, /assets/images/cars/used/gallery/kia-11-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-				<img
-					src="/assets/images/cars/used/gallery/kia-12-700.webp"
-					srcset="/assets/images/cars/used/gallery/kia-12-350.webp 350w, /assets/images/cars/used/gallery/kia-12-500.webp 500w, /assets/images/cars/used/gallery/kia-12-700.webp 700w"
-					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
-					alt="Kia Ceed SW Használtautó Fotózás"
-				>
-			</div>
-		</div>
-	</section>
-
-	<section class="section section--new" id="start">
-		<div class="container">
-			<h2>Csomagok és Árak</h2>
-			<p>A profi fotózás egy egyszeri befektetés, amely segít gyorsabban és jobb áron eladni az autódat. Az alábbi csomagok közül választhatsz attól függően, hogy milyen részletességet szeretnél.</p>
-			<div class="packages">
-				<div class="package package--yellow">
-					<i class="package__icon fas fa-car"></i>
-					<h3 class="package__name mb-1">Alap Csomag</h3>
-					<ul>
-						<li><i class="fas fa-check-square text-warning icon-left"></i> <strong>12 profi fotó az autó külsejéről és belsejéről.</strong></li>
-						<li><i class="fas fa-check-square text-warning icon-left"></i> Olyan hirdetési oldalakhoz optimalizált képek, mint Használtautó.hu vagy Facebook Marketplace.</li>
-						<li><i class="fas fa-check-square text-warning icon-left"></i> A végleges fotókat 72 órán belül megkapod.</li>
-						<li><i class="fas fa-check-square text-warning icon-left"></i> A fotózás Budapest belső kerületeiben történik.</li>
-					</ul>
-					<h3 class="package__price">29.900 Ft</h3>
-				</div>
-				<div class="package package--green">
-					<i class="package__icon fas fa-rocket"></i>
-					<h3 class="package__name mb-1">Extra Csomag</h3>
-					<ul>
-						<li><i class="fas fa-check-square text-highlight icon-left"></i> <strong>Minden elkészült fotó átadása (akár 100 kép).</strong></li>
-						<li><i class="fas fa-check-square text-highlight icon-left"></i> Ideális részletes dokumentációhoz, vagy ha külföldi hirdetési oldalra szeretnéd feltenni az autót.</li>
-						<li><i class="fas fa-check-square text-highlight icon-left"></i> A végleges fotókat 24 órán belül megkapod.</li>
-						<li><i class="fas fa-check-square text-highlight icon-left"></i> A helyszín lehet Budapest környéke is</li>
-						<li><i class="fas fa-check-square text-highlight icon-left"></i> A fotózás teljes szabadsága: minden szögből, minden apró részletet megörökítve.</li>
-					</ul>
-					<h3 class="package__price">42.900 Ft</h3>
-				</div>
-			</div>
-			<div class="buttons mt-1 mb-0">
-				<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fa-solid fa-envelope icon-left"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
-				<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fa-brands fa-instagram icon-left"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
-			</div>
-		</div>
-	</section>
-
-	<section class="section section--new">
-		<div class="container">
-			<h2>Gyakran Ismételt Kérdések</h2>
-			<div class="faqs">
-				<details class="faq">
-					<summary class="faq__question">Mennyi ideig tart a fotózás?</summary>
-					<div class="faq__answer">Általában 30-60 perc, attól függően, hogy milyen részletességet szeretnél.</div>
-				</details>
-				<details class="faq">
-					<summary class="faq__question">Mennyire kell előkészíteni az autót?</summary>
-					<div class="faq__answer">Nagyon fontos, hogy az autó tisztán és rendezett állapotban legyen, mert ez jelentősen növeli az eladhatóságát. Javasolt egy külső-belső takarítás.</div>
-				</details>
-				<details class="faq">
-					<summary class="faq__question">Milyen képeket kapok meg?</summary>
-					<div class="faq__answer">Az elkészült képeket nagy felbontásban, digitálisan adom át, amelyeket azonnal használhatsz a hirdetésedben.</div>
-				</details>
-				<details class="faq">
-					<summary class="faq__question">Van lehetőség külső helyszínen fotózni?</summary>
-					<div class="faq__answer">Használtautó-fotózásnál általában Budapest belső kerületeiben fotózunk. Utazási költség ellenében természetesen külső helyszín is megoldható.</div>
-				</details>
-				<details class="faq">
-					<summary class="faq__question">Mi a különbség az alap és az extra csomag között?</summary>
-					<div class="faq__answer">Az alapcsomag a legfontosabb 12 képet tartalmazza, amit a hirdetési oldalakhoz optimalizálunk. Az extra csomagban minden elkészült képet megkapsz, így maximálisan részletes hirdetést tudsz készíteni.</div>
-				</details>
-			</div>
-		</div>
-	</section>
-</main>
-
-{% include "partials/lightbox.html" %}
