@@ -1,0 +1,216 @@
+---
+layout: layouts/base.html
+translation: cars-business
+css: landing-page
+og_image: https://rolandszabo.photo/assets/images/opengraph/cars-business.webp
+---
+
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/experiences/{{ translation }}.webp" type="image/webp">
+
+<main class="main">
+	<header class="fancy-page-header fancy-page-header--{{ translation }}">
+		<div class="container">
+			<h1 class="page-header__category">{{ hero.h1 }}</h1>
+			<p class="page-header__title h1">{{ hero.title }}</p>
+			<p class="page-header__text">{{ hero.text1 }}</p>
+			<p class="page-header__text">{{ hero.text2 }}</p>
+			<a class="button mt-2" href="#more"><i class="fas fa-arrow-down icon-left"></i>&nbsp; {{ hero.button }}</a>
+		</div>
+	</header>
+
+	<section class="section section--new" id="more">
+		<div class="container">
+			<h2>{{ why.title }}</h2>
+			<ul>
+				{% for item in why.items %}
+					<li><strong><i class="fas fa-check-square text-highlight icon-left"></i> {{ item.title }}</strong> {{ item.text }}</li>
+				{% endfor %}
+			</ul>
+			<p class="emphasized">{{ why.ctaText }} <a href="#start">{{ why.ctaLink }}</a></p>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ companies.title }}</h2>
+			<ul class="companies">
+				{% for company in companies.items %}
+					<li class="company">
+						<header class="text-center">
+							<i class="company__icon fas {{ company.icon }}"></i>
+							<h3 class="company__title">{{ company.title }}</h3>
+							<p><em>{{ company.intro }}</em></p>
+						</header>
+						<p class="mb-0">{{ company.text }}</p>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ how.title }}</h2>
+			<div class="brands">
+				<ol class="list">
+					{% for item in how.items %}
+					<li>
+						<strong>{{ item.title }}</strong>
+						<ul class="list">
+							{% for listItem in item.items %}
+								<li>{{ listItem }}</li>
+							{% endfor %}
+						</ul>
+					</li>
+					{% endfor %}
+				</ol>
+				<ul class="brands__list">
+					<li class="brands__item">
+						<img class="brands__logo" src="/assets/images/brands/greengo.webp" alt="GreenGo" title="GreenGo" width="200" height="200" loading="lazy">
+					</li>
+					<li class="brands__item">
+						<img class="brands__logo" src="/assets/images/brands/mollimo.webp" alt="MOL Limo" title="MOL Limo" width="200" height="200" loading="lazy">
+					</li>
+					<li class="brands__item">
+						<img class="brands__logo" src="/assets/images/brands/cornercar.webp" alt="Corner Car" title="Corner Car" width="200" height="200" loading="lazy">
+					</li>
+					<li class="brands__item">
+						<img class="brands__logo" src="/assets/images/brands/rentben.webp" alt="RentBen" title="RentBen" width="200" height="200" loading="lazy">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ gallery.title }}</h2>
+			<p>{{ gallery.text }}</p>
+			<div class="gallery">
+				<img
+					src="/assets/images/cars/business/cornercar-1-700.webp"
+					srcset="/assets/images/cars/business/cornercar-1-350.webp 350w, /assets/images/cars/business/cornercar-1-500.webp 500w, /assets/images/cars/business/cornercar-1-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/cornercar-1-1400.webp"
+					alt="BMW 5 Series"
+				>
+				<img
+					src="/assets/images/cars/business/cornercar-2-700.webp"
+					srcset="/assets/images/cars/business/cornercar-2-350.webp 350w, /assets/images/cars/business/cornercar-2-500.webp 500w, /assets/images/cars/business/cornercar-2-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/cornercar-2-1400.webp"
+					alt="Corner Car Kft"
+				>
+				<img
+					src="/assets/images/cars/business/cornercar-3-700.webp"
+					srcset="/assets/images/cars/business/cornercar-3-350.webp 350w, /assets/images/cars/business/cornercar-3-500.webp 500w, /assets/images/cars/business/cornercar-3-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/cornercar-3-1400.webp"
+					alt="Corner Car Kft"
+				>
+				<img
+					src="/assets/images/cars/business/cornercar-4-700.webp"
+					srcset="/assets/images/cars/business/cornercar-4-350.webp 350w, /assets/images/cars/business/cornercar-4-500.webp 500w, /assets/images/cars/business/cornercar-4-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/cornercar-4-1400.webp"
+					alt="Corner Car Kft"
+				>
+				<img
+					src="/assets/images/cars/business/greengo-1-700.webp"
+					srcset="/assets/images/cars/business/greengo-1-350.webp 350w, /assets/images/cars/business/greengo-1-500.webp 500w, /assets/images/cars/business/greengo-1-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/greengo-1-1400.webp"
+					alt="GreenGo e-carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/greengo-2-700.webp"
+					srcset="/assets/images/cars/business/greengo-2-350.webp 350w, /assets/images/cars/business/greengo-2-500.webp 500w, /assets/images/cars/business/greengo-2-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/greengo-2-1400.webp"
+					alt="GreenGo e-carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/greengo-3-700.webp"
+					srcset="/assets/images/cars/business/greengo-3-350.webp 350w, /assets/images/cars/business/greengo-3-500.webp 500w, /assets/images/cars/business/greengo-3-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/greengo-3-1400.webp"
+					alt="GreenGo e-carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/greengo-4-700.webp"
+					srcset="/assets/images/cars/business/greengo-4-350.webp 350w, /assets/images/cars/business/greengo-4-500.webp 500w, /assets/images/cars/business/greengo-4-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/greengo-4-1400.webp"
+					alt="GreenGo e-carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/greengo-5-700.webp"
+					srcset="/assets/images/cars/business/greengo-5-350.webp 350w, /assets/images/cars/business/greengo-5-500.webp 500w, /assets/images/cars/business/greengo-5-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/greengo-5-1400.webp"
+					alt="GreenGo e-carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/greengo-6-700.webp"
+					srcset="/assets/images/cars/business/greengo-6-350.webp 350w, /assets/images/cars/business/greengo-6-500.webp 500w, /assets/images/cars/business/greengo-6-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/greengo-6-1400.webp"
+					alt="GreenGo e-carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/greengo-7-700.webp"
+					srcset="/assets/images/cars/business/greengo-7-350.webp 350w, /assets/images/cars/business/greengo-7-500.webp 500w, /assets/images/cars/business/greengo-7-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/greengo-7-1400.webp"
+					alt="GreenGo e-carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/greengo-8-700.webp"
+					srcset="/assets/images/cars/business/greengo-8-350.webp 350w, /assets/images/cars/business/greengo-8-500.webp 500w, /assets/images/cars/business/greengo-8-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/greengo-8-1400.webp"
+					alt="GreenGo e-carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/rentben-1-700.webp"
+					srcset="/assets/images/cars/business/rentben-1-350.webp 350w, /assets/images/cars/business/rentben-1-500.webp 500w, /assets/images/cars/business/rentben-1-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/rentben-1-1400.webp"
+					alt="RentBen Carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/rentben-2-700.webp"
+					srcset="/assets/images/cars/business/rentben-2-350.webp 350w, /assets/images/cars/business/rentben-2-500.webp 500w, /assets/images/cars/business/rentben-2-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/rentben-2-1400.webp"
+					alt="RentBen Carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/rentben-3-700.webp"
+					srcset="/assets/images/cars/business/rentben-3-350.webp 350w, /assets/images/cars/business/rentben-3-500.webp 500w, /assets/images/cars/business/rentben-3-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/rentben-3-1400.webp"
+					alt="RentBen Carsharing"
+				>
+				<img
+					src="/assets/images/cars/business/rentben-4-700.webp"
+					srcset="/assets/images/cars/business/rentben-4-350.webp 350w, /assets/images/cars/business/rentben-4-500.webp 500w, /assets/images/cars/business/rentben-4-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					data-lightbox="/assets/images/cars/business/rentben-4-1400.webp"
+					alt="RentBen Carsharing"
+				>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--new" id="start">
+		<div class="container">
+			<h2>{{ cta.title }}</h2>
+			<p>{{ cta.text }}</p>
+			<div class="buttons mt-1 mb-0">
+				<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fa-solid fa-envelope icon-left"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
+				<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fa-brands fa-instagram icon-left"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
+			</div>
+		</div>
+	</section>
+</main>

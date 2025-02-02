@@ -1,0 +1,160 @@
+---
+layout: layouts/base.html
+css: landing-page
+---
+
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/experiences/portrait-hub.webp" type="image/webp">
+
+<main class="main">
+	<header class="fancy-page-header fancy-page-header--portrait-hub">
+		<div class="container">
+			<h1 class="page-header__category">{{ hero.h1 }}</h1>
+			<p class="page-header__title h1">{{ hero.title }}</p>
+			<p class="page-header__text">{{ hero.text }}</p>
+			<div class="buttons mt-2">
+				<a class="button" href="#experiences"><i class="fas fa-camera icon-left"></i>&nbsp; {{ hero.experiencesBtn }}</a>
+				<a class="button" href="#more"><i class="fas fa-arrow-down icon-left"></i>&nbsp; {{ hero.seeHowBtn }}</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="section section--new" id="more">
+		<div class="container">
+			<h2>{{ problem.title }}</h2>
+			<p>{{ problem.text1 }}</p>
+			<p>{{ problem.text2 }}</p>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<div class="grid-3-2">
+				<article>
+					<h2>{{ solution.title }}</h2>
+					<p>{{ solution.text1 }}</p>
+					<p>{{ solution.text2 }}</p>
+				</article>
+				<img class="polaroid rotate-5" src="/assets/images/photo-walk-04.webp" alt="Budapest Portrait Photography">
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--new" id="experiences">
+		<div class="container">
+			<h2>{{ experiences.title }}</h2>
+			<p>{{ experiences.text }}</p>
+			<div class="fourth align-stretch">
+				<a class="plan" href="{{ experiences.male.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/male-portrait-photography.webp" alt="{{ experiences.male.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.male.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.male.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.female.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/female-portrait-photography.webp" alt="{{ experiences.female.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.female.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.female.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.couple.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/couple-portrait-photography.webp" alt="{{ experiences.couple.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.couple.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.couple.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.family.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/family-portrait-photography.webp" alt="{{ experiences.family.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.family.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.family.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.bestFriend.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/best-friend-portrait-photography.webp" alt="{{ experiences.bestFriend.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.bestFriend.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.bestFriend.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.maternity.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/maternity-portrait-photography.webp" alt="{{ experiences.maternity.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.maternity.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.maternity.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.engagement.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/engagement-portrait-photography.webp" alt="{{ experiences.engagement.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.engagement.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.engagement.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.brand.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/brand-portrait-photography.webp" alt="{{ experiences.brand.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.brand.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.brand.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.creative.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/creative-portrait-photography.webp" alt="{{ experiences.creative.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.creative.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.creative.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.headshot.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/headshot-photography.webp" alt="{{ experiences.headshot.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.headshot.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.headshot.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.pet.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/pet-portrait-photography.webp" alt="{{ experiences.pet.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.pet.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.pet.text }}</p>
+				</a>
+				<a class="plan" href="{{ experiences.automotive.slug }}">
+					<div class="plan__image-container">
+						<img class="plan__image" src="/assets/images/thumbnails/automotive-portrait-photography.webp" alt="{{ experiences.automotive.title }}" width="500" height="500">
+					</div>
+					<h3 class="plan__title">{{ experiences.automotive.title }}</h3>
+					<p class="plan__intro text-smaller">{{ experiences.automotive.text }}</p>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ testimonials.title }}</h2>
+			<p>{{ testimonials.text }}</p>
+			<div class="testimonials">
+				{% assign source = testimonials.items %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 0 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 1 %}
+				{% include 'partials/testimonial.html', type: 'excerpt', id: 2 %}
+			</div>
+			<p class="mt-2">{{ testimonials.ctaText }} <a href="https://maps.app.goo.gl/fVv8QJQWSGEf5HKz9" target="_blank" rel="noopener noreferrer">{{ testimonials.ctaLink }}</a>.</p>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ cta.title }}</h2>
+			<p>{{ cta.text1 }}</p>
+			<p>{{ cta.text2 }}</p>
+			<div class="buttons">
+				<a class="button" href="#experiences"><i class="fa-solid fa-arrow-up icon-left"></i>&nbsp; {{ cta.experiencesBtn }}</a>
+				<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fa-brands fa-instagram icon-left"></i>&nbsp; {{ cta.messageBtn }}</a>
+			</div>
+		</div>
+	</section>
+</main>

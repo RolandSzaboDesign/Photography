@@ -19,6 +19,24 @@ module.exports = {
 		// 	},
 		// },
 		{
+			type: "automotive",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/gM39RUXmVzxxQJUt6",
+			photo: "/assets/images/testimonials/cars_corsa-e.webp",
+			hu: {
+				name: "Emmert Ármin",
+				excerpt: "Azonnal megértette és figyelembe vette a külüönleges kéréseimet, autófotózáskor tudta mit csinál és nem volt rest utasítani",
+				text: "Roland rugalmas volt az időbeosztással, jó javaslatai voltak már a tervezési fázisban. Azonnal megértette és figyelembe vette a külüönleges kéréseimet, autófotózáskor tudta mit csinál és nem volt rest utasítani. A képeket pedig utómunkával együtt nagyon hamar meg is kaptam.",
+				link: "#",
+			},
+			en: {
+				name: "Ármin Emmert",
+				excerpt: "He immediately understood and took into account my external requests, he knew what he was doing when shooting a car and was not afraid to instruct",
+				text: "Roland was flexible with the schedule, he had good suggestions already in the planning phase. He immediately understood and took into account my external requests, he knew what he was doing when shooting a car and was not afraid to instruct. And I received the photos with post-production very quickly.",
+				link: "#",
+			},
+		},
+		{
 			type: "family",
 			score: "5.0",
 			googleURL: "https://maps.app.goo.gl/nudTozSKgF5B6qrJA",
@@ -652,18 +670,18 @@ module.exports = {
 			type: "automotive",
 			score: "5.0",
 			googleURL: "https://g.co/kgs/iHjEqtt",
-			photo: "/assets/images/testimonials/barni.webp",
+			photo: "/assets/images/testimonials/cars_ceed-sw.webp",
 			hu: {
 				name: "Gombos Barnabás",
 				excerpt: "A fotók készítése közben még egy gyors “oktatást” is tartott, hogy hogyan kell igazán király képeket lőni",
 				text: "Egy jó pár hete hirdettem az autóm, de szinte semmilyen érdeklődő sem keresett miatta. Gondoltam megkeresem Rolandot hogy lőjön pár profi képet az autóról. Hamar meg is beszéltük az időpontot. A fotók készítése közben még egy gyors “oktatást” is tartott, hogy hogyan kell igazán király képeket lőni. Az új fotók feltöltése után napokon belül már el is vitték az autót. Úgy gondolom, Roland segítsége nélkül még most is árulnám a kocsit.",
-				link: "/hu/portre/",
+				link: "#",
 			},
 			en: {
 				name: "Barnabás Gombos",
 				excerpt: "While taking photos, he even gave me a quick \"tutorial\" on how to take really cool pictures",
 				text: "I have advertised my car for a couple of weeks now, but almost no one has contacted me about it. I thought I'd ask Roland to take some professional pictures of the car. We quickly made an appointment. While taking photos, he even gave me a quick \"tutorial\" on how to take really cool pictures. Within days of uploading the new photos, I had the car sold. I think I would still be selling the car without Roland's help.",
-				link: "/en/portraiture/",
+				link: "#",
 			},
 		},
 		{

@@ -50,21 +50,24 @@
 	z-index: 1;
 }
 
-.fancy-page-header--portrait-hub { background-image: url('/assets/images/experiences/portrait-hub.webp'); }
-.fancy-page-header--male         { background-image: url('/assets/images/experiences/male.webp'); }
-.fancy-page-header--female       { background-image: url('/assets/images/experiences/female.webp'); }
-.fancy-page-header--couple       { background-image: url('/assets/images/experiences/couple.webp'); }
-.fancy-page-header--family       { background-image: url('/assets/images/experiences/family.webp'); }
-.fancy-page-header--best-friends { background-image: url('/assets/images/experiences/best-friends.webp'); }
-.fancy-page-header--maternity    { background-image: url('/assets/images/experiences/maternity.webp'); }
-.fancy-page-header--engagement   { background-image: url('/assets/images/experiences/engagement.webp'); }
-.fancy-page-header--brand        { background-image: url('/assets/images/experiences/brand.webp'); }
-.fancy-page-header--creative     { background-image: url('/assets/images/experiences/creative.webp'); }
-.fancy-page-header--headshots    { background-image: url('/assets/images/experiences/headshots.webp'); }
-.fancy-page-header--pets         { background-image: url('/assets/images/experiences/pets.webp'); }
-.fancy-page-header--automotive   { background-image: url('/assets/images/experiences/automotive.webp'); }
+.fancy-page-header--portrait-hub  { background-image: url('/assets/images/experiences/portrait-hub.webp'); }
+.fancy-page-header--male          { background-image: url('/assets/images/experiences/male.webp'); }
+.fancy-page-header--female        { background-image: url('/assets/images/experiences/female.webp'); }
+.fancy-page-header--couple        { background-image: url('/assets/images/experiences/couple.webp'); }
+.fancy-page-header--family        { background-image: url('/assets/images/experiences/family.webp'); }
+.fancy-page-header--best-friends  { background-image: url('/assets/images/experiences/best-friends.webp'); }
+.fancy-page-header--maternity     { background-image: url('/assets/images/experiences/maternity.webp'); }
+.fancy-page-header--engagement    { background-image: url('/assets/images/experiences/engagement.webp'); }
+.fancy-page-header--brand         { background-image: url('/assets/images/experiences/brand.webp'); }
+.fancy-page-header--creative      { background-image: url('/assets/images/experiences/creative.webp'); }
+.fancy-page-header--headshots     { background-image: url('/assets/images/experiences/headshots.webp'); }
+.fancy-page-header--pets          { background-image: url('/assets/images/experiences/pets.webp'); }
+.fancy-page-header--automotive    { background-image: url('/assets/images/experiences/automotive.webp'); }
 
-.fancy-page-header--cars-hub     { background-image: url('/assets/images/experiences/cars-hub.webp'); }
+.fancy-page-header--cars-hub      { background-image: url('/assets/images/experiences/cars-hub.webp'); }
+.fancy-page-header--cars-artistic { background-image: url('/assets/images/experiences/cars-artistic.webp'); }
+.fancy-page-header--cars-business { background-image: url('/assets/images/experiences/cars-business.webp'); }
+.fancy-page-header--cars-used     { background-image: url('/assets/images/experiences/cars-used.webp'); }
 
 .fancy-page-header .page-header__title {
 	margin-bottom: 3rem;
@@ -108,12 +111,20 @@
 	box-shadow: var(--box-shadow-small);
 }
 
-.package--photogenic {
+.package--warning {
 	border-left: .5rem solid var(--warning);
 }
 
-.package--full {
+.package--highlight {
 	border-left: .5rem solid var(--highlight);
+}
+
+.package--warning .package__icon {
+	color: var(--warning);
+}
+
+.package--highlight .package__icon {
+	color: var(--highlight);
 }
 
 .package__icon {
@@ -125,20 +136,15 @@
 	opacity: .15;
 }
 
-.package--photogenic .package__icon {
-	color: var(--warning);
-}
-
-.package--full .package__icon {
-	color: var(--highlight);
-}
-
 .package__name {
 	margin-top: 0;
+	margin-bottom: 1.5rem;
 }
 
-.package__text {
-	margin-bottom: 0;
+.package__price {
+	margin-top: 1.5rem;
+	font-family: var(--sans);
+	font-weight: 700;
 }
 
 .floating-photo {
@@ -332,4 +338,97 @@
 .summary__cta {
 	margin-top: 2rem;
 	margin-bottom: 0;
+}
+
+.companies {
+	display: grid;
+}
+
+@media only screen and (max-width: 767.98px) {
+	.companies {
+		grid-gap: 1rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.companies {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 2rem;
+	}
+}
+
+.company {
+	margin-bottom: 0;
+	padding: 1.5rem 2rem;
+	border-radius: .5rem;
+	border-left: .5rem solid var(--warning);
+	background-color: #FFF;
+}
+
+.company__icon {
+	font-size: 3rem;
+	color: var(--warning);
+}
+
+.company__title {
+	font-family: var(--sans);
+	font-weight: 700;
+}
+
+.brands {
+	display: grid;
+	align-items: start;
+}
+
+@media only screen and (max-width: 767.98px) {
+	.brands {
+		grid-gap: 2rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.brands {
+		grid-template-columns: 1fr 20rem;
+		grid-gap: 4rem;
+	}
+}
+
+.brands__list {
+	display: grid;
+	grid-gap: 1rem;
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767.98px) {
+	.brands__list {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.brands__list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.brands__item {
+	margin-bottom: 0;
+	line-height: 1
+}
+
+.brands__logo {
+	border-radius: 1rem;
+	background-color: #FFF;
+}
+
+@media only screen and (max-width: 575.98px) {
+	.brands__logo {
+		padding: .5rem;
+	}
+}
+
+@media only screen and (min-width: 576px) {
+	.brands__logo {
+		padding: 1rem;
+	}
 }

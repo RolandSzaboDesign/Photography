@@ -1,0 +1,229 @@
+---
+layout: layouts/base.html
+translation: cars-used
+css: landing-page
+og_image: https://rolandszabo.photo/assets/images/opengraph/cars-used.webp
+---
+
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/experiences/{{ translation }}.webp" type="image/webp">
+
+<main class="main">
+	<header class="fancy-page-header fancy-page-header--{{ translation }}">
+		<div class="container">
+			<h1 class="page-header__category">{{ hero.h1 }}</h1>
+			<p class="page-header__title h1">{{ hero.title }}</p>
+			<p class="page-header__text">{{ hero.text1 }}</p>
+			<p class="page-header__text">{{ hero.text2 }}</p>
+			<div class="buttons mt-2">
+				<a class="button" href="#start"><i class="fas fa-camera icon-left"></i>&nbsp; {{ hero.button1 }}</a>
+				<a class="button" href="#more"><i class="fas fa-arrow-down icon-left"></i>&nbsp; {{ hero.button2 }}</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="section section--new" id="more">
+		<div class="container">
+			<h2>{{ why.title }}</h2>
+			<ul>
+				{% for item in why.items %}
+					<li><strong><i class="fas fa-check-square text-highlight icon-left"></i> {{ item.title }}</strong> {{ item.text }}</li>
+				{% endfor %}
+			</ul>
+			<p class="emphasized">{{ why.ctaText }} <a href="#start">{{ why.ctaLink }}</a></p>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ beforeAfter.title }}</h2>
+			<p>{{ beforeAfter.text }}</p>
+			<div class="gallery gallery--single">
+				<div class="polaroid">
+					<img
+						src="/assets/images/cars/used/ceed-before-700.webp"
+						srcset="/assets/images/cars/used/ceed-before-350.webp 350w, /assets/images/cars/used/ceed-before-500.webp 500w, /assets/images/cars/used/ceed-before-700.webp 700w"
+						sizes="50vw, 700px"
+						alt="Kis Ceed SW"
+					>
+					<span class="polaroid__title">{{ beforeAfter.before }}</span>
+				</div>
+				<div class="polaroid">
+					<img
+						src="/assets/images/cars/used/ceed-after-700.webp"
+						srcset="/assets/images/cars/used/ceed-after-350.webp 350w, /assets/images/cars/used/ceed-after-500.webp 500w, /assets/images/cars/used/ceed-after-700.webp 700w"
+						sizes="50vw, 700px"
+						alt="Kis Ceed SW"
+					>
+					<span class="polaroid__title">{{ beforeAfter.after }}</span>
+				</div>
+				<div class="polaroid">
+					<img
+						src="/assets/images/cars/used/997c4s-before-700.webp"
+						srcset="/assets/images/cars/used/997c4s-before-350.webp 350w, /assets/images/cars/used/997c4s-before-500.webp 500w, /assets/images/cars/used/997c4s-before-700.webp 700w"
+						sizes="50vw, 700px"
+						alt="Kis Ceed SW"
+					>
+					<span class="polaroid__title">{{ beforeAfter.before }}</span>
+				</div>
+				<div class="polaroid">
+					<img
+						src="/assets/images/cars/used/997c4s-after-700.webp"
+						srcset="/assets/images/cars/used/997c4s-after-350.webp 350w, /assets/images/cars/used/997c4s-after-500.webp 500w, /assets/images/cars/used/997c4s-after-700.webp 700w"
+						sizes="50vw, 700px"
+						alt="Kis Ceed SW"
+					>
+					<span class="polaroid__title">{{ beforeAfter.after }}</span>
+				</div>
+				<div class="polaroid">
+					<img
+						src="/assets/images/cars/used/octavia-before-700.webp"
+						srcset="/assets/images/cars/used/octavia-before-350.webp 350w, /assets/images/cars/used/octavia-before-500.webp 500w, /assets/images/cars/used/octavia-before-700.webp 700w"
+						sizes="50vw, 700px"
+						alt="Kis Ceed SW"
+					>
+					<span class="polaroid__title">{{ beforeAfter.before }}</span>
+				</div>
+				<div class="polaroid">
+					<img
+						src="/assets/images/cars/used/octavia-after-700.webp"
+						srcset="/assets/images/cars/used/octavia-after-350.webp 350w, /assets/images/cars/used/octavia-after-500.webp 500w, /assets/images/cars/used/octavia-after-700.webp 700w"
+						sizes="50vw, 700px"
+						alt="Kis Ceed SW"
+					>
+					<span class="polaroid__title">{{ beforeAfter.after }}</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ how.title }}</h2>
+			<ol class="list">
+				{% for item in how.items %}
+					<li><strong>{{ item.title }}</strong> {{ item.text }}</li>
+				{% endfor %}
+			</ol>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ example.title }}</h2>
+			<p>{{ example.text }}</p>
+			<div class="gallery">
+				<img
+					src="/assets/images/cars/used/gallery/kia-01-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-01-350.webp 350w, /assets/images/cars/used/gallery/kia-01-500.webp 500w, /assets/images/cars/used/gallery/kia-01-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-02-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-02-350.webp 350w, /assets/images/cars/used/gallery/kia-02-500.webp 500w, /assets/images/cars/used/gallery/kia-02-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-03-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-03-350.webp 350w, /assets/images/cars/used/gallery/kia-03-500.webp 500w, /assets/images/cars/used/gallery/kia-03-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-04-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-04-350.webp 350w, /assets/images/cars/used/gallery/kia-04-500.webp 500w, /assets/images/cars/used/gallery/kia-04-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-05-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-05-350.webp 350w, /assets/images/cars/used/gallery/kia-05-500.webp 500w, /assets/images/cars/used/gallery/kia-05-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-06-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-06-350.webp 350w, /assets/images/cars/used/gallery/kia-06-500.webp 500w, /assets/images/cars/used/gallery/kia-06-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-07-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-07-350.webp 350w, /assets/images/cars/used/gallery/kia-07-500.webp 500w, /assets/images/cars/used/gallery/kia-07-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-08-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-08-350.webp 350w, /assets/images/cars/used/gallery/kia-08-500.webp 500w, /assets/images/cars/used/gallery/kia-08-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-09-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-09-350.webp 350w, /assets/images/cars/used/gallery/kia-09-500.webp 500w, /assets/images/cars/used/gallery/kia-09-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-10-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-10-350.webp 350w, /assets/images/cars/used/gallery/kia-10-500.webp 500w, /assets/images/cars/used/gallery/kia-10-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-11-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-11-350.webp 350w, /assets/images/cars/used/gallery/kia-11-500.webp 500w, /assets/images/cars/used/gallery/kia-11-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+				<img
+					src="/assets/images/cars/used/gallery/kia-12-700.webp"
+					srcset="/assets/images/cars/used/gallery/kia-12-350.webp 350w, /assets/images/cars/used/gallery/kia-12-500.webp 500w, /assets/images/cars/used/gallery/kia-12-700.webp 700w"
+					sizes="(max-width: 767px) 50vw, (max-width: 991px) 33.3vw, 25vw"
+					alt="Kia Ceed SW {{ example.imageAlt }}"
+				>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--new" id="start">
+		<div class="container">
+			<h2></h2>
+			<p></p>
+			<div class="packages">
+				{% for package in packages.items %}
+					<div class="package package--{{ package.class }}">
+						<i class="package__icon fas {{ package.icon }}"></i>
+						<h3 class="package__name mb-1">{{ package.title }}</h3>
+						<ul>
+							{% for item in package.items %}
+								<li><i class="fas fa-check-square text-{{ package.class }} icon-left"></i> {{ item.text }}</li>
+							{% endfor %}
+						</ul>
+						<h3 class="package__price">{{ package.price }}</h3>
+					</div>
+				{% endfor %}
+			</div>
+			<div class="buttons mt-1 mb-0">
+				<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fa-solid fa-envelope icon-left"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
+				<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fa-brands fa-instagram icon-left"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--new">
+		<div class="container">
+			<h2>{{ faq.title }}</h2>
+			<div class="faqs">
+				{% for item in faq.items %}
+					<details class="faq">
+						<summary class="faq__question">{{ item.question }}</summary>
+						<div class="faq__answer">{{ item.answer }}</div>
+					</details>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+</main>
