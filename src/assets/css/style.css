@@ -42,7 +42,7 @@ html { box-sizing: border-box; }
 	font-display: swap;
 	font-style: normal;
 	font-weight: 300;
-	src: url('../fonts/outfit-v11-latin-ext-300.woff2') format('woff2');
+	src: url('../webfonts/outfit-v11-latin-ext-300.woff2') format('woff2');
 }
 
 @font-face {
@@ -50,7 +50,7 @@ html { box-sizing: border-box; }
 	font-display: swap;
 	font-style: normal;
 	font-weight: 700;
-	src: url('../fonts/outfit-v11-latin-ext-700.woff2') format('woff2');
+	src: url('../webfonts/outfit-v11-latin-ext-700.woff2') format('woff2');
 }
 
 
