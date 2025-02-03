@@ -10,18 +10,47 @@
 	text-shadow: 0 .1rem .1rem rgba(0,0,0,.5);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 @media only screen and (max-width: 767.98px) {
-	.fancy-page-header {
-		background-position: 80% center;
-	}
+	.fancy-page-header--portrait-hub  { background-image: url('/assets/images/hero-images/portrait-hub-sm.webp'); }
+	.fancy-page-header--male          { background-image: url('/assets/images/hero-images/male-sm.webp'); }
+	.fancy-page-header--female        { background-image: url('/assets/images/hero-images/female-sm.webp'); }
+	.fancy-page-header--couple        { background-image: url('/assets/images/hero-images/couple-sm.webp'); }
+	.fancy-page-header--family        { background-image: url('/assets/images/hero-images/family-sm.webp'); }
+	.fancy-page-header--best-friends  { background-image: url('/assets/images/hero-images/best-friends-sm.webp'); }
+	.fancy-page-header--maternity     { background-image: url('/assets/images/hero-images/maternity-sm.webp'); }
+	.fancy-page-header--engagement    { background-image: url('/assets/images/hero-images/engagement-sm.webp'); }
+	.fancy-page-header--brand         { background-image: url('/assets/images/hero-images/brand-sm.webp'); }
+	.fancy-page-header--creative      { background-image: url('/assets/images/hero-images/creative-sm.webp'); }
+	.fancy-page-header--headshots     { background-image: url('/assets/images/hero-images/headshots-sm.webp'); }
+	.fancy-page-header--pets          { background-image: url('/assets/images/hero-images/pets-sm.webp'); }
+	.fancy-page-header--automotive    { background-image: url('/assets/images/hero-images/automotive-sm.webp'); }
+	.fancy-page-header--cars-hub      { background-image: url('/assets/images/hero-images/cars-hub-sm.webp'); }
+	.fancy-page-header--cars-artistic { background-image: url('/assets/images/hero-images/cars-artistic-sm.webp'); }
+	.fancy-page-header--cars-business { background-image: url('/assets/images/hero-images/cars-business-sm.webp'); }
+	.fancy-page-header--cars-used     { background-image: url('/assets/images/hero-images/cars-used-sm.webp'); }
 }
 
 @media only screen and (min-width: 768px) {
-	.fancy-page-header {
-		background-position: center center;
-	}
+	.fancy-page-header--portrait-hub  { background-image: url('/assets/images/hero-images/portrait-hub.webp'); }
+	.fancy-page-header--male          { background-image: url('/assets/images/hero-images/male.webp'); }
+	.fancy-page-header--female        { background-image: url('/assets/images/hero-images/female.webp'); }
+	.fancy-page-header--couple        { background-image: url('/assets/images/hero-images/couple.webp'); }
+	.fancy-page-header--family        { background-image: url('/assets/images/hero-images/family.webp'); }
+	.fancy-page-header--best-friends  { background-image: url('/assets/images/hero-images/best-friends.webp'); }
+	.fancy-page-header--maternity     { background-image: url('/assets/images/hero-images/maternity.webp'); }
+	.fancy-page-header--engagement    { background-image: url('/assets/images/hero-images/engagement.webp'); }
+	.fancy-page-header--brand         { background-image: url('/assets/images/hero-images/brand.webp'); }
+	.fancy-page-header--creative      { background-image: url('/assets/images/hero-images/creative.webp'); }
+	.fancy-page-header--headshots     { background-image: url('/assets/images/hero-images/headshots.webp'); }
+	.fancy-page-header--pets          { background-image: url('/assets/images/hero-images/pets.webp'); }
+	.fancy-page-header--automotive    { background-image: url('/assets/images/hero-images/automotive.webp'); }
+	.fancy-page-header--cars-hub      { background-image: url('/assets/images/hero-images/cars-hub.webp'); }
+	.fancy-page-header--cars-artistic { background-image: url('/assets/images/hero-images/cars-artistic.webp'); }
+	.fancy-page-header--cars-business { background-image: url('/assets/images/hero-images/cars-business.webp'); }
+	.fancy-page-header--cars-used     { background-image: url('/assets/images/hero-images/cars-used.webp'); }
 }
 
 .fancy-page-header:after {
@@ -49,25 +78,6 @@
 	position: relative;
 	z-index: 1;
 }
-
-.fancy-page-header--portrait-hub  { background-image: url('/assets/images/experiences/portrait-hub.webp'); }
-.fancy-page-header--male          { background-image: url('/assets/images/experiences/male.webp'); }
-.fancy-page-header--female        { background-image: url('/assets/images/experiences/female.webp'); }
-.fancy-page-header--couple        { background-image: url('/assets/images/experiences/couple.webp'); }
-.fancy-page-header--family        { background-image: url('/assets/images/experiences/family.webp'); }
-.fancy-page-header--best-friends  { background-image: url('/assets/images/experiences/best-friends.webp'); }
-.fancy-page-header--maternity     { background-image: url('/assets/images/experiences/maternity.webp'); }
-.fancy-page-header--engagement    { background-image: url('/assets/images/experiences/engagement.webp'); }
-.fancy-page-header--brand         { background-image: url('/assets/images/experiences/brand.webp'); }
-.fancy-page-header--creative      { background-image: url('/assets/images/experiences/creative.webp'); }
-.fancy-page-header--headshots     { background-image: url('/assets/images/experiences/headshots.webp'); }
-.fancy-page-header--pets          { background-image: url('/assets/images/experiences/pets.webp'); }
-.fancy-page-header--automotive    { background-image: url('/assets/images/experiences/automotive.webp'); }
-
-.fancy-page-header--cars-hub      { background-image: url('/assets/images/experiences/cars-hub.webp'); }
-.fancy-page-header--cars-artistic { background-image: url('/assets/images/experiences/cars-artistic.webp'); }
-.fancy-page-header--cars-business { background-image: url('/assets/images/experiences/cars-business.webp'); }
-.fancy-page-header--cars-used     { background-image: url('/assets/images/experiences/cars-used.webp'); }
 
 .fancy-page-header .page-header__title {
 	margin-bottom: 3rem;
