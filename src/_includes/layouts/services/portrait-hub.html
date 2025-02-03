@@ -3,7 +3,7 @@ layout: layouts/base.html
 css: landing-page
 ---
 
-<link rel="preload" fetchpriority="high" as="image" href="/assets/images/hero-images/portrait-hub.webp" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/hero-images/portrait-hub-sm.webp" type="image/webp">
 
 <main class="main">
 	<header class="fancy-page-header fancy-page-header--portrait-hub">
@@ -34,7 +34,13 @@ css: landing-page
 					<p>{{ solution.text1 }}</p>
 					<p>{{ solution.text2 }}</p>
 				</article>
-				<img class="polaroid rotate-5" src="/assets/images/photo-walk-04.webp" alt="Budapest Portrait Photography">
+				<img class="polaroid rotate-5"
+					 src="/assets/images/bts-portrait.webp"
+					 srcset="/assets/images/bts-portrait-sm.webp 480w,
+							 /assets/images/bts-portrait.webp 750w"
+					 sizes="(max-width: 480px) 480px, 750px"
+					 alt="{{ hero.h1 }}"
+					 width="750" height="500">
 			</div>
 		</div>
 	</section>
