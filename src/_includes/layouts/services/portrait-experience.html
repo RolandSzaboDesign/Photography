@@ -55,7 +55,7 @@ css: landing-page
 			<div class="third">
 				{% for item in gallery.items %}
 					<div class="polaroid polaroid--large">
-						<img class="polaroid__photo" src="{{ item.image }}" alt="{{ item.title }}" title="{{ item.title }}">
+						<img class="polaroid__photo" src="{{ item.image }}" alt="{{ item.title }}" title="{{ item.title }}" width="700" height="1050">
 						<span class="polaroid__title polaroid__title">{{ item.description }}</span>
 					</div>
 				{% endfor %}
@@ -101,7 +101,7 @@ css: landing-page
 			<p>{{ packages.text }}</p>
 			<div class="packages">
 				{% if packages.photogenicDiscovery %}
-					<div class="package package--yellow">
+					<div class="package package--warning">
 						<i class="package__icon fas fa-stopwatch"></i>
 						<h3 class="package__name">{{ site[locale].photogenicDiscovery }}</h3>
 						<p class="package__text">{{ packages.photogenicDiscovery }}</p>
@@ -113,7 +113,7 @@ css: landing-page
 						</ul>
 					</div>
 				{% endif %}
-				<div class="package package--green">
+				<div class="package package--highlight">
 					<i class="package__icon fas fa-dove"></i>
 					<h3 class="package__name">{{ site[locale].theFullExperience }}</h3>
 					<p class="package__text">{{ packages.fullExperience }}</p>

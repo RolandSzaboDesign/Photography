@@ -86,27 +86,29 @@ html { box-sizing: border-box; }
 	width: 1.25em;
 }
 
-.fa-arrow-down     { --fa: "\f063"; }
-.fa-arrow-up       { --fa: "\f062"; }
-.fa-calendar       { --fa: "\f133"; }
-.fa-camera         { --fa: "\f030"; }
-.fa-car-side       { --fa: "\f5e4"; }
-.fa-caret-left     { --fa: "\f0d9"; }
-.fa-caret-right    { --fa: "\f0da"; }
-.fa-check-square   { --fa: "\f14a"; }
-.fa-circle-right   { --fa: "\f35a"; }
-.fa-comment        { --fa: "\f075"; }
-.fa-dove           { --fa: "\f4ba"; }
-.fa-envelope       { --fa: "\f0e0"; }
-.fa-hand           { --fa: "\f256"; }
-.fa-pen-nib        { --fa: "\f5ad"; }
-.fa-person-walking { --fa: "\f554"; }
-.fa-phone          { --fa: "\f095"; }
-.fa-star           { --fa: "\f005"; }
-.fa-stopwatch      { --fa: "\f2f2"; }
-.fa-thumbs-up      { --fa: "\f164"; }
-.fa-user-group     { --fa: "\f500"; }
-.fa-xmark          { --fa: "\f00d"; }
+.fa-arrow-down         { --fa: "\f063"; }
+.fa-arrow-up           { --fa: "\f062"; }
+.fa-calendar           { --fa: "\f133"; }
+.fa-camera             { --fa: "\f030"; }
+.fa-car-side           { --fa: "\f5e4"; }
+.fa-caret-left         { --fa: "\f0d9"; }
+.fa-caret-right        { --fa: "\f0da"; }
+.fa-check-square       { --fa: "\f14a"; }
+.fa-circle-right       { --fa: "\f35a"; }
+.fa-comment            { --fa: "\f075"; }
+.fa-dove               { --fa: "\f4ba"; }
+.fa-envelope           { --fa: "\f0e0"; }
+.fa-hand               { --fa: "\f256"; }
+.fa-money-bill-1-wave  { --fa: "\f53b"; }
+.fa-pen-nib            { --fa: "\f5ad"; }
+.fa-person-walking     { --fa: "\f554"; }
+.fa-phone              { --fa: "\f095"; }
+.fa-star               { --fa: "\f005"; }
+.fa-stopwatch          { --fa: "\f2f2"; }
+.fa-thumbs-up          { --fa: "\f164"; }
+.fa-user-group         { --fa: "\f500"; }
+.fa-warehouse          { --fa: "\f494"; }
+.fa-xmark              { --fa: "\f00d"; }
 
 
 
