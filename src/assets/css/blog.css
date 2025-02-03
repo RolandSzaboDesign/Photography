@@ -4,6 +4,7 @@
 	margin-right: auto;
 	padding-left: var(--grid-gutter);
 	padding-right: var(--grid-gutter);
+	padding-bottom: 2rem;
 }
 
 .blog-lister {
