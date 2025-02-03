@@ -22,43 +22,35 @@ html { box-sizing: border-box; }
 /* Webfonts */
 
 @font-face {
-	font-family: 'Castoro';
+	font-family: 'Domine';
+	font-display: swap;
 	font-style: normal;
 	font-weight: 400;
-	font-display: swap;
-	src: url('../webfonts/castoro-v19-latin_latin-ext-regular.woff2') format('woff2');
+	src: url('../webfonts/domine-v23-latin-ext-regular.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'DM Sans';
-	font-style: normal;
-	font-weight: 300;
+	font-family: 'Domine';
 	font-display: swap;
-	src: url('../webfonts/dm-sans-v15-latin_latin-ext-300.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'DM Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url('../webfonts/dm-sans-v15-latin_latin-ext-regular.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'DM Sans';
 	font-style: normal;
 	font-weight: 700;
-	font-display: swap;
-	src: url('../webfonts/dm-sans-v15-latin_latin-ext-700.woff2') format('woff2');
+	src: url('../webfonts/domine-v23-latin-ext-700.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'DM Sans';
-	font-style: normal;
-	font-weight: 900;
+	font-family: 'Outfit';
 	font-display: swap;
-	src: url('../webfonts/dm-sans-v15-latin_latin-ext-900.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/outfit-v11-latin-ext-300.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Outfit';
+	font-display: swap;
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/outfit-v11-latin-ext-700.woff2') format('woff2');
 }
 
 
@@ -897,7 +889,7 @@ ol.list { list-style: decimal; }
 .lang__link {
 	display: inline-block;
 	padding: .375rem;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: .875rem;
 	color: var(--text);
 	text-transform: uppercase;
