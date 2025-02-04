@@ -1304,6 +1304,14 @@ ol.list { list-style: decimal; }
 	}
 }
 
+.gallery--used-cars {
+	grid-gap: 1rem;
+}
+
+.gallery--used-cars .polaroid {
+	padding: .75rem;
+}
+
 .polaroid {
 	position: relative;
 	display: flex;
