@@ -151,10 +151,18 @@
 	margin-bottom: 1.5rem;
 }
 
+.package__list {
+	margin-bottom: 2rem;
+}
+
 .package__price {
-	margin-top: 1.5rem;
+	margin-top: 0;
 	font-family: var(--sans);
 	font-weight: 700;
+}
+
+.package__price--new {
+
 }
 
 .floating-photo {

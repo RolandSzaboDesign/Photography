@@ -1695,6 +1695,8 @@ a.tag__link:focus {
 .align-center { align-items: center; }
 .align-end { align-items: end; }
 
+.inline { display: inline; }
+
 .full { grid-column: 1 / -1; }
 
 .rotate-5 { transform: rotate(5deg); }

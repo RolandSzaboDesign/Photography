@@ -269,12 +269,13 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-used.webp
 					<div class="package package--{{ package.class }}">
 						<i class="package__icon fas {{ package.icon }}"></i>
 						<h3 class="package__name mb-1">{{ package.title }}</h3>
-						<ul>
+						<ul class="package__list">
 							{% for item in package.items %}
 								<li><i class="fas fa-check-square text-{{ package.class }} icon-left"></i> {{ item.text }}</li>
 							{% endfor %}
 						</ul>
-						<h3 class="package__price">{{ package.price }}</h3>
+						<h3 class="package__price"><del class="text-danger">{{ package.oldPrice }}</del></h3>
+						<h3 class="package__price">{{ package.newPriceDiscountText }} {{ package.newPrice }}</h3>
 					</div>
 				{% endfor %}
 			</div>
