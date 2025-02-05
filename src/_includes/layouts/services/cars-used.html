@@ -262,8 +262,8 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-used.webp
 
 	<section class="section section--new" id="start">
 		<div class="container">
-			<h2></h2>
-			<p></p>
+			<h2>{{ packages.title }}</h2>
+			<p>{{ packages.text }}</p>
 			<div class="packages">
 				{% for package in packages.items %}
 					<div class="package package--{{ package.class }}">
