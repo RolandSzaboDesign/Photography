@@ -116,6 +116,12 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-used.webp
 					<li><strong>{{ item.title }}</strong> {{ item.text }}</li>
 				{% endfor %}
 			</ol>
+			<div class="testimonials testimonials--single mt-2">
+				{% assign source = testimonials.items | where: "type", "automotive" %}
+				{% for item in source limit:2 %}
+					{% include 'partials/testimonial.html', type: 'text', id: forloop.index0 %}
+				{% endfor %}
+			</div>
 		</div>
 	</section>
 
