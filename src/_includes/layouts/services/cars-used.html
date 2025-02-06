@@ -282,12 +282,13 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-used.webp
 						</ul>
 						<h3 class="package__price"><del class="text-danger">{{ package.oldPrice }}</del></h3>
 						<h3 class="package__price">{{ package.newPriceDiscountText }} {{ package.newPrice }}</h3>
+						<div class="btns mt-2">
+							<a class="button" href="mailto:hi@rolandszabo.photo" target="_blank" rel="noopener noreferrer">Email</a>
+							<a class="button" href="https://www.instagram.com/rolandszabo.photo/" target="_blank" rel="noopener noreferrer">Instagram</a>
+							<a class="button" href="https://www.m.me/szaboka89/" target="_blank" rel="noopener noreferrer">Messenger</a>
+						</div>
 					</div>
 				{% endfor %}
-			</div>
-			<div class="buttons mt-1 mb-0">
-				<a class="button" href="mailto:hi@rolandszabo.photo"><i class="fas fa-envelope icon-left"></i>&nbsp; {{ site[locale].contactEmailButton }}</a>
-				<a class="button" href="https://www.instagram.com/rolandszabo.photo/"><i class="fas fa-comment icon-left"></i>&nbsp; {{ site[locale].contactInstagramButton }}</a>
 			</div>
 		</div>
 	</section>

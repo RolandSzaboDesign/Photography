@@ -116,9 +116,20 @@
 .package {
 	position: relative;
 	overflow: hidden;
-	padding: 2rem;
 	background-color: #FFF;
 	box-shadow: var(--box-shadow-small);
+}
+
+@media only screen and (max-width: 767.98px) {
+	.package {
+		padding: 1.25rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.package {
+		padding: 2rem;
+	}
 }
 
 .package--warning {
