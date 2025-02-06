@@ -132,6 +132,11 @@
 	}
 }
 
+.package .button {
+	position: relative;
+	z-index: 1;
+}
+
 .package--warning {
 	border-left: .5rem solid var(--warning);
 }
