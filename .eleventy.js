@@ -8,6 +8,8 @@ module.exports = function(eleventyConfig) {
 	// Watch for CSS and JS changes
 	eleventyConfig.addWatchTarget("src/assets/css");
 	eleventyConfig.addWatchTarget("src/assets/js");
+	eleventyConfig.addWatchTarget("src/_data");
+	eleventyConfig.addWatchTarget("src/_data/site.js");
 
 	// Quiet mode for cleaner output
 	eleventyConfig.setQuietMode(true);

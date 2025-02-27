@@ -17,17 +17,17 @@ css: home
 			<nav class="home-nav">
 				<ul class="home-nav__list">
 					<li class="home-nav__item">
-						<a class="home-nav__link home-nav__link--portrait" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/">
+						<a class="home-nav__link home-nav__link--portrait" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">
 							<span class="home-nav__link-text">{{ site[locale].homepageNavPortrait }}</span>
 						</a>
 					</li>
 					<li class="home-nav__item">
-						<a class="home-nav__link home-nav__link--automotive" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugCarPhotography }}/">
+						<a class="home-nav__link home-nav__link--automotive" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesAutomotive }}/">
 							<span class="home-nav__link-text">{{ site[locale].homepageNavAutomotive }}</span>
 						</a>
 					</li>
 					<li class="home-nav__item">
-						<a class="home-nav__link home-nav__link--social" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugSocialPhotography }}/">
+						<a class="home-nav__link home-nav__link--social" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesSocialContent }}/">
 							<span class="home-nav__link-text">{{ site[locale].homepageNavSocial }}</span>
 						</a>
 					</li>
@@ -41,8 +41,8 @@ css: home
 			<div>
 				{{ content }}
 				<div class="button-with-link">
-					<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"><i class="fas fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
-					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
+					<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/"><i class="fas fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
+					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAboutAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
 				</div>
 			</div>
 			<img src="/assets/images/roland-about.webp" alt="{{ site[locale].homePhotoTitle }}" title="{{ site[locale].homePhotoTitle }}" width="740" height="1110" loading="lazy">
@@ -84,8 +84,8 @@ css: home
 				{% endfor %}
 			</div>
 			<div class="button-with-link">
-				<a class="button" href="/{{ locale }}/{{ site[locale].slugGalleriesPortraiture }}/"><i class="fas fa-circle-right"></i>&nbsp; {{ site[locale].latestButton }}</a>
-				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugGalleryMain }}/"><i class="fas fa-circle-right"></i>&nbsp; {{ site[locale].latestButton }}</a>
+				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAboutAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
 			</div>
 		</div>
 	</section>
@@ -101,8 +101,8 @@ css: home
 			</div>
 
 			<div class="button-with-link">
-				<a class="button" href="/{{ locale }}/{{ site[locale].slugServices }}/{{ site[locale].slugPortraitPhotography }}/"><i class="fas fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
-				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugTestimonials }}/">{{ site[locale].homepageVisitTestimonials }} ({{ testimonials.items.length }})</a>
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/"><i class="fas fa-circle-right"></i>&nbsp; {{ site[locale].ctaButton }}</a>
+				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAboutTestimonials }}/">{{ site[locale].homepageVisitTestimonials }} ({{ testimonials.items.length }})</a>
 			</div>
 		</div>
 	</section>
