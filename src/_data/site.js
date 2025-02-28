@@ -52,6 +52,19 @@ module.exports = {
 		slugServicesAutomotive: "automotive-photography-budapest",
 		slugServicesSocialContent: "social-media-content-creation",
 
+		// slugServicesPortraitureMale: "male-portrait-photography-budapest",
+		// slugServicesPortraitureFemale: "female-portrait-photography-budapest",
+		// slugServicesPortraitureCouple: "couple-portrait-photography-budapest",
+		// slugServicesPortraitureFamily: "family-portrait-photography-budapest",
+		// slugServicesPortraitureBestFriends: "best-friend-portrait-photography-budapest",
+		// slugServicesPortraitureMaternity: "maternity-portrait-photography-budapest",
+		// slugServicesPortraitureEngagement: "engagement-portrait-photography-budapest",
+		// slugServicesPortraitureBrand: "brand-portrait-photography-budapest",
+		// slugServicesPortraitureCreative: "creative-portrait-photography-budapest",
+		// slugServicesPortraitureHeadshot: "headshot-photography-budapest",
+		// slugServicesPortraiturePets: "pet-portrait-photography-budapest",
+		// slugServicesPortraitureAutomotive: "automotive-portrait-photography-budapest",
+
 		slugGalleryMain: "galleries",
 
 		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
@@ -96,28 +109,9 @@ module.exports = {
 		socialCtaDescription: "If you like the above examples and would like to work with me in telling your brand's story through my images, don't be afraid to get in touch with me!",
 		socialCtaButton: "Let's work together!",
 
-		whosBehindTitle: 'Who\'s Behind the Camera?',
-		whosBehindText1: 'Great question! Hi, I\'m Roland, and I help people like you feel your best in front of the camera. I firmly believe that everyone is inherently photogenic and I\'m here to show it, one photograph at a time.',
-		whosBehindText2: 'With my empathetic personality and horrible sense of humour, I\'ll create an easy-going atmosphere where you can be your true self and not be afraid of the camera. We talk a lot, we walk a lot and we laugh a lot together. We also take some photos here and there that you\'ll definitely love in the end.',
-		whosBehindText3: 'You don\'t need to worry about posing, I\ll be helping you all along the way. Now, I know what you\'re thinking: I don\'t want my photos to look posed. I get it! So instead of showing you concrete poses, I\'ll actually teach you how to look your best when you\'re being photographed, so you can feel more confident the next time it comes to taking your photos.',
-		whosBehindText4: 'Now, if this all makes you shiver in excitement, then here\'s your ways to contact me and get started on your photographic journey.',
-		otherWaysTitle: 'Other ways I can help you',
-		otherWaysLearnMore: 'Let\'s See!',
-
 		blogWrittenBy: "Written by",
 		blogWrittenOn: "on",
 		blogRolandSzabo: "Roland Szabó",
-
-		faq: "Frequently Asked Questions",
-		format: "Solo, Couples, Families, Pets, Hobbies",
-		learnMore: "Learn More",
-
-		summaryPrice: "Price",
-		summaryIncludes: "Includes",
-		summaryDuration: "Duration",
-		summaryFormat: "Format",
-		summaryLocations: "Locations",
-		summaryOutfits: "Outfits",
 
 		photogenicDiscovery: "Photogenic Discovery",
 		photogenicDiscoveryDuration: "30 minutes",
@@ -172,6 +166,19 @@ module.exports = {
 		slugServicesAutomotive: "auto-fotozas-budapest",
 		slugServicesSocialContent: "kozossegi-tartalom-gyartas",
 
+		// slugServicesPortraitureMale: "ferfi-portre-fotozas-budapest",
+		// slugServicesPortraitureFemale: "noi-portre-fotozas-budapest",
+		// slugServicesPortraitureCouple: "paros-portre-fotozas-budapest",
+		// slugServicesPortraitureFamily: "csaladi-portre-fotozas-budapest",
+		// slugServicesPortraitureBestFriends: "legjobb-baratok-portre-fotozas-budapest",
+		// slugServicesPortraitureMaternity: "kismama-portre-fotozas-budapest",
+		// slugServicesPortraitureEngagement: "jegyesfotozas-budapest",
+		// slugServicesPortraitureBrand: "brand-portre-fotozas-budapest",
+		// slugServicesPortraitureCreative: "kreativ-portre-fotozas-budapest",
+		// slugServicesPortraitureHeadshot: "headshot-fotozas-budapest",
+		// slugServicesPortraiturePets: "kisallat-portre-fotozas-budapest",
+		// slugServicesPortraitureAutomotive: "autos-portre-fotozas-budapest",
+
 		slugGalleryMain: "galeriak",
 
 		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
@@ -217,28 +224,9 @@ module.exports = {
 		socialCtaDescription: "Ha tetszenek a fenti képek és szeretnél a Te vállalkozásodnak is szemet gyönyörködtető képeket, keress meg bizalommal! Szeretettel dolgoznék együtt kisvállalkozókkal, hazai cégekkel és influenszerekkel, hogy olyan képeket tudjunk alkotni közösen, amik elmesélik a márkád történetét és megszólítják az embereket.",
 		socialCtaButton: "Készen állok, csináljuk!",
 
-		whosBehindTitle: 'Ki van a Kamera Mögött?',
-		whosBehindText1: 'Jó kérdés! Szia, Roland vagyok, és a Hozzád hasonló, hétköznapi embereknek segítek abban, hogy ne izguljanak a kamerától. Hiszek abban, hogy mindenki önmagából eredően fotogén, és hogy mindenkiről tudok előnyös fényképet készíteni.',
-		whosBehindText2: 'Empatikus személyiségemnek és borzalmas humoromnak köszönhetően olyan nyugodt légkört tudok teremteni a fotós sétáink alatt, amiben igazán Önmagad lehetsz, és nem fogsz izgulni a kamera láttán. Sokat sétálunk, sokat beszélgetünk és még többet röhögünk. Mindeközben elkattintunk pár fotót itt-ott, amiket imádni fogsz a végén.',
-		whosBehindText3: 'Nem kell izgulnod a pózolástól sem, mert segíteni foglak végig. Tudom, hogy nem szeretnél "pózolt" fotókat, de aggodalomra semmi ok! Konkrét pózok mutatása helyett azt fogom megmutatni, hogy mire kell figyelned, ha fotóznak, így legközelebb már tudni fogod, hogyan fogsz a legjobban kinézni.',
-		whosBehindText4: 'Ha a fentiek jól hangzanak, akkor íme néhány módja a kapcsolatteremtésnek. Alig várom, hogy halljak felőled!',
-		otherWaysTitle: 'Így is Tudok Segíteni',
-		otherWaysLearnMore: 'Tudj meg többet',
-
 		blogWrittenBy: "Írta",
 		blogWrittenOn: "ekkor:",
 		blogRolandSzabo: "Szabó Roland",
-
-		faq: "Gyakran Ismételt Kérdések",
-		format: "Egyéni, Páros, Családi, Kisállat, Hobbi",
-		learnMore: "Részletek",
-
-		summaryPrice: "Ár",
-		summaryIncludes: "Végleges Fotók",
-		summaryDuration: "Fotózás Időtartama",
-		summaryFormat: "Formátum",
-		summaryLocations: "Helyszín",
-		summaryOutfits: "Ruha",
 
 		photogenicDiscovery: "Fotogén Felfedezés",
 		photogenicDiscoveryDuration: "30 perc",
