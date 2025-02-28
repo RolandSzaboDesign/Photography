@@ -1035,6 +1035,7 @@ ol.list { list-style: decimal; }
 .footer-link {
 	display: inline-block;
 	border-bottom: 0;
+	color: var(--text);
 }
 
 .footer-link + .footer-link {
