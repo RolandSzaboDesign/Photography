@@ -37,7 +37,7 @@ css: about
 				{% for item in publications.list %}
 					<li class="magazine">
 						<img class="magazine__image" src="{{ item.image }}" alt="{{ item.title }} {{ item.description }}" width="336" height="436" loading="lazy">
-						<h4 class="magazine__title">{{ item.title }}</h4>
+						<h3 class="magazine__title">{{ item.title }}</h3>
 						<p class="magazine__description">{{ item[locale].description }}</p>
 						<p class="magazine__issue">{{ item[locale].issue }}</p>
 					</li>
@@ -55,7 +55,7 @@ css: about
 		</article>
 		<figure class="about__photo">
 			<img class="about__photo-img" src="/assets/images/roland-about.webp" alt="{{ site[locale].aboutPhotoTitle }}" title="{{ site[locale].aboutPhotoTitle }}" width="740" height="1110">
-			<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/p_varsics/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterVarsics }}</a></em></figcaption>
+			<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/p_varsics/" target="_blank" rel="noopener noreferrer" title="Instagram">{{ site[locale].peterVarsics }}</a></em></figcaption>
 		</figure>
 	</section>
 </main>

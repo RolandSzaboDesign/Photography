@@ -29,11 +29,11 @@ module.exports = {
 			image: "/assets/images/publications/gmaro-39.webp",
 			en: {
 				"description": "Publication",
-				"issue": "April 2024, issue 39",
+				"issue": "April 2024",
 			},
 			hu: {
 				"description": "Megjelenés",
-				"issue": "2024 Április, 39-ik kiadás",
+				"issue": "2024 Április",
 			}
 		},
 		{
@@ -41,11 +41,11 @@ module.exports = {
 			image: "/assets/images/publications/penida-11.webp",
 			en: {
 				"description": "Publication",
-				"issue": "March 2024, issue 11",
+				"issue": "March 2024",
 			},
 			hu: {
 				"description": "Megjelenés",
-				"issue": "2024 Március, 11-ik kiadás",
+				"issue": "2024 Március",
 			}
 		},
 		{
@@ -53,11 +53,11 @@ module.exports = {
 			image: "/assets/images/publications/stylecruze-24-jan.webp",
 			en: {
 				"description": "Publication",
-				"issue": "January 2024, issue 718",
+				"issue": "January 2024",
 			},
 			hu: {
 				"description": "Megjelenés",
-				"issue": "2024 Január, 718-ik kiadás",
+				"issue": "2024 Január",
 			}
 		},
 		{
@@ -65,11 +65,11 @@ module.exports = {
 			image: "/assets/images/publications/dappy-23-dec.webp",
 			en: {
 				"description": "Front & Back Cover",
-				"issue": "December 2023, issue 03",
+				"issue": "December 2023",
 			},
 			hu: {
 				"description": "Címlap és Hátlap",
-				"issue": "2023 December, 03-ik kiadás",
+				"issue": "2023 December",
 			}
 		},
 		{
@@ -101,11 +101,11 @@ module.exports = {
 			image: "/assets/images/publications/proficient-23-nov.webp",
 			en: {
 				"description": "Front & Back Cover",
-				"issue": "November 2023, issue 141",
+				"issue": "November 2023",
 			},
 			hu: {
 				"description": "Címlap és Hátlap",
-				"issue": "2023 November, 141-ik kiadás",
+				"issue": "2023 November",
 			}
 		},
 		{
@@ -125,11 +125,11 @@ module.exports = {
 			image: "/assets/images/publications/dreamy-23-sep.webp",
 			en: {
 				"description": "Front Cover",
-				"issue": "September 2023, issue 584",
+				"issue": "September 2023",
 			},
 			hu: {
 				"description": "Címlap",
-				"issue": "2023 Szeptember, 584-ik kiadás",
+				"issue": "2023 Szeptember",
 			}
 		},
 	]
