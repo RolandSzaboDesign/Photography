@@ -1,0 +1,61 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugAboutAbout }}/"
+layout: layouts/base.html
+css: about
+---
+
+<main class="main">
+	<header class="page-header">
+		<h1 class="page-header__title">{{ title }}</h1>
+	</header>
+	<section class="about container">
+		<article class="about__content content-box">
+			<h2 class="mt-0">{{ intro.title }}</h2>
+			<p>{{ intro.text }}</p>
+			<h3>{{ why-how-what.title }}</h3>
+			<p>{{ why-how-what.why }}</p>
+			<p>{{ why-how-what.how }}</p>
+			<p>{{ why-how-what.what }}</p>
+
+			<hr class="fancy-separator fancy-separator--white"></hr>
+
+			<h2>{{ companies.title }}</h2>
+			<p>{{ companies.text }}</p>
+			<ul class="brands">
+				{% for item in companies.items %}
+					<li class="brand polaroid">
+						<img src="/assets/images/brands/{{ item.slug }}.webp" alt="{{ item.name }} logo" title="{{ item.name }}" width="200" height="200" loading="lazy">
+					</li>
+				{% endfor %}
+			</ul>
+
+			<hr class="fancy-separator fancy-separator--white"></hr>
+
+			<h2>{{ publications.title }}</h2>
+			<p>{{ publications.text }}</p>
+			<ul class="magazines">
+				{% for item in publications.list %}
+					<li class="magazine">
+						<img class="magazine__image" src="{{ item.image }}" alt="{{ item.title }} {{ item.description }}" width="336" height="436" loading="lazy">
+						<h4 class="magazine__title">{{ item.title }}</h4>
+						<p class="magazine__description">{{ item[locale].description }}</p>
+						<p class="magazine__issue">{{ item[locale].issue }}</p>
+					</li>
+				{% endfor %}
+			</ul>
+
+			<div class="emphasized">
+				<h2 class="mt-0">{{ site[locale].ctaTitle }}</h2>
+				<p>{{ site[locale].ctaText }}</p>
+				<div class="button-with-link">
+					<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
+					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleryMain }}/">{{ site[locale].homepageVisitGalleries }}</a>
+				</div>
+			</div>
+		</article>
+		<figure class="about__photo">
+			<img class="about__photo-img" src="/assets/images/roland-about.webp" alt="{{ site[locale].aboutPhotoTitle }}" title="{{ site[locale].aboutPhotoTitle }}" width="740" height="1110">
+			<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/p_varsics/" target="_blank" rel="noopener noreferrer">{{ site[locale].peterVarsics }}</a></em></figcaption>
+		</figure>
+	</section>
+</main>

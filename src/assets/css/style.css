@@ -1157,6 +1157,10 @@ ol.list { list-style: decimal; }
 	background-color: var(--bg);
 }
 
+.fancy-separator--white:before {
+	background-color: #FFF;
+}
+
 
 
 /* Page Header */
@@ -1697,10 +1701,12 @@ a.tag__link:focus {
 .mt-0 { margin-top: 0; }
 .mt-1 { margin-top: 1rem; }
 .mt-2 { margin-top: 2rem; }
+.mt-3 { margin-top: 3rem; }
 
 .mb-0 { margin-bottom: 0; }
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
+.mb-3 { margin-bottom: 3rem; }
 
 .align-stretch { align-items: stretch; }
 .align-start { align-items: start; }

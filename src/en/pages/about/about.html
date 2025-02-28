@@ -1,56 +1,40 @@
 ---
-layout: layouts/about.html
-title: About
+layout: layouts/pages/about.html
+title: Introduction
 translation: about
+
+intro:
+    title: Discover Your True Self in Photos
+    text: "I'm Roland, your Budapest portrait photographer, nice to meet you! I've been capturing portraits for three years. My journey into photography was sparked by a deep appreciation for human beauty and a desire to capture genuine emotions."
+
+why-how-what:
+    title: "The Why, How & What"
+    why: "I am dedicated to helping people like you embrace their genuine beauty through portrait photography. I believe everyone has a natural charm, and I'm here to capture that essence in a relaxed and authentic environment."
+    how: "During our relaxed portrait sessions, filled with empathy and a touch of humor, we create a space where you can authentically express yourself. You'll be surprised how quickly your initial anxiety dissipates, making way for a relaxed atmosphere and genuine emotions."
+    what: "The end result is more than just photos; it's a transformation. Expect a collection of photographs that not only capture your true self but also become a source of genuine joy. These portraits are crafted to boost your confidence and leave you with images you'll truly love."
+
+companies:
+    title: Companies I've Worked With
+    text: "Throughout my journey as a portrait photographer, I've had the privilege of collaborating with diverse and inspiring entities. Here are some of the remarkable brands I've had the pleasure of working with:"
+    items:
+      - name: GreenGo
+        slug: greengo
+      - name: Budapart
+        slug: budapart
+      - name: Maszka
+        slug: maszka
+      - name: Bartók Feszt
+        slug: bartokfeszt
+      - name: Pinceszínház
+        slug: pinceszinhaz
+      - name: PowerLab
+        slug: powerlab
+      - name: Pechke
+        slug: pechke
+      - name: HEVN
+        slug: hevn
+
+publications:
+    title: Published in Print
+    text: "My work has recently found its way into the pages of several magazines, showcasing a blend of creativity and visual storytelling. Each of these publications represent a milestone in my photographic journey, with some even gracing the covers."
 ---
-
-<h2 class="mt-0">Discover Your True Self in Photos</h2>
-<p>I'm Roland, your Budapest portrait photographer, nice to meet you! I've been capturing portraits for three years. My journey into photography was sparked by a deep appreciation for human beauty and a desire to capture genuine emotions.</p>
-<h3>The Why, How & What</h3>
-<p>I am dedicated to helping people like you embrace their genuine beauty through portrait photography. I believe everyone has a natural charm, and I'm here to capture that essence in a relaxed and authentic environment.</p>
-<p>During our relaxed portrait sessions, filled with empathy and a touch of humor, we create a space where you can authentically express yourself. You'll be surprised how quickly your initial anxiety dissipates, making way for a relaxed atmosphere and genuine emotions.</p>
-<p>The end result is more than just photos; it's a transformation. Expect a collection of photographs that not only capture your true self but also become a source of genuine joy. These portraits are crafted to boost your confidence and leave you with images you'll truly love.</p>
-
-<div class="emphasized">
-	<h2 class="mt-0">{{ site[locale].ctaTitle }}</h2>
-	<p>{{ site[locale].ctaText }}</p>
-	<div class="button-with-link">
-		<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
-		<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleryMain }}/">{{ site[locale].homepageVisitGalleries }}</a>
-	</div>
-</div>
-
-<h2>Companies I've Worked With</h2>
-<p>Throughout my journey as a portrait photographer, I've had the privilege of collaborating with diverse and inspiring entities. Here are some of the remarkable brands I've had the pleasure of working with:</p>
-<ul class="brands">
-	<li class="brand polaroid"><img src="/assets/images/brands/greengo.webp" alt="GreenGo logo" width="200" height="200" loading="lazy"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/budapart.webp" alt="Budapart logo" width="200" height="200" loading="lazy"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/maszka.webp" alt="Maszka logo" width="200" height="200" loading="lazy"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/bartokfeszt.webp" alt="BartókFeszt logo" width="200" height="200" loading="lazy"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/pinceszinhaz.webp" alt="Pinceszínház logo" width="200" height="200" loading="lazy"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/powerlab.webp" alt="PowerLab logo" width="200" height="200" loading="lazy"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/pechke.webp" alt="Pechke logo" width="200" height="200" loading="lazy"></li>
-	<li class="brand polaroid"><img src="/assets/images/brands/hevn.webp" alt="HEVN logo" width="200" height="200" loading="lazy"></li>
-</ul>
-
-<h2>Published in Print</h2>
-<p>My work has recently found its way into the pages of several magazines, showcasing a blend of creativity and visual storytelling. Each of these publications represent a milestone in my photographic journey, with some even gracing the covers.</p>
-<ul class="magazines">
-	{% for item in publications.list %}
-		<li class="magazine">
-			<img class="magazine__image" src="{{ item.image }}" alt="{{ item.title }} {{ item.description }}" width="336" height="436" loading="lazy">
-			<h4 class="magazine__title">{{ item.title }} Magazine</h4>
-			<p class="magazine__description">{{ item[locale].description }}</p>
-			<p class="magazine__issue">{{ item[locale].issue }}</p>
-		</li>
-	{% endfor %}
-</ul>
-
-<div class="emphasized">
-	<h2 class="mt-0">{{ site[locale].ctaTitle }}</h2>
-	<p>{{ site[locale].ctaText }}</p>
-	<div class="button-with-link">
-		<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
-		<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleryMain }}/">{{ site[locale].homepageVisitGalleries }}</a>
-	</div>
-</div>
