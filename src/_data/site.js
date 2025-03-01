@@ -139,7 +139,7 @@ module.exports = {
 		navAboutAbout: "Bemutatkozás",
 		navAboutTestimonials: "Rólam Mondtátok",
 		navAboutGear: "Felszerelés",
-		navAboutContact: "Elérhetőségeim",
+		navAboutContact: "Kapcsolat",
 
 		navServicesMain: "Szolgáltatások",
 		navServicesPortraiture: "Portré Fotózás",
