@@ -1,0 +1,41 @@
+---
+permalink: /{{ locale }}/{{ site[locale].slugServicesMain }}/
+layout: layouts/base.html
+title: Services
+translation: services
+---
+
+<main class="main">
+	<div class="container">
+		<header class="page-header">
+			<h1 class="page-header__title">{{ site[locale].navServicesMain }}</h1>
+		</header>
+
+		<div class="third">
+			<figure class="polaroid">
+				<a class="polaroid__square" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">
+					<img class="polaroid__photo" src="/assets/images/portraiture/gerda-2/07_700.webp" alt="{{ site[locale].navServicesPortraiture }}" title="{{ site[locale].navServicesPortraiture }}" width="500" height="750">
+				</a>
+				<figcaption class="polaroid__caption">
+					<span class="polaroid__title mt-0 mb-0">{{ site[locale].navServicesPortraiture }}</span>
+				</figcaption>
+			</figure>
+			<figure class="polaroid">
+				<a class="polaroid__square" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesAutomotive }}/">
+					<img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/cars/944-1.jpg" alt="{{ site[locale].navServicesAutomotive }}" title="{{ site[locale].navServicesAutomotive }}" width="500" height="750">
+				</a>
+				<figcaption class="polaroid__caption">
+					<span class="polaroid__title mt-0 mb-0">{{ site[locale].navServicesAutomotive }}</span>
+				</figcaption>
+			</figure>
+			<figure class="polaroid">
+				<a class="polaroid__square" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesSocialContent }}/">
+					<img class="polaroid__photo" src="https://ik.imagekit.io/rolandszabophoto/social-content/dam-7.jpg" alt="{{ site[locale].navServicesSocialContent }}" title="{{ site[locale].navServicesSocialContent }}" width="500" height="750">
+				</a>
+				<figcaption class="polaroid__caption">
+					<span class="polaroid__title mt-0 mb-0">{{ site[locale].navServicesSocialContent }}</span>
+				</figcaption>
+			</figure>
+		</div>
+	</div>
+</main>
