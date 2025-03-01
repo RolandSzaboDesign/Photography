@@ -1,0 +1,57 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugAboutContact }}/"
+layout: layouts/base.html
+css: contact
+---
+
+<main class="main">
+	<header class="page-header">
+		<h1 class="page-header__title">{{ site[locale].navAboutContact }}</h1>
+	</header>
+	<section class="contact container">
+		<article class="contact__content content-box">
+			<p>{{ status.text1 }} <strong>{{ status.status }} <i class="{{ status.icon }}"></i></strong> {{ status.text2 }}</p>
+			<p>{{ work.intro }}</p>
+			<ul class="list">
+				{% for item in work.items %}
+				<li><strong>{{ item.title }}</strong> &ndash; {{ item.text }}</li>
+				{% endfor %}
+			</ul>
+			{% include 'partials/contact-options.html' %}
+
+			<hr>
+			<h2>{{ social-media.title }}</h2>
+			<p>{{ social-media.text }}</p>
+			<ul class="list">
+				{% for item in social-media.items %}
+					<li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></li>
+				{% endfor %}
+			</ul>
+
+			{% if newsletter.title %}
+				<hr>
+				<h2>{{ newsletter.title }}</h2>
+				<p>{{ newsletter.text1 }}</p>
+				<p>{{ newsletter.text2 }}</p>
+				<form name="newsletter" method="POST" data-netlify="true">
+					<input type="hidden" name="form-name" value="newsletter">
+					<input class="input" type="email" name="email" placeholder="{{ newsletter.placeholder }}" required>
+					<button class="button" type="submit">{{ newsletter.button }}</button>
+				</form>
+			{% endif %}
+
+			<hr>
+			<h2>{{ legal.title }}</h2>
+			<p>{{ legal.text1 }} <a href="https://rolandszabo.design/" target="_blank">{{ legal.author }}</a>. {{ legal.text2 }} <a href="{{ legal.ssgUrl }}" target="_blank" rel="noopener noreferrer">{{ legal.ssg }}</a>, {{ legal.text3 }} <a href="{{ legal.cdnUrl }}" target="_blank" rel="noopener noreferrer">{{ legal.cdn }}</a>.</p>
+			<ul class="list">
+				<li><a href="/{{ locale }}/{{ site[locale].slugLegalPrivacy }}/">{{ site[locale].navLegalPrivacy }}</a></li>
+				<li><a href="/{{ locale }}/{{ site[locale].slugLegalTerms }}/">{{ site[locale].navLegalTerms }}</a></li>
+				<li><a href="/{{ locale }}/{{ site[locale].slugLegalCookies }}/">{{ site[locale].navLegalCookies }}</a></li>
+			</ul>
+		</article>
+		<figure class="contact__photo">
+			<img class="contact__photo-img" src="/assets/images/roland-contact.webp" alt="{{ site[locale].contactPhotoTitle }}" title="{{ site[locale].contactPhotoTitle }}" width="740" height="1110">
+			<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer" title="Instagram">{{ site[locale].danosNemeth }}</a></em></figcaption>
+		</figure>
+	</section>
+</main>

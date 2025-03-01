@@ -1,40 +1,45 @@
 ---
-layout: layouts/contact.html
-title: Kapcsolat
+layout: layouts/pages/contact.html
+title: Contact
 translation: contact
+
+status:
+    text1: Jelenleg
+    status: elérhető
+    icon: fa fa-check-circle text-highlight
+    text2: vagyok fotózásra Budapesten és környékén.
+
+work:
+    intro: "Szívesen dolgoznék együtt Veled a következők egyikében:"
+    items:
+      - title: Portré fotózás
+        text: egyéni, páros, családi, akár kisállattal; kültéri fotós séták, és kreatív fotózás
+      - title: Jármű fotózás
+        text: autó és motor szépségfotók, ha megtartod, vagy szakszerű használtautó-fotózás, ha eladnád
+      - title: Közösségitartalom-gyártás
+        text: fotóriportok, termékfotók a weboldaladra vagy a közösségi felületeidre
+      - title: Ezen kívül mindenfélét fotózom
+        text: eseményektől a termékfotózáson át esküvőkig szinte mindent
+
+social-media:
+    title: Közösségi Oldalak
+    text: Az alábbi platformokon vagyok jelen. Kövess be, ha tetszik, amit itt látsz!
+    items:
+      - title: Fotós Instagram
+        url: https://instagram.com/rolandszabo.photo/
+      - title: Portrés Instagram
+        url: https://instagram.com/rolandszabo.portrait/
+      - title: Autós Instagram
+        url: https://instagram.com/rolandszabo.cars/
+
+legal:
+    title: Apróbetű & Jogi Információk
+    text1: A weboldalt kézzel készítette HTML/CSS/JavaScript nyelveken
+    author: Roland Szabó Design
+    text2: "Generátor:"
+    ssg: Eleventy
+    ssgUrl: https://www.11ty.dev/
+    text3: "hoszting:"
+    cdn: Netlify
+    cdnUrl: https://www.netlify.com/
 ---
-
-<p>Jelenleg <strong>elérhető <i class="fas fa-check-circle text-highlight"></i></strong> vagyok fotózásra Budapesten és környékén.</p>
-<p>Szívesen dolgoznék együtt Veled a következők egyikében:</p>
-<ul class="list">
-	<li><strong>Portré fotózás</strong> &ndash; egyéni, páros, családi, akár kisállattal; kültéri fotós séták, és kreatív fotózás</li>
-	<li><strong>Jármű fotózás</strong> &ndash; autó és motor szépségfotók, ha megtartod, vagy szakszerű használtautó-fotózás, ha eladnád</li>
-	<li><strong>Közösségitartalom-gyártás</strong> &ndash; fotóriportok, termékfotók a weboldaladra vagy a közösségi felületeidre</li>
-	<li><strong>Ezen kívül mindenfélét fotózom</strong> &ndash; eseményektől a termékfotózáson át esküvőkig szinte mindent</li>
-</ul>
-
-<hr>
-<h2>Kapcsolatfelvétel</h2>
-{% include 'partials/contact-options.html' %}
-
-<hr>
-<h2>Közösségi Oldalak</h2>
-<p>Az alábbi platformokon vagyok jelen. Kövess be, ha tetszik, amit itt látsz!</p>
-<ul class="list">
-	<li><a href="https://instagram.com/rolandszabo.photo/" target="_blank" rel="noopener noreferrer">Fotós Instagram</a></li>
-	<li><a href="https://instagram.com/rolandszabo.portrait/" target="_blank" rel="noopener noreferrer">Portrés Instagram</a></li>
-	<li><a href="https://instagram.com/rolandszabo.cars/" target="_blank" rel="noopener noreferrer">Autós Instagram</a></li>
-</ul>
-
-<hr>
-<h2>Apróbetű & Jogi Információk</h2>
-<p>A weboldalt kézzel készítette <a href="https://rolandszabo.design/" target="_blank">{{ site[locale].headerName }}</a> HTML/CSS/JavaScript nyelveken; <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a>-vel lett generálva, és a <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>-on van kiszolgálva.</p>
-<ul class="list">
-	<li><a href="/{{ locale }}/{{ site[locale].slugLegalPrivacy }}/">{{ site[locale].navLegalPrivacy }}</a></li>
-	<li><a href="/{{ locale }}/{{ site[locale].slugLegalTerms }}/">{{ site[locale].navLegalTerms }}</a></li>
-	<li><a href="/{{ locale }}/{{ site[locale].slugLegalCookies }}/">{{ site[locale].navLegalCookies }}</a></li>
-</ul>
-
-<hr>
-<p>Alig várom, hogy együtt dolgozzunk!</p>
-<p><a class="button" href="mailto:hi@rolandszabo.photo"><i class="fas fa-envelope"></i>&nbsp; Írj Emailt</a></p>
