@@ -36,10 +36,10 @@
 /en/experiences/signature-experience/					/en/services/portrait-photography-budapest/
 /en/experiences/ultimate-journey/						/en/services/portrait-photography-budapest/
 /en/female-portraits/									/en/services/portrait-photography-budapest/
-/en/galleries/											/en/portraiture/
+/en/portraiture/										/en/galleries/
 /en/male-portraits/										/en/services/portrait-photography-budapest/
-/en/portre/												/en/portraiture/
-/en/pages/aiganysh/										/en/portraiture/aiganysh/
+/en/portre/												/en/galleries/
+/en/pages/aiganysh/										/en/galleries/aiganysh/
 /en/services/automotive-photography/					/en/services/automotive-photography-budapest/
 /en/services/autumn-portrait-photography/				/en/services/portrait-photography-budapest/
 /en/services/film-photo-walks/							/en/services/portrait-photography-budapest/
@@ -70,8 +70,8 @@
 /en/tags/photo%20story/									/en/tags/all/
 /en/tags/stores/										/en/tags/all/
 /en/tags/used-car-photos/								/en/tags/all/
-/galleries												/en/portraiture/
-/galleries/												/en/portraiture/
+/galleries												/en/galleries/
+/galleries/												/en/galleries/
 /gear													/en/gear/
 /gear/													/en/gear/
 /hu/auto/												/hu/szolgaltatasok/auto-fotozas-budapest/
@@ -84,7 +84,7 @@
 /hu/elmenyek/a-megszokott-elmeny/						/hu/szolgaltatasok/portre-fotozas-budapest/
 /hu/elmenyek/a-te-izlesed-szerint/						/hu/szolgaltatasok/portre-fotozas-budapest/
 /hu/ferfi-portrek/										/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/galeriak/											/hu/portre/
+/hu/galeriak/											/hu/galeriak/
 /hu/kozossegi-tartalom/									/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
 /hu/kozossegi-tartalom/aqua-toria/						/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
 /hu/kozossegi-tartalom/budapart-mol-limo/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
@@ -94,11 +94,12 @@
 /hu/kozossegi-tartalom/the-damn-good-place/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
 /hu/naptar/												/hu/
 /hu/noi-portrek/										/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/pages/alejandro-ana/								/hu/portre/alejandro-ana/
-/hu/pages/anna-15/										/hu/portre/anna-15/
+/hu/pages/alejandro-ana/								/hu/galeriak/alejandro-ana/
+/hu/pages/anna-15/										/hu/galeriak/anna-15/
 /hu/paros-portrek/										/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/portraiture/										/hu/portre/
-/hu/portre/adel-sango//1000								/hu/portre/
+/hu/portraiture/										/hu/galeriak/
+/hu/portre/												/hu/galeriak/
+/hu/galeriak/adel-sango//1000							/hu/galeriak/
 /hu/szolgaltatasok/auto-fotozas/						/hu/szolgaltatasok/auto-fotozas-budapest/
 /hu/szolgaltatasok/filmes-fotos-setak/					/hu/szolgaltatasok/portre-fotozas-budapest/
 /hu/szolgaltatasok/oszi-portre-fotozas/					/hu/szolgaltatasok/portre-fotozas-budapest/
@@ -137,47 +138,47 @@
 /landscape/sas-hegy-2021-11-14/							/hu/
 /legal													/en/contact/
 /legal/													/en/contact/
-/portrait												/en/portraiture/
-/portrait/												/en/portraiture/
-/portrait/dalma/										/en/portraiture/dalma/
-/portrait/daniella/										/en/portraiture/daniella/
-/portrait/denise-mark/									/en/portraiture/denise-mark/
-/portrait/eniko-barbi/									/en/portraiture/
-/portrait/fanni/										/en/portraiture/fanni-2/
-/portrait/gabi-szabi/									/en/portraiture/
-/portrait/imola/										/en/portraiture/
-/portrait/kata-2/										/en/portraiture/kata/
-/portrait/kata-3/										/en/portraiture/kata/
-/portrait/kata/											/en/portraiture/kata/
-/portrait/kinga/										/en/portraiture/kinga/
-/portrait/kitti/										/en/portraiture/kitti/
-/portrait/lacko/										/en/portraiture/lacko/
-/portrait/laura-2/										/en/portraiture/laura/
-/portrait/laura/										/en/portraiture/laura/
-/portrait/levente/										/en/portraiture/levente/
-/portrait/lilla/										/en/portraiture/lilla/
-/portrait/loretta-2/									/en/portraiture/loretta/
-/portrait/loretta-3/									/en/portraiture/loretta/
-/portrait/loretta/										/en/portraiture/loretta/
-/portrait/niki-dani/									/en/portraiture/
-/portrait/reka/											/en/portraiture/reka/
-/portrait/tanya/										/en/portraiture/
-/portrait/timi/											/en/portraiture/
-/portrait/tina-evelin/									/en/portraiture/
-/portrait/velva/										/en/portraiture/velva/
-/portrait/viki-egon-felix/								/en/portraiture/viki-egon-felix/
-/portrait/viki-egon/									/en/portraiture/viki-egon-felix/
-/portrait/viktoria/										/en/portraiture/viki-virag/
-/portrait/virag/										/en/portraiture/viki-virag/
-/portrait/vivi-2/										/en/portraiture/vivi/
-/portrait/vivi-3/										/en/portraiture/vivi/
-/portrait/vivi/											/en/portraiture/vivi/
-/portrait/vivien/										/en/portraiture/vivi/
-/portraiture											/en/portraiture/
-/portraiture/											/en/portraiture/
-/portraiture/dalma/										/en/portraiture/dalma/
-/portraiture/reka/										/en/portraiture/reka/
-/portraiture/viki-virag/								/en/portraiture/viki-virag/
+/portrait												/en/galleries/
+/portrait/												/en/galleries/
+/portrait/dalma/										/en/galleries/dalma/
+/portrait/daniella/										/en/galleries/daniella/
+/portrait/denise-mark/									/en/galleries/denise-mark/
+/portrait/eniko-barbi/									/en/galleries/
+/portrait/fanni/										/en/galleries/fanni-2/
+/portrait/gabi-szabi/									/en/galleries/
+/portrait/imola/										/en/galleries/
+/portrait/kata-2/										/en/galleries/kata/
+/portrait/kata-3/										/en/galleries/kata/
+/portrait/kata/											/en/galleries/kata/
+/portrait/kinga/										/en/galleries/kinga/
+/portrait/kitti/										/en/galleries/kitti/
+/portrait/lacko/										/en/galleries/lacko/
+/portrait/laura-2/										/en/galleries/laura/
+/portrait/laura/										/en/galleries/laura/
+/portrait/levente/										/en/galleries/levente/
+/portrait/lilla/										/en/galleries/lilla/
+/portrait/loretta-2/									/en/galleries/loretta/
+/portrait/loretta-3/									/en/galleries/loretta/
+/portrait/loretta/										/en/galleries/loretta/
+/portrait/niki-dani/									/en/galleries/
+/portrait/reka/											/en/galleries/reka/
+/portrait/tanya/										/en/galleries/
+/portrait/timi/											/en/galleries/
+/portrait/tina-evelin/									/en/galleries/
+/portrait/velva/										/en/galleries/velva/
+/portrait/viki-egon-felix/								/en/galleries/viki-egon-felix/
+/portrait/viki-egon/									/en/galleries/viki-egon-felix/
+/portrait/viktoria/										/en/galleries/viki-virag/
+/portrait/virag/										/en/galleries/viki-virag/
+/portrait/vivi-2/										/en/galleries/vivi/
+/portrait/vivi-3/										/en/galleries/vivi/
+/portrait/vivi/											/en/galleries/vivi/
+/portrait/vivien/										/en/galleries/vivi/
+/portraiture											/en/galleries/
+/portraiture/											/en/galleries/
+/portraiture/dalma/										/en/galleries/dalma/
+/portraiture/reka/										/en/galleries/reka/
+/portraiture/viki-virag/								/en/galleries/viki-virag/
 /social-content											/en/services/social-media-content-creation/
 /social-content/										/en/services/social-media-content-creation/
 /social-content/budapart-mol-limo/						/en/services/social-media-content-creation/
@@ -202,37 +203,6 @@
 /tags/lifestyle/										/hu/tags/all/
 /tags/solo/												/hu/tags/egyéni/
 /tags/used%20car%20photos/								/hu/tags/all/
-
-/hu/portre/eszter-12/Great photographer, I can only recommend him!							/hu/portre/eszter-12/
-/hu/portre/andi/Great photographer, I can only recommend him!								/hu/portre/andi/
-/en/portraiture/blanka-3/Great photographer, I can only recommend him!						/en/portraiture/blanka-3/
-/en/portraiture/emilia/Great photographer, I can only recommend him!						/en/portraiture/emilia/
-/hu/portre/jelena-adrijan/Great photographer, I can only recommend him!						/hu/portre/jelena-adrijan/
-/en/portraiture/reka-2/Great photographer, I can only recommend him!						/en/portraiture/reka-2/
-/hu/portre/bia/Great photographer, I can only recommend him!								/hu/portre/bia/
-/hu/portre/Great photographer, I can only recommend him!									/hu/portre/
-/hu/portre/laura-6/Great photographer, I can only recommend him!							/hu/portre/laura-6/
-/hu/szolgaltatasok/portre-fotozas-budapest/Great photographer, I can only recommend him!			/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/portre/betti-laci/Great photographer, I can only recommend him!							/hu/portre/betti-laci/
-/hu/portre/dori/Great photographer, I can only recommend him!								/hu/portre/dori/
-/hu/portre/maria/Great photographer, I can only recommend him!								/hu/portre/maria/
-/en/portraiture/eszter-17/Great photographer, I can only recommend him!						/en/portraiture/eszter-17/
-/en/portraiture/bence-2/Great photographer, I can only recommend him!						/en/portraiture/bence-2/
-/hu/Great photographer, I can only recommend him!											/hu/
-/en/portraiture/jelena-adrijan/Great photographer, I can only recommend him!				/en/portraiture/jelena-adrijan/
-/en/portraiture/vivi-norbi/Great photographer, I can only recommend him!					/en/portraiture/vivi-norbi/
-/hu/portre/karcsi/Great photographer, I can only recommend him!								/hu/portre/karcsi/
-/en/portraiture/tomer/Great photographer, I can only recommend him!							/en/portraiture/tomer/
-/en/portraiture/laura-4/Great photographer, I can only recommend him!						/en/portraiture/laura-4/
-/en/services/portrait-photography-budapest/Great photographer, I can only recommend him!				/en/services/portrait-photography-budapest/
-/en/portraiture/blanka-3/Great photographer, I can only recommend him!						/en/portraiture/blanka-3/
-/hu/portre/bia/Great photographer, I can only recommend him!								/hu/portre/bia/
-/hu/portre/Great photographer, I can only recommend him!									/hu/portre/
-/hu/portre/betti-laci/Great photographer, I can only recommend him!							/hu/portre/betti-laci/
-/hu/szolgaltatasok/portre-fotozas-budapest/Great photographer, I can only recommend him!			/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/portre/dori/Great photographer, I can only recommend him!								/hu/portre/dori/
-/en/portraiture/tomer/Great photographer, I can only recommend him!							/en/portraiture/tomer/
-/en/portraiture/bence-2/Great photographer, I can only recommend him!						/en/portraiture/bence-2/
 
 /en/*		/en/404.html		404
 /hu/*		/hu/404.html		404
