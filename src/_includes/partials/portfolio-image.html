@@ -1,0 +1,18 @@
+{% assign image = include.image %}
+
+<picture>
+	<source srcset="/assets/images/portfolio/{{ image.filename }}_600.webp 600w,
+					/assets/images/portfolio/{{ image.filename }}_800.webp 800w"
+			type="image/webp">
+	<img src="/assets/images/portfolio/{{ image.filename }}_300.webp"
+		 srcset="/assets/images/portfolio/{{ image.filename }}_300.webp 300w,
+				 /assets/images/portfolio/{{ image.filename }}_370.webp 370w,
+				 /assets/images/portfolio/{{ image.filename }}_600.webp 600w,
+				 /assets/images/portfolio/{{ image.filename }}_800.webp 800w"
+		 sizes="(max-width: 767px) 370px, (max-width: 1199px) 300px, 300px"
+		 alt="{{ image.name }}"
+		 title="{{ image.name }}"
+		 loading="lazy"
+		 width="300"
+		 height="450">
+</picture>

@@ -32,7 +32,7 @@ module.exports = {
 		navServicesAutomotive: "Automotive Photography",
 		navServicesSocialContent: "Branding & Social Content Creation",
 
-		navGalleryMain: "Gallery",
+		navPortfolioMain: "Portfolio",
 
 		navProjectsMain: "Projects",
 		navProjectsBudapestPhotoWalk: "Budapest Photo Walk",
@@ -65,7 +65,7 @@ module.exports = {
 		// slugServicesPortraiturePets: "pet-portrait-photography-budapest",
 		// slugServicesPortraitureAutomotive: "automotive-portrait-photography-budapest",
 
-		slugGalleryMain: "galleries",
+		slugPortfolio: "portfolio",
 
 		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
 		slugProjectsBlog: "blog",
@@ -146,7 +146,7 @@ module.exports = {
 		navServicesAutomotive: "Autó Fotózás",
 		navServicesSocialContent: "Branding & Social Fotózás",
 
-		navGalleryMain: "Galéria",
+		navPortfolioMain: "Portfólió",
 
 		navProjectsMain: "Projektek",
 		navProjectsBudapestPhotoWalk: "Budapest Photo Walk",
@@ -179,7 +179,7 @@ module.exports = {
 		// slugServicesPortraiturePets: "kisallat-portre-fotozas-budapest",
 		// slugServicesPortraitureAutomotive: "autos-portre-fotozas-budapest",
 
-		slugGalleryMain: "galeriak",
+		slugPortfolio: "portfolio",
 
 		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
 		slugProjectsBlog: "blog",

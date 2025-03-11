@@ -1,0 +1,28 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugPortfolio }}/"
+layout: layouts/base.html
+title: Portfólió
+translation: portfolio
+---
+
+<main class="main">
+	<div class="container">
+		<header class="page-header">
+			<h1 class="page-header__title">{{ title }}</h1>
+		</header>
+		<div class="portfolio">
+			{% for image in portfolio %}
+				<div class="portfolio__item">
+					{% include "partials/portfolio-image.html", image: image %}
+					<!-- {% if image.category == "male" %}
+						{% if locale == "hu" %} Férfi {% else %} Male {% endif %}
+					{% elsif image.category == "female" %}
+						{% if locale == "hu" %} Női {% else %} Female {% endif %}
+					{% elsif image.category == "couple" %}
+						{% if locale == "hu" %} Páros {% else %} Couple {% endif %}
+					{% endif %} -->
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</main>

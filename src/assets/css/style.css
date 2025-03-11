@@ -1450,19 +1450,33 @@ ol.list { list-style: decimal; }
 	text-align: center;
 }
 
-.gallery--portfolio {
-	grid-gap: 1rem;
-	padding-bottom: 4rem;
+.portfolio {
+	display: grid;
+	grid-gap: 10px;
 }
 
-.gallery--portfolio .polaroid {
-	cursor: pointer;
-	transition: var(--transition-duration) box-shadow;
+@media only screen and (max-width: 767.98px) {
+	.portfolio {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
-.gallery--portfolio .polaroid:hover,
-.gallery--portfolio .polaroid:focus {
-	box-shadow: var(--box-shadow-strong);
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+	.portfolio {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+	.portfolio {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.portfolio {
+		grid-template-columns: repeat(5, 1fr);
+	}
 }
 
 
@@ -1642,14 +1656,6 @@ a.tag__link:focus {
 	align-items: start;
 	margin-bottom: 2rem;
 }
-
-/*
-	@media only screen and (min-width: 768px) {
-		.faqs {
-			grid-template-columns: repeat(2, 1fr);
-		}
-	}
-*/
 
 .faq {
 	background-color: #FFF;
