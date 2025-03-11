@@ -32,7 +32,7 @@ module.exports = {
 		navServicesAutomotive: "Automotive Photography",
 		navServicesSocialContent: "Branding & Social Content Creation",
 
-		navGalleryMain: "Gallery",
+		navPortfolioMain: "Portfolio",
 
 		navProjectsMain: "Projects",
 		navProjectsBudapestPhotoWalk: "Budapest Photo Walk",
@@ -65,7 +65,7 @@ module.exports = {
 		// slugServicesPortraiturePets: "pet-portrait-photography-budapest",
 		// slugServicesPortraitureAutomotive: "automotive-portrait-photography-budapest",
 
-		slugGalleryMain: "galleries",
+		slugPortfolio: "portfolio",
 
 		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
 		slugProjectsBlog: "blog",
@@ -113,6 +113,11 @@ module.exports = {
 		blogWrittenOn: "on",
 		blogRolandSzabo: "Roland Szabó",
 
+		portfolioAll: "All",
+		portfolioFemale: "Female",
+		portfolioMale: "Male",
+		portfolioCouples: "Couples",
+
 		photogenicDiscovery: "Photogenic Discovery",
 		photogenicDiscoveryDuration: "30 minutes",
 		photogenicDiscoveryPhotos: "3 photos",
@@ -146,7 +151,7 @@ module.exports = {
 		navServicesAutomotive: "Autó Fotózás",
 		navServicesSocialContent: "Branding & Social Fotózás",
 
-		navGalleryMain: "Galéria",
+		navPortfolioMain: "Portfólió",
 
 		navProjectsMain: "Projektek",
 		navProjectsBudapestPhotoWalk: "Budapest Photo Walk",
@@ -179,7 +184,7 @@ module.exports = {
 		// slugServicesPortraiturePets: "kisallat-portre-fotozas-budapest",
 		// slugServicesPortraitureAutomotive: "autos-portre-fotozas-budapest",
 
-		slugGalleryMain: "galeriak",
+		slugPortfolio: "portfolio",
 
 		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
 		slugProjectsBlog: "blog",
@@ -227,6 +232,11 @@ module.exports = {
 		blogWrittenBy: "Írta",
 		blogWrittenOn: "ekkor:",
 		blogRolandSzabo: "Szabó Roland",
+
+		portfolioAll: "Összes",
+		portfolioFemale: "Női",
+		portfolioMale: "Férfi",
+		portfolioCouples: "Páros",
 
 		photogenicDiscovery: "Fotogén Felfedezés",
 		photogenicDiscoveryDuration: "30 perc",

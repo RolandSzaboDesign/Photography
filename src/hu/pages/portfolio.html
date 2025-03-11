@@ -1,0 +1,32 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugPortfolio }}/"
+layout: layouts/base.html
+title: Portfólió
+translation: portfolio
+css: portfolio
+---
+
+<main class="main">
+	<div class="container">
+		<header class="page-header">
+			<h1 class="page-header__title">{{ title }}</h1>
+			<nav class="filter">
+				<a class="filter__btn filter__btn--active" data-filter="all">{{ site[locale].portfolioAll }}</a>
+				<a class="filter__btn" data-filter="female">{{ site[locale].portfolioFemale }}</a>
+				<a class="filter__btn" data-filter="male">{{ site[locale].portfolioMale }}</a>
+				<a class="filter__btn" data-filter="couple">{{ site[locale].portfolioCouples }}</a>
+			</nav>
+		</header>
+		<div class="portfolio">
+			{% assign sortedPortfolio = portfolio | sort: "date" | sort: "priority" | reverse %}
+			{% for image in sortedPortfolio %}
+				{% include "partials/portfolio-image.html", image: image %}
+			{% endfor %}
+		</div>
+		{% include "partials/cta.html", count: 3 %}
+	</div>
+</main>
+
+<script src="/assets/js/portfolio-filter.js" defer></script>
+
+{% include "partials/lightbox.html" %}
