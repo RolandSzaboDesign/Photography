@@ -1,92 +1,64 @@
-let portfolioImage = document.querySelectorAll('.polaroid');
-let lightboxEnabled = document.querySelectorAll('.polaroid__photo');
-let lightboxArray = Array.from(lightboxEnabled);
-let lastImage = lightboxArray.length - 1;
-let lightboxContainer = document.querySelector('.lightbox');
-let lightboxImage = document.querySelector('.lightbox__image');
-let lightboxCaption = document.querySelector('.lightbox__caption');
-let lightboxClose = document.querySelector('.lightbox__close');
-let lightboxButtons = document.querySelectorAll('.lightbox__arrow');
-let lightboxLeft = document.querySelector('#left');
-let lightboxRight = document.querySelector('#right');
-let activeImage;
+document.addEventListener("DOMContentLoaded", function () {
+	const lightboxContainer = document.querySelector('.lightbox');
+	const lightboxImage = document.querySelector('.lightbox__image');
+	const lightboxCaption = document.querySelector('.lightbox__caption');
+	const lightboxClose = document.querySelector('.lightbox__close');
+	const lightboxButtons = document.querySelectorAll('.lightbox__arrow');
+	const lightboxLeft = document.querySelector('#left');
+	const lightboxRight = document.querySelector('#right');
 
-const removeButtonInactiveClass = () => {
-	lightboxButtons.forEach(btn => {
-		btn.classList.remove('hidden');
-	})
-}
+	let lightboxArray = [];
+	let activeImageIndex = 0;
 
-const setActiveImage = (image) => {
-	lightboxImage.src = image.src;
-	lightboxImage.alt = image.alt;
-	lightboxCaption.innerHTML = image.alt;
-	activeImage = lightboxArray.indexOf(image);
-	removeButtonInactiveClass();
+	const showLightbox = () => lightboxContainer.classList.add('active');
+	const hideLightbox = () => lightboxContainer.classList.remove('active');
 
-	switch (activeImage) {
-		case 0:
-			lightboxLeft.classList.add('hidden');
-			break;
-		case lastImage:
-			lightboxRight.classList.add('hidden');
-			break;
-		default:
-			lightboxButtons.forEach(btn => {
-			removeButtonInactiveClass();
-		})
-	}
-}
+	const updateNavButtons = () => {
+		lightboxLeft.classList.toggle('hidden', activeImageIndex === 0);
+		lightboxRight.classList.toggle('hidden', activeImageIndex === lightboxArray.length - 1);
+	};
 
-const showLightbox = () => { lightboxContainer.classList.add('active') }
-const hideLightbox = () => { lightboxContainer.classList.remove('active') }
+	const setActiveImage = (index) => {
+		if (index < 0 || index >= lightboxArray.length) return;
+		const link = lightboxArray[index];
 
-const showLeft = () => { activeImage === 0 ? setActiveImage(lightboxArray[lastImage]) : setActiveImage(lightboxArray[--activeImage]) }
-const showRight = () => { activeImage === lastImage ? setActiveImage(lightboxArray[0]) : setActiveImage(lightboxArray[++activeImage]) }
+		lightboxImage.src = link.href;
+		lightboxImage.alt = link.title;
+		lightboxCaption.textContent = link.title;
+		activeImageIndex = index;
+		updateNavButtons();
+	};
 
-const navigate = (direction) => {
-	direction.includes('left') ? showLeft() : showRight();
-}
+	const showLeft = () => setActiveImage(activeImageIndex - 1);
+	const showRight = () => setActiveImage(activeImageIndex + 1);
 
-lightboxEnabled.forEach(image => {
-	image.addEventListener('click', (e) => {
-		showLightbox();
-		setActiveImage(image);
-	})
-})
+	const navigate = (direction) => direction.includes('left') ? showLeft() : showRight();
 
-lightboxContainer.addEventListener('click', () => {
-	hideLightbox();
-})
+	document.addEventListener('click', (e) => {
+		if (e.target.closest('.portfolio__link')) {
+			e.preventDefault();
+			lightboxArray = Array.from(document.querySelectorAll('.portfolio__link'));
+			activeImageIndex = lightboxArray.indexOf(e.target.closest('.portfolio__link'));
+			setActiveImage(activeImageIndex);
+			showLightbox();
+			return;
+		}
 
-lightboxClose.addEventListener('click', (e) => {
-	e.preventDefault();
-	hideLightbox();
-})
+		if (e.target === lightboxContainer || e.target === lightboxClose) {
+			hideLightbox();
+		}
 
-lightboxButtons.forEach(btn => {
-	btn.addEventListener('click', (e) => {
-		e.preventDefault();
-		e.stopPropagation();
-		navigate(e.currentTarget.id);
-	})
-})
+		if (e.target.closest('.lightbox__arrow')) {
+			e.preventDefault();
+			e.stopPropagation();
+			navigate(e.target.closest('.lightbox__arrow').id);
+		}
+	});
 
-portfolioImage.forEach(link => {
-	link.addEventListener('click', (e) => {
-		e.preventDefault();
-	})
-})
-
-window.addEventListener('keydown', (e) => {
-	if(!lightboxContainer.classList.contains('active')) return;
-	if(e.key.includes('Left') || e.key.includes('Right')) {
-		e.preventDefault();
-		navigate(e.key.toLowerCase());
-	}
-	if(e.key.includes('Esc')) {
-		e.preventDefault();
-		hideLightbox();
-	}
-})
-
+	window.addEventListener('keydown', (e) => {
+		if (!lightboxContainer.classList.contains('active')) return;
+		if (e.key === 'ArrowLeft') showLeft();
+		if (e.key === 'ArrowRight') showRight();
+		if (e.key === 'Escape') hideLightbox();
+	});
+});

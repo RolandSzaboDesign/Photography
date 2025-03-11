@@ -343,7 +343,7 @@ module.exports = [
 		priority: "2",
 	},
 	{
-		name: "karen",
+		name: "Karen",
 		filename: "karen",
 		category: "female",
 		date: "2024.05.30.",

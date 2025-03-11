@@ -27,6 +27,10 @@
 	}
 }
 
+.portfolio__link {
+	border: 0;
+}
+
 .portfolio__image {
 	display: flex;
 }

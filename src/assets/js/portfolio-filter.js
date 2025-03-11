@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 	const filterButtons = document.querySelectorAll(".filter__btn");
-	const portfolioItems = document.querySelectorAll(".portfolio__image");
+	const portfolioLinks = document.querySelectorAll(".portfolio__link");
 
 	filterButtons.forEach(button => {
 		button.addEventListener("click", function () {
@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			const filter = this.getAttribute("data-filter");
 
-			portfolioItems.forEach(item => {
-				const category = item.getAttribute("data-category");
+			portfolioLinks.forEach(link => {
+				const category = link.getAttribute("data-category");
 
 				if (filter === "all" || category === filter) {
-					item.style.display = "flex";
+					link.style.display = "flex";
 				} else {
-					item.style.display = "none";
+					link.style.display = "none";
 				}
 			});
 		});
