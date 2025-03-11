@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			return;
 		}
 
-		if (e.target === lightboxContainer || e.target === lightboxClose) {
+		if (e.target === lightboxContainer || e.target.closest('.lightbox__close')) {
 			hideLightbox();
 		}
 
