@@ -113,6 +113,11 @@ module.exports = {
 		blogWrittenOn: "on",
 		blogRolandSzabo: "Roland Szabó",
 
+		portfolioAll: "All",
+		portfolioFemale: "Female",
+		portfolioMale: "Male",
+		portfolioCouples: "Couples",
+
 		photogenicDiscovery: "Photogenic Discovery",
 		photogenicDiscoveryDuration: "30 minutes",
 		photogenicDiscoveryPhotos: "3 photos",
@@ -227,6 +232,11 @@ module.exports = {
 		blogWrittenBy: "Írta",
 		blogWrittenOn: "ekkor:",
 		blogRolandSzabo: "Szabó Roland",
+
+		portfolioAll: "Összes",
+		portfolioFemale: "Női",
+		portfolioMale: "Férfi",
+		portfolioCouples: "Páros",
 
 		photogenicDiscovery: "Fotogén Felfedezés",
 		photogenicDiscoveryDuration: "30 perc",

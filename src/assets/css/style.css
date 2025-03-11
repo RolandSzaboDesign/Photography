@@ -684,7 +684,6 @@ ol.list { list-style: decimal; }
 
 .logo__name {
 	display: inline-block;
-	font-weight: 700;
 	color: var(--text-dark);
 }
 
@@ -842,9 +841,8 @@ ol.list { list-style: decimal; }
 	}
 
 	.nav__list > .nav__item > .nav__link {
-		font-weight: 700;
 		font-size: 1rem;
-		text-transform: uppercase;
+		letter-spacing: 0;
 	}
 }
 
@@ -967,7 +965,7 @@ ol.list { list-style: decimal; }
 }
 
 .lang__link--active {
-	border-bottom: 1px solid var(--bg-dark);
+	font-weight: 700;
 }
 
 
@@ -1448,35 +1446,6 @@ ol.list { list-style: decimal; }
 	margin-top: .75rem;
 	font-size: 100%;
 	text-align: center;
-}
-
-.portfolio {
-	display: grid;
-	grid-gap: 10px;
-}
-
-@media only screen and (max-width: 767.98px) {
-	.portfolio {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {
-	.portfolio {
-		grid-template-columns: repeat(3, 1fr);
-	}
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-	.portfolio {
-		grid-template-columns: repeat(4, 1fr);
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.portfolio {
-		grid-template-columns: repeat(5, 1fr);
-	}
 }
 
 

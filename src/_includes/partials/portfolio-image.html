@@ -1,6 +1,6 @@
 {% assign image = include.image %}
 
-<picture>
+<picture class="portfolio__image" data-category="{{ image.category }}">
 	<source srcset="/assets/images/portfolio/{{ image.filename }}_600.webp 600w,
 					/assets/images/portfolio/{{ image.filename }}_800.webp 800w"
 			type="image/webp">
