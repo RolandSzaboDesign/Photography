@@ -1,8 +1,3 @@
-.page-header--home {
-	padding-top: 0;
-	margin-bottom: 1.5rem;
-}
-
 .home__title {
 	font-size: 1.5rem;
 	color: var(--text-dark);
@@ -79,25 +74,13 @@
 	text-align: center;
 	height: 100%;
 	border-bottom: 0;
+	border-radius: .5rem;
+	border: .5rem solid #FFF;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	box-shadow: var(--box-shadow-small);
 	transition: var(--transition-duration) opacity, var(--transition-duration) transform;
-}
-
-@media only screen and (max-width: 767.98px) {
-	.home-nav__link {
-		border-radius: .5rem;
-		border: .5rem solid #FFF;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	.home-nav__link {
-		border-radius: .75rem;
-		border: .75rem solid #FFF;
-	}
 }
 
 .home-nav__link:hover,

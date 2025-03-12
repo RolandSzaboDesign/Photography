@@ -9,9 +9,9 @@ css: home
 <link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/social.webp" type="image/webp">
 
 <main class="main home">
-	<section class="section">
+	<section class="section section--top">
 		<div class="container">
-			<header class="page-header page-header--home">
+			<header class="page-header">
 				<h1 class="home__title">{{ site[locale].homepageMainTitle }}</h1>
 			</header>
 			<nav class="home-nav">
@@ -50,47 +50,6 @@ css: home
 	</section>
 
 	<section class="section">
-		<div class="container">
-			<h2 class="text-center mt-0">{{ site[locale].homepageRecentTitle }}</h2>
-			<div class="gallery">
-				{% assign index = 0 %}
-
-				{% if locale == "en" %}
-					{% assign portraitsies = collections.portraiture | reverse | slice: 0,4 %}
-				{% elsif locale == "hu" %}
-					{% assign portraitsies = collections.portré | reverse | slice: 0,4 %}
-				{% endif %}
-
-				{% for post in portraitsies %}
-					<figure class="polaroid">
-						<a class="polaroid__square" href="{{ post.url }}">
-							<img class="polaroid__photo"
-								 srcset="
-									/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_700.webp 700w,
-								 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_500.webp 500w,
-								 	/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp 350w
-								 "
-								 sizes="(min-width: 1500px) 400px, (min-width: 1000px) calc(25vw - 65px), (min-width: 780px) calc(33.3vw - 65px), calc(50vw - 55px)"
-								 src="/assets/images/portraiture/{{ post.data.page.fileSlug }}/{{ post.data.cover | default: '01' }}_350.webp"
-								 alt="{{ post.data.title }}"
-								 width="350"
-								 height="350"
-								 loading="lazy">
-						</a>
-						<figcaption class="polaroid__caption">
-							<strong class="polaroid__title">{{ post.data.title }}</strong>
-						</figcaption>
-					</figure>
-				{% endfor %}
-			</div>
-			<div class="button-with-link">
-				<a class="button" href="/{{ locale }}/{{ site[locale].slugGalleryMain }}/"><i class="fas fa-circle-right"></i>&nbsp; {{ site[locale].latestButton }}</a>
-				<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugAboutAbout }}/">{{ site[locale].homepageVisitAbout }}</a>
-			</div>
-		</div>
-	</section>
-
-	<section class="section section--grey">
 		<div class="container">
 			<h2 class="text-center mt-0">{{ site[locale].homepageTestimonials }}</h2>
 			<div class="testimonials">
