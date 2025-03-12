@@ -30,9 +30,7 @@
 		<meta name="twitter:creator" content="@szabokaphoto">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="{{ site.url | append: page.url }}">
-		{%- if tags[0] == "portraiture" or tags[0] == "portré" %}
-		<meta property="og:image" content="https://rolandszabo.photo/assets/images/portraiture/{{ translation }}/01_700.webp" loading="lazy">
-		{%- elsif og_image %}
+		{%- if og_image %}
 		<meta property="og:image" content="{{ og_image }}" loading="lazy">
 		{%- else %}
 		<meta property="og:image" content="{{ site.url }}/assets/images/roland-og.webp" loading="lazy">
