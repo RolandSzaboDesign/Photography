@@ -2,11 +2,9 @@
 
 <blockquote class="testimonial">
 	<p class="testimonial__text">{{ source[id][locale][type] }}</p>
-	<a class="testimonial__photo-link" href="{{ source[id][locale].link }}">
-		<img class="testimonial__photo" src="{{ source[id].photo }}" alt="{{ source[id][locale].name }}" width="48" height="48" loading="lazy">
-	</a>
+	<img class="testimonial__photo" src="{{ source[id].photo }}" alt="{{ source[id][locale].name }}" width="48" height="48" loading="lazy">
 	<cite class="testimonial__cite">
-		<a class="testimonial__author" href="{{ source[id][locale].link }}">{{ source[id][locale].name }}</a>
+		<span class="testimonial__author">{{ source[id][locale].name }}</span>
 		{% if source[id].googleURL %}
 			<a class="testimonial__author" href="{{ source[id].googleURL }}" target="_blank" rel="noreferrer noopener" title="This is a Google Review">[Google]</a>
 		{% endif %}

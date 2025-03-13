@@ -1516,20 +1516,11 @@ ol.list { list-style: decimal; }
 .testimonial__text:before { content: '“'; }
 .testimonial__text:after  { content: '”'; }
 
-.testimonial__photo-link {
+.testimonial__photo {
 	grid-row: 2 / 4;
 	display: block;
-	border-bottom: 0;
-}
-
-.testimonial__photo {
 	border-radius: 100%;
 	transition: var(--transition-duration) transform;
-}
-
-.testimonial__photo:hover,
-.testimonial__photo:focus {
-	transform: rotate(10deg);
 }
 
 .testimonial__author {
