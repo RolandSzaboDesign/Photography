@@ -9,41 +9,47 @@ css: about
 		<h1 class="page-header__title">{{ site[locale].navAboutAbout }}</h1>
 	</header>
 	<section class="about container">
-		<article class="about__content content-box">
-			<h2 class="mt-0">{{ intro.title }}</h2>
-			<p>{{ intro.text }}</p>
-			<h3>{{ why-how-what.title }}</h3>
-			<p>{{ why-how-what.why }}</p>
-			<p>{{ why-how-what.how }}</p>
-			<p>{{ why-how-what.what }}</p>
+		<div class="about__content">
+			<article class="content-box">
+				<h2 class="mt-0">{{ intro.title }}</h2>
+				<p>{{ intro.text1 }}</p>
+				<p>{{ intro.text2 }}</p>
+				<p>{{ intro.text3 }}</p>
+				<h3>{{ intro.whyTitle }}</h3>
+				<p>{{ intro.whyText }}</p>
+				<h3>{{ intro.howTitle }}</h3>
+				<p>{{ intro.howText }}</p>
+				<h3>{{ intro.whatTitle }}</h3>
+				<p>{{ intro.whatText }}</p>
+				<p>{{ intro.cta }}</p>
 
-			<hr class="fancy-separator fancy-separator--white"></hr>
+				<hr class="fancy-separator fancy-separator--white"></hr>
 
-			<h2>{{ companies.title }}</h2>
-			<p>{{ companies.text }}</p>
-			<ul class="brands">
-				{% for item in companies.items %}
-					<li class="brand polaroid">
-						<img src="/assets/images/brands/{{ item.slug }}.webp" alt="{{ item.name }} logo" title="{{ item.name }}" width="200" height="200" loading="lazy">
-					</li>
-				{% endfor %}
-			</ul>
+				<h2>{{ companies.title }}</h2>
+				<p>{{ companies.text }}</p>
+				<ul class="brands">
+					{% for item in companies.items %}
+						<li class="brand polaroid">
+							<img src="/assets/images/brands/{{ item.slug }}.webp" alt="{{ item.name }} logo" title="{{ item.name }}" width="200" height="200" loading="lazy">
+						</li>
+					{% endfor %}
+				</ul>
 
-			<hr class="fancy-separator fancy-separator--white"></hr>
+				<hr class="fancy-separator fancy-separator--white"></hr>
 
-			<h2>{{ publications.title }}</h2>
-			<p>{{ publications.text }}</p>
-			<ul class="magazines">
-				{% for item in publications.list %}
-					<li class="magazine">
-						<img class="magazine__image" src="{{ item.image }}" alt="{{ item.title }} {{ item.description }}" width="336" height="436" loading="lazy">
-						<h3 class="magazine__title">{{ item.title }}</h3>
-						<p class="magazine__description">{{ item[locale].description }}</p>
-						<p class="magazine__issue">{{ item[locale].issue }}</p>
-					</li>
-				{% endfor %}
-			</ul>
-
+				<h2>{{ publications.title }}</h2>
+				<p>{{ publications.text }}</p>
+				<ul class="magazines">
+					{% for item in publications.list %}
+						<li class="magazine">
+							<img class="magazine__image" src="{{ item.image }}" alt="{{ item.title }} {{ item.description }}" width="336" height="436" loading="lazy">
+							<h3 class="magazine__title">{{ item.title }}</h3>
+							<p class="magazine__description">{{ item[locale].description }}</p>
+							<p class="magazine__issue">{{ item[locale].issue }}</p>
+						</li>
+					{% endfor %}
+				</ul>
+			</article>
 			<div class="emphasized">
 				<h2 class="mt-0">{{ site[locale].ctaTitle }}</h2>
 				<p>{{ site[locale].ctaText }}</p>
@@ -52,7 +58,7 @@ css: about
 					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugGalleryMain }}/">{{ site[locale].homepageVisitGalleries }}</a>
 				</div>
 			</div>
-		</article>
+		</div>
 		<figure class="about__photo">
 			<img class="about__photo-img" src="/assets/images/roland-about.webp" alt="{{ site[locale].aboutPhotoTitle }}" title="{{ site[locale].aboutPhotoTitle }}" width="740" height="1110">
 			<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/p_varsics/" target="_blank" rel="noopener noreferrer" title="Instagram">{{ site[locale].peterVarsics }}</a></em></figcaption>
