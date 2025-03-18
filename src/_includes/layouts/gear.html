@@ -9,9 +9,19 @@ css: contact
 		<h1 class="page-header__title">{{ site[locale].navAboutGear }}</h1>
 	</header>
 	<section class="contact container">
-		<article class="contact__content content-box">
-			{{ content }}
-		</article>
+		<div class="contact__content">
+			<article class=" content-box">
+				{{ content }}
+			</article>
+			<div class="emphasized">
+				<h2 class="mt-0">{{ site[locale].ctaTitle }}</h2>
+				<p>{{ site[locale].ctaText }}</p>
+				<div class="button-with-link">
+					<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">{{ site[locale].ctaButton }}</a>
+					<a class="button-with-link__link" href="/{{ locale }}/{{ site[locale].slugPortfolio }}/">{{ site[locale].homepageVisitGalleries }}</a>
+				</div>
+			</div>
+		</div>
 		<figure class="contact__photo">
 			<img class="contact__photo-img" src="/assets/images/roland-gear.webp" alt="{{ site[locale].gearPhotoTitle }}" title="{{ site[locale].gearPhotoTitle }}" width="740" height="1110">
 			<figcaption><em>{{ site[locale].photoAndEditBy }} <a href="https://www.instagram.com/danos_photography/" target="_blank" rel="noopener noreferrer">{{ site[locale].danosNemeth }}</a></em></figcaption>

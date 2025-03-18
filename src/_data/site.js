@@ -80,7 +80,7 @@ module.exports = {
 		homepageMainTitle: "Budapest Photography, Tailored to Your Needs",
 		homepageRecentTitle: "Latest Portrait Work",
 		homepageVisitLatest: "or see my latest work",
-		homepageVisitGalleries: "or check out all of my galleries",
+		homepageVisitGalleries: "or check out my work",
 		homepageVisitAbout: "or get to know me better",
 		homepageVisitTestimonials: "or read all of my reviews",
 		homepageTestimonials: "Most Recent Reviews",
@@ -90,14 +90,14 @@ module.exports = {
 		lightboxClose: "Close",
 
 		aboutPhotoTitle: "Hey, it's me!",
-		contactPhotoTitle: "How can I help you?",
-		gearPhotoTitle: "I'm on fire, baby!",
-		homePhotoTitle: "Visible concentration :D",
+		contactPhotoTitle: "Hey, it's me!",
+		gearPhotoTitle: "Hey, it's me!",
+		homePhotoTitle: "Hey, it's me!",
 
 		ctaTitle: "Let's Create Your Unique Story",
 		ctaText: "Whether you have a creative idea in mind or simply want to discover the magic of being authentically captured, the next chapter of your story starts here.",
 		ctaButton: "Choose Your Experience",
-		latestButton: "Check out my Recent Work",
+		latestButton: "Check out my Best Work",
 
 		contactEmailText: "Drop me an email with your idea",
 		contactEmailButton: "Write an Email",
@@ -210,14 +210,14 @@ module.exports = {
 		lightboxClose: "Bezárás",
 
 		aboutPhotoTitle: "Halihó, ez itt én vagyok.",
-		contactPhotoTitle: "Miben tudok segíteni?",
-		gearPhotoTitle: "Elég forró volt a helyzet...",
-		homePhotoTitle: "Ne zavarj, koncentrálok! :D",
+		contactPhotoTitle: "Halihó, ez itt én vagyok.",
+		gearPhotoTitle: "Halihó, ez itt én vagyok.",
+		homePhotoTitle: "Halihó, ez itt én vagyok.",
 
 		ctaTitle: "Készítsük el a Te Történetedet",
 		ctaText: "Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.",
 		ctaButton: "Válassz Élményt",
-		latestButton: "Nézd Meg a Munkáimat",
+		latestButton: "Nézd Meg a Legjobb Munkáimat",
 
 		contactEmailText: "Írj egy emailt és beszéljünk",
 		contactEmailButton: "Emailt írok",
