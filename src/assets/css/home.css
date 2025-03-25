@@ -1,3 +1,8 @@
+.container--home {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .hero {
 	position: relative;
 	display: flex;
