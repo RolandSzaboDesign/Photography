@@ -4,9 +4,11 @@
 	<p class="testimonial__text">{{ source[id][locale][type] }}</p>
 	<img class="testimonial__photo" src="{{ source[id].photo }}" alt="{{ source[id][locale].name }}" width="48" height="48" loading="lazy">
 	<cite class="testimonial__cite">
-		<span class="testimonial__author">{{ source[id][locale].name }}</span>
 		{% if source[id].googleURL %}
-			<a class="testimonial__author" href="{{ source[id].googleURL }}" target="_blank" rel="noreferrer noopener" title="This is a Google Review">[Google]</a>
+			<a class="testimonial__author" href="{{ source[id].googleURL }}" target="_blank" rel="noreferrer noopener" title="Google link">{{ source[id][locale].name }}</a>
+		{% else %}
+			<span class="testimonial__author">{{ source[id][locale].name }}</span>
+		}
 		{% endif %}
 	</cite>
 	<div class="testimonial__rating">
