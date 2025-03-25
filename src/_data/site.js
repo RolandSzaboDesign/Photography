@@ -12,6 +12,7 @@ module.exports = {
 	],
 	en: {
 		siteTitle: "Roland Szabó | Budapest Photographer",
+		metaDescription: "Experience-First Photography, from Portraits to Cars – Without the Awkwardness.",
 		copyright: "All rights reserved.",
 		backToTop: "Back to the top of the page",
 		backToHomepage: "Back to the Homepage",
@@ -107,6 +108,7 @@ module.exports = {
 	},
 	hu: {
 		siteTitle: "Szabó Roland | Budapesti Fotós",
+		metaDescription: "Élményfotózás Portréktól Autókig, Feszengés Nélkül.",
 		copyright: "Minden jog fenntartva.",
 		backToTop: "Vissza az oldal tetejére",
 		backToHomepage: "Vissza a Kezdőoldalra",

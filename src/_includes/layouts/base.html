@@ -5,7 +5,7 @@
 		<title>{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="{{ description | default: site[locale].homepageMainTitle }}">
+		<meta name="description" content="{{ description | default: site[locale].metaDescription }}">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
@@ -35,12 +35,8 @@
 		{%- else %}
 		<meta property="og:image" content="{{ site.url }}/assets/images/roland-og.webp" loading="lazy">
 		{%- endif %}
-		<meta property="og:description" content="{{ description | default: site[locale].homepageMainTitle }}">
+		<meta property="og:description" content="{{ description | default: site[locale].metaDescription }}">
 		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
-
-		<!-- Google Analytics -->
-		<!-- <script defer src="https://www.googletagmanager.com/gtag/js?id=G-CZB0EKDF3L"></script> -->
-		<!-- <script defer src="/assets/js/analytics.js"></script> -->
 
 		<!-- Ahrefs Analytics -->
 		<script src="https://analytics.ahrefs.com/analytics.js" data-key="A6e1lw51/EXFCT6u44/4Yw" async></script>
