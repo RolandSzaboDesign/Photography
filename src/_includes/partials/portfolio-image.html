@@ -1,6 +1,6 @@
 {% assign image = include.image %}
 
-<a class="portfolio__link" href="/assets/images/portfolio/{{ image.filename }}_800.webp" data-lightbox="portfolio" title="{{ image.name }}" data-category="{{ image.category }}">
+<a class="portfolio__link lightbox-enabled" href="/assets/images/portfolio/{{ image.filename }}_800.webp" data-lightbox="portfolio" title="{{ image.name }}" data-category="{{ image.category }}">
 	<picture class="portfolio__image">
 		<source srcset="/assets/images/portfolio/{{ image.filename }}_600.webp 600w,
 						/assets/images/portfolio/{{ image.filename }}_800.webp 800w"
@@ -15,7 +15,6 @@
 			 title="{{ image.name }}"
 			 loading="lazy"
 			 width="300"
-			 height="450"
-			 class="portfolio__photo">
+			 height="450">
 	</picture>
 </a>

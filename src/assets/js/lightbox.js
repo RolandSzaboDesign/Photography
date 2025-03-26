@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	const lightboxImage = document.querySelector('.lightbox__image');
 	const lightboxCaption = document.querySelector('.lightbox__caption');
 	const lightboxClose = document.querySelector('.lightbox__close');
-	const lightboxButtons = document.querySelectorAll('.lightbox__arrow');
 	const lightboxLeft = document.querySelector('#left');
 	const lightboxRight = document.querySelector('#right');
 
@@ -20,11 +19,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	const setActiveImage = (index) => {
 		if (index < 0 || index >= lightboxArray.length) return;
-		const link = lightboxArray[index];
 
-		lightboxImage.src = link.href;
-		lightboxImage.alt = link.title;
-		lightboxCaption.textContent = link.title;
+		const el = lightboxArray[index];
+		const href = el.getAttribute('href') || el.getAttribute('data-lightbox');
+		const title = el.getAttribute('title') || el.querySelector('img')?.getAttribute('alt') || '';
+
+		lightboxImage.src = href;
+		lightboxImage.alt = title;
+		lightboxCaption.textContent = title;
 		activeImageIndex = index;
 		updateNavButtons();
 	};
@@ -35,24 +37,22 @@ document.addEventListener("DOMContentLoaded", function () {
 	const navigate = (direction) => direction.includes('left') ? showLeft() : showRight();
 
 	document.addEventListener('click', (e) => {
-		if (e.target.closest('.portfolio__link')) {
+		const trigger = e.target.closest('.lightbox-enabled');
+
+		if (trigger) {
 			e.preventDefault();
 
-			lightboxArray = Array.from(document.querySelectorAll('.portfolio__link'))
-				.filter(link => link.style.display !== "none");
+			lightboxArray = Array.from(document.querySelectorAll('.lightbox-enabled'))
+				.filter(el => el.offsetParent !== null);
 
-			activeImageIndex = lightboxArray.indexOf(e.target.closest('.portfolio__link'));
+			activeImageIndex = lightboxArray.indexOf(trigger);
 			setActiveImage(activeImageIndex);
 			showLightbox();
 			return;
 		}
 
-		if (e.target.closest('.lightbox__close')) {
+		if (e.target.closest('.lightbox__close') || e.target === lightboxContainer) {
 			e.preventDefault();
-			hideLightbox();
-		}
-
-		if (e.target === lightboxContainer) {
 			hideLightbox();
 		}
 

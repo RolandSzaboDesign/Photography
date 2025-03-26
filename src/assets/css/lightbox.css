@@ -104,3 +104,8 @@
 	color: var(--highlight);
 	transform: rotate(90deg);
 }
+
+.lightbox-enabled {
+	display: flex;
+	border: 0;
+}
