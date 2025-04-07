@@ -1340,6 +1340,7 @@ ol.list { list-style: decimal; }
 	padding: var(--polaroid-padding);
 	color: var(--text);
 	text-align: center;
+	border-bottom: 0;
 	background-color: #FFF;
 	box-shadow: var(--box-shadow-small);
 }
