@@ -1216,6 +1216,7 @@ ol.list { list-style: decimal; }
 	color: var(--text);
 	letter-spacing: 0;
 	text-transform: uppercase;
+	border-bottom: 0;
 }
 
 @media only screen and (max-width: 575.98px) {
