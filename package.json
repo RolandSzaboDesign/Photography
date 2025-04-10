@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"build": "npx @11ty/eleventy"
+		"build": "npx @11ty/eleventy && node generate-critical.js"
 	},
 	"dependencies": {
 		"@11ty/eleventy": "^2.0.1"
