@@ -4,7 +4,8 @@
 	},
 	"dependencies": {
 		"@11ty/eleventy": "^2.0.1",
-		"critical": "^7.2.1"
+		"critical": "^7.2.1",
+		"fast-glob": "^3.3.3"
 	},
 	"engines": {
 		"node": ">=18"
