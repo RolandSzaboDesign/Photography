@@ -3,7 +3,8 @@
 		"build": "npx @11ty/eleventy && node generate-critical.js"
 	},
 	"dependencies": {
-		"@11ty/eleventy": "^2.0.1"
+		"@11ty/eleventy": "^2.0.1",
+		"critical": "^7.2.1"
 	},
 	"engines": {
 		"node": ">=18"
