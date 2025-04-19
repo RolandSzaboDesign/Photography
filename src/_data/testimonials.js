@@ -17,6 +17,54 @@ module.exports = {
 		// 	},
 		// },
 		{
+			type: "male",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/B9jLk8KZiRZvheDd8",
+			photo: "/assets/images/testimonials/tamas.webp",
+			hu: {
+				name: "Kertész Tamás",
+				excerpt: "A fotózás alatt végig nagyon laza, közvetlen volt, ami rengeteget segített abban, hogy természetesnek érezzem magam a kamera előtt",
+				text: "Roland fantasztikus portréfotós – igazi profi a szakmájában! A fotózás alatt végig nagyon laza, közvetlen volt, ami rengeteget segített abban, hogy természetesnek érezzem magam a kamera előtt. Tökéletesen elkapta a legjobb pillanatokat, a képek minősége pedig egyszerűen lenyűgöző. Csak ajánlani tudom, ha valaki nemcsak szép fotókat, de egy szuper élményt is szeretne!",
+			},
+			en: {
+				name: "Tamás Kertész",
+				excerpt: "Throughout the shoot, he was super relaxed and easygoing, which really helped me feel natural in front of the camera",
+				text: "Roland is a fantastic portrait photographer – a true professional! Throughout the shoot, he was super relaxed and easygoing, which really helped me feel natural in front of the camera. He captured all the best moments perfectly, and the quality of the photos is simply stunning. I can wholeheartedly recommend him if you're looking for not just beautiful pictures, but an amazing experience too!",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/y6WgRvAwGNg62nDL8",
+			photo: "/assets/images/testimonials/mahima.webp",
+			hu: {
+				name: "Mahima Ravishankar",
+				excerpt: "Segített oldani a hangulatot, és fantasztikus képeket készített rólunk; ráadásul villámgyorsan meg is kaptuk a kész fotókat",
+				text: "Roland rendkívül profi, és igazi öröm vele dolgozni! Segített oldani a hangulatot, és fantasztikus képeket készített rólunk. Ráadásul villámgyorsan meg is kaptuk a kész fotókat!",
+			},
+			en: {
+				name: "Mahima Ravishankar",
+				excerpt: "He helped us break the ice and captured some amazing pictures - he is also extremely fast to deliver the pictures",
+				text: "Roland is extremely professional and a real pleasure to hire for your photography needs. He helped us break the ice and captured some amazing pictures. He is also extremely fast to deliver the pictures!",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/HzpsdSBrE2rq2XKB9",
+			photo: "/assets/images/testimonials/bea.webp",
+			hu: {
+				name: "Bánky Bea",
+				excerpt: "Bár aznap esett az eső, Roland fantasztikus munkát végzett. Könnyen megtaláltuk a közös hangot, az egész fotózás gördülékenyen és stresszmentesen zajlott",
+				text: "Roland kivételes portrékat készített rólam. Sürgősen szükségem volt modern hangulatú, profi fotókra, és bár aznap esett az eső, Roland fantasztikus munkát végzett. Könnyen megtaláltuk a közös hangot, az egész fotózás gördülékenyen és stresszmentesen zajlott. A végeredmény pedig: Wow! Csak ajánlani tudom!",
+			},
+			en: {
+				name: "Bea Bánky",
+				excerpt: "Despite the rainy day, he did an amazing job. We connected, he made the experience smooth and easy",
+				text: "Roland made exceptional portraits of me. I needed professional photos with a modern look & feel with short notice. Despite the rainy day, he did an amazing job. We connected, he made the experience smooth and easy. The outcome was wow! Highly recommend this business.",
+			},
+		},
+		{
 			type: "female",
 			score: "5.0",
 			googleURL: "https://maps.app.goo.gl/c82D94ZvC8MTFjiYA",
