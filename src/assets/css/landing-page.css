@@ -447,12 +447,13 @@
 
 .brands__item {
 	margin-bottom: 0;
-	line-height: 1
+	line-height: 1;
 }
 
 .brands__logo {
 	border-radius: 1rem;
 	background-color: #FFF;
+	border: 2px solid var(--bg-dark);
 }
 
 @media only screen and (max-width: 575.98px) {
