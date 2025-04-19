@@ -25,11 +25,17 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-artistic.webp
 					<li><strong><i class="fas fa-check-square text-success icon-left"></i> {{ item.title }}</strong> {{ item.text }}</li>
 				{% endfor %}
 			</ul>
-			<p class="emphasized">{{ why.ctaText }} <a href="#start">{{ why.ctaLink }}</a></p>
+
+			{% assign source = testimonials.items | where: "type", "automotive" %}
+			<div class="testimonials mt-3 mb-0">
+				{% for item in source limit:3 %}
+					{% include "partials/testimonial.html", type: "excerpt", id: forloop.index0 %}
+				{% endfor %}
+			</div>
 		</div>
 	</section>
 
-	<section class="section section--new">
+	<section class="section section--white">
 		<div class="container">
 			<h2>{{ how.title }}</h2>
 			<ol class="list">
@@ -37,10 +43,11 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-artistic.webp
 					<li><strong>{{ item.title }}</strong> {{ item.text }}</li>
 				{% endfor %}
 			</ol>
+			<p class="emphasized">{{ why.ctaText }} <a href="#start">{{ why.ctaLink }}</a></p>
 		</div>
 	</section>
 
-	<section class="section section--new">
+	<section class="section">
 		<div class="container">
 			<h2>{{ gallery.title }}</h2>
 			<p>{{ gallery.text }}</p>
@@ -169,7 +176,7 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-artistic.webp
 		</div>
 	</section>
 
-	<section class="section section--new" id="start">
+	<section class="section section--white text-center" id="start">
 		<div class="container">
 			<h2>{{ cta.title }}</h2>
 			<p>{{ cta.text }}</p>
@@ -180,7 +187,7 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-artistic.webp
 		</div>
 	</section>
 
-	<section class="section section--new">
+	<section class="section">
 		<div class="container">
 			<h2>{{ faq.title }}</h2>
 			<div class="faqs">
