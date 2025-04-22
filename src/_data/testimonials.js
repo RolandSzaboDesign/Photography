@@ -1701,8 +1701,8 @@ module.exports = {
 			photo: "/assets/images/testimonials/cars_corsa-e.webp",
 			hu: {
 				name: "Emmert Ármin",
-				excerpt: "Azonnal megértette és figyelembe vette a külüönleges kéréseimet, autófotózáskor tudta mit csinál és nem volt rest utasítani",
-				text: "Roland rugalmas volt az időbeosztással, jó javaslatai voltak már a tervezési fázisban. Azonnal megértette és figyelembe vette a külüönleges kéréseimet, autófotózáskor tudta mit csinál és nem volt rest utasítani. A képeket pedig utómunkával együtt nagyon hamar meg is kaptam.",
+				excerpt: "Azonnal megértette és figyelembe vette a különleges kéréseimet, autófotózáskor tudta mit csinál és nem volt rest utasítani",
+				text: "Roland rugalmas volt az időbeosztással, jó javaslatai voltak már a tervezési fázisban. Azonnal megértette és figyelembe vette a különleges kéréseimet, autófotózáskor tudta mit csinál és nem volt rest utasítani. A képeket pedig utómunkával együtt nagyon hamar meg is kaptam.",
 			},
 			en: {
 				name: "Ármin Emmert",
@@ -1717,7 +1717,7 @@ module.exports = {
 			photo: "/assets/images/testimonials/cars_ceed-sw.webp",
 			hu: {
 				name: "Gombos Barnabás",
-				excerpt: "A fotók készítése közben még egy gyors “oktatást” is tartott, hogy hogyan kell igazán király képeket lőni",
+				excerpt: "Az új fotók feltöltése után napokon belül már el is vitték az autót",
 				text: "Egy jó pár hete hirdettem az autóm, de szinte semmilyen érdeklődő sem keresett miatta. Gondoltam megkeresem Rolandot hogy lőjön pár profi képet az autóról. Hamar meg is beszéltük az időpontot. A fotók készítése közben még egy gyors “oktatást” is tartott, hogy hogyan kell igazán király képeket lőni. Az új fotók feltöltése után napokon belül már el is vitték az autót. Úgy gondolom, Roland segítsége nélkül még most is árulnám a kocsit.",
 			},
 			en: {

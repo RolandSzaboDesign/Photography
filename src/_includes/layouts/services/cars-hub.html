@@ -63,9 +63,9 @@ og_image: https://rolandszabo.photo/assets/images/opengraph/cars-hub.webp
 	<section class="section section--grey">
 		<div class="container">
 			<h2 class="mt-0">{{ reviews.title }}</h2>
-			<div class="testimonials testimonials--single mb-0">
-				{% assign source = testimonials.items | where: "type", "automotive" %}
-				{% for item in source limit:2 %}
+			<div class="testimonials align-start mb-0">
+				{% assign source = testimonials.items | where: "type", "automotive" | reverse %}
+				{% for item in source limit:3 %}
 					{% include 'partials/testimonial.html', type: 'text', id: forloop.index0 %}
 				{% endfor %}
 			</div>
