@@ -1,0 +1,19 @@
+{% assign image = include.image %}
+
+<a class="portfolio__link lightbox-enabled" href="/assets/images/portfolio/automotive/{{ image.filename }}_1400.webp" data-lightbox="portfolio" title="{{ image.name }}">
+	<picture class="portfolio__image">
+		<source srcset="/assets/images/portfolio/automotive/{{ image.filename }}_600.webp 600w,
+						/assets/images/portfolio/automotive/{{ image.filename }}_800.webp 800w"
+				type="image/webp">
+		<img src="/assets/images/portfolio/automotive/{{ image.filename }}_370.webp"
+			 srcset="/assets/images/portfolio/automotive/{{ image.filename }}_370.webp 370w,
+					 /assets/images/portfolio/automotive/{{ image.filename }}_600.webp 600w,
+					 /assets/images/portfolio/automotive/{{ image.filename }}_800.webp 800w"
+			 sizes="(max-width: 575px) 100vw, (max-width: 1199px) 50vw, 33vw"
+			 alt="{{ image.name }}"
+			 title="{{ image.name }}"
+			 loading="lazy"
+			 width="600"
+			 height="400">
+	</picture>
+</a>

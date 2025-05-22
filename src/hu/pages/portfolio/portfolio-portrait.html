@@ -1,8 +1,8 @@
 ---
-permalink: "/{{ locale }}/{{ site[locale].slugPortfolio }}/"
+permalink: "/{{ locale }}/{{ site[locale].slugPortfolioPortraiture }}/"
 layout: layouts/base.html
-title: Portfolio
-translation: portfolio
+title: Portré Portfólió
+translation: portrait-portfolio
 ---
 
 <main class="main">
@@ -16,8 +16,8 @@ translation: portfolio
 				<a class="filter__btn" data-filter="couple">{{ site[locale].portfolioCouples }}</a>
 			</nav>
 		</header>
-		<div class="portfolio">
-			{% assign sortedPortfolio = portfolio | sort: "date" | sort: "priority" | reverse %}
+		<div class="portfolio portfolio--portraiture">
+			{% assign sortedPortfolio = portfolio-portraiture | sort: "date" | sort: "priority" | reverse %}
 			{% for image in sortedPortfolio %}
 				{% include "partials/portfolio-image.html", image: image %}
 			{% endfor %}

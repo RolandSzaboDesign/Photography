@@ -1,15 +1,15 @@
 {% assign image = include.image %}
 
-<a class="portfolio__link lightbox-enabled" href="/assets/images/portfolio/{{ image.filename }}_800.webp" data-lightbox="portfolio" title="{{ image.name }}" data-category="{{ image.category }}">
+<a class="portfolio__link lightbox-enabled" href="/assets/images/portfolio/portraiture/{{ image.filename }}_800.webp" data-lightbox="portfolio" title="{{ image.name }}" data-category="{{ image.category }}">
 	<picture class="portfolio__image">
-		<source srcset="/assets/images/portfolio/{{ image.filename }}_600.webp 600w,
-						/assets/images/portfolio/{{ image.filename }}_800.webp 800w"
+		<source srcset="/assets/images/portfolio/portraiture/{{ image.filename }}_600.webp 600w,
+						/assets/images/portfolio/portraiture/{{ image.filename }}_800.webp 800w"
 				type="image/webp">
-		<img src="/assets/images/portfolio/{{ image.filename }}_300.webp"
-			 srcset="/assets/images/portfolio/{{ image.filename }}_300.webp 300w,
-					 /assets/images/portfolio/{{ image.filename }}_370.webp 370w,
-					 /assets/images/portfolio/{{ image.filename }}_600.webp 600w,
-					 /assets/images/portfolio/{{ image.filename }}_800.webp 800w"
+		<img src="/assets/images/portfolio/portraiture/{{ image.filename }}_300.webp"
+			 srcset="/assets/images/portfolio/portraiture/{{ image.filename }}_300.webp 300w,
+					 /assets/images/portfolio/portraiture/{{ image.filename }}_370.webp 370w,
+					 /assets/images/portfolio/portraiture/{{ image.filename }}_600.webp 600w,
+					 /assets/images/portfolio/portraiture/{{ image.filename }}_800.webp 800w"
 			 sizes="(max-width: 767px) 370px, (max-width: 1199px) 300px, 300px"
 			 alt="{{ image.name }}"
 			 title="{{ image.name }}"
