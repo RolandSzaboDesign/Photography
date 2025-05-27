@@ -40,8 +40,8 @@ css: home
 <section class="section">
 	<div class="container">
 		<h2>{{ gallery.title }}</h2>
-		<div class="portfolio">
-			{% assign sortedPortfolio = portfolio | sort: "date" | sort: "priority" | reverse %}
+		<div class="portfolio portfolio--portraiture">
+			{% assign sortedPortfolio = portfolio-portraiture | sort: "date" | sort: "priority" | reverse %}
 			{% for image in sortedPortfolio limit:10 %}
 				{% include "partials/portfolio-image.html", image: image %}
 			{% endfor %}
