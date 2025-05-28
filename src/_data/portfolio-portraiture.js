@@ -80,7 +80,7 @@ module.exports = [
 		name: "Anna",
 		filename: "anna",
 		category: "female",
-		date: "2022.10.25.",
+		date: "2025.05.21.",
 		priority: "3",
 	},
 	{
@@ -96,6 +96,13 @@ module.exports = [
 		category: "female",
 		date: "2024.07.04.",
 		priority: "3",
+	},
+	{
+		name: "Bea",
+		filename: "bea-2",
+		category: "female",
+		date: "2025.03.24.",
+		priority: "2",
 	},
 	{
 		name: "Bence",
@@ -138,6 +145,13 @@ module.exports = [
 		category: "couple",
 		date: "2023.09.22.",
 		priority: "3",
+	},
+	{
+		name: "Charles",
+		filename: "charles",
+		category: "male",
+		date: "2025.02.06.",
+		priority: "2",
 	},
 	{
 		name: "Csenge",
@@ -196,11 +210,25 @@ module.exports = [
 		priority: "2",
 	},
 	{
+		name: "Erina",
+		filename: "erina",
+		category: "female",
+		date: "2025.04.12.",
+		priority: "2",
+	},
+	{
 		name: "Erwin",
 		filename: "erwin",
 		category: "male",
 		date: "2024.12.08.",
 		priority: "2",
+	},
+	{
+		name: "Erzse",
+		filename: "erzse",
+		category: "female",
+		date: "2025.04.14.",
+		priority: "3",
 	},
 	{
 		name: "Eszter",
@@ -259,11 +287,25 @@ module.exports = [
 		priority: "1",
 	},
 	{
+		name: "Flóra & Zsolt",
+		filename: "flora-zsolt",
+		category: "couple",
+		date: "2025.04.17.",
+		priority: "2",
+	},
+	{
+		name: "Flóra & Zsolt",
+		filename: "flora-zsolt-2",
+		category: "couple",
+		date: "2025.04.30.",
+		priority: "3",
+	},
+	{
 		name: "Fruzsi",
 		filename: "fruzsi",
 		category: "female",
 		date: "2023.11.03.",
-		priority: "4",
+		priority: "3",
 	},
 	{
 		name: "Gabi",
@@ -427,6 +469,13 @@ module.exports = [
 		priority: "3",
 	},
 	{
+		name: "Lackó",
+		filename: "lacko",
+		category: "male",
+		date: "2025.04.25.",
+		priority: "3",
+	},
+	{
 		name: "LaRae",
 		filename: "larae",
 		category: "female",
@@ -455,6 +504,13 @@ module.exports = [
 		priority: "2",
 	},
 	{
+		name: "Lilianna",
+		filename: "lilianna",
+		category: "female",
+		date: "2025.04.30.",
+		priority: "1",
+	},
+	{
 		name: "Lilla & Csabi & Moha",
 		filename: "lilla-csabi-moha",
 		category: "couple",
@@ -466,6 +522,13 @@ module.exports = [
 		filename: "linda-erwin",
 		category: "couple",
 		date: "2024.12.08.",
+		priority: "3",
+	},
+	{
+		name: "Mahima",
+		filename: "mahima",
+		category: "female",
+		date: "2025.03.30.",
 		priority: "3",
 	},
 	{
@@ -490,6 +553,13 @@ module.exports = [
 		priority: "2",
 	},
 	{
+		name: "Matyi",
+		filename: "matyi",
+		category: "male",
+		date: "2024.04.24.",
+		priority: "3",
+	},
+	{
 		name: "Merci",
 		filename: "merci",
 		category: "female",
@@ -511,6 +581,13 @@ module.exports = [
 		priority: "4",
 	},
 	{
+		name: "Mona és Anyukája",
+		filename: "mona-es-anyukaja",
+		category: "couple",
+		date: "2025.04.29.",
+		priority: "3",
+	},
+	{
 		name: "Nicolas",
 		filename: "nicolas",
 		category: "male",
@@ -525,11 +602,25 @@ module.exports = [
 		priority: "2",
 	},
 	{
+		name: "Nutska, Ridhwan",
+		filename: "nutska-ridhwan",
+		category: "couple",
+		date: "2025.05.09.",
+		priority: "2",
+	},
+	{
 		name: "Orsi",
 		filename: "orsi",
 		category: "female",
 		date: "2023.01.25.",
 		priority: "2",
+	},
+	{
+		name: "Orsi",
+		filename: "orsi-2",
+		category: "female",
+		date: "2025.05.16.",
+		priority: "3",
 	},
 	{
 		name: "Parinita & Roopesh",
@@ -596,6 +687,13 @@ module.exports = [
 		priority: "1",
 	},
 	{
+		name: "Réka",
+		filename: "reka-4",
+		category: "female",
+		date: "2025.05.25.",
+		priority: "4",
+	},
+	{
 		name: "Réka & Ádám",
 		filename: "reka-adam-2",
 		category: "couple",
@@ -636,6 +734,13 @@ module.exports = [
 		category: "female",
 		date: "2024.09.01.",
 		priority: "2",
+	},
+	{
+		name: "Sara & Anahi",
+		filename: "sara-anahi",
+		category: "couple",
+		date: "2025.03.06.",
+		priority: "1",
 	},
 	{
 		name: "Sanyi",
@@ -699,6 +804,13 @@ module.exports = [
 		category: "female",
 		date: "2025.03.04.",
 		priority: "1",
+	},
+	{
+		name: "Tomi",
+		filename: "tomi",
+		category: "male",
+		date: "2025.04.03.",
+		priority: "3",
 	},
 	{
 		name: "Utkarsh",
@@ -799,11 +911,18 @@ module.exports = [
 		priority: "2",
 	},
 	{
+		name: "Zaineb",
+		filename: "zaineb",
+		category: "female",
+		date: "2025.05.25.",
+		priority: "3",
+	},
+	{
 		name: "Zsani",
 		filename: "zsani",
 		category: "female",
-		date: "2024.05.24.",
-		priority: "2",
+		date: "2025.04.27.",
+		priority: "3",
 	},
 	{
 		name: "Zsófi & Benedek",
