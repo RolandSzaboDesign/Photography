@@ -36,6 +36,7 @@ module.exports = {
 		navPortfolioMain: "Portfolio",
 		navPortfolioPortraiture: "Portraits",
 		navPortfolioAutomotive: "Automotive",
+		navPortfolioEvents: "Events",
 
 		navProjectsMain: "Projects",
 		navProjectsBudapestPhotoWalk: "Budapest Photo Walk",
@@ -58,6 +59,7 @@ module.exports = {
 		slugPortfolioMain: "portfolio",
 		slugPortfolioPortraiture: "portrait-portfolio",
 		slugPortfolioAutomotive: "automotive-portfolio",
+		slugPortfolioEvents: "events-portfolio",
 
 		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
 		slugProjectsBlog: "blog",
@@ -136,6 +138,7 @@ module.exports = {
 		navPortfolioMain: "Portfólió",
 		navPortfolioPortraiture: "Portrék",
 		navPortfolioAutomotive: "Autók",
+		navPortfolioEvents: "Esemény",
 
 		navProjectsMain: "Projektek",
 		navProjectsBudapestPhotoWalk: "Budapest Photo Walk",
@@ -158,6 +161,7 @@ module.exports = {
 		slugPortfolioMain: "portfolio",
 		slugPortfolioPortraiture: "portre-portfolio",
 		slugPortfolioAutomotive: "autos-portfolio",
+		slugPortfolioEvents: "esemeny-portfolio",
 
 		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
 		slugProjectsBlog: "blog",

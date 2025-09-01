@@ -1,0 +1,23 @@
+---
+permalink: "/{{ locale }}/{{ site[locale].slugPortfolioEvents }}/"
+layout: layouts/base.html
+title: Eseményfotózás Portfólió
+translation: events-portfolio
+---
+
+<main class="main">
+	<div class="container">
+		<header class="page-header">
+			<h1 class="page-header__title">{{ title }}</h1>
+		</header>
+		<div class="portfolio portfolio--automotive">
+			{% assign sortedPortfolio = portfolio-events %}
+			{% for image in sortedPortfolio %}
+				{% include "partials/portfolio-image-events.html", image: image %}
+			{% endfor %}
+		</div>
+		{% include "partials/cta.html", count: 3 %}
+	</div>
+</main>
+
+{% include "partials/lightbox.html" %}

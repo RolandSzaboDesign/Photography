@@ -112,6 +112,7 @@
 /en/tags/*												/en/					301
 /tags/*													/hu/					301
 
+/hu/galeriak/*											/hu/portfolio/			301
 /hu/portre/*											/hu/portfolio/			301
 /en/portraiture/*										/en/portfolio/			301
 
