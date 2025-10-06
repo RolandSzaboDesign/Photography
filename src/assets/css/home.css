@@ -111,8 +111,8 @@
 	background-image: url('/assets/images/home/hero-events.webp');
 }
 
-.slide__background--interior {
-	background-image: url('/assets/images/home/hero-interior.webp');
+.slide__background--real-estate {
+	background-image: url('/assets/images/home/hero-real-estate.webp');
 }
 
 .pagination {
@@ -322,10 +322,23 @@
 }
 
 .gift__image {
-	padding: 1rem;
+	width: 95%;
+	margin: 0 auto;
 	background-color: #FFF;
 	box-shadow: var(--box-shadow);
 	transform: rotate(3deg);
+}
+
+@media only screen and (max-width: 767.98px) {
+	.gift__image {
+		padding: .5rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.gift__image {
+		padding: 1rem;
+	}
 }
 
 /* Testimonials */

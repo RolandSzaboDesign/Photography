@@ -99,7 +99,9 @@ html { box-sizing: border-box; }
 .fa-comment            { --fa: "\f075"; }
 .fa-dove               { --fa: "\f4ba"; }
 .fa-envelope           { --fa: "\f0e0"; }
+.fa-gift               { --fa: "\f06b"; }
 .fa-hand               { --fa: "\f256"; }
+.fa-house-chimney      { --fa: "\e3af"; }
 .fa-money-bill-1-wave  { --fa: "\f53b"; }
 .fa-pen-nib            { --fa: "\f5ad"; }
 .fa-person-walking     { --fa: "\f554"; }
@@ -493,6 +495,10 @@ a {
 a:hover,
 a:focus {
 	color: var(--highlight-dark);
+}
+
+.no-link {
+	border-bottom: 0;
 }
 
 em {
@@ -1290,7 +1296,7 @@ ol.list { list-style: decimal; }
 
 .gallery {
 	display: grid;
-	grid-gap: var(--grid-gutter);
+	grid-gap: 1rem;
 	align-items: start;
 	margin-bottom: 2rem;
 }
@@ -1467,7 +1473,7 @@ ol.list { list-style: decimal; }
 
 .portfolio {
 	display: grid;
-	grid-gap: 10px;
+	grid-gap: 1rem;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -1697,6 +1703,11 @@ a.tag__link:hover,
 a.tag__link:focus {
 	color: var(--text-dark);
 	background-color: var(--bg-dark);
+}
+
+.tag__link--green {
+	color: var(--text-dark);
+	background-color: var(--success);
 }
 
 

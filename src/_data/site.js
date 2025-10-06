@@ -31,7 +31,9 @@ module.exports = {
 		navServicesMain: "Services",
 		navServicesPortraiture: "Portrait Photography",
 		navServicesAutomotive: "Automotive Photography",
-		navServicesSocialContent: "Branding & Social Content Creation",
+		navServicesEvents: "Event Photography",
+		navServicesRealEstate: "Real Estate Photography",
+		navServicesSocialContent: "Branding & Product Photography",
 
 		navPortfolioMain: "Portfolio",
 		navPortfolioPortraiture: "Portraits",
@@ -54,6 +56,8 @@ module.exports = {
 		slugServicesMain: "services",
 		slugServicesPortraiture: "portrait-photography-budapest",
 		slugServicesAutomotive: "automotive-photography-budapest",
+		slugServicesEvents: "event-photography-budapest",
+		slugServicesRealEstate: "real-estate-photography-budapest",
 		slugServicesSocialContent: "social-media-content-creation",
 
 		slugPortfolioMain: "portfolio",
@@ -133,7 +137,9 @@ module.exports = {
 		navServicesMain: "Szolgáltatások",
 		navServicesPortraiture: "Portré Fotózás",
 		navServicesAutomotive: "Autó Fotózás",
-		navServicesSocialContent: "Branding & Social Fotózás",
+		navServicesEvents: "Rendezvény Fotózás",
+		navServicesRealEstate: "Ingatlan Fotózás",
+		navServicesSocialContent: "Branding & Termék Fotózás",
 
 		navPortfolioMain: "Portfólió",
 		navPortfolioPortraiture: "Portrék",
@@ -156,6 +162,8 @@ module.exports = {
 		slugServicesMain: "szolgaltatasok",
 		slugServicesPortraiture: "portre-fotozas-budapest",
 		slugServicesAutomotive: "auto-fotozas-budapest",
+		slugServicesEvents: "rendezveny-fotozas-budapest",
+		slugServicesRealEstate: "ingatlan-fotozas-budapest",
 		slugServicesSocialContent: "kozossegi-tartalom-gyartas",
 
 		slugPortfolioMain: "portfolio",

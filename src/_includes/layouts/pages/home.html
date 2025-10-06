@@ -34,10 +34,10 @@ css: home
 		</article>
 		<article class="slide">
 			<div class="slide__content">
-				<h2 class="slide__title">{{ hero.interior.title }}</h2>
-				<p class="slide__description">{{ hero.interior.tagline }}</p>
-				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesInterior }}/">{{ hero.interior.button }}</a>
-				<div class="slide__background slide__background--interior"></div>
+				<h2 class="slide__title">{{ hero.real-estate.title }}</h2>
+				<p class="slide__description">{{ hero.real-estate.tagline }}</p>
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesRealEstate }}/">{{ hero.real-estate.button }}</a>
+				<div class="slide__background slide__background--real-estate"></div>
 			</div>
 		</article>
 		<div class="pagination">
@@ -108,6 +108,12 @@ css: home
 	<section class="section section--white gift">
 		<div class="gift__grid container">
 			<article class="gift__content">
+				<div class="mb-1">
+					<span class="tag tag__link tag__link--green">
+						<i class="fas fa-gift icon-left"></i>
+						{{ gift.label }}
+					</span>
+				</div>
 				<h2>{{ gift.title }}</h2>
 				<p>{{ gift.text1 }}</p>
 				<p>{{ gift.text2 }}</p>
