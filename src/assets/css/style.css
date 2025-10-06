@@ -229,6 +229,10 @@ img {
 	padding-right: var(--grid-gutter);
 }
 
+.container--wide {
+	max-width: 100rem;
+}
+
 .container--thin {
 	max-width: 60rem;
 }
@@ -577,6 +581,7 @@ hr {
 .text-highlight { color: var(--highlight); }
 .text-success { color: var(--success); }
 .text-danger { color: var(--danger); }
+.text-muted { color: var(--text-light); }
 
 @media only screen and (max-width: 767.98px) {
 	p.text-larger {
@@ -1663,8 +1668,7 @@ ol.list { list-style: decimal; }
 .tags {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 1rem;
-	margin-bottom: 0;
+	margin: 1rem -.25rem 0;
 }
 
 .tags--center {
@@ -1672,8 +1676,7 @@ ol.list { list-style: decimal; }
 }
 
 .tag {
-	margin-bottom: .5rem;
-	margin-right: .5rem;
+	margin: .25rem;
 }
 
 .tag__link {

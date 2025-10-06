@@ -5,92 +5,136 @@ css: home
 ---
 
 <link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/hero-portraiture.webp" type="image/webp">
-<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/hero-automotive.webp" type="image/webp">
 
 <main class="main home">
-	<div class="container container--home">
-		<header class="hero">
-			<h1 class="hero__title">{{ hero.title }}</h1>
-			<p class="hero__description">{{ hero.tagline }}</p>
-			<div class="buttons">
-				<a class="hero__button button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">{{ hero.button1 }}</a>
-				<a class="hero__button button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesAutomotive }}/">{{ hero.button2 }}</a>
+	<header class="hero container container--wide">
+		<article class="slide">
+			<div class="slide__content">
+				<h2 class="slide__title">{{ hero.portraiture.title }}</h2>
+				<p class="slide__description">{{ hero.portraiture.tagline }}</p>
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">{{ hero.portraiture.button }}</a>
+				<div class="slide__background slide__background--portraiture"></div>
 			</div>
-			<div class="hero__background hero__background--portraiture"></div>
-			<div class="hero__background hero__background--automotive"></div>
-		</header>
-	</div>
+		</article>
+		<article class="slide">
+			<div class="slide__content">
+				<h2 class="slide__title">{{ hero.automotive.title }}</h2>
+				<p class="slide__description">{{ hero.automotive.tagline }}</p>
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesAutomotive }}/">{{ hero.automotive.button }}</a>
+				<div class="slide__background slide__background--automotive"></div>
+			</div>
+		</article>
+		<article class="slide">
+			<div class="slide__content">
+				<h2 class="slide__title">{{ hero.events.title }}</h2>
+				<p class="slide__description">{{ hero.events.tagline }}</p>
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesEvents }}/">{{ hero.events.button }}</a>
+				<div class="slide__background slide__background--events"></div>
+			</div>
+		</article>
+		<article class="slide">
+			<div class="slide__content">
+				<h2 class="slide__title">{{ hero.interior.title }}</h2>
+				<p class="slide__description">{{ hero.interior.tagline }}</p>
+				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesInterior }}/">{{ hero.interior.button }}</a>
+				<div class="slide__background slide__background--interior"></div>
+			</div>
+		</article>
+		<div class="pagination">
+			<button class="dot dot--active"></button>
+			<button class="dot"></button>
+			<button class="dot"></button>
+			<button class="dot"></button>
+		</div>
+	</header>
+
+	<section class="section section--white about">
+		<div class="container">
+			<header class="about__header">
+				<img class="about__image" src="/assets/images/roland-home.webp" alt="Roland">
+				<div>
+					<h2>{{ about.title }}</h2>
+					<p>{{ about.intro }}</p>
+					<p class="mb-0">{{ about.text }}</p>
+				</div>
+			</header>
+			<hr class="fancy-separator fancy-separator--white">
+			<div class="about__grid">
+				<article>
+					<h3 class="about__subtitle">{{ about.photographer.title }}</h3>
+					<p>{{ about.photographer.text }}</p>
+				</article>
+				<article>
+					<h3 class="about__subtitle">{{ about.professional.title }}</h3>
+					<p>{{ about.professional.text }}</p>
+				</article>
+				<article>
+					<h3 class="about__subtitle about__subtitle--serif">{{ about.human.title }}</h3>
+					<p>{{ about.human.text }}</p>
+				</article>
+			</div>
+			<div class="btns text-center mt-2">
+				<a class="button button--primary" href="#start">{{ about.button1 }}</a>
+				<a class="button button--secondary" href="/{{ locale }}/{{ site[locale].slugAboutAbout }}/">{{ about.button2 }}</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="start">
+		<div class="container">
+			<h2>{{ services.title }}</h2>
+			<p>{{ services.intro }}</p>
+			<div class="home-services">
+				{% for item in services.items %}
+					<article class="home-service">
+						<img class="home-service__image" src="{{ item.image }}" alt="{{ item.title }}">
+						<div class="home-service__content">
+							<h3 class="home-service__title">{{ item.title }}</h3>
+							<p class="home-service__intro"><em>{{ item.intro }}</em></p>
+							<p class="home-service__text">{{ item.text }}</p>
+							<ul class="home-service__tags tags">
+								<li class="tag tag__link">{{ item.tag1 }}</li>
+								<li class="tag tag__link">{{ item.tag2 }}</li>
+								<li class="tag tag__link">{{ item.tag3 }}</li>
+							</ul>
+							<a class="button" href="{{ item.buttonLink }}">{{ item.buttonText }}</a>
+						</div>
+					</article>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section section--white gift">
+		<div class="gift__grid container">
+			<article class="gift__content">
+				<h2>{{ gift.title }}</h2>
+				<p>{{ gift.text1 }}</p>
+				<p>{{ gift.text2 }}</p>
+				<a class="button" href="{{ gift.href }}">{{ gift.button }}</a>
+			</article>
+			<img class="gift__image" src="/assets/images/home/voucher.webp" alt="{{ gift.title }}">
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container home-testimonials">
+			<h2 class="home-testimonials__title">{{ testimonials.title }}</h2>
+			<p>{{ testimonials.text }}</p>
+			<div class="testimonials testimonials--home">
+				{% assign source = testimonials.items %}
+				{% for item in source limit:9 %}
+					{% include 'partials/testimonial.html', type: 'excerpt', id: forloop.index0 %}
+				{% endfor %}
+			</div>
+			<div class="btns text-center mt-2">
+				<a class="button button--primary" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/">{{ testimonials.button1 }}</a>
+				<a class="button button--secondary" href="/{{ locale }}/{{ site[locale].slugAboutTestimonials }}/">{{ testimonials.button2 }}</a>
+			</div>
+		</div>
+	</section>
 </main>
 
-<section class="section section--white">
-	<div class="container home-about">
-		<h2 class="home-about__title">{{ about.title }}</h2>
-		<p class="home-about__intro"><strong>{{ about.intro }}</strong></p>
-		<article class="home-about__main">
-			<p>{{ about.text1 }}</p>
-			<p>{{ about.text2 }}</p>
-			<p>{{ about.text3 }}</p>
-		</article>
-		<div class="home-about__button">
-			<a class="button button--secondary" href="/{{ locale }}/{{ site[locale].slugAboutAbout }}/">{{ about.button }}</a>
-		</div>
-	</div>
-</section>
-
-<section class="section">
-	<div class="container">
-		<h2>{{ gallery.title }}</h2>
-		<div class="portfolio portfolio--portraiture">
-			{% assign sortedPortfolio = portfolio-portraiture | sort: "date" | sort: "priority" | reverse %}
-			{% for image in sortedPortfolio limit:10 %}
-				{% include "partials/portfolio-image.html", image: image %}
-			{% endfor %}
-		</div>
-		<div class="buttons mt-2">
-			<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">{{ gallery.button1 }}</a>
-			<a class="button button--secondary" href="/{{ locale }}/{{ site[locale].slugPortfolioPortraiture }}/">{{ gallery.button2 }}</a>
-		</div>
-	</div>
-</section>
-
-<section class="section section--white">
-	<div class="container">
-		<h2>{{ services.title }}</h2>
-		<p>{{ services.intro }}</p>
-		<div class="home-services half">
-			{% for item in services.items %}
-				<article class="home-service">
-					<h3 class="home-service__title"><i class="{{ item.icon }}"></i> {{ item.title }}</h3>
-					<p class="home-service__intro"><em>{{ item.intro }}</em></p>
-					<p class="home-service__text">{{ item.text }}</p>
-					<ul class="home-service__tags tags">
-						<li class="tag tag__link">{{ item.tag1 }}</li>
-						<li class="tag tag__link">{{ item.tag2 }}</li>
-						<li class="tag tag__link">{{ item.tag3 }}</li>
-					</ul>
-					<div class="home-service__button">
-						<a class="button" href="{{ item.buttonLink }}">{{ item.buttonText }}</a>
-					</div>
-				</article>
-			{% endfor %}
-		</div>
-	</div>
-</section>
-
-<section class="section">
-	<div class="container home-about">
-		<h2 class="home-about__title">{{ testimonials.title }}</h2>
-		<div class="home-about__intro">
-			<p><strong>{{ testimonials.text1 }}</strong> {{ testimonials.text2 }}</p>
-			<p>{{ testimonials.text3 }}</p>
-		</div>
-		<div class="home-about__main testimonials testimonials--home">
-			{% assign source = testimonials.items %}
-			{% for item in source limit:6 %}
-				{% include 'partials/testimonial.html', type: 'excerpt', id: forloop.index0 %}
-			{% endfor %}
-		</div>
-	</div>
-</section>
+<script src="/assets/js/home-slider.js" defer></script>
 
 {% include "partials/lightbox.html" %}

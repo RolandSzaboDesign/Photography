@@ -19,6 +19,166 @@ module.exports = {
 		{
 			type: "female",
 			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/f2uWZAwGTGzib2jv6",
+			photo: "/assets/images/testimonials/kinga.webp",
+			hu: {
+				name: "Korányi Kinga",
+				excerpt: "Roland mellett a tapasztalatlan \"modellek\" is el tudják engedni a fotózás izgalmait, mert kényelembe tudják helyezni magukat",
+				text: "Roland egy fantasztikus fotós! Mind a professzionális fotók, mind az utcai képek terén Roland nagyon tehetséges. Olyan előnyös képeket készített, amilyenek még sosem készültek rólam! A profi technikája mellett, Roland mellett a tapasztalatlan \"modellek\" (mint amilyen én vagyok) is el tudják engedni a fotózás izgalmait, mert kényelembe tudják helyezni magukat az egész fotózás alatt. Szívből ajánlom Roland munkásságát!",
+			},
+			en: {
+				name: "Kinga Korányi",
+				excerpt: "Roland has a way of making even inexperienced “models” (like myself) feel at ease and let go of the nerves",
+				text: "Roland is a fantastic photographer! He is very talented both in professional portraits and in street photography. He managed to capture me in ways I’ve never seen before! Beyond his professional skills, Roland has a way of making even inexperienced “models” (like myself) feel at ease and let go of the nerves during the shoot. I wholeheartedly recommend Roland’s work!",
+			},
+		},
+		{
+			type: "male",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/rhQUgkYEBBDxrdkp9",
+			photo: "/assets/images/testimonials/adam-2.webp",
+			hu: {
+				name: "Tolnay Ádám",
+				excerpt: "Amint találkoztunk, Roland teljesen megnyugtatott, és olyan fotogén oldalamat hozta elő, amelyről korábban nem is tudtam, hogy létezik",
+				text: "Roland egy kiváló portréfotós! A barátnőmmel két nappal azelőtt kerestük meg Rolandot, hogy el kellett volna repülnöm Budapestről, mert szükségem volt néhány igazán jó portréra az új vállalkozásom indulásához. Azonnal válaszolt, utánajárt a részleteknek, és javasolt egy remek helyszínt a másnapi fotózásra. Amint találkoztunk, Roland teljesen megnyugtatott, és olyan fotogén oldalamat hozta elő, amelyről korábban nem is tudtam, hogy létezik. A következő 24 órán belül elküldte a fotókat, retusálta a kedvenceimet, és hasznos tanácsokat adott, hogyan érdemes a portrékat az üzleti weboldalamon megjeleníteni. Nagyra értékelem Roland professzionalizmusát, és mélyen hálás vagyok emberi melegsége és kedvessége miatt.",
+			},
+			en: {
+				name: "Ádám Tolnay",
+				excerpt: "As soon as we met, Roland made me feel at ease and brought out a photogenic side I did not know I possessed",
+				text: "Roland is a superb portrait photographer! My girlfriend and I approached Roland two days before I was set to fly out of Budapest to launch my new business -- for which I needed some excellent portrait photos. He responded immediately, followed up, and suggested an excellent venue to meet the next morning. As soon as we met, Roland made me feel at ease and brought out a photogenic side I did not know I possessed. Over the course of the next 24 hours Roland sent me the photos, touched up the portraits I preferred and offered me helpful advice about how I might stage the portraits on my business website. I prize Roland's professionalism and deeply appreciate his human warmth and kindness.",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/ZP4SjhQ7dtp7hMEf6",
+			photo: "/assets/images/testimonials/dalma.webp",
+			hu: {
+				name: "Szekér Dalma",
+				excerpt: "Többször dolgoztunk már együtt Rolanddal, minden könnyedén ment vele, figyelmes és szuper ügyes fotós",
+				text: "Többször dolgoztunk már együtt Rolanddal, minden könnyedén ment vele, figyelmes és szuper ügyes fotós!",
+			},
+			en: {
+				name: "Dalma Szekér",
+				excerpt: "We’ve worked with Roland several times already, and everything has always gone smoothly with him",
+				text: "We’ve worked with Roland several times already, and everything has always gone smoothly with him. He is attentive and a super talented photographer!",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/jGmGMDAUwRy6U9ur7",
+			photo: "/assets/images/testimonials/vivien-4.webp",
+			hu: {
+				name: "Becséri Vivien",
+				excerpt: "Végtelen profizmus mellett, a humor és a jókedv határtalan volt a fotózás alatt",
+				text: "Fantasztikus élmény volt az egész! Roli az esküvőnkön volt fotózni. A készülődés pillanatától egészen a buli végéig ott volt! Nagyon jó élmény és emlék vissza nézni a képeket! Végtelen profizmus mellett, a humor és a jókedv határtalan volt a fotózás alatt! Borzasztó gyors utómunka! Bátran és teljes szívvel ajánljuk Rolit mindenkinek!",
+			},
+			en: {
+				name: "Vivien Becséri",
+				excerpt: "Alongside his endless professionalism, the humor and joy throughout the day were boundless",
+				text: "It was a fantastic experience from start to finish! Roli photographed our wedding, from the getting-ready moments all the way until the end of the party. Looking back at the photos is such a wonderful experience and memory! Alongside his endless professionalism, the humor and joy throughout the day were boundless. The post-production was incredibly fast as well! We wholeheartedly and confidently recommend Roli to everyone!",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/n2LZ9zGiag8TpcTNA",
+			photo: "/assets/images/testimonials/dana.webp",
+			hu: {
+				name: "Dana Yarovinski",
+				excerpt: "Roland nagyon kedves és vicces, és teljesen látszik rajta, hogy pontosan tudja, mit csinál a kamera mögött",
+				text: "A fotók gyönyörűek lettek, ráadásul nagyon gyorsan megkaptuk őket! Néhány órával a fotózás után már nálunk voltak, és óriási örömöt okoztak. A minőség és a kreativitás, amivel készültek, lenyűgöző. A fotós nagyon kedves és vicces, és teljesen látszik rajta, hogy pontosan tudja, mit csinál a kamera mögött.",
+			},
+			en: {
+				name: "Dana Yarovinski",
+				excerpt: "Roland is very nice and funny, and he absolutely knows what he’s doing when taking the photos",
+				text: "The photos came out beautifully and very quickly! We received them a few hours after the photo shoot and we were very happy with them, the quality and creativity used when taking them is splendid and the photographer is very nice and funny and he absolutely knows what he’s doing when taking the photos",
+			},
+		},
+		{
+			type: "male",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/AfFAE4uq55H5uyXa8",
+			photo: "/assets/images/testimonials/norrie.webp",
+			hu: {
+				name: "Norrie Sinclair",
+				excerpt: "Nagyon profi, könnyű és természetes vele együtt dolgozni, és rengeteg remek fotót készített, amelyek közül választhattam",
+				text: "Roland szinte azonnal válaszolt az első megkeresésemre, és pár napon belül megszervezte a fotózást. Nagyon profi, könnyű és természetes vele együtt dolgozni, és rengeteg remek fotót készített, amelyek közül választhattam. 24 órán belül ki is retusálta a három kedvencemet. Igazi élmény volt vele dolgozni. Szívből ajánlom!",
+			},
+			en: {
+				name: "Norrie Sinclair",
+				excerpt: "He was highly professional, very easy and natural to work with and came up with a range of excellent shots to chose from",
+				text: "Roland responded almost immediately to my initial request, and arranged a session within a couple of days of our initial contact. He was highly professional, very easy and natural to work with and came up with a range of excellent shots to chose from. Within 24 hours he’d edited the three I liked most. A real pleasure to work with. I’d highly recommend!",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/6Ejm1DJQ51TFjjwn9",
+			photo: "/assets/images/testimonials/pooja.webp",
+			hu: {
+				name: "Pooja Gangwani",
+				excerpt: "Rendkívül türelmes volt, nyitott az új dolgokra, jól irányított minket, és nagyon kényelmesen éreztük magunkat a fotózás alatt",
+				text: "Rolandra a ChatGPT ajánlása alapján találtam rá a kismamafotózásomhoz. Volt egy elképzelésem a fotózásról: szerettem volna, ha a képeim Budapest hangulatát is megőrzik emlékként. Roland ezt teljes mértékben megvalósította – sőt, még többet is adott. Rendkívül türelmes volt, nyitott az új dolgokra, jól irányított minket, és nagyon kényelmesen éreztük magunkat a fotózás alatt. Roland nélkül az élményem biztosan nem lett volna ennyire pozitív és emlékezetes. Köszönöm, Roland, a gyönyörűen megörökített és retusált fotókat. Mindegyik méltó arra, hogy felkerüljön az emlékfalunkra. 🙂",
+			},
+			en: {
+				name: "Pooja Gangwani",
+				excerpt: "Roland was so patient, so open to trying new things. He guided us well and made us feel so comfortable",
+				text: "I found Roland through ChatGPT’s recommendation for my maternity shoot. I had a certain vision for my shoot. I wanted to capture the essence of Budapest in my photos for keepsake. Roland captured that and more. He was so patient, so open to trying new things. He guided us well and made us feel so comfortable. If it weren’t for Roland my experience wouldn’t have been so positive and memorable. Thank you Roland for the most beautifully captured and edited photos. Each one worthy of going up on our memory wall :)",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/FQCH3224HigNf5YJA",
+			photo: "/assets/images/testimonials/emoke.webp",
+			hu: {
+				name: "Kővári Emőke",
+				excerpt: "Roland egy nagyon ügyes profi fotós, és ami legalább ilyen fontos, rendkívül türelmes",
+				text: "Roland egy nagyon ügyes profi fotós, és ami legalább ilyen fontos, rendkívül türelmes. Csak ajánlani tudom.",
+			},
+			en: {
+				name: "Emőke Kővári",
+				excerpt: "Roland is a very skilled professional photographer, and just as importantly, he is extremely patient",
+				text: "Roland is a very skilled professional photographer, and just as importantly, he is extremely patient. I can only recommend him.",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/RDhLjWkGoKxRUPkD7",
+			photo: "/assets/images/testimonials/soundarya.webp",
+			hu: {
+				name: "Soundarya Venkatesh",
+				excerpt: "Az elején kicsit szégyenlősek voltunk a kamera előtt, de segített feloldódni, és így csodás képek készültek rólunk",
+				text: "Nagyszerű élmény volt Rolandal a kismamafotózásom. Nagyon türelmesen meghallgatta az igényeimet és elvárásaimat. Már a kültéri helyszín kiválasztásától kezdve egészen a varázslatos naplementében készült fotókig csodálatos munkát végzett. Mindenkinek csak ajánlani tudom, aki kültéri fotózásra vágyik. Emellett végig nagyon kényelmesen éreztük magunkat a fotózás alatt. Az elején kicsit szégyenlősek voltunk a kamera előtt, de segített feloldódni, és így csodás képek készültek rólunk. Köszönjük, hogy megörökítetted a legszebb emlékeinket, amikor szülők lettünk.",
+			},
+			en: {
+				name: "Soundarya Venkatesh",
+				excerpt: "We were camera shy in the beginning but he helped is to break the ice and pose splendidly for our pictures",
+				text: "I had a great experience in doing my maternity shoot with Roland. He has a great patience in understanding your needs and expectations. Right from choosing the location for outdoor shoot to capturing the photos in the magical sunset, his work was awesome. Would definitely recommend if you are in the lookout for outdoor shoots. Apart from this he made us feel comfortable in our shoots. We were camera shy in the beginning but he helped is to break the ice and pose splendidly for our pictures. Thank you for capturing our beautiful memories as parents to be.",
+			},
+		},
+		{
+			type: "couple",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/iZntcMnmkcScBCjD6",
+			photo: "/assets/images/testimonials/arina.webp",
+			hu: {
+				name: "Arina Sergeyevna",
+				excerpt: "Roland profi, és szeretettel végzi a munkáját, a képeink tényleg mesébe illőek lettek",
+				text: "Május 24-én volt az esküvőnk, és szerettük volna megörökíteni a legszebb pillanatokat. Rolandot hívtuk fotósnak, és ez volt a legjobb döntésünk. Zephyrrel ez volt az első fotózásunk, így kicsit féltem, hogy nem fogok szépen mutatni a képeken. De Roland minden félelmünket eloszlatta: megmutatta, hogyan álljunk, hova tegyük a kezünket, hogyan igazítsam a fátylam. Minden apró részletre figyelt – például, hogy a gyűrűm a napfényben csillogjon. Nagyon elégedett voltam a kompozíciók és a hátterek megválasztásával, egyértelmű, hogy Roland profi, és szeretettel végzi a munkáját. A Parlamentnél olyan szögeket választott, hogy a képeink tényleg mesébe illőek lettek! Hatalmas öröm volt, hogy már az esküvő napján kaptunk tőle retusált fotót, aminek a rokonaink is nagyon örültek! Nagyon gyorsan megkaptuk a teljes anyagot is, és egyszerűen csodálatosak lettek a képek! Számomra különösen fontosak ezek a fotók, mert a családom nem tudott eljönni az esküvőre külföldről, és így szerettem volna, hogy a képeken keresztül átérezzék a nap minden örömét. Nagyon boldogok vagyunk, hogy a fotóink ennyire élőek, ragyogóak és színesek lettek – minden alkalommal, amikor rájuk nézünk, szeretettel idézzük fel az esküvőnket. A családom hatalmas köszönetét fejezi ki Rolandnak a kemény munkájáért, türelméért és kedvességéért.",
+			},
+			en: {
+				name: "Arina Sergeyevna",
+				excerpt: "Roland is a professional and approaches his work with love, our pictures turned out as if we were from a fairy tale",
+				text: "We had a wedding on May 24th, and we wanted to capture the best moments of it. We invited Roland as a photographer, and it was our best decision. For Zephyr and me, this was the first photo shoot experience ever, so I was a little afraid that I wouldn't be able to look beautiful in the photos. But Roland dispelled all our fears: he told us what position to get up in, how to put your hands, and how to put my veil. He noticed all the little details, like making my ring shine in the sun. I was very pleased with the choice of compositions and backgrounds, it is clear that Roland is a professional and approaches his work with love. He chose the most successful angles of the Parliament, and our pictures turned out as if we were from a fairy tale! It was a pleasure to receive the edited photo on the wedding day itself! Our relatives were delighted with it! We got the final photos very quickly, and they're amazing! For me, the photos from Roland are also very important because my family could not come to the wedding to another country, so I wanted to them to feel all the joy of the moment through the photos. We are happy that our photos turned out to be so lively, bright and saturated that every time we look at them, we remember our wedding with love. My family expresses the huge appreciation to Roland for his hard work, patience and kindness.",
+			},
+		},
+		{
+			type: "female",
+			score: "5.0",
 			googleURL: "https://maps.app.goo.gl/dduzcD2FreDs8DZi6",
 			photo: "/assets/images/testimonials/reka-4.webp",
 			hu: {
@@ -1455,7 +1615,7 @@ module.exports = {
 			hu: {
 				name: "K. Muskan",
 				excerpt: "Roland minden félelmemet elfeledtette velem a fotózás során",
-				text: "Szégyenlős vagyok a kamera előtt, nem feltétlenül szeretem ha fotóznak. A filmes fotózásunk elég nagy kihívást jelentett számomra, de Roland minden félelmemet elfeledtette velem a fotózás során. Laza stílusú, elbűvölő személyiség, akit kiváló munkamorál jellemez; a filmes portré fotózás egész folyamata könnyednek tűnt. A folyamat során gondoskodott róla, hogy végig magabiztos legyek. Most visszatekintve az egész élményre,  határozottan azt mondom, hogy nagyon élveztem -- köszönet Rolandnak, hogy ilyen csodálatos fotós!",
+				text: "Szégyenlős vagyok a kamera előtt, nem feltétlenül szeretem ha fotóznak. A filmes fotózásunk elég nagy kihívást jelentett számomra, de Roland minden félelmemet elfeledtette velem a fotózás során. Laza stílusú, elbűvölő személyiség, akit kiváló munkamorál jellemez; a filmes portré fotózás egész folyamata könnyednek tűnt. A folyamat során gondoskodott róla, hogy végig magabiztos legyek. Most visszatekintve az egész élményre, határozottan azt mondom, hogy nagyon élveztem -- köszönet Rolandnak, hogy ilyen csodálatos fotós!",
 			},
 			en: {
 				name: "Muskan K.",
@@ -1836,6 +1996,22 @@ module.exports = {
 				name: "Kata P.",
 				excerpt: "Roland helped me step out of my comfort zone",
 				text: "Roland helped me step out of my comfort zone and created this wonderful set under the beautifully blossoming flowers at golden hour. Not to mention, as a beginner photographer, I got to learn lots of new things from him, which I'll certainly use in my upcoming work.",
+			},
+		},
+		{
+			type: "automotive",
+			score: "5.0",
+			googleURL: "https://maps.app.goo.gl/2x345YFXpSaHMNsZ8",
+			photo: "/assets/images/testimonials/cars_mondeo.webp",
+			hu: {
+				name: "Bacsek Richárd",
+				excerpt: "Jó hangulatú fotózás, gyors utómunka és tökéletes fotók",
+				text: "Jó hangulatú fotózás, gyors utómunka és tökéletes fotók! Csak ajánlani tudom!",
+			},
+			en: {
+				name: "Richárd Bacsek",
+				excerpt: "Great atmosphere during the photoshoot, fast editing, and perfect photos",
+				text: "Great atmosphere during the photoshoot, fast editing, and perfect photos! I can only recommend Roland!",
 			},
 		},
 		{
