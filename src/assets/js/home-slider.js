@@ -15,11 +15,13 @@ dots.forEach((dot, i) => {
 function goToSlide(index) {
 	slides[current].classList.remove('slide--active');
 	dots[current].classList.remove('dot--active');
+	dots[current].removeAttribute('aria-current');
 
 	current = (index + slides.length) % slides.length;
 
 	slides[current].classList.add('slide--active');
 	dots[current].classList.add('dot--active');
+	dots[current].setAttribute('aria-current', 'true');
 
 	resetTimer();
 }

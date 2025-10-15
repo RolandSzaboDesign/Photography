@@ -4,7 +4,8 @@ layout: layouts/base.html
 css: home
 ---
 
-<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/hero-portraiture.webp" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/hero-portraiture--mobile.webp" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/hero-automotive--mobile.webp" type="image/webp">
 
 <main class="main home">
 	<header class="hero container container--wide">
@@ -41,17 +42,17 @@ css: home
 			</div>
 		</article>
 		<div class="pagination">
-			<button class="dot dot--active"></button>
-			<button class="dot"></button>
-			<button class="dot"></button>
-			<button class="dot"></button>
+			<button class="dot dot--active" aria-label="Slide 1" aria-current="true"></button>
+			<button class="dot" aria-label="Slide 2"></button>
+			<button class="dot" aria-label="Slide 3"></button>
+			<button class="dot" aria-label="Slide 4"></button>
 		</div>
 	</header>
 
 	<section class="section section--white about">
 		<div class="container">
 			<header class="about__header">
-				<img class="about__image" src="/assets/images/roland-home.webp" alt="Roland">
+				<img class="about__image" src="/assets/images/roland-home.webp" srcset="/assets/images/roland-home--mobile.webp 300w, /assets/images/roland-home.webp 600w" sizes="(max-width: 768px) 300px, 600px" alt="Roland">
 				<div>
 					<h2>{{ about.title }}</h2>
 					<p>{{ about.intro }}</p>

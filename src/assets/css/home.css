@@ -99,20 +99,40 @@
 	transform: scale(1.05);
 }
 
-.slide__background--portraiture {
-	background-image: url('/assets/images/home/hero-portraiture.webp');
+@media only screen and (max-width: 767.98px) {
+	.slide__background--portraiture {
+		background-image: url('/assets/images/home/hero-portraiture--mobile.webp');
+	}
+
+	.slide__background--automotive {
+		background-image: url('/assets/images/home/hero-automotive--mobile.webp');
+	}
+
+	.slide__background--events {
+		background-image: url('/assets/images/home/hero-events--mobile.webp');
+	}
+
+	.slide__background--real-estate {
+		background-image: url('/assets/images/home/hero-real-estate--mobile.webp');
+	}
 }
 
-.slide__background--automotive {
-	background-image: url('/assets/images/home/hero-automotive.webp');
-}
+@media only screen and (min-width: 768px) {
+	.slide__background--portraiture {
+		background-image: url('/assets/images/home/hero-portraiture.webp');
+	}
 
-.slide__background--events {
-	background-image: url('/assets/images/home/hero-events.webp');
-}
+	.slide__background--automotive {
+		background-image: url('/assets/images/home/hero-automotive.webp');
+	}
 
-.slide__background--real-estate {
-	background-image: url('/assets/images/home/hero-real-estate.webp');
+	.slide__background--events {
+		background-image: url('/assets/images/home/hero-events.webp');
+	}
+
+	.slide__background--real-estate {
+		background-image: url('/assets/images/home/hero-real-estate.webp');
+	}
 }
 
 .pagination {
@@ -175,7 +195,7 @@
 
 @media only screen and (max-width: 991.98px) {
 	.about__image {
-		max-width: 16rem;
+		max-width: 10rem;
 	}
 }
 
