@@ -52,7 +52,7 @@ css: home
 	<section class="section section--white about">
 		<div class="container">
 			<header class="about__header">
-				<img class="about__image" src="/assets/images/roland-home.webp" srcset="/assets/images/roland-home--mobile.webp 300w, /assets/images/roland-home.webp 600w" sizes="(max-width: 768px) 300px, 600px" alt="Roland">
+				<img class="about__image" src="/assets/images/roland-home.webp" srcset="/assets/images/roland-home--mobile.webp 300w, /assets/images/roland-home.webp 600w" sizes="(max-width: 768px) 300px, 600px" width="600" height="600" alt="Roland">
 				<div>
 					<h2>{{ about.title }}</h2>
 					<p>{{ about.intro }}</p>
@@ -88,7 +88,7 @@ css: home
 			<div class="home-services">
 				{% for item in services.items %}
 					<article class="home-service">
-						<img class="home-service__image" src="{{ item.image }}" alt="{{ item.title }}">
+						<img class="home-service__image" src="{{ item.image }}" alt="{{ item.title }}" width="600" height="400">
 						<div class="home-service__content">
 							<h3 class="home-service__title">{{ item.title }}</h3>
 							<p class="home-service__intro"><em>{{ item.intro }}</em></p>
@@ -120,7 +120,7 @@ css: home
 				<p>{{ gift.text2 }}</p>
 				<a class="button" href="{{ gift.href }}">{{ gift.button }}</a>
 			</article>
-			<img class="gift__image" src="/assets/images/home/voucher.webp" alt="{{ gift.title }}">
+			<img class="gift__image" src="/assets/images/home/voucher.webp" alt="{{ gift.title }}" width="700" height="300">
 		</div>
 	</section>
 

@@ -1696,6 +1696,9 @@ ol.list { list-style: decimal; }
 	border-bottom: 0;
 	border-radius: 99rem;
 	background-color: var(--bg-medium);
+}
+
+a.tag__link {
 	transition: var(--transition-duration) color, var(--transition-duration) background-color;
 }
 

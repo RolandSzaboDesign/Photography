@@ -92,7 +92,6 @@
 	background-size: cover;
 	filter: brightness(.9);
 	transition: transform 5s ease-out;
-	clip-path: url('/assets/images/home/clip-path.svg');
 }
 
 .slide--active .slide__background {
