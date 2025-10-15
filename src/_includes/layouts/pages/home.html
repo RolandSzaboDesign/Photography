@@ -74,7 +74,18 @@ css: home
 	<section class="section section--white about">
 		<div class="container">
 			<header class="about__header">
-				<img class="about__image" src="/assets/images/roland-home.webp" srcset="/assets/images/roland-home--mobile.webp 300w, /assets/images/roland-home.webp 600w" sizes="(max-width: 768px) 300px, 600px" width="600" height="600" alt="Roland">
+				<img
+					class="about__image"
+					src="/assets/images/roland-home.webp"
+					srcset="
+						/assets/images/roland-home--mobile.webp 200w,
+						/assets/images/roland-home.webp 400w
+					"
+					sizes="(max-width: 768px) 200px, 400px"
+					width="400"
+					height="400"
+					alt="Roland"
+				>
 				<div>
 					<h2>{{ about.title }}</h2>
 					<p>{{ about.intro }}</p>
