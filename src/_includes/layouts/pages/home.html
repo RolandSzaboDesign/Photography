@@ -15,7 +15,7 @@ css: home
 			<div class="slide__image">
 				<picture>
 					<source srcset="/assets/images/home/hero-portraiture--mobile.webp" media="(max-width: 767.98px)">
-					<img src="/assets/images/home/hero-portraiture.webp" width="1600" height="800" alt="{{ hero.portraiture.alt | default: 'Portré fotózás' }}" fetchpriority="high" loading="eager" decoding="async"
+					<img src="/assets/images/home/hero-portraiture.webp" srcset="/assets/images/home/hero-portraiture--mobile.webp 768w, /assets/images/home/hero-portraiture.webp 1600w" sizes="100vw" width="1600" height="800" alt="{{ hero.portraiture.alt | default: 'Portré fotózás' }}" fetchpriority="high" loading="eager" decoding="async"
 					>
 				</picture>
 			</div>
@@ -29,7 +29,7 @@ css: home
 				<div class="slide__image">
 					<picture>
 						<source srcset="/assets/images/home/hero-automotive--mobile.webp" media="(max-width: 767.98px)">
-						<img src="/assets/images/home/hero-automotive.webp" width="1600" height="800" alt="{{ hero.automotive.alt | default: 'Autó fotózás' }}" fetchpriority="high" loading="eager" decoding="async"
+						<img src="/assets/images/home/hero-automotive.webp" srcset="/assets/images/home/hero-automotive--mobile.webp 768w, /assets/images/home/hero-automotive.webp 1600w" sizes="100vw"  width="1600" height="800" alt="{{ hero.automotive.alt | default: 'Autó fotózás' }}" fetchpriority="high" decoding="async"
 						>
 					</picture>
 				</div>
@@ -44,7 +44,7 @@ css: home
 				<div class="slide__image">
 					<picture>
 						<source srcset="/assets/images/home/hero-events--mobile.webp" media="(max-width: 767.98px)">
-						<img src="/assets/images/home/hero-events.webp" width="1600" height="800" alt="{{ hero.events.alt | default: 'Rendezvény fotózás' }}" decoding="async">
+						<img src="/assets/images/home/hero-events.webp" srcset="/assets/images/home/hero-events--mobile.webp 768w, /assets/images/home/hero-events.webp 1600w" sizes="100vw"  width="1600" height="800" alt="{{ hero.events.alt | default: 'Rendezvény fotózás' }}" decoding="async">
 					</picture>
 				</div>
 			</div>
@@ -58,7 +58,7 @@ css: home
 				<div class="slide__image">
 					<picture>
 						<source srcset="/assets/images/home/hero-real-estate--mobile.webp" media="(max-width: 767.98px)">
-						<img src="/assets/images/home/hero-real-estate.webp" width="1600" height="800" alt="{{ hero.real-estate.alt | default: 'Ingatlan fotózás' }}" decoding="async">
+						<img src="/assets/images/home/hero-real-estate.webp" srcset="/assets/images/home/hero-real-estate--mobile.webp 768w, /assets/images/home/hero-real-estate.webp 1600w" sizes="100vw"  width="1600" height="800" alt="{{ hero.real-estate.alt | default: 'Ingatlan fotózás' }}" decoding="async">
 					</picture>
 				</div>
 			</div>
