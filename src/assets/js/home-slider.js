@@ -4,7 +4,7 @@ const dots = hero.querySelectorAll('.dot');
 
 let current = 0;
 let timer;
-const delay = 4500; // 4.5s
+const delay = 4500;
 
 // Dotokra kattintás
 dots.forEach((dot, i) => {
