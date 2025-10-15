@@ -7,6 +7,9 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="description" content="{{ description | default: site[locale].metaDescription }}">
 
+		<!-- Preload -->
+		<link rel="preload" as="font" href="/assets/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous">
+
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
 		{%- if css %}

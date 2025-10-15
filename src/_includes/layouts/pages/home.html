@@ -4,9 +4,6 @@ layout: layouts/base.html
 css: home
 ---
 
-<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/hero-portraiture--mobile.webp" type="image/webp">
-<link rel="preload" fetchpriority="high" as="image" href="/assets/images/home/hero-automotive--mobile.webp" type="image/webp">
-
 <main class="main home">
 	<header class="hero container container--wide">
 		<article class="slide">
@@ -14,7 +11,13 @@ css: home
 				<h2 class="slide__title">{{ hero.portraiture.title }}</h2>
 				<p class="slide__description">{{ hero.portraiture.tagline }}</p>
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">{{ hero.portraiture.button }}</a>
-				<div class="slide__background slide__background--portraiture"></div>
+			</div>
+			<div class="slide__image">
+				<picture>
+					<source srcset="/assets/images/home/hero-portraiture--mobile.webp" media="(max-width: 767.98px)">
+					<img src="/assets/images/home/hero-portraiture.webp" width="1600" height="800" alt="{{ hero.portraiture.alt | default: 'Portré fotózás' }}" fetchpriority="high" loading="eager" decoding="async"
+					>
+				</picture>
 			</div>
 		</article>
 		<article class="slide">
@@ -22,7 +25,14 @@ css: home
 				<h2 class="slide__title">{{ hero.automotive.title }}</h2>
 				<p class="slide__description">{{ hero.automotive.tagline }}</p>
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesAutomotive }}/">{{ hero.automotive.button }}</a>
-				<div class="slide__background slide__background--automotive"></div>
+				</div>
+				<div class="slide__image">
+					<picture>
+						<source srcset="/assets/images/home/hero-automotive--mobile.webp" media="(max-width: 767.98px)">
+						<img src="/assets/images/home/hero-automotive.webp" width="1600" height="800" alt="{{ hero.automotive.alt | default: 'Autó fotózás' }}" fetchpriority="high" loading="eager" decoding="async"
+						>
+					</picture>
+				</div>
 			</div>
 		</article>
 		<article class="slide">
@@ -30,7 +40,13 @@ css: home
 				<h2 class="slide__title">{{ hero.events.title }}</h2>
 				<p class="slide__description">{{ hero.events.tagline }}</p>
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesEvents }}/">{{ hero.events.button }}</a>
-				<div class="slide__background slide__background--events"></div>
+				</div>
+				<div class="slide__image">
+					<picture>
+						<source srcset="/assets/images/home/hero-events--mobile.webp" media="(max-width: 767.98px)">
+						<img src="/assets/images/home/hero-events.webp" width="1600" height="800" alt="{{ hero.events.alt | default: 'Rendezvény fotózás' }}" decoding="async">
+					</picture>
+				</div>
 			</div>
 		</article>
 		<article class="slide">
@@ -38,7 +54,13 @@ css: home
 				<h2 class="slide__title">{{ hero.real-estate.title }}</h2>
 				<p class="slide__description">{{ hero.real-estate.tagline }}</p>
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesRealEstate }}/">{{ hero.real-estate.button }}</a>
-				<div class="slide__background slide__background--real-estate"></div>
+				</div>
+				<div class="slide__image">
+					<picture>
+						<source srcset="/assets/images/home/hero-real-estate--mobile.webp" media="(max-width: 767.98px)">
+						<img src="/assets/images/home/hero-real-estate.webp" width="1600" height="800" alt="{{ hero.real-estate.alt | default: 'Ingatlan fotózás' }}" decoding="async">
+					</picture>
+				</div>
 			</div>
 		</article>
 		<div class="pagination">
