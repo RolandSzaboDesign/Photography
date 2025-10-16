@@ -121,7 +121,17 @@ css: home
 			<div class="home-services">
 				{% for item in services.items %}
 					<article class="home-service">
-						<img class="home-service__image" src="{{ item.image }}" alt="{{ item.title }}" width="600" height="400">
+						<img
+							class="home-service__image"
+							src="{{ item.image }}"
+							srcset="
+								{{ item.image-mobile }} 400w,
+								{{ item.image }} 750w"
+							sizes="(max-width: 420px) 100vw, 750px"
+							alt="{{ item.title }}"
+							width="750" height="500"
+							loading="lazy" decoding="async"
+						>
 						<div class="home-service__content">
 							<h3 class="home-service__title">{{ item.title }}</h3>
 							<p class="home-service__intro"><em>{{ item.intro }}</em></p>
