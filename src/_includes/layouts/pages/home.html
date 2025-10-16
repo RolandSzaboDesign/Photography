@@ -14,11 +14,16 @@ css: home
 				<p class="slide__description">{{ hero.portraiture.tagline }}</p>
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/">{{ hero.portraiture.button }}</a>
 			</div>
-			<div class="slide__image">
-				<picture>
-					<source srcset="/assets/images/home/hero-portraiture--mobile.webp" media="(max-width: 767.98px)">
-					<img src="/assets/images/home/hero-portraiture.webp" srcset="/assets/images/home/hero-portraiture--mobile.webp 768w, /assets/images/home/hero-portraiture.webp 1600w" sizes="100vw" width="1600" height="800" alt="{{ hero.portraiture.alt | default: 'Portré fotózás' }}" fetchpriority="high" loading="eager" decoding="async">
-				</picture>
+			<div class="slide__image-container">
+				<img
+					class="slide__image"
+					src="/assets/images/home/hero-portraiture.webp"
+					srcset="
+						/assets/images/home/hero-portraiture--mobile.webp 768w,
+						/assets/images/home/hero-portraiture.webp 1600w"
+					sizes="100vw" width="1600" height="800"
+					alt="{{ hero.portraiture.alt }}"
+					fetchpriority="high" loading="eager" decoding="async">
 			</div>
 		</article>
 		<article class="slide">
@@ -27,11 +32,16 @@ css: home
 				<p class="slide__description">{{ hero.automotive.tagline }}</p>
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesAutomotive }}/">{{ hero.automotive.button }}</a>
 				</div>
-				<div class="slide__image">
-					<picture>
-						<source srcset="/assets/images/home/hero-automotive--mobile.webp" media="(max-width: 767.98px)">
-						<img src="/assets/images/home/hero-automotive.webp" srcset="/assets/images/home/hero-automotive--mobile.webp 768w, /assets/images/home/hero-automotive.webp 1600w" sizes="100vw"  width="1600" height="800" alt="{{ hero.automotive.alt | default: 'Autó fotózás' }}" fetchpriority="high" decoding="async">
-					</picture>
+				<div class="slide__image-container">
+					<img
+						class="slide__image"
+						src="/assets/images/home/hero-automotive.webp"
+						srcset="
+							/assets/images/home/hero-automotive--mobile.webp 768w,
+							/assets/images/home/hero-automotive.webp 1600w"
+						sizes="100vw" width="1600" height="800"
+						alt="{{ hero.automotive.alt }}"
+						fetchpriority="high" loading="eager" decoding="async">
 				</div>
 			</div>
 		</article>
@@ -41,11 +51,16 @@ css: home
 				<p class="slide__description">{{ hero.events.tagline }}</p>
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesEvents }}/">{{ hero.events.button }}</a>
 				</div>
-				<div class="slide__image">
-					<picture>
-						<source srcset="/assets/images/home/hero-events--mobile.webp" media="(max-width: 767.98px)">
-						<img src="/assets/images/home/hero-events.webp" srcset="/assets/images/home/hero-events--mobile.webp 768w, /assets/images/home/hero-events.webp 1600w" sizes="100vw"  width="1600" height="800" alt="{{ hero.events.alt | default: 'Rendezvény fotózás' }}" decoding="async">
-					</picture>
+				<div class="slide__image-container">
+					<img
+						class="slide__image"
+						src="/assets/images/home/hero-events.webp"
+						srcset="
+							/assets/images/home/hero-events--mobile.webp 768w,
+							/assets/images/home/hero-events.webp 1600w"
+						sizes="100vw" width="1600" height="800"
+						alt="{{ hero.events.alt }}"
+						fetchpriority="high" loading="eager" decoding="async">
 				</div>
 			</div>
 		</article>
@@ -55,11 +70,16 @@ css: home
 				<p class="slide__description">{{ hero.real-estate.tagline }}</p>
 				<a class="button" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesRealEstate }}/">{{ hero.real-estate.button }}</a>
 				</div>
-				<div class="slide__image">
-					<picture>
-						<source srcset="/assets/images/home/hero-real-estate--mobile.webp" media="(max-width: 767.98px)">
-						<img src="/assets/images/home/hero-real-estate.webp" srcset="/assets/images/home/hero-real-estate--mobile.webp 768w, /assets/images/home/hero-real-estate.webp 1600w" sizes="100vw"  width="1600" height="800" alt="{{ hero.real-estate.alt | default: 'Ingatlan fotózás' }}" decoding="async">
-					</picture>
+				<div class="slide__image-container">
+					<img
+						class="slide__image"
+						src="/assets/images/home/hero-real-estate.webp"
+						srcset="
+							/assets/images/home/hero-real-estate--mobile.webp 768w,
+							/assets/images/home/hero-real-estate.webp 1600w"
+						sizes="100vw" width="1600" height="800"
+						alt="{{ hero.real-estate.alt }}"
+						fetchpriority="high" loading="eager" decoding="async">
 				</div>
 			</div>
 		</article>
