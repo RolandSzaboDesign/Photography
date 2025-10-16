@@ -17,8 +17,7 @@ css: home
 			<div class="slide__image">
 				<picture>
 					<source srcset="/assets/images/home/hero-portraiture--mobile.webp" media="(max-width: 767.98px)">
-					<img src="/assets/images/home/hero-portraiture.webp" srcset="/assets/images/home/hero-portraiture--mobile.webp 768w, /assets/images/home/hero-portraiture.webp 1600w" sizes="100vw" width="1600" height="800" alt="{{ hero.portraiture.alt | default: 'Portré fotózás' }}" fetchpriority="high" loading="eager" decoding="async"
-					>
+					<img src="/assets/images/home/hero-portraiture.webp" srcset="/assets/images/home/hero-portraiture--mobile.webp 768w, /assets/images/home/hero-portraiture.webp 1600w" sizes="100vw" width="1600" height="800" alt="{{ hero.portraiture.alt | default: 'Portré fotózás' }}" fetchpriority="high" loading="eager" decoding="async">
 				</picture>
 			</div>
 		</article>
@@ -31,8 +30,7 @@ css: home
 				<div class="slide__image">
 					<picture>
 						<source srcset="/assets/images/home/hero-automotive--mobile.webp" media="(max-width: 767.98px)">
-						<img src="/assets/images/home/hero-automotive.webp" srcset="/assets/images/home/hero-automotive--mobile.webp 768w, /assets/images/home/hero-automotive.webp 1600w" sizes="100vw"  width="1600" height="800" alt="{{ hero.automotive.alt | default: 'Autó fotózás' }}" fetchpriority="high" decoding="async"
-						>
+						<img src="/assets/images/home/hero-automotive.webp" srcset="/assets/images/home/hero-automotive--mobile.webp 768w, /assets/images/home/hero-automotive.webp 1600w" sizes="100vw"  width="1600" height="800" alt="{{ hero.automotive.alt | default: 'Autó fotózás' }}" fetchpriority="high" decoding="async">
 					</picture>
 				</div>
 			</div>
@@ -86,6 +84,7 @@ css: home
 					sizes="(max-width: 768px) 200px, 400px"
 					width="400"
 					height="400"
+					loading="lazy"
 					alt="Roland"
 				>
 				<div>
@@ -165,7 +164,7 @@ css: home
 				<p>{{ gift.text2 }}</p>
 				<a class="button" href="{{ gift.href }}">{{ gift.button }}</a>
 			</article>
-			<img class="gift__image" src="/assets/images/home/voucher.webp" alt="{{ gift.title }}" width="700" height="300">
+			<img class="gift__image" src="/assets/images/home/voucher.webp" alt="{{ gift.title }}" width="700" height="300" loading="lazy">
 		</div>
 	</section>
 
