@@ -50,8 +50,8 @@
 /en/social-content/inna-faith-tattoo/					/en/services/social-media-content-creation/
 /en/social-content/pinceszinhaz/						/en/services/social-media-content-creation/
 /en/social-content/the-damn-good-place/					/en/services/social-media-content-creation/
-/galleries												/hu/portfolio/
-/galleries/												/hu/portfolio/
+/galleries												/hu/portre-portfolio/
+/galleries/												/hu/portre-portfolio/
 /gear													/en/gear/
 /gear/													/en/gear/
 /hu/auto/												/hu/szolgaltatasok/auto-fotozas-budapest/
@@ -73,8 +73,8 @@
 /hu/kozossegi-tartalom/the-damn-good-place/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
 /hu/naptar/												/hu/
 /hu/noi-portrek/										/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/pages/alejandro-ana/								/hu/portfolio/
-/hu/pages/anna-15/										/hu/portfolio/
+/hu/pages/alejandro-ana/								/hu/portre-portfolio/
+/hu/pages/anna-15/										/hu/portre-portfolio/
 /hu/paros-portrek/										/hu/szolgaltatasok/portre-fotozas-budapest/
 /hu/szolgaltatasok/auto-fotozas/						/hu/szolgaltatasok/auto-fotozas-budapest/
 /hu/szolgaltatasok/filmes-fotos-setak/					/hu/szolgaltatasok/portre-fotozas-budapest/
@@ -108,17 +108,17 @@
 /street/2021-12-06/										/hu/
 /street/2021-12-13/										/hu/
 
-/hu/tags/*												/hu/					301
-/en/tags/*												/en/					301
-/tags/*													/hu/					301
+/hu/tags/*												/hu/							301
+/en/tags/*												/en/							301
+/tags/*													/hu/							301
 
-/hu/galeriak/*											/hu/portfolio/			301
-/hu/portre/*											/hu/portfolio/			301
-/en/portraiture/*										/en/portfolio/			301
+/hu/galeriak/*											/hu/portre-portfolio/			301
+/hu/portre/*											/hu/portre-portfolio/			301
+/en/portraiture/*										/en/portrait-portfolio/			301
 
-/portrait*												/hu/portfolio/			301
-/portraiture*											/hu/portfolio/			301
+/portrait*												/en/portrait-portfolio/			301
+/portraiture*											/en/portrait-portfolio/			301
 
-/en/*													/en/404					404
-/hu/*													/hu/404					404
-/*														/404					404
+/en/*													/en/404							404
+/hu/*													/hu/404							404
+/*														/404							404

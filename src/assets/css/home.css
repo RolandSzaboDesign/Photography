@@ -52,6 +52,11 @@
 	}
 }
 
+.slide__h1 {
+	color: #FFF;
+	text-shadow: 0 .1rem .25rem rgba(0,0,0,1), 0 0rem .5rem rgba(0,0,0,.5);
+}
+
 .slide__title {
 	font-family: var(--sans);
 	font-weight: 700;
