@@ -1,0 +1,53 @@
+{% assign currentLocale = locale | default: "hu" %}
+{% assign forms = site[currentLocale].forms %}
+{% assign netlifyFormName = "callback-" | append: currentLocale %}
+
+{% if contact %}
+	<section class="contact-section" id="contact">
+		<div class="container contact-section__inner">
+			<div class="contact-section__content">
+				{% if contact.eyebrow %}
+					<p class="eyebrow">{{ contact.eyebrow }}</p>
+				{% endif %}
+
+				<h2>{{ contact.title }}</h2>
+				<p>{{ contact.text }}</p>
+
+				<div class="contact-links">
+					<h3>{{ contact.directTitle }}</h3>
+					<a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+					<a href="tel:{{ contact.phone | replace: ' ', '' }}">{{ contact.phone }}</a>
+					<a href="{{ contact.instagramUrl }}">{{ contact.instagram }}</a>
+				</div>
+			</div>
+
+			<form class="contact-form" name="{{ netlifyFormName }}" method="POST" action="{{ forms.successPath }}" data-netlify="true" netlify-honeypot="bot-field" aria-labelledby="{{ contact.formName }}-title" aria-describedby="{{ contact.formName }}-privacy">
+				<input type="hidden" name="form-name" value="{{ netlifyFormName }}">
+				<input type="hidden" name="page-url" value="{{ page.url }}">
+
+				<p class="form-honeypot" aria-hidden="true">
+					<label>
+						{{ forms.honeypotLabel }}
+						<input type="text" name="bot-field" tabindex="-1" autocomplete="off">
+					</label>
+				</p>
+
+				<h3 class="contact-form__title" id="{{ contact.formName }}-title">{{ contact.formTitle }}</h3>
+
+				<div class="field">
+					<label class="field__label" for="{{ contact.formName }}-name">{{ contact.nameLabel }}</label>
+					<input class="field__input" id="{{ contact.formName }}-name" type="text" name="name" autocomplete="name" required>
+				</div>
+
+				<div class="field">
+					<label class="field__label" for="{{ contact.formName }}-phone">{{ contact.phoneLabel }}</label>
+					<input class="field__input" id="{{ contact.formName }}-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" required>
+				</div>
+
+				<p class="contact-form__privacy" id="{{ contact.formName }}-privacy">{{ forms.privacyText }} <a href="{{ forms.privacyHref }}">{{ forms.privacyLink }}</a>.</p>
+
+				<button class="button button--primary button--full" type="submit">{{ contact.submit }}</button>
+			</form>
+		</div>
+	</section>
+{% endif %}

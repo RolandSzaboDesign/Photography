@@ -1,0 +1,118 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main service-hub-page" id="main">
+	<section class="hero">
+		<div class="hero__inner">
+			<div class="hero__content">
+				{% include "partials/breadcrumbs.html" %}
+
+				<p class="eyebrow">{{ hero.eyebrow }}</p>
+				<h1 class="hero__title">{{ hero.title }}</h1>
+				<p class="hero__text">{{ hero.text }}</p>
+
+				<div class="actions">
+					<a class="button button--primary" href="#contact">{{ hero.primaryCta }}</a>
+					<a class="button button--ghost" href="#services">{{ hero.secondaryCta }}</a>
+				</div>
+			</div>
+
+			<figure class="hero__media">
+				<img class="hero__image" src="{{ hero.image }}" alt="{{ hero.imageAlt }}" width="1920" height="1280" loading="eager" fetchpriority="high" decoding="async">
+			</figure>
+		</div>
+	</section>
+
+	<section class="service-hub-approach section" id="approach">
+		<div class="container">
+			<div class="service-hub-section-intro">
+				<div class="section-heading">
+					<h2>{{ approach.title }}</h2>
+				</div>
+				<p>{{ approach.text }}</p>
+			</div>
+
+			<ul class="service-hub-approach-grid">
+				{% for item in approach.items %}
+					<li class="service-hub-approach-item">
+						<h3>{{ item.title }}</h3>
+						<p>{{ item.text }}</p>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="service-hub-types section" id="services">
+		<div class="container">
+			{% if featuredTypes %}
+				<div class="service-hub-section-intro">
+					<div class="section-heading">
+						<h2>{{ featuredTypes.title }}</h2>
+					</div>
+
+					<p>{{ featuredTypes.text }}</p>
+				</div>
+
+				<ul class="service-hub-featured-grid">
+					{% assign serviceCardLinkLabel = featuredTypes.cardCta %}
+
+					{% for item in featuredTypes.items %}
+						<li class="service-hub-featured-grid__item">
+							{% include "partials/service-card.html" %}
+						</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+
+			{% if otherTypes %}
+				<nav class="service-hub-type-links" aria-labelledby="aria-other-types-title">
+					<div class="service-hub-type-links__intro">
+						<h3 id="aria-other-types-title">{{ otherTypes.title }}</h3>
+						<p>{{ otherTypes.text }}</p>
+						{% if otherTypes.guideLink %}
+							<p class="service-hub-other-types__guide-link">
+								{{ otherTypes.guideLink.text }}
+								<a href="{{ otherTypes.guideLink.href }}">
+									{{ otherTypes.guideLink.label }}
+								</a>
+							</p>
+						{% endif %}
+					</div>
+
+					<ul class="service-hub-type-links__list">
+						{% for item in otherTypes.items %}
+							<li>
+								<a href="{{ item.href }}">{{ item.title }}</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</nav>
+			{% endif %}
+		</div>
+	</section>
+
+	<section class="service-hub-process section" id="process">
+		<div class="container service-hub-process__inner">
+			<div>
+				<div class="section-heading">
+					<h2>{{ process.title }}</h2>
+					<p>{{ process.text }}</p>
+				</div>
+				{% include "partials/process-list.html" %}
+			</div>
+
+			<div class="service-hub-process__media">
+				<img src="{{ process.image }}" alt="{{ process.imageAlt }}" width="1200" height="1500" loading="lazy" decoding="async">
+			</div>
+		</div>
+	</section>
+
+	{% include "partials/pricing.html" %}
+	{% include "partials/testimonials.html" %}
+	{% include "partials/contact-section.html" %}
+	{% include "partials/guide.html" %}
+	{% include "partials/faq.html" %}
+	{% include "partials/final-cta.html" %}
+</main>

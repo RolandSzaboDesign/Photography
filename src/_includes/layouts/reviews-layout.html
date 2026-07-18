@@ -1,0 +1,66 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main reviews-page" id="main">
+	{% include "partials/static-hero.html" %}
+
+	{% for section in reviewsPage.sections %}
+		<section class="reviews-section section{% if section.tone %} reviews-section--{{ section.tone }}{% endif %}" id="{{ section.id }}">
+			<div class="container">
+				<header class="reviews-section__header{% if section.proof %} reviews-section__header--with-proof{% endif %}">
+					<div class="reviews-section__heading">
+						{% if section.eyebrow %}
+							<p class="eyebrow">{{ section.eyebrow }}</p>
+						{% endif %}
+
+						<h2>{{ section.title }}</h2>
+
+						{% if section.proof and section.text %}
+							<p class="reviews-section__intro">{{ section.text }}</p>
+						{% endif %}
+					</div>
+
+					{% if section.proof %}
+						<div class="reviews-section__proof" aria-label="{{ reviewsProof.number }} {{ reviewsProof.numberLabel }}">
+							<strong>{{ reviewsProof.number }}</strong>
+							<span>{{ reviewsProof.numberLabel }}</span>
+
+							{% if reviewsProof.linkHref %}
+								<a href="{{ reviewsProof.linkHref }}" target="_blank" rel="noopener noreferrer">{{ reviewsProof.linkLabel }} <span aria-hidden="true">↗</span></a>
+							{% endif %}
+						</div>
+					{% elsif section.text %}
+						<p>{{ section.text }}</p>
+					{% endif %}
+				</header>
+
+				{% assign sectionReviews = testimonials.items | where: "reviewsPageSection", section.id | sort: "reviewsPageOrder" %}
+
+				<div class="review-grid">
+					{% for review in sectionReviews %}
+						{% include "partials/review-card.html" %}
+					{% endfor %}
+				</div>
+			</div>
+		</section>
+	{% endfor %}
+
+	<section class="reviews-summary section">
+		<div class="container reviews-summary__inner">
+			<p class="reviews-summary__statement">{{ summary.statement }}</p>
+
+			<div class="reviews-summary__content">
+				{% if summary.eyebrow %}
+					<p class="eyebrow">{{ summary.eyebrow }}</p>
+				{% endif %}
+
+				<h2>{{ summary.title }}</h2>
+				<p>{{ summary.text }}</p>
+			</div>
+		</div>
+	</section>
+
+	{% include "partials/next-links.html" %}
+	{% include "partials/contact-section.html" %}
+</main>

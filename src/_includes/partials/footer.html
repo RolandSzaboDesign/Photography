@@ -1,15 +1,31 @@
-<footer class="footer">
-	<div class="footer__container container">
-		<div>
-			<p class="copyright">&copy; 2026 &ndash; {{ site[locale].headerName }}, {{ site[locale].copyright }}</p>
-			<nav class="footer-links">
-				<a class="footer-link" href="/{{ locale }}/{{ site[locale].slugLegalPrivacy }}/">{{ site[locale].navLegalPrivacy }}</a>
-				<a class="footer-link" href="/{{ locale }}/{{ site[locale].slugLegalTerms }}/">{{ site[locale].navLegalTerms }}</a>
-				<a class="footer-link" href="/{{ locale }}/{{ site[locale].slugLegalCookies }}/">{{ site[locale].navLegalCookies }}</a>
-			</nav>
+{% assign lang = site[locale] %}
+
+<footer class="site-footer">
+	<div class="site-footer__inner container">
+		<div class="site-footer__brand">
+			<a class="site-footer__logo" href="/{{ locale }}/">{{ lang.brand.name }}</a>
+			<p class="site-footer__text">{{ lang.footer.description }}</p>
 		</div>
-		<a class="footer__logo" href="#">
-			<img src="/assets/images/logo.svg" alt="Roland Szabó Photography" title="{{ site[locale].backToTop }}" width="80" height="40">
-		</a>
+
+		<nav class="site-footer__nav" aria-label="{{ lang.footer.ariaLabel }}">
+			{% for group in lang.footer.groups %}
+				<div class="site-footer__group">
+					<h2 class="site-footer__heading">{{ group.title }}</h2>
+
+					<ul class="site-footer__list">
+						{% for item in group.items %}
+							<li>
+								<a class="site-footer__link" href="{{ item.href }}"{% if page.url == item.href %} aria-current="page"{% endif %}>{{ item.label }}</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endfor %}
+		</nav>
+	</div>
+
+	<div class="site-footer__bottom container">
+		<p>&copy; {{ site.currentYear }} {{ lang.brand.name }}. {{ lang.footer.copyright }}</p>
+		<p>{{ lang.footer.location }}</p>
 	</div>
 </footer>

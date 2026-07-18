@@ -1,4 +1,5 @@
 {
+	"name": "rolandszabo-photo",
 	"scripts": {
 		"build": "npx @11ty/eleventy && node generate-critical.mjs"
 	},
@@ -11,3 +12,4 @@
 		"node": ">=18"
 	}
 }
+

@@ -1,0 +1,44 @@
+{% assign reviewCopy = review[locale] %}
+{% assign reviewLabels = testimonials.labels[locale] %}
+{% assign reviewServiceLabel = reviewLabels.serviceLabels[review.service] %}
+{% assign reviewIsTranslation = false %}
+
+{% if review.sourceLocale and review.sourceLocale != locale %}
+	{% assign reviewIsTranslation = true %}
+{% endif %}
+
+<article class="review-card">
+	<div class="review-card__top">
+		{% if review.photo %}
+			<img class="review-card__photo" src="{{ review.photo }}" alt="" width="64" height="64" loading="lazy" decoding="async">
+		{% endif %}
+
+		<div>
+			<h3 class="review-card__author">{{ reviewCopy.name }}</h3>
+
+			{% if reviewServiceLabel or reviewIsTranslation %}
+				<div class="review-card__meta">
+					{% if reviewServiceLabel %}
+						<span>{{ reviewServiceLabel }}</span>
+					{% endif %}
+
+					{% if reviewIsTranslation %}
+						<span>{{ reviewLabels.translationLabel }}</span>
+					{% endif %}
+				</div>
+			{% endif %}
+		</div>
+	</div>
+
+	<div class="review-card__rating" aria-label="{{ reviewLabels.ratingLabel }}">
+		<span aria-hidden="true">★★★★★</span>
+	</div>
+
+	<blockquote class="review-card__quote">
+		<p>{{ reviewCopy.excerpt }}</p>
+	</blockquote>
+
+	{% if review.googleURL %}
+		<a class="review-card__source" href="{{ review.googleURL }}" target="_blank" rel="noopener noreferrer">{{ reviewLabels.sourceLabel }} <span aria-hidden="true">↗</span></a>
+	{% endif %}
+</article>

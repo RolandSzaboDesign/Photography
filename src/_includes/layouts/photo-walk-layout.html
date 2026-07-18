@@ -1,0 +1,130 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main photo-walk-page" id="main">
+	<section class="hero">
+		<div class="hero__inner">
+			<div class="hero__content">
+				{% include "partials/breadcrumbs.html" %}
+
+				<p class="eyebrow">{{ hero.eyebrow }}</p>
+				<h1 class="hero__title">{{ hero.title }}</h1>
+				<p class="hero__text">{{ hero.text }}</p>
+			</div>
+
+			<figure class="hero__media">
+				<img class="hero__image" src="{{ hero.image }}" alt="{{ hero.imageAlt }}" width="1920" height="1280" loading="eager" fetchpriority="high" decoding="async">
+			</figure>
+		</div>
+	</section>
+
+	<section class="photo-walk-format section">
+		<div class="container">
+			<header class="split-heading">
+				<div>
+					{% if format.eyebrow %}
+						<p class="eyebrow">{{ format.eyebrow }}</p>
+					{% endif %}
+
+					<h2>{{ format.title }}</h2>
+				</div>
+
+				{% if format.text %}
+					<p>{{ format.text }}</p>
+				{% endif %}
+			</header>
+
+			<ol class="photo-walk-format__grid">
+				{% for item in format.items %}
+					<li class="photo-walk-format__item">
+						<span class="photo-walk-format__number" aria-hidden="true">0{{ forloop.index }}</span>
+						<h3>{{ item.title }}</h3>
+						<p>{{ item.text }}</p>
+					</li>
+				{% endfor %}
+			</ol>
+		</div>
+	</section>
+
+	<section class="photo-walk-gallery section">
+		<div class="container">
+			<header class="split-heading">
+				<div>
+					{% if gallery.eyebrow %}
+						<p class="eyebrow">{{ gallery.eyebrow }}</p>
+					{% endif %}
+
+					<h2>{{ gallery.title }}</h2>
+				</div>
+
+				{% if gallery.text %}
+					<p>{{ gallery.text }}</p>
+				{% endif %}
+			</header>
+
+			<ul class="photo-walk-gallery__grid">
+				{% for item in gallery.items %}
+					<li class="photo-walk-gallery__item">
+						<figure>
+							<img src="{{ item.image }}" alt="{{ item.alt }}" width="1200" height="800" loading="lazy" decoding="async">
+
+							{% if item.caption %}
+								<figcaption>{{ item.caption }}</figcaption>
+							{% endif %}
+						</figure>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="photo-walk-context section">
+		<div class="container photo-walk-context__inner">
+			<div class="photo-walk-context__heading">
+				{% if context.eyebrow %}
+					<p class="eyebrow">{{ context.eyebrow }}</p>
+				{% endif %}
+
+				<h2>{{ context.title }}</h2>
+			</div>
+
+			<div class="photo-walk-context__content">
+				<p class="lede">{{ context.text }}</p>
+
+				{% if context.text2 %}
+					<p>{{ context.text2 }}</p>
+				{% endif %}
+
+				{% if context.linkHref %}
+					<a class="photo-walk-context__link" href="{{ context.linkHref }}">{{ context.linkLabel }} <span aria-hidden="true">→</span></a>
+				{% endif %}
+			</div>
+		</div>
+	</section>
+
+	<section class="photo-walk-join section">
+		<div class="container photo-walk-join__inner">
+			<div class="photo-walk-join__content">
+				{% if join.eyebrow %}
+					<p class="eyebrow">{{ join.eyebrow }}</p>
+				{% endif %}
+
+				<h2>{{ join.title }}</h2>
+				<p>{{ join.text }}</p>
+			</div>
+
+			<div class="photo-walk-join__actions">
+				{% if join.primaryCta and join.primaryCtaHref %}
+					<a class="button button--primary" href="{{ join.primaryCtaHref }}"{% if join.primaryExternal %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ join.primaryCta }}</a>
+				{% endif %}
+
+				{% if join.secondaryCta and join.secondaryCtaHref %}
+					<a class="button button--ghost" href="{{ join.secondaryCtaHref }}">{{ join.secondaryCta }}</a>
+				{% endif %}
+			</div>
+		</div>
+	</section>
+
+	{% include "partials/next-links.html" %}
+</main>

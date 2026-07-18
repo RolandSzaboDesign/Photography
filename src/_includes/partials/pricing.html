@@ -1,0 +1,40 @@
+{% if pricing %}
+	<section class="pricing section" id="pricing">
+		<div class="container">
+			<div class="pricing__card">
+				<div class="pricing__media">
+					<img src="{{ pricing.image }}" alt="{{ pricing.imageAlt }}" width="900" height="1200" loading="lazy" decoding="async">
+				</div>
+
+				<div class="pricing__content">
+					<h2>{{ pricing.title }}</h2>
+
+					<div class="pricing__price-group">
+						<p class="pricing__price-label">{{ pricing.priceLabel }}</p>
+						<p class="pricing__price">{{ pricing.price }}</p>
+					</div>
+
+					<p>{{ pricing.text }}</p>
+
+					{% if pricing.note %}
+						<p>{{ pricing.note }}</p>
+					{% endif %}
+
+					{% if pricing.items %}
+						<ul class="plain-list pricing__list">
+							{% for item in pricing.items %}
+								<li>{{ item }}</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+
+					{% if pricing.cta %}
+						<div class="actions">
+							<a class="button button--primary" href="#contact">{{ pricing.cta }}</a>
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</section>
+{% endif %}

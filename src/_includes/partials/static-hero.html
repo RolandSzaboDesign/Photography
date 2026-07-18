@@ -1,0 +1,36 @@
+<section class="static-hero{% if hero.image %} static-hero--with-image{% endif %}">
+	<div class="container static-hero__inner">
+		<div class="static-hero__content">
+			{% include "partials/breadcrumbs.html" %}
+
+			{% if hero.eyebrow %}
+				<p class="eyebrow">{{ hero.eyebrow }}</p>
+			{% endif %}
+
+			<h1 class="static-hero__title">{{ hero.title }}</h1>
+			<p class="static-hero__text">{{ hero.text }}</p>
+
+			{% if hero.text2 %}
+				<p class="static-hero__text static-hero__text--secondary">{{ hero.text2 }}</p>
+			{% endif %}
+
+			{% if hero.primaryCta or hero.secondaryCta %}
+				<div class="actions">
+					{% if hero.primaryCta and hero.primaryCtaHref %}
+						<a class="button button--primary" href="{{ hero.primaryCtaHref }}">{{ hero.primaryCta }}</a>
+					{% endif %}
+
+					{% if hero.secondaryCta and hero.secondaryCtaHref %}
+						<a class="button button--ghost" href="{{ hero.secondaryCtaHref }}">{{ hero.secondaryCta }}</a>
+					{% endif %}
+				</div>
+			{% endif %}
+		</div>
+
+		{% if hero.image %}
+			<figure class="static-hero__media">
+				<img class="static-hero__image" src="{{ hero.image }}" alt="{{ hero.imageAlt }}" width="800" height="1000" loading="eager" fetchpriority="high" decoding="async">
+			</figure>
+		{% endif %}
+	</div>
+</section>

@@ -1,0 +1,64 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main portfolio-page" id="main">
+	{% include "partials/static-hero.html" %}
+
+	{% assign pageNavItems = portfolio.categories %}
+	{% assign pageNavAriaLabel = portfolio.navigationLabel %}
+	{% include "partials/page-nav.html" %}
+
+	<div class="portfolio-panels">
+		{% for category in portfolio.categories %}
+			<section class="portfolio-panel section" id="{{ category.id }}">
+				<div class="container">
+					<header class="portfolio-panel__header">
+						<div class="portfolio-panel__intro">
+							{% if category.eyebrow %}
+								<p class="eyebrow">{{ category.eyebrow }}</p>
+							{% endif %}
+
+							<h2>{{ category.title }}</h2>
+
+							{% if category.text %}
+								<p>{{ category.text }}</p>
+							{% endif %}
+						</div>
+
+						{% if category.serviceHref and category.serviceLabel %}
+							<a class="button button--ghost portfolio-panel__service-link" href="{{ category.serviceHref }}">{{ category.serviceLabel }}</a>
+						{% endif %}
+					</header>
+
+					{% if category.items %}
+						<ul class="portfolio-gallery">
+							{% for item in category.items %}
+								{% assign imageOrientation = item.orientation | default: "landscape" %}
+								{% assign imageWidth = 1000 %}
+								{% assign imageHeight = 667 %}
+
+								{% if imageOrientation == "portrait" %}
+									{% assign imageWidth = 667 %}
+									{% assign imageHeight = 1000 %}
+								{% endif %}
+
+								<li class="portfolio-gallery__item portfolio-gallery__item--{{ imageOrientation }}">
+									<figure class="portfolio-gallery__figure">
+										<img class="portfolio-gallery__image" src="{{ item.image }}" alt="{{ item.alt }}" width="{{ imageWidth }}" height="{{ imageHeight }}" loading="lazy" decoding="async">
+
+										{% if item.caption %}
+											<figcaption class="portfolio-gallery__caption">{{ item.caption }}</figcaption>
+										{% endif %}
+									</figure>
+								</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</div>
+			</section>
+		{% endfor %}
+	</div>
+
+	{% include "partials/contact-section.html" %}
+</main>

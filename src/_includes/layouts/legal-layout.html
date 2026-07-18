@@ -1,0 +1,21 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main legal-page" id="main">
+	{% include "partials/static-hero.html" %}
+	{% include "partials/page-nav.html" %}
+
+	<div class="legal-page__body section">
+		<div class="container container--thin legal-content">
+			{% if updated %}
+				<p class="legal-content__updated">
+					<strong>{{ lastUpdatedLabel | default: site[locale].accessibility.lastUpdated }}</strong>
+					<time datetime="{{ updated | date: '%Y-%m-%d' }}">{{ updated | date: "%Y. %m. %d." }}</time>
+				</p>
+			{% endif %}
+
+			{{ content }}
+		</div>
+	</div>
+</main>

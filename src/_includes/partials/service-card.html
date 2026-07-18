@@ -1,0 +1,24 @@
+{% assign serviceCardImageAlt = item.imageAlt | default: item.alt %}
+{% assign serviceCardCta = item.linkLabel | default: serviceCardLinkLabel %}
+
+<a class="service-card" href="{{ item.href }}">
+	<figure class="service-card__media">
+		<img src="{{ item.image }}" alt="{{ serviceCardImageAlt }}" width="1200" height="900" loading="lazy" decoding="async">
+	</figure>
+
+	<div class="service-card__content">
+		{% if item.label %}
+			<p class="service-card__label">{{ item.label }}</p>
+		{% endif %}
+
+		<h3 class="service-card__title">{{ item.title }}</h3>
+		<p class="service-card__text">{{ item.text }}</p>
+
+		{% if serviceCardCta %}
+			<span class="service-card__link">
+				{{ serviceCardCta }}
+				<span aria-hidden="true">→</span>
+			</span>
+		{% endif %}
+	</div>
+</a>

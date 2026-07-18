@@ -1,0 +1,40 @@
+{
+	"layout": "layouts/blog-post-layout.html",
+	"locale": "hu",
+	"tags": [
+		"blog-hu"
+	],
+	"ogType": "article",
+	"blogPostUi": {
+		"eyebrow": "Fotós blog",
+		"breadcrumbLabel": "Morzsamenü",
+		"homeLabel": "Főoldal",
+		"blogLabel": "Fotós blog",
+		"authorLabel": "Írta:",
+		"authorName": "Szabó Roland",
+		"updatedLabel": "Frissítve:"
+	},
+	"next": {
+		"eyebrow": "Merre tovább?",
+		"title": "Olvass tovább, vagy nézd meg a fotózási lehetőségeket.",
+		"text": "A blogon további gyakorlati cikkeket találsz, a szolgáltatási oldalakon pedig részletesen bemutatom, hogyan dolgozom.",
+		"ariaLabel": "További oldalak",
+		"items": [
+			{
+				"title": "További cikkek",
+				"text": "Nézd meg a fotós blog összes bejegyzését.",
+				"href": "/hu/blog/"
+			},
+			{
+				"title": "Szolgáltatások",
+				"text": "Portré-, autó-, esemény- és céges fotózási lehetőségek.",
+				"href": "/hu/szolgaltatasok/"
+			},
+			{
+				"title": "Kapcsolat",
+				"text": "Írd meg, milyen fotózásban gondolkodsz.",
+				"href": "/hu/kapcsolat/"
+			}
+		]
+	}
+}

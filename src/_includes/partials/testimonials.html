@@ -1,0 +1,26 @@
+{% if quotes and quotes.items %}
+	<section class="testimonials-section section" id="reviews">
+		<div class="container">
+			<div class="section-heading">
+				{% if quotes.eyebrow %}
+					<p class="eyebrow">{{ quotes.eyebrow }}</p>
+				{% endif %}
+
+				<h2>{{ quotes.title }}</h2>
+			</div>
+
+			<div class="review-grid">
+				{% for reviewId in quotes.items %}
+					{% assign selectedReviews = testimonials.items | where: "id", reviewId %}
+					{% assign review = selectedReviews | first %}
+
+					{% if review %}
+						{% include "partials/review-card.html" %}
+					{% else %}
+						<!-- Missing testimonial ID: {{ reviewId }} -->
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endif %}

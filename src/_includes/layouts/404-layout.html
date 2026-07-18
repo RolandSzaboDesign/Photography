@@ -1,0 +1,29 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main error-page" id="main">
+	<section class="error-page__hero">
+		<div class="container error-page__inner">
+			<p class="eyebrow">{{ error.eyebrow }}</p>
+
+			<div class="error-page__status" aria-hidden="true">
+				<span class="error-page__code">404</span>
+
+				<svg class="error-page__battery" viewBox="0 0 120 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M18 24H11C7.686 24 5 26.686 5 30V46C5 49.314 7.686 52 11 52H18" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+					<rect x="18" y="13" width="92" height="50" rx="5" stroke="currentColor" stroke-width="6"/>
+					<path d="M29 8L100 68" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+				</svg>
+			</div>
+
+			<h1 class="error-page__title">{{ error.title }}</h1>
+			<p class="error-page__text">{{ error.text }}</p>
+
+			<div class="actions error-page__actions">
+				<a class="button button--primary" href="{{ error.primaryCtaHref }}">{{ error.primaryCta }}</a>
+				<a class="button button--ghost" href="{{ error.secondaryCtaHref }}">{{ error.secondaryCta }}</a>
+			</div>
+		</div>
+	</section>
+</main>

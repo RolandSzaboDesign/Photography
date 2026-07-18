@@ -1,89 +1,45 @@
-<header class="header">
-	<div class="header__container container">
-		<a class="logo" href="/{{ locale }}/" title="{{ site[locale].backToHomepage }}">
-			<strong class="logo__name">{{ site[locale].headerName }}</strong>
-			<span class="logo__tagline">{{ site[locale].headerDescription }}</span>
+{% assign lang = site[locale] %}
+
+<header class="site-header">
+	<div class="site-header__inner container">
+		<a class="site-logo" href="/{{ locale }}/" aria-label="{{ lang.navigation.logoAriaLabel }}">
+			<span class="site-logo__name">{{ lang.brand.name }}</span>
+			<span class="site-logo__tagline">{{ lang.brand.tagline }}</span>
 		</a>
-		<nav id="main-menu" class="nav nav--header">
-			<ul class="nav__list">
-				<li class="nav__item">
-					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugAboutAbout }}/">{{ site[locale].navAboutMain }}</a>
-					<ul class="nav__dropdown">
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugAboutAbout }}/"><i class="nav__icon fas fa-fw fa-hand"></i> {{ site[locale].navAboutAbout }}</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugAboutTestimonials }}/"><i class="nav__icon fas fa-fw fa-comment"></i> {{ site[locale].navAboutTestimonials }}</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugAboutGear }}/"><i class="nav__icon fas fa-fw fa-camera"></i> {{ site[locale].navAboutGear }}</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugAboutContact }}/"><i class="nav__icon fas fa-fw fa-phone"></i> {{ site[locale].navAboutContact }}</a>
-						</li>
-					</ul>
-				</li>
-				<li class="nav__item">
-					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/">{{ site[locale].navServicesMain }}</a>
-					<ul class="nav__dropdown">
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesPortraiture }}/"><i class="nav__icon fas fa-fw fa-user-group"></i> {{ site[locale].navServicesPortraiture }}</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesAutomotive }}/"><i class="nav__icon fas fa-fw fa-car-side"></i> {{ site[locale].navServicesAutomotive }}</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesEvents }}/"><i class="nav__icon fas fa-fw fa-champagne-glasses"></i> {{ site[locale].navServicesEvents }}</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesRealEstate }}/"><i class="nav__icon fas fa-fw fa-house-chimney"></i> {{ site[locale].navServicesRealEstate }}</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugServicesMain }}/{{ site[locale].slugServicesSocialContent }}/"><i class="nav__icon fas fa-fw fa-thumbs-up"></i> {{ site[locale].navServicesSocialContent }}</a>
-						</li>
-					</ul>
-				</li>
-				<li class="nav__item">
-					<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugPortfolioPortraiture }}/"> {{ site[locale].navPortfolioMain }}</a>
-					<ul class="nav__dropdown">
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugPortfolioPortraiture }}/"><i class="nav__icon fas fa-fw fa-user-group"></i> {{ site[locale].navPortfolioPortraiture }}</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugPortfolioAutomotive }}/"><i class="nav__icon fas fa-fw fa-car-side"></i> {{ site[locale].navPortfolioAutomotive }}</a>
-						</li>
-					</ul>
-				</li>
-				<li class="nav__item">
-					<span class="nav__link">{{ site[locale].navProjectsMain }}</span>
-					<ul class="nav__dropdown">
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugProjectsBudapestPhotoWalk }}/"><i class="nav__icon fas fa-fw fa-person-walking"></i> {{ site[locale].navProjectsBudapestPhotoWalk }}</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="/{{ locale }}/{{ site[locale].slugProjectsBlog }}/"><i class="nav__icon fas fa-fw fa-pen-nib"></i> {{ site[locale].navProjectsBlog }}</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
-		<nav class="lang">
-			<ul class="lang__list">
-				{%- for lang in site.languages -%}
-					{%- assign translated = "/" | append: lang.code | append: "/" -%}
-					{%- for item in collections.all -%}
-						{%- if item.data.translation == translation and item.data.locale == lang.code -%}
-							{%- assign translated = item.url -%}
-						{%- endif -%}
-					{%- endfor %}
-					<li class="lang__item">
-						<a class="lang__link{% if lang.code == locale %} lang__link--active{% endif %}" href="{{ translated }}">
-							<span title="{{ lang.label }}">{{ lang.code }}</span>
+
+		<button class="site-header__toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-open-label="{{ lang.navigation.menuOpenLabel }}" data-close-label="{{ lang.navigation.menuCloseLabel }}">
+			<span class="site-header__toggle-line" aria-hidden="true"></span>
+			<span class="site-header__toggle-line" aria-hidden="true"></span>
+			<span class="site-header__toggle-line" aria-hidden="true"></span>
+			<span class="sr-only js-site-header-toggle-label">{{ lang.navigation.menuOpenLabel }}</span>
+		</button>
+
+		<nav class="site-nav" id="site-nav" aria-label="{{ lang.navigation.ariaLabel }}">
+			<ul class="site-nav__list">
+				{% for item in lang.navigation.items %}
+					{% assign itemIsExactCurrent = false %}
+					{% assign itemIsSectionCurrent = false %}
+
+					{% if page.url == item.href %}
+						{% assign itemIsExactCurrent = true %}
+					{% elsif item.activeTranslations and item.activeTranslations contains translation %}
+						{% assign itemIsSectionCurrent = true %}
+					{% endif %}
+
+					<li class="site-nav__item{% if item.divider %} site-nav__item--divider{% endif %}">
+						<a class="site-nav__link{% if itemIsExactCurrent or itemIsSectionCurrent %} site-nav__link--active{% endif %}" href="{{ item.href }}"{% if itemIsExactCurrent %} aria-current="page"{% elsif itemIsSectionCurrent %} aria-current="location"{% endif %}>{{ item.label }}</a>
+					</li>
+				{% endfor %}
+
+				{% if hasAlternatePage %}
+					<!-- <li class="site-nav__item site-nav__item--divider"> -->
+					<li class="site-nav__item">
+						<a class="site-nav__link" href="{{ alternatePageUrl }}" hreflang="{{ alternateLocale }}" lang="{{ alternateLocale }}" aria-label="{{ lang.navigation.languageSwitch.ariaLabel }}">
+							<span aria-hidden="true">{{ lang.navigation.languageSwitch.label }}</span>
 						</a>
 					</li>
-				{%- endfor %}
+				{% endif %}
 			</ul>
 		</nav>
-		<a id="menu-toggle" class="menu-toggle" href="#" title="{{ site[locale].toggleNavigation }}" onclick="toggleMainMenu()">☰</a>
 	</div>
 </header>

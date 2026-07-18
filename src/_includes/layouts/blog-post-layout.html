@@ -1,0 +1,80 @@
+---
+layout: layouts/base.html
+ogType: article
+---
+
+{% assign articleLead = lede | default: description %}
+
+<main class="main blog-post-page" id="main">
+	<article class="blog-post">
+		<header class="blog-post__header">
+			<div class="container container--thin blog-post__header-inner">
+				{% include "partials/breadcrumbs.html" %}
+
+				<p class="eyebrow">{{ blogPostUi.eyebrow }}</p>
+				<h1 class="blog-post__title">{{ title }}</h1>
+				<p class="blog-post__lede">{{ articleLead }}</p>
+
+				<div class="blog-post__meta">
+					<span>
+						{{ blogPostUi.authorLabel }}
+						<strong>{{ blogPostUi.authorName }}</strong>
+					</span>
+
+					<span class="blog-post__meta-separator" aria-hidden="true">•</span>
+
+					<time datetime="{{ date | date: '%Y-%m-%d' }}">
+						{{ date | date: "%Y. %m. %d." }}
+					</time>
+
+					{% if updated %}
+						<span class="blog-post__meta-separator" aria-hidden="true">•</span>
+
+						<span>
+							{{ blogPostUi.updatedLabel }}
+							<time datetime="{{ updated | date: '%Y-%m-%d' }}">{{ updated | date: "%Y. %m. %d." }}</time>
+						</span>
+					{% endif %}
+				</div>
+			</div>
+		</header>
+
+		<div class="blog-post__body section">
+			<div class="container container--thin">
+				<div class="blog-post__content">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+
+		{% if articleCta %}
+			<aside class="blog-post-cta section" aria-labelledby="blog-post-cta-title">
+				<div class="container container--thin blog-post-cta__inner">
+					{% if articleCta.eyebrow %}
+						<p class="eyebrow">{{ articleCta.eyebrow }}</p>
+					{% endif %}
+
+					<h2 id="blog-post-cta-title">{{ articleCta.title }}</h2>
+
+					{% if articleCta.text %}
+						<p>{{ articleCta.text }}</p>
+					{% endif %}
+
+					{% if articleCta.primaryCta or articleCta.secondaryCta %}
+						<div class="actions">
+							{% if articleCta.primaryCta and articleCta.primaryCtaHref %}
+								<a class="button button--primary" href="{{ articleCta.primaryCtaHref }}"{% if articleCta.primaryExternal %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ articleCta.primaryCta }}</a>
+							{% endif %}
+
+							{% if articleCta.secondaryCta and articleCta.secondaryCtaHref %}
+								<a class="button button--ghost" href="{{ articleCta.secondaryCtaHref }}"{% if articleCta.secondaryExternal %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ articleCta.secondaryCta }}</a>
+							{% endif %}
+						</div>
+					{% endif %}
+				</div>
+			</aside>
+		{% endif %}
+	</article>
+
+	{% include "partials/next-links.html" %}
+</main>

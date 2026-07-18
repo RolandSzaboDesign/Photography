@@ -1,0 +1,89 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main portrait-type-page" id="main">
+	<section class="hero">
+		<div class="hero__inner">
+			<div class="hero__content">
+				{% include "partials/breadcrumbs.html" %}
+
+				<p class="eyebrow">{{ hero.eyebrow }}</p>
+				<h1 class="hero__title">{{ hero.title }}</h1>
+				<p class="hero__text">{{ hero.text }}</p>
+
+				<div class="actions">
+					<a class="button button--primary" href="#contact">{{ hero.primaryCta }}</a>
+					<a class="button button--ghost" href="#gallery">{{ hero.secondaryCta }}</a>
+				</div>
+			</div>
+
+			<figure class="hero__media">
+				<img class="hero__image" src="{{ hero.image }}" alt="{{ hero.imageAlt }}" width="1920" height="1280" loading="eager" fetchpriority="high" decoding="async">
+
+			</figure>
+		</div>
+	</section>
+
+	<section class="portrait-type-intro section" id="intro">
+		<div class="container portrait-type-intro__inner">
+			<div class="portrait-type-intro__content">
+				<h2>{{ intro.title }}</h2>
+				<p>{{ intro.text1 }}</p>
+				<p>{{ intro.text2 }}</p>
+			</div>
+
+			<aside class="portrait-type-summary">
+				<h3>{{ intro.summary.title }}</h3>
+
+				<ul class="plain-list">
+					{% for item in intro.summary.items %}
+						<li>{{ item }}</li>
+					{% endfor %}
+				</ul>
+			</aside>
+		</div>
+	</section>
+
+	{% assign galleryWidth = 900 %}
+	{% assign galleryHeight = 1200 %}
+
+	{% if gallery.orientation == "landscape" %}
+		{% assign galleryWidth = 1200 %}
+		{% assign galleryHeight = 900 %}
+	{% endif %}
+
+	<section class="portrait-type-gallery section" id="gallery">
+		<div class="container">
+			<div class="portrait-type-section-heading">
+				<h2>{{ gallery.title }}</h2>
+				<p>{{ gallery.text }}</p>
+			</div>
+
+			<ul class="portrait-type-gallery__grid">
+				{% for item in gallery.items %}
+					<li class="portrait-type-gallery__item {% if item.featured %}portrait-type-gallery__item--featured{% endif %}">
+						<img src="{{ item.image }}" alt="{{ item.alt }}" width="{{ galleryWidth }}" height="{{ galleryHeight }}" loading="lazy" decoding="async">
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="portrait-type-process section" id="process">
+		<div class="container">
+			<div class="portrait-type-section-heading">
+				<h2>{{ process.title }}</h2>
+				<p>{{ process.text }}</p>
+			</div>
+			{% include "partials/process-list.html" %}
+		</div>
+	</section>
+
+	{% include "partials/pricing.html" %}
+	{% include "partials/testimonials.html" %}
+	{% include "partials/contact-section.html" %}
+	{% include "partials/guide.html" %}
+	{% include "partials/faq.html" %}
+	{% include "partials/final-cta.html" %}
+</main>
