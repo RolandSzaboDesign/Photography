@@ -1,0 +1,124 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main services-overview-page" id="main">
+	{% include "partials/static-hero.html" %}
+
+	<section class="services-overview-primary section" id="main-services">
+		<div class="container">
+			<header class="split-heading">
+				<div>
+					{% if primaryServices.eyebrow %}
+						<p class="eyebrow">{{ primaryServices.eyebrow }}</p>
+					{% endif %}
+
+					<h2>{{ primaryServices.title }}</h2>
+				</div>
+
+				{% if primaryServices.text %}
+					<p>{{ primaryServices.text }}</p>
+				{% endif %}
+			</header>
+
+			<ul class="services-overview-grid">
+				{% for item in primaryServices.items %}
+					<li class="services-overview-grid__item">
+						{% include "partials/service-card.html" %}
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="services-overview-additional section">
+		<div class="container">
+			<header class="split-heading">
+				<div>
+					{% if additionalServices.eyebrow %}
+						<p class="eyebrow">{{ additionalServices.eyebrow }}</p>
+					{% endif %}
+
+					<h2>{{ additionalServices.title }}</h2>
+				</div>
+
+				{% if additionalServices.text %}
+					<p>{{ additionalServices.text }}</p>
+				{% endif %}
+			</header>
+
+			<ul class="services-overview-additional__grid">
+				{% for item in additionalServices.items %}
+					<li>
+						<a class="services-overview-additional__card" href="{{ item.href }}">
+							<div>
+								<p class="services-overview-additional__number" aria-hidden="true">0{{ forloop.index }}</p>
+								<h3>{{ item.title }}</h3>
+								<p>{{ item.text }}</p>
+							</div>
+
+							<span class="services-overview-additional__link">
+								{{ item.linkLabel }}
+								<span aria-hidden="true">→</span>
+							</span>
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="services-overview-project section">
+		<div class="container services-overview-project__inner">
+			<div class="services-overview-project__statement">
+				{% if project.eyebrow %}
+					<p class="eyebrow">{{ project.eyebrow }}</p>
+				{% endif %}
+
+				<h2>{{ project.title }}</h2>
+			</div>
+
+			<div class="services-overview-project__content">
+				<p class="lede">{{ project.text }}</p>
+
+				{% if project.text2 %}
+					<p>{{ project.text2 }}</p>
+				{% endif %}
+
+				{% if project.linkHref %}
+					<a class="button button--light" href="{{ project.linkHref }}">{{ project.linkLabel }}</a>
+				{% endif %}
+			</div>
+		</div>
+	</section>
+
+	<section class="services-overview-quote section">
+		<div class="container">
+			<header class="split-heading">
+				<div>
+					{% if quoteFactors.eyebrow %}
+						<p class="eyebrow">{{ quoteFactors.eyebrow }}</p>
+					{% endif %}
+
+					<h2>{{ quoteFactors.title }}</h2>
+				</div>
+
+				{% if quoteFactors.text %}
+					<p>{{ quoteFactors.text }}</p>
+				{% endif %}
+			</header>
+
+			<ol class="services-overview-factors">
+				{% for item in quoteFactors.items %}
+					<li class="services-overview-factor">
+						<span class="services-overview-factor__number" aria-hidden="true">0{{ forloop.index }}</span>
+						<h3>{{ item.title }}</h3>
+						<p>{{ item.text }}</p>
+					</li>
+				{% endfor %}
+			</ol>
+		</div>
+	</section>
+
+	{% include "partials/contact-section.html" %}
+</main>

@@ -1,0 +1,63 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main blog-page" id="main">
+	{% include "partials/static-hero.html" %}
+
+	<section class="blog-listing section" aria-labelledby="blog-list-title">
+		<div class="container">
+			<header class="split-heading">
+				<div>
+					{% if listing.eyebrow %}
+						<p class="eyebrow">{{ listing.eyebrow }}</p>
+					{% endif %}
+
+					<h2 id="blog-list-title">{{ listing.title }}</h2>
+				</div>
+
+				{% if listing.text %}
+					<p>{{ listing.text }}</p>
+				{% endif %}
+			</header>
+
+			{% assign blogCollectionName = "blog-" | append: locale %}
+			{% assign blogPosts = collections[blogCollectionName] | reverse %}
+
+			<ul class="blog-grid">
+				{% for post in blogPosts %}
+					{% assign articleImage = post.data.cardImage | default: post.data.image | default: post.data.og_image %}
+					{% assign articleImageAlt = post.data.cardImageAlt | default: post.data.imageAlt | default: post.data.og_image_alt | default: post.data.title %}
+					{% assign articleText = post.data.excerpt | default: post.data.description %}
+
+					<li class="blog-grid__item">
+						<a class="blog-card{% unless articleImage %} blog-card--text-only{% endunless %}" href="{{ post.url }}">
+							{% if articleImage %}
+								<figure class="blog-card__media">
+									<img src="{{ articleImage }}" alt="{{ articleImageAlt }}" width="1200" height="800" loading="lazy" decoding="async">
+								</figure>
+							{% endif %}
+
+							<div class="blog-card__content">
+								<time class="blog-card__date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y. %m. %d." }}</time>
+
+								<h3 class="blog-card__title">{{ post.data.title }}</h3>
+
+								{% if articleText %}
+									<p class="blog-card__text">{{ articleText }}</p>
+								{% endif %}
+
+								<span class="blog-card__link">
+									{{ listing.cardCta }}
+									<span aria-hidden="true">→</span>
+								</span>
+							</div>
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	{% include "partials/next-links.html" %}
+</main>

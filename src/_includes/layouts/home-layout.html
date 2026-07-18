@@ -1,0 +1,95 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main" id="main">
+	<section class="hero">
+		<div class="hero__inner">
+			<div class="hero__content">
+				<p class="eyebrow">{{ hero.eyebrow }}</p>
+				<h1 class="hero__title">{{ hero.title }}</h1>
+				<p class="hero__text">{{ hero.text }}</p>
+
+				<div class="actions">
+					<a class="button button--primary" href="#contact">{{ hero.primaryCta }}</a>
+					<a class="button button--ghost" href="#process">{{ hero.secondaryCta }}</a>
+				</div>
+			</div>
+
+			<figure class="hero__media">
+				<img class="hero__image" src="{{ hero.image }}" alt="{{ hero.imageAlt }}" width="1920" height="1280" loading="eager" fetchpriority="high" decoding="async">
+			</figure>
+		</div>
+	</section>
+
+	<section class="section fear-section" id="fear">
+		<div class="fear-section__inner container">
+			<div class="fear-section__statement">
+				<p class="eyebrow">{{ fear.eyebrow }}</p>
+				<h2>{{ fear.title }}</h2>
+			</div>
+
+			<div class="fear-section__copy">
+				<p class="lede">{{ fear.text }}</p>
+				<p>{{ fear.note }}</p>
+
+				<ul class="plain-list">
+					{% for item in fear.points %}
+						<li>{{ item }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="section process-section" id="process">
+		<div class="process-section__inner container">
+			<div>
+				<p class="eyebrow">{{ process.eyebrow }}</p>
+				<h2>{{ process.title }}</h2>
+				{% include "partials/process-list.html" %}
+			</div>
+
+			<figure class="process-section__media">
+				<img src="{{ process.image }}" alt="{{ process.imageAlt }}" width="1000" height="700" loading="lazy" decoding="async">
+			</figure>
+		</div>
+	</section>
+
+	<section class="section services-section" id="services">
+		<div class="container">
+			<div class="section-heading">
+				<p class="eyebrow">{{ services.eyebrow }}</p>
+				<h2>{{ services.title }}</h2>
+				<p>{{ services.text }}</p>
+			</div>
+
+			<ul class="service-grid">
+				{% assign serviceCardLinkLabel = services.cardCta %}
+
+				{% for item in services.items %}
+					<li>
+						{% include "partials/service-card.html" %}
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section about-strip" id="about">
+		<div class="about-strip__inner container">
+			<figure class="about-strip__media">
+				<img src="{{ about.image }}" alt="{{ about.imageAlt }}" width="900" height="1100" loading="lazy" decoding="async">
+			</figure>
+
+			<div class="about-strip__content">
+				<p class="eyebrow">{{ about.label }}</p>
+				<h2>{{ about.title }}</h2>
+				<p class="lede">{{ about.text }}</p>
+			</div>
+		</div>
+	</section>
+
+	{% include "partials/testimonials.html" %}
+	{% include "partials/contact-section.html" %}
+</main>

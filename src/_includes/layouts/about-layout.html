@@ -1,0 +1,104 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main about-page" id="main">
+	{% include "partials/static-hero.html" %}
+
+	<section class="about-belief section" id="belief">
+		<div class="container about-belief__inner">
+			<div class="about-belief__heading">
+				<p class="eyebrow">{{ belief.eyebrow }}</p>
+				<h2>{{ belief.title }}</h2>
+			</div>
+
+			<div class="about-belief__copy">
+				<p class="about-belief__shared">{{ belief.shared }}</p>
+				<p>{{ belief.text1 }}</p>
+				<p>{{ belief.text2 }}</p>
+				<p>{{ belief.text3 }}</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-approach section" id="approach">
+		<div class="container">
+			<div class="section-heading">
+				<p class="eyebrow">{{ approach.eyebrow }}</p>
+				<h2>{{ approach.title }}</h2>
+				<p>{{ approach.text }}</p>
+			</div>
+
+			<ul class="about-principles">
+				{% for item in approach.items %}
+					<li class="about-principle">
+						<h3>{{ item.title }}</h3>
+						<p>{{ item.text }}</p>
+					</li>
+				{% endfor %}
+			</ul>
+
+			<div class="about-approach__footer">
+				<p class="eyebrow">{{ approach.noteLabel }}</p>
+				<p>{{ approach.note }}</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-story section" id="story">
+		<div class="container about-story__inner">
+			<figure class="about-story__media">
+				<img src="{{ story.image }}" alt="{{ story.imageAlt }}" width="1200" height="1500" loading="lazy" decoding="async">
+			</figure>
+
+			<div class="about-story__content">
+				<p class="eyebrow">{{ story.eyebrow }}</p>
+				<h2>{{ story.title }}</h2>
+				<p class="lede">{{ story.lede }}</p>
+				<p>{{ story.text1 }}</p>
+				<p>{{ story.text2 }}</p>
+				<p>{{ story.text3 }}</p>
+				<p class="about-story__takeaway">{{ story.takeaway }}</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-proof section" id="experience">
+		<div class="container">
+			<div class="about-proof__intro">
+				<p class="eyebrow">{{ proof.eyebrow }}</p>
+				<h2>{{ proof.title }}</h2>
+				<p>{{ proof.text }}</p>
+			</div>
+
+			<dl class="about-stats">
+				{% for item in proof.stats %}
+					<div class="about-stat">
+						<dt>{{ item.value }}</dt>
+						<dd>{{ item.label }}</dd>
+					</div>
+				{% endfor %}
+			</dl>
+
+			<div class="about-clients">
+				<h3>{{ proof.clientsTitle }}</h3>
+
+				<ul class="about-client-logos" aria-label="{{ proof.clientsAriaLabel }}">
+					{% for item in proof.clients %}
+						<li class="about-client-logo">
+							<img src="{{ item.image }}" alt="{{ item.alt }}" width="220" height="80" loading="lazy" decoding="async">
+						</li>
+					{% endfor %}
+				</ul>
+
+				{% if proof.clientsText %}
+					<p class="about-clients__text">{{ proof.clientsText }}</p>
+				{% endif %}
+			</div>
+		</div>
+	</section>
+
+	{% include "partials/testimonials.html" %}
+	{% include "partials/next-links.html" %}
+	{% include "partials/contact-section.html" %}
+</main>

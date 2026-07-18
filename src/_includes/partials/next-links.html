@@ -1,0 +1,37 @@
+{% if next %}
+	<section class="next-links section">
+		<div class="container next-links__inner">
+			<div class="next-links__content">
+				{% if next.eyebrow %}
+					<p class="eyebrow">{{ next.eyebrow }}</p>
+				{% endif %}
+
+				<h2>{{ next.title }}</h2>
+
+				{% if next.text %}
+					<p>{{ next.text }}</p>
+				{% endif %}
+			</div>
+
+			<nav aria-label="{{ next.ariaLabel | default: lang.accessibility.nextLinks }}">
+				<ul class="next-links__list">
+					{% for item in next.items %}
+						<li>
+							<a class="next-links__link" href="{{ item.href }}">
+								<span>
+									<strong>{{ item.title }}</strong>
+
+									{% if item.text %}
+										<small>{{ item.text }}</small>
+									{% endif %}
+								</span>
+
+								<span class="next-links__arrow" aria-hidden="true">→</span>
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</div>
+	</section>
+{% endif %}

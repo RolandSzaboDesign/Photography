@@ -1,5 +1,65 @@
+const portraitNavigationTranslations = [
+	"portrait-hub",
+	"female",
+	"male",
+	"couple",
+	"family",
+	"brand",
+	"creative",
+	"maternity",
+	"engagement",
+	"pets",
+	"car-portrait",
+	"friendship",
+	"headshot",
+];
+
+const automotiveNavigationTranslations = [
+	"cars-hub",
+	"car-photoshoot",
+	"used-car",
+	"business-automotive",
+];
+
+const eventNavigationTranslations = [
+	"events-hub",
+	"wedding",
+	"private-event",
+	"corporate-event",
+];
+
 module.exports = {
+	name: "Roland Szabó Photography",
 	url: "https://rolandszabo.photo",
+	currentYear: new Date().getFullYear(),
+
+	schema: {
+		organization: {
+			name: "Roland Szabó Photography",
+			alternateName: [
+				"Szabó Roland Photography",
+				"Szabó Roland",
+			],
+			url: "https://rolandszabo.photo/",
+			email: "hi@rolandszabo.photo",
+			telephone: "+36 20 591 4620",
+			sameAs: [
+				"https://www.instagram.com/rolandszabo.photo/",
+			],
+		},
+
+		person: {
+			name: "Szabó Roland",
+			alternateName: "Roland Szabó",
+			url: "https://rolandszabo.photo/hu/rolam/",
+			email: "hi@rolandszabo.photo",
+			telephone: "+36 20 591 4620",
+			sameAs: [
+				"https://www.instagram.com/rolandszabo.photo/",
+			],
+		},
+	},
+
 	languages: [
 		{
 			code: "en",
@@ -10,216 +70,362 @@ module.exports = {
 			label: "Magyar",
 		},
 	],
+
 	en: {
-		siteTitle: "Roland Szabó | Budapest Photographer",
-		metaDescription: "Experience-First Photography, from Portraits to Cars – Without the Awkwardness.",
-		copyright: "All rights reserved.",
-		backToTop: "Back to the top of the page",
-		backToHomepage: "Back to the Homepage",
-		toggleNavigation: "Toggle Navigation",
-		lastUpdated: "Last Updated",
+		ogLocale: "en_GB",
+		languageTag: "en-GB",
 
-		headerName: "Roland Szabó",
-		headerDescription: "Budapest Photographer 📸",
+		schema: {
+			personJobTitle: "Photographer",
+		},
 
-		navAboutMain: "About",
-		navAboutAbout: "Introduction",
-		navAboutTestimonials: "Testimonials",
-		navAboutGear: "Gear I Use",
-		navAboutContact: "Contact Me",
+		brand: {
+			name: "Roland Szabó",
+			tagline: "Photography for people who hate being photographed.",
+		},
 
-		navServicesMain: "Services",
-		navServicesPortraiture: "Portrait Photography",
-		navServicesAutomotive: "Automotive Photography",
-		navServicesEvents: "Event Photography",
-		navServicesRealEstate: "Real Estate Photography",
-		navServicesSocialContent: "Branding & Product Photography",
+		seo: {
+			siteTitle: "Roland Szabó | Budapest Photographer",
+			metaDescription: "A relaxed photography experience in Budapest, from portraits and cars to events — without the awkwardness.",
+		},
 
-		navPortfolioMain: "Portfolio",
-		navPortfolioPortraiture: "Portraits",
-		navPortfolioAutomotive: "Automotive",
-		navPortfolioEvents: "Events",
+		accessibility: {
+			skipToContent: "Skip to main content",
+			breadcrumbs: "Breadcrumbs",
+			nextLinks: "More pages",
+			pageNavigation: "On-page navigation",
+			lastUpdated: "Last updated:",
+		},
 
-		navProjectsMain: "Projects",
-		navProjectsBudapestPhotoWalk: "Budapest Photo Walk",
-		navProjectsBlog: "My Photography Blog",
+		forms: {
+			successPath: "/en/thank-you/",
+			honeypotLabel: "Leave this field blank:",
+			privacyText: "I only use the information submitted through this form to contact you.",
+			privacyLink: "Privacy Policy",
+			privacyHref: "/en/privacy-policy/",
+		},
 
-		navLegalPrivacy: "Privacy Policy",
-		navLegalTerms: "Terms and Conditions",
-		navLegalCookies: "Cookie Policy",
+		navigation: {
+			logoAriaLabel: "Roland Szabó homepage",
+			menuOpenLabel: "Open menu",
+			menuCloseLabel: "Close menu",
+			ariaLabel: "Main navigation",
+			languageSwitch: {
+				label: "HU",
+				ariaLabel: "Switch to the Hungarian version of this page",
+			},
+			items: [
+				{
+					label: "Portrait Photography",
+					href: "/en/services/portrait-photography-budapest/",
+					activeTranslations: portraitNavigationTranslations,
+				},
+				{
+					label: "Car Photography",
+					href: "/en/services/automotive-photography-budapest/",
+					activeTranslations: automotiveNavigationTranslations,
+				},
+				{
+					label: "Event Photography",
+					href: "/en/services/event-photography-budapest/",
+					activeTranslations: eventNavigationTranslations,
+				},
+				{
+					label: "Portfolio",
+					href: "/en/portfolio/",
+					activeTranslations: ["portfolio"],
+					divider: true,
+				},
+				{
+					label: "Contact",
+					href: "/en/contact/",
+					activeTranslations: ["contact"],
+				},
+			],
+		},
 
-		slugAboutAbout: "about",
-		slugAboutTestimonials: "testimonials",
-		slugAboutGear: "gear",
-		slugAboutContact: "contact",
-
-		slugServicesMain: "services",
-		slugServicesPortraiture: "portrait-photography-budapest",
-		slugServicesAutomotive: "automotive-photography-budapest",
-		slugServicesEvents: "event-photography-budapest",
-		slugServicesRealEstate: "real-estate-photography-budapest",
-		slugServicesSocialContent: "social-media-content-creation",
-
-		slugPortfolioMain: "portfolio",
-		slugPortfolioPortraiture: "portrait-portfolio",
-		slugPortfolioAutomotive: "automotive-portfolio",
-		slugPortfolioEvents: "events-portfolio",
-
-		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
-		slugProjectsBlog: "blog",
-
-		slugLegalPrivacy: "privacy-policy",
-		slugLegalTerms: "terms-and-conditions",
-		slugLegalCookies: "cookie-policy",
-
-		lightboxNextPhoto: "Next Photo",
-		lightboxPreviousPhoto: "Previous Photo",
-		lightboxClose: "Close",
-
-		aboutPhotoTitle: "Hey, it's me!",
-		contactPhotoTitle: "Hey, it's me!",
-		gearPhotoTitle: "Hey, it's me!",
-		homePhotoTitle: "Hey, it's me!",
-
-		ctaTitle: "Let's Create Your Unique Story",
-		ctaText: "Whether you have a creative idea in mind or simply want to discover the magic of being authentically captured, the next chapter of your story starts here.",
-		ctaButton: "Choose Your Experience",
-		latestButton: "Check out my Best Work",
-
-		contactEmailText: "Drop me an email with your idea",
-		contactEmailButton: "Write an Email",
-		contactInstagramText: "Or better, DM me on Instagram",
-		contactInstagramButton: "DM on Instagram",
-
-		socialTagline: "Your business deserves more than smartphone photos",
-		socialCtaTitle: "Ready to get started with your own brand's professional photography?",
-		socialCtaDescription: "If you like the above examples and would like to work with me in telling your brand's story through my images, don't be afraid to get in touch with me!",
-		socialCtaButton: "Let's work together!",
-
-		blogWrittenBy: "Written by",
-		blogWrittenOn: "on",
-		blogRolandSzabo: "Roland Szabó",
-
-		portfolioAll: "All",
-		portfolioFemale: "Female",
-		portfolioMale: "Male",
-		portfolioCouples: "Couples",
-
-		photogenicDiscovery: "Photogenic Discovery",
-		photogenicDiscoveryDuration: "30 minutes",
-		photogenicDiscoveryPhotos: "3 photos",
-		photogenicDiscoveryLocations: "1 location",
-		photogenicDiscoveryOutfits: "1 outfit",
-		theFullExperience: "The Full Experience",
-		theFullExperienceDuration: "Up to 120 minutes",
-		theFullExperiencePhotos: "10+1 photos",
-		theFullExperienceLocations: "Multiple locations",
-		theFullExperienceOutfits: "Multiple outfits",
+		footer: {
+			ariaLabel: "Footer navigation",
+			description: "Photography for people who hate being photographed. Portrait, car and event photography in Budapest.",
+			copyright: "All rights reserved.",
+			location: "Budapest, Hungary",
+			groups: [
+				{
+					title: "Services",
+					items: [
+						{
+							label: "Portrait Photography",
+							href: "/en/services/portrait-photography-budapest/",
+						},
+						{
+							label: "Car Photography",
+							href: "/en/services/automotive-photography-budapest/",
+						},
+						{
+							label: "Event Photography",
+							href: "/en/services/event-photography-budapest/",
+						},
+						{
+							label: "Real Estate Photography",
+							href: "/en/services/real-estate-photography-budapest/",
+						},
+						{
+							label: "Photography for Businesses",
+							href: "/en/services/photography-for-businesses/",
+						},
+						{
+							label: "All Services",
+							href: "/en/services/",
+						},
+					],
+				},
+				{
+					title: "Explore",
+					items: [
+						{
+							label: "Portfolio",
+							href: "/en/portfolio/",
+						},
+						{
+							label: "About",
+							href: "/en/about/",
+						},
+						{
+							label: "Testimonials",
+							href: "/en/testimonials/",
+						},
+						{
+							label: "Blog",
+							href: "/en/blog/",
+						},
+						{
+							label: "Budapest Photo Walk",
+							href: "/en/budapest-photo-walk/",
+						},
+						{
+							label: "Gear",
+							href: "/en/gear/",
+						},
+					],
+				},
+				{
+					title: "Contact",
+					items: [
+						{
+							label: "Contact Page",
+							href: "/en/contact/",
+						},
+						{
+							label: "+36 20 591 4620",
+							href: "tel:+36205914620",
+						},
+						{
+							label: "hi@rolandszabo.photo",
+							href: "mailto:hi@rolandszabo.photo",
+						},
+						{
+							label: "Instagram",
+							href: "https://instagram.com/rolandszabo.photo/",
+						},
+					],
+				},
+				{
+					title: "Legal",
+					items: [
+						{
+							label: "Privacy Policy",
+							href: "/en/privacy-policy/",
+						},
+						{
+							label: "Terms and Conditions",
+							href: "/en/terms-and-conditions/",
+						},
+						{
+							label: "Cookie Policy",
+							href: "/en/cookie-policy/",
+						},
+					],
+				},
+			],
+		},
 	},
+
 	hu: {
-		siteTitle: "Szabó Roland | Budapesti Fotós",
-		metaDescription: "Élményfotózás Portréktól Autókig, Feszengés Nélkül.",
-		copyright: "Minden jog fenntartva.",
-		backToTop: "Vissza az oldal tetejére",
-		backToHomepage: "Vissza a Kezdőoldalra",
-		toggleNavigation: "Navigáció Mutatása",
-		lastUpdated: "Legutóbb Frissítve",
+		ogLocale: "hu_HU",
+		languageTag: "hu-HU",
 
-		headerName: "Szabó Roland",
-		headerDescription: "Budapesti Fotós 📸",
+		schema: {
+			personJobTitle: "Fotós",
+		},
 
-		navAboutMain: "Rólam",
-		navAboutAbout: "Bemutatkozás",
-		navAboutTestimonials: "Rólam Mondtátok",
-		navAboutGear: "Felszerelés",
-		navAboutContact: "Kapcsolat",
+		brand: {
+			name: "Szabó Roland",
+			tagline: "Fotózás azoknak, akik utálnak fotózkodni.",
+		},
 
-		navServicesMain: "Szolgáltatások",
-		navServicesPortraiture: "Portré Fotózás",
-		navServicesAutomotive: "Autó Fotózás",
-		navServicesEvents: "Rendezvény Fotózás",
-		navServicesRealEstate: "Ingatlan Fotózás",
-		navServicesSocialContent: "Branding & Termék Fotózás",
+		seo: {
+			siteTitle: "Szabó Roland | Budapesti Fotós",
+			metaDescription: "Élményfotózás portréktól autókig, feszengés nélkül.",
+		},
 
-		navPortfolioMain: "Portfólió",
-		navPortfolioPortraiture: "Portrék",
-		navPortfolioAutomotive: "Autók",
-		navPortfolioEvents: "Esemény",
+		accessibility: {
+			skipToContent: "Ugrás a fő tartalomra",
+			breadcrumbs: "Oldalhierarchia",
+			nextLinks: "További oldalak",
+			pageNavigation: "Oldalon belüli navigáció",
+			lastUpdated: "Utolsó frissítés:",
+		},
 
-		navProjectsMain: "Projektek",
-		navProjectsBudapestPhotoWalk: "Budapest Photo Walk",
-		navProjectsBlog: "Fotós Blogom",
+		forms: {
+			successPath: "/hu/koszonjuk/",
+			honeypotLabel: "Ezt a mezőt hagyd üresen:",
+			privacyText: "Az űrlapon megadott adatokat kizárólag a kapcsolatfelvételhez használom.",
+			privacyLink: "Adatvédelmi tájékoztató",
+			privacyHref: "/hu/adatvedelmi-nyilatkozat/",
+		},
 
-		navLegalPrivacy: "Adatvédelmi Nyilatkozat",
-		navLegalTerms: "Általános Szerződési Feltételek",
-		navLegalCookies: "Cookie Politika",
+		navigation: {
+			logoAriaLabel: "Roland Szabó főoldal",
+			menuOpenLabel: "Menü megnyitása",
+			menuCloseLabel: "Menü bezárása",
+			ariaLabel: "Fő navigáció",
+			languageSwitch: {
+				label: "EN",
+				ariaLabel: "Váltás az oldal angol változatára",
+			},
+			items: [
+				{
+					label: "Portréfotózás",
+					href: "/hu/szolgaltatasok/portre-fotozas-budapest/",
+					activeTranslations: portraitNavigationTranslations,
+				},
+				{
+					label: "Autófotózás",
+					href: "/hu/szolgaltatasok/auto-fotozas-budapest/",
+					activeTranslations: automotiveNavigationTranslations,
+				},
+				{
+					label: "Eseményfotózás",
+					href: "/hu/szolgaltatasok/esemeny-fotozas-budapest/",
+					activeTranslations: eventNavigationTranslations,
+				},
+				{
+					label: "Portfólió",
+					href: "/hu/portfolio/",
+					activeTranslations: ["portfolio"],
+					divider: true,
+				},
+				{
+					label: "Kapcsolat",
+					href: "/hu/kapcsolat/",
+					activeTranslations: ["contact"],
+				},
+			],
+		},
 
-		slugAboutAbout: "rolam",
-		slugAboutTestimonials: "rolam-mondtak",
-		slugAboutGear: "felszereles",
-		slugAboutContact: "kapcsolat",
-
-		slugServicesMain: "szolgaltatasok",
-		slugServicesPortraiture: "portre-fotozas-budapest",
-		slugServicesAutomotive: "auto-fotozas-budapest",
-		slugServicesEvents: "rendezveny-fotozas-budapest",
-		slugServicesRealEstate: "ingatlan-fotozas-budapest",
-		slugServicesSocialContent: "kozossegi-tartalom-gyartas",
-
-		slugPortfolioMain: "portfolio",
-		slugPortfolioPortraiture: "portre-portfolio",
-		slugPortfolioAutomotive: "autos-portfolio",
-		slugPortfolioEvents: "esemeny-portfolio",
-
-		slugProjectsBudapestPhotoWalk: "budapest-photo-walk",
-		slugProjectsBlog: "blog",
-
-		slugLegalPrivacy: "adatvedelmi-nyilatkozat",
-		slugLegalTerms: "altalanos-szerzodesi-feltetelek",
-		slugLegalCookies: "cookie-politika",
-
-		lightboxNextPhoto: "Következő Fotó",
-		lightboxPreviousPhoto: "Előző Fotó",
-		lightboxClose: "Bezárás",
-
-		aboutPhotoTitle: "Halihó, ez itt én vagyok.",
-		contactPhotoTitle: "Halihó, ez itt én vagyok.",
-		gearPhotoTitle: "Halihó, ez itt én vagyok.",
-		homePhotoTitle: "Halihó, ez itt én vagyok.",
-
-		ctaTitle: "Készítsük el a Te Történetedet",
-		ctaText: "Akár egy kreatív ötlet jár a fejedben, vagy egyszerűen csak szeretnéd felfedezni az őszinte kifejezés varázsát, a történeted következő fejezete itt kezdődik.",
-		ctaButton: "Válassz Élményt",
-		latestButton: "Nézd Meg a Legjobb Munkáimat",
-
-		contactEmailText: "Írj egy emailt és beszéljünk",
-		contactEmailButton: "Emailt írok",
-		contactInstagramText: "Vagy írj rám Instagramon, az még jobb",
-		contactInstagramButton: "Írok Instán",
-
-		socialTagline: "A vállalkozásod többet érdemel a mobiltelefonos fotóknál",
-		socialCtaTitle: "Szeretnéd, hogy a Te márkádnak is végre profi képei legyenek?",
-		socialCtaDescription: "Ha tetszenek a fenti képek és szeretnél a Te vállalkozásodnak is szemet gyönyörködtető képeket, keress meg bizalommal! Szeretettel dolgoznék együtt kisvállalkozókkal, hazai cégekkel és influenszerekkel, hogy olyan képeket tudjunk alkotni közösen, amik elmesélik a márkád történetét és megszólítják az embereket.",
-		socialCtaButton: "Készen állok, csináljuk!",
-
-		blogWrittenBy: "Írta",
-		blogWrittenOn: "ekkor:",
-		blogRolandSzabo: "Szabó Roland",
-
-		portfolioAll: "Összes",
-		portfolioFemale: "Női",
-		portfolioMale: "Férfi",
-		portfolioCouples: "Páros",
-
-		photogenicDiscovery: "Fotogén Felfedezés",
-		photogenicDiscoveryDuration: "30 perc",
-		photogenicDiscoveryPhotos: "3 fotó",
-		photogenicDiscoveryLocations: "1 helyszín",
-		photogenicDiscoveryOutfits: "1 ruha",
-		theFullExperience: "A Teljes Élmény",
-		theFullExperienceDuration: "Akár 120 perc",
-		theFullExperiencePhotos: "10+1 fotó",
-		theFullExperienceLocations: "Több helyszín",
-		theFullExperienceOutfits: "Több ruha",
+		footer: {
+			ariaLabel: "Lábléc navigáció",
+			description: "Fotózás azoknak, akik utálnak fotózkodni. Portré-, autó- és eseményfotózás Budapesten.",
+			copyright: "Minden jog fenntartva.",
+			location: "Budapest, Magyarország",
+			groups: [
+				{
+					title: "Szolgáltatások",
+					items: [
+						{
+							label: "Portréfotózás",
+							href: "/hu/szolgaltatasok/portre-fotozas-budapest/",
+						},
+						{
+							label: "Autófotózás",
+							href: "/hu/szolgaltatasok/auto-fotozas-budapest/",
+						},
+						{
+							label: "Eseményfotózás",
+							href: "/hu/szolgaltatasok/esemeny-fotozas-budapest/",
+						},
+						{
+							label: "Ingatlanfotózás",
+							href: "/hu/szolgaltatasok/ingatlan-fotozas-budapest/",
+						},
+						{
+							label: "Vállalkozásoknak",
+							href: "/hu/szolgaltatasok/fotozas-vallalkozasoknak/",
+						},
+						{
+							label: "Összes szolgáltatás",
+							href: "/hu/szolgaltatasok/",
+						},
+					],
+				},
+				{
+					title: "További oldalak",
+					items: [
+						{
+							label: "Portfólió",
+							href: "/hu/portfolio/",
+						},
+						{
+							label: "Rólam",
+							href: "/hu/rolam/",
+						},
+						{
+							label: "Vélemények",
+							href: "/hu/rolam-mondtak/",
+						},
+						{
+							label: "Blog",
+							href: "/hu/blog/",
+						},
+						{
+							label: "Budapest Photo Walk",
+							href: "/hu/budapest-photo-walk/",
+						},
+						{
+							label: "Felszerelés",
+							href: "/hu/felszereles/",
+						},
+					],
+				},
+				{
+					title: "Kapcsolat",
+					items: [
+						{
+							label: "Kapcsolat oldal",
+							href: "/hu/kapcsolat/",
+						},
+						{
+							label: "+36 20 591 4620",
+							href: "tel:+36205914620",
+						},
+						{
+							label: "hi@rolandszabo.photo",
+							href: "mailto:hi@rolandszabo.photo",
+						},
+						{
+							label: "Instagram",
+							href: "https://instagram.com/rolandszabo.photo/",
+						},
+					],
+				},
+				{
+					title: "Jogi információk",
+					items: [
+						{
+							label: "Adatvédelmi tájékoztató",
+							href: "/hu/adatvedelmi-nyilatkozat/",
+						},
+						{
+							label: "Általános Szerződési Feltételek",
+							href: "/hu/altalanos-szerzodesi-feltetelek/",
+						},
+						{
+							label: "Cookie-tájékoztató",
+							href: "/hu/cookie-politika/",
+						},
+					],
+				},
+			],
+		},
 	},
 };

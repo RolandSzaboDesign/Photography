@@ -1,0 +1,25 @@
+{% assign resolvedPageNavItems = pageNavItems %}
+{% assign resolvedPageNavAriaLabel = pageNavAriaLabel %}
+
+{% if pageNav %}
+	{% assign resolvedPageNavItems = resolvedPageNavItems | default: pageNav.items %}
+	{% assign resolvedPageNavAriaLabel = resolvedPageNavAriaLabel | default: pageNav.ariaLabel %}
+{% endif %}
+
+{% assign resolvedPageNavAriaLabel = resolvedPageNavAriaLabel | default: site[locale].accessibility.pageNavigation %}
+
+{% if resolvedPageNavItems %}
+	<nav class="page-nav" aria-label="{{ resolvedPageNavAriaLabel }}">
+		<div class="container">
+			<ul class="page-nav__list">
+				{% for item in resolvedPageNavItems %}
+					{% capture resolvedPageNavHref %}{% if item.href %}{{ item.href }}{% elsif item.id %}#{{ item.id }}{% endif %}{% endcapture %}
+
+					<li class="page-nav__item">
+						<a class="page-nav__link" href="{{ resolvedPageNavHref | strip }}"{% if item.href == page.url %} aria-current="page"{% elsif item.current %} aria-current="location"{% endif %}>{{ item.label }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</nav>
+{% endif %}

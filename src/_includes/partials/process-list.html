@@ -1,0 +1,14 @@
+{% if process.items %}
+	<ol class="process-list">
+		{% for item in process.items %}
+			<li class="process-item">
+				<span class="process-item__number" aria-hidden="true"></span>
+
+				<div>
+					<h3 class="process-item__title">{{ item.title }}</h3>
+					<p class="process-item__text">{{ item.text }}</p>
+				</div>
+			</li>
+		{% endfor %}
+	</ol>
+{% endif %}

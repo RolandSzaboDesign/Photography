@@ -1,0 +1,31 @@
+{% if guide %}
+	<section class="content-guide section" {% if guide.id %}id="{{ guide.id }}"{% endif %}>
+		<div class="container container--thin">
+			<header class="content-guide__header">
+				{% if guide.eyebrow %}
+					<p class="eyebrow">{{ guide.eyebrow }}</p>
+				{% endif %}
+
+				<h2>{{ guide.title }}</h2>
+
+				{% if guide.intro %}
+					<p class="content-guide__intro">{{ guide.intro }}</p>
+				{% endif %}
+			</header>
+
+			<div class="content-guide__sections">
+				{% for section in guide.sections %}
+					<div class="content-guide__section">
+						{% if section.title %}
+							<h3>{{ section.title }}</h3>
+						{% endif %}
+
+						{% for paragraph in section.paragraphs %}
+							<p>{{ paragraph }}</p>
+						{% endfor %}
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endif %}

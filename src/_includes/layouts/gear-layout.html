@@ -1,0 +1,67 @@
+---
+layout: layouts/base.html
+---
+
+<main class="main gear-page" id="main">
+	{% include "partials/static-hero.html" %}
+
+	<section class="gear-intro section">
+		<div class="container gear-intro__inner">
+			<div class="gear-intro__heading">
+				{% if intro.eyebrow %}
+					<p class="eyebrow">{{ intro.eyebrow }}</p>
+				{% endif %}
+
+				<h2>{{ intro.title }}</h2>
+			</div>
+
+			<div class="gear-intro__content">
+				<p class="lede">{{ intro.text }}</p>
+
+				{% if intro.text2 %}
+					<p>{{ intro.text2 }}</p>
+				{% endif %}
+			</div>
+		</div>
+	</section>
+
+	<section class="gear-equipment section" id="equipment">
+		<div class="container">
+			<header class="split-heading">
+				<div>
+					{% if equipment.eyebrow %}
+						<p class="eyebrow">{{ equipment.eyebrow }}</p>
+					{% endif %}
+
+					<h2>{{ equipment.title }}</h2>
+				</div>
+
+				{% if equipment.text %}
+					<p>{{ equipment.text }}</p>
+				{% endif %}
+			</header>
+
+			<div class="gear-equipment__groups">
+				{% for group in equipment.groups %}
+					<section class="gear-equipment-group">
+						<h3 class="gear-equipment-group__title">{{ group.title }}</h3>
+
+						<ul class="gear-equipment-group__list">
+							{% for item in group.items %}
+								<li class="gear-equipment-item">
+									<strong>{{ item.name }}</strong>
+
+									{% if item.text %}
+										<p>{{ item.text }}</p>
+									{% endif %}
+								</li>
+							{% endfor %}
+						</ul>
+					</section>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	{% include "partials/next-links.html" %}
+</main>

@@ -1,0 +1,139 @@
+{% assign organizationId = site.url | append: "/#organization" %}
+{% assign personId = site.url | append: "/#person" %}
+{% assign websiteId = site.url | append: "/#website" %}
+{% assign webpageId = canonicalUrl | append: "#webpage" %}
+
+
+{% if structuredData == "home" %}
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@graph": [
+				{
+					"@type": "Organization",
+					"@id": {{ organizationId | jsonLd }},
+					"name": {{ site.schema.organization.name | jsonLd }},
+					"alternateName": {{ site.schema.organization.alternateName | jsonLd }},
+					"url": {{ site.schema.organization.url | jsonLd }},
+					"email": {{ site.schema.organization.email | jsonLd }},
+					"telephone": {{ site.schema.organization.telephone | jsonLd }},
+					"sameAs": {{ site.schema.organization.sameAs | jsonLd }},
+					"founder": {
+						"@type": "Person",
+						"@id": {{ personId | jsonLd }},
+						"name": {{ site.schema.person.name | jsonLd }},
+						"alternateName": {{ site.schema.person.alternateName | jsonLd }}
+					}
+				},
+				{
+					"@type": "WebSite",
+					"@id": {{ websiteId | jsonLd }},
+					"url": {{ site.schema.organization.url | jsonLd }},
+					"name": {{ site.name | jsonLd }},
+					"publisher": {
+						"@id": {{ organizationId | jsonLd }}
+					}
+				}
+			]
+		}
+	</script>
+{% endif %}
+
+
+{% if structuredData == "profile" %}
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ProfilePage",
+			"@id": {{ webpageId | jsonLd }},
+			"url": {{ canonicalUrl | jsonLd }},
+			"name": {{ title | jsonLd }},
+			"description": {{ metaDescription | jsonLd }},
+			"inLanguage": {{ lang.languageTag | jsonLd }},
+			"isPartOf": {
+				"@id": {{ websiteId | jsonLd }}
+			},
+			"mainEntity": {
+				"@type": "Person",
+				"@id": {{ personId | jsonLd }},
+				"name": {{ site.schema.person.name | jsonLd }},
+				"alternateName": {{ site.schema.person.alternateName | jsonLd }},
+				"url": {{ site.schema.person.url | jsonLd }},
+				"jobTitle": {{ lang.schema.personJobTitle | jsonLd }},
+				"email": {{ site.schema.person.email | jsonLd }},
+				"telephone": {{ site.schema.person.telephone | jsonLd }},
+				"sameAs": {{ site.schema.person.sameAs | jsonLd }},
+				"worksFor": {
+					"@id": {{ organizationId | jsonLd }}
+				}
+			}
+		}
+	</script>
+{% endif %}
+
+
+{% if openGraphType == "article" %}
+	{% assign articleModifiedDate = updated | default: date %}
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "BlogPosting",
+			"@id": {{ canonicalUrl | append: "#blogposting" | jsonLd }},
+			"url": {{ canonicalUrl | jsonLd }},
+			"mainEntityOfPage": {
+				"@type": "WebPage",
+				"@id": {{ canonicalUrl | jsonLd }}
+			},
+			"headline": {{ title | jsonLd }},
+			"description": {{ metaDescription | jsonLd }},
+			"inLanguage": {{ lang.languageTag | jsonLd }},
+			"datePublished": {{ date | date: "%Y-%m-%d" | jsonLd }},
+			"dateModified": {{ articleModifiedDate | date: "%Y-%m-%d" | jsonLd }},
+			"author": {
+				"@type": "Person",
+				"@id": {{ personId | jsonLd }},
+				"name": {{ site.schema.person.name | jsonLd }},
+				"alternateName": {{ site.schema.person.alternateName | jsonLd }},
+				"url": {{ site.schema.person.url | jsonLd }}
+			},
+			"publisher": {
+				"@type": "Organization",
+				"@id": {{ organizationId | jsonLd }},
+				"name": {{ site.schema.organization.name | jsonLd }},
+				"url": {{ site.schema.organization.url | jsonLd }}
+			}{% if og_image or image or cardImage %},
+			"image": {{ socialImageUrl | jsonLd }}{% endif %}
+		}
+	</script>
+{% endif %}
+
+
+{% if breadcrumbs %}
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{% for item in breadcrumbs %}
+					{% if item.href %}
+						{% if item.href contains "://" %}
+							{% assign breadcrumbUrl = item.href %}
+						{% else %}
+							{% assign breadcrumbUrl = site.url | append: item.href %}
+						{% endif %}
+					{% else %}
+						{% assign breadcrumbUrl = canonicalUrl %}
+					{% endif %}
+
+					{
+						"@type": "ListItem",
+						"position": {{ forloop.index }},
+						"name": {{ item.label | jsonLd }},
+						"item": {{ breadcrumbUrl | jsonLd }}
+					}{% unless forloop.last %},{% endunless %}
+				{% endfor %}
+			]
+		}
+	</script>
+{% endif %}

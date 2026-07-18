@@ -1,8 +1,21 @@
-<div class="faqs">
-	{%- for e in category -%}
-		<details class="faq">
-			<summary class="faq__question">{{ e[locale].question }}</summary>
-			<div class="faq__answer">{{ e[locale].answer }}</div>
-		</details>
-	{%- endfor -%}
-</div>
+{% if faq %}
+	<section class="faq section" id="faq">
+		<div class="container container--thin">
+			<div class="section-heading">
+				<h2>{{ faq.title }}</h2>
+			</div>
+
+			<div class="faq__list">
+				{% for item in faq.items %}
+					<details class="faq__item">
+						<summary class="faq__question">{{ item.title }}</summary>
+
+						<div class="faq__answer">
+							<p>{{ item.text }}</p>
+						</div>
+					</details>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endif %}

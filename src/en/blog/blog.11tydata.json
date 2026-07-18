@@ -1,0 +1,40 @@
+{
+	"layout": "layouts/blog-post-layout.html",
+	"locale": "en",
+	"tags": [
+		"blog-en"
+	],
+	"ogType": "article",
+	"blogPostUi": {
+		"eyebrow": "Photography Blog",
+		"breadcrumbLabel": "Breadcrumb",
+		"homeLabel": "Home",
+		"blogLabel": "Photography Blog",
+		"authorLabel": "Written by:",
+		"authorName": "Roland Szabó",
+		"updatedLabel": "Updated:"
+	},
+	"next": {
+		"eyebrow": "Where next?",
+		"title": "Read another article or explore the photography services.",
+		"text": "The blog contains more practical photography articles, while the service pages explain how the different types of photography work.",
+		"ariaLabel": "More pages",
+		"items": [
+			{
+				"title": "More articles",
+				"text": "Explore all articles in the photography blog.",
+				"href": "/en/blog/"
+			},
+			{
+				"title": "Services",
+				"text": "Portrait, car, event and business photography services.",
+				"href": "/en/services/"
+			},
+			{
+				"title": "Contact",
+				"text": "Tell me what kind of photography you are planning.",
+				"href": "/en/contact/"
+			}
+		]
+	}
+}

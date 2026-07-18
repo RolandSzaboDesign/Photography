@@ -1,74 +1,103 @@
+{% assign pageLocale = locale | default: "hu" %}
+{% assign lang = site[pageLocale] %}
+{% assign canonicalPath = canonical | default: page.url %}
+{% assign metaDescription = description | default: lang.seo.metaDescription %}
+{% assign socialImage = og_image | default: image | default: cardImage | default: "/assets/images/og.webp" %}
+{% assign socialImageAlt = og_image_alt | default: imageAlt | default: cardImageAlt | default: title | default: lang.seo.siteTitle %}
+{% assign openGraphType = ogType | default: "website" %}
+
+{% if canonicalPath contains "://" %}
+	{% assign canonicalUrl = canonicalPath %}
+{% else %}
+	{% assign canonicalUrl = site.url | append: canonicalPath %}
+{% endif %}
+
+{% if socialImage contains "://" %}
+	{% assign socialImageUrl = socialImage %}
+{% else %}
+	{% assign socialImageUrl = site.url | append: socialImage %}
+{% endif %}
+
+{% capture metaTitle %}{% if title %}{{ title }} | {{ lang.brand.name }}{% else %}{{ lang.seo.siteTitle }}{% endif %}{% endcapture %}
+
+{% assign alternatePageUrl = "" %}
+{% assign alternateLocale = "" %}
+{% assign hasAlternatePage = false %}
+
+{% if translation %}
+	{% for candidate in collections.all %}
+		{% if candidate.data.translation == translation and candidate.data.locale != locale %}
+			{% assign alternatePageUrl = candidate.url %}
+			{% assign alternateLocale = candidate.data.locale %}
+			{% assign hasAlternatePage = true %}
+			{% break %}
+		{% endif %}
+	{% endfor %}
+{% endif %}
+
 <!DOCTYPE html>
-<html lang="{{ locale }}">
+<html lang="{{ pageLocale }}">
 	<head>
 		<meta charset="utf-8">
-		<title>{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="{{ description | default: site[locale].metaDescription }}">
-		<link rel="canonical" href="https://rolandszabo.photo{{ page.url }}">
+		<title>{{ metaTitle | strip | escape }}</title>
+		<meta name="description" content="{{ metaDescription | escape }}">
+		{% if robots %}<meta name="robots" content="{{ robots }}">{% endif %}
+		<link rel="canonical" href="{{ canonicalUrl | escape }}">
 
-		<!-- Preload -->
-		<link rel="preload" as="font" href="/assets/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous">
-		<link rel="preload" href="/assets/webfonts/outfit-v11-latin-ext-300.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-		<!-- <link rel="preload" href="/assets/webfonts/domine-v23-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin="anonymous"> -->
+		{% if hasAlternatePage and hreflang != false %}
+			<link rel="alternate" hreflang="{{ locale }}" href="https://rolandszabo.photo{{ page.url }}">
+			<link rel="alternate" hreflang="{{ alternateLocale }}" href="https://rolandszabo.photo{{ alternatePageUrl }}">
+		{% endif %}
 
-		<!-- Styles -->
-		<link rel="preload" href="/assets/css/style.css?20251018" as="style" onload="this.rel='stylesheet'">
-		<noscript><link rel="stylesheet" href="/assets/css/style.css?20251018"></noscript>
+		<link rel="preload" href="/assets/webfonts/outfit-v11-latin-ext-300.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/webfonts/outfit-v11-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/webfonts/domine-v23-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
 
-		{%- if css %}
-			<link rel="preload" href="/assets/css/{{ css }}.css" as="style" onload="this.rel='stylesheet'">
-			<noscript><link rel="stylesheet" href="/assets/css/{{ css }}.css"></noscript>
-		{%- endif %}
+		<link rel="stylesheet" href="/assets/css/style.css">
 
-		<!-- Favicons -->
+		<meta property="og:type" content="{{ openGraphType }}">
+		<meta property="og:site_name" content="{{ site.name }}">
+		<meta property="og:locale" content="{{ lang.ogLocale }}">
+		<meta property="og:url" content="{{ canonicalUrl | escape }}">
+		<meta property="og:title" content="{{ metaTitle | strip | escape }}">
+		<meta property="og:description" content="{{ metaDescription | escape }}">
+		<meta property="og:image" content="{{ socialImageUrl | escape }}">
+		<meta property="og:image:alt" content="{{ socialImageAlt | escape }}">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="{{ metaTitle | strip | escape }}">
+		<meta name="twitter:description" content="{{ metaDescription | escape }}">
+		<meta name="twitter:image" content="{{ socialImageUrl | escape }}">
+		<meta name="twitter:image:alt" content="{{ socialImageAlt | escape }}">
+
+		{% include "partials/structured-data.html" %}
+
+		{% if openGraphType == "article" %}
+			<meta property="article:published_time" content="{{ date | date: "%Y-%m-%dT00:00:00.000Z" }}">
+			{% if updated %}
+				<meta property="article:modified_time" content="{{ updated | date: "%Y-%m-%dT00:00:00.000Z" }}">
+			{% endif %}
+		{% endif %}
+
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
 		<link rel="manifest" href="/assets/favicons/site.webmanifest">
-		<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-		<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
-		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
 
-		<!-- OpenGraph -->
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@szabokaphoto">
-		<meta name="twitter:creator" content="@szabokaphoto">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="{{ site.url | append: page.url }}">
-		{%- if og_image %}
-		<meta property="og:image" content="{{ og_image }}" loading="lazy">
-		{%- else %}
-		<meta property="og:image" content="{{ site.url }}/assets/images/roland-og.webp" loading="lazy">
-		{%- endif %}
-		<meta property="og:description" content="{{ description | default: site[locale].metaDescription }}">
-		<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site[locale].siteTitle }}">
+		<meta name="theme-color" content="#f7f4ef">
 
-		<!-- Ahrefs Analytics -->
 		<script src="https://analytics.ahrefs.com/analytics.js" data-key="A6e1lw51/EXFCT6u44/4Yw" async></script>
 	</head>
 
 	<body>
+		<a class="skip-link button button--primary" href="#main">{{ lang.accessibility.skipToContent }}</a>
+
 		{% include "partials/header.html" %}
 		{{ content }}
 		{% include "partials/footer.html" %}
 
-		<script>
-			function toggleMainMenu() {
-				var button = document.getElementById("menu-toggle");
-				var menu = document.getElementById("main-menu");
 
-				if (menu.style.display === "block") {
-					menu.style.display = "none";
-					button.innerHTML = "☰";
-				} else {
-					menu.style.display = "block";
-					button.innerHTML = "✕";
-				}
-			}
-		</script>
+		<script src="/assets/js/main.js" defer></script>
 	</body>
 </html>

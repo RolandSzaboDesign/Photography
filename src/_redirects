@@ -1,124 +1,169 @@
-/														/hu/
+# ==================================================
+# Language root and legacy top-level URLs
+# ==================================================
 
-/about													/en/about/
-/about/													/en/about/
-/auto/													/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive												/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/											/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/911-sc/										/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/924/										/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/991.2-cabriolet/							/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/993-carrera-rs/								/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/a5/											/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/amg-a35/									/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/amg-gts/									/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/aventador-svj/								/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/huracan-evo-spyder/							/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/huracan/									/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/mol-limo-1/									/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/mol-limo-2/									/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/r8-green-hell/								/hu/szolgaltatasok/auto-fotozas-budapest/
-/automotive/rs5-r/										/hu/szolgaltatasok/auto-fotozas-budapest/
-/cars/													/hu/szolgaltatasok/auto-fotozas-budapest/
-/contact												/en/contact/
-/contact/												/en/contact/
-/en/automotive/											/en/services/automotive-photography-budapest/
-/en/automotive/991.2-cabriolet/							/en/services/automotive-photography-budapest/
-/en/automotive/amg-a35/									/en/services/automotive-photography-budapest/
-/en/automotive/huracan-evo-spyder/						/en/services/automotive-photography-budapest/
-/en/automotive/rs5-b8/									/en/services/automotive-photography-budapest/
-/en/automotive/rs5-r/									/en/services/automotive-photography-budapest/
-/en/calendar/											/en/
-/en/cars/												/en/services/automotive-photography-budapest/
-/en/couple-portraits/									/en/services/portrait-photography-budapest/
-/en/edinburgh-portraits/								/en/services/portrait-photography-budapest/
-/en/experiences/photogenic-discovery/					/en/services/portrait-photography-budapest/
-/en/experiences/signature-experience/					/en/services/portrait-photography-budapest/
-/en/experiences/ultimate-journey/						/en/services/portrait-photography-budapest/
-/en/female-portraits/									/en/services/portrait-photography-budapest/
-/en/male-portraits/										/en/services/portrait-photography-budapest/
-/en/pages/aiganysh/										/en/portfolio/
-/en/services/automotive-photography/					/en/services/automotive-photography-budapest/
-/en/services/autumn-portrait-photography/				/en/services/portrait-photography-budapest/
-/en/services/film-photo-walks/							/en/services/portrait-photography-budapest/
-/en/services/portrait-photo-walks/						/en/services/portrait-photography-budapest/
-/en/services/vintage-photo-walks/						/en/services/portrait-photography-budapest/
-/en/social-content/										/en/services/social-media-content-creation/
-/en/social-content/aqua-toria/							/en/services/social-media-content-creation/
-/en/social-content/budapart-mol-limo/					/en/services/social-media-content-creation/
-/en/social-content/four-seasons-hotel-budapest/			/en/services/social-media-content-creation/
-/en/social-content/inna-faith-tattoo/					/en/services/social-media-content-creation/
-/en/social-content/pinceszinhaz/						/en/services/social-media-content-creation/
-/en/social-content/the-damn-good-place/					/en/services/social-media-content-creation/
-/galleries												/hu/portre-portfolio/
-/galleries/												/hu/portre-portfolio/
-/gear													/en/gear/
-/gear/													/en/gear/
-/hu/auto/												/hu/szolgaltatasok/auto-fotozas-budapest/
-/hu/auto/991.2-cabriolet/								/hu/szolgaltatasok/auto-fotozas-budapest/
-/hu/auto/amg-a35/										/hu/szolgaltatasok/auto-fotozas-budapest/
-/hu/auto/huracan-evo-spyder/							/hu/szolgaltatasok/auto-fotozas-budapest/
-/hu/auto/rs5-b8/										/hu/szolgaltatasok/auto-fotozas-budapest/
-/hu/auto/rs5-r/											/hu/szolgaltatasok/auto-fotozas-budapest/
-/hu/elmenyek/a-megszokott-elmeny/						/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/elmenyek/a-te-izlesed-szerint/						/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/elmenyek/fotogen-felfedezes/						/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/ferfi-portrek/										/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/kozossegi-tartalom/									/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
-/hu/kozossegi-tartalom/aqua-toria/						/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
-/hu/kozossegi-tartalom/budapart-mol-limo/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
-/hu/kozossegi-tartalom/four-seasons-hotel-budapest/		/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
-/hu/kozossegi-tartalom/inna-faith-tattoo/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
-/hu/kozossegi-tartalom/pinceszinhaz/					/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
-/hu/kozossegi-tartalom/the-damn-good-place/				/hu/szolgaltatasok/kozossegi-tartalom-gyartas/
-/hu/naptar/												/hu/
-/hu/noi-portrek/										/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/pages/alejandro-ana/								/hu/portre-portfolio/
-/hu/pages/anna-15/										/hu/portre-portfolio/
-/hu/paros-portrek/										/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/szolgaltatasok/auto-fotozas/						/hu/szolgaltatasok/auto-fotozas-budapest/
-/hu/szolgaltatasok/filmes-fotos-setak/					/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/szolgaltatasok/oszi-portre-fotozas/					/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/szolgaltatasok/portre-fotos-setak/					/hu/szolgaltatasok/portre-fotozas-budapest/
-/hu/szolgaltatasok/vintage-fotos-setak/					/hu/szolgaltatasok/portre-fotozas-budapest/
-/landscape												/hu/
-/landscape/												/hu/
-/landscape/gellert-hegy-2021-10-23/						/hu/
-/landscape/gellert-hegy-2021-11-21/						/hu/
-/landscape/hunyad-orom-2021-11-07/						/hu/
-/landscape/kaan-karoly-kilato-2021-11-20/				/hu/
-/landscape/ordog-orom-2021-11-16/						/hu/
-/landscape/sas-hegy-2021-11-14/							/hu/
-/legal													/en/contact/
-/legal/													/en/contact/
-/social-content											/en/services/social-media-content-creation/
-/social-content/										/en/services/social-media-content-creation/
-/social-content/budapart-mol-limo/						/en/services/social-media-content-creation/
-/social-content/inna-faith-tattoo/						/en/services/social-media-content-creation/
-/social-content/pinceszinhaz/							/en/services/social-media-content-creation/
-/social-content/the-damn-good-place/					/en/services/social-media-content-creation/
-/street													/hu/
-/street/												/hu/
-/street/2021-11-21/										/hu/
-/street/2021-11-25/										/hu/
-/street/2021-11-26/										/hu/
-/street/2021-11-28/										/hu/
-/street/2021-11-30/										/hu/
-/street/2021-12-03/										/hu/
-/street/2021-12-06/										/hu/
-/street/2021-12-13/										/hu/
+/                                       /hu/                                                    301
+/about                                  /en/about/                                              301
+/contact                                /en/contact/                                            301
+/gear                                   /en/gear/                                               301
+/galleries                              /hu/portfolio/                                          301
+/legal                                  /hu/adatvedelmi-nyilatkozat/                            301
 
-/hu/tags/*												/hu/							301
-/en/tags/*												/en/							301
-/tags/*													/hu/							301
 
-/hu/galeriak/*											/hu/portre-portfolio/			301
-/hu/portre/*											/hu/portre-portfolio/			301
-/en/portraiture/*										/en/portrait-portfolio/			301
+# ==================================================
+# Legacy unprefixed Hungarian automotive URLs
+# ==================================================
 
-/portrait*												/en/portrait-portfolio/			301
-/portraiture*											/en/portrait-portfolio/			301
+/auto                                   /hu/szolgaltatasok/auto-fotozas-budapest/               301
+/automotive                             /hu/szolgaltatasok/auto-fotozas-budapest/               301
+/automotive/*                           /hu/szolgaltatasok/auto-fotozas-budapest/               301
+/cars                                   /hu/szolgaltatasok/auto-fotozas-budapest/               301
 
-/en/*													/en/404							404
-/hu/*													/hu/404							404
-/*														/404							404
+
+# ==================================================
+# Legacy unprefixed English business and portrait URLs
+# ==================================================
+
+/social-content                         /en/services/photography-for-businesses/                301
+/social-content/*                       /en/services/photography-for-businesses/                301
+/portrait*                              /en/portfolio/                                          301
+/portraiture*                           /en/portfolio/                                          301
+
+
+# ==================================================
+# Legacy landscape and street galleries
+# ==================================================
+
+/landscape                              /hu/portfolio/                                          301
+/landscape/*                            /hu/portfolio/                                          301
+/street                                 /hu/portfolio/                                          301
+/street/*                               /hu/portfolio/                                          301
+
+
+# ==================================================
+# Legacy Hungarian automotive URLs
+# ==================================================
+
+/hu/auto                                /hu/szolgaltatasok/auto-fotozas-budapest/               301
+/hu/auto/*                              /hu/szolgaltatasok/auto-fotozas-budapest/               301
+
+
+# ==================================================
+# Legacy Hungarian portrait and experience URLs
+# ==================================================
+
+/hu/elmenyek                            /hu/szolgaltatasok/portre-fotozas-budapest/             301
+/hu/elmenyek/*                          /hu/szolgaltatasok/portre-fotozas-budapest/             301
+/hu/ferfi-portrek                       /hu/szolgaltatasok/ferfi-portre-fotozas-budapest/       301
+/hu/noi-portrek                         /hu/szolgaltatasok/noi-portre-fotozas-budapest/         301
+/hu/paros-portrek                       /hu/szolgaltatasok/paros-portre-fotozas-budapest/       301
+/hu/pages/alejandro-ana                 /hu/portfolio/                                          301
+/hu/pages/anna-15                       /hu/portfolio/                                          301
+/hu/naptar                              /hu/                                                    301
+
+
+# ==================================================
+# Legacy Hungarian business-content URLs
+# ==================================================
+
+/hu/kozossegi-tartalom                  /hu/szolgaltatasok/fotozas-vallalkozasoknak/             301
+/hu/kozossegi-tartalom/*                /hu/szolgaltatasok/fotozas-vallalkozasoknak/             301
+
+
+# ==================================================
+# Renamed Hungarian service URLs
+# ==================================================
+
+/hu/szolgaltatasok/auto-fotozas/                                /hu/szolgaltatasok/auto-fotozas-budapest/               301
+/hu/szolgaltatasok/eskuvofotozas-budapest/                      /hu/szolgaltatasok/eskuvo-fotozas-budapest/             301
+/hu/szolgaltatasok/filmes-fotos-setak/                          /hu/szolgaltatasok/portre-fotozas-budapest/             301
+/hu/szolgaltatasok/kozossegi-tartalom-gyartas/                  /hu/szolgaltatasok/fotozas-vallalkozasoknak/            301
+/hu/szolgaltatasok/legjobb-baratok-portre-fotozas-budapest/    /hu/szolgaltatasok/baratsag-fotozas-budapest/            301
+/hu/szolgaltatasok/oszi-portre-fotozas/                         /hu/szolgaltatasok/portre-fotozas-budapest/             301
+/hu/szolgaltatasok/portre-fotos-setak/                          /hu/szolgaltatasok/portre-fotozas-budapest/             301
+/hu/szolgaltatasok/vintage-fotos-setak/                         /hu/szolgaltatasok/portre-fotozas-budapest/             301
+
+
+# ==================================================
+# Corrected Hungarian blog URL
+# ==================================================
+
+/hu/blog/filmes-elmyen-digitalisan/                             /hu/blog/filmes-elmeny-digitalisan/                      301
+
+
+# ==================================================
+# Legacy English automotive URLs
+# ==================================================
+
+/en/automotive                         /en/services/automotive-photography-budapest/             301
+/en/automotive/*                       /en/services/automotive-photography-budapest/             301
+/en/cars                               /en/services/automotive-photography-budapest/             301
+/en/services/automotive-photography/   /en/services/automotive-photography-budapest/             301
+
+
+# ==================================================
+# Legacy English portrait and experience URLs
+# ==================================================
+
+/en/couple-portraits                                           /en/services/couples-portrait-photography-budapest/      301
+/en/edinburgh-portraits                                        /en/services/portrait-photography-budapest/              301
+/en/experiences                                                /en/services/portrait-photography-budapest/              301
+/en/experiences/*                                              /en/services/portrait-photography-budapest/              301
+/en/female-portraits                                           /en/services/female-portrait-photography-budapest/       301
+/en/male-portraits                                             /en/services/male-portrait-photography-budapest/         301
+/en/services/autumn-portrait-photography/                      /en/services/portrait-photography-budapest/              301
+/en/services/film-photo-walks/                                 /en/services/portrait-photography-budapest/              301
+/en/services/portrait-photo-walks/                             /en/services/portrait-photography-budapest/              301
+/en/services/vintage-photo-walks/                              /en/services/portrait-photography-budapest/              301
+
+
+# ==================================================
+# Legacy English business-content URLs
+# ==================================================
+
+/en/social-content                      /en/services/photography-for-businesses/                  301
+/en/social-content/*                    /en/services/photography-for-businesses/                  301
+
+
+# ==================================================
+# Legacy English utility and portfolio URLs
+# ==================================================
+
+/en/calendar                            /en/                                                      301
+/en/pages/aiganysh                      /en/portfolio/                                            301
+/en/pages/home                          /en/                                                      301
+/en/portraiture                         /en/portfolio/                                            301
+/en/portraiture/*                       /en/portfolio/                                            301
+
+
+# ==================================================
+# Renamed English service URLs
+# ==================================================
+
+/en/services/artistic-car-photography-budapest/                 /en/services/car-photoshoot-budapest/                        301
+/en/services/automotive-portrait-photography-budapest/          /en/services/car-portrait-photography-budapest/              301
+/en/services/business-car-photography-budapest/                 /en/services/commercial-automotive-photography-budapest/     301
+/en/services/best-friend-portrait-photography-budapest/         /en/services/friendship-photography-budapest/                301
+/en/services/couple-portrait-photography-budapest/              /en/services/couples-portrait-photography-budapest/          301
+/en/services/engagement-portrait-photography-budapest/          /en/services/engagement-photography-budapest/                301
+/en/services/social-media-content-creation/                     /en/services/photography-for-businesses/                     301
+
+
+# ==================================================
+# Legacy tag and collection URLs
+# ==================================================
+
+/en/tags/*                              /en/blog/                                                 301
+/hu/tags/*                              /hu/blog/                                                 301
+/tags/*                                 /hu/blog/                                                 301
+/hu/galeriak/*                          /hu/portfolio/                                            301
+/hu/portre/*                            /hu/portfolio/                                            301
+
+
+# ===============================
+# Language-specific 404 fallbacks
+# ===============================
+
+/en/*                                   /en/404.html                                              404
+/hu/*                                   /hu/404.html                                              404
+/*                                      /hu/404.html                                              404
