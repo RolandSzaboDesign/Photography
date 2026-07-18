@@ -41,6 +41,7 @@ module.exports = {
 				"Szabó Roland",
 			],
 			url: "https://rolandszabo.photo/",
+			logo: "https://rolandszabo.photo/assets/images/home/roland.webp",
 			email: "hi@rolandszabo.photo",
 			telephone: "+36 20 591 4620",
 			sameAs: [
@@ -52,6 +53,7 @@ module.exports = {
 			name: "Szabó Roland",
 			alternateName: "Roland Szabó",
 			url: "https://rolandszabo.photo/hu/rolam/",
+			image: "https://rolandszabo.photo/assets/images/home/roland.webp",
 			email: "hi@rolandszabo.photo",
 			telephone: "+36 20 591 4620",
 			sameAs: [
@@ -77,6 +79,8 @@ module.exports = {
 
 		schema: {
 			personJobTitle: "Photographer",
+			personUrl: "https://rolandszabo.photo/en/about/",
+			organizationDescription: "Portrait, automotive and event photography in Budapest, with a relaxed and guided experience.",
 		},
 
 		brand: {
@@ -95,6 +99,7 @@ module.exports = {
 			nextLinks: "More pages",
 			pageNavigation: "On-page navigation",
 			lastUpdated: "Last updated:",
+			opensNewTab: "Opens in a new tab",
 		},
 
 		forms: {
@@ -256,6 +261,8 @@ module.exports = {
 
 		schema: {
 			personJobTitle: "Fotós",
+			organizationDescription: "Portré-, autó- és eseményfotózás Budapesten, nyugodt és vezetett fotózási élménnyel.",
+			personUrl: "https://rolandszabo.photo/hu/rolam/",
 		},
 
 		brand: {
@@ -274,6 +281,7 @@ module.exports = {
 			nextLinks: "További oldalak",
 			pageNavigation: "Oldalon belüli navigáció",
 			lastUpdated: "Utolsó frissítés:",
+			opensNewTab: "Új lapon nyílik",
 		},
 
 		forms: {

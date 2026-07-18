@@ -30,8 +30,9 @@
 		</div>
 	</div>
 
-	<div class="review-card__rating" aria-label="{{ reviewLabels.ratingLabel }}">
+	<div class="review-card__rating">
 		<span aria-hidden="true">★★★★★</span>
+		<span class="sr-only">{{ reviewLabels.ratingLabel }}</span>
 	</div>
 
 	<blockquote class="review-card__quote">
@@ -39,6 +40,9 @@
 	</blockquote>
 
 	{% if review.googleURL %}
-		<a class="review-card__source" href="{{ review.googleURL }}" target="_blank" rel="noopener noreferrer">{{ reviewLabels.sourceLabel }} <span aria-hidden="true">↗</span></a>
+		<a class="review-card__source" href="{{ review.googleURL }}" target="_blank" rel="noopener noreferrer">{{ reviewLabels.sourceLabel }}
+			<span aria-hidden="true">↗</span>
+			<span class="sr-only">{{ site[locale].accessibility.opensNewTab }}</span>
+		</a>
 	{% endif %}
 </article>

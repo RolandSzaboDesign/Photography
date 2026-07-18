@@ -14,7 +14,9 @@
 					"@id": {{ organizationId | jsonLd }},
 					"name": {{ site.schema.organization.name | jsonLd }},
 					"alternateName": {{ site.schema.organization.alternateName | jsonLd }},
+					"description": {{ site.schema.organization.description | jsonLd }},
 					"url": {{ site.schema.organization.url | jsonLd }},
+					"logo": {{ site.schema.organization.logo | jsonLd }},
 					"email": {{ site.schema.organization.email | jsonLd }},
 					"telephone": {{ site.schema.organization.telephone | jsonLd }},
 					"sameAs": {{ site.schema.organization.sameAs | jsonLd }},
@@ -58,7 +60,8 @@
 				"@id": {{ personId | jsonLd }},
 				"name": {{ site.schema.person.name | jsonLd }},
 				"alternateName": {{ site.schema.person.alternateName | jsonLd }},
-				"url": {{ site.schema.person.url | jsonLd }},
+				"url": {{ canonicalUrl | jsonLd }},
+				"image": {{ site.schema.person.image | jsonLd }},
 				"jobTitle": {{ lang.schema.personJobTitle | jsonLd }},
 				"email": {{ site.schema.person.email | jsonLd }},
 				"telephone": {{ site.schema.person.telephone | jsonLd }},
@@ -67,6 +70,33 @@
 					"@id": {{ organizationId | jsonLd }}
 				}
 			}
+		}
+	</script>
+{% endif %}
+
+
+{% if structuredData == "service" %}
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Service",
+			"@id": {{ canonicalUrl | append: "#service" | jsonLd }},
+			"url": {{ canonicalUrl | jsonLd }},
+			"name": {{ title | jsonLd }},
+			"description": {{ metaDescription | jsonLd }},
+			"inLanguage": {{ lang.languageTag | jsonLd }},
+			"serviceType": {{ serviceType | default: title | jsonLd }},
+			"provider": {
+				"@type": "Organization",
+				"@id": {{ organizationId | jsonLd }},
+				"name": {{ site.schema.organization.name | jsonLd }},
+				"url": {{ site.schema.organization.url | jsonLd }}
+			},
+			"areaServed": {
+				"@type": "City",
+				"name": "Budapest"
+			}{% if og_image or image %},
+			"image": {{ socialImageUrl | jsonLd }}{% endif %}
 		}
 	</script>
 {% endif %}
@@ -95,7 +125,8 @@
 				"@id": {{ personId | jsonLd }},
 				"name": {{ site.schema.person.name | jsonLd }},
 				"alternateName": {{ site.schema.person.alternateName | jsonLd }},
-				"url": {{ site.schema.person.url | jsonLd }}
+				"url": {{ lang.schema.personUrl | jsonLd }},
+				"sameAs": {{ site.schema.person.sameAs | jsonLd }}
 			},
 			"publisher": {
 				"@type": "Organization",
