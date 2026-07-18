@@ -84,7 +84,6 @@
 			"url": {{ canonicalUrl | jsonLd }},
 			"name": {{ title | jsonLd }},
 			"description": {{ metaDescription | jsonLd }},
-			"inLanguage": {{ lang.languageTag | jsonLd }},
 			"serviceType": {{ serviceType | default: title | jsonLd }},
 			"provider": {
 				"@type": "Organization",
