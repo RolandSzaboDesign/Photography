@@ -4,7 +4,7 @@
 		"build": "npx @11ty/eleventy && node generate-critical.mjs"
 	},
 	"dependencies": {
-		"@11ty/eleventy": "^2.0.1",
+		"@11ty/eleventy": "^3.1.6",
 		"critical": "^7.2.1",
 		"fast-glob": "^3.3.3"
 	},
@@ -12,4 +12,3 @@
 		"node": ">=18"
 	}
 }
-
