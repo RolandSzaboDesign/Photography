@@ -285,7 +285,7 @@ module.exports = {
 		},
 
 		forms: {
-			successPath: "/hu/koszonjuk/",
+			successPath: "/hu/koszonom/",
 			honeypotLabel: "Ezt a mezőt hagyd üresen:",
 			privacyText: "Az űrlapon megadott adatokat kizárólag a kapcsolatfelvételhez használom.",
 			privacyLink: "Adatvédelmi tájékoztató",
