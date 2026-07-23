@@ -1523,6 +1523,46 @@ strong {
 	gap: 1.25rem;
 }
 
+.services-section__all-link {
+	display: inline-flex;
+	gap: .5rem;
+	align-items: center;
+	width: fit-content;
+	margin-top: 2rem;
+	font-weight: 700;
+	color: var(--color-ink);
+	border-bottom: 1px solid var(--color-line);
+	transition:
+		color var(--transition),
+		border-color var(--transition);
+}
+
+.services-section__all-link span {
+	transition: transform var(--transition);
+}
+
+.services-section__all-link:hover,
+.services-section__all-link:focus {
+	color: var(--color-accent);
+	border-color: var(--color-accent);
+}
+
+.services-section__all-link:hover span,
+.services-section__all-link:focus span {
+	transform: translateX(.25rem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.services-section__all-link span {
+		transition: none;
+	}
+
+	.services-section__all-link:hover span,
+	.services-section__all-link:focus span {
+		transform: none;
+	}
+}
+
 .about-strip {
 	background: var(--color-surface);
 }
@@ -2222,7 +2262,7 @@ strong {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-width: 9rem;
+	min-width: 7rem;
 	min-height: 5rem;
 	padding: 1rem 1.5rem;
 	background: var(--color-surface);
@@ -2231,7 +2271,7 @@ strong {
 
 .about-client-logo img {
 	width: auto;
-	max-width: 9rem;
+	max-width: 7rem;
 	max-height: 4rem;
 	object-fit: contain;
 }

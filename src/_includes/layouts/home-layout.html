@@ -73,6 +73,13 @@ layout: layouts/base.html
 					</li>
 				{% endfor %}
 			</ul>
+
+			{% if services.allLinkLabel and services.allLinkHref %}
+				<a class="services-section__all-link" href="{{ services.allLinkHref }}">
+					{{ services.allLinkLabel }}
+					<span aria-hidden="true">→</span>
+				</a>
+			{% endif %}
 		</div>
 	</section>
 
